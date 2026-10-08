@@ -1,0 +1,16 @@
+{
+  "name": "toy-shared-sums",
+  "inputs": 3,
+  "circuits": [
+    {
+      "name": "left-first",
+      "gates": [[0, 1, 1, 1], [3, 1, 2, 1], [3, 1, 2, -1]],
+      "outputs": [[4, 1], [5, 1]]
+    },
+    {
+      "name": "right-first",
+      "gates": [[1, 1, 2, 1], [0, 1, 3, 1], [1, 1, 2, -1], [0, -1, 5, -1]],
+      "outputs": [[4, 1], [6, -1]]
+    }
+  ]
+}

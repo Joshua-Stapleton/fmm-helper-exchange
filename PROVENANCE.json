@@ -1,0 +1,41 @@
+{
+  "description": "Portable copy of original C++ exchange engine and frozen search inputs; Python wrapper refactored to remove repository dependencies.",
+  "files": {
+    "data/u.json": {
+      "pool": "portfolio/u_frozen_e0_s20261007/pool.json",
+      "pool_sha256": "b9b15284b42de1ac69051c76edef24d36fb7ecfbf6273d86f960b7abe209e55b",
+      "source_run": "exchanges/u_all",
+      "forms": 1091,
+      "productions": 10137
+    },
+    "data/wt.json": {
+      "pool": "portfolio/w_final_e32_s20261007/pool.json",
+      "pool_sha256": "2ea5672aeb93345d3df8d906510816a8538a3a84ca1c448c54c6a2aee71187c7",
+      "source_run": "exchanges/w_all",
+      "forms": 808,
+      "productions": 6376
+    },
+    "exchange.cpp": {
+      "source": "exchange.cpp",
+      "sha256": "4e4749467da07ee230224ff216a101518582e0a6a19e11f75ef8e88312428689",
+      "unchanged": true
+    }
+  },
+  "distance_scorer": {
+    "url": "https://github.com/dronperminov/linear-expressions-optimization/pull/6",
+    "commit": "59794adaeac28a8b9b5477917ca6b2be2df40085",
+    "note": "Donor source; upstream code not included in this archive."
+  },
+  "decomposition": {
+    "source_repo": "https://github.com/dronperminov/FastMatrixMultiplication",
+    "source_commit": "64f58a5e40806bc47847b11dd8aceec043fa895d",
+    "source_file": "schemes/results/addition_reduced_ZT/6x6x6_m153_cr655_fv329_cn2182_ZT_reduced.json",
+    "source_sha256": "1fcee02b8d2d456feed1ba912083f8f46eeb8d9241fb669c7bf4db05fb6d22f9"
+  },
+  "publication": {
+    "date": "2026-10-08",
+    "repository": "https://github.com/Joshua-Stapleton/fmm-helper-exchange",
+    "bundle_sha256": "441b9d4c03f5e95e9fefba5e1ce87acf64d289e26b6f4bc0349d4f3c50591e8e",
+    "certificate_note": "Certificate provenance paths made relative; private-chat comparison removed; mathematical data and literal programs unchanged."
+  }
+}
