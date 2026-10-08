@@ -1,0 +1,19 @@
+{
+  "baseline_signed_cost": {
+    "additions": 44,
+    "scalar_multiplications": 0,
+    "signed_binary": true
+  },
+  "diagnostic": "EXHAUSTED_3_FOR_2 closures=3328143 pairs=66 triples=220 seconds=0.834335",
+  "forms": 328,
+  "incumbent_helpers": 12,
+  "positive_control_cost": {
+    "additions": 44,
+    "scalar_multiplications": 0,
+    "signed_binary": true
+  },
+  "productions": 4169,
+  "scope": "Fixed basis; finite exact signed form pool; remove at most 3 incumbent helpers, add fewer than removed; signs are free in search only.",
+  "seconds": 1.2887939168140292,
+  "tag": "kernel_L_exchange3"
+}

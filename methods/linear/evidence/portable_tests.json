@@ -1,0 +1,93 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "check": "exact_pool",
+      "name": "5u_pool.json",
+      "incumbent": 88,
+      "witness": 87
+    },
+    {
+      "check": "exact_pool",
+      "name": "5v_pool.json",
+      "incumbent": 88,
+      "witness": null
+    },
+    {
+      "check": "exact_pool",
+      "name": "5w_pool.json",
+      "incumbent": 90,
+      "witness": 89
+    },
+    {
+      "check": "exact_pool",
+      "name": "6u_pool.json",
+      "incumbent": 158,
+      "witness": null
+    },
+    {
+      "check": "exact_pool",
+      "name": "6v_pool.json",
+      "incumbent": 157,
+      "witness": null
+    },
+    {
+      "check": "exact_pool",
+      "name": "6w_pool.json",
+      "incumbent": 155,
+      "witness": null
+    },
+    {
+      "check": "exact_pool",
+      "name": "toy_exchange_pool.json",
+      "incumbent": 4,
+      "witness": null
+    },
+    {
+      "check": "exact_pool",
+      "name": "toy_pool.json",
+      "incumbent": 3,
+      "witness": null
+    },
+    {
+      "check": "all_toy_helper_subsets",
+      "minimum": 3,
+      "feasible": 5
+    },
+    {
+      "check": "signed_transpose",
+      "status": "PASS"
+    },
+    {
+      "check": "reject_corrupt_production",
+      "status": "PASS"
+    },
+    {
+      "check": "cpp_search_controls",
+      "status": "PASS"
+    },
+    {
+      "check": "joint_orientation_332",
+      "status": "EXACT_SIGN_COMPENSATION_PASS"
+    },
+    {
+      "check": "independent_literal_tensor",
+      "result": {
+        "status": "PASS",
+        "split": {
+          "u": 87,
+          "v": 88,
+          "w": 157
+        },
+        "additions": 332,
+        "products": 93,
+        "scalar_total": 425,
+        "basis_change": false,
+        "unary_negations": 0,
+        "nonunit_scalars": 0,
+        "tensor_identities": 15625
+      }
+    }
+  ],
+  "environment": "Fresh external Python with OR-Tools 9.15.6755; certificate replay also passed with system stdlib Python."
+}

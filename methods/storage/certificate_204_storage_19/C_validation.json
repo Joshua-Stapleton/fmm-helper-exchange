@@ -1,0 +1,16 @@
+{
+  "C_syntax_check": {
+    "compiler": "gcc-15",
+    "flags": [
+      "-Wall",
+      "-Wextra",
+      "-std=c99",
+      "-fsyntax-only"
+    ],
+    "status": "PASS"
+  },
+  "C_native_execution": {
+    "status": "NOT_RUN",
+    "reason": "Both cc and gcc-15 native builds stopped at unaccepted Xcode license; no license or settings changed."
+  }
+}

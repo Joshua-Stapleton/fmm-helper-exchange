@@ -1,0 +1,34 @@
+{
+  "scope": "Portable publication of local exact linear-circuit methods; no claim generic ingredients are new.",
+  "source_experiment": "experiments/research_pass_20261008/linear",
+  "earlier_methods": "experiments/whatsapp_distance_20261007/linked",
+  "source_decomposition": {
+    "repo": "https://github.com/dronperminov/FastMatrixMultiplication",
+    "commit": "64f58a5e40806bc47847b11dd8aceec043fa895d",
+    "path": "schemes/results/addition_reduced_ZT/5x5x5_m93_cr383_fv160_cn843_ZT_reduced.json",
+    "sha256": "808285b8fb393d2e950ecff4ffe9881a209b6d3eff0d787e34d801a3f22293da"
+  },
+  "upstream_reducer": {
+    "repo": "https://github.com/dronperminov/linear-expressions-optimization",
+    "commit": "60272dc3cdd751ce53e43e5c021dbb6021fcbf51",
+    "source_vendored": false,
+    "credit": "Andrey Perminov; sampler adapts his public API; optimization implementation obtained separately."
+  },
+  "portable_implementation_changes": [
+    "Root exact validator reused instead of private workspace imports.",
+    "Search wrappers build temporary binaries and refuse existing output directories.",
+    "Linked-pair generator uses arbitrary-precision Python integers with degree and connected-density selection.",
+    "Reachability cuts support count/overlap objectives and optional historical cut-growth heuristic.",
+    "Whole-tensor wire orientation includes a standalone signed transposition and parity model.",
+    "Historical private filesystem prefixes sanitized to experiment-relative provenance.",
+    "Public certificate metadata sanitized, hashes rebuilt; source and literal programs unchanged."
+  ],
+  "original_certificate_zip_sha256": "b2add84b6997180ff95ecc861c4e0c7fa445a7e2a2db9af2e1af1e70566e7233",
+  "public_certificate_zip_sha256": "7342e6e4454c4404669fc6deaf1c2d526f1abc0f3b12a881c30c3b0ddd3bcc91",
+  "original_engine_sha256": {
+    "plateau.cpp": "689c89c3a41ea7cda079f001d3786b3dc856a2f9a99f228db79265366c86e7c3",
+    "beam.cpp": "2915a996072922ca4942960a58d0b23a621e8fa247ca6ca20d6f9bdb09a9ce92"
+  },
+  "upstream_methods": "CSE, vector covering, transposition, common exact DAG synthesis and local/plateau search are established ideas; witness and control claims are narrower.",
+  "publication_omissions": "No upstream reducer source/binaries, private messages, credentials, historical bulk logs, or unrelated research checkout files."
+}

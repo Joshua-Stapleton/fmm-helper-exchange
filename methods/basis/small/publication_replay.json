@@ -1,0 +1,61 @@
+{
+  "status": "PASS",
+  "date": "2026-10-08",
+  "results": {
+    "certificate_233_36": {
+      "lower_replay/result.json": {
+        "complete": true,
+        "patterns": 12,
+        "trials": 108114,
+        "valid": 98991,
+        "passes": 0,
+        "minimum": 10,
+        "histogram": {
+          "10": 807,
+          "11": 14652,
+          "12": 83532
+        }
+      },
+      "lower_replay/positive_result.json": {
+        "complete": true,
+        "patterns": 12,
+        "trials": 354,
+        "valid": 177,
+        "passes": 177,
+        "minimum": 0,
+        "histogram": {
+          "0": 12,
+          "1": 69,
+          "2": 96
+        }
+      }
+    },
+    "certificate_canonical_boundary_10": {
+      "replay/result.json": {
+        "status": "PASS",
+        "basis_subsets_total": 5005,
+        "tested_full_rank_bases_with_at_most_five_nonunits": 464,
+        "classification": {
+          "singular": 2266,
+          "5": 360,
+          "4": 96,
+          "too_many_nonunits": 2275,
+          "3": 8
+        },
+        "single_helper_cases": 16320,
+        "two_helper_assignments": 352896,
+        "two_helper_valid": 347760,
+        "hits": [],
+        "seconds": 9.048692792188376,
+        "claim": "Every basis formed from9 signed target rows costs at least6 ordinary additions, with arbitrary rational helper forms; counts ignore unary signs."
+      }
+    },
+    "certificate_small_minima": {}
+  },
+  "also_replayed": [
+    "233 exact upper tensor and literal gates",
+    "323 exact upper tensor and literal gates",
+    "224 exact upper and gauge-invariant direction lower bound",
+    "earlier233/234/234_46 complete lower and upper bounds"
+  ]
+}

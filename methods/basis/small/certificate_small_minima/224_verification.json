@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "kernel_minimum": 21,
+  "maps": {
+    "u": {
+      "target_directions": 7,
+      "dimension": 4,
+      "attained_lower_bound": 3
+    },
+    "v": {
+      "target_directions": 14,
+      "dimension": 8,
+      "attained_lower_bound": 6
+    },
+    "w": {
+      "target_directions": 14,
+      "dimension": 8,
+      "attained_lower_bound": 12
+    }
+  },
+  "scope": "Selectedrank14decomposition; arbitrary rationalentrybases andtermgauges; directionbound alsoholds withfree scalarweights."
+}

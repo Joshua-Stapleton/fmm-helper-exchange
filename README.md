@@ -1,135 +1,52 @@
-# Exact helper exchanges for addition circuits
+# Exact helper exchange and matrix-multiplication research methods
 
-Research scripts by Joshua Stapleton.
+Code, worked examples, exact certificates and scoped lower-bound proofs from Joshua Stapleton's matrix-multiplication research. Existing decompositions and upstream reducers are credited separately; this repository does not claim their discovery or a generally optimal SLP minimizer.
 
-[Download the standalone bundle](downloads/fmm_helper_exchange_scripts.zip)
-(115 KB; scripts, examples, and exact certificate).
+[Download the complete methods bundle](downloads/fmm_research_methods.zip) · [Original compact helper-exchange bundle](downloads/fmm_helper_exchange_scripts.zip) · [Attribution and model conventions](docs/METHODS.md)
 
-This contains the C++ search that reduced the 6x6 rank-153 scheme's U circuit
-from 160 to 158 signed additions and its transposed output circuit W^T from
-156 to 155. With V unchanged at 157, transposing the output circuit back gives
-158 + 157 + (155 + 153 - 36) = **587 additions/subtractions**.
+## Start here
 
-The separately included multiplication certificate verifies the final literal
-programs in ordinary coordinates: 587 additions and 153 products, without basis
-conversions, unary negations or nonunit scalar operations.
-
-## Quick start
-
-Python 3.10+; the quick verification needs only its standard library.
-Run these commands from the extracted `helper_exchange` directory:
+Python 3.10+ is sufficient for the standard-library checks. C++17 is needed for native searches/proof enumeration. Optional solver-backed methods use `requirements-search.txt` (Python3.11+ for the pinned environment).
 
 ```sh
-python3 -I -B run.py --example wt --verify-only
-python3 -I -B run.py --example u --verify-only
+python3 -B verify_release.py
+python3 -B run.py --example wt --verify-only
+python3 -B methods/linear/certificate_555_332/verify.py
 ```
 
-These replay the saved witnesses and validate every supplied production exactly;
-they do not rerun the search. Expected signed counts: W^T 156 -> 155; U 160 -> 158.
+`verify_release.py` checks file hashes and runs portable controls plus upper-bound certificates in a temporary copy. Use `--full` to rerun the exhaustive lower-bound/structural proofs; `--solvers` additionally requires the optional dependencies. Tests never need access to the original research workspace. Full proof checks take longer than circuit replay.
 
-To rerun the deterministic search, install a C++17 compiler accessible as `c++`
-(Clang or GCC), then run:
+## Method map
 
-```sh
-python3 -I -B run.py --example wt --seconds 180 --out results/wt
-python3 -I -B run.py --example u --seconds 300 --out results/u
-```
+| Area | Implementations and explanation | What it contributes |
+|---|---|---|
+| Helper exchange | [Original search](docs/helper-exchange.md), [`exchange.cpp`](exchange.cpp), [`make_pool.py`](make_pool.py) | Pool reusable exact forms; reconnect the entire reachable circuit after linked replacements |
+| Larger and equal-cost search | [Linear methods](methods/linear/README.md) | Population of equal-cost helper sets, larger exchange beams, linked-pair generation, necessary reachability cuts, whole-tensor sign orientation |
+| Intelligent transformations | [Transformation tools](methods/transforms/README.md) | Exact sparse inverses, ternarity screens, both-order endpoint checks, signed-column classes, matching-based sparsity selection and symmetry transfer |
+| Joint circuit/basis search | [Circuit tools](methods/circuits/README.md) | Exact SLP replay/transposition, acyclic CP-SAT selection, jointly chosen roots, linked conversion/kernel search, historical helper transport |
+| Exact addition lower bounds | [Basis proofs](methods/basis/README.md) | Finite complete rational helper classifications, exhaustive root closure, canonical boundary bounds and a coordinated transformation grid |
+| Rank/decomposition restrictions | [Structural methods](methods/structure/README.md), [span moves](methods/decomposition/README.md) | Rational pair-span rigidity, finite-field rank-one enumeration and exact coordinated four-term moves |
+| Persistent experiments | [Research queue](methods/orchestration/README.md) | Exact-map caching, reducer/seed provenance, leases, verification and correctly separated portfolios |
+| Storage and recursion | [Storage](methods/storage/README.md), [analysis](methods/analysis/README.md) | Fixed-DAG buffer scheduling, conversion-inclusive recursion counts and rational roundoff envelopes |
 
-The wrapper compiles the included engine and checks the resulting circuit using
-exact integers. Each output directory must be new. The original research runs
-took approximately 38 seconds for W^T and 84 seconds for U; this is hardware
-dependent. A time limit is not an optimality result.
+## Representative certificates
 
-To verify the complete multiplication algorithm, extract
-`certificate_666_587.zip` into a separate directory and run there:
+| Shape / products | Certified arithmetic | Coordinates and scope |
+|---|---|---|
+| 5×5 / 93 | **332 additions = 87+88+157**; 425 operations with products | Ordinary coordinates, no conversions or hidden negations/scalings; [certificate](methods/linear/certificate_555_332/) |
+| 6×6 / 153 | **587 additions = 158+157+272**; 740 with products | Ordinary coordinates; [certificate ZIP](certificate_666_587.zip) |
+| 4×4 / 48 | **169 kernel additions** + 39 boundary additions + 4 halvings | Alternative basis; 260 one-level operations including products; [certificate](methods/basis/certificate_4x4_169_43/) |
+| 4×4 / 48 | **204 linear operations** = 200 additions + 4 halvings | Ordinary coordinates; 252 with products; [allocation certificate](methods/storage/certificate_204_storage_19/) |
+| 8×8 / 336 | **1250 kernel additions** + 268 boundary operations | Mixed4×4/2×2 composition; 1854 one-level operations with products; [certificate](certificates/certificate_8x8_1250_268/) |
+| 2×3×3 / 15 and 3×2×3 / 15 | **36+10** and **33+10** additions, kernel+boundary | Fixed-source canonical constructions and scoped matching bounds; [small schemes](methods/basis/small/README.md) |
+| 3×3 / 23 | **51 minimum kernel additions** in the stated models | Fixed-source proof plus specified784-member decomposition-changing grid; [proofs](methods/basis/README.md) |
 
-```sh
-python3 -I -B verify.py
-```
+These are attained counts and precisely delimited computational proofs, not global records, measured hardware speedups, or new tensor ranks/exponents. The 5×5 input count87 matches Perminov's previously reported count. Copies/signs are free in several search/lower-bound models; strict final algorithm certificates explicitly check literal signs, scalings and conversions.
 
-It checks all 46,656 tensor coefficients and both the JSON and literal programs.
-The certificate is included unchanged, with its own manifest and provenance.
+A useful controlled result: the 5×5 U search reached87 from88 using a different equal-cost helper population after the same enriched pool's entire three-for-two neighborhood failed. Its W improvement, however, also follows from a simple two-for-one exchange after pool enrichment. The evidence supports these specific mechanisms, not superiority over every reducer.
 
-## Method
+## Reproduction and provenance
 
-1. Pool exact intermediate coefficient vectors from several valid SLPs for the
-   same linear map. Identify a vector with its negative, but preserve magnitude.
-2. Record exact binary productions `form[o] = sa*form[a] + sb*form[b]`, with
-   `sa,sb` in {-1,+1}. Inputs and required output forms remain available to use;
-   other forms are optional helpers.
-3. Remove one, two or three incumbent helpers, and insert at most two pool forms.
-   Starting at the inputs, repeatedly construct any allowed form whose two
-   parents are ready. After inserting a helper, recompute this closure.
-4. If all targets are reached, reconstruct an acyclic SLP, prune unused gates,
-   and check every resulting output coefficient exactly.
+Each method directory supplies its inputs, source identifiers, commands and limitations. `PUBLICATION.json` maps the release to original experiments; `SHA256SUMS` covers the published files. [Proof and search details](docs/METHODS.md) distinguish complete enumerations from beams, finite-pool infeasibility, timeouts and heuristic failures.
 
-This allows the dependencies between retained forms to change. The first newly
-inserted helper must be constructible from the current closure; the second may
-depend on the first. This avoids testing impossible insertion orders.
-
-In the saved W^T example, removing helpers 117,173,178 and adding 396,533 saves
-one addition. Helper 396 came from CSE runs costing 198/199; helper 533 came from
-a distance-scorer run costing 158. Neither insertion alone repairs that exchange.
-In U, removing 65,146,184 and adding 367,373 also makes a fourth old helper
-unnecessary, saving two additions after pruning.
-
-## Try other donor programs
-
-`make_pool.py` builds a pool from a portable JSON representation of donor SLPs:
-
-```sh
-python3 -I -B make_pool.py data/toy_donors.json toy_pool.json
-python3 -I -B run.py --data toy_pool.json --verify-only
-python3 -I -B run.py --data toy_pool.json --seconds 10 --out results/toy
-```
-
-Input schema:
-
-```json
-{
-  "inputs": 3,
-  "circuits": [
-    {
-      "name": "example",
-      "gates": [[0, 1, 1, 1], [3, 1, 2, -1]],
-      "outputs": [[4, 1]]
-    }
-  ]
-}
-```
-
-Input wires are numbered 0 through `inputs-1`; gate k creates wire `inputs+k`.
-Each gate `[a,sa,b,sb]` computes `sa*wire[a] + sb*wire[b]`. An output `[v,s]`
-means `s*wire[v]`. Signs must be -1 or +1, all donors must compute the same
-ordered outputs exactly, and zero forms are unsupported. The example above
-computes `(x0+x1)-x2`. The toy file includes multiple donors for another small map.
-
-The builder picks the shortest live donor as incumbent, canonicalizes signs,
-and enumerates pair productions. Its work grows quadratically in the number of
-pooled forms, times their dimension. The supplied U/W^T pools preserve the
-original research ordering; they were not regenerated with this utility.
-
-## Files and scope
-
-- `exchange.cpp`: unchanged successful C++ search engine.
-- `run.py`: portable wrapper and exact replay, replacing repository-specific imports.
-- `make_pool.py`: portable donor-to-pool builder.
-- `data/u.json`, `data/wt.json`: frozen pools, target matrices, incumbents and witnesses.
-- `data/toy_donors.json`: small input-format example.
-- `certificate_666_587.zip`: complete ordinary-coordinate multiplication certificate.
-- `PROVENANCE.json`, `SHA256SUMS`: source identifiers and package integrity hashes.
-
-The generic search uses **free signed wires**: exported signed programs and
-`additions_signed` do not promise zero separately charged negations. The full
-587 certificate includes the separate joint sign handling and literal programs
-that establish its strict operation count. The wrapper does not automate that
-whole-tensor sign-handling step for arbitrary new matrix multiplication schemes.
-
-This is a fixed finite-pool local search, not a proof of globally minimal SLPs,
-a general novelty claim, or a measured matrix-multiplication runtime improvement.
-`EXHAUSTED_3_FOR_2` concerns only this pool and exchange neighborhood.
-
-The decomposition is Andrey Perminov's; the donor pool combines earlier reducers
-with CSE and his new distance scorer. See `PROVENANCE.json` and the certificate
-for pinned sources. This archive does not bundle the upstream reducer or attempt
-to regenerate all 81 donor runs.
+The distribution contains readable implementations, representative exact data, and standalone certificates. It excludes private correspondence, raw browser/chat exports, credentials, local binaries, upstream dependency checkouts and duplicate campaign checkpoints. Upstream PLinOpt and Perminov optimizers remain external, with pinned attribution. Existing upstream license notices are retained; see [NOTICE](NOTICE.md).

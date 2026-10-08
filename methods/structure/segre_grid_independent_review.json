@@ -1,0 +1,34 @@
+{
+  "status": "PASS",
+  "independent_of_sibling_verifier": true,
+  "exact_grid_completeness": {
+    "directions": 8,
+    "bases": 28,
+    "P_Q_pairs": 784
+  },
+  "all_saved_factors_match_independent_tensor_preserving_constructor": true,
+  "all_signatures_match_independent_integer_relations": true,
+  "nonunit_proportional_target_pairs": {
+    "u": 24,
+    "v": 0,
+    "w": 0
+  },
+  "floor_histogram": {
+    "51": 27,
+    "52": 757
+  },
+  "decoder_Q_cases": 28,
+  "helper_count_histogram": {
+    "363": 4,
+    "360": 2,
+    "358": 1,
+    "367": 4,
+    "365": 4,
+    "370": 11,
+    "362": 2
+  },
+  "root_helper_cases": 3013370360,
+  "distinct_native_closures_reviewed": 284851988,
+  "native_algorithm_review": "Closure recurrence, all helper types, and both root cases reviewed; no independent native exhaustive rerun in this audit",
+  "scope": "Finite exact784 transforms; separate signed addition/subtraction SLPs, arbitrary rational coordinate bases, fixed term scales, free copies/signs, paid conversions excluded"
+}

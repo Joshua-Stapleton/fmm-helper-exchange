@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "date": "2026-10-08",
+  "batches": 1000,
+  "entries_per_batch": 13,
+  "addition_passes": 90,
+  "auxiliary_blocks": 3,
+  "destination_blocks": 16,
+  "command": "cc -O2 -Wall -Wextra -std=c99 test_c.c -o test_c; ./test_c",
+  "scope": "Correctness only; not measured runtime."
+}

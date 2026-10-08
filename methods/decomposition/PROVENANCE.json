@@ -1,0 +1,7 @@
+{
+  "sources": {
+    "experiments/focused_research_20261004/small_schemes/pair_span_moves.py": "991fbb9084b7d284cacf0e80c85a1cfeb6139c81201836d1cb7bbbf05e6dfb95",
+    "experiments/focused_research_20261004/new_decompositions/four_target_intersections.py": "eb73d17067baae4461f68835638b858751bfe37ee3f83982e226e40c4fc5d921"
+  },
+  "changes": "Portable exact generic functions; caller supplies candidates; no corpus-specific NumPy search. Exact control examples are new."
+}

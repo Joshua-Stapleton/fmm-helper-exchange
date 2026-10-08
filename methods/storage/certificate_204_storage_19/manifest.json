@@ -1,0 +1,30 @@
+{
+  "files": {
+    "README.md": "dbb084bbe73e77e6dc82b457e664361a6f4515fe2c9f29b9a822b75eb40b2f17",
+    "verify.py": "e6d648e6c9e305c79466276e3b407bb1f9c216da8fdf803d5ed9984d7a0d1d65",
+    "strict_replay.py": "5d1690e05057f11e6a7328aa759258e08837d37b7f6a310e7d86be8a4d9726e2",
+    "P_scheduled.c": "4548e3b9e5c556a89a48532df3e2879676b11e7a76fbf302b5802b2a1e7f4ccd",
+    "test_c.c": "5f616c88c3c9f97cf940acb40056919bf82d27387f6ba1ab94327f0b03bf03eb",
+    "summary.json": "9b2d45cdf2488849e3b9989d8bfa86de6b10567e88f54fbec4c411ebbfa5618d",
+    "verification.json": "5ed9a384aa41dd40af5ded4bc2c0f5bbaef684e1c701943d0416883a1ebf8d62",
+    "joint_input_certificate.json": "048d1185ec5a4c7476a2e4e1523ffc13c615e653b4a246f334c9e15ad553712a",
+    "L.sms": "acd034de1ccd02570d41b098827666f062346eccc8eceea9b352e292391d05fa",
+    "L_original.slp": "b021b1d260e9b01e6970c1c704684aa8d5fb7fb3d9ab7ac23e361786b129c49d",
+    "L_scheduled.slp": "4d7763bf0cad304d350ba29596777113a79a17f0deb19239279f9a5dff56fe01",
+    "L_certificate.json": "66fc941faa10e3af4ebb69cc82e582f3720290933068fad39e43afd94b284f32",
+    "R.sms": "bde98dc3051e8109bf1c2de5c30dbd671345d39acd6c5c2d1cc3c7c1256777b8",
+    "R_original.slp": "3a152ea5e41f2ff04f31357aca7fc08000c0a0733b1acda0207e67bf6c4cf434",
+    "R_scheduled.slp": "fcf7acf04ee094052ce00837dcc99b06675390ab77b0dde84add50ecaa15b9de",
+    "R_certificate.json": "f4380eb7495b4a7c8aa0dd8dfb9dc0f9c0b8bb6823ba5fbdce1356cee7a3c618",
+    "P.sms": "fcd97838986bf12d7704723335a1cc72effe337dfede46ed9558ed094d772a0d",
+    "P_original.slp": "9e0ffdf3bfebe86f6a3cd427ba469d59d67d82f4f897fe0cab6366c1f402cefd",
+    "P_scheduled.slp": "692267a85ae68aa51cc146a4fca836edca24e8d343a58cae072665ce3fbb7ebd",
+    "P_certificate.json": "a2e5e0d9be48e4e57161edbbd77064ab91cea5d079ae6d26a4c4603a1353184f",
+    "C_validation.json": "cda1a36a6fc6f8d4117a873809f9b7711fd26f917a86ed0ba4574105664120b0"
+  },
+  "source_snapshot": "outputs/gitlab-issue-fixes-20260929/baseline/Data/4x4x4_48_204_alt_sqr_174",
+  "linear_operations": 204,
+  "P_arithmetic_operations": 90,
+  "P_slots_including_destinations": 19,
+  "P_auxiliary_blocks_excluding_16_destinations": 3
+}

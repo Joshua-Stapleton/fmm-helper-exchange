@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "basis_subsets_total": 5005,
+  "tested_full_rank_bases_with_at_most_five_nonunits": 464,
+  "classification": {
+    "singular": 2266,
+    "5": 360,
+    "4": 96,
+    "too_many_nonunits": 2275,
+    "3": 8
+  },
+  "single_helper_cases": 16320,
+  "two_helper_assignments": 352896,
+  "two_helper_valid": 347760,
+  "hits": [],
+  "seconds": 3.9605453750118613,
+  "claim": "Every basis formed from9 signed target rows costs at least6 ordinary additions, with arbitrary rational helper forms; counts ignore unary signs."
+}

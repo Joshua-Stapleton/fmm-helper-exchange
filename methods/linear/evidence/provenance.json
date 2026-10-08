@@ -1,0 +1,11 @@
+{
+  "upstream_repo": "https://github.com/dronperminov/linear-expressions-optimization",
+  "upstream_commit": "60272dc3cdd751ce53e43e5c021dbb6021fcbf51",
+  "previous_commit": "59794adaeac28a8b9b5477917ca6b2be2df40085",
+  "catalogue_commit": "64f58a5e40806bc47847b11dd8aceec043fa895d",
+  "diff_scope": "HashSet sentinel/collision fixes only; scorer and inliner unchanged",
+  "archive_sha256": "ce1724e51be6dd7c37d5073d4077299078c91507a7ed306919e0ed3e34c5dfe7",
+  "driver_sha256": "d1a3c9f6118b4070f2f4e739dfab2495e3215da9f434b6c3fc28b59b0c554a0e",
+  "binary_sha256": "d6ef3b684ee2c4184b114048bda6e3e5cc209e3a3aad0513651846e65107f57c",
+  "five_by_five_runs": 117
+}

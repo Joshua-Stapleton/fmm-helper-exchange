@@ -1,0 +1,21 @@
+{
+  "date": "2026-10-08",
+  "author_of_research_and_adaptations": "Joshua Stapleton",
+  "sources": [
+    "experiments/research_pass_20261008/structure"
+  ],
+  "public_adaptations": [
+    "Excluded build products, caches, correspondence and archive-dependent donor collectors.",
+    "Replaced private archive entry points with included frozen inputs and portable replay wrappers.",
+    "Changed absolute provenance paths to repository-relative historical paths; regenerated affected manifests.",
+    "Added model-scoped method explanations and publication replay evidence."
+  ],
+  "coefficient_policy": "Exact mathematical source matrices, circuit arithmetic and proof engines retained; existing decompositions are attributed separately from optimization/proof work.",
+  "priority": "No general SLP optimality or literature-priority claim.",
+  "rank49_upstream": {
+    "url": "https://github.com/dronperminov/FastMatrixMultiplication/blob/f200e684283c0d1a15f0efbc548439ba72fb8382/schemes/results/addition_reduced_ZT/4x4x4_m49_cr159_fv100_cn474_ZT_reduced.json",
+    "comparison": "All three rational factor matrices match the pinned original-coordinate 156-addition certificate; the structural source converts W from trace-paired column-major outputs to row-major.",
+    "intermediate_certificate": "experiments/focused_research_20261002/four_by_four/certificate_rank49_156",
+    "do_not_infer": "No claim that this source is a rank7 tensor-square composition."
+  }
+}

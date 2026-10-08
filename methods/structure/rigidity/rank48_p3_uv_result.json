@@ -1,0 +1,40 @@
+{
+  "tested_projective_first_factors": 21523360,
+  "rank_one_points": 48,
+  "nonempty_first_fibers": 48,
+  "elapsed_seconds": 109.778,
+  "kernel_dimension_histogram": [
+    21523312,
+    48,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "tag": "rank48_p3_uv",
+  "prime": 3,
+  "axes": "uv",
+  "shape": [
+    16,
+    16
+  ],
+  "source_terms": 48,
+  "span_dimension": 48,
+  "old_rank_one_points": 48,
+  "new_rank_one_points": 0,
+  "source_sha256": "b5b5973066cd7145d730c86b63418667588205a888b389417cd7b165643036ca",
+  "independent_exact_hit_membership": "PASS",
+  "all_original_points_found": true,
+  "complete_projective_first_factor_domain": 21523360
+}

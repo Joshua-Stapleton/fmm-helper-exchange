@@ -1,0 +1,17 @@
+# Fixed-decomposition signed-addition minimum36
+
+Work over Q. Copies and signs are free; each binary addition/subtraction costs one. Coordinate bases may be arbitrary invertible rational matrices. The target scalings are fixed, up to signs. Nonunit scalar gates and arbitrary projective term gauges are not included.
+
+The U and W-forward matrices each have 15 distinct signed target forms in dimension 6. A circuit starts with 6 input forms and creates at most one new signed form per binary gate, so each requires at least 9 gates. The V matrix has 15 targets in dimension 9. We rule out 8 gates for V, implying at least 9.
+
+Suppose such an 8-gate V circuit exists. After removing zero/redundant signed wires, its 9 inputs and at most 8 computed wires contain the 15 target forms and at most 2 helper forms. All targets span the physical9-dimensional space. In the full formal wire space, the actual acyclic gate relations are independent and span the kernel of the map sending each wire symbol to its physical rational vector. Projection of that kernel onto the helper coordinates is surjective, because every helper is a rational combination of targets. Therefore two actual gate equations can be selected with an invertible 2x2 matrix A on the helper variables, giving H=A^{-1}R.
+
+Up to row signs, each nonzero row of A is one of e_i,2e_i,e_i+/-e_j,2e_i+/-e_j. Their RHS domains are respectively a signed sum/difference of two target forms, one signed target, one signed target, and zero. The last type comes from a gate using only the two helper wires, one twice. Selecting all invertible pairs of these rows, then quotienting by helper permutations/signs and row order/signs, gives 12 active classes. Classes with no nonzero RHS yield only zero helpers and can be omitted. Thus the finite enumeration includes every possible rational helper pair; no magnitude or denominator cutoff is imposed.
+
+Cases with fewer than two helpers can be padded by unused nonzero target-pair sums. There are more than two such signed-distinct forms outside the target set. Adding them only adds gate relations and cannot increase the dimension of the target image in the formal quotient. Thus excluding every two-helper extension also excludes smaller helper counts.
+
+For each rational pair the verifier forms every relation x+/-y=z among targets and helpers, including repeated wires. Wire labels are treated over F2 only to test formal incidence; physical tensor coefficients remain rational. Let R_all be the rank of these formal relations and R_H the rank of their helper-coordinate projections. The target image in the quotient has dimension q + R_H - R_all. An actual circuit generated from 9 root wires would force this value to be at most9. Every enumerated pair has value at least 10. Therefore V cannot have8 gates.
+
+We obtain forward lower bounds9+9+9. Transposing the rank15-to-six-output decoder adds15-6=9 to the W-forward cost. The complete233 lower bound is9+9+9+9=36. The exact36-addition witness attains it. Cyclic rotation to323 changes the decoder offset to15-9=6, giving the paired fixed-decomposition lower bound33.
+
+The upper verifiers check every basis and circuit identity and all 324 tensor coefficients directly. The two-helper enumeration was also replayed by an independently written generic relation finder, with identical counts and histogram. This is a computer-assisted proof, not a proof-assistant formalization or a dimension-wide lower bound.

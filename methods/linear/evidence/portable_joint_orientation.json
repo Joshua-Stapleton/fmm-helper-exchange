@@ -1,0 +1,9 @@
+{
+  "status": "EXACT_SIGN_COMPENSATION_PASS",
+  "split": [
+    87,
+    88,
+    157
+  ],
+  "scope": "Original tensor preserved by compensated product signs. Verify the original tensor separately."
+}

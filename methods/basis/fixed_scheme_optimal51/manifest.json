@@ -1,0 +1,13 @@
+{
+  "source_repository_path": "experiments/arxiv_note_20260911/anc/333.json",
+  "sha256": {
+    "verify_source.py": "759ce33f3852482137ea0184bee3b1b15d52ccbc82682ecc2ed75d5e60842c4f",
+    "W_targets_scaled2.txt": "c03f394f3a2980e3cf9b1f1b3b6c386f00ada575b6aaeab0a7f53584c55bad8c",
+    "333.json": "8d0d9eff0bb7db2307a156c2709eb3ec66b1b16f22ec52eb8a929e18d8f1f79b",
+    "README.md": "7b18acb4ef22c3340a04d24804b237b2e05e3d926c1aed06fe850e5d57a7bced",
+    "independent_cpp_result.json": "5dec9f46e8053a576bc1bdc608778d91b70943f482f9c8b7010de0a8983f0511",
+    "verify.py": "4eaf16887b3c34ac196920944c372cd184f48efd0894c59b6e33c0f30591a91d",
+    "independent.cpp": "ca6902def7e2f7344fb666268f1a27b26214ad9e7ad0a1593aa2cfe5b08653a2",
+    "PERMINOV_LICENSE.txt": "a15ecc289980d59ff45a8c9e8105616c9a9d2b9ba8cbbfd255c1449c16051f53"
+  }
+}

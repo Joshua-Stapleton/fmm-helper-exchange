@@ -1,0 +1,314 @@
+{
+  "status": "COMPLETE",
+  "best_new_certificate": {
+    "shape": [
+      5,
+      5,
+      5
+    ],
+    "additions": 332,
+    "split": [
+      87,
+      88,
+      157
+    ],
+    "products": 93,
+    "scalar_total": 425,
+    "basis_change": false,
+    "unary_negations": 0,
+    "nonunit_scalars": 0,
+    "tensor_identities": 15625,
+    "path": "certificate_555_332.zip",
+    "sha256": "b2add84b6997180ff95ecc861c4e0c7fa445a7e2a2db9af2e1af1e70566e7233",
+    "independent_audit": "independent5_332.json"
+  },
+  "retained_6x6_baseline": {
+    "additions": 587,
+    "split": [
+      158,
+      157,
+      272
+    ],
+    "products": 153,
+    "scope": "No new lower-count 6x6 certificate found in this pass."
+  },
+  "donors": {
+    "5": {
+      "attempts": 117,
+      "passed": 117,
+      "timeouts": 0,
+      "minima": {
+        "u": 88,
+        "v": 88,
+        "w": 90
+      },
+      "total_serial_run_seconds": 37.91147378901951
+    },
+    "6": {
+      "attempts": 78,
+      "passed": 69,
+      "timeouts": 9,
+      "minima": {
+        "u": 162,
+        "v": 161,
+        "w": 158
+      },
+      "total_serial_run_seconds": 461.7863303308841
+    }
+  },
+  "searches": [
+    {
+      "name": "5u",
+      "baseline_additions_signed": 88,
+      "saved_witness_additions_signed": null,
+      "free_signed_wires": true,
+      "scope": "Fixed form pool; at most 3 incumbent helpers removed and 2 added; free signed wires.",
+      "seconds": 4.389730334049091,
+      "diagnostic": "EXHAUSTED_3_FOR_2 closures=11617323 pairs=91 triples=364 seconds=3.81098",
+      "status": "EXHAUSTED_3_FOR_2",
+      "additions_signed": null,
+      "artifact": "5u_3for2_control/result.json",
+      "baseline": 88
+    },
+    {
+      "data": "experiments/research_pass_20261008/linear/5u_pool.json",
+      "command": [
+        "experiments/research_pass_20261008/linear/plateau",
+        "experiments/research_pass_20261008/linear/5u_plateau_p6_s8/input.txt",
+        "240",
+        "8",
+        "6",
+        "experiments/research_pass_20261008/linear/5u_plateau_p6_s8/selection.txt"
+      ],
+      "baseline": 88,
+      "seconds": 240.00988791696727,
+      "diagnostic": "IMPROVED helpers=13 step=56520 seconds=8.80116\nFINISHED steps=1939239 closures=40783803 accepted=12077 seen=270 best_helpers=13 initial_helpers=14 seconds=240\n",
+      "forms": 383,
+      "helpers": 14,
+      "scope": "Randomized feasible plateau expansion and greedy deletion; finite pool, signed wires.",
+      "additions_signed": 87,
+      "exact_map_verified": true,
+      "artifact": "5u_plateau_p6_s8/result.json",
+      "data_sha256": "2f22088fa4eecf69acfd8c97a301361342eb927101003dc369ccd0441c97656e"
+    },
+    {
+      "data": "experiments/research_pass_20261008/linear/5v_pool.json",
+      "command": [
+        "experiments/research_pass_20261008/linear/beam",
+        "experiments/research_pass_20261008/linear/5v_beam_w32_s10/input.txt",
+        "60",
+        "10",
+        "32",
+        "experiments/research_pass_20261008/linear/5v_beam_w32_s10/selection.txt"
+      ],
+      "baseline": 88,
+      "seconds": 4.698973000049591,
+      "diagnostic": "BEAM_COMPLETE_4_FOR_3 steps=495 closures=6463701 width=32\n",
+      "forms": 421,
+      "helpers": 12,
+      "scope": "Target-guided 4-for-3 beam search; beam pruning excludes completeness; finite pool, signed wires.",
+      "artifact": "5v_beam_w32_s10/result.json",
+      "data_sha256": "938e9b3289d613daeb90d0f9df38c782535f5e51f45bc6ffb7e74977d17ab1b3"
+    },
+    {
+      "data": "experiments/research_pass_20261008/linear/5v_pool.json",
+      "command": [
+        "experiments/research_pass_20261008/linear/plateau",
+        "experiments/research_pass_20261008/linear/5v_plateau_p6_s9/input.txt",
+        "240",
+        "9",
+        "6",
+        "experiments/research_pass_20261008/linear/5v_plateau_p6_s9/selection.txt"
+      ],
+      "baseline": 88,
+      "seconds": 240.0728029171005,
+      "diagnostic": "FINISHED steps=1419566 closures=28384913 accepted=300892 seen=300893 best_helpers=12 initial_helpers=12 seconds=240\n",
+      "forms": 421,
+      "helpers": 12,
+      "scope": "Randomized feasible plateau expansion and greedy deletion; finite pool, signed wires.",
+      "artifact": "5v_plateau_p6_s9/result.json",
+      "data_sha256": "938e9b3289d613daeb90d0f9df38c782535f5e51f45bc6ffb7e74977d17ab1b3"
+    },
+    {
+      "name": "5w",
+      "baseline_additions_signed": 90,
+      "saved_witness_additions_signed": null,
+      "free_signed_wires": true,
+      "scope": "Fixed form pool; at most 3 incumbent helpers removed and 2 added; free signed wires.",
+      "seconds": 0.1987162500154227,
+      "diagnostic": "PASS closures=5895 pairs=29 triples=0 seconds=0.00368317",
+      "status": "FOUND",
+      "removed": [
+        63,
+        86
+      ],
+      "added": [
+        209
+      ],
+      "additions_signed": 89,
+      "artifact": "5w_3for2_control/result.json",
+      "baseline": 90
+    },
+    {
+      "data": "experiments/research_pass_20261008/linear/5w_pool.json",
+      "command": [
+        "experiments/research_pass_20261008/linear/plateau",
+        "experiments/research_pass_20261008/linear/5w_plateau_p6_s10/input.txt",
+        "180",
+        "10",
+        "6",
+        "experiments/research_pass_20261008/linear/5w_plateau_p6_s10/selection.txt"
+      ],
+      "baseline": 90,
+      "seconds": 180.03859754116274,
+      "diagnostic": "IMPROVED helpers=13 step=29 seconds=0.00344488\nFINISHED steps=1346339 closures=28273112 accepted=271434 seen=271426 best_helpers=13 initial_helpers=14 seconds=180\n",
+      "forms": 427,
+      "helpers": 14,
+      "scope": "Randomized feasible plateau expansion and greedy deletion; finite pool, signed wires.",
+      "additions_signed": 89,
+      "exact_map_verified": true,
+      "artifact": "5w_plateau_p6_s10/result.json",
+      "data_sha256": "b3dc15e9c0c17d58f755e000020ce234f7fdaa3afd525bc9d1a7ba3cd303fe9e"
+    },
+    {
+      "data": "experiments/research_pass_20261008/linear/6u_pool.json",
+      "command": [
+        "experiments/research_pass_20261008/linear/beam",
+        "experiments/research_pass_20261008/linear/6u_beam_w24_s8/input.txt",
+        "240",
+        "8",
+        "24",
+        "experiments/research_pass_20261008/linear/6u_beam_w24_s8/selection.txt"
+      ],
+      "baseline": 158,
+      "seconds": 20.74848345783539,
+      "diagnostic": "BEAM_COMPLETE_4_FOR_3 steps=4845 closures=29382638 width=24\n",
+      "forms": 412,
+      "helpers": 20,
+      "scope": "Target-guided 4-for-3 beam search; beam pruning excludes completeness; finite pool, signed wires.",
+      "artifact": "6u_beam_w24_s8/result.json",
+      "data_sha256": "3c2b5a8576ded8ab66c0c1170ff22d67fa2363e03568f4fa3a250151e8f3b0da"
+    },
+    {
+      "data": "experiments/research_pass_20261008/linear/6u_enriched_e128.json",
+      "command": [
+        "experiments/research_pass_20261008/linear/plateau",
+        "experiments/research_pass_20261008/linear/6u_enriched_plateau_p6_s10/input.txt",
+        "150",
+        "10",
+        "6",
+        "experiments/research_pass_20261008/linear/6u_enriched_plateau_p6_s10/selection.txt"
+      ],
+      "baseline": 158,
+      "seconds": 150.01587395882234,
+      "diagnostic": "FINISHED steps=517029 closures=14477118 accepted=79821 seen=79822 best_helpers=20 initial_helpers=20 seconds=150\n",
+      "forms": 693,
+      "helpers": 20,
+      "scope": "Randomized feasible plateau expansion and greedy deletion; finite pool, signed wires.",
+      "artifact": "6u_enriched_plateau_p6_s10/result.json",
+      "data_sha256": "c8d1808942e4441ac53f3f37d8dde6344d3249f994c340979ec37b024156ec36"
+    },
+    {
+      "data": "experiments/research_pass_20261008/linear/6u_pool.json",
+      "command": [
+        "experiments/research_pass_20261008/linear/plateau",
+        "experiments/research_pass_20261008/linear/6u_plateau_p4_s8/input.txt",
+        "240",
+        "8",
+        "4",
+        "experiments/research_pass_20261008/linear/6u_plateau_p4_s8/selection.txt"
+      ],
+      "baseline": 158,
+      "seconds": 240.76858525001444,
+      "diagnostic": "FINISHED steps=1061816 closures=27608945 accepted=167856 seen=167857 best_helpers=20 initial_helpers=20 seconds=240\n",
+      "forms": 412,
+      "helpers": 20,
+      "scope": "Randomized feasible plateau expansion and greedy deletion; finite pool, signed wires.",
+      "artifact": "6u_plateau_p4_s8/result.json",
+      "data_sha256": "3c2b5a8576ded8ab66c0c1170ff22d67fa2363e03568f4fa3a250151e8f3b0da"
+    },
+    {
+      "data": "experiments/research_pass_20261008/linear/6v_pool.json",
+      "command": [
+        "experiments/research_pass_20261008/linear/beam",
+        "experiments/research_pass_20261008/linear/6v_beam_w12_s8/input.txt",
+        "240",
+        "8",
+        "12",
+        "experiments/research_pass_20261008/linear/6v_beam_w12_s8/selection.txt"
+      ],
+      "baseline": 157,
+      "seconds": 19.262878875015303,
+      "diagnostic": "BEAM_COMPLETE_4_FOR_3 steps=4845 closures=15278261 width=12\n",
+      "forms": 405,
+      "helpers": 20,
+      "scope": "Target-guided 4-for-3 beam search; beam pruning excludes completeness; finite pool, signed wires.",
+      "artifact": "6v_beam_w12_s8/result.json",
+      "data_sha256": "899c11256c08b41b6c7ca3774ecdf53bddcb667f7f0cdc1fde7883d6361d0384"
+    },
+    {
+      "data": "experiments/research_pass_20261008/linear/6w_pool.json",
+      "command": [
+        "experiments/research_pass_20261008/linear/beam",
+        "experiments/research_pass_20261008/linear/6w_beam_w24_s8/input.txt",
+        "240",
+        "8",
+        "24",
+        "experiments/research_pass_20261008/linear/6w_beam_w24_s8/selection.txt"
+      ],
+      "baseline": 155,
+      "seconds": 71.5025639589876,
+      "diagnostic": "BEAM_COMPLETE_4_FOR_3 steps=3060 closures=51700021 width=24\n",
+      "forms": 808,
+      "helpers": 18,
+      "scope": "Target-guided 4-for-3 beam search; beam pruning excludes completeness; finite pool, signed wires.",
+      "artifact": "6w_beam_w24_s8/result.json",
+      "data_sha256": "141471b5a3b1158e25bd20a4b6332736c970e484ee8f9fc1745c8297098539b4"
+    },
+    {
+      "data": "experiments/research_pass_20261008/linear/6w_enriched_e128.json",
+      "command": [
+        "experiments/research_pass_20261008/linear/plateau",
+        "experiments/research_pass_20261008/linear/6w_enriched_plateau_p6_s11/input.txt",
+        "120",
+        "11",
+        "6",
+        "experiments/research_pass_20261008/linear/6w_enriched_plateau_p6_s11/selection.txt"
+      ],
+      "baseline": 155,
+      "seconds": 120.01386954099871,
+      "diagnostic": "FINISHED steps=331631 closures=8623000 accepted=38445 seen=38446 best_helpers=18 initial_helpers=18 seconds=120\n",
+      "forms": 1026,
+      "helpers": 18,
+      "scope": "Randomized feasible plateau expansion and greedy deletion; finite pool, signed wires.",
+      "artifact": "6w_enriched_plateau_p6_s11/result.json",
+      "data_sha256": "d5bfa69d1a3b60eb75142a7b3d67d8bb7d97ae61620966dea9ba1e477ccceb01"
+    },
+    {
+      "data": "experiments/research_pass_20261008/linear/6w_pool.json",
+      "command": [
+        "experiments/research_pass_20261008/linear/plateau",
+        "experiments/research_pass_20261008/linear/6w_plateau_p4_s9/input.txt",
+        "240",
+        "9",
+        "4",
+        "experiments/research_pass_20261008/linear/6w_plateau_p4_s9/selection.txt"
+      ],
+      "baseline": 155,
+      "seconds": 240.02238904195838,
+      "diagnostic": "FINISHED steps=731311 closures=17553966 accepted=73368 seen=73369 best_helpers=18 initial_helpers=18 seconds=240.001\n",
+      "forms": 808,
+      "helpers": 18,
+      "scope": "Randomized feasible plateau expansion and greedy deletion; finite pool, signed wires.",
+      "artifact": "6w_plateau_p4_s9/result.json",
+      "data_sha256": "141471b5a3b1158e25bd20a4b6332736c970e484ee8f9fc1745c8297098539b4"
+    }
+  ],
+  "limitations": [
+    "U87 matches a previously reported count; no priority claim.",
+    "Plateau and beam searches do not prove optimality.",
+    "Beam complete means every removal quadruple was visited with heuristic insertion pruning.",
+    "Donor budgets and configurations are unequal; minima are not equal-budget scorer comparisons.",
+    "No multiplication runtime benchmark, rank improvement or basis change."
+  ]
+}

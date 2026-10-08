@@ -1,0 +1,5 @@
+current canonical counts (L,R,P): (10, 10, 10)
+L: rank-one factors=32, distinct left/right lines=8/8, orbit-wide max canonical=10
+R: rank-one factors=32, distinct left/right lines=8/8, orbit-wide max canonical=10
+P: rank-one factors=32, distinct left/right lines=8/8, orbit-wide max canonical=10
+=> c = canonical(L)+canonical(R) <= 20 on the whole orbit (and for any role permutation).

@@ -1,0 +1,19 @@
+{
+  "data": "experiments/research_pass_20261008/linear/5u_pool.json",
+  "command": [
+    "experiments/research_pass_20261008/linear/plateau",
+    "experiments/research_pass_20261008/linear/5u_plateau_p6_s8/input.txt",
+    "240",
+    "8",
+    "6",
+    "experiments/research_pass_20261008/linear/5u_plateau_p6_s8/selection.txt"
+  ],
+  "baseline": 88,
+  "seconds": 240.00988791696727,
+  "diagnostic": "IMPROVED helpers=13 step=56520 seconds=8.80116\nFINISHED steps=1939239 closures=40783803 accepted=12077 seen=270 best_helpers=13 initial_helpers=14 seconds=240\n",
+  "forms": 383,
+  "helpers": 14,
+  "scope": "Randomized feasible plateau expansion and greedy deletion; finite pool, signed wires.",
+  "additions_signed": 87,
+  "exact_map_verified": true
+}

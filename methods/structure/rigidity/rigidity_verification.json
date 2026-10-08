@@ -1,0 +1,109 @@
+{
+  "status": "PASS",
+  "results": [
+    {
+      "name": "rank49",
+      "source_sha256": "47a5c5938e34d076ecffed2bbe5036089003b490dcfa559b2eba139225463a26",
+      "rational_tensor_coefficients_verified": 4096,
+      "pairs": [
+        {
+          "axes": "uv",
+          "prime": 2,
+          "rational_pair_span_dimension": 49,
+          "p_unit_minor_determinant": "1",
+          "rational_annihilator_rows": 207,
+          "exact_annihilator_checks": 10143,
+          "all_tangent_ranks": [
+            30
+          ],
+          "original_projective_points": 49,
+          "complete_scan_projective_domain": 65535,
+          "independent_complete_scan": "PASS",
+          "rational_pair_span_rigidity": "PASS"
+        },
+        {
+          "axes": "uw",
+          "prime": 2,
+          "rational_pair_span_dimension": 49,
+          "p_unit_minor_determinant": "1",
+          "rational_annihilator_rows": 207,
+          "exact_annihilator_checks": 10143,
+          "all_tangent_ranks": [
+            30
+          ],
+          "original_projective_points": 49,
+          "complete_scan_projective_domain": 65535,
+          "independent_complete_scan": "PASS",
+          "rational_pair_span_rigidity": "PASS"
+        },
+        {
+          "axes": "vw",
+          "prime": 2,
+          "rational_pair_span_dimension": 49,
+          "p_unit_minor_determinant": "-1",
+          "rational_annihilator_rows": 207,
+          "exact_annihilator_checks": 10143,
+          "all_tangent_ranks": [
+            30
+          ],
+          "original_projective_points": 49,
+          "complete_scan_projective_domain": 65535,
+          "independent_complete_scan": "PASS",
+          "rational_pair_span_rigidity": "PASS"
+        }
+      ]
+    },
+    {
+      "name": "rank48",
+      "source_sha256": "b5b5973066cd7145d730c86b63418667588205a888b389417cd7b165643036ca",
+      "rational_tensor_coefficients_verified": 4096,
+      "pairs": [
+        {
+          "axes": "uv",
+          "prime": 3,
+          "rational_pair_span_dimension": 48,
+          "p_unit_minor_determinant": "1/8192",
+          "rational_annihilator_rows": 208,
+          "exact_annihilator_checks": 9984,
+          "all_tangent_ranks": [
+            30
+          ],
+          "original_projective_points": 48,
+          "complete_scan_projective_domain": 21523360,
+          "independent_complete_scan": "PASS",
+          "rational_pair_span_rigidity": "PASS"
+        },
+        {
+          "axes": "uw",
+          "prime": 3,
+          "rational_pair_span_dimension": 48,
+          "p_unit_minor_determinant": "-1/16",
+          "rational_annihilator_rows": 208,
+          "exact_annihilator_checks": 9984,
+          "all_tangent_ranks": [
+            30
+          ],
+          "original_projective_points": 48,
+          "complete_scan_projective_domain": 21523360,
+          "independent_complete_scan": "PASS",
+          "rational_pair_span_rigidity": "PASS"
+        },
+        {
+          "axes": "vw",
+          "prime": 3,
+          "rational_pair_span_dimension": 48,
+          "p_unit_minor_determinant": "-1/64",
+          "rational_annihilator_rows": 208,
+          "exact_annihilator_checks": 9984,
+          "all_tangent_ranks": [
+            30
+          ],
+          "original_projective_points": 48,
+          "complete_scan_projective_domain": 21523360,
+          "independent_complete_scan": "PASS",
+          "rational_pair_span_rigidity": "PASS"
+        }
+      ]
+    }
+  ]
+}

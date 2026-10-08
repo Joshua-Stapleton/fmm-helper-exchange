@@ -1,0 +1,30 @@
+{
+  "description": "Portable versions of the exact circuit, finite-pool CP-SAT, joint canonical-basis and coupled core/boundary implementations. Standard mathematical techniques are not claimed as inventions.",
+  "sources": {
+    "circuits.py": {
+      "source": "experiments/plinopt_20260905/circuits.py",
+      "original_sha256": "a31f2d30d1d340de0f416b0d72119f5ac167544c6728d42725f4fded93af0a91"
+    },
+    "lrp.py": {
+      "source": "experiments/pernet_canonical_LR_20260929/lrp.py",
+      "original_sha256": "8666840cf51abd74e1e7c1681292388af29e2a125ef3c11b17948f23d8d1a7f7"
+    },
+    "cp_pool.py": {
+      "source": "experiments/focused_research_20261004/four_by_four/cp_pool.py",
+      "original_sha256": "0b19769729f93e6c5cc4bdf4699da9d55ee15869528f6cce6e95120a5fdb2473"
+    },
+    "joint_basis.py": {
+      "source": "experiments/focused_research_20261004/four_by_four/joint_basis.py",
+      "original_sha256": "6688bcf564ceec8e75a47fb475b73fe2f81d708c9357aca41241ee9316f9b731"
+    },
+    "joint_core_boundary.py": {
+      "source": "experiments/focused_research_20261004/four_by_four/adaptive_joint.py",
+      "original_sha256": "ac5687eee4a4b161a723cda10a8c6a938ac1c59bdcb47f6269a0d7bb863db328"
+    }
+  },
+  "changes": [
+    "Relative sibling imports; explicit output and historical certificate arguments; default current169/43 certificate",
+    "Exact Fraction coercion at rational rank/inverse entry points",
+    "A reused cross-basis pool must state its coordinate boundary; no private fallback"
+  ]
+}

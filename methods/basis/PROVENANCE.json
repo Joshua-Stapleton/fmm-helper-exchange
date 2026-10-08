@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-08",
+  "author_of_research_and_adaptations": "Joshua Stapleton",
+  "sources": [
+    "experiments/research_pass_20261008/basis",
+    "experiments/release_followup_20261007/basis",
+    "experiments/focused_research_20261004/small_schemes",
+    "experiments/focused_research_20261002/small_schemes",
+    "experiments/focused_research_20261004/four_by_four/certificate_4x4_169_43",
+    "experiments/pernet_canonical_LR_20260929/bundle/certificate_canonical_c20_c32"
+  ],
+  "public_adaptations": [
+    "Excluded build products, caches, correspondence and archive-dependent donor collectors.",
+    "Replaced private archive entry points with included frozen inputs and portable replay wrappers.",
+    "Changed absolute provenance paths to repository-relative historical paths; regenerated affected manifests.",
+    "Added model-scoped method explanations and publication replay evidence."
+  ],
+  "coefficient_policy": "Exact mathematical source matrices, circuit arithmetic and proof engines retained; existing decompositions are attributed separately from optimization/proof work.",
+  "priority": "No general SLP optimality or literature-priority claim."
+}

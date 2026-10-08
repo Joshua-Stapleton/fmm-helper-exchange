@@ -1,0 +1,11 @@
+{
+  "name": "5u",
+  "baseline_additions_signed": 88,
+  "saved_witness_additions_signed": null,
+  "free_signed_wires": true,
+  "scope": "Fixed form pool; at most 3 incumbent helpers removed and 2 added; free signed wires.",
+  "seconds": 4.389730334049091,
+  "diagnostic": "EXHAUSTED_3_FOR_2 closures=11617323 pairs=91 triples=364 seconds=3.81098",
+  "status": "EXHAUSTED_3_FOR_2",
+  "additions_signed": null
+}

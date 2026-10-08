@@ -1,0 +1,1 @@
+{"status":"PASS","helpers":358,"base_rules":27,"root_subsets_per_helper":293930,"covered_root_subsets":105226940,"distinct_closure_tests":4918562,"max_targets_reached":19,"no_12_gate_circuit":true,"seconds":0.0872333}

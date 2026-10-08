@@ -1,0 +1,14 @@
+{
+  "status": "TIME_LIMIT",
+  "baseline_additions_signed": 88,
+  "requested_additions_signed": 87,
+  "additions_signed": null,
+  "helper_budget": 11,
+  "cuts": 176,
+  "attempts": 149,
+  "grow_cuts": 2,
+  "objective": "overlap",
+  "seconds": 1.9914017501287162,
+  "data_sha256": "988449d55298f3612e40306c2258fb9b93f6cbb103b2703c79e63f6429ed356d",
+  "scope": "Fixed supplied integer-form dictionary and productions; free signs. Timeout proves nothing."
+}

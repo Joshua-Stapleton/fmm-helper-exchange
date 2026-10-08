@@ -1,0 +1,2 @@
+# Preserve exact upstream sparse-matrix fixture bytes, including trailing blank lines.
+*.sms -whitespace

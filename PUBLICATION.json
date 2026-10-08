@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-08",
+  "repository": "https://github.com/Joshua-Stapleton/fmm-helper-exchange",
+  "description": "Reusable FMM search, transformation, exact certification, lower-bound, structural, orchestration, storage and analysis methods",
+  "source_experiments": [
+    "plinopt_20260905",
+    "guided_transform_20260909",
+    "smart_ternary_20260909",
+    "unified_fmm_loop_20260909",
+    "sedoglavic_20260914",
+    "fmm_sparse_identity_20260921",
+    "fmm_recursive_scope_20260921",
+    "pernet_inputs_20260929",
+    "pernet_canonical_LR_20260929",
+    "focused_research_20261002",
+    "focused_research_20261004",
+    "release_followup_20261007",
+    "whatsapp_distance_20261007",
+    "research_pass_20261008"
+  ],
+  "module_provenance": "Each methods subdirectory includes original source hashes and adaptation notes. Proof inputs and certified literal programs preserve original arithmetic.",
+  "included": "Portable implementations, representative source data, search witnesses, independently checked arithmetic/proof certificates and method explanations",
+  "excluded": "Private correspondence, raw browser/chat exports, credentials, local binaries, dependency checkouts and redundant campaign checkpoints",
+  "attribution": "NOTICE.md; source decompositions and external reducers retain their authorship",
+  "validation": "verification/release.json and module-specific replay files; --full reruns exhaustive proof computations",
+  "claims": "No global SOTA, unrestricted optimality, lower multiplication rank, new exponent or measured runtime is claimed."
+}

@@ -1,0 +1,60 @@
+{
+ "identities": "Brent(L,R,P); ALT_L*CoB_L=L; ALT_R*CoB_R=R; CoB_P*ALT_P=P",
+ "counts": {
+  "ALT_L.slp": {
+   "additions": 44,
+   "scalings": 0,
+   "unary_negations": 0,
+   "total": 44
+  },
+  "ALT_R.slp": {
+   "additions": 44,
+   "scalings": 0,
+   "unary_negations": 0,
+   "total": 44
+  },
+  "ALT_P.slp": {
+   "additions": 84,
+   "scalings": 2,
+   "unary_negations": 0,
+   "total": 86
+  },
+  "CoB_L.slp": {
+   "additions": 36,
+   "scalings": 5,
+   "unary_negations": 0,
+   "total": 41
+  },
+  "CoB_R.slp": {
+   "additions": 36,
+   "scalings": 5,
+   "unary_negations": 0,
+   "total": 41
+  },
+  "CoB_P.slp": {
+   "additions": 28,
+   "scalings": 0,
+   "unary_negations": 0,
+   "total": 28
+  },
+  "published_ALT_L_13canonical.slp": {
+   "additions": 44,
+   "scalings": 0,
+   "unary_negations": 0,
+   "total": 44
+  }
+ },
+ "kernel_total": 174,
+ "conversion_total": 110,
+ "canonical_rows": {
+  "ALT_L": 16,
+  "ALT_R": 16,
+  "ALT_P_columns": 15,
+  "published_ALT_L": 13
+ },
+ "one_level_random_checks": 25,
+ "two_level_16x16_execution": "OK",
+ "lemma_4_1_c": 32,
+ "footprint_coeff_(2t-c)/(n0^2-1)-1": "49/15",
+ "io_write_coeff_(3t-c)/(t-n0^2)": "7/2"
+}

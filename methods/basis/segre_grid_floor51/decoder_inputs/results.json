@@ -1,0 +1,730 @@
+[
+  {
+    "Q": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        -2
+      ]
+    ],
+    "input": "Q00.txt",
+    "native_result": {
+      "base_rules": 24,
+      "covered_root_subsets": 106696590,
+      "distinct_closure_tests": 7958412,
+      "helpers": 363,
+      "max_targets_reached": 18,
+      "no_12_gate_circuit": true,
+      "root_subsets_per_helper": 293930,
+      "seconds": 0.173408,
+      "status": "PASS"
+    },
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "Q": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        -1
+      ]
+    ],
+    "input": "Q01.txt",
+    "native_result": {
+      "base_rules": 24,
+      "covered_root_subsets": 105814800,
+      "distinct_closure_tests": 7892640,
+      "helpers": 360,
+      "max_targets_reached": 18,
+      "no_12_gate_circuit": true,
+      "root_subsets_per_helper": 293930,
+      "seconds": 0.174893,
+      "status": "PASS"
+    },
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "Q": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "input": "Q02.txt",
+    "native_result": {
+      "base_rules": 27,
+      "covered_root_subsets": 105226940,
+      "distinct_closure_tests": 4918562,
+      "helpers": 358,
+      "max_targets_reached": 19,
+      "no_12_gate_circuit": true,
+      "root_subsets_per_helper": 293930,
+      "seconds": 0.118965,
+      "status": "PASS"
+    },
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "Q": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "input": "Q03.txt",
+    "native_result": {
+      "base_rules": 24,
+      "covered_root_subsets": 105814800,
+      "distinct_closure_tests": 7892640,
+      "helpers": 360,
+      "max_targets_reached": 18,
+      "no_12_gate_circuit": true,
+      "root_subsets_per_helper": 293930,
+      "seconds": 0.154566,
+      "status": "PASS"
+    },
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "Q": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "input": "Q04.txt",
+    "native_result": {
+      "base_rules": 24,
+      "covered_root_subsets": 106696590,
+      "distinct_closure_tests": 7958412,
+      "helpers": 363,
+      "max_targets_reached": 18,
+      "no_12_gate_circuit": true,
+      "root_subsets_per_helper": 293930,
+      "seconds": 0.177948,
+      "status": "PASS"
+    },
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "Q": [
+      [
+        0,
+        1
+      ],
+      [
+        2,
+        -1
+      ]
+    ],
+    "input": "Q05.txt",
+    "native_result": {
+      "base_rules": 24,
+      "covered_root_subsets": 106696590,
+      "distinct_closure_tests": 7958412,
+      "helpers": 363,
+      "max_targets_reached": 18,
+      "no_12_gate_circuit": true,
+      "root_subsets_per_helper": 293930,
+      "seconds": 0.16909,
+      "status": "PASS"
+    },
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "Q": [
+      [
+        0,
+        1
+      ],
+      [
+        2,
+        1
+      ]
+    ],
+    "input": "Q06.txt",
+    "native_result": {
+      "base_rules": 24,
+      "covered_root_subsets": 106696590,
+      "distinct_closure_tests": 7958412,
+      "helpers": 363,
+      "max_targets_reached": 18,
+      "no_12_gate_circuit": true,
+      "root_subsets_per_helper": 293930,
+      "seconds": 0.165222,
+      "status": "PASS"
+    },
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "Q": [
+      [
+        1,
+        -2
+      ],
+      [
+        1,
+        -1
+      ]
+    ],
+    "input": "Q07.txt",
+    "native_result": {
+      "base_rules": 21,
+      "covered_root_subsets": 107872310,
+      "distinct_closure_tests": 12234679,
+      "helpers": 367,
+      "max_targets_reached": 17,
+      "no_12_gate_circuit": true,
+      "root_subsets_per_helper": 293930,
+      "seconds": 0.301458,
+      "status": "PASS"
+    },
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "Q": [
+      [
+        1,
+        -2
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "input": "Q08.txt",
+    "native_result": {
+      "base_rules": 24,
+      "covered_root_subsets": 107284450,
+      "distinct_closure_tests": 7970870,
+      "helpers": 365,
+      "max_targets_reached": 18,
+      "no_12_gate_circuit": true,
+      "root_subsets_per_helper": 293930,
+      "seconds": 0.193835,
+      "status": "PASS"
+    },
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "Q": [
+      [
+        1,
+        -2
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "input": "Q09.txt",
+    "native_result": {
+      "base_rules": 21,
+      "covered_root_subsets": 108754100,
+      "distinct_closure_tests": 12334690,
+      "helpers": 370,
+      "max_targets_reached": 17,
+      "no_12_gate_circuit": true,
+      "root_subsets_per_helper": 293930,
+      "seconds": 0.259412,
+      "status": "PASS"
+    },
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "Q": [
+      [
+        1,
+        -2
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "input": "Q10.txt",
+    "native_result": {
+      "base_rules": 21,
+      "covered_root_subsets": 108754100,
+      "distinct_closure_tests": 12334690,
+      "helpers": 370,
+      "max_targets_reached": 17,
+      "no_12_gate_circuit": true,
+      "root_subsets_per_helper": 293930,
+      "seconds": 0.273115,
+      "status": "PASS"
+    },
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "Q": [
+      [
+        1,
+        -2
+      ],
+      [
+        2,
+        -1
+      ]
+    ],
+    "input": "Q11.txt",
+    "native_result": {
+      "base_rules": 21,
+      "covered_root_subsets": 108754100,
+      "distinct_closure_tests": 12334690,
+      "helpers": 370,
+      "max_targets_reached": 17,
+      "no_12_gate_circuit": true,
+      "root_subsets_per_helper": 293930,
+      "seconds": 0.263593,
+      "status": "PASS"
+    },
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "Q": [
+      [
+        1,
+        -2
+      ],
+      [
+        2,
+        1
+      ]
+    ],
+    "input": "Q12.txt",
+    "native_result": {
+      "base_rules": 21,
+      "covered_root_subsets": 108754100,
+      "distinct_closure_tests": 12334690,
+      "helpers": 370,
+      "max_targets_reached": 17,
+      "no_12_gate_circuit": true,
+      "root_subsets_per_helper": 293930,
+      "seconds": 0.307252,
+      "status": "PASS"
+    },
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "Q": [
+      [
+        1,
+        -1
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "input": "Q13.txt",
+    "native_result": {
+      "base_rules": 24,
+      "covered_root_subsets": 106402660,
+      "distinct_closure_tests": 7905356,
+      "helpers": 362,
+      "max_targets_reached": 18,
+      "no_12_gate_circuit": true,
+      "root_subsets_per_helper": 293930,
+      "seconds": 0.192702,
+      "status": "PASS"
+    },
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "Q": [
+      [
+        1,
+        -1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "input": "Q14.txt",
+    "native_result": {
+      "base_rules": 21,
+      "covered_root_subsets": 108754100,
+      "distinct_closure_tests": 12334690,
+      "helpers": 370,
+      "max_targets_reached": 17,
+      "no_12_gate_circuit": true,
+      "root_subsets_per_helper": 293930,
+      "seconds": 0.258759,
+      "status": "PASS"
+    },
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "Q": [
+      [
+        1,
+        -1
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "input": "Q15.txt",
+    "native_result": {
+      "base_rules": 21,
+      "covered_root_subsets": 108754100,
+      "distinct_closure_tests": 12334690,
+      "helpers": 370,
+      "max_targets_reached": 17,
+      "no_12_gate_circuit": true,
+      "root_subsets_per_helper": 293930,
+      "seconds": 0.260175,
+      "status": "PASS"
+    },
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "Q": [
+      [
+        1,
+        -1
+      ],
+      [
+        2,
+        -1
+      ]
+    ],
+    "input": "Q16.txt",
+    "native_result": {
+      "base_rules": 21,
+      "covered_root_subsets": 107872310,
+      "distinct_closure_tests": 12234679,
+      "helpers": 367,
+      "max_targets_reached": 17,
+      "no_12_gate_circuit": true,
+      "root_subsets_per_helper": 293930,
+      "seconds": 0.277422,
+      "status": "PASS"
+    },
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "Q": [
+      [
+        1,
+        -1
+      ],
+      [
+        2,
+        1
+      ]
+    ],
+    "input": "Q17.txt",
+    "native_result": {
+      "base_rules": 21,
+      "covered_root_subsets": 108754100,
+      "distinct_closure_tests": 12334690,
+      "helpers": 370,
+      "max_targets_reached": 17,
+      "no_12_gate_circuit": true,
+      "root_subsets_per_helper": 293930,
+      "seconds": 0.284421,
+      "status": "PASS"
+    },
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "Q": [
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "input": "Q18.txt",
+    "native_result": {
+      "base_rules": 24,
+      "covered_root_subsets": 106402660,
+      "distinct_closure_tests": 7905356,
+      "helpers": 362,
+      "max_targets_reached": 18,
+      "no_12_gate_circuit": true,
+      "root_subsets_per_helper": 293930,
+      "seconds": 0.183666,
+      "status": "PASS"
+    },
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "Q": [
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "input": "Q19.txt",
+    "native_result": {
+      "base_rules": 24,
+      "covered_root_subsets": 107284450,
+      "distinct_closure_tests": 7970870,
+      "helpers": 365,
+      "max_targets_reached": 18,
+      "no_12_gate_circuit": true,
+      "root_subsets_per_helper": 293930,
+      "seconds": 0.18607,
+      "status": "PASS"
+    },
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "Q": [
+      [
+        1,
+        0
+      ],
+      [
+        2,
+        -1
+      ]
+    ],
+    "input": "Q20.txt",
+    "native_result": {
+      "base_rules": 24,
+      "covered_root_subsets": 107284450,
+      "distinct_closure_tests": 7970870,
+      "helpers": 365,
+      "max_targets_reached": 18,
+      "no_12_gate_circuit": true,
+      "root_subsets_per_helper": 293930,
+      "seconds": 0.202423,
+      "status": "PASS"
+    },
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "Q": [
+      [
+        1,
+        0
+      ],
+      [
+        2,
+        1
+      ]
+    ],
+    "input": "Q21.txt",
+    "native_result": {
+      "base_rules": 24,
+      "covered_root_subsets": 107284450,
+      "distinct_closure_tests": 7970870,
+      "helpers": 365,
+      "max_targets_reached": 18,
+      "no_12_gate_circuit": true,
+      "root_subsets_per_helper": 293930,
+      "seconds": 0.187065,
+      "status": "PASS"
+    },
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "Q": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "input": "Q22.txt",
+    "native_result": {
+      "base_rules": 21,
+      "covered_root_subsets": 107872310,
+      "distinct_closure_tests": 12234679,
+      "helpers": 367,
+      "max_targets_reached": 17,
+      "no_12_gate_circuit": true,
+      "root_subsets_per_helper": 293930,
+      "seconds": 0.240969,
+      "status": "PASS"
+    },
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "Q": [
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        -1
+      ]
+    ],
+    "input": "Q23.txt",
+    "native_result": {
+      "base_rules": 21,
+      "covered_root_subsets": 108754100,
+      "distinct_closure_tests": 12334690,
+      "helpers": 370,
+      "max_targets_reached": 17,
+      "no_12_gate_circuit": true,
+      "root_subsets_per_helper": 293930,
+      "seconds": 0.256777,
+      "status": "PASS"
+    },
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "Q": [
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        1
+      ]
+    ],
+    "input": "Q24.txt",
+    "native_result": {
+      "base_rules": 21,
+      "covered_root_subsets": 107872310,
+      "distinct_closure_tests": 12234679,
+      "helpers": 367,
+      "max_targets_reached": 17,
+      "no_12_gate_circuit": true,
+      "root_subsets_per_helper": 293930,
+      "seconds": 0.252396,
+      "status": "PASS"
+    },
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "Q": [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        -1
+      ]
+    ],
+    "input": "Q25.txt",
+    "native_result": {
+      "base_rules": 21,
+      "covered_root_subsets": 108754100,
+      "distinct_closure_tests": 12334690,
+      "helpers": 370,
+      "max_targets_reached": 17,
+      "no_12_gate_circuit": true,
+      "root_subsets_per_helper": 293930,
+      "seconds": 0.270481,
+      "status": "PASS"
+    },
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "Q": [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        1
+      ]
+    ],
+    "input": "Q26.txt",
+    "native_result": {
+      "base_rules": 21,
+      "covered_root_subsets": 108754100,
+      "distinct_closure_tests": 12334690,
+      "helpers": 370,
+      "max_targets_reached": 17,
+      "no_12_gate_circuit": true,
+      "root_subsets_per_helper": 293930,
+      "seconds": 0.256022,
+      "status": "PASS"
+    },
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "Q": [
+      [
+        2,
+        -1
+      ],
+      [
+        2,
+        1
+      ]
+    ],
+    "input": "Q27.txt",
+    "native_result": {
+      "base_rules": 21,
+      "covered_root_subsets": 108754100,
+      "distinct_closure_tests": 12334690,
+      "helpers": 370,
+      "max_targets_reached": 17,
+      "no_12_gate_circuit": true,
+      "root_subsets_per_helper": 293930,
+      "seconds": 0.247353,
+      "status": "PASS"
+    },
+    "returncode": 0,
+    "stderr": ""
+  }
+]

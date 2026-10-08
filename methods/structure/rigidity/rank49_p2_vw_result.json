@@ -1,0 +1,40 @@
+{
+  "tested_projective_first_factors": 65535,
+  "rank_one_points": 49,
+  "nonempty_first_fibers": 49,
+  "elapsed_seconds": 0.263163,
+  "kernel_dimension_histogram": [
+    65486,
+    49,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "tag": "rank49_p2_vw",
+  "prime": 2,
+  "axes": "vw",
+  "shape": [
+    16,
+    16
+  ],
+  "source_terms": 49,
+  "span_dimension": 49,
+  "old_rank_one_points": 49,
+  "new_rank_one_points": 0,
+  "source_sha256": "47a5c5938e34d076ecffed2bbe5036089003b490dcfa559b2eba139225463a26",
+  "independent_exact_hit_membership": "PASS",
+  "all_original_points_found": true,
+  "complete_projective_first_factor_domain": 65535
+}

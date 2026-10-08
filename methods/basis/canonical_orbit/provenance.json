@@ -1,0 +1,24 @@
+{
+  "ALT_L_basis_rows_of_L_zero_based": [
+    1,
+    5,
+    7,
+    8,
+    18,
+    20,
+    21,
+    22,
+    23,
+    27,
+    28,
+    30,
+    33,
+    39,
+    43,
+    47
+  ],
+  "construction": "CoB_L = L_S (16 rows of the 204 L), ALT_L = L * L_S^-1 (rows S become identity); ALT_R obtained from ALT_L through the exact row/column permutation-with-signs symmetry R = D_rows * Pi * L * Q; ALT_P, CoB_P = published square-basis 174 core",
+  "search": "~10^4 16-row subsets screened by sparsity, beam search scored by PLinOpt cost, then exact z3 form-pool circuit extraction and sign propagation; 8 distinct bases reach 44 for ALT_L",
+  "orbit_bound": "orbit_bound.py: each of L,R,P has <= 10 canonical vectors anywhere in the de Groote orbit (rank-one factors x y^T on 8+8 lines; independent 4-line grids cover <= 10), so c <= 20",
+  "counting_model": "binary additions/subtractions + nonunit scalings; zero explicit unary negations"
+}

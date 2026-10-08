@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "controls": 6,
+  "demo_first_jobs": 2,
+  "demo_repeated_jobs": 0,
+  "tested_adapters": [
+    "direct",
+    "signed_cse"
+  ],
+  "optional_plinopt_adapters": "not exercised in this packaging pass"
+}

@@ -1,0 +1,16 @@
+{
+  "date": "2026-10-08",
+  "status": "PASS",
+  "runs": [
+    {
+      "archive": "basis/segre_grid_floor51.zip",
+      "status": "PASS",
+      "full_replay": true
+    },
+    {
+      "archive": "structure/rational_span_rigidity_certificate.zip",
+      "status": "PASS",
+      "full_replay": true
+    }
+  ]
+}

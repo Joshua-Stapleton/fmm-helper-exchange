@@ -1,0 +1,155 @@
+{
+  "status": "PASS",
+  "pools": [
+    {
+      "pool": "fullarchive_L_exchange3",
+      "forms": 582,
+      "exact_binary_relations": 8263,
+      "positive_control": "PASS",
+      "exported_incumbent_signed_cost": {
+        "additions": 44,
+        "scalings": 0,
+        "explicit_unary_negations": 27
+      },
+      "sha256": "f12ff937ab26298acfc8701d4f881c57696ffefd770ae86ba1bfdc0f28619064"
+    },
+    {
+      "pool": "fullarchive_P_exchange3",
+      "forms": 2614,
+      "exact_binary_relations": 103785,
+      "positive_control": "PASS",
+      "exported_incumbent_signed_cost": {
+        "additions": 49,
+        "scalings": 0,
+        "explicit_unary_negations": 46
+      },
+      "sha256": "ac0267ed44b929411927c197df121c98fbf3f3433d6e053ac157898eb70c4ab5"
+    },
+    {
+      "pool": "kernel_L_exchange3",
+      "forms": 328,
+      "exact_binary_relations": 4169,
+      "positive_control": "PASS",
+      "exported_incumbent_signed_cost": {
+        "additions": 44,
+        "scalings": 0,
+        "explicit_unary_negations": 27
+      },
+      "sha256": "557eef4361967b6bf31d71a99ca68c3079bc5cef5938de91f6c24fb5584dbda4"
+    },
+    {
+      "pool": "kernel_L_exchange4",
+      "forms": 328,
+      "exact_binary_relations": 4169,
+      "positive_control": "PASS",
+      "exported_incumbent_signed_cost": {
+        "additions": 44,
+        "scalings": 0,
+        "explicit_unary_negations": 27
+      },
+      "sha256": "557eef4361967b6bf31d71a99ca68c3079bc5cef5938de91f6c24fb5584dbda4"
+    },
+    {
+      "pool": "kernel_P_exchange3",
+      "forms": 193,
+      "exact_binary_relations": 1165,
+      "positive_control": "PASS",
+      "exported_incumbent_signed_cost": {
+        "additions": 49,
+        "scalings": 0,
+        "explicit_unary_negations": 46
+      },
+      "sha256": "bcf659bba41348c5d14e6dfe087ee51e6defb8d7b61e3bdf0d1b63874ee858cc"
+    },
+    {
+      "pool": "kernel_P_exchange4",
+      "forms": 193,
+      "exact_binary_relations": 1165,
+      "positive_control": "PASS",
+      "exported_incumbent_signed_cost": {
+        "additions": 49,
+        "scalings": 0,
+        "explicit_unary_negations": 46
+      },
+      "sha256": "bcf659bba41348c5d14e6dfe087ee51e6defb8d7b61e3bdf0d1b63874ee858cc"
+    },
+    {
+      "pool": "ordinary_P_exchange3",
+      "forms": 221,
+      "exact_binary_relations": 1715,
+      "positive_control": "PASS",
+      "exported_incumbent_signed_cost": {
+        "additions": 58,
+        "scalings": 0,
+        "explicit_unary_negations": 45
+      },
+      "sha256": "b84bdeec5e96013750bf14f1e706bc56a00fcba0a479a961fb3f3d4d4194191a"
+    }
+  ],
+  "baseline_tensor_and_two_level_replay": {
+    "identities": "Brent(L,R,P); ALT_L*CoB_L=L; ALT_R*CoB_R=R; CoB_P*ALT_P=P",
+    "counts": {
+      "ALT_L.slp": {
+        "additions": 44,
+        "scalings": 0,
+        "unary_negations": 0,
+        "total": 44
+      },
+      "ALT_R.slp": {
+        "additions": 44,
+        "scalings": 0,
+        "unary_negations": 0,
+        "total": 44
+      },
+      "ALT_P.slp": {
+        "additions": 81,
+        "scalings": 0,
+        "unary_negations": 0,
+        "total": 81
+      },
+      "CoB_L.slp": {
+        "additions": 14,
+        "scalings": 2,
+        "unary_negations": 0,
+        "total": 16
+      },
+      "CoB_R.slp": {
+        "additions": 14,
+        "scalings": 2,
+        "unary_negations": 0,
+        "total": 16
+      },
+      "CoB_P.slp": {
+        "additions": 11,
+        "scalings": 0,
+        "unary_negations": 0,
+        "total": 11
+      },
+      "published_ALT_L_13canonical.slp": {
+        "additions": 44,
+        "scalings": 0,
+        "unary_negations": 0,
+        "total": 44
+      }
+    },
+    "kernel_total": 169,
+    "conversion_total": 43,
+    "canonical_rows": {
+      "ALT_L": 16,
+      "ALT_R": 16,
+      "ALT_P_columns": 16,
+      "published_ALT_L": 13
+    },
+    "one_level_random_checks": 25,
+    "two_level_16x16_execution": "OK",
+    "lemma_4_1_c": 32,
+    "footprint_coeff_(2t-c)/(n0^2-1)-1": "49/15",
+    "io_write_coeff_(3t-c)/(t-n0^2)": "7/2",
+    "rank_of_twice_input_basis_mod2": [
+      2,
+      2
+    ],
+    "status": "PASS"
+  },
+  "scope": "Exact rational graph data and native search input audit; positive-control closure; signed search is distinguished from strict baseline. Exhaustion claims are from native enumeration logs."
+}

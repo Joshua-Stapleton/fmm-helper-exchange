@@ -1,0 +1,42 @@
+{
+  "bases": 28,
+  "candidate_count": 784,
+  "grid_directions": [
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      -2
+    ],
+    [
+      1,
+      -1
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      2,
+      -1
+    ],
+    [
+      2,
+      1
+    ]
+  ],
+  "model": "Separate addition/subtraction-only factor SLPs; arbitrary independent rational bases; copies/signs free; no nonunit scalar gates or nonunit rank-term rescalings after each specified transform. Conversion costs excluded.",
+  "primitive_bound": 2,
+  "scope": "Exactly the784 P,Q matrices in grid.json; not all GL2(Q)xGL2(Q).",
+  "source_sha256": "9ff6e657a67bc4c266dc023f66ca8b2de81f3280f577f38ee0cd1465aae0f98a"
+}

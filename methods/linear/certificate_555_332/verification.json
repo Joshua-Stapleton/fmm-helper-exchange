@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "rank": 93,
+  "additions": 332,
+  "split": [
+    87,
+    88,
+    157
+  ],
+  "scalar_total": 425,
+  "basis_change": false,
+  "unary_negations": 0,
+  "nonunit_scalars": 0,
+  "tensor_identities": 15625,
+  "source_pinned_and_reexpanded": true,
+  "textual_and_json_replay": true
+}

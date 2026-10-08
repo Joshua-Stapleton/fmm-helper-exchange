@@ -1,0 +1,80 @@
+{
+  "status": "PASS",
+  "products": 336,
+  "coordinates": "alternative basis of dimension64; conversion maps explicitly included",
+  "counts": {
+    "ALT_L": {
+      "additions_subtractions": 319,
+      "nonunit_scalings": 0,
+      "negations": 0
+    },
+    "ALT_R": {
+      "additions_subtractions": 319,
+      "nonunit_scalings": 0,
+      "negations": 0
+    },
+    "ALT_P": {
+      "additions_subtractions": 612,
+      "nonunit_scalings": 0,
+      "negations": 0
+    },
+    "CoB_L": {
+      "additions_subtractions": 88,
+      "nonunit_scalings": 8,
+      "negations": 0
+    },
+    "CoB_R": {
+      "additions_subtractions": 88,
+      "nonunit_scalings": 8,
+      "negations": 0
+    },
+    "CoB_P": {
+      "additions_subtractions": 76,
+      "nonunit_scalings": 0,
+      "negations": 0
+    }
+  },
+  "core": 1250,
+  "conversions": 268,
+  "one_level_standard_total": 1854,
+  "leading_constant": "761/136",
+  "base_brent_checks": {
+    "4": 4096,
+    "2": 64
+  },
+  "product_trials": 3,
+  "scalars": {
+    "ALT_L": [],
+    "ALT_R": [],
+    "ALT_P": [],
+    "CoB_L": [
+      "1/2",
+      "1/2",
+      "1/2",
+      "1/2",
+      "1/2",
+      "1/2",
+      "1/2",
+      "1/2"
+    ],
+    "CoB_R": [
+      "1/2",
+      "1/2",
+      "1/2",
+      "1/2",
+      "1/2",
+      "1/2",
+      "1/2",
+      "1/2"
+    ],
+    "CoB_P": []
+  },
+  "sha256": {
+    "CoB_P.slp": "6fcce5d3ceb36ef64c04f5f3e6f77dc8eef6bfcd2871aecc8b22716562187e44",
+    "CoB_R.slp": "20b800c8509aecbfa44891f520de04c8e4d90f6c1892d869488f4fa0b5737eb2",
+    "ALT_P.slp": "ccf5fde2d6b5074b24d69f8fd2d17fbd483ff263b369b1e95531655a93d9b256",
+    "ALT_R.slp": "2494198db7361825cf03d291926067cbebc99ba7b60457ff6004e064bb815cb7",
+    "ALT_L.slp": "7085d1a13d3af46b128ff07dd7cb5d82949ef657e7b86aacd788342dfae58603",
+    "CoB_L.slp": "1de0bc0fb46a0975ed527d3dae77ae42a174e8832945e15fc5c44888c69807c1"
+  }
+}

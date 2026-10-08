@@ -1,0 +1,2005 @@
+{
+  "status": "PASS",
+  "runs": [
+    {
+      "case": "fullarchive_L_exchange3",
+      "status": "EXHAUSTED",
+      "diagnostic": "EXHAUSTED_3_FOR_2 closures=4742706 pairs=66 triples=220 seconds=1.57796",
+      "witness": ""
+    },
+    {
+      "case": "fullarchive_P_exchange3",
+      "status": "EXHAUSTED",
+      "diagnostic": "EXHAUSTED_3_FOR_2 closures=46445141 pairs=136 triples=680 seconds=48.5684",
+      "witness": ""
+    },
+    {
+      "case": "kernel_L_exchange3",
+      "status": "EXHAUSTED",
+      "diagnostic": "EXHAUSTED_3_FOR_2 closures=3328143 pairs=66 triples=220 seconds=0.878563",
+      "witness": ""
+    },
+    {
+      "case": "kernel_L_exchange4",
+      "status": "EXHAUSTED",
+      "diagnostic": "quads=495\nEXHAUSTED_4_FOR_3 closures=106850274 pairs=66 triples=220 seconds=71.1004",
+      "witness": ""
+    },
+    {
+      "case": "kernel_P_exchange3",
+      "status": "EXHAUSTED",
+      "diagnostic": "EXHAUSTED_3_FOR_2 closures=4691044 pairs=136 triples=680 seconds=1.0091",
+      "witness": ""
+    },
+    {
+      "case": "kernel_P_exchange4",
+      "status": "EXHAUSTED",
+      "diagnostic": "quads=2380\nEXHAUSTED_4_FOR_3 closures=200519150 pairs=136 triples=680 seconds=107.329",
+      "witness": ""
+    },
+    {
+      "case": "ordinary_P_exchange3",
+      "status": "EXHAUSTED",
+      "diagnostic": "EXHAUSTED_3_FOR_2 closures=3351379 pairs=190 triples=1140 seconds=0.792961",
+      "witness": ""
+    },
+    {
+      "case": "roots",
+      "number": 0,
+      "roots": [
+        0,
+        1,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        20
+      ],
+      "added_roots": [
+        20
+      ],
+      "removed_roots": [
+        2
+      ],
+      "status": "EXHAUSTED",
+      "diagnostic": "EXHAUSTED_3_FOR_2 closures=3301400 pairs=66 triples=220 seconds=1.06352",
+      "witness": ""
+    },
+    {
+      "case": "roots",
+      "number": 1,
+      "roots": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        20
+      ],
+      "added_roots": [
+        20
+      ],
+      "removed_roots": [
+        4
+      ],
+      "status": "EXHAUSTED",
+      "diagnostic": "EXHAUSTED_3_FOR_2 closures=3666132 pairs=66 triples=220 seconds=1.1934",
+      "witness": ""
+    },
+    {
+      "case": "roots",
+      "number": 2,
+      "roots": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        14,
+        15,
+        20
+      ],
+      "added_roots": [
+        20
+      ],
+      "removed_roots": [
+        13
+      ],
+      "status": "EXHAUSTED",
+      "diagnostic": "EXHAUSTED_3_FOR_2 closures=3657487 pairs=66 triples=220 seconds=1.19082",
+      "witness": ""
+    },
+    {
+      "case": "roots",
+      "number": 3,
+      "roots": [
+        0,
+        1,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        21
+      ],
+      "added_roots": [
+        21
+      ],
+      "removed_roots": [
+        2
+      ],
+      "status": "EXHAUSTED",
+      "diagnostic": "EXHAUSTED_3_FOR_2 closures=3232884 pairs=66 triples=220 seconds=1.06934",
+      "witness": ""
+    },
+    {
+      "case": "roots",
+      "number": 4,
+      "roots": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        21
+      ],
+      "added_roots": [
+        21
+      ],
+      "removed_roots": [
+        4
+      ],
+      "status": "EXHAUSTED",
+      "diagnostic": "EXHAUSTED_3_FOR_2 closures=3433379 pairs=66 triples=220 seconds=1.17435",
+      "witness": ""
+    },
+    {
+      "case": "roots",
+      "number": 5,
+      "roots": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        13,
+        14,
+        15,
+        21
+      ],
+      "added_roots": [
+        21
+      ],
+      "removed_roots": [
+        12
+      ],
+      "status": "EXHAUSTED",
+      "diagnostic": "EXHAUSTED_3_FOR_2 closures=3439514 pairs=66 triples=220 seconds=1.18931",
+      "witness": ""
+    },
+    {
+      "case": "roots",
+      "number": 6,
+      "roots": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        22
+      ],
+      "added_roots": [
+        22
+      ],
+      "removed_roots": [
+        0
+      ],
+      "status": "EXHAUSTED",
+      "diagnostic": "EXHAUSTED_3_FOR_2 closures=4182092 pairs=66 triples=220 seconds=1.48193",
+      "witness": ""
+    },
+    {
+      "case": "roots",
+      "number": 7,
+      "roots": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        22
+      ],
+      "added_roots": [
+        22
+      ],
+      "removed_roots": [
+        7
+      ],
+      "status": "EXHAUSTED",
+      "diagnostic": "EXHAUSTED_3_FOR_2 closures=3621069 pairs=66 triples=220 seconds=1.11377",
+      "witness": ""
+    },
+    {
+      "case": "roots",
+      "number": 8,
+      "roots": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        22
+      ],
+      "added_roots": [
+        22
+      ],
+      "removed_roots": [
+        9
+      ],
+      "status": "EXHAUSTED",
+      "diagnostic": "EXHAUSTED_3_FOR_2 closures=4161135 pairs=66 triples=220 seconds=1.26333",
+      "witness": ""
+    },
+    {
+      "case": "roots",
+      "number": 9,
+      "roots": [
+        0,
+        1,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        23
+      ],
+      "added_roots": [
+        23
+      ],
+      "removed_roots": [
+        2
+      ],
+      "status": "EXHAUSTED",
+      "diagnostic": "EXHAUSTED_3_FOR_2 closures=2889510 pairs=66 triples=220 seconds=0.954701",
+      "witness": ""
+    },
+    {
+      "case": "roots",
+      "number": 10,
+      "roots": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        23
+      ],
+      "added_roots": [
+        23
+      ],
+      "removed_roots": [
+        5
+      ],
+      "status": "EXHAUSTED",
+      "diagnostic": "EXHAUSTED_3_FOR_2 closures=3811438 pairs=66 triples=220 seconds=1.20539",
+      "witness": ""
+    },
+    {
+      "case": "roots",
+      "number": 11,
+      "roots": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        15,
+        23
+      ],
+      "added_roots": [
+        23
+      ],
+      "removed_roots": [
+        14
+      ],
+      "status": "EXHAUSTED",
+      "diagnostic": "EXHAUSTED_3_FOR_2 closures=3734482 pairs=66 triples=220 seconds=1.20527",
+      "witness": ""
+    },
+    {
+      "case": "roots",
+      "number": 12,
+      "roots": [
+        0,
+        1,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        13,
+        14,
+        15,
+        20,
+        21
+      ],
+      "added_roots": [
+        20,
+        21
+      ],
+      "removed_roots": [
+        2,
+        12
+      ],
+      "status": "EXHAUSTED",
+      "diagnostic": "EXHAUSTED_3_FOR_2 closures=3363496 pairs=66 triples=220 seconds=1.06088",
+      "witness": ""
+    },
+    {
+      "case": "roots",
+      "number": 13,
+      "roots": [
+        0,
+        1,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        14,
+        15,
+        20,
+        21
+      ],
+      "added_roots": [
+        20,
+        21
+      ],
+      "removed_roots": [
+        2,
+        13
+      ],
+      "status": "EXHAUSTED",
+      "diagnostic": "EXHAUSTED_3_FOR_2 closures=3360440 pairs=66 triples=220 seconds=1.06424",
+      "witness": ""
+    },
+    {
+      "case": "roots",
+      "number": 14,
+      "roots": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        13,
+        14,
+        15,
+        20,
+        21
+      ],
+      "added_roots": [
+        20,
+        21
+      ],
+      "removed_roots": [
+        4,
+        12
+      ],
+      "status": "EXHAUSTED",
+      "diagnostic": "EXHAUSTED_3_FOR_2 closures=4100599 pairs=66 triples=220 seconds=1.27505",
+      "witness": ""
+    },
+    {
+      "case": "roots",
+      "number": 15,
+      "roots": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        14,
+        15,
+        20,
+        21
+      ],
+      "added_roots": [
+        20,
+        21
+      ],
+      "removed_roots": [
+        4,
+        13
+      ],
+      "status": "EXHAUSTED",
+      "diagnostic": "EXHAUSTED_3_FOR_2 closures=4092329 pairs=66 triples=220 seconds=1.3041",
+      "witness": ""
+    },
+    {
+      "case": "roots",
+      "number": 16,
+      "roots": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        14,
+        15,
+        20,
+        21
+      ],
+      "added_roots": [
+        20,
+        21
+      ],
+      "removed_roots": [
+        12,
+        13
+      ],
+      "status": "EXHAUSTED",
+      "diagnostic": "EXHAUSTED_3_FOR_2 closures=4108048 pairs=66 triples=220 seconds=1.23955",
+      "witness": ""
+    },
+    {
+      "case": "roots",
+      "number": 17,
+      "roots": [
+        1,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        20,
+        22
+      ],
+      "added_roots": [
+        20,
+        22
+      ],
+      "removed_roots": [
+        0,
+        2
+      ],
+      "status": "EXHAUSTED",
+      "diagnostic": "EXHAUSTED_3_FOR_2 closures=4153699 pairs=66 triples=220 seconds=1.27295",
+      "witness": ""
+    },
+    {
+      "case": "roots",
+      "number": 18,
+      "roots": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        20,
+        22
+      ],
+      "added_roots": [
+        20,
+        22
+      ],
+      "removed_roots": [
+        0,
+        4
+      ],
+      "status": "EXHAUSTED",
+      "diagnostic": "EXHAUSTED_3_FOR_2 closures=4577477 pairs=66 triples=220 seconds=1.36232",
+      "witness": ""
+    },
+    {
+      "case": "roots",
+      "number": 19,
+      "roots": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        14,
+        15,
+        20,
+        22
+      ],
+      "added_roots": [
+        20,
+        22
+      ],
+      "removed_roots": [
+        0,
+        13
+      ],
+      "status": "EXHAUSTED",
+      "diagnostic": "EXHAUSTED_3_FOR_2 closures=4567629 pairs=66 triples=220 seconds=1.45548",
+      "witness": ""
+    },
+    {
+      "case": "roots",
+      "number": 20,
+      "roots": [
+        0,
+        1,
+        3,
+        4,
+        5,
+        6,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        20,
+        22
+      ],
+      "added_roots": [
+        20,
+        22
+      ],
+      "removed_roots": [
+        2,
+        7
+      ],
+      "status": "EXHAUSTED",
+      "diagnostic": "EXHAUSTED_3_FOR_2 closures=3591766 pairs=66 triples=220 seconds=1.15102",
+      "witness": ""
+    },
+    {
+      "case": "roots",
+      "number": 21,
+      "roots": [
+        0,
+        1,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        20,
+        22
+      ],
+      "added_roots": [
+        20,
+        22
+      ],
+      "removed_roots": [
+        2,
+        9
+      ],
+      "status": "EXHAUSTED",
+      "diagnostic": "EXHAUSTED_3_FOR_2 closures=4132999 pairs=66 triples=220 seconds=1.30663",
+      "witness": ""
+    },
+    {
+      "case": "roots",
+      "number": 22,
+      "roots": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        6,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        20,
+        22
+      ],
+      "added_roots": [
+        20,
+        22
+      ],
+      "removed_roots": [
+        4,
+        7
+      ],
+      "status": "EXHAUSTED",
+      "diagnostic": "EXHAUSTED_3_FOR_2 closures=3962913 pairs=66 triples=220 seconds=1.28978",
+      "witness": ""
+    },
+    {
+      "case": "roots",
+      "number": 23,
+      "roots": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        20,
+        22
+      ],
+      "added_roots": [
+        20,
+        22
+      ],
+      "removed_roots": [
+        4,
+        9
+      ],
+      "status": "EXHAUSTED",
+      "diagnostic": "EXHAUSTED_3_FOR_2 closures=4562940 pairs=66 triples=220 seconds=1.42991",
+      "witness": ""
+    },
+    {
+      "case": "roots",
+      "number": 24,
+      "roots": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        9,
+        10,
+        11,
+        12,
+        14,
+        15,
+        20,
+        22
+      ],
+      "added_roots": [
+        20,
+        22
+      ],
+      "removed_roots": [
+        7,
+        13
+      ],
+      "status": "EXHAUSTED",
+      "diagnostic": "EXHAUSTED_3_FOR_2 closures=3956726 pairs=66 triples=220 seconds=1.33884",
+      "witness": ""
+    },
+    {
+      "case": "roots",
+      "number": 25,
+      "roots": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11,
+        12,
+        14,
+        15,
+        20,
+        22
+      ],
+      "added_roots": [
+        20,
+        22
+      ],
+      "removed_roots": [
+        9,
+        13
+      ],
+      "status": "EXHAUSTED",
+      "diagnostic": "EXHAUSTED_3_FOR_2 closures=4550598 pairs=66 triples=220 seconds=1.46595",
+      "witness": ""
+    },
+    {
+      "case": "roots",
+      "number": 26,
+      "roots": [
+        0,
+        1,
+        3,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        20,
+        23
+      ],
+      "added_roots": [
+        20,
+        23
+      ],
+      "removed_roots": [
+        2,
+        4
+      ],
+      "status": "EXHAUSTED",
+      "diagnostic": "EXHAUSTED_3_FOR_2 closures=3633144 pairs=66 triples=220 seconds=1.14801",
+      "witness": ""
+    },
+    {
+      "case": "roots",
+      "number": 27,
+      "roots": [
+        0,
+        1,
+        3,
+        4,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        20,
+        23
+      ],
+      "added_roots": [
+        20,
+        23
+      ],
+      "removed_roots": [
+        2,
+        5
+      ],
+      "status": "EXHAUSTED",
+      "diagnostic": "EXHAUSTED_3_FOR_2 closures=4062649 pairs=66 triples=220 seconds=1.33039",
+      "witness": ""
+    },
+    {
+      "case": "roots",
+      "number": 28,
+      "roots": [
+        0,
+        1,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        14,
+        15,
+        20,
+        23
+      ],
+      "added_roots": [
+        20,
+        23
+      ],
+      "removed_roots": [
+        2,
+        13
+      ],
+      "status": "EXHAUSTED",
+      "diagnostic": "EXHAUSTED_3_FOR_2 closures=3416845 pairs=66 triples=220 seconds=1.08978",
+      "witness": ""
+    },
+    {
+      "case": "roots",
+      "number": 29,
+      "roots": [
+        0,
+        1,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        15,
+        20,
+        23
+      ],
+      "added_roots": [
+        20,
+        23
+      ],
+      "removed_roots": [
+        2,
+        14
+      ],
+      "status": "EXHAUSTED",
+      "diagnostic": "EXHAUSTED_3_FOR_2 closures=3876593 pairs=66 triples=220 seconds=1.22748",
+      "witness": ""
+    },
+    {
+      "case": "roots",
+      "number": 30,
+      "roots": [
+        0,
+        1,
+        2,
+        3,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        20,
+        23
+      ],
+      "added_roots": [
+        20,
+        23
+      ],
+      "removed_roots": [
+        4,
+        5
+      ],
+      "status": "EXHAUSTED",
+      "diagnostic": "EXHAUSTED_3_FOR_2 closures=4207223 pairs=66 triples=220 seconds=1.27206",
+      "witness": ""
+    },
+    {
+      "case": "roots",
+      "number": 31,
+      "roots": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        15,
+        20,
+        23
+      ],
+      "added_roots": [
+        20,
+        23
+      ],
+      "removed_roots": [
+        4,
+        14
+      ],
+      "status": "EXHAUSTED",
+      "diagnostic": "EXHAUSTED_3_FOR_2 closures=4117944 pairs=66 triples=220 seconds=1.28249",
+      "witness": ""
+    },
+    {
+      "case": "roots",
+      "number": 32,
+      "roots": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        14,
+        15,
+        20,
+        23
+      ],
+      "added_roots": [
+        20,
+        23
+      ],
+      "removed_roots": [
+        5,
+        13
+      ],
+      "status": "EXHAUSTED",
+      "diagnostic": "EXHAUSTED_3_FOR_2 closures=4189696 pairs=66 triples=220 seconds=1.30528",
+      "witness": ""
+    },
+    {
+      "case": "roots",
+      "number": 33,
+      "roots": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        15,
+        20,
+        23
+      ],
+      "added_roots": [
+        20,
+        23
+      ],
+      "removed_roots": [
+        13,
+        14
+      ],
+      "status": "EXHAUSTED",
+      "diagnostic": "EXHAUSTED_3_FOR_2 closures=4107392 pairs=66 triples=220 seconds=1.29549",
+      "witness": ""
+    },
+    {
+      "case": "roots",
+      "number": 34,
+      "roots": [
+        1,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        21,
+        22
+      ],
+      "added_roots": [
+        21,
+        22
+      ],
+      "removed_roots": [
+        0,
+        2
+      ],
+      "status": "EXHAUSTED",
+      "diagnostic": "EXHAUSTED_3_FOR_2 closures=4075296 pairs=66 triples=220 seconds=1.26603",
+      "witness": ""
+    },
+    {
+      "case": "roots",
+      "number": 35,
+      "roots": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        21,
+        22
+      ],
+      "added_roots": [
+        21,
+        22
+      ],
+      "removed_roots": [
+        0,
+        4
+      ],
+      "status": "EXHAUSTED",
+      "diagnostic": "EXHAUSTED_3_FOR_2 closures=4311129 pairs=66 triples=220 seconds=1.33624",
+      "witness": ""
+    },
+    {
+      "case": "roots",
+      "number": 36,
+      "roots": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        13,
+        14,
+        15,
+        21,
+        22
+      ],
+      "added_roots": [
+        21,
+        22
+      ],
+      "removed_roots": [
+        0,
+        12
+      ],
+      "status": "EXHAUSTED",
+      "diagnostic": "EXHAUSTED_3_FOR_2 closures=4318604 pairs=66 triples=220 seconds=1.29349",
+      "witness": ""
+    },
+    {
+      "case": "roots",
+      "number": 37,
+      "roots": [
+        0,
+        1,
+        3,
+        4,
+        5,
+        6,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        21,
+        22
+      ],
+      "added_roots": [
+        21,
+        22
+      ],
+      "removed_roots": [
+        2,
+        7
+      ],
+      "status": "EXHAUSTED",
+      "diagnostic": "EXHAUSTED_3_FOR_2 closures=3523933 pairs=66 triples=220 seconds=1.11072",
+      "witness": ""
+    },
+    {
+      "case": "roots",
+      "number": 38,
+      "roots": [
+        0,
+        1,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        21,
+        22
+      ],
+      "added_roots": [
+        21,
+        22
+      ],
+      "removed_roots": [
+        2,
+        9
+      ],
+      "status": "EXHAUSTED",
+      "diagnostic": "EXHAUSTED_3_FOR_2 closures=4051500 pairs=66 triples=220 seconds=1.2289",
+      "witness": ""
+    },
+    {
+      "case": "roots",
+      "number": 39,
+      "roots": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        6,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        21,
+        22
+      ],
+      "added_roots": [
+        21,
+        22
+      ],
+      "removed_roots": [
+        4,
+        7
+      ],
+      "status": "EXHAUSTED",
+      "diagnostic": "EXHAUSTED_3_FOR_2 closures=3737926 pairs=66 triples=220 seconds=1.17215",
+      "witness": ""
+    },
+    {
+      "case": "roots",
+      "number": 40,
+      "roots": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        21,
+        22
+      ],
+      "added_roots": [
+        21,
+        22
+      ],
+      "removed_roots": [
+        4,
+        9
+      ],
+      "status": "EXHAUSTED",
+      "diagnostic": "EXHAUSTED_3_FOR_2 closures=4288849 pairs=66 triples=220 seconds=1.29162",
+      "witness": ""
+    },
+    {
+      "case": "roots",
+      "number": 41,
+      "roots": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        9,
+        10,
+        11,
+        13,
+        14,
+        15,
+        21,
+        22
+      ],
+      "added_roots": [
+        21,
+        22
+      ],
+      "removed_roots": [
+        7,
+        12
+      ],
+      "status": "EXHAUSTED",
+      "diagnostic": "EXHAUSTED_3_FOR_2 closures=3745017 pairs=66 triples=220 seconds=1.14232",
+      "witness": ""
+    },
+    {
+      "case": "roots",
+      "number": 42,
+      "roots": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11,
+        13,
+        14,
+        15,
+        21,
+        22
+      ],
+      "added_roots": [
+        21,
+        22
+      ],
+      "removed_roots": [
+        9,
+        12
+      ],
+      "status": "EXHAUSTED",
+      "diagnostic": "EXHAUSTED_3_FOR_2 closures=4296312 pairs=66 triples=220 seconds=1.31209",
+      "witness": ""
+    },
+    {
+      "case": "roots",
+      "number": 43,
+      "roots": [
+        0,
+        1,
+        3,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        21,
+        23
+      ],
+      "added_roots": [
+        21,
+        23
+      ],
+      "removed_roots": [
+        2,
+        4
+      ],
+      "status": "EXHAUSTED",
+      "diagnostic": "EXHAUSTED_3_FOR_2 closures=3351258 pairs=66 triples=220 seconds=1.08538",
+      "witness": ""
+    },
+    {
+      "case": "roots",
+      "number": 44,
+      "roots": [
+        0,
+        1,
+        3,
+        4,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        21,
+        23
+      ],
+      "added_roots": [
+        21,
+        23
+      ],
+      "removed_roots": [
+        2,
+        5
+      ],
+      "status": "EXHAUSTED",
+      "diagnostic": "EXHAUSTED_3_FOR_2 closures=3754893 pairs=66 triples=220 seconds=1.20401",
+      "witness": ""
+    },
+    {
+      "case": "roots",
+      "number": 45,
+      "roots": [
+        0,
+        1,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        13,
+        14,
+        15,
+        21,
+        23
+      ],
+      "added_roots": [
+        21,
+        23
+      ],
+      "removed_roots": [
+        2,
+        12
+      ],
+      "status": "EXHAUSTED",
+      "diagnostic": "EXHAUSTED_3_FOR_2 closures=2997603 pairs=66 triples=220 seconds=0.97855",
+      "witness": ""
+    },
+    {
+      "case": "roots",
+      "number": 46,
+      "roots": [
+        0,
+        1,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        15,
+        21,
+        23
+      ],
+      "added_roots": [
+        21,
+        23
+      ],
+      "removed_roots": [
+        2,
+        14
+      ],
+      "status": "EXHAUSTED",
+      "diagnostic": "EXHAUSTED_3_FOR_2 closures=3651399 pairs=66 triples=220 seconds=1.15439",
+      "witness": ""
+    },
+    {
+      "case": "roots",
+      "number": 47,
+      "roots": [
+        0,
+        1,
+        2,
+        3,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        21,
+        23
+      ],
+      "added_roots": [
+        21,
+        23
+      ],
+      "removed_roots": [
+        4,
+        5
+      ],
+      "status": "EXHAUSTED",
+      "diagnostic": "EXHAUSTED_3_FOR_2 closures=3923878 pairs=66 triples=220 seconds=1.38772",
+      "witness": ""
+    },
+    {
+      "case": "roots",
+      "number": 48,
+      "roots": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        15,
+        21,
+        23
+      ],
+      "added_roots": [
+        21,
+        23
+      ],
+      "removed_roots": [
+        4,
+        14
+      ],
+      "status": "EXHAUSTED",
+      "diagnostic": "EXHAUSTED_3_FOR_2 closures=3844149 pairs=66 triples=220 seconds=1.45355",
+      "witness": ""
+    },
+    {
+      "case": "roots",
+      "number": 49,
+      "roots": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        13,
+        14,
+        15,
+        21,
+        23
+      ],
+      "added_roots": [
+        21,
+        23
+      ],
+      "removed_roots": [
+        5,
+        12
+      ],
+      "status": "EXHAUSTED",
+      "diagnostic": "EXHAUSTED_3_FOR_2 closures=3928607 pairs=66 triples=220 seconds=1.30131",
+      "witness": ""
+    },
+    {
+      "case": "roots",
+      "number": 50,
+      "roots": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        13,
+        15,
+        21,
+        23
+      ],
+      "added_roots": [
+        21,
+        23
+      ],
+      "removed_roots": [
+        12,
+        14
+      ],
+      "status": "EXHAUSTED",
+      "diagnostic": "EXHAUSTED_3_FOR_2 closures=3850583 pairs=66 triples=220 seconds=1.2589",
+      "witness": ""
+    },
+    {
+      "case": "roots",
+      "number": 51,
+      "roots": [
+        1,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        22,
+        23
+      ],
+      "added_roots": [
+        22,
+        23
+      ],
+      "removed_roots": [
+        0,
+        2
+      ],
+      "status": "EXHAUSTED",
+      "diagnostic": "EXHAUSTED_3_FOR_2 closures=3649090 pairs=66 triples=220 seconds=1.1378",
+      "witness": ""
+    },
+    {
+      "case": "roots",
+      "number": 52,
+      "roots": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        22,
+        23
+      ],
+      "added_roots": [
+        22,
+        23
+      ],
+      "removed_roots": [
+        0,
+        5
+      ],
+      "status": "EXHAUSTED",
+      "diagnostic": "EXHAUSTED_3_FOR_2 closures=4779471 pairs=66 triples=220 seconds=1.52772",
+      "witness": ""
+    },
+    {
+      "case": "roots",
+      "number": 53,
+      "roots": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        15,
+        22,
+        23
+      ],
+      "added_roots": [
+        22,
+        23
+      ],
+      "removed_roots": [
+        0,
+        14
+      ],
+      "status": "EXHAUSTED",
+      "diagnostic": "EXHAUSTED_3_FOR_2 closures=4692839 pairs=66 triples=220 seconds=1.45076",
+      "witness": ""
+    },
+    {
+      "case": "roots",
+      "number": 54,
+      "roots": [
+        0,
+        1,
+        3,
+        4,
+        5,
+        6,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        22,
+        23
+      ],
+      "added_roots": [
+        22,
+        23
+      ],
+      "removed_roots": [
+        2,
+        7
+      ],
+      "status": "EXHAUSTED",
+      "diagnostic": "EXHAUSTED_3_FOR_2 closures=3134720 pairs=66 triples=220 seconds=0.98828",
+      "witness": ""
+    },
+    {
+      "case": "roots",
+      "number": 55,
+      "roots": [
+        0,
+        1,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        22,
+        23
+      ],
+      "added_roots": [
+        22,
+        23
+      ],
+      "removed_roots": [
+        2,
+        9
+      ],
+      "status": "EXHAUSTED",
+      "diagnostic": "EXHAUSTED_3_FOR_2 closures=3635226 pairs=66 triples=220 seconds=1.15575",
+      "witness": ""
+    },
+    {
+      "case": "roots",
+      "number": 56,
+      "roots": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        22,
+        23
+      ],
+      "added_roots": [
+        22,
+        23
+      ],
+      "removed_roots": [
+        5,
+        7
+      ],
+      "status": "EXHAUSTED",
+      "diagnostic": "EXHAUSTED_3_FOR_2 closures=4129882 pairs=66 triples=220 seconds=1.26539",
+      "witness": ""
+    },
+    {
+      "case": "roots",
+      "number": 57,
+      "roots": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6,
+        7,
+        8,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        22,
+        23
+      ],
+      "added_roots": [
+        22,
+        23
+      ],
+      "removed_roots": [
+        5,
+        9
+      ],
+      "status": "EXHAUSTED",
+      "diagnostic": "EXHAUSTED_3_FOR_2 closures=4761358 pairs=66 triples=220 seconds=1.42418",
+      "witness": ""
+    },
+    {
+      "case": "roots",
+      "number": 58,
+      "roots": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        15,
+        22,
+        23
+      ],
+      "added_roots": [
+        22,
+        23
+      ],
+      "removed_roots": [
+        7,
+        14
+      ],
+      "status": "EXHAUSTED",
+      "diagnostic": "EXHAUSTED_3_FOR_2 closures=4052545 pairs=66 triples=220 seconds=1.24971",
+      "witness": ""
+    },
+    {
+      "case": "roots",
+      "number": 59,
+      "roots": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11,
+        12,
+        13,
+        15,
+        22,
+        23
+      ],
+      "added_roots": [
+        22,
+        23
+      ],
+      "removed_roots": [
+        9,
+        14
+      ],
+      "status": "EXHAUSTED",
+      "diagnostic": "EXHAUSTED_3_FOR_2 closures=4674794 pairs=66 triples=220 seconds=1.42072",
+      "witness": ""
+    }
+  ],
+  "seconds": 320.6035797079094,
+  "scope": "Only the stated finite signed helper/root neighborhoods; not a global optimum. Found signed witnesses require strict sign/scalar accounting before use as upper bounds."
+}

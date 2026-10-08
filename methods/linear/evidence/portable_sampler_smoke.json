@@ -1,0 +1,14 @@
+[
+  {
+    "name": "distance_p0_slack2_save0_s800",
+    "mode": "distance",
+    "preset": 0,
+    "slack": 2,
+    "savings": "0",
+    "seed": 800,
+    "status": "PASS",
+    "additions": 88,
+    "diagnostic": "vec/dst1/slack2 seed=800 additions=88 upstream_validation=PASS",
+    "seconds": 0.5768374588806182
+  }
+]

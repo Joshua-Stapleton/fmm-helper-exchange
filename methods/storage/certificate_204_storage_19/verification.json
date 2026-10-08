@@ -1,0 +1,52 @@
+{
+  "status": "PASS",
+  "storage_peaks": {
+    "L": {
+      "source_destructive": 38,
+      "source_nondestructive": 39,
+      "chosen_destructive": 38,
+      "chosen_nondestructive": 39
+    },
+    "R": {
+      "source_destructive": 38,
+      "source_nondestructive": 39,
+      "chosen_destructive": 38,
+      "chosen_nondestructive": 39
+    },
+    "P": {
+      "source_destructive": 26,
+      "source_nondestructive": 27,
+      "chosen_destructive": 19,
+      "chosen_nondestructive": 20,
+      "mutable_product_inputs": 48,
+      "source_mutable_product_inputs": 48
+    }
+  },
+  "arithmetic": {
+    "L": {
+      "additions": 55,
+      "scalar_multiplications": 2,
+      "negations": 0
+    },
+    "R": {
+      "additions": 55,
+      "scalar_multiplications": 2,
+      "negations": 0
+    },
+    "P": {
+      "additions": 90,
+      "scalar_multiplications": 0,
+      "negations": 0
+    }
+  },
+  "total_linear_operations": 204,
+  "tensor_coefficients_checked": 4096,
+  "input_lower_bound_and_attained": 76,
+  "scope": "Specified fixed DAG and atomic-operation allocation model; no wall-time, bandwidth, or whole-recursion claim.",
+  "C_assignments_exactly_match_verified_allocation": 90,
+  "sha256": {
+    "R_scheduled.slp": "fcf7acf04ee094052ce00837dcc99b06675390ab77b0dde84add50ecaa15b9de",
+    "P_scheduled.slp": "692267a85ae68aa51cc146a4fca836edca24e8d343a58cae072665ce3fbb7ebd",
+    "L_scheduled.slp": "4d7763bf0cad304d350ba29596777113a79a17f0deb19239279f9a5dff56fe01"
+  }
+}

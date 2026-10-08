@@ -1,0 +1,122 @@
+{
+  "status": "PASS",
+  "source_sha256": "8d0d9eff0bb7db2307a156c2709eb3ec66b1b16f22ec52eb8a929e18d8f1f79b",
+  "source_verification": {
+    "status": "PASS",
+    "dimensions": [
+      3,
+      3,
+      3
+    ],
+    "rank": 23,
+    "kernel": 51,
+    "boundary": 23,
+    "full": 74,
+    "nonunit_scalars": 0,
+    "tensor_identities": 729,
+    "map_costs": {
+      "A_boundary": {
+        "additions": 8,
+        "nonunit_scalars": 0
+      },
+      "B_boundary": {
+        "additions": 7,
+        "nonunit_scalars": 0
+      },
+      "U": {
+        "additions": 12,
+        "nonunit_scalars": 0
+      },
+      "V": {
+        "additions": 12,
+        "nonunit_scalars": 0
+      },
+      "W": {
+        "additions": 27,
+        "nonunit_scalars": 0
+      },
+      "C_boundary": {
+        "additions": 8,
+        "nonunit_scalars": 0
+      }
+    },
+    "boundary_determinants": {
+      "A_boundary": 1,
+      "B_boundary": 1,
+      "C_boundary": -1
+    }
+  },
+  "source_kernel_additions": 51,
+  "source_kernel_split": [
+    12,
+    12,
+    27
+  ],
+  "source_costs": {
+    "U": {
+      "additions": 12,
+      "nonunit_scalars": 0
+    },
+    "V": {
+      "additions": 12,
+      "nonunit_scalars": 0
+    },
+    "W": {
+      "additions": 27,
+      "nonunit_scalars": 0
+    }
+  },
+  "closure_checks": {
+    "U": {
+      "unique_signed_targets": 20,
+      "rank": 9,
+      "base_rules": 30,
+      "root9_subsets_covered": 167960,
+      "distinct_root9_closures": 2915,
+      "largest_root9_closure": 19,
+      "no_11_gate_circuit": true
+    },
+    "V": {
+      "unique_signed_targets": 20,
+      "rank": 9,
+      "base_rules": 27,
+      "root9_subsets_covered": 167960,
+      "distinct_root9_closures": 5660,
+      "largest_root9_closure": 18,
+      "no_11_gate_circuit": true
+    },
+    "W": {
+      "unique_signed_targets": 20,
+      "rank": 9,
+      "base_rules": 27,
+      "root9_subsets_covered": 167960,
+      "distinct_root9_closures": 5455,
+      "largest_root9_closure": 18,
+      "no_11_gate_circuit": true,
+      "helper_candidates": 358,
+      "root8_subsets_covered": 125970,
+      "distinct_root8_closures": 8284,
+      "covered_root_subsets_with_helpers": 105226940,
+      "distinct_closure_tests": 4918562,
+      "max_targets_reached": 19,
+      "per_helper_digest": "74bdcd5689d52443670ed45ac23d2248c3e4d27a49daef57642c062c1bee2a96",
+      "no_12_gate_circuit": true,
+      "transposed_decoder_lower_bound": 13
+    }
+  },
+  "decoder_all23_product_inputs_used": true,
+  "decoder_rank": 9,
+  "transposition_offset": 14,
+  "fixed_scaled_scheme_kernel_lower_bound": 51,
+  "lower_bound_split": [
+    12,
+    12,
+    27
+  ],
+  "optimal_in_stated_class": true,
+  "field": "Q",
+  "kernel_model": "three separate linear factor SLPs; addition/subtraction only; copies/signs/fanout free; no nonunit scalings",
+  "basis_scope": "arbitrary independent invertible9-dimensional input/output basis changes; boundary costs excluded",
+  "excluded_scope": "cross-factor or cross-degree sharing, nonunit rank-term rescalings, different decompositions, nonlinear kernels, unrestricted matrix multiplication",
+  "seconds": 5.326701749814674
+}

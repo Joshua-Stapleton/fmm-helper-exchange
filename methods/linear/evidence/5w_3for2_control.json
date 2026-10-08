@@ -1,0 +1,18 @@
+{
+  "name": "5w",
+  "baseline_additions_signed": 90,
+  "saved_witness_additions_signed": null,
+  "free_signed_wires": true,
+  "scope": "Fixed form pool; at most 3 incumbent helpers removed and 2 added; free signed wires.",
+  "seconds": 0.1987162500154227,
+  "diagnostic": "PASS closures=5895 pairs=29 triples=0 seconds=0.00368317",
+  "status": "FOUND",
+  "removed": [
+    63,
+    86
+  ],
+  "added": [
+    209
+  ],
+  "additions_signed": 89
+}

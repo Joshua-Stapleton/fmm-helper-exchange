@@ -1,0 +1,11 @@
+{
+  "candidate_bases": 60,
+  "maximum_target_root_exchanges": 2,
+  "new_target_roots": [
+    20,
+    21,
+    22,
+    23
+  ],
+  "scope": "all nonsingular replacements by at most2 of the4 norm3 target roots; up to3 incumbent helper removals and fewer additions, fixed328-form signed pool"
+}

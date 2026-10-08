@@ -1,0 +1,5642 @@
+{
+  "graph": {
+    "inputs": 16,
+    "nodes": [
+      {
+        "op": "add",
+        "a": 2,
+        "sa": 1,
+        "b": 14,
+        "sb": -1
+      },
+      {
+        "op": "add",
+        "a": 6,
+        "sa": 1,
+        "b": 8,
+        "sb": -1
+      },
+      {
+        "op": "add",
+        "a": 0,
+        "sa": 1,
+        "b": 12,
+        "sb": -1
+      },
+      {
+        "op": "add",
+        "a": 1,
+        "sa": 1,
+        "b": 13,
+        "sb": -1
+      },
+      {
+        "op": "add",
+        "a": 6,
+        "sa": 1,
+        "b": 7,
+        "sb": 1
+      },
+      {
+        "op": "add",
+        "a": 8,
+        "sa": 1,
+        "b": 11,
+        "sb": -1
+      },
+      {
+        "op": "add",
+        "a": 6,
+        "sa": 1,
+        "b": 16,
+        "sb": -1
+      },
+      {
+        "op": "add",
+        "a": 18,
+        "sa": 1,
+        "b": 8,
+        "sb": -1
+      },
+      {
+        "op": "add",
+        "a": 19,
+        "sa": 1,
+        "b": 9,
+        "sb": -1
+      },
+      {
+        "op": "add",
+        "a": 5,
+        "sa": 1,
+        "b": 19,
+        "sb": -1
+      },
+      {
+        "op": "add",
+        "a": 4,
+        "sa": 1,
+        "b": 20,
+        "sb": -1
+      },
+      {
+        "op": "add",
+        "a": 5,
+        "sa": 1,
+        "b": 20,
+        "sb": 1
+      },
+      {
+        "op": "add",
+        "a": 10,
+        "sa": 1,
+        "b": 21,
+        "sb": -1
+      },
+      {
+        "op": "add",
+        "a": 9,
+        "sa": 1,
+        "b": 21,
+        "sb": 1
+      },
+      {
+        "op": "add",
+        "a": 16,
+        "sa": 1,
+        "b": 18,
+        "sb": 1
+      },
+      {
+        "op": "scale",
+        "a": 30,
+        "q": "1/2"
+      },
+      {
+        "op": "add",
+        "a": 27,
+        "sa": 1,
+        "b": 29,
+        "sb": -1
+      },
+      {
+        "op": "add",
+        "a": 31,
+        "sa": 1,
+        "b": 6,
+        "sb": -1
+      },
+      {
+        "op": "add",
+        "a": 1,
+        "sa": 1,
+        "b": 31,
+        "sb": 1
+      },
+      {
+        "op": "add",
+        "a": 31,
+        "sa": 1,
+        "b": 8,
+        "sb": -1
+      },
+      {
+        "op": "add",
+        "a": 31,
+        "sa": 1,
+        "b": 16,
+        "sb": -1
+      },
+      {
+        "op": "add",
+        "a": 3,
+        "sa": 1,
+        "b": 36,
+        "sb": -1
+      },
+      {
+        "op": "add",
+        "a": 32,
+        "sa": 1,
+        "b": 17,
+        "sb": -1
+      },
+      {
+        "op": "scale",
+        "a": 38,
+        "q": "1/2"
+      },
+      {
+        "op": "add",
+        "a": 37,
+        "sa": 1,
+        "b": 15,
+        "sb": -1
+      },
+      {
+        "op": "add",
+        "a": 17,
+        "sa": 1,
+        "b": 39,
+        "sb": 1
+      },
+      {
+        "op": "add",
+        "a": 39,
+        "sa": 1,
+        "b": 11,
+        "sb": -1
+      },
+      {
+        "op": "add",
+        "a": 39,
+        "sa": 1,
+        "b": 7,
+        "sb": -1
+      },
+      {
+        "op": "add",
+        "a": 35,
+        "sa": 1,
+        "b": 39,
+        "sb": 1
+      },
+      {
+        "op": "add",
+        "a": 26,
+        "sa": 1,
+        "b": 41,
+        "sb": 1
+      },
+      {
+        "op": "add",
+        "a": 28,
+        "sa": 1,
+        "b": 41,
+        "sb": -1
+      },
+      {
+        "op": "add",
+        "a": 42,
+        "sa": 1,
+        "b": 24,
+        "sb": -1
+      },
+      {
+        "op": "add",
+        "a": 45,
+        "sa": 1,
+        "b": 12,
+        "sb": -1
+      },
+      {
+        "op": "add",
+        "a": 14,
+        "sa": 1,
+        "b": 46,
+        "sb": 1
+      },
+      {
+        "op": "add",
+        "a": 44,
+        "sa": 1,
+        "b": 47,
+        "sb": -1
+      },
+      {
+        "op": "add",
+        "a": 43,
+        "sa": 1,
+        "b": 48,
+        "sb": -1
+      },
+      {
+        "op": "add",
+        "a": 37,
+        "sa": 1,
+        "b": 48,
+        "sb": 1
+      },
+      {
+        "op": "add",
+        "a": 49,
+        "sa": 1,
+        "b": 42,
+        "sb": 1
+      },
+      {
+        "op": "add",
+        "a": 49,
+        "sa": 1,
+        "b": 48,
+        "sb": -1
+      },
+      {
+        "op": "add",
+        "a": 32,
+        "sa": 1,
+        "b": 50,
+        "sb": -1
+      },
+      {
+        "op": "add",
+        "a": 40,
+        "sa": 1,
+        "b": 50,
+        "sb": -1
+      },
+      {
+        "op": "add",
+        "a": 34,
+        "sa": 1,
+        "b": 52,
+        "sb": -1
+      },
+      {
+        "op": "add",
+        "a": 49,
+        "sa": 1,
+        "b": 52,
+        "sb": 1
+      },
+      {
+        "op": "add",
+        "a": 13,
+        "sa": 1,
+        "b": 54,
+        "sb": 1
+      },
+      {
+        "op": "add",
+        "a": 34,
+        "sa": 1,
+        "b": 54,
+        "sb": 1
+      },
+      {
+        "op": "add",
+        "a": 55,
+        "sa": 1,
+        "b": 40,
+        "sb": -1
+      },
+      {
+        "op": "add",
+        "a": 44,
+        "sa": 1,
+        "b": 55,
+        "sb": -1
+      },
+      {
+        "op": "add",
+        "a": 45,
+        "sa": 1,
+        "b": 57,
+        "sb": 1
+      },
+      {
+        "op": "add",
+        "a": 57,
+        "sa": 1,
+        "b": 43,
+        "sb": -1
+      },
+      {
+        "op": "add",
+        "a": 36,
+        "sa": 1,
+        "b": 58,
+        "sb": -1
+      },
+      {
+        "op": "add",
+        "a": 58,
+        "sa": 1,
+        "b": 40,
+        "sb": -1
+      },
+      {
+        "op": "add",
+        "a": 52,
+        "sa": 1,
+        "b": 60,
+        "sb": 1
+      },
+      {
+        "op": "add",
+        "a": 31,
+        "sa": 1,
+        "b": 60,
+        "sb": 1
+      },
+      {
+        "op": "add",
+        "a": 45,
+        "sa": 1,
+        "b": 62,
+        "sb": -1
+      },
+      {
+        "op": "add",
+        "a": 46,
+        "sa": 1,
+        "b": 62,
+        "sb": -1
+      },
+      {
+        "op": "add",
+        "a": 67,
+        "sa": 1,
+        "b": 46,
+        "sb": -1
+      },
+      {
+        "op": "add",
+        "a": 67,
+        "sa": 1,
+        "b": 42,
+        "sb": -1
+      }
+    ],
+    "outputs": [
+      [
+        63,
+        1
+      ],
+      [
+        27,
+        1
+      ],
+      [
+        28,
+        1
+      ],
+      [
+        35,
+        1
+      ],
+      [
+        53,
+        1
+      ],
+      [
+        13,
+        1
+      ],
+      [
+        70,
+        1
+      ],
+      [
+        66,
+        1
+      ],
+      [
+        67,
+        1
+      ],
+      [
+        7,
+        1
+      ],
+      [
+        59,
+        1
+      ],
+      [
+        37,
+        1
+      ],
+      [
+        11,
+        1
+      ],
+      [
+        8,
+        1
+      ],
+      [
+        41,
+        1
+      ],
+      [
+        15,
+        1
+      ],
+      [
+        33,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        34,
+        1
+      ],
+      [
+        68,
+        1
+      ],
+      [
+        29,
+        1
+      ],
+      [
+        58,
+        1
+      ],
+      [
+        24,
+        1
+      ],
+      [
+        72,
+        1
+      ],
+      [
+        49,
+        1
+      ],
+      [
+        64,
+        1
+      ],
+      [
+        22,
+        1
+      ],
+      [
+        57,
+        1
+      ],
+      [
+        71,
+        1
+      ],
+      [
+        23,
+        1
+      ],
+      [
+        61,
+        1
+      ],
+      [
+        60,
+        1
+      ],
+      [
+        14,
+        1
+      ],
+      [
+        50,
+        1
+      ],
+      [
+        48,
+        1
+      ],
+      [
+        65,
+        1
+      ],
+      [
+        25,
+        1
+      ],
+      [
+        47,
+        1
+      ],
+      [
+        69,
+        1
+      ],
+      [
+        55,
+        1
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        56,
+        1
+      ],
+      [
+        26,
+        1
+      ],
+      [
+        39,
+        1
+      ],
+      [
+        12,
+        1
+      ],
+      [
+        51,
+        1
+      ],
+      [
+        6,
+        1
+      ],
+      [
+        62,
+        1
+      ]
+    ]
+  },
+  "matrix": [
+    [
+      1,
+      1,
+      0,
+      -1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      -1,
+      0,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      "1/2",
+      0,
+      "1/2",
+      0,
+      0,
+      0,
+      0,
+      0,
+      -1,
+      0,
+      0,
+      0,
+      "-1/2",
+      0,
+      "-1/2",
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      -1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      -1,
+      -1,
+      -1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      0,
+      1,
+      1,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      -1,
+      -1,
+      -1,
+      0,
+      1,
+      1,
+      -1,
+      0,
+      1,
+      1
+    ],
+    [
+      0,
+      1,
+      1,
+      1,
+      0,
+      "-1/2",
+      -1,
+      "-1/2",
+      0,
+      "1/2",
+      1,
+      "1/2",
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      -1,
+      -1,
+      -1,
+      0,
+      1,
+      1,
+      1,
+      0,
+      1,
+      1,
+      1,
+      0
+    ],
+    [
+      "-1/2",
+      0,
+      "1/2",
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      "1/2",
+      0,
+      "-1/2",
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      "1/2",
+      1,
+      "1/2",
+      -1,
+      "-1/2",
+      0,
+      "1/2",
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    [
+      "1/2",
+      0,
+      "1/2",
+      0,
+      0,
+      0,
+      -1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      "-1/2",
+      0,
+      "-1/2",
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      "1/2",
+      1,
+      "1/2",
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      "-1/2",
+      0,
+      "-1/2",
+      0
+    ],
+    [
+      1,
+      1,
+      1,
+      0,
+      -1,
+      -1,
+      -1,
+      0,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      -1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      "-1/2",
+      0,
+      "1/2",
+      1,
+      1,
+      0,
+      -1,
+      -1,
+      -1,
+      0,
+      1,
+      1,
+      "-1/2",
+      0,
+      "1/2",
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      -1,
+      0,
+      0,
+      0,
+      -1,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      1,
+      1,
+      0,
+      -1,
+      -1,
+      -1,
+      0,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      "-1/2",
+      -1,
+      "-1/2",
+      0,
+      "1/2",
+      1,
+      "1/2",
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      1,
+      1,
+      0,
+      -1,
+      -1,
+      -1,
+      0,
+      1,
+      1,
+      1,
+      0,
+      -1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      -1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      1,
+      1,
+      0,
+      -1,
+      -1,
+      "-1/2",
+      0,
+      "1/2",
+      1,
+      "1/2",
+      0,
+      "-1/2",
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      -1,
+      0,
+      0,
+      0,
+      -1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      -1,
+      -1,
+      -1,
+      0,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1
+    ],
+    [
+      "1/2",
+      1,
+      "1/2",
+      0,
+      -1,
+      -1,
+      -1,
+      0,
+      1,
+      1,
+      1,
+      0,
+      "1/2",
+      0,
+      "1/2",
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      "1/2",
+      1,
+      "1/2",
+      0,
+      0,
+      0,
+      0,
+      0,
+      -1,
+      -1,
+      0,
+      1,
+      "-1/2",
+      -1,
+      "-1/2",
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1,
+      "1/2",
+      0,
+      "-1/2",
+      -1,
+      "-1/2",
+      0,
+      "1/2",
+      -1,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      0,
+      -1,
+      -1,
+      -1,
+      0,
+      1,
+      1,
+      1,
+      0,
+      -1,
+      -1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      -1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      -1,
+      0,
+      0,
+      0,
+      "1/2",
+      0,
+      "1/2",
+      0,
+      "1/2",
+      0,
+      "-1/2",
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      -1,
+      -1,
+      -1,
+      0,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      0
+    ],
+    [
+      "-1/2",
+      -1,
+      "-1/2",
+      0,
+      0,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      "1/2",
+      1,
+      "1/2",
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      -1,
+      -1,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      -1,
+      1,
+      1,
+      0,
+      -1
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      -1,
+      -1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      "1/2",
+      0,
+      "1/2",
+      0,
+      "-1/2",
+      0,
+      "1/2",
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      -1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      1,
+      1,
+      0,
+      0,
+      "-1/2",
+      -1,
+      "-1/2",
+      -1,
+      "-1/2",
+      0,
+      "1/2",
+      -1,
+      -1,
+      -1,
+      0
+    ]
+  ],
+  "allocations": {
+    "source_destructive": {
+      "peak_slots": 38,
+      "final_distinct_output_slots": 38,
+      "destructive_reuse": true,
+      "inputs_mutable": false,
+      "order": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56
+      ],
+      "instructions": [
+        {
+          "node": 0,
+          "destination_slot": 0,
+          "reads": {
+            "a": {
+              "input": 2
+            },
+            "b": {
+              "input": 14
+            }
+          },
+          "reused_wire": null,
+          "released_wires": []
+        },
+        {
+          "node": 1,
+          "destination_slot": 1,
+          "reads": {
+            "a": {
+              "input": 6
+            },
+            "b": {
+              "input": 8
+            }
+          },
+          "reused_wire": null,
+          "released_wires": []
+        },
+        {
+          "node": 2,
+          "destination_slot": 2,
+          "reads": {
+            "a": {
+              "input": 0
+            },
+            "b": {
+              "input": 12
+            }
+          },
+          "reused_wire": null,
+          "released_wires": []
+        },
+        {
+          "node": 3,
+          "destination_slot": 3,
+          "reads": {
+            "a": {
+              "input": 1
+            },
+            "b": {
+              "input": 13
+            }
+          },
+          "reused_wire": null,
+          "released_wires": []
+        },
+        {
+          "node": 4,
+          "destination_slot": 4,
+          "reads": {
+            "a": {
+              "input": 6
+            },
+            "b": {
+              "input": 7
+            }
+          },
+          "reused_wire": null,
+          "released_wires": []
+        },
+        {
+          "node": 5,
+          "destination_slot": 5,
+          "reads": {
+            "a": {
+              "input": 8
+            },
+            "b": {
+              "input": 11
+            }
+          },
+          "reused_wire": null,
+          "released_wires": []
+        },
+        {
+          "node": 6,
+          "destination_slot": 6,
+          "reads": {
+            "a": {
+              "input": 6
+            },
+            "b": {
+              "slot": 0
+            }
+          },
+          "reused_wire": null,
+          "released_wires": []
+        },
+        {
+          "node": 7,
+          "destination_slot": 7,
+          "reads": {
+            "a": {
+              "slot": 2
+            },
+            "b": {
+              "input": 8
+            }
+          },
+          "reused_wire": null,
+          "released_wires": []
+        },
+        {
+          "node": 8,
+          "destination_slot": 8,
+          "reads": {
+            "a": {
+              "slot": 3
+            },
+            "b": {
+              "input": 9
+            }
+          },
+          "reused_wire": null,
+          "released_wires": []
+        },
+        {
+          "node": 9,
+          "destination_slot": 3,
+          "reads": {
+            "a": {
+              "input": 5
+            },
+            "b": {
+              "slot": 3
+            }
+          },
+          "reused_wire": 19,
+          "released_wires": [
+            19
+          ]
+        },
+        {
+          "node": 10,
+          "destination_slot": 9,
+          "reads": {
+            "a": {
+              "input": 4
+            },
+            "b": {
+              "slot": 4
+            }
+          },
+          "reused_wire": null,
+          "released_wires": []
+        },
+        {
+          "node": 11,
+          "destination_slot": 4,
+          "reads": {
+            "a": {
+              "input": 5
+            },
+            "b": {
+              "slot": 4
+            }
+          },
+          "reused_wire": 20,
+          "released_wires": [
+            20
+          ]
+        },
+        {
+          "node": 12,
+          "destination_slot": 10,
+          "reads": {
+            "a": {
+              "input": 10
+            },
+            "b": {
+              "slot": 5
+            }
+          },
+          "reused_wire": null,
+          "released_wires": []
+        },
+        {
+          "node": 13,
+          "destination_slot": 5,
+          "reads": {
+            "a": {
+              "input": 9
+            },
+            "b": {
+              "slot": 5
+            }
+          },
+          "reused_wire": 21,
+          "released_wires": [
+            21
+          ]
+        },
+        {
+          "node": 14,
+          "destination_slot": 2,
+          "reads": {
+            "a": {
+              "slot": 0
+            },
+            "b": {
+              "slot": 2
+            }
+          },
+          "reused_wire": 18,
+          "released_wires": [
+            18
+          ]
+        },
+        {
+          "node": 15,
+          "destination_slot": 2,
+          "reads": {
+            "a": {
+              "slot": 2
+            }
+          },
+          "reused_wire": 30,
+          "released_wires": [
+            30
+          ]
+        },
+        {
+          "node": 16,
+          "destination_slot": 11,
+          "reads": {
+            "a": {
+              "slot": 4
+            },
+            "b": {
+              "slot": 5
+            }
+          },
+          "reused_wire": null,
+          "released_wires": []
+        },
+        {
+          "node": 17,
+          "destination_slot": 12,
+          "reads": {
+            "a": {
+              "slot": 2
+            },
+            "b": {
+              "input": 6
+            }
+          },
+          "reused_wire": null,
+          "released_wires": []
+        },
+        {
+          "node": 18,
+          "destination_slot": 13,
+          "reads": {
+            "a": {
+              "input": 1
+            },
+            "b": {
+              "slot": 2
+            }
+          },
+          "reused_wire": null,
+          "released_wires": []
+        },
+        {
+          "node": 19,
+          "destination_slot": 14,
+          "reads": {
+            "a": {
+              "slot": 2
+            },
+            "b": {
+              "input": 8
+            }
+          },
+          "reused_wire": null,
+          "released_wires": []
+        },
+        {
+          "node": 20,
+          "destination_slot": 0,
+          "reads": {
+            "a": {
+              "slot": 2
+            },
+            "b": {
+              "slot": 0
+            }
+          },
+          "reused_wire": 16,
+          "released_wires": [
+            16
+          ]
+        },
+        {
+          "node": 21,
+          "destination_slot": 15,
+          "reads": {
+            "a": {
+              "input": 3
+            },
+            "b": {
+              "slot": 0
+            }
+          },
+          "reused_wire": null,
+          "released_wires": []
+        },
+        {
+          "node": 22,
+          "destination_slot": 16,
+          "reads": {
+            "a": {
+              "slot": 11
+            },
+            "b": {
+              "slot": 1
+            }
+          },
+          "reused_wire": null,
+          "released_wires": []
+        },
+        {
+          "node": 23,
+          "destination_slot": 16,
+          "reads": {
+            "a": {
+              "slot": 16
+            }
+          },
+          "reused_wire": 38,
+          "released_wires": [
+            38
+          ]
+        },
+        {
+          "node": 24,
+          "destination_slot": 17,
+          "reads": {
+            "a": {
+              "slot": 15
+            },
+            "b": {
+              "input": 15
+            }
+          },
+          "reused_wire": null,
+          "released_wires": []
+        },
+        {
+          "node": 25,
+          "destination_slot": 1,
+          "reads": {
+            "a": {
+              "slot": 1
+            },
+            "b": {
+              "slot": 16
+            }
+          },
+          "reused_wire": 17,
+          "released_wires": [
+            17
+          ]
+        },
+        {
+          "node": 26,
+          "destination_slot": 18,
+          "reads": {
+            "a": {
+              "slot": 16
+            },
+            "b": {
+              "input": 11
+            }
+          },
+          "reused_wire": null,
+          "released_wires": []
+        },
+        {
+          "node": 27,
+          "destination_slot": 19,
+          "reads": {
+            "a": {
+              "slot": 16
+            },
+            "b": {
+              "input": 7
+            }
+          },
+          "reused_wire": null,
+          "released_wires": []
+        },
+        {
+          "node": 28,
+          "destination_slot": 20,
+          "reads": {
+            "a": {
+              "slot": 14
+            },
+            "b": {
+              "slot": 16
+            }
+          },
+          "reused_wire": null,
+          "released_wires": []
+        },
+        {
+          "node": 29,
+          "destination_slot": 21,
+          "reads": {
+            "a": {
+              "slot": 9
+            },
+            "b": {
+              "slot": 1
+            }
+          },
+          "reused_wire": null,
+          "released_wires": []
+        },
+        {
+          "node": 30,
+          "destination_slot": 22,
+          "reads": {
+            "a": {
+              "slot": 10
+            },
+            "b": {
+              "slot": 1
+            }
+          },
+          "reused_wire": null,
+          "released_wires": []
+        },
+        {
+          "node": 31,
+          "destination_slot": 23,
+          "reads": {
+            "a": {
+              "slot": 18
+            },
+            "b": {
+              "slot": 8
+            }
+          },
+          "reused_wire": null,
+          "released_wires": []
+        },
+        {
+          "node": 32,
+          "destination_slot": 24,
+          "reads": {
+            "a": {
+              "slot": 21
+            },
+            "b": {
+              "input": 12
+            }
+          },
+          "reused_wire": null,
+          "released_wires": []
+        },
+        {
+          "node": 33,
+          "destination_slot": 25,
+          "reads": {
+            "a": {
+              "input": 14
+            },
+            "b": {
+              "slot": 22
+            }
+          },
+          "reused_wire": null,
+          "released_wires": []
+        },
+        {
+          "node": 34,
+          "destination_slot": 26,
+          "reads": {
+            "a": {
+              "slot": 20
+            },
+            "b": {
+              "slot": 23
+            }
+          },
+          "reused_wire": null,
+          "released_wires": []
+        },
+        {
+          "node": 35,
+          "destination_slot": 27,
+          "reads": {
+            "a": {
+              "slot": 19
+            },
+            "b": {
+              "slot": 24
+            }
+          },
+          "reused_wire": null,
+          "released_wires": []
+        },
+        {
+          "node": 36,
+          "destination_slot": 28,
+          "reads": {
+            "a": {
+              "slot": 15
+            },
+            "b": {
+              "slot": 24
+            }
+          },
+          "reused_wire": null,
+          "released_wires": []
+        },
+        {
+          "node": 37,
+          "destination_slot": 29,
+          "reads": {
+            "a": {
+              "slot": 25
+            },
+            "b": {
+              "slot": 18
+            }
+          },
+          "reused_wire": null,
+          "released_wires": []
+        },
+        {
+          "node": 38,
+          "destination_slot": 30,
+          "reads": {
+            "a": {
+              "slot": 25
+            },
+            "b": {
+              "slot": 24
+            }
+          },
+          "reused_wire": null,
+          "released_wires": []
+        },
+        {
+          "node": 39,
+          "destination_slot": 11,
+          "reads": {
+            "a": {
+              "slot": 11
+            },
+            "b": {
+              "slot": 26
+            }
+          },
+          "reused_wire": 32,
+          "released_wires": [
+            32
+          ]
+        },
+        {
+          "node": 40,
+          "destination_slot": 31,
+          "reads": {
+            "a": {
+              "slot": 17
+            },
+            "b": {
+              "slot": 26
+            }
+          },
+          "reused_wire": null,
+          "released_wires": []
+        },
+        {
+          "node": 41,
+          "destination_slot": 32,
+          "reads": {
+            "a": {
+              "slot": 13
+            },
+            "b": {
+              "slot": 28
+            }
+          },
+          "reused_wire": null,
+          "released_wires": []
+        },
+        {
+          "node": 42,
+          "destination_slot": 33,
+          "reads": {
+            "a": {
+              "slot": 25
+            },
+            "b": {
+              "slot": 28
+            }
+          },
+          "reused_wire": null,
+          "released_wires": []
+        },
+        {
+          "node": 43,
+          "destination_slot": 34,
+          "reads": {
+            "a": {
+              "input": 13
+            },
+            "b": {
+              "slot": 30
+            }
+          },
+          "reused_wire": null,
+          "released_wires": []
+        },
+        {
+          "node": 44,
+          "destination_slot": 30,
+          "reads": {
+            "a": {
+              "slot": 13
+            },
+            "b": {
+              "slot": 30
+            }
+          },
+          "reused_wire": 54,
+          "released_wires": [
+            54
+          ]
+        },
+        {
+          "node": 45,
+          "destination_slot": 35,
+          "reads": {
+            "a": {
+              "slot": 11
+            },
+            "b": {
+              "slot": 17
+            }
+          },
+          "reused_wire": null,
+          "released_wires": []
+        },
+        {
+          "node": 46,
+          "destination_slot": 20,
+          "reads": {
+            "a": {
+              "slot": 20
+            },
+            "b": {
+              "slot": 11
+            }
+          },
+          "reused_wire": 44,
+          "released_wires": [
+            44
+          ]
+        },
+        {
+          "node": 47,
+          "destination_slot": 36,
+          "reads": {
+            "a": {
+              "slot": 21
+            },
+            "b": {
+              "slot": 32
+            }
+          },
+          "reused_wire": null,
+          "released_wires": []
+        },
+        {
+          "node": 48,
+          "destination_slot": 19,
+          "reads": {
+            "a": {
+              "slot": 32
+            },
+            "b": {
+              "slot": 19
+            }
+          },
+          "reused_wire": 43,
+          "released_wires": [
+            43
+          ]
+        },
+        {
+          "node": 49,
+          "destination_slot": 0,
+          "reads": {
+            "a": {
+              "slot": 0
+            },
+            "b": {
+              "slot": 33
+            }
+          },
+          "reused_wire": 36,
+          "released_wires": [
+            36
+          ]
+        },
+        {
+          "node": 50,
+          "destination_slot": 17,
+          "reads": {
+            "a": {
+              "slot": 33
+            },
+            "b": {
+              "slot": 17
+            }
+          },
+          "reused_wire": 40,
+          "released_wires": [
+            40
+          ]
+        },
+        {
+          "node": 51,
+          "destination_slot": 28,
+          "reads": {
+            "a": {
+              "slot": 28
+            },
+            "b": {
+              "slot": 30
+            }
+          },
+          "reused_wire": 52,
+          "released_wires": [
+            52
+          ]
+        },
+        {
+          "node": 52,
+          "destination_slot": 2,
+          "reads": {
+            "a": {
+              "slot": 2
+            },
+            "b": {
+              "slot": 30
+            }
+          },
+          "reused_wire": 31,
+          "released_wires": [
+            31
+          ]
+        },
+        {
+          "node": 53,
+          "destination_slot": 21,
+          "reads": {
+            "a": {
+              "slot": 21
+            },
+            "b": {
+              "slot": 20
+            }
+          },
+          "reused_wire": 45,
+          "released_wires": [
+            45
+          ]
+        },
+        {
+          "node": 54,
+          "destination_slot": 37,
+          "reads": {
+            "a": {
+              "slot": 22
+            },
+            "b": {
+              "slot": 20
+            }
+          },
+          "reused_wire": null,
+          "released_wires": []
+        },
+        {
+          "node": 55,
+          "destination_slot": 22,
+          "reads": {
+            "a": {
+              "slot": 28
+            },
+            "b": {
+              "slot": 22
+            }
+          },
+          "reused_wire": 46,
+          "released_wires": [
+            46
+          ]
+        },
+        {
+          "node": 56,
+          "destination_slot": 18,
+          "reads": {
+            "a": {
+              "slot": 28
+            },
+            "b": {
+              "slot": 18
+            }
+          },
+          "reused_wire": 42,
+          "released_wires": [
+            42
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "slot": 36
+        },
+        {
+          "slot": 4
+        },
+        {
+          "slot": 10
+        },
+        {
+          "slot": 14
+        },
+        {
+          "slot": 29
+        },
+        {
+          "input": 13
+        },
+        {
+          "slot": 37
+        },
+        {
+          "slot": 17
+        },
+        {
+          "slot": 28
+        },
+        {
+          "input": 7
+        },
+        {
+          "slot": 34
+        },
+        {
+          "slot": 15
+        },
+        {
+          "input": 11
+        },
+        {
+          "input": 8
+        },
+        {
+          "slot": 1
+        },
+        {
+          "input": 15
+        },
+        {
+          "slot": 12
+        },
+        {
+          "input": 1
+        },
+        {
+          "slot": 13
+        },
+        {
+          "slot": 2
+        },
+        {
+          "slot": 5
+        },
+        {
+          "slot": 33
+        },
+        {
+          "slot": 8
+        },
+        {
+          "slot": 18
+        },
+        {
+          "slot": 25
+        },
+        {
+          "slot": 19
+        },
+        {
+          "slot": 6
+        },
+        {
+          "slot": 32
+        },
+        {
+          "slot": 22
+        },
+        {
+          "slot": 7
+        },
+        {
+          "slot": 35
+        },
+        {
+          "slot": 30
+        },
+        {
+          "input": 14
+        },
+        {
+          "slot": 26
+        },
+        {
+          "slot": 24
+        },
+        {
+          "slot": 0
+        },
+        {
+          "slot": 3
+        },
+        {
+          "slot": 23
+        },
+        {
+          "slot": 21
+        },
+        {
+          "slot": 11
+        },
+        {
+          "input": 3
+        },
+        {
+          "slot": 31
+        },
+        {
+          "slot": 9
+        },
+        {
+          "slot": 16
+        },
+        {
+          "input": 12
+        },
+        {
+          "slot": 27
+        },
+        {
+          "input": 6
+        },
+        {
+          "slot": 20
+        }
+      ]
+    },
+    "source_nondestructive": {
+      "peak_slots": 39,
+      "final_distinct_output_slots": 38,
+      "destructive_reuse": false,
+      "inputs_mutable": false,
+      "order": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56
+      ],
+      "instructions": [
+        {
+          "node": 0,
+          "destination_slot": 0,
+          "reads": {
+            "a": {
+              "input": 2
+            },
+            "b": {
+              "input": 14
+            }
+          },
+          "reused_wire": null,
+          "released_wires": []
+        },
+        {
+          "node": 1,
+          "destination_slot": 1,
+          "reads": {
+            "a": {
+              "input": 6
+            },
+            "b": {
+              "input": 8
+            }
+          },
+          "reused_wire": null,
+          "released_wires": []
+        },
+        {
+          "node": 2,
+          "destination_slot": 2,
+          "reads": {
+            "a": {
+              "input": 0
+            },
+            "b": {
+              "input": 12
+            }
+          },
+          "reused_wire": null,
+          "released_wires": []
+        },
+        {
+          "node": 3,
+          "destination_slot": 3,
+          "reads": {
+            "a": {
+              "input": 1
+            },
+            "b": {
+              "input": 13
+            }
+          },
+          "reused_wire": null,
+          "released_wires": []
+        },
+        {
+          "node": 4,
+          "destination_slot": 4,
+          "reads": {
+            "a": {
+              "input": 6
+            },
+            "b": {
+              "input": 7
+            }
+          },
+          "reused_wire": null,
+          "released_wires": []
+        },
+        {
+          "node": 5,
+          "destination_slot": 5,
+          "reads": {
+            "a": {
+              "input": 8
+            },
+            "b": {
+              "input": 11
+            }
+          },
+          "reused_wire": null,
+          "released_wires": []
+        },
+        {
+          "node": 6,
+          "destination_slot": 6,
+          "reads": {
+            "a": {
+              "input": 6
+            },
+            "b": {
+              "slot": 0
+            }
+          },
+          "reused_wire": null,
+          "released_wires": []
+        },
+        {
+          "node": 7,
+          "destination_slot": 7,
+          "reads": {
+            "a": {
+              "slot": 2
+            },
+            "b": {
+              "input": 8
+            }
+          },
+          "reused_wire": null,
+          "released_wires": []
+        },
+        {
+          "node": 8,
+          "destination_slot": 8,
+          "reads": {
+            "a": {
+              "slot": 3
+            },
+            "b": {
+              "input": 9
+            }
+          },
+          "reused_wire": null,
+          "released_wires": []
+        },
+        {
+          "node": 9,
+          "destination_slot": 9,
+          "reads": {
+            "a": {
+              "input": 5
+            },
+            "b": {
+              "slot": 3
+            }
+          },
+          "reused_wire": null,
+          "released_wires": [
+            19
+          ]
+        },
+        {
+          "node": 10,
+          "destination_slot": 3,
+          "reads": {
+            "a": {
+              "input": 4
+            },
+            "b": {
+              "slot": 4
+            }
+          },
+          "reused_wire": null,
+          "released_wires": []
+        },
+        {
+          "node": 11,
+          "destination_slot": 10,
+          "reads": {
+            "a": {
+              "input": 5
+            },
+            "b": {
+              "slot": 4
+            }
+          },
+          "reused_wire": null,
+          "released_wires": [
+            20
+          ]
+        },
+        {
+          "node": 12,
+          "destination_slot": 4,
+          "reads": {
+            "a": {
+              "input": 10
+            },
+            "b": {
+              "slot": 5
+            }
+          },
+          "reused_wire": null,
+          "released_wires": []
+        },
+        {
+          "node": 13,
+          "destination_slot": 11,
+          "reads": {
+            "a": {
+              "input": 9
+            },
+            "b": {
+              "slot": 5
+            }
+          },
+          "reused_wire": null,
+          "released_wires": [
+            21
+          ]
+        },
+        {
+          "node": 14,
+          "destination_slot": 5,
+          "reads": {
+            "a": {
+              "slot": 0
+            },
+            "b": {
+              "slot": 2
+            }
+          },
+          "reused_wire": null,
+          "released_wires": [
+            18
+          ]
+        },
+        {
+          "node": 15,
+          "destination_slot": 2,
+          "reads": {
+            "a": {
+              "slot": 5
+            }
+          },
+          "reused_wire": null,
+          "released_wires": [
+            30
+          ]
+        },
+        {
+          "node": 16,
+          "destination_slot": 5,
+          "reads": {
+            "a": {
+              "slot": 10
+            },
+            "b": {
+              "slot": 11
+            }
+          },
+          "reused_wire": null,
+          "released_wires": []
+        },
+        {
+          "node": 17,
+          "destination_slot": 12,
+          "reads": {
+            "a": {
+              "slot": 2
+            },
+            "b": {
+              "input": 6
+            }
+          },
+          "reused_wire": null,
+          "released_wires": []
+        },
+        {
+          "node": 18,
+          "destination_slot": 13,
+          "reads": {
+            "a": {
+              "input": 1
+            },
+            "b": {
+              "slot": 2
+            }
+          },
+          "reused_wire": null,
+          "released_wires": []
+        },
+        {
+          "node": 19,
+          "destination_slot": 14,
+          "reads": {
+            "a": {
+              "slot": 2
+            },
+            "b": {
+              "input": 8
+            }
+          },
+          "reused_wire": null,
+          "released_wires": []
+        },
+        {
+          "node": 20,
+          "destination_slot": 15,
+          "reads": {
+            "a": {
+              "slot": 2
+            },
+            "b": {
+              "slot": 0
+            }
+          },
+          "reused_wire": null,
+          "released_wires": [
+            16
+          ]
+        },
+        {
+          "node": 21,
+          "destination_slot": 0,
+          "reads": {
+            "a": {
+              "input": 3
+            },
+            "b": {
+              "slot": 15
+            }
+          },
+          "reused_wire": null,
+          "released_wires": []
+        },
+        {
+          "node": 22,
+          "destination_slot": 16,
+          "reads": {
+            "a": {
+              "slot": 5
+            },
+            "b": {
+              "slot": 1
+            }
+          },
+          "reused_wire": null,
+          "released_wires": []
+        },
+        {
+          "node": 23,
+          "destination_slot": 17,
+          "reads": {
+            "a": {
+              "slot": 16
+            }
+          },
+          "reused_wire": null,
+          "released_wires": [
+            38
+          ]
+        },
+        {
+          "node": 24,
+          "destination_slot": 16,
+          "reads": {
+            "a": {
+              "slot": 0
+            },
+            "b": {
+              "input": 15
+            }
+          },
+          "reused_wire": null,
+          "released_wires": []
+        },
+        {
+          "node": 25,
+          "destination_slot": 18,
+          "reads": {
+            "a": {
+              "slot": 1
+            },
+            "b": {
+              "slot": 17
+            }
+          },
+          "reused_wire": null,
+          "released_wires": [
+            17
+          ]
+        },
+        {
+          "node": 26,
+          "destination_slot": 1,
+          "reads": {
+            "a": {
+              "slot": 17
+            },
+            "b": {
+              "input": 11
+            }
+          },
+          "reused_wire": null,
+          "released_wires": []
+        },
+        {
+          "node": 27,
+          "destination_slot": 19,
+          "reads": {
+            "a": {
+              "slot": 17
+            },
+            "b": {
+              "input": 7
+            }
+          },
+          "reused_wire": null,
+          "released_wires": []
+        },
+        {
+          "node": 28,
+          "destination_slot": 20,
+          "reads": {
+            "a": {
+              "slot": 14
+            },
+            "b": {
+              "slot": 17
+            }
+          },
+          "reused_wire": null,
+          "released_wires": []
+        },
+        {
+          "node": 29,
+          "destination_slot": 21,
+          "reads": {
+            "a": {
+              "slot": 3
+            },
+            "b": {
+              "slot": 18
+            }
+          },
+          "reused_wire": null,
+          "released_wires": []
+        },
+        {
+          "node": 30,
+          "destination_slot": 22,
+          "reads": {
+            "a": {
+              "slot": 4
+            },
+            "b": {
+              "slot": 18
+            }
+          },
+          "reused_wire": null,
+          "released_wires": []
+        },
+        {
+          "node": 31,
+          "destination_slot": 23,
+          "reads": {
+            "a": {
+              "slot": 1
+            },
+            "b": {
+              "slot": 8
+            }
+          },
+          "reused_wire": null,
+          "released_wires": []
+        },
+        {
+          "node": 32,
+          "destination_slot": 24,
+          "reads": {
+            "a": {
+              "slot": 21
+            },
+            "b": {
+              "input": 12
+            }
+          },
+          "reused_wire": null,
+          "released_wires": []
+        },
+        {
+          "node": 33,
+          "destination_slot": 25,
+          "reads": {
+            "a": {
+              "input": 14
+            },
+            "b": {
+              "slot": 22
+            }
+          },
+          "reused_wire": null,
+          "released_wires": []
+        },
+        {
+          "node": 34,
+          "destination_slot": 26,
+          "reads": {
+            "a": {
+              "slot": 20
+            },
+            "b": {
+              "slot": 23
+            }
+          },
+          "reused_wire": null,
+          "released_wires": []
+        },
+        {
+          "node": 35,
+          "destination_slot": 27,
+          "reads": {
+            "a": {
+              "slot": 19
+            },
+            "b": {
+              "slot": 24
+            }
+          },
+          "reused_wire": null,
+          "released_wires": []
+        },
+        {
+          "node": 36,
+          "destination_slot": 28,
+          "reads": {
+            "a": {
+              "slot": 0
+            },
+            "b": {
+              "slot": 24
+            }
+          },
+          "reused_wire": null,
+          "released_wires": []
+        },
+        {
+          "node": 37,
+          "destination_slot": 29,
+          "reads": {
+            "a": {
+              "slot": 25
+            },
+            "b": {
+              "slot": 1
+            }
+          },
+          "reused_wire": null,
+          "released_wires": []
+        },
+        {
+          "node": 38,
+          "destination_slot": 30,
+          "reads": {
+            "a": {
+              "slot": 25
+            },
+            "b": {
+              "slot": 24
+            }
+          },
+          "reused_wire": null,
+          "released_wires": []
+        },
+        {
+          "node": 39,
+          "destination_slot": 31,
+          "reads": {
+            "a": {
+              "slot": 5
+            },
+            "b": {
+              "slot": 26
+            }
+          },
+          "reused_wire": null,
+          "released_wires": [
+            32
+          ]
+        },
+        {
+          "node": 40,
+          "destination_slot": 5,
+          "reads": {
+            "a": {
+              "slot": 16
+            },
+            "b": {
+              "slot": 26
+            }
+          },
+          "reused_wire": null,
+          "released_wires": []
+        },
+        {
+          "node": 41,
+          "destination_slot": 32,
+          "reads": {
+            "a": {
+              "slot": 13
+            },
+            "b": {
+              "slot": 28
+            }
+          },
+          "reused_wire": null,
+          "released_wires": []
+        },
+        {
+          "node": 42,
+          "destination_slot": 33,
+          "reads": {
+            "a": {
+              "slot": 25
+            },
+            "b": {
+              "slot": 28
+            }
+          },
+          "reused_wire": null,
+          "released_wires": []
+        },
+        {
+          "node": 43,
+          "destination_slot": 34,
+          "reads": {
+            "a": {
+              "input": 13
+            },
+            "b": {
+              "slot": 30
+            }
+          },
+          "reused_wire": null,
+          "released_wires": []
+        },
+        {
+          "node": 44,
+          "destination_slot": 35,
+          "reads": {
+            "a": {
+              "slot": 13
+            },
+            "b": {
+              "slot": 30
+            }
+          },
+          "reused_wire": null,
+          "released_wires": [
+            54
+          ]
+        },
+        {
+          "node": 45,
+          "destination_slot": 30,
+          "reads": {
+            "a": {
+              "slot": 31
+            },
+            "b": {
+              "slot": 16
+            }
+          },
+          "reused_wire": null,
+          "released_wires": []
+        },
+        {
+          "node": 46,
+          "destination_slot": 36,
+          "reads": {
+            "a": {
+              "slot": 20
+            },
+            "b": {
+              "slot": 31
+            }
+          },
+          "reused_wire": null,
+          "released_wires": [
+            44
+          ]
+        },
+        {
+          "node": 47,
+          "destination_slot": 20,
+          "reads": {
+            "a": {
+              "slot": 21
+            },
+            "b": {
+              "slot": 32
+            }
+          },
+          "reused_wire": null,
+          "released_wires": []
+        },
+        {
+          "node": 48,
+          "destination_slot": 37,
+          "reads": {
+            "a": {
+              "slot": 32
+            },
+            "b": {
+              "slot": 19
+            }
+          },
+          "reused_wire": null,
+          "released_wires": [
+            43
+          ]
+        },
+        {
+          "node": 49,
+          "destination_slot": 19,
+          "reads": {
+            "a": {
+              "slot": 15
+            },
+            "b": {
+              "slot": 33
+            }
+          },
+          "reused_wire": null,
+          "released_wires": [
+            36
+          ]
+        },
+        {
+          "node": 50,
+          "destination_slot": 15,
+          "reads": {
+            "a": {
+              "slot": 33
+            },
+            "b": {
+              "slot": 16
+            }
+          },
+          "reused_wire": null,
+          "released_wires": [
+            40
+          ]
+        },
+        {
+          "node": 51,
+          "destination_slot": 16,
+          "reads": {
+            "a": {
+              "slot": 28
+            },
+            "b": {
+              "slot": 35
+            }
+          },
+          "reused_wire": null,
+          "released_wires": [
+            52
+          ]
+        },
+        {
+          "node": 52,
+          "destination_slot": 28,
+          "reads": {
+            "a": {
+              "slot": 2
+            },
+            "b": {
+              "slot": 35
+            }
+          },
+          "reused_wire": null,
+          "released_wires": [
+            31
+          ]
+        },
+        {
+          "node": 53,
+          "destination_slot": 2,
+          "reads": {
+            "a": {
+              "slot": 21
+            },
+            "b": {
+              "slot": 36
+            }
+          },
+          "reused_wire": null,
+          "released_wires": [
+            45
+          ]
+        },
+        {
+          "node": 54,
+          "destination_slot": 21,
+          "reads": {
+            "a": {
+              "slot": 22
+            },
+            "b": {
+              "slot": 36
+            }
+          },
+          "reused_wire": null,
+          "released_wires": []
+        },
+        {
+          "node": 55,
+          "destination_slot": 38,
+          "reads": {
+            "a": {
+              "slot": 16
+            },
+            "b": {
+              "slot": 22
+            }
+          },
+          "reused_wire": null,
+          "released_wires": [
+            46
+          ]
+        },
+        {
+          "node": 56,
+          "destination_slot": 22,
+          "reads": {
+            "a": {
+              "slot": 16
+            },
+            "b": {
+              "slot": 1
+            }
+          },
+          "reused_wire": null,
+          "released_wires": [
+            42
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "slot": 20
+        },
+        {
+          "slot": 10
+        },
+        {
+          "slot": 4
+        },
+        {
+          "slot": 14
+        },
+        {
+          "slot": 29
+        },
+        {
+          "input": 13
+        },
+        {
+          "slot": 21
+        },
+        {
+          "slot": 15
+        },
+        {
+          "slot": 16
+        },
+        {
+          "input": 7
+        },
+        {
+          "slot": 34
+        },
+        {
+          "slot": 0
+        },
+        {
+          "input": 11
+        },
+        {
+          "input": 8
+        },
+        {
+          "slot": 18
+        },
+        {
+          "input": 15
+        },
+        {
+          "slot": 12
+        },
+        {
+          "input": 1
+        },
+        {
+          "slot": 13
+        },
+        {
+          "slot": 28
+        },
+        {
+          "slot": 11
+        },
+        {
+          "slot": 33
+        },
+        {
+          "slot": 8
+        },
+        {
+          "slot": 22
+        },
+        {
+          "slot": 25
+        },
+        {
+          "slot": 37
+        },
+        {
+          "slot": 6
+        },
+        {
+          "slot": 32
+        },
+        {
+          "slot": 38
+        },
+        {
+          "slot": 7
+        },
+        {
+          "slot": 30
+        },
+        {
+          "slot": 35
+        },
+        {
+          "input": 14
+        },
+        {
+          "slot": 26
+        },
+        {
+          "slot": 24
+        },
+        {
+          "slot": 19
+        },
+        {
+          "slot": 9
+        },
+        {
+          "slot": 23
+        },
+        {
+          "slot": 2
+        },
+        {
+          "slot": 31
+        },
+        {
+          "input": 3
+        },
+        {
+          "slot": 5
+        },
+        {
+          "slot": 3
+        },
+        {
+          "slot": 17
+        },
+        {
+          "input": 12
+        },
+        {
+          "slot": 27
+        },
+        {
+          "input": 6
+        },
+        {
+          "slot": 36
+        }
+      ]
+    },
+    "chosen_destructive": {
+      "peak_slots": 38,
+      "final_distinct_output_slots": 38,
+      "destructive_reuse": true,
+      "inputs_mutable": false,
+      "order": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56
+      ],
+      "instructions": [
+        {
+          "node": 0,
+          "destination_slot": 0,
+          "reads": {
+            "a": {
+              "input": 2
+            },
+            "b": {
+              "input": 14
+            }
+          },
+          "reused_wire": null,
+          "released_wires": []
+        },
+        {
+          "node": 1,
+          "destination_slot": 1,
+          "reads": {
+            "a": {
+              "input": 6
+            },
+            "b": {
+              "input": 8
+            }
+          },
+          "reused_wire": null,
+          "released_wires": []
+        },
+        {
+          "node": 2,
+          "destination_slot": 2,
+          "reads": {
+            "a": {
+              "input": 0
+            },
+            "b": {
+              "input": 12
+            }
+          },
+          "reused_wire": null,
+          "released_wires": []
+        },
+        {
+          "node": 3,
+          "destination_slot": 3,
+          "reads": {
+            "a": {
+              "input": 1
+            },
+            "b": {
+              "input": 13
+            }
+          },
+          "reused_wire": null,
+          "released_wires": []
+        },
+        {
+          "node": 4,
+          "destination_slot": 4,
+          "reads": {
+            "a": {
+              "input": 6
+            },
+            "b": {
+              "input": 7
+            }
+          },
+          "reused_wire": null,
+          "released_wires": []
+        },
+        {
+          "node": 5,
+          "destination_slot": 5,
+          "reads": {
+            "a": {
+              "input": 8
+            },
+            "b": {
+              "input": 11
+            }
+          },
+          "reused_wire": null,
+          "released_wires": []
+        },
+        {
+          "node": 6,
+          "destination_slot": 6,
+          "reads": {
+            "a": {
+              "input": 6
+            },
+            "b": {
+              "slot": 0
+            }
+          },
+          "reused_wire": null,
+          "released_wires": []
+        },
+        {
+          "node": 7,
+          "destination_slot": 7,
+          "reads": {
+            "a": {
+              "slot": 2
+            },
+            "b": {
+              "input": 8
+            }
+          },
+          "reused_wire": null,
+          "released_wires": []
+        },
+        {
+          "node": 8,
+          "destination_slot": 8,
+          "reads": {
+            "a": {
+              "slot": 3
+            },
+            "b": {
+              "input": 9
+            }
+          },
+          "reused_wire": null,
+          "released_wires": []
+        },
+        {
+          "node": 9,
+          "destination_slot": 3,
+          "reads": {
+            "a": {
+              "input": 5
+            },
+            "b": {
+              "slot": 3
+            }
+          },
+          "reused_wire": 19,
+          "released_wires": [
+            19
+          ]
+        },
+        {
+          "node": 10,
+          "destination_slot": 9,
+          "reads": {
+            "a": {
+              "input": 4
+            },
+            "b": {
+              "slot": 4
+            }
+          },
+          "reused_wire": null,
+          "released_wires": []
+        },
+        {
+          "node": 11,
+          "destination_slot": 4,
+          "reads": {
+            "a": {
+              "input": 5
+            },
+            "b": {
+              "slot": 4
+            }
+          },
+          "reused_wire": 20,
+          "released_wires": [
+            20
+          ]
+        },
+        {
+          "node": 12,
+          "destination_slot": 10,
+          "reads": {
+            "a": {
+              "input": 10
+            },
+            "b": {
+              "slot": 5
+            }
+          },
+          "reused_wire": null,
+          "released_wires": []
+        },
+        {
+          "node": 13,
+          "destination_slot": 5,
+          "reads": {
+            "a": {
+              "input": 9
+            },
+            "b": {
+              "slot": 5
+            }
+          },
+          "reused_wire": 21,
+          "released_wires": [
+            21
+          ]
+        },
+        {
+          "node": 14,
+          "destination_slot": 2,
+          "reads": {
+            "a": {
+              "slot": 0
+            },
+            "b": {
+              "slot": 2
+            }
+          },
+          "reused_wire": 18,
+          "released_wires": [
+            18
+          ]
+        },
+        {
+          "node": 15,
+          "destination_slot": 2,
+          "reads": {
+            "a": {
+              "slot": 2
+            }
+          },
+          "reused_wire": 30,
+          "released_wires": [
+            30
+          ]
+        },
+        {
+          "node": 16,
+          "destination_slot": 11,
+          "reads": {
+            "a": {
+              "slot": 4
+            },
+            "b": {
+              "slot": 5
+            }
+          },
+          "reused_wire": null,
+          "released_wires": []
+        },
+        {
+          "node": 17,
+          "destination_slot": 12,
+          "reads": {
+            "a": {
+              "slot": 2
+            },
+            "b": {
+              "input": 6
+            }
+          },
+          "reused_wire": null,
+          "released_wires": []
+        },
+        {
+          "node": 18,
+          "destination_slot": 13,
+          "reads": {
+            "a": {
+              "input": 1
+            },
+            "b": {
+              "slot": 2
+            }
+          },
+          "reused_wire": null,
+          "released_wires": []
+        },
+        {
+          "node": 19,
+          "destination_slot": 14,
+          "reads": {
+            "a": {
+              "slot": 2
+            },
+            "b": {
+              "input": 8
+            }
+          },
+          "reused_wire": null,
+          "released_wires": []
+        },
+        {
+          "node": 20,
+          "destination_slot": 0,
+          "reads": {
+            "a": {
+              "slot": 2
+            },
+            "b": {
+              "slot": 0
+            }
+          },
+          "reused_wire": 16,
+          "released_wires": [
+            16
+          ]
+        },
+        {
+          "node": 21,
+          "destination_slot": 15,
+          "reads": {
+            "a": {
+              "input": 3
+            },
+            "b": {
+              "slot": 0
+            }
+          },
+          "reused_wire": null,
+          "released_wires": []
+        },
+        {
+          "node": 22,
+          "destination_slot": 16,
+          "reads": {
+            "a": {
+              "slot": 11
+            },
+            "b": {
+              "slot": 1
+            }
+          },
+          "reused_wire": null,
+          "released_wires": []
+        },
+        {
+          "node": 23,
+          "destination_slot": 16,
+          "reads": {
+            "a": {
+              "slot": 16
+            }
+          },
+          "reused_wire": 38,
+          "released_wires": [
+            38
+          ]
+        },
+        {
+          "node": 24,
+          "destination_slot": 17,
+          "reads": {
+            "a": {
+              "slot": 15
+            },
+            "b": {
+              "input": 15
+            }
+          },
+          "reused_wire": null,
+          "released_wires": []
+        },
+        {
+          "node": 25,
+          "destination_slot": 1,
+          "reads": {
+            "a": {
+              "slot": 1
+            },
+            "b": {
+              "slot": 16
+            }
+          },
+          "reused_wire": 17,
+          "released_wires": [
+            17
+          ]
+        },
+        {
+          "node": 26,
+          "destination_slot": 18,
+          "reads": {
+            "a": {
+              "slot": 16
+            },
+            "b": {
+              "input": 11
+            }
+          },
+          "reused_wire": null,
+          "released_wires": []
+        },
+        {
+          "node": 27,
+          "destination_slot": 19,
+          "reads": {
+            "a": {
+              "slot": 16
+            },
+            "b": {
+              "input": 7
+            }
+          },
+          "reused_wire": null,
+          "released_wires": []
+        },
+        {
+          "node": 28,
+          "destination_slot": 20,
+          "reads": {
+            "a": {
+              "slot": 14
+            },
+            "b": {
+              "slot": 16
+            }
+          },
+          "reused_wire": null,
+          "released_wires": []
+        },
+        {
+          "node": 29,
+          "destination_slot": 21,
+          "reads": {
+            "a": {
+              "slot": 9
+            },
+            "b": {
+              "slot": 1
+            }
+          },
+          "reused_wire": null,
+          "released_wires": []
+        },
+        {
+          "node": 30,
+          "destination_slot": 22,
+          "reads": {
+            "a": {
+              "slot": 10
+            },
+            "b": {
+              "slot": 1
+            }
+          },
+          "reused_wire": null,
+          "released_wires": []
+        },
+        {
+          "node": 31,
+          "destination_slot": 23,
+          "reads": {
+            "a": {
+              "slot": 18
+            },
+            "b": {
+              "slot": 8
+            }
+          },
+          "reused_wire": null,
+          "released_wires": []
+        },
+        {
+          "node": 32,
+          "destination_slot": 24,
+          "reads": {
+            "a": {
+              "slot": 21
+            },
+            "b": {
+              "input": 12
+            }
+          },
+          "reused_wire": null,
+          "released_wires": []
+        },
+        {
+          "node": 33,
+          "destination_slot": 25,
+          "reads": {
+            "a": {
+              "input": 14
+            },
+            "b": {
+              "slot": 22
+            }
+          },
+          "reused_wire": null,
+          "released_wires": []
+        },
+        {
+          "node": 34,
+          "destination_slot": 26,
+          "reads": {
+            "a": {
+              "slot": 20
+            },
+            "b": {
+              "slot": 23
+            }
+          },
+          "reused_wire": null,
+          "released_wires": []
+        },
+        {
+          "node": 35,
+          "destination_slot": 27,
+          "reads": {
+            "a": {
+              "slot": 19
+            },
+            "b": {
+              "slot": 24
+            }
+          },
+          "reused_wire": null,
+          "released_wires": []
+        },
+        {
+          "node": 36,
+          "destination_slot": 28,
+          "reads": {
+            "a": {
+              "slot": 15
+            },
+            "b": {
+              "slot": 24
+            }
+          },
+          "reused_wire": null,
+          "released_wires": []
+        },
+        {
+          "node": 37,
+          "destination_slot": 29,
+          "reads": {
+            "a": {
+              "slot": 25
+            },
+            "b": {
+              "slot": 18
+            }
+          },
+          "reused_wire": null,
+          "released_wires": []
+        },
+        {
+          "node": 38,
+          "destination_slot": 30,
+          "reads": {
+            "a": {
+              "slot": 25
+            },
+            "b": {
+              "slot": 24
+            }
+          },
+          "reused_wire": null,
+          "released_wires": []
+        },
+        {
+          "node": 39,
+          "destination_slot": 11,
+          "reads": {
+            "a": {
+              "slot": 11
+            },
+            "b": {
+              "slot": 26
+            }
+          },
+          "reused_wire": 32,
+          "released_wires": [
+            32
+          ]
+        },
+        {
+          "node": 40,
+          "destination_slot": 31,
+          "reads": {
+            "a": {
+              "slot": 17
+            },
+            "b": {
+              "slot": 26
+            }
+          },
+          "reused_wire": null,
+          "released_wires": []
+        },
+        {
+          "node": 41,
+          "destination_slot": 32,
+          "reads": {
+            "a": {
+              "slot": 13
+            },
+            "b": {
+              "slot": 28
+            }
+          },
+          "reused_wire": null,
+          "released_wires": []
+        },
+        {
+          "node": 42,
+          "destination_slot": 33,
+          "reads": {
+            "a": {
+              "slot": 25
+            },
+            "b": {
+              "slot": 28
+            }
+          },
+          "reused_wire": null,
+          "released_wires": []
+        },
+        {
+          "node": 43,
+          "destination_slot": 34,
+          "reads": {
+            "a": {
+              "input": 13
+            },
+            "b": {
+              "slot": 30
+            }
+          },
+          "reused_wire": null,
+          "released_wires": []
+        },
+        {
+          "node": 44,
+          "destination_slot": 30,
+          "reads": {
+            "a": {
+              "slot": 13
+            },
+            "b": {
+              "slot": 30
+            }
+          },
+          "reused_wire": 54,
+          "released_wires": [
+            54
+          ]
+        },
+        {
+          "node": 45,
+          "destination_slot": 35,
+          "reads": {
+            "a": {
+              "slot": 11
+            },
+            "b": {
+              "slot": 17
+            }
+          },
+          "reused_wire": null,
+          "released_wires": []
+        },
+        {
+          "node": 46,
+          "destination_slot": 20,
+          "reads": {
+            "a": {
+              "slot": 20
+            },
+            "b": {
+              "slot": 11
+            }
+          },
+          "reused_wire": 44,
+          "released_wires": [
+            44
+          ]
+        },
+        {
+          "node": 47,
+          "destination_slot": 36,
+          "reads": {
+            "a": {
+              "slot": 21
+            },
+            "b": {
+              "slot": 32
+            }
+          },
+          "reused_wire": null,
+          "released_wires": []
+        },
+        {
+          "node": 48,
+          "destination_slot": 19,
+          "reads": {
+            "a": {
+              "slot": 32
+            },
+            "b": {
+              "slot": 19
+            }
+          },
+          "reused_wire": 43,
+          "released_wires": [
+            43
+          ]
+        },
+        {
+          "node": 49,
+          "destination_slot": 0,
+          "reads": {
+            "a": {
+              "slot": 0
+            },
+            "b": {
+              "slot": 33
+            }
+          },
+          "reused_wire": 36,
+          "released_wires": [
+            36
+          ]
+        },
+        {
+          "node": 50,
+          "destination_slot": 17,
+          "reads": {
+            "a": {
+              "slot": 33
+            },
+            "b": {
+              "slot": 17
+            }
+          },
+          "reused_wire": 40,
+          "released_wires": [
+            40
+          ]
+        },
+        {
+          "node": 51,
+          "destination_slot": 28,
+          "reads": {
+            "a": {
+              "slot": 28
+            },
+            "b": {
+              "slot": 30
+            }
+          },
+          "reused_wire": 52,
+          "released_wires": [
+            52
+          ]
+        },
+        {
+          "node": 52,
+          "destination_slot": 2,
+          "reads": {
+            "a": {
+              "slot": 2
+            },
+            "b": {
+              "slot": 30
+            }
+          },
+          "reused_wire": 31,
+          "released_wires": [
+            31
+          ]
+        },
+        {
+          "node": 53,
+          "destination_slot": 21,
+          "reads": {
+            "a": {
+              "slot": 21
+            },
+            "b": {
+              "slot": 20
+            }
+          },
+          "reused_wire": 45,
+          "released_wires": [
+            45
+          ]
+        },
+        {
+          "node": 54,
+          "destination_slot": 37,
+          "reads": {
+            "a": {
+              "slot": 22
+            },
+            "b": {
+              "slot": 20
+            }
+          },
+          "reused_wire": null,
+          "released_wires": []
+        },
+        {
+          "node": 55,
+          "destination_slot": 22,
+          "reads": {
+            "a": {
+              "slot": 28
+            },
+            "b": {
+              "slot": 22
+            }
+          },
+          "reused_wire": 46,
+          "released_wires": [
+            46
+          ]
+        },
+        {
+          "node": 56,
+          "destination_slot": 18,
+          "reads": {
+            "a": {
+              "slot": 28
+            },
+            "b": {
+              "slot": 18
+            }
+          },
+          "reused_wire": 42,
+          "released_wires": [
+            42
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "slot": 36
+        },
+        {
+          "slot": 4
+        },
+        {
+          "slot": 10
+        },
+        {
+          "slot": 14
+        },
+        {
+          "slot": 29
+        },
+        {
+          "input": 13
+        },
+        {
+          "slot": 37
+        },
+        {
+          "slot": 17
+        },
+        {
+          "slot": 28
+        },
+        {
+          "input": 7
+        },
+        {
+          "slot": 34
+        },
+        {
+          "slot": 15
+        },
+        {
+          "input": 11
+        },
+        {
+          "input": 8
+        },
+        {
+          "slot": 1
+        },
+        {
+          "input": 15
+        },
+        {
+          "slot": 12
+        },
+        {
+          "input": 1
+        },
+        {
+          "slot": 13
+        },
+        {
+          "slot": 2
+        },
+        {
+          "slot": 5
+        },
+        {
+          "slot": 33
+        },
+        {
+          "slot": 8
+        },
+        {
+          "slot": 18
+        },
+        {
+          "slot": 25
+        },
+        {
+          "slot": 19
+        },
+        {
+          "slot": 6
+        },
+        {
+          "slot": 32
+        },
+        {
+          "slot": 22
+        },
+        {
+          "slot": 7
+        },
+        {
+          "slot": 35
+        },
+        {
+          "slot": 30
+        },
+        {
+          "input": 14
+        },
+        {
+          "slot": 26
+        },
+        {
+          "slot": 24
+        },
+        {
+          "slot": 0
+        },
+        {
+          "slot": 3
+        },
+        {
+          "slot": 23
+        },
+        {
+          "slot": 21
+        },
+        {
+          "slot": 11
+        },
+        {
+          "input": 3
+        },
+        {
+          "slot": 31
+        },
+        {
+          "slot": 9
+        },
+        {
+          "slot": 16
+        },
+        {
+          "input": 12
+        },
+        {
+          "slot": 27
+        },
+        {
+          "input": 6
+        },
+        {
+          "slot": 20
+        }
+      ]
+    },
+    "chosen_nondestructive": {
+      "peak_slots": 39,
+      "final_distinct_output_slots": 38,
+      "destructive_reuse": false,
+      "inputs_mutable": false,
+      "order": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56
+      ],
+      "instructions": [
+        {
+          "node": 0,
+          "destination_slot": 0,
+          "reads": {
+            "a": {
+              "input": 2
+            },
+            "b": {
+              "input": 14
+            }
+          },
+          "reused_wire": null,
+          "released_wires": []
+        },
+        {
+          "node": 1,
+          "destination_slot": 1,
+          "reads": {
+            "a": {
+              "input": 6
+            },
+            "b": {
+              "input": 8
+            }
+          },
+          "reused_wire": null,
+          "released_wires": []
+        },
+        {
+          "node": 2,
+          "destination_slot": 2,
+          "reads": {
+            "a": {
+              "input": 0
+            },
+            "b": {
+              "input": 12
+            }
+          },
+          "reused_wire": null,
+          "released_wires": []
+        },
+        {
+          "node": 3,
+          "destination_slot": 3,
+          "reads": {
+            "a": {
+              "input": 1
+            },
+            "b": {
+              "input": 13
+            }
+          },
+          "reused_wire": null,
+          "released_wires": []
+        },
+        {
+          "node": 4,
+          "destination_slot": 4,
+          "reads": {
+            "a": {
+              "input": 6
+            },
+            "b": {
+              "input": 7
+            }
+          },
+          "reused_wire": null,
+          "released_wires": []
+        },
+        {
+          "node": 5,
+          "destination_slot": 5,
+          "reads": {
+            "a": {
+              "input": 8
+            },
+            "b": {
+              "input": 11
+            }
+          },
+          "reused_wire": null,
+          "released_wires": []
+        },
+        {
+          "node": 6,
+          "destination_slot": 6,
+          "reads": {
+            "a": {
+              "input": 6
+            },
+            "b": {
+              "slot": 0
+            }
+          },
+          "reused_wire": null,
+          "released_wires": []
+        },
+        {
+          "node": 7,
+          "destination_slot": 7,
+          "reads": {
+            "a": {
+              "slot": 2
+            },
+            "b": {
+              "input": 8
+            }
+          },
+          "reused_wire": null,
+          "released_wires": []
+        },
+        {
+          "node": 8,
+          "destination_slot": 8,
+          "reads": {
+            "a": {
+              "slot": 3
+            },
+            "b": {
+              "input": 9
+            }
+          },
+          "reused_wire": null,
+          "released_wires": []
+        },
+        {
+          "node": 9,
+          "destination_slot": 9,
+          "reads": {
+            "a": {
+              "input": 5
+            },
+            "b": {
+              "slot": 3
+            }
+          },
+          "reused_wire": null,
+          "released_wires": [
+            19
+          ]
+        },
+        {
+          "node": 10,
+          "destination_slot": 3,
+          "reads": {
+            "a": {
+              "input": 4
+            },
+            "b": {
+              "slot": 4
+            }
+          },
+          "reused_wire": null,
+          "released_wires": []
+        },
+        {
+          "node": 11,
+          "destination_slot": 10,
+          "reads": {
+            "a": {
+              "input": 5
+            },
+            "b": {
+              "slot": 4
+            }
+          },
+          "reused_wire": null,
+          "released_wires": [
+            20
+          ]
+        },
+        {
+          "node": 12,
+          "destination_slot": 4,
+          "reads": {
+            "a": {
+              "input": 10
+            },
+            "b": {
+              "slot": 5
+            }
+          },
+          "reused_wire": null,
+          "released_wires": []
+        },
+        {
+          "node": 13,
+          "destination_slot": 11,
+          "reads": {
+            "a": {
+              "input": 9
+            },
+            "b": {
+              "slot": 5
+            }
+          },
+          "reused_wire": null,
+          "released_wires": [
+            21
+          ]
+        },
+        {
+          "node": 14,
+          "destination_slot": 5,
+          "reads": {
+            "a": {
+              "slot": 0
+            },
+            "b": {
+              "slot": 2
+            }
+          },
+          "reused_wire": null,
+          "released_wires": [
+            18
+          ]
+        },
+        {
+          "node": 15,
+          "destination_slot": 2,
+          "reads": {
+            "a": {
+              "slot": 5
+            }
+          },
+          "reused_wire": null,
+          "released_wires": [
+            30
+          ]
+        },
+        {
+          "node": 16,
+          "destination_slot": 5,
+          "reads": {
+            "a": {
+              "slot": 10
+            },
+            "b": {
+              "slot": 11
+            }
+          },
+          "reused_wire": null,
+          "released_wires": []
+        },
+        {
+          "node": 17,
+          "destination_slot": 12,
+          "reads": {
+            "a": {
+              "slot": 2
+            },
+            "b": {
+              "input": 6
+            }
+          },
+          "reused_wire": null,
+          "released_wires": []
+        },
+        {
+          "node": 18,
+          "destination_slot": 13,
+          "reads": {
+            "a": {
+              "input": 1
+            },
+            "b": {
+              "slot": 2
+            }
+          },
+          "reused_wire": null,
+          "released_wires": []
+        },
+        {
+          "node": 19,
+          "destination_slot": 14,
+          "reads": {
+            "a": {
+              "slot": 2
+            },
+            "b": {
+              "input": 8
+            }
+          },
+          "reused_wire": null,
+          "released_wires": []
+        },
+        {
+          "node": 20,
+          "destination_slot": 15,
+          "reads": {
+            "a": {
+              "slot": 2
+            },
+            "b": {
+              "slot": 0
+            }
+          },
+          "reused_wire": null,
+          "released_wires": [
+            16
+          ]
+        },
+        {
+          "node": 21,
+          "destination_slot": 0,
+          "reads": {
+            "a": {
+              "input": 3
+            },
+            "b": {
+              "slot": 15
+            }
+          },
+          "reused_wire": null,
+          "released_wires": []
+        },
+        {
+          "node": 22,
+          "destination_slot": 16,
+          "reads": {
+            "a": {
+              "slot": 5
+            },
+            "b": {
+              "slot": 1
+            }
+          },
+          "reused_wire": null,
+          "released_wires": []
+        },
+        {
+          "node": 23,
+          "destination_slot": 17,
+          "reads": {
+            "a": {
+              "slot": 16
+            }
+          },
+          "reused_wire": null,
+          "released_wires": [
+            38
+          ]
+        },
+        {
+          "node": 24,
+          "destination_slot": 16,
+          "reads": {
+            "a": {
+              "slot": 0
+            },
+            "b": {
+              "input": 15
+            }
+          },
+          "reused_wire": null,
+          "released_wires": []
+        },
+        {
+          "node": 25,
+          "destination_slot": 18,
+          "reads": {
+            "a": {
+              "slot": 1
+            },
+            "b": {
+              "slot": 17
+            }
+          },
+          "reused_wire": null,
+          "released_wires": [
+            17
+          ]
+        },
+        {
+          "node": 26,
+          "destination_slot": 1,
+          "reads": {
+            "a": {
+              "slot": 17
+            },
+            "b": {
+              "input": 11
+            }
+          },
+          "reused_wire": null,
+          "released_wires": []
+        },
+        {
+          "node": 27,
+          "destination_slot": 19,
+          "reads": {
+            "a": {
+              "slot": 17
+            },
+            "b": {
+              "input": 7
+            }
+          },
+          "reused_wire": null,
+          "released_wires": []
+        },
+        {
+          "node": 28,
+          "destination_slot": 20,
+          "reads": {
+            "a": {
+              "slot": 14
+            },
+            "b": {
+              "slot": 17
+            }
+          },
+          "reused_wire": null,
+          "released_wires": []
+        },
+        {
+          "node": 29,
+          "destination_slot": 21,
+          "reads": {
+            "a": {
+              "slot": 3
+            },
+            "b": {
+              "slot": 18
+            }
+          },
+          "reused_wire": null,
+          "released_wires": []
+        },
+        {
+          "node": 30,
+          "destination_slot": 22,
+          "reads": {
+            "a": {
+              "slot": 4
+            },
+            "b": {
+              "slot": 18
+            }
+          },
+          "reused_wire": null,
+          "released_wires": []
+        },
+        {
+          "node": 31,
+          "destination_slot": 23,
+          "reads": {
+            "a": {
+              "slot": 1
+            },
+            "b": {
+              "slot": 8
+            }
+          },
+          "reused_wire": null,
+          "released_wires": []
+        },
+        {
+          "node": 32,
+          "destination_slot": 24,
+          "reads": {
+            "a": {
+              "slot": 21
+            },
+            "b": {
+              "input": 12
+            }
+          },
+          "reused_wire": null,
+          "released_wires": []
+        },
+        {
+          "node": 33,
+          "destination_slot": 25,
+          "reads": {
+            "a": {
+              "input": 14
+            },
+            "b": {
+              "slot": 22
+            }
+          },
+          "reused_wire": null,
+          "released_wires": []
+        },
+        {
+          "node": 34,
+          "destination_slot": 26,
+          "reads": {
+            "a": {
+              "slot": 20
+            },
+            "b": {
+              "slot": 23
+            }
+          },
+          "reused_wire": null,
+          "released_wires": []
+        },
+        {
+          "node": 35,
+          "destination_slot": 27,
+          "reads": {
+            "a": {
+              "slot": 19
+            },
+            "b": {
+              "slot": 24
+            }
+          },
+          "reused_wire": null,
+          "released_wires": []
+        },
+        {
+          "node": 36,
+          "destination_slot": 28,
+          "reads": {
+            "a": {
+              "slot": 0
+            },
+            "b": {
+              "slot": 24
+            }
+          },
+          "reused_wire": null,
+          "released_wires": []
+        },
+        {
+          "node": 37,
+          "destination_slot": 29,
+          "reads": {
+            "a": {
+              "slot": 25
+            },
+            "b": {
+              "slot": 1
+            }
+          },
+          "reused_wire": null,
+          "released_wires": []
+        },
+        {
+          "node": 38,
+          "destination_slot": 30,
+          "reads": {
+            "a": {
+              "slot": 25
+            },
+            "b": {
+              "slot": 24
+            }
+          },
+          "reused_wire": null,
+          "released_wires": []
+        },
+        {
+          "node": 39,
+          "destination_slot": 31,
+          "reads": {
+            "a": {
+              "slot": 5
+            },
+            "b": {
+              "slot": 26
+            }
+          },
+          "reused_wire": null,
+          "released_wires": [
+            32
+          ]
+        },
+        {
+          "node": 40,
+          "destination_slot": 5,
+          "reads": {
+            "a": {
+              "slot": 16
+            },
+            "b": {
+              "slot": 26
+            }
+          },
+          "reused_wire": null,
+          "released_wires": []
+        },
+        {
+          "node": 41,
+          "destination_slot": 32,
+          "reads": {
+            "a": {
+              "slot": 13
+            },
+            "b": {
+              "slot": 28
+            }
+          },
+          "reused_wire": null,
+          "released_wires": []
+        },
+        {
+          "node": 42,
+          "destination_slot": 33,
+          "reads": {
+            "a": {
+              "slot": 25
+            },
+            "b": {
+              "slot": 28
+            }
+          },
+          "reused_wire": null,
+          "released_wires": []
+        },
+        {
+          "node": 43,
+          "destination_slot": 34,
+          "reads": {
+            "a": {
+              "input": 13
+            },
+            "b": {
+              "slot": 30
+            }
+          },
+          "reused_wire": null,
+          "released_wires": []
+        },
+        {
+          "node": 44,
+          "destination_slot": 35,
+          "reads": {
+            "a": {
+              "slot": 13
+            },
+            "b": {
+              "slot": 30
+            }
+          },
+          "reused_wire": null,
+          "released_wires": [
+            54
+          ]
+        },
+        {
+          "node": 45,
+          "destination_slot": 30,
+          "reads": {
+            "a": {
+              "slot": 31
+            },
+            "b": {
+              "slot": 16
+            }
+          },
+          "reused_wire": null,
+          "released_wires": []
+        },
+        {
+          "node": 46,
+          "destination_slot": 36,
+          "reads": {
+            "a": {
+              "slot": 20
+            },
+            "b": {
+              "slot": 31
+            }
+          },
+          "reused_wire": null,
+          "released_wires": [
+            44
+          ]
+        },
+        {
+          "node": 47,
+          "destination_slot": 20,
+          "reads": {
+            "a": {
+              "slot": 21
+            },
+            "b": {
+              "slot": 32
+            }
+          },
+          "reused_wire": null,
+          "released_wires": []
+        },
+        {
+          "node": 48,
+          "destination_slot": 37,
+          "reads": {
+            "a": {
+              "slot": 32
+            },
+            "b": {
+              "slot": 19
+            }
+          },
+          "reused_wire": null,
+          "released_wires": [
+            43
+          ]
+        },
+        {
+          "node": 49,
+          "destination_slot": 19,
+          "reads": {
+            "a": {
+              "slot": 15
+            },
+            "b": {
+              "slot": 33
+            }
+          },
+          "reused_wire": null,
+          "released_wires": [
+            36
+          ]
+        },
+        {
+          "node": 50,
+          "destination_slot": 15,
+          "reads": {
+            "a": {
+              "slot": 33
+            },
+            "b": {
+              "slot": 16
+            }
+          },
+          "reused_wire": null,
+          "released_wires": [
+            40
+          ]
+        },
+        {
+          "node": 51,
+          "destination_slot": 16,
+          "reads": {
+            "a": {
+              "slot": 28
+            },
+            "b": {
+              "slot": 35
+            }
+          },
+          "reused_wire": null,
+          "released_wires": [
+            52
+          ]
+        },
+        {
+          "node": 52,
+          "destination_slot": 28,
+          "reads": {
+            "a": {
+              "slot": 2
+            },
+            "b": {
+              "slot": 35
+            }
+          },
+          "reused_wire": null,
+          "released_wires": [
+            31
+          ]
+        },
+        {
+          "node": 53,
+          "destination_slot": 2,
+          "reads": {
+            "a": {
+              "slot": 21
+            },
+            "b": {
+              "slot": 36
+            }
+          },
+          "reused_wire": null,
+          "released_wires": [
+            45
+          ]
+        },
+        {
+          "node": 54,
+          "destination_slot": 21,
+          "reads": {
+            "a": {
+              "slot": 22
+            },
+            "b": {
+              "slot": 36
+            }
+          },
+          "reused_wire": null,
+          "released_wires": []
+        },
+        {
+          "node": 55,
+          "destination_slot": 38,
+          "reads": {
+            "a": {
+              "slot": 16
+            },
+            "b": {
+              "slot": 22
+            }
+          },
+          "reused_wire": null,
+          "released_wires": [
+            46
+          ]
+        },
+        {
+          "node": 56,
+          "destination_slot": 22,
+          "reads": {
+            "a": {
+              "slot": 16
+            },
+            "b": {
+              "slot": 1
+            }
+          },
+          "reused_wire": null,
+          "released_wires": [
+            42
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "slot": 20
+        },
+        {
+          "slot": 10
+        },
+        {
+          "slot": 4
+        },
+        {
+          "slot": 14
+        },
+        {
+          "slot": 29
+        },
+        {
+          "input": 13
+        },
+        {
+          "slot": 21
+        },
+        {
+          "slot": 15
+        },
+        {
+          "slot": 16
+        },
+        {
+          "input": 7
+        },
+        {
+          "slot": 34
+        },
+        {
+          "slot": 0
+        },
+        {
+          "input": 11
+        },
+        {
+          "input": 8
+        },
+        {
+          "slot": 18
+        },
+        {
+          "input": 15
+        },
+        {
+          "slot": 12
+        },
+        {
+          "input": 1
+        },
+        {
+          "slot": 13
+        },
+        {
+          "slot": 28
+        },
+        {
+          "slot": 11
+        },
+        {
+          "slot": 33
+        },
+        {
+          "slot": 8
+        },
+        {
+          "slot": 22
+        },
+        {
+          "slot": 25
+        },
+        {
+          "slot": 37
+        },
+        {
+          "slot": 6
+        },
+        {
+          "slot": 32
+        },
+        {
+          "slot": 38
+        },
+        {
+          "slot": 7
+        },
+        {
+          "slot": 30
+        },
+        {
+          "slot": 35
+        },
+        {
+          "input": 14
+        },
+        {
+          "slot": 26
+        },
+        {
+          "slot": 24
+        },
+        {
+          "slot": 19
+        },
+        {
+          "slot": 9
+        },
+        {
+          "slot": 23
+        },
+        {
+          "slot": 2
+        },
+        {
+          "slot": 31
+        },
+        {
+          "input": 3
+        },
+        {
+          "slot": 5
+        },
+        {
+          "slot": 3
+        },
+        {
+          "slot": 17
+        },
+        {
+          "input": 12
+        },
+        {
+          "slot": 27
+        },
+        {
+          "input": 6
+        },
+        {
+          "slot": 36
+        }
+      ]
+    }
+  },
+  "arithmetic_counts": {
+    "additions": 55,
+    "scalar_multiplications": 2,
+    "negations": 0
+  },
+  "search": null
+}

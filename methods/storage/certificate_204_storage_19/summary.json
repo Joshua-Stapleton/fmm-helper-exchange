@@ -1,0 +1,135 @@
+{
+  "policy": "Inputs externally owned and immutable. Every computed output retained until the map finishes. Temporary operand storage may be overwritten exactly on its final read.",
+  "L": {
+    "source_destructive": {
+      "peak_slots": 38,
+      "final_distinct_output_slots": 38,
+      "destructive_reuse": true,
+      "inputs_mutable": false
+    },
+    "source_nondestructive": {
+      "peak_slots": 39,
+      "final_distinct_output_slots": 38,
+      "destructive_reuse": false,
+      "inputs_mutable": false
+    },
+    "chosen_destructive": {
+      "peak_slots": 38,
+      "final_distinct_output_slots": 38,
+      "destructive_reuse": true,
+      "inputs_mutable": false
+    },
+    "chosen_nondestructive": {
+      "peak_slots": 39,
+      "final_distinct_output_slots": 38,
+      "destructive_reuse": false,
+      "inputs_mutable": false
+    },
+    "arithmetic_counts": {
+      "additions": 55,
+      "scalar_multiplications": 2,
+      "negations": 0
+    },
+    "search": null
+  },
+  "R": {
+    "source_destructive": {
+      "peak_slots": 38,
+      "final_distinct_output_slots": 38,
+      "destructive_reuse": true,
+      "inputs_mutable": false
+    },
+    "source_nondestructive": {
+      "peak_slots": 39,
+      "final_distinct_output_slots": 38,
+      "destructive_reuse": false,
+      "inputs_mutable": false
+    },
+    "chosen_destructive": {
+      "peak_slots": 38,
+      "final_distinct_output_slots": 38,
+      "destructive_reuse": true,
+      "inputs_mutable": false
+    },
+    "chosen_nondestructive": {
+      "peak_slots": 39,
+      "final_distinct_output_slots": 38,
+      "destructive_reuse": false,
+      "inputs_mutable": false
+    },
+    "arithmetic_counts": {
+      "additions": 55,
+      "scalar_multiplications": 2,
+      "negations": 0
+    },
+    "search": null
+  },
+  "P": {
+    "source_destructive": {
+      "peak_slots": 26,
+      "final_distinct_output_slots": 16,
+      "destructive_reuse": true,
+      "inputs_mutable": false
+    },
+    "source_nondestructive": {
+      "peak_slots": 27,
+      "final_distinct_output_slots": 16,
+      "destructive_reuse": false,
+      "inputs_mutable": false
+    },
+    "chosen_destructive": {
+      "peak_slots": 19,
+      "final_distinct_output_slots": 16,
+      "destructive_reuse": true,
+      "inputs_mutable": false
+    },
+    "chosen_nondestructive": {
+      "peak_slots": 20,
+      "final_distinct_output_slots": 16,
+      "destructive_reuse": false,
+      "inputs_mutable": false
+    },
+    "mutable_product_inputs": {
+      "peak_slots": 48,
+      "final_distinct_output_slots": 16,
+      "destructive_reuse": true,
+      "inputs_mutable": true
+    },
+    "source_mutable_product_inputs": {
+      "peak_slots": 48,
+      "final_distinct_output_slots": 16,
+      "destructive_reuse": true,
+      "inputs_mutable": true
+    },
+    "arithmetic_counts": {
+      "additions": 90,
+      "scalar_multiplications": 0,
+      "negations": 0
+    },
+    "search": {
+      "width": 600,
+      "seed": 30,
+      "seconds": 2.563102666987106,
+      "expanded_transitions": 472439,
+      "depth_completed": 90,
+      "peak": 19,
+      "optimality": "bounded beam upper bound; not a global schedule-optimality proof"
+    }
+  },
+  "joint_inputs": {
+    "serial_destructive": {
+      "peak_slots": 76
+    },
+    "serial_nondestructive": {
+      "peak_slots": 77
+    },
+    "interleaved_destructive": {
+      "peak_slots": 76
+    },
+    "interleaved_nondestructive": {
+      "peak_slots": 77
+    }
+  },
+  "input_storage_lower_bound": 76,
+  "input_bound_reason": "76 distinct non-alias outputs must coexist before the first bilinear product; source serial order attains this."
+}

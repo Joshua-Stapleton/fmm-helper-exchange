@@ -1,0 +1,6 @@
+{
+  "source": "experiments/pernet_inputs_20260929/next/memory/schedule.py",
+  "original_sha256": "afb0005dbc6ab05e015bd9793c33b18fb20d0bb55901270094ff45bd1a5b1d47",
+  "changes": "Search and allocation functions preserved; CLI reads explicit normalized graph rather than private source snapshot. Certificate provenance paths made relative; affected manifests regenerated.",
+  "attribution": "Existing204 arithmetic scheme is from Dumas, Pernet, Sedoglavic, Stapleton and Tichavsky arXiv:2609.12027. Scheduling does not alter its arithmetic."
+}

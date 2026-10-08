@@ -1,0 +1,4 @@
+# Optional dependencies for solver-backed searches; certificate-only Python checks are stdlib.
+ortools==9.15.6755
+z3-solver==5.1.0.0
+numpy==2.4.6

@@ -1,0 +1,53 @@
+{
+  "files": [
+    {
+      "source": "experiments/fmm_sparse_identity_20260921/methods/sparse_identity.py",
+      "sha256": "40b14f1900061f054617c845ce7f8b2c17e2fe890d03e426d6ba4d60416b6fb1",
+      "published": "sparse_identity.py",
+      "adaptation": "unchanged"
+    },
+    {
+      "source": "experiments/fmm_sparse_identity_20260921/methods/enumeration_audit.cpp",
+      "sha256": "69019755d827f892fefe7db13c972d0ae853975fe08601d4662d03e4c2e8a1b8",
+      "published": "enumeration_audit.cpp",
+      "adaptation": "unchanged"
+    },
+    {
+      "source": "experiments/smart_ternary_20260909/theory/verify.py",
+      "sha256": "98667b9499ffba6a6f8e733931b66e150a55e6c24d64d7f27efb9e24b22a4023",
+      "published": "ternary_shears.py",
+      "adaptation": "unchanged"
+    },
+    {
+      "source": "experiments/sedoglavic_20260914/input_and_basis/symmetry.py",
+      "sha256": "28f48bab12a08f3ac7b5c45d1820fe084bc18ccf5b786436c04196cefce287d4",
+      "published": "symmetry.py",
+      "adaptation": "extract reusable functions, remove campaign execution, force exact Fraction input and validate shapes"
+    },
+    {
+      "source": "experiments/release_followup_20261007/basis/exact_matching_screen.py",
+      "sha256": "5886fa50bef07e2c9b36f5ff25804ec00f986a6b4cf491491681670592128c64",
+      "published": "matching.py",
+      "adaptation": "extract cardinality matching DP and exact replay; generic dimension and deterministic witness; remove campaign paths and optimizer calls"
+    },
+    {
+      "source": "experiments/guided_transform_20260909/ordinary/run.py",
+      "sha256": "9879be08c64d19ea00a27c7cb1b1e0ae12bfe8ab1e6f38c48fc72f20edfb26ce",
+      "published": "transforms.py:sandwich_shear",
+      "adaptation": "extract paired matrix-index shear action and add argument checks; source convention renamed n to shape"
+    },
+    {
+      "source": "experiments/column_symmetry_20260912/audit.py",
+      "sha256": "a07a73baaa6e449dd75db05765a15cbd5256dacf21494b78b5a46bef1b4095e3",
+      "published": "transforms.py:canonical_columns",
+      "adaptation": "portable implementation of signed-column normalization and permutation quotient with explicit certificate map"
+    },
+    {
+      "source": "experiments/smart_ternary_20260909/theory/verify.py",
+      "sha256": "98667b9499ffba6a6f8e733931b66e150a55e6c24d64d7f27efb9e24b22a4023",
+      "published": "transforms.py:two_shear_endpoints",
+      "adaptation": "portable two-order endpoint wrapper using exact shear/inverse primitives; retained endpoints may have nonternary intermediates"
+    }
+  ],
+  "new_validation": "test_transforms.py: independent exact controls added for this portable extraction"
+}

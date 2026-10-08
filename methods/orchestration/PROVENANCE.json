@@ -1,0 +1,21 @@
+{
+  "files": [
+    {
+      "source": "experiments/unified_fmm_loop_20260909/engine/store.py",
+      "sha256": "ced1e6ba88ef5438b5d834067a086f7a0c59e44d696e26ab2d7a7c709b34899e",
+      "published": "store.py",
+      "adaptation": "resolve bundled circuit module and local CSE adapter; PLinOpt requires caller-supplied binary config; no vendor binary copied"
+    },
+    {
+      "source": "experiments/guided_transform_20260909/ordinary/run.py",
+      "sha256": "9879be08c64d19ea00a27c7cb1b1e0ae12bfe8ab1e6f38c48fc72f20edfb26ce",
+      "published": "signed_cse.py",
+      "adaptation": "extract cse function only, remove campaign and reducer side effects"
+    },
+    {
+      "source": "experiments/unified_fmm_loop_20260909/engine/test_store.py",
+      "published": "test_store.py",
+      "adaptation": "short-budget test uses signed CSE with zero worker budget, removing installed PLinOpt dependency"
+    }
+  ]
+}

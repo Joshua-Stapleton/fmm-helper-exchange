@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "counts": {
+    "u": 87,
+    "v": 88,
+    "w": 157
+  },
+  "additions": 332,
+  "products": 93,
+  "scalar_total": 425,
+  "tensor_identities": 15625,
+  "source_bytes_equal_pinned_download": true,
+  "coordinated_rank_term_signs": true,
+  "basis_change": false,
+  "unary_negations": 0,
+  "nonunit_scalars": 0,
+  "certificate_sha256": "b2add84b6997180ff95ecc861c4e0c7fa445a7e2a2db9af2e1af1e70566e7233",
+  "scope": "Independent literal executor, pinned-source comparison and exact integer tensor reconstruction."
+}

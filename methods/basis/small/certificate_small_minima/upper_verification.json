@@ -1,0 +1,90 @@
+{
+  "224": {
+    "status": "PASS",
+    "rank": 14,
+    "kernel_additions": 21,
+    "split": {
+      "u": {
+        "additions": 3,
+        "free_negations": 2
+      },
+      "v": {
+        "additions": 6,
+        "free_negations": 4
+      },
+      "w": {
+        "additions": 12,
+        "free_negations": 10
+      }
+    },
+    "exact_tensor_coefficients": 256,
+    "source_sha256": "dbc44ed325ff2364cb03223c4bfd390db8591202dbb6efa6dfdd2d09362cd8c3",
+    "model": "Signed binary addition/subtraction with free signs and copies; no nonunit scalar gates. Boundary conversions excluded."
+  },
+  "233": {
+    "status": "PASS",
+    "rank": 15,
+    "kernel_additions": 38,
+    "split": {
+      "u": {
+        "additions": 9,
+        "free_negations": 14
+      },
+      "v": {
+        "additions": 11,
+        "free_negations": 21
+      },
+      "w": {
+        "additions": 18,
+        "free_negations": 17
+      }
+    },
+    "exact_tensor_coefficients": 324,
+    "source_sha256": "e8c73487baf08f3f9c8f295b665bd2801a03dc08c78939df6494160eefb89886",
+    "model": "Signed binary addition/subtraction with free signs and copies; no nonunit scalar gates. Boundary conversions excluded."
+  },
+  "234": {
+    "status": "PASS",
+    "rank": 20,
+    "kernel_additions": 48,
+    "split": {
+      "u": {
+        "additions": 12,
+        "free_negations": 8
+      },
+      "v": {
+        "additions": 12,
+        "free_negations": 8
+      },
+      "w": {
+        "additions": 24,
+        "free_negations": 22
+      }
+    },
+    "exact_tensor_coefficients": 576,
+    "source_sha256": "0135ad781411d89851692f1116931e298005cd2905e1aa6e82e23d130b99ea51",
+    "model": "Signed binary addition/subtraction with free signs and copies; no nonunit scalar gates. Boundary conversions excluded."
+  },
+  "234_46": {
+    "status": "PASS",
+    "rank": 20,
+    "kernel_additions": 46,
+    "split": {
+      "u": {
+        "additions": 10,
+        "free_negations": 3
+      },
+      "v": {
+        "additions": 12,
+        "free_negations": 6
+      },
+      "w": {
+        "additions": 24,
+        "free_negations": 13
+      }
+    },
+    "exact_tensor_coefficients": 576,
+    "source_sha256": "6cbd2876c18d3faa4a998d26404de37d4c1b78d08b52d5a01621e94c840551a5",
+    "model": "Signed binary addition/subtraction with free signs and copies; no nonunit scalar gates. Boundary conversions excluded."
+  }
+}

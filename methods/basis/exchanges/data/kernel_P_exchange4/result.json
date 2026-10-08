@@ -1,0 +1,24 @@
+{
+  "baseline_signed_cost": {
+    "additions": 49,
+    "scalar_multiplications": 0,
+    "signed_binary": true
+  },
+  "diagnostic": "quads=2380\nEXHAUSTED_4_FOR_3 closures=200519150 pairs=136 triples=680 seconds=119.192",
+  "forms": 193,
+  "incumbent_helpers": 17,
+  "positive_control_cost": {
+    "additions": 49,
+    "scalar_multiplications": 0,
+    "signed_binary": true
+  },
+  "productions": 1165,
+  "scope": "Fixed basis; finite exact signed form pool; remove at most 4 incumbent helpers, add fewer than removed; signs are free in search only.",
+  "seconds": 119.192,
+  "tag": "kernel_P_exchange4",
+  "initial_unpruned_diagnostic": "quads=1578\nTIME_LIMIT closures=643759564 pairs=136 triples=680 seconds=180",
+  "exhaustive_after_duplicate_order_pruning": true,
+  "native_source": "exchange4_pruned.cpp",
+  "initial_unpruned_elapsed_seconds": 180.00868979212828,
+  "timing_scope": "Final exhaustive native search, excluding earlier unpruned time-limited attempt."
+}

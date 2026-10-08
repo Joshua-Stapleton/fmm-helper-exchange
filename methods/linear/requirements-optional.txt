@@ -1,0 +1,3 @@
+# Only reachability.py and orient.py need this. Certificate checks, enrichment,
+# pool construction and C++ search wrappers use Python's standard library.
+ortools==9.15.6755

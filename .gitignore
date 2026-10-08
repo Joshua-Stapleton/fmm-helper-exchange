@@ -4,3 +4,7 @@ __pycache__/
 results/
 toy_pool.json
 exchange
+.venv/
+build/
+replay/
+lower_replay/

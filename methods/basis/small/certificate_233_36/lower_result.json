@@ -1,0 +1,13 @@
+{
+  "complete": true,
+  "patterns": 12,
+  "trials": 108114,
+  "valid": 98991,
+  "passes": 0,
+  "minimum": 10,
+  "histogram": {
+    "10": 807,
+    "11": 14652,
+    "12": 83532
+  }
+}

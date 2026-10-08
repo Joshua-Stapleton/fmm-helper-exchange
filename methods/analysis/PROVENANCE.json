@@ -1,0 +1,29 @@
+{
+  "sources": {
+    "count_portfolio.py": {
+      "source": "experiments/fmm_recursive_scope_20260921/count_portfolio.py",
+      "sha256": "a7978fad920aa6f68993196444658df02d3e650b6620f506cf0a2dfabdaf3164"
+    },
+    "count_winograd.py": {
+      "source": "experiments/fmm_recursive_scope_20260921/count_winograd.py",
+      "sha256": "a60f8f6f99ed0fc56a22a04bcad480036f494d1f7cb45c73b5e7fb464f2caa46"
+    },
+    "roundoff_audit.py": {
+      "source": "experiments/focused_research_20261004/theory/roundoff_audit.py",
+      "sha256": "3d8a00d71b806f9ab28cdb1b30d1d4e848bdea6f8aa10a61d5a95c3ef0773d31"
+    },
+    "allorders_roundoff.py": {
+      "source": "experiments/focused_research_20261004/theory/allorders_roundoff.py",
+      "sha256": "71934e5308daff18d8cbd594fbfde0975fcd9dc4edf06508936a717ff894c8e1"
+    },
+    "support_distance.py": {
+      "source": "experiments/research_pass_20261008/transfers/support_distance.py",
+      "changes": "Extracted generic exact necessary bound; removed corpus-dependent path lookup"
+    }
+  },
+  "changes": [
+    "Portable169/43 case path",
+    "Results printed to stdout rather than overwriting included reports"
+  ],
+  "scope": "Roundoff envelopes are for one-level4x4 circuits under stated exact-input rounding assumptions. Recurrences count operations in specified schedules, not time or globally optimal algorithms."
+}
