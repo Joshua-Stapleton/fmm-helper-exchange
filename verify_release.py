@@ -39,6 +39,8 @@ def main():
           ('circuit-controls','methods/circuits/test_methods.py',[]),
           ('linear-controls','methods/linear/test_methods.py',(['--with-cpp']if a.full else [])+(['--with-solvers']if a.solvers else [])),
           ('reconstruction-controls','methods/linear/reconstruction/test_reconstruction.py',['--with-cpp']if a.full else []),
+          ('pooled-start-controls','methods/linear/reconstruction/test_pool_starts.py',[]),
+          ('pooled-start-pilot','methods/linear/reconstruction/pooled_start_pilot/verify.py',[]),
           ('fixed-maps-20261009','certificates/fmm_maps_20261009/verify.py',[]),
           ('347-V78','certificates/fmm_maps_20261008/347_V78/verify.py',[]),
           ('558-V161','certificates/fmm_maps_20261008/558_V161/verify.py',[]),

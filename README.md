@@ -6,6 +6,12 @@ Code, worked examples, exact certificates and scoped lower-bound proofs from Jos
 
 ## Latest update: 9 October 2026
 
+[Mixed-donor initialization](docs/pooled-starts-20261009.md) now imports paid
+computation chains from several solutions before external LEO completion.
+The exact small pilot verifies all 60 real-map completions; both control and
+mixed starts reach the existing 67-addition 2x4x7 V count. This is a tested
+experimental method, with no new bound or demonstrated general advantage.
+
 The additional [25-map test-archive report](docs/tests-archive-20261009.md) improves 24 supplied maps with exact fixed-sign programs. Complete additions fell from 1,661 to **1,408 for the supplied 8×8×8 rank-343 scheme**, and from 769 to **705 for 6×6×7**. [All nine triples and their certificates](certificates/tests_archive_20261009/README.md) preserve the original multiplication tensors and coordinates. The 2×4×7 U35 and W67 phases also have matching [fixed-map rational lower bounds](methods/circuits/directions_README.md).
 
 [Download the 25-map certificate bundle](downloads/fmm_tests_archive_certificates_20261009.zip). Extract it and run `python3 -I -B verify_all.py`; only Python's standard library is needed.

@@ -1,0 +1,95 @@
+{
+  "status": "PASS",
+  "source_original_sha256": "3a407e6a04d5d53c2f610c5ff3d8b1b4fea9089130d4c96ac4fc88d5af70ff6c",
+  "source_preparation": "Removed repeated target_matrix fields only; preserved source order, gates, outputs and names",
+  "controls": {
+    "seeds": [
+      4500,
+      4529
+    ],
+    "initial_gate_budget": 20,
+    "retention": 1,
+    "savings": 0.01,
+    "slack": 4,
+    "attempts_per_arm": 30,
+    "timeout_seconds": 2,
+    "time_cap_seconds": 25,
+    "parallel_arms": 2,
+    "threads_per_solver": 1
+  },
+  "arms": [
+    {
+      "arm": "toy",
+      "status": "COMPLETED_BUDGET",
+      "source_entries": 2,
+      "unique_donors": 2,
+      "sources_per_start": 2,
+      "initial_gate_budget": 2,
+      "attempts": 1,
+      "accepted": 1,
+      "best_signed": 4,
+      "elapsed_seconds": 0.022446125280112028,
+      "build": {
+        "leo_commit": "2abd2fd8f15dc1c97dd24777515324f865e77504",
+        "driver": "repair",
+        "compiler": "/usr/bin/c++",
+        "upstream_unmodified": true,
+        "driver_sha256": "0da63316f19a6eee913c01bcdad8209f71d5e426599ff20c990cae86298d4076"
+      },
+      "scope": "Paid partial circuits; generic signed counts require final strict orientation",
+      "median_signed": 4,
+      "mean_initial_target_coverage": 0
+    },
+    {
+      "arm": "single",
+      "status": "COMPLETED_BUDGET",
+      "source_entries": 43,
+      "unique_donors": 42,
+      "sources_per_start": 1,
+      "initial_gate_budget": 20,
+      "attempts": 30,
+      "accepted": 30,
+      "best_signed": 67,
+      "elapsed_seconds": 9.917308082804084,
+      "build": {
+        "leo_commit": "2abd2fd8f15dc1c97dd24777515324f865e77504",
+        "driver": "repair",
+        "compiler": "/usr/bin/c++",
+        "upstream_unmodified": true,
+        "driver_sha256": "0da63316f19a6eee913c01bcdad8209f71d5e426599ff20c990cae86298d4076"
+      },
+      "scope": "Paid partial circuits; generic signed counts require final strict orientation",
+      "median_signed": 68.0,
+      "mean_initial_target_coverage": 15.533333333333333
+    },
+    {
+      "arm": "mixed",
+      "status": "COMPLETED_BUDGET",
+      "source_entries": 43,
+      "unique_donors": 42,
+      "sources_per_start": 3,
+      "initial_gate_budget": 20,
+      "attempts": 30,
+      "accepted": 30,
+      "best_signed": 67,
+      "elapsed_seconds": 10.678278000093997,
+      "build": {
+        "leo_commit": "2abd2fd8f15dc1c97dd24777515324f865e77504",
+        "driver": "repair",
+        "compiler": "/usr/bin/c++",
+        "upstream_unmodified": true,
+        "driver_sha256": "0da63316f19a6eee913c01bcdad8209f71d5e426599ff20c990cae86298d4076"
+      },
+      "scope": "Paid partial circuits; generic signed counts require final strict orientation",
+      "median_signed": 67.0,
+      "mean_initial_target_coverage": 15.433333333333334
+    }
+  ],
+  "no_new_real_map_bound": true,
+  "limitations": [
+    "One real map, thirty starts per arm",
+    "Target coverage nearly equal on average but not stratified per start",
+    "Median counts are generic signed circuits; strict literal verification applies to saved best candidates",
+    "Toy is functional accounting, not evidence of mixed-start superiority"
+  ]
+}

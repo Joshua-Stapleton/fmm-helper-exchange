@@ -1,0 +1,13 @@
+{
+  "status": "OPTIMAL",
+  "signed_gate_count": 4,
+  "scope": "Fixed DAG; fixed input signs and all fixed output signs",
+  "seconds": 0.024236,
+  "exact_coefficient_identities": 8,
+  "counts": {
+    "binary_additions": 4,
+    "unary_negations": 0,
+    "nonunit_scalars": 0,
+    "unused_noninput_assignments": 0
+  }
+}

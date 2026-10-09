@@ -1,0 +1,14 @@
+[
+  {
+    "attempt": 0,
+    "seed": 4000,
+    "initial_additions": 2,
+    "contributing_donors": 2,
+    "covered_target_forms": 0,
+    "assembly_seconds": 0.0006194589659571648,
+    "status": "PASS",
+    "additions_signed": 4,
+    "exact_map_verified": true,
+    "seconds": 0.020719625055789948
+  }
+]

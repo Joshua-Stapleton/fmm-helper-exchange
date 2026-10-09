@@ -21,6 +21,32 @@ Generic vector covering, local reconstruction and population search are
 established methods. This combination and its witnesses are research artifacts;
 no theorem of novelty or general superiority is claimed.
 
+## Random initialization from several donors
+
+[`pool_starts.py`](pool_starts.py) samples intermediate endpoints and imports
+their ancestor chains from several same-map donors into a paid partial SLP.
+It reuses sign-equivalent forms without merging different magnitudes and
+keeps existing producers to avoid reciprocal-dependency cycles. LEO completes
+the original target using retention one; unused initial gates are pruned and
+all live initial gates count. This differs from upstream rounds, which start
+from a single selected solution, and from finite-pool search, which cannot
+invent new forms.
+
+```sh
+python3 -I -B methods/linear/reconstruction/pool_starts.py \
+  --leo /tmp/leo --donors methods/linear/reconstruction/pooled_start_pilot/source_donors.json \
+  --out /tmp/fmm-pooled-starts --sources 3 --gates 20 \
+  --attempts 30 --seconds 25 --timeout 2 --seed 4500
+python3 -I -B methods/linear/reconstruction/test_pool_starts.py
+python3 -I -B methods/linear/reconstruction/pooled_start_pilot/verify.py
+```
+
+[The small pilot](../../../docs/pooled-starts-20261009.md) provides a four-gate
+toy witness and 30 single-source versus 30 mixed-source real-map completions.
+Both arms reach the existing 67-addition 2x4x7 V result; no new bound or
+general advantage is claimed. This adapter uses the same pinned external
+library and repair driver as the reconstruction commands below.
+
 ## Verify the saved 158 result
 
 From the repository root; Python 3.10+, standard library only:
