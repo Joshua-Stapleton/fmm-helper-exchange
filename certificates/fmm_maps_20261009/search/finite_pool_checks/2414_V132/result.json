@@ -1,0 +1,19 @@
+{
+  "status": "UNKNOWN",
+  "seconds": 30.00952195795253,
+  "bound": 132,
+  "forms": 687,
+  "productions": 4473,
+  "workers": 2,
+  "seed": 20261009,
+  "strict_negation_free": true,
+  "scope": "finite form pool only",
+  "branches": 3358143,
+  "conflicts": 280466,
+  "pool_sha256": "7ce02cf2dc4332a17c68610bf637d74ce641b0152805d9ab35ee7b89540534ee",
+  "original_record_sha256": "86fcdfbec1b311ceffc21f548551caf5b77c23392515a0ed5f63e4f40c89ca7f",
+  "historical_pool_artifact_id": "rounds_smallmaps/2x4x14_V/controls/pool.json",
+  "bundled_pool": "../../2414_V133/pool.json",
+  "global_optimality_claim": false,
+  "interpretation": "Timeout. No certificate at the stated bound was found, and the bound is not excluded."
+}

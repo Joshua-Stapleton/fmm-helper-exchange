@@ -1,0 +1,187 @@
+{
+  "best_candidate": "programs/3x6x6_V.json",
+  "best_donor": 114,
+  "best_signed": 110,
+  "columns": 36,
+  "file": "3x6x6_m85_cr352_fv172_cn998_ZT_reduced_V.sms",
+  "historical": 127,
+  "naive": 422,
+  "nnz": 507,
+  "pool": {
+    "donors": 13,
+    "forms": 370,
+    "incumbent": 114,
+    "productions": 2030,
+    "seconds": 1.5723097079899162
+  },
+  "records": [
+    {
+      "additions": 127,
+      "name": "historical",
+      "scalar_multiplications": 0,
+      "signed_binary": true,
+      "source": "experiments/plinopt_20260905/sources/FastMatrixMultiplication/schemes/results/addition_reduced_ZT/3x6x6_m85_cr352_fv172_cn998_ZT_reduced.json",
+      "status": "PASS"
+    },
+    {
+      "additions": 115,
+      "name": "leo_A_distance_0_841",
+      "scalar_multiplications": 0,
+      "seconds": 0.4356775830965489,
+      "signed_binary": true,
+      "status": "PASS"
+    },
+    {
+      "additions": 115,
+      "name": "leo_A_distance_0_842",
+      "scalar_multiplications": 0,
+      "seconds": 0.7555295419879258,
+      "signed_binary": true,
+      "status": "PASS"
+    },
+    {
+      "additions": 114,
+      "name": "leo_A_distance_1_843",
+      "scalar_multiplications": 0,
+      "seconds": 0.5111150408629328,
+      "signed_binary": true,
+      "status": "PASS"
+    },
+    {
+      "additions": 133,
+      "name": "leo_A_cse_0_841",
+      "scalar_multiplications": 0,
+      "seconds": 0.02929104189388454,
+      "signed_binary": true,
+      "status": "PASS"
+    },
+    {
+      "additions": 147,
+      "name": "leo_A_cse_1_842",
+      "scalar_multiplications": 0,
+      "seconds": 0.42924954113550484,
+      "signed_binary": true,
+      "status": "PASS"
+    },
+    {
+      "name": "leo_At_distance_0_841",
+      "seconds": 25.009005542146042,
+      "status": "TIMEOUT"
+    },
+    {
+      "name": "leo_At_distance_0_842",
+      "seconds": 25.027715292060748,
+      "status": "TIMEOUT"
+    },
+    {
+      "additions": 135,
+      "name": "leo_At_cse_0_841",
+      "scalar_multiplications": 0,
+      "seconds": 0.24832833395339549,
+      "signed_binary": true,
+      "status": "PASS"
+    },
+    {
+      "additions": 129,
+      "name": "plinopt_A_D_1",
+      "scalar_multiplications": 0,
+      "seconds": 0.9355152919888496,
+      "signed_binary": true,
+      "status": "PASS"
+    },
+    {
+      "additions": 129,
+      "name": "plinopt_A_D_2",
+      "scalar_multiplications": 0,
+      "seconds": 1.0042236249428242,
+      "signed_binary": true,
+      "status": "PASS"
+    },
+    {
+      "additions": 132,
+      "name": "plinopt_At_D_1",
+      "scalar_multiplications": 0,
+      "seconds": 2.8350497919600457,
+      "signed_binary": true,
+      "status": "PASS"
+    },
+    {
+      "additions": 133,
+      "name": "plinopt_At_D_2",
+      "scalar_multiplications": 0,
+      "seconds": 2.513939250027761,
+      "signed_binary": true,
+      "status": "PASS"
+    },
+    {
+      "additions": 131,
+      "name": "plinopt_A_G_1",
+      "scalar_multiplications": 0,
+      "seconds": 1.238545292057097,
+      "signed_binary": true,
+      "status": "PASS"
+    },
+    {
+      "additions": 138,
+      "name": "plinopt_At_G_1",
+      "scalar_multiplications": 0,
+      "seconds": 0.8590397909283638,
+      "signed_binary": true,
+      "status": "PASS"
+    }
+  ],
+  "rows": 85,
+  "seconds": 125.63963433401659,
+  "sha256": "891b77087432f0a0db1f9b2331ac8b7045c19a5270da967685aed0fec5ee3681",
+  "strict_slp": "programs/3x6x6_V.slp",
+  "strict_verification": {
+    "source_sha256": "891b77087432f0a0db1f9b2331ac8b7045c19a5270da967685aed0fec5ee3681",
+    "outputs": 85,
+    "inputs": 36,
+    "nonzero_entries": 507,
+    "naive_row_additions": 422,
+    "signed_distinct_rows": 83,
+    "signed_duplicate_groups": [
+      [
+        5,
+        10
+      ],
+      [
+        22,
+        38
+      ]
+    ],
+    "row_support_histogram": {
+      "1": 5,
+      "2": 13,
+      "3": 12,
+      "4": 14,
+      "5": 3,
+      "6": 13,
+      "7": 3,
+      "8": 2,
+      "9": 4,
+      "10": 4,
+      "11": 1,
+      "12": 2,
+      "13": 2,
+      "15": 3,
+      "16": 1,
+      "18": 2,
+      "20": 1
+    },
+    "status": "PASS",
+    "exact_coefficient_identities": 3060,
+    "counts": {
+      "binary_additions": 110,
+      "unary_negations": 0,
+      "nonunit_scalars": 0,
+      "unused_noninput_assignments": 0
+    },
+    "literal_sha256": "4871001ae1d9e1055dd90826c7a453b650309ec20f706f0e5e30e57302aab275",
+    "basis_change": false,
+    "scope": "The supplied fixed signed linear map; not by itself a full bilinear scheme."
+  },
+  "best_leo": 114,
+  "best_plinopt": 129
+}

@@ -1,0 +1,49 @@
+{
+  "source_sha256": "5e2021ac33b1b262c87c756911fda6593e7b18f30f4fc1e8ec5df56bda34f910",
+  "outputs": 310,
+  "inputs": 64,
+  "nonzero_entries": 1478,
+  "naive_row_additions": 1168,
+  "signed_distinct_rows": 310,
+  "signed_duplicate_groups": [],
+  "row_support_histogram": {
+    "1": 13,
+    "2": 60,
+    "3": 15,
+    "4": 107,
+    "6": 32,
+    "8": 79,
+    "12": 4
+  },
+  "format": "exact-fixed-linear-map-certificate-v1",
+  "date": "2026-10-08",
+  "source_filename": "7x8x8_m310_cr1494_fv800_cn3604_ZT_reduced_V.sms",
+  "method": "The supplied matrix exactly matches a recovered published 454-addition SLP. A previous pooled helper-exchange search produced a verified 402-gate circuit. A follow-up remove-and-rebuild prototype used a fixed joint pool of 1828 exact forms, removed 2 to 11 helpers at a time, and repaired using closure-gain-guided choices followed by pruning; it could accept up to two extra helpers to escape local minima. Two 100-second runs found 401, first at 9.51297 seconds with seed 32 and separately at 53.1463 seconds with seed 33. This certificate contains the seed-32 401-gate candidate. It was oriented with fixed input/output signs and independently verified against all 19840 coefficients of the bundled V matrix, without unary negations or scalar multiplications.",
+  "counts": {
+    "binary_additions": 401,
+    "unary_negations": 0,
+    "nonunit_scalars": 0,
+    "unused_noninput_assignments": 0
+  },
+  "basis_change": false,
+  "scope": "Only the supplied V matrix with original input and output coordinates and signs.",
+  "source_annotation": "V, was 454",
+  "limitations": [
+    "No global optimality claim.",
+    "Only V was supplied; this is not a full matrix multiplication addition count.",
+    "No runtime improvement inferred from an arithmetic count."
+  ],
+  "method_repository": "https://github.com/Joshua-Stapleton/fmm-helper-exchange",
+  "source_public_repository": "https://github.com/dronperminov/FastMatrixMultiplication",
+  "source_public_commit": "6c75fd36564b177165d6968efd4c9e6199266191",
+  "public_source": {
+    "matrix": "V.sms",
+    "source_json": "7x8x8_m310_cr1494_fv800_cn3604_ZT_reduced.json",
+    "source_json_sha256": "1d5c01abf910876f31719a60c7bb308e3a817269cf08252d9e3473e05643fe0e",
+    "public_commit": "6c75fd36564b177165d6968efd4c9e6199266191",
+    "public_url": "https://github.com/dronperminov/FastMatrixMultiplication/blob/6c75fd36564b177165d6968efd4c9e6199266191/schemes/results/addition_reduced_ZT/7x8x8_m310_cr1494_fv800_cn3604_ZT_reduced.json",
+    "expanded_published_factor_additions": 454,
+    "coefficient_match": true,
+    "source_sms_sha256": "5e2021ac33b1b262c87c756911fda6593e7b18f30f4fc1e8ec5df56bda34f910"
+  }
+}

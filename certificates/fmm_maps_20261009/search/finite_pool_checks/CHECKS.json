@@ -1,0 +1,42 @@
+[
+  {
+    "name": "368_U55",
+    "result": "368_U55/result.json",
+    "status": "INFEASIBLE",
+    "bound": 55,
+    "forms": 118,
+    "seconds": 0.10420779208652675
+  },
+  {
+    "name": "368_W199",
+    "result": "368_W199/result.json",
+    "status": "UNKNOWN",
+    "bound": 199,
+    "forms": 1622,
+    "seconds": 30.06688379193656
+  },
+  {
+    "name": "366_W140",
+    "result": "366_W140/result.json",
+    "status": "UNKNOWN",
+    "bound": 140,
+    "forms": 1923,
+    "seconds": 30.064798624953255
+  },
+  {
+    "name": "2414_V132",
+    "result": "2414_V132/result.json",
+    "status": "UNKNOWN",
+    "bound": 132,
+    "forms": 687,
+    "seconds": 30.00952195795253
+  },
+  {
+    "name": "388_V172",
+    "result": "388_V172/result.json",
+    "status": "UNKNOWN",
+    "bound": 172,
+    "forms": 979,
+    "seconds": 30.005124625051394
+  }
+]

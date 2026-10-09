@@ -1,0 +1,72 @@
+[
+  {
+    "scheme": "2x4x14_m90_cr313_fv121_cn616_ZT_reduced",
+    "dimensions": [
+      2,
+      4,
+      14
+    ],
+    "corpus_source_sha256": "d4c5bc994125ed773c12863cdcac56c3bf9dff7c73fbbf9aaa29a21eddd8b07d",
+    "corpus_source_filename": "2x4x14_m90_cr313_fv121_cn616_ZT_reduced.json",
+    "U": "corpus_completion/2x4x14_m90_cr313_fv121_cn616_ZT_reduced_U.sms",
+    "V": "maps/2x4x14_m90_cr313_fv121_cn616_ZT_reduced_V.sms",
+    "W": "corpus_completion/2x4x14_m90_cr313_fv121_cn616_ZT_reduced_W.sms",
+    "source_url": "https://github.com/dronperminov/FastMatrixMultiplication/blob/6c75fd36564b177165d6968efd4c9e6199266191/schemes/results/addition_reduced_ZT/2x4x14_m90_cr313_fv121_cn616_ZT_reduced.json"
+  },
+  {
+    "scheme": "3x4x7_m64_cr249_cn446_ZT_reduced",
+    "dimensions": [
+      3,
+      4,
+      7
+    ],
+    "corpus_source_sha256": "db8dde8c355437a52c1cdf78b3cb4ac0ec0254b91e535aa78f00a62c11691c2d",
+    "corpus_source_filename": "3x4x7_m64_cr249_cn446_ZT_reduced.json",
+    "U": "corpus_completion/3x4x7_m64_cr249_cn446_ZT_reduced_U.sms",
+    "V": "maps/3x4x7_m64_cr249_cn446_ZT_reduced_V.sms",
+    "W": "maps/3x4x7_m64_cr249_cn446_ZT_reduced_W.sms",
+    "source_url": "https://github.com/dronperminov/FastMatrixMultiplication/blob/6c75fd36564b177165d6968efd4c9e6199266191/schemes/results/addition_reduced_ZT/3x4x7_m64_cr249_cn446_ZT_reduced.json"
+  },
+  {
+    "scheme": "3x6x6_m85_cr352_fv172_cn998_ZT_reduced",
+    "dimensions": [
+      3,
+      6,
+      6
+    ],
+    "corpus_source_sha256": "9e8458e41ff374da55db300ec9e1cf395fc4945d9490a747df3547c52c8a822a",
+    "corpus_source_filename": "3x6x6_m85_cr352_fv172_cn998_ZT_reduced.json",
+    "U": "corpus_completion/3x6x6_m85_cr352_fv172_cn998_ZT_reduced_U.sms",
+    "V": "maps/3x6x6_m85_cr352_fv172_cn998_ZT_reduced_V.sms",
+    "W": "maps/3x6x6_m85_cr352_fv172_cn998_ZT_reduced_W.sms",
+    "source_url": "https://github.com/dronperminov/FastMatrixMultiplication/blob/6c75fd36564b177165d6968efd4c9e6199266191/schemes/results/addition_reduced_ZT/3x6x6_m85_cr352_fv172_cn998_ZT_reduced.json"
+  },
+  {
+    "scheme": "3x6x8_m113_cr445_fv243_cn1240_ZT_reduced",
+    "dimensions": [
+      3,
+      6,
+      8
+    ],
+    "corpus_source_sha256": "f451f75478910cab02f33e0427044757ac09f01aae4ed03f337acbd6a375282e",
+    "corpus_source_filename": "3x6x8_m113_cr445_fv243_cn1240_ZT_reduced.json",
+    "U": "maps/3x6x8_m113_cr445_fv243_cn1240_ZT_reduced_U.sms",
+    "V": "maps/3x6x8_m113_cr445_fv243_cn1240_ZT_reduced_V.sms",
+    "W": "maps/3x6x8_m113_cr445_fv243_cn1240_ZT_reduced_W.sms",
+    "source_url": "https://github.com/dronperminov/FastMatrixMultiplication/blob/6c75fd36564b177165d6968efd4c9e6199266191/schemes/results/addition_reduced_ZT/3x6x8_m113_cr445_fv243_cn1240_ZT_reduced.json"
+  },
+  {
+    "scheme": "3x8x8_m148_cr511_fv199_cn1020_ZT_reduced",
+    "dimensions": [
+      3,
+      8,
+      8
+    ],
+    "corpus_source_sha256": "5b34ac164c47b46fe6eb90936d07b50c258e8a3f073ab4917be9f73daf9a60be",
+    "corpus_source_filename": "3x8x8_m148_cr511_fv199_cn1020_ZT_reduced.json",
+    "U": "corpus_completion/3x8x8_m148_cr511_fv199_cn1020_ZT_reduced_U.sms",
+    "V": "maps/3x8x8_m148_cr511_fv199_cn1020_ZT_reduced_V.sms",
+    "W": "corpus_completion/3x8x8_m148_cr511_fv199_cn1020_ZT_reduced_W.sms",
+    "source_url": "https://github.com/dronperminov/FastMatrixMultiplication/blob/6c75fd36564b177165d6968efd4c9e6199266191/schemes/results/addition_reduced_ZT/3x8x8_m148_cr511_fv199_cn1020_ZT_reduced.json"
+  }
+]

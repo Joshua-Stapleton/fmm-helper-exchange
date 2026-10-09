@@ -1,0 +1,10 @@
+{
+  "PROVENANCE.json": "bff540909dde27605f0addcec0acd9a7444bacc1f739c4fc953bd1be840c5f1f",
+  "README.md": "135d595dd11e41115f2b998326c3d678a0267aa6744a6995b8775c482ab9ea75",
+  "V.slp": "e0ef047550d8709fa151ef9dafec0a4ad3cb87a754499d37120143e54d30d3aa",
+  "V.sms": "fc184092540727a6602ca30c9b06fbc7dc1354e91decce502e237f8f37316ec6",
+  "orient_fixed.py": "23ce60d44dfd62c0c5b8da16f00b76f12368e048a8d1612d8f93c801dfc2713f",
+  "signed_candidate.json": "f42e26fe224b5e731e0e5a0be079fc65567163bc58b8251f24a764e7d12c6af5",
+  "verify.py": "81deb79afac744d8afffcf7836637cc07a58fc8f79f9c0335ffca527a225a0af",
+  "verify_literal.py": "5c7d77f023769cfa651eddb79b46172396983fcef838c36f3372d41c5914bc88"
+}

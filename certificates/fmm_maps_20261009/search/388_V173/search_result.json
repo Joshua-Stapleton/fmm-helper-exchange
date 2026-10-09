@@ -1,0 +1,15 @@
+{
+  "engine": "plateau",
+  "seed": 53,
+  "width_or_perturbation": 8,
+  "budget_seconds": 45.0,
+  "elapsed_seconds": 46.072126041864976,
+  "status": "COMPLETED",
+  "baseline_additions_signed": 174,
+  "data_sha256": "53fedd6c657f11399ae297aa737ded289ba754dae9b8ee554133c9b25e587096",
+  "free_signed_wires": true,
+  "diagnostic": "IMPROVED helpers=63 step=406 seconds=0.251941\nFINISHED steps=51451 closures=3754187 accepted=20733 seen=20560 best_helpers=63 initial_helpers=64 seconds=45.0011",
+  "scope": "Finite pool; heuristic search. Beam pruning is not exhaustive.",
+  "additions_signed": 173,
+  "exact_map_verified": true
+}

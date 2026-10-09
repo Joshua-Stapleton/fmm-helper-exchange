@@ -1,0 +1,15 @@
+{
+  "matrix": "3x4x7_m64_cr249_cn446_ZT_reduced_V.sms",
+  "source_sha256": "2f43ebe13b7581a15465c564e63af33f77a2606e1d02382ceb0e83e8a37597fb",
+  "best_additions": 78,
+  "counts": {
+    "binary_additions": 78,
+    "unary_negations": 0,
+    "nonunit_scalars": 0,
+    "unused_noninput_assignments": 0
+  },
+  "source_baseline": 82,
+  "method": "Reverified prior finite-pool CP certificate for byte-identical source",
+  "candidate": "programs/3x4x7_V.json",
+  "slp": "programs/3x4x7_V.slp"
+}

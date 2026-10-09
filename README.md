@@ -4,6 +4,23 @@ Code, worked examples, exact certificates and scoped lower-bound proofs from Jos
 
 [Download the complete methods bundle](downloads/fmm_research_methods.zip) · [Original compact helper-exchange bundle](downloads/fmm_helper_exchange_scripts.zip) · [Attribution and model conventions](docs/METHODS.md)
 
+## Latest update: 9 October 2026
+
+The [partial-reconstruction module](methods/linear/reconstruction/README.md) combines Perminov's new partial-solution API with dependency cuts, adjustable retention, population export and exact donor pooling. [The experiment report](docs/experiments-20261009.md) records the results, timings, donor counts, controls and bounded failures. The [interactive illustration](docs/reconstruction.html) shows chain retention, the nine-for-eight repair and the combined search workflow; download it to open locally.
+
+[Download the latest standalone certificate bundle](downloads/fmm_reoptimization_certificates_20261009.zip).
+
+The [new certificates](certificates/fmm_maps_20261009/README.md) include **3×6×8 V in 158 additions**, **3×8×8 V in 173**, and the complete supplied **3×6×8 triple in 414 additions plus 113 products**. They preserve the original signed maps, with no basis change or extra negations/scalings. The 158 result is available as both a selective repair and a separately pooled circuit. The 173 result improves on every contributing restart donor. These are specific benchmark improvements, not global records or runtime claims.
+
+The same follow-up reproduces 133 for 2×4×14 V, 113 for 3×4×7 W, 141 for 3×6×6 W and 200 for 3×6×8 W. Cut ranking has not demonstrated superiority: randomized ordering of the same structured cuts also found 158, faster in this recorded test.
+
+```sh
+python3 -I -B certificates/fmm_maps_20261009/verify.py
+python3 -I -B methods/linear/reconstruction/test_reconstruction.py
+```
+
+The [earlier supplied-map certificates](certificates/fmm_maps_20261008/README.md) retain 3×4×7 V78, 5×5×8 V161 and 7×8×8 V401. All portable certificate checks are included in the release verifier.
+
 ## Start here
 
 Python 3.10+ is sufficient for the standard-library checks. C++17 is needed for native searches/proof enumeration. Optional solver-backed methods use `requirements-search.txt` (Python3.11+ for the pinned environment).
@@ -22,6 +39,7 @@ python3 -B methods/linear/certificate_555_332/verify.py
 |---|---|---|
 | Helper exchange | [Original search](docs/helper-exchange.md), [`exchange.cpp`](exchange.cpp), [`make_pool.py`](make_pool.py) | Pool reusable exact forms; reconnect the entire reachable circuit after linked replacements |
 | Larger and equal-cost search | [Linear methods](methods/linear/README.md) | Population of equal-cost helper sets, larger exchange beams, linked-pair generation, necessary reachability cuts, whole-tensor sign orientation |
+| Partial reconstruction | [Repair and restart methods](methods/linear/reconstruction/README.md) | Select related dependency cuts, preserve unaffected computation, discover new forms with external LEO, and combine repaired donors |
 | Intelligent transformations | [Transformation tools](methods/transforms/README.md) | Exact sparse inverses, ternarity screens, both-order endpoint checks, signed-column classes, matching-based sparsity selection and symmetry transfer |
 | Joint circuit/basis search | [Circuit tools](methods/circuits/README.md) | Exact SLP replay/transposition, acyclic CP-SAT selection, jointly chosen roots, linked conversion/kernel search, historical helper transport |
 | Exact addition lower bounds | [Basis proofs](methods/basis/README.md) | Finite complete rational helper classifications, exhaustive root closure, canonical boundary bounds and a coordinated transformation grid |

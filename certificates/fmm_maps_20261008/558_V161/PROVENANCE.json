@@ -1,0 +1,82 @@
+{
+  "source_sha256": "fc184092540727a6602ca30c9b06fbc7dc1354e91decce502e237f8f37316ec6",
+  "outputs": 144,
+  "inputs": 40,
+  "nonzero_entries": 809,
+  "naive_row_additions": 665,
+  "signed_distinct_rows": 139,
+  "signed_duplicate_groups": [
+    [
+      2,
+      72
+    ],
+    [
+      18,
+      100
+    ],
+    [
+      37,
+      49
+    ],
+    [
+      50,
+      143
+    ],
+    [
+      85,
+      138
+    ]
+  ],
+  "row_support_histogram": {
+    "1": 14,
+    "2": 22,
+    "3": 21,
+    "4": 18,
+    "5": 8,
+    "6": 13,
+    "7": 8,
+    "8": 9,
+    "9": 4,
+    "10": 8,
+    "11": 4,
+    "12": 7,
+    "13": 1,
+    "14": 2,
+    "15": 1,
+    "16": 1,
+    "17": 1,
+    "18": 1,
+    "19": 1
+  },
+  "format": "exact-fixed-linear-map-certificate-v1",
+  "date": "2026-10-08",
+  "source_filename": "5x5x8_m144_cr620_fv281_cn1924_ZT_reduced_V.sms",
+  "method": "The supplied fixed V matrix exactly matches a recovered published 182-addition SLP, independently verified. Perminov LEO first produced a 165-gate donor. Our pool combined 40 donor circuits into 426 exact forms and 2483 productions in 1.1815 seconds. Starting from 165, plateau helper-exchange search reached 161 additions at 3.7732 seconds after pool assembly; the full 60-second run retained 161. Fixed input/output sign orientation followed by independent literal replay verified all 5760 source coefficients, with no standalone negations or scalar multiplications. The 161 count is a verified upper bound for this fixed V linear map, with no basis change and no optimality claim.",
+  "counts": {
+    "binary_additions": 161,
+    "unary_negations": 0,
+    "nonunit_scalars": 0,
+    "unused_noninput_assignments": 0
+  },
+  "basis_change": false,
+  "scope": "Only the supplied V matrix with original input and output coordinates and signs.",
+  "source_annotation": "V, was 182",
+  "limitations": [
+    "No global optimality claim.",
+    "Only V was supplied; this is not a full matrix multiplication addition count.",
+    "No runtime improvement inferred from an arithmetic count."
+  ],
+  "method_repository": "https://github.com/Joshua-Stapleton/fmm-helper-exchange",
+  "source_public_repository": "https://github.com/dronperminov/FastMatrixMultiplication",
+  "source_public_commit": "6c75fd36564b177165d6968efd4c9e6199266191",
+  "public_source": {
+    "matrix": "V.sms",
+    "source_json": "5x5x8_m144_cr620_fv281_cn1924_ZT_reduced.json",
+    "source_json_sha256": "f8da82de3400cfbf57d0061a47567ef05c1c241cb6a0dea9c250b5083e910a33",
+    "public_commit": "6c75fd36564b177165d6968efd4c9e6199266191",
+    "public_url": "https://github.com/dronperminov/FastMatrixMultiplication/blob/6c75fd36564b177165d6968efd4c9e6199266191/schemes/results/addition_reduced_ZT/5x5x8_m144_cr620_fv281_cn1924_ZT_reduced.json",
+    "expanded_published_factor_additions": 182,
+    "coefficient_match": true,
+    "source_sms_sha256": "fc184092540727a6602ca30c9b06fbc7dc1354e91decce502e237f8f37316ec6"
+  }
+}

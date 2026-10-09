@@ -1,0 +1,88 @@
+{
+  "status": "PASS",
+  "context": "Disposable repository copy, Python isolated mode, external fresh network LEO checkout; no original workspace imports",
+  "leo_commit": "2abd2fd8f15dc1c97dd24777515324f865e77504",
+  "checks": {
+    "independent_158_literal": {
+      "status": "PASS",
+      "coefficients": 5424,
+      "additions": 158,
+      "unary_negations": 0,
+      "nonunit_scalars": 0,
+      "dead_assignments": 0
+    },
+    "fresh_external_build": {
+      "status": "PASS",
+      "drivers": [
+        "repair",
+        "population"
+      ],
+      "upstream_unmodified": true
+    },
+    "prepared_winning_repair": {
+      "status": "PASS",
+      "seed": 4064,
+      "savings": 0,
+      "slack": 4,
+      "retention": 1,
+      "additions": 158,
+      "raw_sha256": "445ab21008379dc4b877b8cd07136b5bb729477fc438d129981fa9cd9ad0a507",
+      "original_raw_bytes_match": true
+    },
+    "explicit_cut_repair": {
+      "status": "PASS",
+      "cut_seeds": [
+        51,
+        117
+      ],
+      "baseline": 159,
+      "additions": 158,
+      "original_raw_bytes_match": true
+    },
+    "group_reproduction": {
+      "status": "PASS",
+      "groups": 743,
+      "winning_group_index": 64
+    },
+    "signed_alias_and_malformed_input_tests": {
+      "status": "PASS"
+    },
+    "finite_pool_compiled_toy": {
+      "status": "PASS",
+      "baseline": 4,
+      "additions": 3,
+      "exact_map_verified": true
+    },
+    "zero_helper_regression": {
+      "status": "PASS",
+      "baseline": 1
+    },
+    "bernoulli_control": {
+      "status": "PASS",
+      "retention": 0.7,
+      "exact_repairs": 3
+    },
+    "random_order_control": {
+      "status": "PASS",
+      "attempts": 4,
+      "baseline": 4,
+      "additions": 3
+    },
+    "population_two_round_control": {
+      "status": "PASS",
+      "rounds": 2,
+      "raw_exports": 3,
+      "unique_donors": 1,
+      "best_signed": 3
+    },
+    "population_timeout_salvage": {
+      "status": "PASS",
+      "timeout_status": "TIMEOUT",
+      "raw_files": 210,
+      "exact_valid_raw_files": 209,
+      "incomplete_file_skipped": 1,
+      "unique_donors": 1
+    }
+  },
+  "qualification": "Tests validate portability, exactness and control plumbing, not superiority of the ranking or global optimality. Prepared replay uses a 30-second per-call timeout to allow fresh executable startup."
+}

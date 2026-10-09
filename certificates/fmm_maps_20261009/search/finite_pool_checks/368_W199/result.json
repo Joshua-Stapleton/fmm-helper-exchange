@@ -1,0 +1,18 @@
+{
+  "status": "UNKNOWN",
+  "seconds": 30.06688379193656,
+  "bound": 199,
+  "forms": 1622,
+  "productions": 7149,
+  "workers": 2,
+  "seed": 20261009,
+  "strict_negation_free": true,
+  "scope": "finite form pool only",
+  "branches": 1564090,
+  "conflicts": 59051,
+  "pool_sha256": "a2e8f59b483dbdc104862254e798146cc40e14c58600bf2386fa0ff9dc7730cb",
+  "original_record_sha256": "cac0f48aeebf66ca44bf63fdc1119e65927cbf0f5f55565242ba66684ebe2124",
+  "historical_pool_artifact_id": "rounds_368/W/repool_guided/pool.json",
+  "global_optimality_claim": false,
+  "interpretation": "Timeout. No certificate at the stated bound was found, and the bound is not excluded."
+}

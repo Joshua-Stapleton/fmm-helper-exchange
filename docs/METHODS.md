@@ -10,6 +10,14 @@ Linked-pair generation uses exact target/helper identities to propose cooperatin
 
 Donors from a worse overall program can contain useful individual forms. The5×5 U experiment provides a controlled example: the enriched pool's three-for-two neighborhood exhausted without success while equal-cost exploration reached87. The output improvement also follows from a simpler two-for-one exchange in the enriched pool. This evidence separates search reach from pool quality; it does not prove that any one upstream scorer is indispensable.
 
+## Partial reconstruction outside a fixed pool
+
+Perminov's `solution_optimization` branch at commit `2abd2fd8f15dc1c97dd24777515324f865e77504` introduces solving from a partial existing program. Its round scheduler favors lower-cost prior solutions and retains individual steps with probability1/2, conditional on retaining their parents. A chain of d dependent noninput gates survives with probability2^-d. The CLI exports only its best final program; retaining round populations can expose further donor diversity.
+
+Our [reconstruction module](../methods/linear/reconstruction/README.md) can select one to three nearby gates, remove them and their descendants, compact the unaffected computation and call the unchanged upstream solver with retention1. This permits replacement forms outside the original finite pool. An optimistic ranking margin is the number of removed gates minus the number of lost distinct noninput target forms: each lost form needs a newly computed gate while the retained computation remains fixed. This is a repair heuristic, not a global addition lower bound.
+
+The certified3×6×8 V repair replaces9 gates by8, reducing159 to158 with fixed signs. Pooling separately repaired159-or-worse donors also reaches158. Adjustable-retention donors for3×8×8 V all cost at least174, but their combined pool yields173. Conversely, random ordering of the same structured cut groups found158 faster than the current ranking. This validates these repair and combination witnesses, not superiority of the ranking or general SLP-minimizer performance. [The dated report](experiments-20261009.md) distinguishes donor generation, pool construction, discovery time, continued search budgets and verification.
+
 ## Basis transformations and exact feasibility
 
 For a right shear I+sE_ij, only column j changes. Bitset sign compatibility decides ternarity exactly; support creation minus cancellation gives the exact nonzero delta. Joint common-destination moves may have a ternary endpoint even if constituent intermediate states fail. Looking at both orders gives a necessary endpoint repair screen, with exact replay of survivors.

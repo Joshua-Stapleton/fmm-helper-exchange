@@ -1,0 +1,21 @@
+{
+  "incumbent_additions": 159,
+  "comparison_scope": "Same 743 structured eligible dependency cuts; same seed4000 seed/config schedule, attempt cap250, 80 second budget, 2 second repair timeout",
+  "ranked": {
+    "best": 158,
+    "discovery_seconds": 52.256,
+    "completed_attempts": 123,
+    "elapsed_seconds": 80.01364870811813
+  },
+  "random_order": {
+    "best": 158,
+    "discovery_seconds": 3.645,
+    "completed_attempts": 250,
+    "elapsed_seconds": 62.28415187494829
+  },
+  "conclusion": "Selective reconstruction discovers an improved exact circuit; this single control does not support an advantage of the cut-ranking rule.",
+  "both_strict_coefficient_checks": 5424,
+  "both_unary_negations": 0,
+  "both_nonunit_scalars": 0,
+  "both_dead_assignments": 0
+}

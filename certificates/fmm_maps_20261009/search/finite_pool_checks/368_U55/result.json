@@ -1,0 +1,19 @@
+{
+  "status": "INFEASIBLE",
+  "seconds": 0.10420779208652675,
+  "bound": 55,
+  "forms": 118,
+  "productions": 446,
+  "workers": 1,
+  "seed": 20261009,
+  "strict_negation_free": true,
+  "scope": "finite form pool only",
+  "branches": 12025,
+  "conflicts": 2061,
+  "assembly_seconds": 0.09353224909864366,
+  "original_record_sha256": "dbc0a1b1ae608e2e41f89fb9d1a57d7b26b308b707fbd422ae200c5ac2764169",
+  "bundled_pool": "pool.json",
+  "pool_sha256": "7d5406fe05a0a3e0b66eec60f2d37518f1238a1a6afa14f4e1139c424bf5ae8e",
+  "global_optimality_claim": false,
+  "interpretation": "No circuit at the stated bound exists in this finite fixed-sign negation-free model; new forms are not excluded."
+}

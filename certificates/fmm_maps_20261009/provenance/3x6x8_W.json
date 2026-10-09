@@ -1,0 +1,93 @@
+{
+  "factor": "W",
+  "previous": 202,
+  "best_signed": 200,
+  "best_donor": 200,
+  "donors": 23,
+  "forms": 1509,
+  "pool_assembly_seconds": 24.619819875108078,
+  "baseline": 200,
+  "total_seconds": 245.77480766689405,
+  "sampling": [
+    {
+      "name": "distance20",
+      "command": [
+        "leo-reduce",
+        "-i",
+        "maps/3x6x8_m113_cr445_fv243_cn1240_ZT_reduced_W.sms",
+        "-o",
+        "search-artifacts/rounds_368/W/distance20.json",
+        "-f",
+        "json",
+        "--threads",
+        "1",
+        "--seed",
+        "20261009",
+        "--rounds",
+        "20",
+        "--vec-preset",
+        "distance",
+        "--vec-iterations",
+        "10",
+        "--cse-iterations",
+        "20",
+        "--try-transpose",
+        "--inline-substitutions",
+        "--validate",
+        "--print-rounds-stats"
+      ],
+      "timeout": 120,
+      "status": "PASS",
+      "additions": 200,
+      "seconds": 88.44834858295508
+    },
+    {
+      "name": "default8",
+      "command": [
+        "leo-reduce",
+        "-i",
+        "maps/3x6x8_m113_cr445_fv243_cn1240_ZT_reduced_W.sms",
+        "-o",
+        "search-artifacts/rounds_368/W/default8.json",
+        "-f",
+        "json",
+        "--threads",
+        "1",
+        "--seed",
+        "839",
+        "--rounds",
+        "8",
+        "--vec-preset",
+        "default",
+        "--vec-iterations",
+        "10",
+        "--cse-iterations",
+        "20",
+        "--try-transpose",
+        "--inline-substitutions",
+        "--validate",
+        "--print-rounds-stats",
+        "--vec-add-target-pairs",
+        "--cse-first-round-only"
+      ],
+      "timeout": 70,
+      "status": "TIMEOUT",
+      "seconds": 70.00624929205514
+    }
+  ],
+  "candidate_artifact_id": "rounds_368/W/best_candidate.json",
+  "strict_slp_artifact_id": "rounds_368/W/best.slp",
+  "orientation": {
+    "status": "OPTIMAL",
+    "signed_gate_count": 200,
+    "scope": "Fixed DAG; fixed input signs and all fixed output signs",
+    "seconds": 0.029948000000000002,
+    "exact_coefficient_identities": 2712,
+    "counts": {
+      "binary_additions": 200,
+      "unary_negations": 0,
+      "nonunit_scalars": 0,
+      "unused_noninput_assignments": 0
+    }
+  }
+}

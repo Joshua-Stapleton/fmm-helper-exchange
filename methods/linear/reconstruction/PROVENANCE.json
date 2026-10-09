@@ -1,0 +1,65 @@
+{
+  "authors": [
+    "Joshua Stapleton"
+  ],
+  "upstream": {
+    "author": "Andrey Perminov",
+    "repository": "https://github.com/dronperminov/linear-expressions-optimization",
+    "branch": "solution_optimization",
+    "commit": "2abd2fd8f15dc1c97dd24777515324f865e77504",
+    "vendored": false
+  },
+  "source_scheme": {
+    "repository": "https://github.com/dronperminov/FastMatrixMultiplication",
+    "name": "3x6x8_m113_cr445_fv243_cn1240_ZT_reduced",
+    "side": "V",
+    "basis_change": false,
+    "inputs": 48,
+    "outputs": 113
+  },
+  "witness": {
+    "baseline": 159,
+    "additions": 158,
+    "removed_seeds": [
+      51,
+      117
+    ],
+    "removed_gates": 9,
+    "retained_gates": 150,
+    "replacement_gates": 8,
+    "seed": 4064,
+    "savings": 0,
+    "slack": 4,
+    "retention": 1,
+    "exact_coefficients": 5424,
+    "unary_negations": 0,
+    "nonunit_scalars": 0,
+    "dead_assignments": 0
+  },
+  "control": {
+    "eligible_groups": 743,
+    "seed": 4000,
+    "attempt_cap": 250,
+    "budget_seconds": 80,
+    "repair_timeout_seconds": 2,
+    "ranked": {
+      "first_hit_seconds": 52.256,
+      "completed_attempts": 123,
+      "elapsed_seconds": 80.01364870811813
+    },
+    "random_order": {
+      "first_hit_seconds": 3.645,
+      "completed_attempts": 250,
+      "elapsed_seconds": 62.28415187494829
+    },
+    "conclusion": "No demonstrated advantage for ranking"
+  },
+  "scope": "One supplied fixed-sign linear map; no whole multiplication, novelty, optimality or runtime superiority claim",
+  "files": {
+    "368_V_158.json": "c8bc46b01a05fa21ca3de03edf1b2e8b444ecb5432bf3e561ce59e7993b40c76",
+    "368_V_159.json": "30e8e0e9a95505fd229e63d7302067437fd09aa84a4949f1bea5e85621f0e742",
+    "winning_368_V.raw.json": "445ab21008379dc4b877b8cd07136b5bb729477fc438d129981fa9cd9ad0a507",
+    "winning_368_V.slp": "20f9e5f68688bc83e6e3f8e4f3ff01ecec18ffa19d24752f4c554105c9c82b21",
+    "winning_368_V.txt": "038f8d564acb2da878e7b0ee3ebcd3d2e9510adadaaba112e5a1b3871fc1fd9d"
+  }
+}

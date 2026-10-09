@@ -37,5 +37,15 @@
     "repository": "https://github.com/Joshua-Stapleton/fmm-helper-exchange",
     "bundle_sha256": "441b9d4c03f5e95e9fefba5e1ce87acf64d289e26b6f4bc0349d4f3c50591e8e",
     "certificate_note": "Certificate provenance paths made relative; private-chat comparison removed; mathematical data and literal programs unchanged."
-  }
+  },
+  "updates": [
+    {
+      "date": "2026-10-09",
+      "methods": "methods/linear/reconstruction/",
+      "source_experiment": "perminov_reoptimization_20261009",
+      "certificates": "certificates/fmm_maps_20261009/",
+      "validation": "verification/release-20261009.json",
+      "external_leo_commit": "2abd2fd8f15dc1c97dd24777515324f865e77504"
+    }
+  ]
 }

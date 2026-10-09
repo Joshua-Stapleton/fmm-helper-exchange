@@ -1,0 +1,92 @@
+[
+  {
+    "matrix": "maps/2x4x14_m90_cr313_fv121_cn616_ZT_reduced_V.sms",
+    "source_json": "2x4x14_m90_cr313_fv121_cn616_ZT_reduced.json",
+    "source_json_sha256": "d4c5bc994125ed773c12863cdcac56c3bf9dff7c73fbbf9aaa29a21eddd8b07d",
+    "public_commit": "6c75fd36564b177165d6968efd4c9e6199266191",
+    "public_url": "https://github.com/dronperminov/FastMatrixMultiplication/blob/6c75fd36564b177165d6968efd4c9e6199266191/schemes/results/addition_reduced_ZT/2x4x14_m90_cr313_fv121_cn616_ZT_reduced.json",
+    "expanded_published_factor_additions": 138,
+    "coefficient_match": true,
+    "source_sms_sha256": "5e37d8578dde9e4c13a99fce3c6fdb30afc47b38c85c19682383c1b5bcca9e91"
+  },
+  {
+    "matrix": "maps/3x4x7_m64_cr249_cn446_ZT_reduced_V.sms",
+    "source_json": "3x4x7_m64_cr249_cn446_ZT_reduced.json",
+    "source_json_sha256": "db8dde8c355437a52c1cdf78b3cb4ac0ec0254b91e535aa78f00a62c11691c2d",
+    "public_commit": "6c75fd36564b177165d6968efd4c9e6199266191",
+    "public_url": "https://github.com/dronperminov/FastMatrixMultiplication/blob/6c75fd36564b177165d6968efd4c9e6199266191/schemes/results/addition_reduced_ZT/3x4x7_m64_cr249_cn446_ZT_reduced.json",
+    "expanded_published_factor_additions": 82,
+    "coefficient_match": true,
+    "source_sms_sha256": "2f43ebe13b7581a15465c564e63af33f77a2606e1d02382ceb0e83e8a37597fb"
+  },
+  {
+    "matrix": "maps/3x4x7_m64_cr249_cn446_ZT_reduced_W.sms",
+    "source_json": "3x4x7_m64_cr249_cn446_ZT_reduced.json",
+    "source_json_sha256": "db8dde8c355437a52c1cdf78b3cb4ac0ec0254b91e535aa78f00a62c11691c2d",
+    "public_commit": "6c75fd36564b177165d6968efd4c9e6199266191",
+    "public_url": "https://github.com/dronperminov/FastMatrixMultiplication/blob/6c75fd36564b177165d6968efd4c9e6199266191/schemes/results/addition_reduced_ZT/3x4x7_m64_cr249_cn446_ZT_reduced.json",
+    "expanded_published_factor_additions": 119,
+    "coefficient_match": true,
+    "source_sms_sha256": "d6cdf3f6e3a39b89bfb87f0c1cacec29c81a45a006e799a500c7aac27996b899"
+  },
+  {
+    "matrix": "maps/3x6x6_m85_cr352_fv172_cn998_ZT_reduced_V.sms",
+    "source_json": "3x6x6_m85_cr352_fv172_cn998_ZT_reduced.json",
+    "source_json_sha256": "9e8458e41ff374da55db300ec9e1cf395fc4945d9490a747df3547c52c8a822a",
+    "public_commit": "6c75fd36564b177165d6968efd4c9e6199266191",
+    "public_url": "https://github.com/dronperminov/FastMatrixMultiplication/blob/6c75fd36564b177165d6968efd4c9e6199266191/schemes/results/addition_reduced_ZT/3x6x6_m85_cr352_fv172_cn998_ZT_reduced.json",
+    "expanded_published_factor_additions": 127,
+    "coefficient_match": true,
+    "source_sms_sha256": "891b77087432f0a0db1f9b2331ac8b7045c19a5270da967685aed0fec5ee3681"
+  },
+  {
+    "matrix": "maps/3x6x6_m85_cr352_fv172_cn998_ZT_reduced_W.sms",
+    "source_json": "3x6x6_m85_cr352_fv172_cn998_ZT_reduced.json",
+    "source_json_sha256": "9e8458e41ff374da55db300ec9e1cf395fc4945d9490a747df3547c52c8a822a",
+    "public_commit": "6c75fd36564b177165d6968efd4c9e6199266191",
+    "public_url": "https://github.com/dronperminov/FastMatrixMultiplication/blob/6c75fd36564b177165d6968efd4c9e6199266191/schemes/results/addition_reduced_ZT/3x6x6_m85_cr352_fv172_cn998_ZT_reduced.json",
+    "expanded_published_factor_additions": 147,
+    "coefficient_match": true,
+    "source_sms_sha256": "99ccaeacdd0e5c85225574e13dfe5eb8866d23b72129a36764a160a67f8ec2b9"
+  },
+  {
+    "matrix": "maps/3x6x8_m113_cr445_fv243_cn1240_ZT_reduced_U.sms",
+    "source_json": "3x6x8_m113_cr445_fv243_cn1240_ZT_reduced.json",
+    "source_json_sha256": "f451f75478910cab02f33e0427044757ac09f01aae4ed03f337acbd6a375282e",
+    "public_commit": "6c75fd36564b177165d6968efd4c9e6199266191",
+    "public_url": "https://github.com/dronperminov/FastMatrixMultiplication/blob/6c75fd36564b177165d6968efd4c9e6199266191/schemes/results/addition_reduced_ZT/3x6x8_m113_cr445_fv243_cn1240_ZT_reduced.json",
+    "expanded_published_factor_additions": 65,
+    "coefficient_match": true,
+    "source_sms_sha256": "7c2559f0d1ae00bb905f4c5f90a98b59242d094a58e2068bb5245adaad79d005"
+  },
+  {
+    "matrix": "maps/3x6x8_m113_cr445_fv243_cn1240_ZT_reduced_V.sms",
+    "source_json": "3x6x8_m113_cr445_fv243_cn1240_ZT_reduced.json",
+    "source_json_sha256": "f451f75478910cab02f33e0427044757ac09f01aae4ed03f337acbd6a375282e",
+    "public_commit": "6c75fd36564b177165d6968efd4c9e6199266191",
+    "public_url": "https://github.com/dronperminov/FastMatrixMultiplication/blob/6c75fd36564b177165d6968efd4c9e6199266191/schemes/results/addition_reduced_ZT/3x6x8_m113_cr445_fv243_cn1240_ZT_reduced.json",
+    "expanded_published_factor_additions": 171,
+    "coefficient_match": true,
+    "source_sms_sha256": "1869ea605ac618e325156f0e98929a90fa16eb94f13bfb282c772fbb04e767be"
+  },
+  {
+    "matrix": "maps/3x6x8_m113_cr445_fv243_cn1240_ZT_reduced_W.sms",
+    "source_json": "3x6x8_m113_cr445_fv243_cn1240_ZT_reduced.json",
+    "source_json_sha256": "f451f75478910cab02f33e0427044757ac09f01aae4ed03f337acbd6a375282e",
+    "public_commit": "6c75fd36564b177165d6968efd4c9e6199266191",
+    "public_url": "https://github.com/dronperminov/FastMatrixMultiplication/blob/6c75fd36564b177165d6968efd4c9e6199266191/schemes/results/addition_reduced_ZT/3x6x8_m113_cr445_fv243_cn1240_ZT_reduced.json",
+    "expanded_published_factor_additions": 209,
+    "coefficient_match": true,
+    "source_sms_sha256": "9f455f21d496c2acb9cc0e55e746a024c584cc0e9387566d2161c527625002e8"
+  },
+  {
+    "matrix": "maps/3x8x8_m148_cr511_fv199_cn1020_ZT_reduced_V.sms",
+    "source_json": "3x8x8_m148_cr511_fv199_cn1020_ZT_reduced.json",
+    "source_json_sha256": "5b34ac164c47b46fe6eb90936d07b50c258e8a3f073ab4917be9f73daf9a60be",
+    "public_commit": "6c75fd36564b177165d6968efd4c9e6199266191",
+    "public_url": "https://github.com/dronperminov/FastMatrixMultiplication/blob/6c75fd36564b177165d6968efd4c9e6199266191/schemes/results/addition_reduced_ZT/3x8x8_m148_cr511_fv199_cn1020_ZT_reduced.json",
+    "expanded_published_factor_additions": 188,
+    "coefficient_match": true,
+    "source_sms_sha256": "58996d732d99f9f4d7dd7d5a685ada33a46036a0fee63b6b59dbe0f17d2193c5"
+  }
+]

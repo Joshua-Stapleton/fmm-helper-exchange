@@ -1,0 +1,38 @@
+[
+  {
+    "name": "2414_V133",
+    "donors": "2414_V133/donors.json",
+    "pool": "2414_V133/pool.json",
+    "record": "2414_V133/search_result.json",
+    "seed": 53,
+    "width": 8,
+    "seconds": 45,
+    "certified_additions": 133,
+    "donor_entries": 50,
+    "data_sha256": "7ce02cf2dc4332a17c68610bf637d74ce641b0152805d9ab35ee7b89540534ee"
+  },
+  {
+    "name": "388_V173",
+    "donors": "388_V173/donors.json",
+    "pool": "388_V173/pool.json",
+    "record": "388_V173/search_result.json",
+    "seed": 53,
+    "width": 8,
+    "seconds": 45,
+    "certified_additions": 173,
+    "donor_entries": 60,
+    "data_sha256": "53fedd6c657f11399ae297aa737ded289ba754dae9b8ee554133c9b25e587096"
+  },
+  {
+    "name": "368_V158",
+    "donors": "368_V158/donors.json",
+    "pool": "368_V158/pool.json",
+    "record": "368_V158/search_result.json",
+    "seed": 107,
+    "width": 6,
+    "seconds": 60,
+    "certified_additions": 158,
+    "donor_entries": 84,
+    "data_sha256": "d78f0583dbbc4a133a339af23fad2021ef648c57da6cee69762f6e4b05f16849"
+  }
+]

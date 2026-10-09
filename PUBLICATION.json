@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-08",
+  "date": "2026-10-09",
   "repository": "https://github.com/Joshua-Stapleton/fmm-helper-exchange",
   "description": "Reusable FMM search, transformation, exact certification, lower-bound, structural, orchestration, storage and analysis methods",
   "source_experiments": [
@@ -16,12 +16,27 @@
     "focused_research_20261004",
     "release_followup_20261007",
     "whatsapp_distance_20261007",
-    "research_pass_20261008"
+    "research_pass_20261008",
+    "example_347_V_20261008",
+    "example_788_V_20261008",
+    "example_558_V_20261008",
+    "perminov_batch_20261008",
+    "perminov_reoptimization_20261009"
   ],
   "module_provenance": "Each methods subdirectory includes original source hashes and adaptation notes. Proof inputs and certified literal programs preserve original arithmetic.",
   "included": "Portable implementations, representative source data, search witnesses, independently checked arithmetic/proof certificates and method explanations",
   "excluded": "Private correspondence, raw browser/chat exports, credentials, local binaries, dependency checkouts and redundant campaign checkpoints",
   "attribution": "NOTICE.md; source decompositions and external reducers retain their authorship",
-  "validation": "verification/release.json and module-specific replay files; --full reruns exhaustive proof computations",
-  "claims": "No global SOTA, unrestricted optimality, lower multiplication rank, new exponent or measured runtime is claimed."
+  "validation": "verification/release-20261009.json (24 portable checks); reconstruction/TEST_REPORT.json (fresh external LEO build and replay); prior unchanged full-proof evidence retained in verification/full_proofs.json.",
+  "claims": "No global SOTA, unrestricted optimality, lower multiplication rank, new exponent or measured runtime is claimed.",
+  "initial_release_date": "2026-10-08",
+  "latest_update": {
+    "methods": "methods/linear/reconstruction/",
+    "report": "docs/experiments-20261009.md",
+    "certificates": "certificates/fmm_maps_20261009/",
+    "external_leo_commit": "2abd2fd8f15dc1c97dd24777515324f865e77504",
+    "claims": "Fixed-map158/173 witnesses; complete3x6x8 414+113; no superiority claim for cut ranking.",
+    "standalone_bundle": "downloads/fmm_reoptimization_certificates_20261009.zip",
+    "bundle_sha256": "3ac9fbfbff7f42679c23eb233c35ebedbcb1c0d39eb32bbc3334a9f07763dd77"
+  }
 }

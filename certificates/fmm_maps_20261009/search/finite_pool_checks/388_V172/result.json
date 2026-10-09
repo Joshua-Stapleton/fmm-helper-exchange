@@ -1,0 +1,16 @@
+{
+  "status": "UNKNOWN",
+  "seconds": 30.005124625051394,
+  "bound": 172,
+  "forms": 979,
+  "productions": 6167,
+  "workers": 1,
+  "seed": 95,
+  "strict_negation_free": true,
+  "scope": "finite form pool only",
+  "branches": 1356586,
+  "conflicts": 222769,
+  "original_record_sha256": "515dce1c564e382a2453fb5472e5019b628d7d2ee102c9d1eacb0ac6bfb95d47",
+  "global_optimality_claim": false,
+  "interpretation": "Timeout. No certificate at the stated bound was found, and the bound is not excluded."
+}

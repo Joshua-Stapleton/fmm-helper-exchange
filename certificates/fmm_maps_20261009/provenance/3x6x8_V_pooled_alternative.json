@@ -1,0 +1,92 @@
+{
+  "factor": "V",
+  "previous": 159,
+  "best_signed": 158,
+  "best_donor": 159,
+  "donors": 84,
+  "forms": 741,
+  "pool_assembly_seconds": 2.587041625054553,
+  "baseline": 159,
+  "total_seconds": 254.8032470829785,
+  "sampling": [
+    {
+      "name": "distance20",
+      "command": [
+        "leo-reduce",
+        "-i",
+        "maps/3x6x8_m113_cr445_fv243_cn1240_ZT_reduced_V.sms",
+        "-o",
+        "replay-output/distance20.json",
+        "-f",
+        "json",
+        "--threads",
+        "1",
+        "--seed",
+        "20261009",
+        "--rounds",
+        "20",
+        "--vec-preset",
+        "distance",
+        "--vec-iterations",
+        "10",
+        "--cse-iterations",
+        "20",
+        "--try-transpose",
+        "--inline-substitutions",
+        "--validate",
+        "--print-rounds-stats"
+      ],
+      "timeout": 120,
+      "status": "TIMEOUT",
+      "seconds": 120.0096582500264
+    },
+    {
+      "name": "default8",
+      "command": [
+        "leo-reduce",
+        "-i",
+        "maps/3x6x8_m113_cr445_fv243_cn1240_ZT_reduced_V.sms",
+        "-o",
+        "replay-output/default8.json",
+        "-f",
+        "json",
+        "--threads",
+        "1",
+        "--seed",
+        "839",
+        "--rounds",
+        "8",
+        "--vec-preset",
+        "default",
+        "--vec-iterations",
+        "10",
+        "--cse-iterations",
+        "20",
+        "--try-transpose",
+        "--inline-substitutions",
+        "--validate",
+        "--print-rounds-stats",
+        "--vec-add-target-pairs",
+        "--cse-first-round-only"
+      ],
+      "timeout": 70,
+      "status": "TIMEOUT",
+      "seconds": 70.00787441711873
+    }
+  ],
+  "candidate": "programs/3x6x8_V_pooled_alternative.json",
+  "strict_slp": "programs/3x6x8_V_pooled_alternative.slp",
+  "orientation": {
+    "status": "OPTIMAL",
+    "signed_gate_count": 158,
+    "scope": "Fixed DAG; fixed input signs and all fixed output signs",
+    "seconds": 0.016545,
+    "exact_coefficient_identities": 5424,
+    "counts": {
+      "binary_additions": 158,
+      "unary_negations": 0,
+      "nonunit_scalars": 0,
+      "unused_noninput_assignments": 0
+    }
+  }
+}

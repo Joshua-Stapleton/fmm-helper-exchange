@@ -1,0 +1,46 @@
+{
+  "format": "exact-fixed-linear-map-certificate-v1",
+  "date": "2026-10-08",
+  "source_filename": "3x4x7_m64_cr249_cn446_ZT_reduced_V.sms",
+  "source_sha256": "2f43ebe13b7581a15465c564e63af33f77a2606e1d02382ceb0e83e8a37597fb",
+  "signed_candidate_sha256": "d9f64d5e6fbfb4384f31fbbc192ca054346b67f10525269c3d4588f321a6af1d",
+  "map": {
+    "outputs": 64,
+    "inputs": 28,
+    "nonzero_coefficients": 243
+  },
+  "counts": {
+    "binary_additions_subtractions": 78,
+    "unary_negations": 0,
+    "nonunit_scalar_multiplications": 0
+  },
+  "basis_change": false,
+  "scope": "Only the supplied V matrix, with exact input and output coordinates/signs.",
+  "method": [
+    "PLinOpt and external LEO donor circuits were pooled for the same matrix.",
+    "The best seed used 79 additions; the combined finite pool had 444 exact forms and 2813 productions.",
+    "Our finite-pool CP-SAT circuit selection produced 78 addition/subtraction gates.",
+    "Wire-sign feasibility produced the same exact matrix with zero standalone negations.",
+    "Independent Fraction coefficient replay checked all 1792 matrix entries."
+  ],
+  "limitations": [
+    "No optimality claim.",
+    "No full bilinear tensor verified because only V was supplied.",
+    "No runtime improvement inferred from arithmetic count.",
+    "Solver OPTIMAL status is feasibility at bound 78, not proof of minimum 78."
+  ],
+  "method_repository": "https://github.com/Joshua-Stapleton/fmm-helper-exchange",
+  "finite_pool_implementation": "methods/circuits/cp_pool.py",
+  "source_public_repository": "https://github.com/dronperminov/FastMatrixMultiplication",
+  "source_public_commit": "6c75fd36564b177165d6968efd4c9e6199266191",
+  "public_source": {
+    "matrix": "V.sms",
+    "source_json": "3x4x7_m64_cr249_cn446_ZT_reduced.json",
+    "source_json_sha256": "db8dde8c355437a52c1cdf78b3cb4ac0ec0254b91e535aa78f00a62c11691c2d",
+    "public_commit": "6c75fd36564b177165d6968efd4c9e6199266191",
+    "public_url": "https://github.com/dronperminov/FastMatrixMultiplication/blob/6c75fd36564b177165d6968efd4c9e6199266191/schemes/results/addition_reduced_ZT/3x4x7_m64_cr249_cn446_ZT_reduced.json",
+    "expanded_published_factor_additions": 82,
+    "coefficient_match": true,
+    "source_sms_sha256": "2f43ebe13b7581a15465c564e63af33f77a2606e1d02382ceb0e83e8a37597fb"
+  }
+}

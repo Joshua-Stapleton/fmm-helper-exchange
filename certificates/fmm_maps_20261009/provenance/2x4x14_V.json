@@ -1,0 +1,55 @@
+{
+  "key": "2x4x14_V",
+  "source_candidate_artifact_id": "rounds_smallmaps/2x4x14_V/best_candidate.json",
+  "source_additions": 134,
+  "best": 133,
+  "best_source_artifact_id": "rounds_smallmaps/2x4x14_V/controls/plateau/candidate.json",
+  "retention_experiments": [
+    {
+      "source_sha256": "16032b4820042fc72e67dd2216b9de403f53d41640a9cc47c812fde7c15aeb49",
+      "leo_commit": "2abd2fd8f15dc1c97dd24777515324f865e77504",
+      "baseline": 134,
+      "best": 134,
+      "attempts": 40,
+      "ranked_cuts": 40,
+      "elapsed_seconds": 27.81868449994363,
+      "exact_map_verified": true,
+      "retention": 0.9,
+      "selection": "bernoulli"
+    },
+    {
+      "source_sha256": "16032b4820042fc72e67dd2216b9de403f53d41640a9cc47c812fde7c15aeb49",
+      "leo_commit": "2abd2fd8f15dc1c97dd24777515324f865e77504",
+      "baseline": 134,
+      "best": 134,
+      "attempts": 18,
+      "ranked_cuts": 40,
+      "elapsed_seconds": 30.006258083041757,
+      "exact_map_verified": true,
+      "retention": 0.7,
+      "selection": "bernoulli"
+    },
+    {
+      "source_sha256": "16032b4820042fc72e67dd2216b9de403f53d41640a9cc47c812fde7c15aeb49",
+      "leo_commit": "2abd2fd8f15dc1c97dd24777515324f865e77504",
+      "baseline": 134,
+      "best": 134,
+      "attempts": 13,
+      "ranked_cuts": 40,
+      "elapsed_seconds": 30.007589499931782,
+      "exact_map_verified": true,
+      "retention": 0.5,
+      "selection": "bernoulli"
+    }
+  ],
+  "pool": {
+    "seconds": 3.0461779590696096,
+    "forms": 687,
+    "productions": 4473,
+    "donors": 50,
+    "baseline": 134
+  },
+  "elapsed_seconds": 139.41321491706185,
+  "exact_fixed_map": true,
+  "no_hidden_negations": true
+}
