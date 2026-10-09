@@ -46,6 +46,18 @@
       "certificates": "certificates/fmm_maps_20261009/",
       "validation": "verification/release-20261009.json",
       "external_leo_commit": "2abd2fd8f15dc1c97dd24777515324f865e77504"
+    },
+    {
+      "date": "2026-10-09",
+      "source_experiment": "perminov_tests_20261009",
+      "source_archive_sha256": "dd4238a5c7493318378da9d96545b1f6891259f7f48d12282e2b600aeadfe970",
+      "certificates": "certificates/tests_archive_20261009/",
+      "methods": [
+        "methods/linear/tensor_factors/",
+        "methods/linear/fast_pool.py",
+        "methods/circuits/direction_floor.py"
+      ],
+      "validation": "verification/release-tests-20261009.json"
     }
   ]
 }

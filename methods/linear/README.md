@@ -148,3 +148,16 @@ budgets for provenance; those paths are not reproduction commands. Public
 distribution hashes differ from original local hashes where private filesystem
 prefixes were removed. Mathematical coefficients and literal SLP bytes were
 preserved. The public ZIP's current digest is in `PROVENANCE.json`.
+
+## Native exact pool construction
+
+The optional [native adapter](fast_pool.py) accelerates the sum/difference relation enumeration in the reference `make_pool.py`. Donor normalization, signed alias handling, chosen incumbent and output ordering stay the same. Each returned relation is replayed with Python integers before acceptance; regression controls compare entire pool objects against the unrestricted reference.
+
+```sh
+python3 -I -B methods/linear/fast_pool.py donors.json /tmp/fmm-native-pool.json
+python3 -I -B methods/linear/test_fast_pool.py
+```
+
+A C++17 compiler is required. The first command compiles a temporary backend unless `--binary /path/to/previously/compiled/backend` is supplied. Compilation and process startup are separate from enumeration time. The backend uses guarded int64 arithmetic: coefficients beyond its safe range are rejected with instructions to use the arbitrary-integer Python reference. It does not silently wrap or merge proportional forms with different magnitudes.
+
+The [test-archive report](../../docs/tests-archive-20261009.md) records complete pool equality on 687-form and 961-form fixtures, plus observed timing differences. Native process overhead made a tiny toy slower. This is an implementation acceleration, not a new reduction rule or a change to the finite candidate model.

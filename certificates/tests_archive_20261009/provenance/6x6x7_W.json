@@ -1,0 +1,109 @@
+{
+  "name": "6x6x7_W",
+  "upstream_commit": "2abd2fd8f15dc1c97dd24777515324f865e77504",
+  "source_candidate_sha256": "d9bd4e729f139e1bb82788a4868ed4e882f71f261fc1d4c4828cc0a00d507384",
+  "source_literal_sha256": "5c64c7d5c081ea369fcc806a812be8c5d6e00923cd7774b6a153132622637d6e",
+  "basis_change": false,
+  "scope": "Exact original fixed linear map; heuristic feasible bound unless a separately included fixed-map proof applies.",
+  "total_seconds": 112.00178166711703,
+  "forms": 285,
+  "productions": 1087,
+  "search": {
+    "engine": "plateau",
+    "seed": 20261009,
+    "width_or_perturbation": 8,
+    "budget_seconds": 25.0,
+    "elapsed_seconds": 25.434643833432347,
+    "status": "COMPLETED",
+    "baseline_additions_signed": 201,
+    "data_sha256": "517d839104d70d7c19d2689d79652a58dbba782a1a055c7a3c749834ab458b8b",
+    "free_signed_wires": true,
+    "diagnostic": "IMPROVED helpers=36 step=1 seconds=0.000728417\nIMPROVED helpers=35 step=4 seconds=0.00169542\nIMPROVED helpers=34 step=54 seconds=0.0147025\nFINISHED steps=80214 closures=3529783 accepted=31549 seen=31520 best_helpers=34 initial_helpers=40 seconds=25.0002",
+    "scope": "Finite pool; heuristic search. Beam pruning is not exhaustive.",
+    "additions_signed": 193,
+    "exact_map_verified": true
+  },
+  "strict_verification": {
+    "status": "OPTIMAL",
+    "signed_gate_count": 334,
+    "scope": "Fixed DAG; fixed input signs and all fixed output signs",
+    "seconds": 0.031657000000000005,
+    "exact_coefficient_identities": 7686,
+    "counts": {
+      "binary_additions": 334,
+      "unary_negations": 0,
+      "nonunit_scalars": 0,
+      "unused_noninput_assignments": 0
+    }
+  },
+  "runs": [
+    {
+      "method": "upstream_rounds",
+      "orientation": "transpose",
+      "status": "TIMEOUT",
+      "seconds": 25.018739082850516
+    },
+    {
+      "method": "retention09",
+      "status": "PASS",
+      "donors": 6,
+      "best": 344,
+      "report": {
+        "selection": "bernoulli_retention",
+        "source_sha256": "1418563a9425bb93e0080686813ac816a31b91e043df81748cdafdd7ffa8881e",
+        "build": {
+          "leo_commit": "2abd2fd8f15dc1c97dd24777515324f865e77504",
+          "driver": "repair",
+          "upstream_unmodified": true,
+          "driver_sha256": "0da63316f19a6eee913c01bcdad8209f71d5e426599ff20c990cae86298d4076"
+        },
+        "baseline_additions_signed": 211,
+        "best_additions_signed": 203,
+        "eligible_groups": 60,
+        "attempts": 11,
+        "first_improvement_seconds": 1.053000417072326,
+        "elapsed_seconds": 18.01635166676715,
+        "seconds": 18.0,
+        "repair_timeout": 2.0,
+        "seed": 4000,
+        "max_removed": 12,
+        "neighbors": 8,
+        "max_seeds": 3,
+        "free_signed_wires": true,
+        "scope": "Heuristic reconstruction of one fixed linear map; no optimality proof"
+      },
+      "seconds": 20.039399417117238
+    },
+    {
+      "method": "structured_random",
+      "status": "PASS",
+      "donors": 61,
+      "best": 342,
+      "report": {
+        "selection": "random_dependency_cut_order",
+        "source_sha256": "4a8043d46041447dae5fe84b778764f23974ad058025c03501efdd4ecccad42a",
+        "build": {
+          "leo_commit": "2abd2fd8f15dc1c97dd24777515324f865e77504",
+          "driver": "repair",
+          "upstream_unmodified": true,
+          "driver_sha256": "0da63316f19a6eee913c01bcdad8209f71d5e426599ff20c990cae86298d4076"
+        },
+        "baseline_additions_signed": 203,
+        "best_additions_signed": 201,
+        "eligible_groups": 1742,
+        "attempts": 60,
+        "first_improvement_seconds": 0.7596499589271843,
+        "elapsed_seconds": 9.28357283398509,
+        "seconds": 22.0,
+        "repair_timeout": 2.0,
+        "seed": 4000,
+        "max_removed": 12,
+        "neighbors": 8,
+        "max_seeds": 3,
+        "free_signed_wires": true,
+        "scope": "Heuristic reconstruction of one fixed linear map; no optimality proof"
+      },
+      "seconds": 27.39031762536615
+    }
+  ]
+}

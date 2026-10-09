@@ -1,0 +1,58 @@
+{
+  "author": "Joshua Stapleton",
+  "source": {
+    "author": "Andrey Perminov",
+    "repository": "https://github.com/dronperminov/FastMatrixMultiplication",
+    "commit": "6c75fd36564b177165d6968efd4c9e6199266191",
+    "scheme": "8x8x8_m343_cr1661_fv1015_cn4434_ZT_reduced",
+    "basis_change": false,
+    "rank": 343
+  },
+  "structure": {
+    "axis_counts": {
+      "u": [
+        7,
+        14,
+        7
+      ],
+      "v": [
+        7,
+        14,
+        7
+      ],
+      "wt": [
+        7,
+        13,
+        7
+      ]
+    },
+    "outer_axis": 0,
+    "local_map_shape": [
+      49,
+      16
+    ],
+    "identical_groups": 7,
+    "outer_additions": 80,
+    "not_pure_S7_cubed": true
+  },
+  "saved_local_counts": {
+    "u": 51,
+    "v": 49,
+    "wt": 48
+  },
+  "charged_signed_lift_counts": {
+    "u": 437,
+    "v": 423,
+    "wt": 416
+  },
+  "strict_final_counts": {
+    "u": 383,
+    "v": 375,
+    "w": 650
+  },
+  "signed_transpose_kernel_count": 371,
+  "strict_full_scheme_additions": 1408,
+  "original_full_scheme_additions": 1661,
+  "publication_boundary": "Only frozen validation artifacts are authoritative. Surviving best witnesses were explicitly used as incumbents during reconstructed validation; no first-discovery replay claim. Old overwritten auxiliary pools excluded.",
+  "scope": "Same fixed matrices and original rank, not global record, exponent reduction, global optimality or measured runtime advantage"
+}

@@ -1,0 +1,74 @@
+[
+  {
+    "name": "8x8x8_U",
+    "frame": "direct",
+    "purpose": "Reconstructed validation pool containing the already known witness; not its first causal discovery pool.",
+    "pool": "search/8x8x8_U/pool.json",
+    "donors": "search/8x8x8_U/donors.json",
+    "kernel_candidate": "search/8x8x8_U/kernel_candidate.json",
+    "original_pool_sha256": "afc9c29e747d8cc9588488f331320db77a0f40931d506fd74d34bdf59e599ae7",
+    "original_donors_sha256": "465d967e17e0236a0a5266fd573cdeb644b26fbb9d9b512c478cb911e449423d",
+    "donor_entries": 40,
+    "raw_donor_formatting_compacted": true
+  },
+  {
+    "name": "8x8x8_V",
+    "frame": "direct",
+    "purpose": "Reconstructed validation pool containing the already known witness; not its first causal discovery pool.",
+    "pool": "search/8x8x8_V/pool.json",
+    "donors": "search/8x8x8_V/donors.json",
+    "kernel_candidate": "search/8x8x8_V/kernel_candidate.json",
+    "original_pool_sha256": "68bccd64af8bb5a85f1b09e0f4afc1ab2f12555ba54d1013854438ebb6e40f33",
+    "original_donors_sha256": "4c09631fbac8a712eb78756223f5ec6b7797822765f1802b3d807881e4967c16",
+    "donor_entries": 30,
+    "raw_donor_formatting_compacted": true
+  },
+  {
+    "name": "8x8x8_W",
+    "frame": "transpose",
+    "purpose": "Reconstructed validation pool containing the already known witness; not its first causal discovery pool.",
+    "pool": "search/8x8x8_W/pool.json",
+    "donors": "search/8x8x8_W/donors.json",
+    "kernel_candidate": "search/8x8x8_W/kernel_candidate.json",
+    "original_pool_sha256": "1898e9c0ec9923f42953823a32835bdf12e7dc4f19145f7f1e42fd0b9b7987a6",
+    "original_donors_sha256": "e3a8761e1ac5f14134956a711f7748c4c176e061d6f1a7583f4ceb0ac648015c",
+    "donor_entries": 49,
+    "raw_donor_formatting_compacted": true
+  },
+  {
+    "name": "4x5x9_W",
+    "frame": "transpose",
+    "purpose": "Causal finite pool for the recorded W-transpose follow-up search.",
+    "pool": "search/4x5x9_W/pool.json",
+    "donors": "search/4x5x9_W/donors.json",
+    "kernel_candidate": "search/4x5x9_W/kernel_candidate.json",
+    "original_pool_sha256": "243f6529412072cc7da56ab84bf8fe59b85a9a213d0be23e9c445e0423978d0f",
+    "original_donors_sha256": "aded9b587930b36fabba94d5588bdb30bf5af5cbab237843c3494055384ee6d2",
+    "donor_entries": 55,
+    "raw_donor_formatting_compacted": true
+  },
+  {
+    "name": "4x6x7_W",
+    "frame": "transpose",
+    "purpose": "Causal finite pool for the recorded W-transpose follow-up search.",
+    "pool": "search/4x6x7_W/pool.json",
+    "donors": "search/4x6x7_W/donors.json",
+    "kernel_candidate": "search/4x6x7_W/kernel_candidate.json",
+    "original_pool_sha256": "b1f11019b7a0ca4637227da3661d9a95a79c1d059283437de47382fd1d16f355",
+    "original_donors_sha256": "90512fb709d8de4111047eacbc3167cf79b3455784b5100e397e1bba9210ada7",
+    "donor_entries": 64,
+    "raw_donor_formatting_compacted": true
+  },
+  {
+    "name": "5x6x6_W",
+    "frame": "transpose",
+    "purpose": "Causal finite pool for the recorded W-transpose follow-up search.",
+    "pool": "search/5x6x6_W/pool.json",
+    "donors": "search/5x6x6_W/donors.json",
+    "kernel_candidate": "search/5x6x6_W/kernel_candidate.json",
+    "original_pool_sha256": "403ba5f76581b95bbaa9a7dc5fe286f2e6de259a7e9969aa62f3e095829c9954",
+    "original_donors_sha256": "3a2a68ce1e5cc3ca4afa5baffa97e3516ce924b0d6ba9067e256a75c5a1e0deb",
+    "donor_entries": 64,
+    "raw_donor_formatting_compacted": true
+  }
+]

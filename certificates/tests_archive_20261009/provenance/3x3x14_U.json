@@ -1,0 +1,21 @@
+{
+  "name": "3x3x14_U",
+  "method": "Unchanged public reduced U-factor program; included to complete the parent tensor.",
+  "uploaded": false,
+  "basis_change": false,
+  "source_json": "3x3x14_m101_cr361_fv152_cn664_ZT_reduced.json",
+  "source_json_sha256": "263a4e047180e78f21d95a76e9081b79a92d89806d0e673bd05a86086175a490",
+  "strict_verification": {
+    "status": "OPTIMAL",
+    "signed_gate_count": 49,
+    "scope": "Fixed DAG; fixed input signs and all fixed output signs",
+    "seconds": 0.020018,
+    "exact_coefficient_identities": 909,
+    "counts": {
+      "binary_additions": 49,
+      "unary_negations": 0,
+      "nonunit_scalars": 0,
+      "unused_noninput_assignments": 0
+    }
+  }
+}

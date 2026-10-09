@@ -1,0 +1,142 @@
+{
+  "name": "4x5x9_V",
+  "upstream_commit": "2abd2fd8f15dc1c97dd24777515324f865e77504",
+  "source_candidate_sha256": "e0115c31536a4db78bc0f9d4a8460188985a14ca67d325e458bcdad5b7afea36",
+  "source_literal_sha256": "7b79be3d51e7f26bf732da4830be23f28a8af47c52cacb908122ed293d079348",
+  "basis_change": false,
+  "scope": "Exact original fixed linear map; heuristic feasible bound unless a separately included fixed-map proof applies.",
+  "total_seconds": 105.02253350010142,
+  "initial_portfolio_seconds": 105.02253350010142,
+  "total_staged_seconds": 105.02253350010142,
+  "pool_builder": "python",
+  "pool_assembly_seconds": 0.8984197499230504,
+  "donors": 33,
+  "forms": 260,
+  "productions": 856,
+  "search": {
+    "additions_signed": 144,
+    "baseline_additions_signed": 147,
+    "budget_seconds": 30.0,
+    "data_sha256": "602a36478f3970dbdf2d8a5457f40d6a112278170bea9a8df8d1ca42ceefb6ac",
+    "diagnostic": "IMPROVED helpers=34 step=1 seconds=0.00110321\nIMPROVED helpers=33 step=24 seconds=0.00605783\nIMPROVED helpers=32 step=132 seconds=0.0501933\nFINISHED steps=84398 closures=3544196 accepted=54154 seen=54056 best_helpers=32 initial_helpers=35 seconds=30.0003",
+    "elapsed_seconds": 30.32933612493798,
+    "engine": "plateau",
+    "exact_map_verified": true,
+    "free_signed_wires": true,
+    "scope": "Finite pool; heuristic search. Beam pruning is not exhaustive.",
+    "seed": 62,
+    "status": "COMPLETED",
+    "width_or_perturbation": 8
+  },
+  "strict_verification": {
+    "counts": {
+      "binary_additions": 144,
+      "nonunit_scalars": 0,
+      "unary_negations": 0,
+      "unused_noninput_assignments": 0
+    },
+    "exact_coefficient_identities": 6165,
+    "scope": "Fixed DAG; fixed input signs and all fixed output signs",
+    "seconds": 0.00596,
+    "signed_gate_count": 144,
+    "status": "OPTIMAL"
+  },
+  "runs": [
+    {
+      "method": "upstream_round4",
+      "seconds": 25.014714042190462,
+      "status": "TIMEOUT",
+      "logical_configuration": {
+        "threads": "1",
+        "seed": "20261010",
+        "rounds": "4",
+        "vec-iterations": "4",
+        "cse-iterations": "8",
+        "try-transpose": true,
+        "bound-by-best": true,
+        "inline-substitutions": true,
+        "validate": true
+      }
+    },
+    {
+      "best": 148,
+      "donors": 26,
+      "method": "retention_0.9",
+      "retention": 0.9,
+      "seconds": 23.199414915870875,
+      "status": "PASS",
+      "summary": {
+        "attempts": 27,
+        "baseline_additions_signed": 151,
+        "best_additions_signed": 148,
+        "build": {
+          "driver": "repair",
+          "driver_sha256": "0da63316f19a6eee913c01bcdad8209f71d5e426599ff20c990cae86298d4076",
+          "leo_commit": "2abd2fd8f15dc1c97dd24777515324f865e77504",
+          "upstream_unmodified": true
+        },
+        "elapsed_seconds": 20.022915416397154,
+        "eligible_groups": 40,
+        "first_improvement_seconds": 1.5080247912555933,
+        "free_signed_wires": true,
+        "max_removed": 12,
+        "max_seeds": 3,
+        "neighbors": 8,
+        "repair_timeout": 2.0,
+        "scope": "Heuristic reconstruction of one fixed linear map; no optimality proof",
+        "seconds": 20.0,
+        "seed": 30109,
+        "selection": "bernoulli_retention",
+        "source_sha256": "0e3ace6e2b33dba60139a6973bf5d4f8e1f732eb83f94a2e9893e9d072b4870c"
+      },
+      "transposed": false,
+      "logical_configuration": {
+        "retention": "0.9",
+        "seconds": "20",
+        "timeout": "2",
+        "attempts": "40",
+        "seed": "30109"
+      }
+    },
+    {
+      "best": 147,
+      "donors": 5,
+      "method": "retention_0.7",
+      "retention": 0.7,
+      "seconds": 20.987978083081543,
+      "status": "PASS",
+      "summary": {
+        "attempts": 11,
+        "baseline_additions_signed": 148,
+        "best_additions_signed": 147,
+        "build": {
+          "driver": "repair",
+          "driver_sha256": "0da63316f19a6eee913c01bcdad8209f71d5e426599ff20c990cae86298d4076",
+          "leo_commit": "2abd2fd8f15dc1c97dd24777515324f865e77504",
+          "upstream_unmodified": true
+        },
+        "elapsed_seconds": 20.023457209113985,
+        "eligible_groups": 40,
+        "first_improvement_seconds": 13.037839875090867,
+        "free_signed_wires": true,
+        "max_removed": 12,
+        "max_seeds": 3,
+        "neighbors": 8,
+        "repair_timeout": 2.0,
+        "scope": "Heuristic reconstruction of one fixed linear map; no optimality proof",
+        "seconds": 20.0,
+        "seed": 30107,
+        "selection": "bernoulli_retention",
+        "source_sha256": "30da412bed8f2a6dafaa8698db1b25ec2827f7d90fec35372d51ff41e39405f0"
+      },
+      "transposed": false,
+      "logical_configuration": {
+        "retention": "0.7",
+        "seconds": "20",
+        "timeout": "2",
+        "attempts": "40",
+        "seed": "30107"
+      }
+    }
+  ]
+}

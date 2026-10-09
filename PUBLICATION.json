@@ -21,13 +21,14 @@
     "example_788_V_20261008",
     "example_558_V_20261008",
     "perminov_batch_20261008",
-    "perminov_reoptimization_20261009"
+    "perminov_reoptimization_20261009",
+    "perminov_tests_20261009"
   ],
   "module_provenance": "Each methods subdirectory includes original source hashes and adaptation notes. Proof inputs and certified literal programs preserve original arithmetic.",
   "included": "Portable implementations, representative source data, search witnesses, independently checked arithmetic/proof certificates and method explanations",
   "excluded": "Private correspondence, raw browser/chat exports, credentials, local binaries, dependency checkouts and redundant campaign checkpoints",
   "attribution": "NOTICE.md; source decompositions and external reducers retain their authorship",
-  "validation": "verification/release-20261009.json (24 portable checks); reconstruction/TEST_REPORT.json (fresh external LEO build and replay); prior unchanged full-proof evidence retained in verification/full_proofs.json.",
+  "validation": "verification/release-tests-20261009.json; tensor_factors/TEST_REPORT.json; archive direct/fresh-ZIP checks and independent archive evaluator; previous unchanged full-proof evidence retained.",
   "claims": "No global SOTA, unrestricted optimality, lower multiplication rank, new exponent or measured runtime is claimed.",
   "initial_release_date": "2026-10-08",
   "latest_update": {
@@ -37,6 +38,17 @@
     "external_leo_commit": "2abd2fd8f15dc1c97dd24777515324f865e77504",
     "claims": "Fixed-map158/173 witnesses; complete3x6x8 414+113; no superiority claim for cut ranking.",
     "standalone_bundle": "downloads/fmm_reoptimization_certificates_20261009.zip",
-    "bundle_sha256": "3ac9fbfbff7f42679c23eb233c35ebedbcb1c0d39eb32bbc3334a9f07763dd77"
+    "bundle_sha256": "3ac9fbfbff7f42679c23eb233c35ebedbcb1c0d39eb32bbc3334a9f07763dd77",
+    "test_archive": {
+      "report": "docs/tests-archive-20261009.md",
+      "certificates": "certificates/tests_archive_20261009/",
+      "uploaded_maps": 25,
+      "improved_maps": 24,
+      "largest_additions": 1408,
+      "largest_products": 343,
+      "scope": "Fixed original matrices and tensor; not a global rank/addition record.",
+      "standalone_bundle": "downloads/fmm_tests_archive_certificates_20261009.zip",
+      "bundle_sha256": "ab3ff60860a59da05a8624d7d906dc9c0a80e4dfd82ad2cd62916dbfc4aeced9"
+    }
   }
 }

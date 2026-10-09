@@ -6,6 +6,12 @@ Code, worked examples, exact certificates and scoped lower-bound proofs from Jos
 
 ## Latest update: 9 October 2026
 
+The additional [25-map test-archive report](docs/tests-archive-20261009.md) improves 24 supplied maps with exact fixed-sign programs. Complete additions fell from 1,661 to **1,408 for the supplied 8×8×8 rank-343 scheme**, and from 769 to **705 for 6×6×7**. [All nine triples and their certificates](certificates/tests_archive_20261009/README.md) preserve the original multiplication tensors and coordinates. The 2×4×7 U35 and W67 phases also have matching [fixed-map rational lower bounds](methods/circuits/directions_README.md).
+
+[Download the 25-map certificate bundle](downloads/fmm_tests_archive_certificates_20261009.zip). Extract it and run `python3 -I -B verify_all.py`; only Python's standard library is needed.
+
+New reusable components include [conditional tensor-factor reuse](methods/linear/tensor_factors/README.md) and [native exact pool construction](methods/linear/README.md#native-exact-pool-construction). The native backend returns the same pool objects as the reference and independently rechecks its relations. The largest-case pools are explicitly frozen reconstructed validations containing known witnesses; they are not claimed as first-discovery replays.
+
 The [partial-reconstruction module](methods/linear/reconstruction/README.md) combines Perminov's new partial-solution API with dependency cuts, adjustable retention, population export and exact donor pooling. [The experiment report](docs/experiments-20261009.md) records the results, timings, donor counts, controls and bounded failures. The [interactive illustration](docs/reconstruction.html) shows chain retention, the nine-for-eight repair and the combined search workflow; download it to open locally.
 
 [Download the latest standalone certificate bundle](downloads/fmm_reoptimization_certificates_20261009.zip).
@@ -40,6 +46,7 @@ python3 -B methods/linear/certificate_555_332/verify.py
 | Helper exchange | [Original search](docs/helper-exchange.md), [`exchange.cpp`](exchange.cpp), [`make_pool.py`](make_pool.py) | Pool reusable exact forms; reconnect the entire reachable circuit after linked replacements |
 | Larger and equal-cost search | [Linear methods](methods/linear/README.md) | Population of equal-cost helper sets, larger exchange beams, linked-pair generation, necessary reachability cuts, whole-tensor sign orientation |
 | Partial reconstruction | [Repair and restart methods](methods/linear/reconstruction/README.md) | Select related dependency cuts, preserve unaffected computation, discover new forms with external LEO, and combine repaired donors |
+| Repeated factor reuse | [Conditional tensor factors](methods/linear/tensor_factors/README.md) | Extract exact smaller maps, charge their lifted computations, and expose cross-group expression sharing |
 | Intelligent transformations | [Transformation tools](methods/transforms/README.md) | Exact sparse inverses, ternarity screens, both-order endpoint checks, signed-column classes, matching-based sparsity selection and symmetry transfer |
 | Joint circuit/basis search | [Circuit tools](methods/circuits/README.md) | Exact SLP replay/transposition, acyclic CP-SAT selection, jointly chosen roots, linked conversion/kernel search, historical helper transport |
 | Exact addition lower bounds | [Basis proofs](methods/basis/README.md) | Finite complete rational helper classifications, exhaustive root closure, canonical boundary bounds and a coordinated transformation grid |

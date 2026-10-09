@@ -1,0 +1,44 @@
+{
+  "name": "8x8x8_W",
+  "upstream_commit": "2abd2fd8f15dc1c97dd24777515324f865e77504",
+  "source_candidate_sha256": "68959849f9456f0afe92bdae5a9a5e2fb296eccc670435e18dd92f83ea44e805",
+  "source_literal_sha256": "302aec9a83f033bd8fff0e8d2e31053aadba4aa68633328d6b7c7135c9a7327d",
+  "basis_change": false,
+  "scope": "Exact original fixed linear map; heuristic feasible bound unless a separately included fixed-map proof applies.",
+  "total_seconds": 56.786539583001286,
+  "pool_assembly_seconds": 26.402305457741022,
+  "donors": 49,
+  "forms": 850,
+  "productions": 5484,
+  "kernel_baseline": 371,
+  "search": {
+    "engine": "plateau",
+    "seed": 20261009,
+    "width_or_perturbation": 8,
+    "budget_seconds": 25.0,
+    "elapsed_seconds": 25.408018125221133,
+    "status": "COMPLETED",
+    "baseline_additions_signed": 371,
+    "data_sha256": "1898e9c0ec9923f42953823a32835bdf12e7dc4f19145f7f1e42fd0b9b7987a6",
+    "free_signed_wires": true,
+    "diagnostic": "FINISHED steps=16414 closures=754803 accepted=2759 seen=2760 best_helpers=36 initial_helpers=36 seconds=25.0026",
+    "scope": "Finite pool; heuristic search. Beam pruning is not exhaustive."
+  },
+  "fresh_search": true,
+  "provenance": "Fresh reconstruction from surviving exact donors, including the previously verified best witness; no claim to reproduce first discovery. Earlier shared auxiliaries are excluded.",
+  "strict_verification": {
+    "status": "OPTIMAL",
+    "signed_gate_count": 650,
+    "scope": "Fixed DAG; fixed input signs and all fixed output signs",
+    "seconds": 0.041514,
+    "exact_coefficient_identities": 21952,
+    "counts": {
+      "binary_additions": 650,
+      "unary_negations": 0,
+      "nonunit_scalars": 0,
+      "unused_noninput_assignments": 0
+    }
+  },
+  "runs": [],
+  "timing_interpretation": "Measured post-discovery reconstructed validation and bounded re-search. This record is not the first causal discovery run."
+}

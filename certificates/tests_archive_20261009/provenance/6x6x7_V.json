@@ -1,0 +1,109 @@
+{
+  "name": "6x6x7_V",
+  "upstream_commit": "2abd2fd8f15dc1c97dd24777515324f865e77504",
+  "source_candidate_sha256": "45422219dfff6eff21df2c6ff12292527cd943399e79a592ff90a635e9eadec4",
+  "source_literal_sha256": "d03cb92559a73802c77fe65af215e2a1236a243ad95b4e571cf9aa5571e7c739",
+  "basis_change": false,
+  "scope": "Exact original fixed linear map; heuristic feasible bound unless a separately included fixed-map proof applies.",
+  "total_seconds": 85.61067041708156,
+  "forms": 275,
+  "productions": 1005,
+  "search": {
+    "engine": "plateau",
+    "seed": 20261009,
+    "width_or_perturbation": 8,
+    "budget_seconds": 25.0,
+    "elapsed_seconds": 25.43884641584009,
+    "status": "COMPLETED",
+    "baseline_additions_signed": 194,
+    "data_sha256": "5efdd502783e070bf7e2cb903f99d64e1367abe07f861957d1c77ec90cee9050",
+    "free_signed_wires": true,
+    "diagnostic": "IMPROVED helpers=34 step=1 seconds=0.000588875\nIMPROVED helpers=33 step=4 seconds=0.00136079\nIMPROVED helpers=30 step=9 seconds=0.00284438\nFINISHED steps=105704 closures=4228789 accepted=211 seen=208 best_helpers=30 initial_helpers=37 seconds=25.0001",
+    "scope": "Finite pool; heuristic search. Beam pruning is not exhaustive.",
+    "additions_signed": 186,
+    "exact_map_verified": true
+  },
+  "strict_verification": {
+    "status": "OPTIMAL",
+    "signed_gate_count": 186,
+    "scope": "Fixed DAG; fixed input signs and all fixed output signs",
+    "seconds": 0.036329,
+    "exact_coefficient_identities": 7686,
+    "counts": {
+      "binary_additions": 186,
+      "unary_negations": 0,
+      "nonunit_scalars": 0,
+      "unused_noninput_assignments": 0
+    }
+  },
+  "runs": [
+    {
+      "method": "upstream_rounds",
+      "orientation": "direct",
+      "status": "TIMEOUT",
+      "seconds": 25.01391495903954
+    },
+    {
+      "method": "retention09",
+      "status": "PASS",
+      "donors": 9,
+      "best": 196,
+      "report": {
+        "selection": "bernoulli_retention",
+        "source_sha256": "fb41aa66cc3868c1676925e6b3078294c60a341702e8591fa594035f4750e691",
+        "build": {
+          "leo_commit": "2abd2fd8f15dc1c97dd24777515324f865e77504",
+          "driver": "repair",
+          "upstream_unmodified": true,
+          "driver_sha256": "0da63316f19a6eee913c01bcdad8209f71d5e426599ff20c990cae86298d4076"
+        },
+        "baseline_additions_signed": 208,
+        "best_additions_signed": 196,
+        "eligible_groups": 60,
+        "attempts": 13,
+        "first_improvement_seconds": 1.516857541166246,
+        "elapsed_seconds": 18.009823750238866,
+        "seconds": 18.0,
+        "repair_timeout": 2.0,
+        "seed": 4000,
+        "max_removed": 12,
+        "neighbors": 8,
+        "max_seeds": 3,
+        "free_signed_wires": true,
+        "scope": "Heuristic reconstruction of one fixed linear map; no optimality proof"
+      },
+      "seconds": 18.510857707820833
+    },
+    {
+      "method": "structured_random",
+      "status": "PASS",
+      "donors": 61,
+      "best": 194,
+      "report": {
+        "selection": "random_dependency_cut_order",
+        "source_sha256": "6046af643380b7816f732ef0d9aa4874a949dde2c6fbe559d5fd09c59e614ee6",
+        "build": {
+          "leo_commit": "2abd2fd8f15dc1c97dd24777515324f865e77504",
+          "driver": "repair",
+          "upstream_unmodified": true,
+          "driver_sha256": "0da63316f19a6eee913c01bcdad8209f71d5e426599ff20c990cae86298d4076"
+        },
+        "baseline_additions_signed": 196,
+        "best_additions_signed": 194,
+        "eligible_groups": 1480,
+        "attempts": 60,
+        "first_improvement_seconds": 0.2818421246483922,
+        "elapsed_seconds": 7.749424249865115,
+        "seconds": 22.0,
+        "repair_timeout": 2.0,
+        "seed": 4000,
+        "max_removed": 12,
+        "neighbors": 8,
+        "max_seeds": 3,
+        "free_signed_wires": true,
+        "scope": "Heuristic reconstruction of one fixed linear map; no optimality proof"
+      },
+      "seconds": 12.076320916879922
+    }
+  ]
+}

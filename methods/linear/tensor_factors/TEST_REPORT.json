@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "portability": "Disposable repository copy, isolated Python mode; no original workspace imports or external solver/compiler needed for fixture verification",
+  "checks": {
+    "original_sms_source_hashes": "PASS",
+    "input_coordinate_bijections": "PASS",
+    "bit_axis_factorization_coefficients_per_map": 21952,
+    "local_map_alignment": "PASS",
+    "known_local_kernels": {"u": 51, "v": 49, "wt": 48},
+    "charged_signed_lifts": {"u": 437, "v": 423, "wt": 416},
+    "transposed_lift_back_to_original_w": {"signed_gates": 695, "coefficient_identities": 21952},
+    "strict_literal_final_maps": {"u": 383, "v": 375, "w": 650},
+    "strict_total": 1408,
+    "non_square_input_rejected": "PASS",
+    "non_rank_one_bit_target_rejected": "PASS",
+    "generated_u_donor_native_pool_callback": {"status": "PASS", "forms": 501, "productions": 1753, "exact_relations_checked": true}
+  },
+  "scope": "No claim that a single lifted donor reproduces the final multi-donor pool. Final frozen artifacts reconstruct validation with known witnesses as incumbents, not first-discovery replay."
+}

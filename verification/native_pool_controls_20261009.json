@@ -1,0 +1,26 @@
+[
+  {
+    "case": "toy",
+    "status": "PASS",
+    "forms": 8,
+    "productions": 11,
+    "python_seconds": 0.0017516668885946274,
+    "native_seconds": 0.5960487076081336
+  },
+  {
+    "case": "2414",
+    "status": "PASS",
+    "forms": 687,
+    "productions": 4473,
+    "python_seconds": 6.437207583338022,
+    "native_seconds": 0.3529290002770722
+  },
+  {
+    "case": "388",
+    "status": "PASS",
+    "forms": 961,
+    "productions": 5910,
+    "python_seconds": 12.515143333002925,
+    "native_seconds": 0.6147635416127741
+  }
+]

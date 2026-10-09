@@ -1,0 +1,321 @@
+[
+  {
+    "name": "2x4x7",
+    "scheme_source": "2x4x7_m45_cr174_cn308_ZT_reduced",
+    "dimensions": [
+      2,
+      4,
+      7
+    ],
+    "rank": 45,
+    "factors": {
+      "U": "2x4x7_U",
+      "V": "2x4x7_V",
+      "W": "2x4x7_W"
+    },
+    "original_additions": 174,
+    "certified_additions": 169,
+    "factor_counts": {
+      "U": 35,
+      "V": 67,
+      "W": 67
+    },
+    "original_factor_counts": {
+      "U": 35,
+      "V": 69,
+      "W": 70
+    },
+    "scalar_products": 45,
+    "total_scalar_operations": 214,
+    "corpus_completion_factors": [],
+    "coordinates": "A and B row-major; C column-major",
+    "basis_change": false,
+    "source_json": "2x4x7_m45_cr174_cn308_ZT_reduced.json",
+    "source_json_sha256": "b839eb6e30cfd9e0b045d249dfdacfd832ad2d7a5770f6a8d88c29f6ff486e84",
+    "source_url": "https://github.com/dronperminov/FastMatrixMultiplication/blob/6c75fd36564b177165d6968efd4c9e6199266191/schemes/results/addition_reduced_ZT/2x4x7_m45_cr174_cn308_ZT_reduced.json"
+  },
+  {
+    "name": "3x3x14",
+    "scheme_source": "3x3x14_m101_cr361_fv152_cn664_ZT_reduced",
+    "dimensions": [
+      3,
+      3,
+      14
+    ],
+    "rank": 101,
+    "factors": {
+      "U": "3x3x14_U",
+      "V": "3x3x14_V",
+      "W": "3x3x14_W"
+    },
+    "original_additions": 361,
+    "certified_additions": 355,
+    "factor_counts": {
+      "U": 49,
+      "V": 123,
+      "W": 183
+    },
+    "original_factor_counts": {
+      "U": 49,
+      "V": 128,
+      "W": 184
+    },
+    "scalar_products": 101,
+    "total_scalar_operations": 456,
+    "corpus_completion_factors": [
+      "U"
+    ],
+    "coordinates": "A and B row-major; C column-major",
+    "basis_change": false,
+    "source_json": "3x3x14_m101_cr361_fv152_cn664_ZT_reduced.json",
+    "source_json_sha256": "263a4e047180e78f21d95a76e9081b79a92d89806d0e673bd05a86086175a490",
+    "source_url": "https://github.com/dronperminov/FastMatrixMultiplication/blob/6c75fd36564b177165d6968efd4c9e6199266191/schemes/results/addition_reduced_ZT/3x3x14_m101_cr361_fv152_cn664_ZT_reduced.json"
+  },
+  {
+    "name": "3x4x6",
+    "scheme_source": "3x4x6_m56_cr209_fv56_cn359_ZT_reduced",
+    "dimensions": [
+      3,
+      4,
+      6
+    ],
+    "rank": 56,
+    "factors": {
+      "U": "3x4x6_U",
+      "V": "3x4x6_V",
+      "W": "3x4x6_W"
+    },
+    "original_additions": 209,
+    "certified_additions": 202,
+    "factor_counts": {
+      "U": 44,
+      "V": 64,
+      "W": 94
+    },
+    "original_factor_counts": {
+      "U": 44,
+      "V": 68,
+      "W": 97
+    },
+    "scalar_products": 56,
+    "total_scalar_operations": 258,
+    "corpus_completion_factors": [
+      "U"
+    ],
+    "coordinates": "A and B row-major; C column-major",
+    "basis_change": false,
+    "source_json": "3x4x6_m56_cr209_fv56_cn359_ZT_reduced.json",
+    "source_json_sha256": "5b701261e93f9b73cf1e7e9e77d0978c1e9741e59f4125d592ec90cc70db9422",
+    "source_url": "https://github.com/dronperminov/FastMatrixMultiplication/blob/6c75fd36564b177165d6968efd4c9e6199266191/schemes/results/addition_reduced_ZT/3x4x6_m56_cr209_fv56_cn359_ZT_reduced.json"
+  },
+  {
+    "name": "4x5x7",
+    "scheme_source": "4x5x7_m104_cr400_fv163_cn931_ZT_reduced",
+    "dimensions": [
+      4,
+      5,
+      7
+    ],
+    "rank": 104,
+    "factors": {
+      "U": "4x5x7_U",
+      "V": "4x5x7_V",
+      "W": "4x5x7_W"
+    },
+    "original_additions": 400,
+    "certified_additions": 379,
+    "factor_counts": {
+      "U": 89,
+      "V": 112,
+      "W": 178
+    },
+    "original_factor_counts": {
+      "U": 97,
+      "V": 120,
+      "W": 183
+    },
+    "scalar_products": 104,
+    "total_scalar_operations": 483,
+    "corpus_completion_factors": [],
+    "coordinates": "A and B row-major; C column-major",
+    "basis_change": false,
+    "source_json": "4x5x7_m104_cr400_fv163_cn931_ZT_reduced.json",
+    "source_json_sha256": "0c4cb3e3de6b9a820a3d231be3be5137d9791e513cfb297ef55dadced2793931",
+    "source_url": "https://github.com/dronperminov/FastMatrixMultiplication/blob/6c75fd36564b177165d6968efd4c9e6199266191/schemes/results/addition_reduced_ZT/4x5x7_m104_cr400_fv163_cn931_ZT_reduced.json"
+  },
+  {
+    "name": "4x5x9",
+    "scheme_source": "4x5x9_m137_cr542_fv239_cn1217_ZT_reduced",
+    "dimensions": [
+      4,
+      5,
+      9
+    ],
+    "rank": 137,
+    "factors": {
+      "U": "4x5x9_U",
+      "V": "4x5x9_V",
+      "W": "4x5x9_W"
+    },
+    "original_additions": 542,
+    "certified_additions": 507,
+    "factor_counts": {
+      "U": 130,
+      "V": 144,
+      "W": 233
+    },
+    "original_factor_counts": {
+      "U": 141,
+      "V": 151,
+      "W": 250
+    },
+    "scalar_products": 137,
+    "total_scalar_operations": 644,
+    "corpus_completion_factors": [],
+    "coordinates": "A and B row-major; C column-major",
+    "basis_change": false,
+    "source_json": "4x5x9_m137_cr542_fv239_cn1217_ZT_reduced.json",
+    "source_json_sha256": "e540f2eb06a19c3d00520a52aa26ebcd0346221d2a492ad48025e6fc9d0bf9c2",
+    "source_url": "https://github.com/dronperminov/FastMatrixMultiplication/blob/6c75fd36564b177165d6968efd4c9e6199266191/schemes/results/addition_reduced_ZT/4x5x9_m137_cr542_fv239_cn1217_ZT_reduced.json"
+  },
+  {
+    "name": "4x6x7",
+    "scheme_source": "4x6x7_m123_cr517_cn1586_ZT_reduced",
+    "dimensions": [
+      4,
+      6,
+      7
+    ],
+    "rank": 123,
+    "factors": {
+      "U": "4x6x7_U",
+      "V": "4x6x7_V",
+      "W": "4x6x7_W"
+    },
+    "original_additions": 517,
+    "certified_additions": 469,
+    "factor_counts": {
+      "U": 114,
+      "V": 140,
+      "W": 215
+    },
+    "original_factor_counts": {
+      "U": 128,
+      "V": 164,
+      "W": 225
+    },
+    "scalar_products": 123,
+    "total_scalar_operations": 592,
+    "corpus_completion_factors": [],
+    "coordinates": "A and B row-major; C column-major",
+    "basis_change": false,
+    "source_json": "4x6x7_m123_cr517_cn1586_ZT_reduced.json",
+    "source_json_sha256": "8c385f50b3e85e7c750e6ace7e1e3b835e2fdf3f348f8ff9ae94931a755367dd",
+    "source_url": "https://github.com/dronperminov/FastMatrixMultiplication/blob/6c75fd36564b177165d6968efd4c9e6199266191/schemes/results/addition_reduced_ZT/4x6x7_m123_cr517_cn1586_ZT_reduced.json"
+  },
+  {
+    "name": "5x6x6",
+    "scheme_source": "5x6x6_m130_cr562_fv250_cn1716_ZT_reduced",
+    "dimensions": [
+      5,
+      6,
+      6
+    ],
+    "rank": 130,
+    "factors": {
+      "U": "5x6x6_U",
+      "V": "5x6x6_V",
+      "W": "5x6x6_W"
+    },
+    "original_additions": 562,
+    "certified_additions": 503,
+    "factor_counts": {
+      "U": 129,
+      "V": 147,
+      "W": 227
+    },
+    "original_factor_counts": {
+      "U": 146,
+      "V": 174,
+      "W": 242
+    },
+    "scalar_products": 130,
+    "total_scalar_operations": 633,
+    "corpus_completion_factors": [],
+    "coordinates": "A and B row-major; C column-major",
+    "basis_change": false,
+    "source_json": "5x6x6_m130_cr562_fv250_cn1716_ZT_reduced.json",
+    "source_json_sha256": "8f899e560b2d2976b031272c59ebf6ea0472ae2d9616eaeb05d52027d818344f",
+    "source_url": "https://github.com/dronperminov/FastMatrixMultiplication/blob/6c75fd36564b177165d6968efd4c9e6199266191/schemes/results/addition_reduced_ZT/5x6x6_m130_cr562_fv250_cn1716_ZT_reduced.json"
+  },
+  {
+    "name": "6x6x7",
+    "scheme_source": "6x6x7_m183_cr769_fv370_cn2502_ZT_reduced",
+    "dimensions": [
+      6,
+      6,
+      7
+    ],
+    "rank": 183,
+    "factors": {
+      "U": "6x6x7_U",
+      "V": "6x6x7_V",
+      "W": "6x6x7_W"
+    },
+    "original_additions": 769,
+    "certified_additions": 705,
+    "factor_counts": {
+      "U": 185,
+      "V": 186,
+      "W": 334
+    },
+    "original_factor_counts": {
+      "U": 209,
+      "V": 208,
+      "W": 352
+    },
+    "scalar_products": 183,
+    "total_scalar_operations": 888,
+    "corpus_completion_factors": [],
+    "coordinates": "A and B row-major; C column-major",
+    "basis_change": false,
+    "source_json": "6x6x7_m183_cr769_fv370_cn2502_ZT_reduced.json",
+    "source_json_sha256": "bc960780454fc916a5ff8528a0a698469d54f598fbf59fa38279ed17b71b85f6",
+    "source_url": "https://github.com/dronperminov/FastMatrixMultiplication/blob/6c75fd36564b177165d6968efd4c9e6199266191/schemes/results/addition_reduced_ZT/6x6x7_m183_cr769_fv370_cn2502_ZT_reduced.json"
+  },
+  {
+    "name": "8x8x8",
+    "scheme_source": "8x8x8_m343_cr1661_fv1015_cn4434_ZT_reduced",
+    "dimensions": [
+      8,
+      8,
+      8
+    ],
+    "rank": 343,
+    "factors": {
+      "U": "8x8x8_U",
+      "V": "8x8x8_V",
+      "W": "8x8x8_W"
+    },
+    "original_additions": 1661,
+    "certified_additions": 1408,
+    "factor_counts": {
+      "U": 383,
+      "V": 375,
+      "W": 650
+    },
+    "original_factor_counts": {
+      "U": 462,
+      "V": 456,
+      "W": 743
+    },
+    "scalar_products": 343,
+    "total_scalar_operations": 1751,
+    "corpus_completion_factors": [],
+    "coordinates": "A and B row-major; C column-major",
+    "basis_change": false,
+    "source_json": "8x8x8_m343_cr1661_fv1015_cn4434_ZT_reduced.json",
+    "source_json_sha256": "c7afccb09f8491e484af1696c25c809757c4af649ee7220e79f25d1c7afe3955",
+    "source_url": "https://github.com/dronperminov/FastMatrixMultiplication/blob/6c75fd36564b177165d6968efd4c9e6199266191/schemes/results/addition_reduced_ZT/8x8x8_m343_cr1661_fv1015_cn4434_ZT_reduced.json"
+  }
+]

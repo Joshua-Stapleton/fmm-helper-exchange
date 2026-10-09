@@ -43,6 +43,9 @@ def main():
           ('347-V78','certificates/fmm_maps_20261008/347_V78/verify.py',[]),
           ('558-V161','certificates/fmm_maps_20261008/558_V161/verify.py',[]),
           ('788-V401','certificates/fmm_maps_20261008/788_V401/verify.py',[]),
+          ('test-archive-25','certificates/tests_archive_20261009/verify_all.py',[]),
+          ('tensor-factor-controls','methods/linear/tensor_factors/verify.py',[]),
+          ('projective-direction-controls','methods/circuits/direction_floor.py',['../../certificates/tests_archive_20261009/maps']),
           ('transform-controls','methods/transforms/test_transforms.py',[]),
           ('queue-controls','methods/orchestration/test_store.py',[]),
           ('555-332','methods/linear/certificate_555_332/verify.py',[]),
@@ -63,6 +66,7 @@ def main():
         scripts.append(('666-587',str(cert[0].relative_to(work)),[]))
         if a.solvers:scripts.append(('solver-controls','methods/circuits/test_methods.py',['--solver']))
         if a.full:
+            scripts.append(('native-pool-controls','methods/linear/test_fast_pool.py',[]))
             scripts.extend([
               ('fixed51','methods/basis/fixed_scheme_optimal51/verify.py',[]),
               ('grid51','methods/basis/segre_grid_floor51/verify.py',[]),

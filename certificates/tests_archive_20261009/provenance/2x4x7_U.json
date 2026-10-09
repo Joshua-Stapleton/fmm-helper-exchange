@@ -1,0 +1,125 @@
+{
+  "name": "2x4x7_U",
+  "upstream_commit": "2abd2fd8f15dc1c97dd24777515324f865e77504",
+  "source_candidate_sha256": "a5619bb0f8e5139ef6ca2c658f8734daf99b4749ec7c6032bea3d2b5da7f1704",
+  "source_literal_sha256": "946956bb416b0874cf1659ee9e8c6c8f693ba1652b3ecaa3a4f44294db89db60",
+  "basis_change": false,
+  "scope": "Exact original fixed linear map; heuristic feasible bound unless a separately included fixed-map proof applies.",
+  "total_seconds": 31.98457858292386,
+  "pool_assembly_seconds": 0.060514749959111214,
+  "donors": 43,
+  "pool": {
+    "builder": "native_exact_relations",
+    "seconds": 0.060514749959111214,
+    "forms": 43,
+    "productions": 164,
+    "donor_entries": 43,
+    "baseline": 35
+  },
+  "search": {
+    "engine": "plateau",
+    "seed": 151,
+    "width_or_perturbation": 8,
+    "budget_seconds": 25.0,
+    "elapsed_seconds": 25.560692165978253,
+    "status": "COMPLETED",
+    "baseline_additions_signed": 35,
+    "data_sha256": "9599ea4e2e785437d98d5f4878e9d84234c7920fe33fa882f0411d99c80798a7",
+    "free_signed_wires": true,
+    "diagnostic": "FINISHED steps=7700156 closures=7700157 accepted=0 seen=1 best_helpers=0 initial_helpers=0 seconds=25.0001",
+    "scope": "Finite pool; heuristic search. Beam pruning is not exhaustive."
+  },
+  "strict_verification": {
+    "status": "PASS",
+    "source_sha256": "1f32b3bb27dbdf3acd2cbe689464543293ba82122b24f438f5107bd7b2e0b7fb",
+    "exact_coefficient_identities": 360,
+    "counts": {
+      "binary_additions": 35,
+      "unary_negations": 0,
+      "nonunit_scalars": 0,
+      "unused_noninput_assignments": 0
+    },
+    "basis_change": false
+  },
+  "published_methods_start_commit": "0a3d7ba0d21a457b39794f253aa075626d317206",
+  "runs": [
+    {
+      "method": "published_historical",
+      "status": "PASS",
+      "additions": 35,
+      "fixed_map": true,
+      "strict_orientation": {
+        "status": "OPTIMAL",
+        "signed_gate_count": 35,
+        "scope": "Fixed DAG; fixed input signs and all fixed output signs",
+        "seconds": 0.03553,
+        "exact_coefficient_identities": 360,
+        "counts": {
+          "binary_additions": 35,
+          "unary_negations": 0,
+          "nonunit_scalars": 0,
+          "unused_noninput_assignments": 0
+        }
+      }
+    },
+    {
+      "method": "leo_default4",
+      "budget_seconds": 20,
+      "status": "PASS",
+      "additions": 35,
+      "seconds": 0.11830466706305742,
+      "logical_configuration": {
+        "threads": "1",
+        "seed": "20261109",
+        "rounds": "4",
+        "vec-preset": "default",
+        "vec-iterations": "4",
+        "cse-iterations": "8",
+        "try-transpose": true,
+        "bound-by-best": true,
+        "inline-substitutions": true,
+        "validate": true
+      }
+    },
+    {
+      "method": "repair09",
+      "transposed": false,
+      "budget_seconds": 20,
+      "status": "PASS",
+      "accepted_entries": 41,
+      "best": 35,
+      "summary": {
+        "selection": "bernoulli_retention",
+        "source_sha256": "01f618db3ca261eaaca7a41d93af1299585ac975506b34b7e371557e34d74710",
+        "build": {
+          "leo_commit": "2abd2fd8f15dc1c97dd24777515324f865e77504",
+          "driver": "repair",
+          "upstream_unmodified": true,
+          "driver_sha256": "0da63316f19a6eee913c01bcdad8209f71d5e426599ff20c990cae86298d4076"
+        },
+        "baseline_additions_signed": 35,
+        "best_additions_signed": 35,
+        "eligible_groups": 40,
+        "attempts": 40,
+        "first_improvement_seconds": null,
+        "elapsed_seconds": 1.5028293747454882,
+        "seconds": 20.0,
+        "repair_timeout": 2.0,
+        "seed": 41000,
+        "max_removed": 12,
+        "neighbors": 8,
+        "max_seeds": 3,
+        "free_signed_wires": true,
+        "scope": "Heuristic reconstruction of one fixed linear map; no optimality proof"
+      },
+      "seconds": 1.7644028747454286,
+      "logical_configuration": {
+        "retention": ".9",
+        "seconds": "20",
+        "timeout": "2",
+        "attempts": "40",
+        "seed": "41000"
+      }
+    }
+  ]
+}

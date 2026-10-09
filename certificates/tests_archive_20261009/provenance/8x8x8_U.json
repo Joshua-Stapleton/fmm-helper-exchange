@@ -1,0 +1,44 @@
+{
+  "name": "8x8x8_U",
+  "upstream_commit": "2abd2fd8f15dc1c97dd24777515324f865e77504",
+  "source_candidate_sha256": "5bcea7cbdcf56afbd2d341e3c1367a1600f9877863c292ad887431f93605d543",
+  "source_literal_sha256": "9b0b1904214307b60138d36aa9009207a0a22c7a4939aa995e8aad9417e78a42",
+  "basis_change": false,
+  "scope": "Exact original fixed linear map; heuristic feasible bound unless a separately included fixed-map proof applies.",
+  "total_seconds": 31.450353334192187,
+  "pool_assembly_seconds": 2.043552042450756,
+  "donors": 40,
+  "forms": 887,
+  "productions": 5563,
+  "kernel_baseline": 383,
+  "search": {
+    "engine": "plateau",
+    "seed": 20261009,
+    "width_or_perturbation": 8,
+    "budget_seconds": 25.0,
+    "elapsed_seconds": 25.71228550001979,
+    "status": "COMPLETED",
+    "baseline_additions_signed": 383,
+    "data_sha256": "afc9c29e747d8cc9588488f331320db77a0f40931d506fd74d34bdf59e599ae7",
+    "free_signed_wires": true,
+    "diagnostic": "FINISHED steps=14743 closures=855442 accepted=174 seen=175 best_helpers=48 initial_helpers=48 seconds=25.0003",
+    "scope": "Finite pool; heuristic search. Beam pruning is not exhaustive."
+  },
+  "fresh_search": true,
+  "provenance": "Fresh reconstruction from surviving exact donors, including the previously verified best witness; no claim to reproduce first discovery. Earlier shared auxiliaries are excluded.",
+  "strict_verification": {
+    "status": "OPTIMAL",
+    "signed_gate_count": 383,
+    "scope": "Fixed DAG; fixed input signs and all fixed output signs",
+    "seconds": 0.029932,
+    "exact_coefficient_identities": 21952,
+    "counts": {
+      "binary_additions": 383,
+      "unary_negations": 0,
+      "nonunit_scalars": 0,
+      "unused_noninput_assignments": 0
+    }
+  },
+  "runs": [],
+  "timing_interpretation": "Measured post-discovery reconstructed validation and bounded re-search. This record is not the first causal discovery run."
+}

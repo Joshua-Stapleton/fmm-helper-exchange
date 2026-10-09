@@ -70,7 +70,7 @@ def read_circuit(circuit, roots, number):
     return gates, outputs, aliases, matrix, live
 
 
-def build_pool(source):
+def build_pool(source, *, production_builder=None):
     require(isinstance(source, dict), "input must be an object")
     n, circuits = source.get("inputs"), source.get("circuits")
     require(type(n) is int and n > 0, "inputs must be a positive integer")
@@ -83,13 +83,23 @@ def build_pool(source):
     forms = roots + sorted(pooled - set(roots))
     ids = {form: i for i, form in enumerate(forms)}
     productions = {i: set() for i in range(n, len(forms))}
-    for a, left in enumerate(forms):
-        for b in range(a, len(forms)):
-            right = forms[b]
-            for sa, sb in ((1, 1), (1, -1), (-1, 1), (-1, -1)):
-                out = ids.get(tuple(sa * x + sb * y for x, y in zip(left, right)))
-                if out is not None and out >= n and out not in (a, b):
-                    productions[out].add((a, sa, b, sb))
+    if production_builder is None:
+        for a, left in enumerate(forms):
+            for b in range(a, len(forms)):
+                right = forms[b]
+                for sa, sb in ((1, 1), (1, -1), (-1, 1), (-1, -1)):
+                    out = ids.get(tuple(sa * x + sb * y for x, y in zip(left, right)))
+                    if out is not None and out >= n and out not in (a, b):
+                        productions[out].add((a, sa, b, sb))
+    else:
+        productions = production_builder(forms, n)
+        require(set(productions) == set(range(n, len(forms))), "Incomplete production key set")
+        for out, options in productions.items():
+            for a, sa, b, sb in options:
+                require(0 <= a <= b < len(forms) and out not in (a, b)
+                        and sa in (-1, 1) and sb in (-1, 1), "Invalid native production")
+                require(tuple(sa*x + sb*y for x, y in zip(forms[a], forms[b])) == forms[out],
+                        "Native production differs from exact coefficients")
     gates, raw_outputs, aliases, _, live = min(donors, key=lambda d: len(d[4]))
     incumbent, available = {}, set(range(n))
     for wire in sorted(live):

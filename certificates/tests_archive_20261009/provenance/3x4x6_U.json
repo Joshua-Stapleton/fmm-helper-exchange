@@ -1,0 +1,21 @@
+{
+  "name": "3x4x6_U",
+  "method": "Unchanged public reduced U-factor program; included to complete the parent tensor.",
+  "uploaded": false,
+  "basis_change": false,
+  "source_json": "3x4x6_m56_cr209_fv56_cn359_ZT_reduced.json",
+  "source_json_sha256": "5b701261e93f9b73cf1e7e9e77d0978c1e9741e59f4125d592ec90cc70db9422",
+  "strict_verification": {
+    "status": "OPTIMAL",
+    "signed_gate_count": 44,
+    "scope": "Fixed DAG; fixed input signs and all fixed output signs",
+    "seconds": 0.0017790000000000002,
+    "exact_coefficient_identities": 672,
+    "counts": {
+      "binary_additions": 44,
+      "unary_negations": 0,
+      "nonunit_scalars": 0,
+      "unused_noninput_assignments": 0
+    }
+  }
+}
