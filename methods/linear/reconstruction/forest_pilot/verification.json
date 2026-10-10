@@ -1,0 +1,92 @@
+{
+  "status": "PASS",
+  "hashed_files": 32,
+  "banks": {
+    "V": {
+      "donors": 270,
+      "minimum_donor_additions_signed": 207,
+      "maximum_donor_additions_signed": 253,
+      "forms": 685,
+      "relations": 4494,
+      "initial_additions_signed": 207
+    },
+    "control_V": {
+      "donors": 20,
+      "minimum_donor_additions_signed": 225,
+      "maximum_donor_additions_signed": 253,
+      "forms": 471,
+      "relations": 2472,
+      "initial_additions_signed": 225
+    },
+    "U": {
+      "donors": 25,
+      "minimum_donor_additions_signed": 194,
+      "maximum_donor_additions_signed": 205,
+      "forms": 313,
+      "relations": 1502,
+      "initial_additions_signed": 194
+    },
+    "WT": {
+      "donors": 25,
+      "minimum_donor_additions_signed": 187,
+      "maximum_donor_additions_signed": 206,
+      "forms": 320,
+      "relations": 1558,
+      "initial_additions_signed": 187
+    },
+    "V/ablation": {
+      "donors": 250,
+      "minimum_donor_additions_signed": 207,
+      "maximum_donor_additions_signed": 253,
+      "forms": 666,
+      "relations": 4297,
+      "initial_additions_signed": 207
+    }
+  },
+  "candidates": {
+    "V/candidate205.json": {
+      "additions_signed": 205,
+      "exact_coefficients": 8624
+    },
+    "control_V/candidate225.json": {
+      "additions_signed": 225,
+      "exact_coefficients": 8624
+    },
+    "U/candidate180.json": {
+      "additions_signed": 180,
+      "exact_coefficients": 6160
+    },
+    "WT/candidate175.json": {
+      "additions_signed": 175,
+      "exact_coefficients": 6160
+    },
+    "winning_forest/before227.json": {
+      "additions_signed": 227,
+      "exact_coefficients": 8624
+    },
+    "winning_forest/candidate224.json": {
+      "additions_signed": 224,
+      "exact_coefficients": 8624
+    }
+  },
+  "winning_forest": {
+    "latent_forms": 94,
+    "latent_additions": 80,
+    "reconstruction_additions": 147,
+    "charged_additions": 227,
+    "normalized_additions_signed": 224
+  },
+  "intelligent_records": {
+    "status": "PASS",
+    "frozen_donor_entries": 43,
+    "partial_starts": 48,
+    "exact_completions": 38,
+    "timeouts": 10,
+    "strict_witnesses": 3,
+    "original_inputs": 49,
+    "ordered_outputs": 176,
+    "scope": "Exact witness replay; not a reproduction of heuristic timing or a general optimality proof"
+  },
+  "elapsed_seconds": 1.7577461670152843,
+  "scope": "Exact signed circuits and numeric search pools; strict negation-free certificates and complete tensor verification are supplied separately"
+}

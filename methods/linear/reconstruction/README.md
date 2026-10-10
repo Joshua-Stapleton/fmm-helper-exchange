@@ -47,6 +47,68 @@ Both arms reach the existing 67-addition 2x4x7 V result; no new bound or
 general advantage is claimed. This adapter uses the same pinned external
 library and repair driver as the reconstruction commands below.
 
+## Shared residuals and guided initialization
+
+The [10 October report](../../../docs/experiments-20261010.md) records a
+fixed-coordinate **5×7×7 rank-176 scheme with 701 additions**, split into
+**U180 + V 205 + W316**. The supplied V map previously used 236; the complete
+historical scheme used 788. [Standalone certificates](../../../certificates/scheme_5x7x7_176/README.md)
+check every coefficient and the full multiplication tensor.
+
+[`output_forest.py`](output_forest.py) connects related target vectors using
+`t_child = ±t_parent + residual`. It chooses a rooted acyclic plan, deduplicates
+signed residuals, solves their latent map using external LEO, and appends all
+reconstruction gates. Original input roots and output signs are retained; every
+latent and reconstruction operation is charged. A coefficient2 requires actual
+doubling additions. The saved V 224 example uses 80 latent gates and 147
+reconstruction gates; normalization removes three redundant gates.
+
+```sh
+python3 -I -B methods/linear/reconstruction/output_forest.py \
+  --leo /tmp/leo --matrix certificates/scheme_5x7x7_176/V.sms \
+  --out /tmp/fmm-forest --trials 90 --seconds 90 --timeout 3 --seed 8800
+python3 -I -B methods/linear/reconstruction/test_output_forest.py
+python3 -I -B methods/linear/reconstruction/forest_pilot/verify.py
+python3 -I -B certificates/scheme_5x7x7_176/verify.py
+```
+
+Independent linear transposition lets the same forest method explore W through
+its transpose. The final certificate checks the resulting program in the
+original W frame and charges all operations. The final U/V/W witnesses come
+from pooling the diverse resulting circuits and globally reconnecting their
+forms; forest selection alone does not attain 701.
+
+[`gain_starts.py`](gain_starts.py) selects paid donor chains using marginal
+signed L1 proximity to targets, new target coverage, and complementary donor
+participation per added ancestor gate. It is a heuristic distance proxy, not a
+shortest-circuit distance or lower bound. Both it and
+[`pair_starts.py`](pair_starts.py) require optional NumPy from
+`requirements-search.txt`; standard certificate replay does not.
+
+```sh
+python3 -I -B methods/linear/reconstruction/gain_starts.py \
+  --leo /tmp/leo --donors methods/linear/reconstruction/forest_pilot/intelligent/bank20.json \
+  --out /tmp/fmm-gain-starts --budgets 80,130,180 --modes random,gain \
+  --sources 6 --attempts 3 --seconds 120 --timeout 8 --seed 7000
+python3 -I -B methods/linear/reconstruction/test_gain_starts.py
+python3 -I -B methods/linear/reconstruction/test_pair_starts.py
+```
+
+The pair selector adds exact one-gate target unlocks `t=±a±b`. Its tested bonus
+completed faster but gave worse circuits than the L1 control. In a frozen-bank
+pilot the gain selector attained 213, against random 223. Removing its donors
+from the final V pool nevertheless still attained 205. The final count therefore
+does not establish a contribution from guided starts or general superiority.
+Three earlier V records remained unchanged under the new forest-plus-pool
+control. [Search witnesses](forest_pilot/README.md) preserve those controls.
+
+Signed intermediate search costs require strict orientation before claiming
+addition/subtraction counts with no extra negations. The final 701 certificate
+has zero unary negations, nonunit scalar operations, or unused gates. Both
+selectors validate their NumPy int64 coefficient range to reject overflow;
+exact circuit replay otherwise uses Python integers. Generic tools refuse
+existing output directories and report malformed external output as an error.
+
 ## Verify the saved 158 result
 
 From the repository root; Python 3.10+, standard library only:
@@ -163,7 +225,7 @@ Matrix input accepts SMS, dense text (`outputs inputs`, then integer rows), or
 JSON containing `target_matrix`. Population export defaults to **all** members
 of a completed round (`--export-gap -1`); a nonnegative gap limits cost relative
 to the current best. Poorer donor SLPs can still contain useful forms. Upstream
-parent selection remains its temperature-one cost weighting and retention .5;
+parent selection remains its temperature one cost weighting and retention .5;
 this instrumentation does not change the library's search logic.
 
 Only completed rounds can be salvaged after a timeout. Large cases may time

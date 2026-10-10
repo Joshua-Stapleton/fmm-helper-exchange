@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-09",
+  "date": "2026-10-10",
   "repository": "https://github.com/Joshua-Stapleton/fmm-helper-exchange",
   "description": "Reusable FMM search, transformation, exact certification, lower-bound, structural, orchestration, storage and analysis methods",
   "source_experiments": [
@@ -23,13 +23,14 @@
     "perminov_batch_20261008",
     "perminov_reoptimization_20261009",
     "perminov_tests_20261009",
-    "pooled_starts_20261009"
+    "pooled_starts_20261009",
+    "example_577_V_20261010"
   ],
   "module_provenance": "Each methods subdirectory includes original source hashes and adaptation notes. Proof inputs and certified literal programs preserve original arithmetic.",
   "included": "Portable implementations, representative source data, search witnesses, independently checked arithmetic/proof certificates and method explanations",
   "excluded": "Private correspondence, raw browser/chat exports, credentials, local binaries, dependency checkouts and redundant campaign checkpoints",
   "attribution": "NOTICE.md; source decompositions and external reducers retain their authorship",
-  "validation": "verification/release-pooled-starts-20261009.json; previous unchanged proof/certificate evidence retained.",
+  "validation": "verification/release-forest-20261010.json; previous unchanged exhaustive proof evidence retained.",
   "claims": "No global SOTA, unrestricted optimality, lower multiplication rank, new exponent or measured runtime is claimed.",
   "initial_release_date": "2026-10-08",
   "latest_update": {
@@ -57,6 +58,37 @@
       "witnesses": "methods/linear/reconstruction/pooled_start_pilot/",
       "completed_real_map_circuits": 60,
       "claims": "Mixed-donor partial initialization tested; both arms reproduce V67; no new real bound or general advantage."
+    },
+    "residual_forest": {
+      "report": "docs/experiments-20261010.md",
+      "methods": [
+        "methods/linear/reconstruction/output_forest.py",
+        "methods/linear/reconstruction/gain_starts.py",
+        "methods/linear/reconstruction/pair_starts.py"
+      ],
+      "witnesses": "methods/linear/reconstruction/forest_pilot/",
+      "certificates": "certificates/scheme_5x7x7_176/",
+      "shape": [
+        5,
+        7,
+        7
+      ],
+      "products": 176,
+      "original_additions": [
+        205,
+        236,
+        347
+      ],
+      "new_additions": [
+        180,
+        205,
+        316
+      ],
+      "total_additions": 701,
+      "total_operations_with_products": 877,
+      "standalone_bundle": "downloads/fmm_5x7x7_176_certificates_20261010.zip",
+      "claims": "Improved the fixed original rank176 scheme, no basis change; residual diversity and global reconnection. No global SOTA, general superiority or optimality claim; matched ablation reaches V205 without guided-start donors.",
+      "bundle_sha256": "fb99492b4ffc2c17c2159ba89bf114f349ea3ffd7fc554230b8fa3d3c0b3e089"
     }
   }
 }

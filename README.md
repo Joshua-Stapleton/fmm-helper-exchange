@@ -4,7 +4,27 @@ Code, worked examples, exact certificates and scoped lower-bound proofs from Jos
 
 [Download the complete methods bundle](downloads/fmm_research_methods.zip) · [Original compact helper-exchange bundle](downloads/fmm_helper_exchange_scripts.zip) · [Attribution and model conventions](docs/METHODS.md)
 
-## Latest update: 9 October 2026
+## Latest update: 10 October 2026
+
+The supplied **5×7×7 rank-176 scheme now uses 701 additions**, down from 788:
+**U 180 + V 205 + W 316**. The uploaded V map falls from 236 to 205. All programs
+use the original fixed coordinates, with zero extra negations, scalars or
+unused gates. Including 176 products gives **877 arithmetic operations**.
+
+[The report](docs/experiments-20261010.md) explains shared-residual circuit
+generation, paid chain selection, transposition and global pool reconnection.
+[Full exact certificates](certificates/scheme_5x7x7_176/README.md) check all 60,025
+tensor identities. [Download the standalone bundle](downloads/fmm_5x7x7_176_certificates_20261010.zip),
+extract it and run `python3 -I -B verify.py` with standard-library Python.
+
+Matched controls distinguish the ideas: residual-based donor diversity helped
+the final pooled witness; guided starts improved a small pilot, but an ablation
+still reproduced V 205 without their donors. The pair-unlock bonus gave worse
+counts, and three earlier V records stayed unchanged. These are fixed-scheme
+improvements and experimental methods, not global records or an optimal SLP
+algorithm.
+
+## Previous update: 9 October 2026
 
 [Mixed-donor initialization](docs/pooled-starts-20261009.md) now imports paid
 computation chains from several solutions before external LEO completion.
@@ -51,7 +71,7 @@ python3 -B methods/linear/certificate_555_332/verify.py
 |---|---|---|
 | Helper exchange | [Original search](docs/helper-exchange.md), [`exchange.cpp`](exchange.cpp), [`make_pool.py`](make_pool.py) | Pool reusable exact forms; reconnect the entire reachable circuit after linked replacements |
 | Larger and equal-cost search | [Linear methods](methods/linear/README.md) | Population of equal-cost helper sets, larger exchange beams, linked-pair generation, necessary reachability cuts, whole-tensor sign orientation |
-| Partial reconstruction | [Repair and restart methods](methods/linear/reconstruction/README.md) | Select related dependency cuts, preserve unaffected computation, discover new forms with external LEO, and combine repaired donors |
+| Partial reconstruction | [Repair and restart methods](methods/linear/reconstruction/README.md) | Related dependency cuts, paid mixed-donor starts, shared residual forests, guided chain selection and globally combined donors |
 | Repeated factor reuse | [Conditional tensor factors](methods/linear/tensor_factors/README.md) | Extract exact smaller maps, charge their lifted computations, and expose cross-group expression sharing |
 | Intelligent transformations | [Transformation tools](methods/transforms/README.md) | Exact sparse inverses, ternarity screens, both-order endpoint checks, signed-column classes, matching-based sparsity selection and symmetry transfer |
 | Joint circuit/basis search | [Circuit tools](methods/circuits/README.md) | Exact SLP replay/transposition, acyclic CP-SAT selection, jointly chosen roots, linked conversion/kernel search, historical helper transport |
@@ -64,6 +84,7 @@ python3 -B methods/linear/certificate_555_332/verify.py
 
 | Shape / products | Certified arithmetic | Coordinates and scope |
 |---|---|---|
+| 5×7×7 / 176 | **701 additions = 180+205+316**; 877 operations with products | Original coordinates; [certificate](certificates/scheme_5x7x7_176/) |
 | 5×5 / 93 | **332 additions = 87+88+157**; 425 operations with products | Ordinary coordinates, no conversions or hidden negations/scalings; [certificate](methods/linear/certificate_555_332/) |
 | 6×6 / 153 | **587 additions = 158+157+272**; 740 with products | Ordinary coordinates; [certificate ZIP](certificate_666_587.zip) |
 | 4×4 / 48 | **169 kernel additions** + 39 boundary additions + 4 halvings | Alternative basis; 260 one-level operations including products; [certificate](methods/basis/certificate_4x4_169_43/) |

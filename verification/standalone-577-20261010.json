@@ -1,0 +1,102 @@
+{
+  "status": "PASS",
+  "archive": "downloads/fmm_5x7x7_176_certificates_20261010.zip",
+  "sha256": "fb99492b4ffc2c17c2159ba89bf114f349ea3ffd7fc554230b8fa3d3c0b3e089",
+  "files": 24,
+  "bytes": 44958,
+  "standalone_extraction_replayed": true,
+  "certificate": {
+    "status": "PASS",
+    "scheme": "5x7x7",
+    "products": 176,
+    "additions_before": 788,
+    "additions_after": 701,
+    "total_operations_before": 964,
+    "total_operations_after": 877,
+    "original_maps_unchanged": true,
+    "basis_change": false,
+    "before": {
+      "U": {
+        "counts": {
+          "binary_additions": 205,
+          "unary_negations": 0,
+          "nonunit_scalars": 0,
+          "unused_noninput_assignments": 0
+        },
+        "coefficient_identities": 6160,
+        "numeric_dag_verified": true,
+        "fixed_original_map": true
+      },
+      "V": {
+        "counts": {
+          "binary_additions": 236,
+          "unary_negations": 0,
+          "nonunit_scalars": 0,
+          "unused_noninput_assignments": 0
+        },
+        "coefficient_identities": 8624,
+        "numeric_dag_verified": true,
+        "fixed_original_map": true
+      },
+      "W": {
+        "counts": {
+          "binary_additions": 347,
+          "unary_negations": 0,
+          "nonunit_scalars": 0,
+          "unused_noninput_assignments": 0
+        },
+        "coefficient_identities": 6160,
+        "numeric_dag_verified": true,
+        "fixed_original_map": true
+      }
+    },
+    "after": {
+      "U": {
+        "counts": {
+          "binary_additions": 180,
+          "unary_negations": 0,
+          "nonunit_scalars": 0,
+          "unused_noninput_assignments": 0
+        },
+        "coefficient_identities": 6160,
+        "numeric_dag_verified": true,
+        "fixed_original_map": true
+      },
+      "V": {
+        "counts": {
+          "binary_additions": 205,
+          "unary_negations": 0,
+          "nonunit_scalars": 0,
+          "unused_noninput_assignments": 0
+        },
+        "coefficient_identities": 8624,
+        "numeric_dag_verified": true,
+        "fixed_original_map": true
+      },
+      "W": {
+        "counts": {
+          "binary_additions": 316,
+          "unary_negations": 0,
+          "nonunit_scalars": 0,
+          "unused_noninput_assignments": 0
+        },
+        "coefficient_identities": 6160,
+        "numeric_dag_verified": true,
+        "fixed_original_map": true
+      }
+    },
+    "tensor": {
+      "status": "PASS",
+      "coefficient_identities": 60025,
+      "nonzero_coefficients": 245,
+      "products": 176,
+      "coordinate_order": {
+        "A": "a[7*i+j]",
+        "B": "b[7*j+k]",
+        "C": "c[5*k+i]"
+      }
+    },
+    "checksum_files_verified": 23,
+    "scope": "Exact arithmetic upper bound; no optimality, runtime or global-record claim"
+  }
+}

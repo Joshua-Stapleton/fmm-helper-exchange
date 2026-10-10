@@ -1,0 +1,1 @@
+{"upstream_commit":"2abd2fd8f15dc1c97dd24777515324f865e77504","retention":1,"savings":0.01,"support_slack":4,"timeout_seconds":8,"adapter_source_sha256":"0da63316f19a6eee913c01bcdad8209f71d5e426599ff20c990cae86298d4076","hash_scope":"Adapter repair_driver.cpp source, not compiled executable"}

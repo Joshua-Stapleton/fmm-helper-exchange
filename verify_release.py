@@ -40,6 +40,9 @@ def main():
           ('linear-controls','methods/linear/test_methods.py',(['--with-cpp']if a.full else [])+(['--with-solvers']if a.solvers else [])),
           ('reconstruction-controls','methods/linear/reconstruction/test_reconstruction.py',['--with-cpp']if a.full else []),
           ('pooled-start-controls','methods/linear/reconstruction/test_pool_starts.py',[]),
+          ('output-forest-controls','methods/linear/reconstruction/test_output_forest.py',[]),
+          ('forest-witnesses','methods/linear/reconstruction/forest_pilot/verify.py',[]),
+          ('577-full-scheme','certificates/scheme_5x7x7_176/verify.py',[]),
           ('pooled-start-pilot','methods/linear/reconstruction/pooled_start_pilot/verify.py',[]),
           ('fixed-maps-20261009','certificates/fmm_maps_20261009/verify.py',[]),
           ('347-V78','certificates/fmm_maps_20261008/347_V78/verify.py',[]),
@@ -66,7 +69,10 @@ def main():
         cert=list((work/'certificate_666_587').rglob('verify.py'))
         if len(cert)!=1:raise ValueError('ambiguous 666 verifier')
         scripts.append(('666-587',str(cert[0].relative_to(work)),[]))
-        if a.solvers:scripts.append(('solver-controls','methods/circuits/test_methods.py',['--solver']))
+        if a.solvers:
+            scripts.append(('solver-controls','methods/circuits/test_methods.py',['--solver']))
+            scripts.append(('gain-start-controls','methods/linear/reconstruction/test_gain_starts.py',[]))
+            scripts.append(('pair-start-controls','methods/linear/reconstruction/test_pair_starts.py',[]))
         if a.full:
             scripts.append(('native-pool-controls','methods/linear/test_fast_pool.py',[]))
             scripts.extend([

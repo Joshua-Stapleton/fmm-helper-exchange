@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "external_leo_commit": "2abd2fd8f15dc1c97dd24777515324f865e77504",
+  "upstream_unmodified": true,
+  "driver_freshly_compiled": true,
+  "original_input_roots": true,
+  "exact_coefficients": 8624,
+  "seed": 8804,
+  "reward": 0,
+  "noise": 0.15,
+  "counts": {
+    "latent_additions": 80,
+    "reconstruction_additions": 147,
+    "charged_additions": 227,
+    "normalization_savings": 3,
+    "additions_signed": 224
+  },
+  "raw_sha256": "4ad91308f82a1a4dbf40e6d65e3f8ccc447269496674725bad5a91a85b468318",
+  "seconds": 1.1771450000815094,
+  "timing_scope": "Prepared latent solve and exact charged reconstruction; excludes graph preparation and fresh build",
+  "scope": "Prepared single seed replay of224 signed-gate witness, not reproduction of full205 discovery search",
+  "compiled_executable_sha256": "28c968121ae9cb320c00c873eb3483ae1e1cf5672ea8c50e00b7c944ca5f5bef",
+  "driver_source_sha256": "0da63316f19a6eee913c01bcdad8209f71d5e426599ff20c990cae86298d4076",
+  "raw_bytes_match_historical": false
+}

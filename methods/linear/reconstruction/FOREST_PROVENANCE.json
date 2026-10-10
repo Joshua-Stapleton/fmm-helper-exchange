@@ -1,0 +1,39 @@
+{
+  "date": "2026-10-10",
+  "author": "Joshua Stapleton",
+  "source_experiment": "example_577_V_20261010",
+  "external_reducer": {
+    "author": "Andrey Perminov",
+    "repository": "https://github.com/dronperminov/linear-expressions-optimization",
+    "commit": "2abd2fd8f15dc1c97dd24777515324f865e77504",
+    "vendored": false
+  },
+  "fixed_decomposition": {
+    "author": "Andrey Perminov",
+    "shape": [
+      5,
+      7,
+      7
+    ],
+    "rank": 176,
+    "source_name": "5x7x7_m176_cr788_fv371_cn2605_ZT_reduced",
+    "source_json_sha256": "5dd82fa0ee198f63108e1dbf412cc33a683b3c493697180a739bf83fb89464f2",
+    "uploaded_V_sha256": "5df6fc138883423e9b6467264760b1b4b783539b075c77e934dff1c845f1134e"
+  },
+  "algorithms": {
+    "output_forest.py": "Select a rooted signed residual factorization of target rows; external latent solve, fully charged reconstruction, exact original target replay.",
+    "gain_starts.py": "Paid ancestor chains scored by marginal signed L1 target proximity, covered targets and complementary donor participation.",
+    "pair_starts.py": "Exploratory exact one-gate target unlock bonus; matched followup produced worse counts."
+  },
+  "arithmetic_model": "Original input roots; signed-wire search counts require separate strict orientation. Full final certificate independently checks fixed signs, no unary negations, scalars or dead gates.",
+  "attribution_control": "Removing guided-start donors still reproduces V205; final witness uses19 forms absent from old-methods pool and no forms unique to guided starts.",
+  "qualification": "Heuristic adapters of established factorization, linear transposition and circuit pooling concepts. No global optimality, general superiority, runtime or literature-priority claim.",
+  "files": {
+    "output_forest.py": "dac3d5248ac9165883d89acea08d3039c12209f31004eb312e034b4e5a80cd38",
+    "gain_starts.py": "ec822adf69a1ba0787a3c5d6a08378a9a5969e3b63fbe73c4ea69dbef415985c",
+    "pair_starts.py": "f51851cd06cc0dbe05e5401465394e67e4986474da3ce0174d379da211e8e655",
+    "test_output_forest.py": "8599036950891d3500cfeb8fdab38b103471685775199418e5c27b4169df4581",
+    "test_gain_starts.py": "ed3c6fe0e3d0012d03d33ae06f1451a89a50122798128f92993651f957fa50dd",
+    "test_pair_starts.py": "b81b01440961f78ed385a71f19792b73f238ab0a5e1631ad90b2b67938fd5638"
+  }
+}

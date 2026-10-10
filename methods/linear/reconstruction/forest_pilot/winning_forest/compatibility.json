@@ -1,0 +1,14 @@
+{
+  "seed": 8804,
+  "plan_identical": true,
+  "circuit_identical": true,
+  "exact_coefficients": 8624,
+  "counts": {
+    "latent_additions": 80,
+    "reconstruction_additions": 147,
+    "charged_additions": 227,
+    "normalization_savings": 3,
+    "additions_signed": 224
+  },
+  "converted_latent_gate_count_unchanged": 80
+}

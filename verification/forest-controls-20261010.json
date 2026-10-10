@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "date": "2026-10-10",
+  "execution": "Installed portable copies in public checkout, Python isolated mode; no workspace adapter override.",
+  "output_forest_controls": [
+    "fully paid latent/reconstruction gates",
+    "coefficient-two residuals",
+    "exact output signs and original roots",
+    "acyclic and deterministic plans",
+    "finite budgets, seed bounds, overwrite refusal"
+  ],
+  "gain_pair_controls": [
+    "exact paid ancestry and first producer",
+    "sign-only aliases and preserved magnitudes",
+    "safe NumPy int64 range",
+    "acyclic assembly",
+    "parameter validation and duplicate JSON rejection",
+    "import and output side effects",
+    "mocked exact completion and malformed solver error reporting",
+    "pair-only complementary chain unlock toy"
+  ],
+  "dependencies": {
+    "forest": "Python standard library",
+    "gain_pair": "Optional NumPy; external solver not launched by controls"
+  },
+  "scope": "These tests verify accounting, selection and errors. Real optimization counts are separately checked by saved arithmetic certificates."
+}
