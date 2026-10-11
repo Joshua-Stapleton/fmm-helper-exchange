@@ -109,6 +109,31 @@ selectors validate their NumPy int64 coefficient range to reject overflow;
 exact circuit replay otherwise uses Python integers. Generic tools refuse
 existing output directories and report malformed external output as an error.
 
+## Pool both orientations
+
+[`adjoint_pool.py`](adjoint_pool.py) preserves the saved circuits for a
+transposed linear map, combines their forms, searches their dependencies, and
+returns a fully charged program for the original map. An optional current
+original-map program is retained as an incumbent. Generic numeric exports use
+signed wires; `--orient-seconds` asks for fixed original input/output signs and
+an exact literal program using optional OR-Tools.
+
+[The frozen WT banks and exact pool witnesses](adjoint_pilot/README.md)
+replay every donor, relation, selected dependency and charged reverse circuit.
+
+[The 11 October report](../../../docs/new-tests-20261011.md) records six
+complete fixed-scheme improvements, with all original tensors unchanged.
+[Their standalone certificates](../../../certificates/new_tests_20261011/README.txt)
+need only standard-library Python. Five of the six extra W searches improved
+the result after every adjoint accumulation was charged. This combines known
+transposition and pooling techniques; the controls do not establish general
+solver superiority.
+
+```sh
+python3 -I -B methods/linear/reconstruction/test_adjoint_pool.py
+python3 -I -B certificates/new_tests_20261011/verify_all.py
+```
+
 ## Verify the saved 158 result
 
 From the repository root; Python 3.10+, standard library only:

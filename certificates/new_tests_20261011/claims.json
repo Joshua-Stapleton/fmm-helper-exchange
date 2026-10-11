@@ -1,0 +1,194 @@
+{
+  "date": "2026-10-11",
+  "basis_change": false,
+  "coordinates": "A and B row-major; C column-major",
+  "source_repository": "https://github.com/dronperminov/FastMatrixMultiplication",
+  "source_checkout_commit": "6c75fd36564b177165d6968efd4c9e6199266191",
+  "uploaded_archive_sha256": "ded4208cde06fa13e8ddd6ee6db0fba86aa5abac6ded12153c0e3eaf60e8dd4f",
+  "source_author": "Andrey Perminov",
+  "schemes": [
+    {
+      "scheme": "5x5x11_m202_cr850_fv348_cn2272_ZT_reduced",
+      "dimensions": [
+        5,
+        5,
+        11
+      ],
+      "products": 202,
+      "historical_additions": 850,
+      "final_additions": 765,
+      "saved_additions": 85,
+      "total_scalar_operations": 967,
+      "phase_counts": {
+        "U": 195,
+        "V": 215,
+        "W": 355
+      },
+      "directory": "5x5x11",
+      "source_json_sha256": "b78fa6d92c0a72cecdc7661c1eb0d8b7fbda4799c3212e88c7ab138ab4518721",
+      "source_matrix_sha256": {
+        "U": "46c0709f6a42a6fbf9fc648a1e2c0520d8e282df3330fcaed5dd353b16d5d022",
+        "V": "f1f396d80739eee6784a64df5cfd72fb8f1bbffb598c9293532fc669f62e2e1a",
+        "W": "9460080787b5123680a22b1a85b8f3673478dcbe72154834f57eb682b96ceabd"
+      },
+      "historical_phase_counts": {
+        "U": 219,
+        "V": 241,
+        "W": 390
+      }
+    },
+    {
+      "scheme": "5x6x8_m170_cr720_fv345_cn2312_ZT_reduced",
+      "dimensions": [
+        5,
+        6,
+        8
+      ],
+      "products": 170,
+      "historical_additions": 720,
+      "final_additions": 669,
+      "saved_additions": 51,
+      "total_scalar_operations": 839,
+      "phase_counts": {
+        "U": 159,
+        "V": 199,
+        "W": 311
+      },
+      "directory": "5x6x8",
+      "source_json_sha256": "d448e0b5c4977193f9c0024aefdc6a9ff761eec985122355dd7bd17edff2efbd",
+      "source_matrix_sha256": {
+        "U": "67f714d1794bf2597e674f164deca016bdc6094f38fbc6710ffe44b7f8c2b178",
+        "V": "11310ea216e9c9b1b0c61706da5a7f2d89d6b668e0cc8912f3b9832bb8392e5a",
+        "W": "dce928dd58097efba8f292523d6c959bd721b7d434965440b0bad0519308cb4f"
+      },
+      "historical_phase_counts": {
+        "U": 177,
+        "V": 218,
+        "W": 325
+      }
+    },
+    {
+      "scheme": "5x6x9_m197_cr840_fv380_cn2376_ZT_reduced",
+      "dimensions": [
+        5,
+        6,
+        9
+      ],
+      "products": 197,
+      "historical_additions": 840,
+      "final_additions": 755,
+      "saved_additions": 85,
+      "total_scalar_operations": 952,
+      "phase_counts": {
+        "U": 202,
+        "V": 213,
+        "W": 340
+      },
+      "directory": "5x6x9",
+      "source_json_sha256": "dcdce7022d4b59df39b3072834980752a39c60fc9acc819b27c3a5380841a936",
+      "source_matrix_sha256": {
+        "U": "6037d097a016dc46d2f8e84f326abae8566a3e8bd5b68f7cb67bfa59e15f5cd3",
+        "V": "c2ad996f4d7c289999711e294818e385f68e04db0a0f0f39a08186ae8c974a5f",
+        "W": "08409a3c71ca0e5088354427098f8e2f5650f10553c1b542dfb6284bf471a248"
+      },
+      "historical_phase_counts": {
+        "U": 234,
+        "V": 236,
+        "W": 370
+      }
+    },
+    {
+      "scheme": "5x7x7_m176_cr788_fv371_cn2605_ZT_reduced",
+      "dimensions": [
+        5,
+        7,
+        7
+      ],
+      "products": 176,
+      "historical_additions": 788,
+      "final_additions": 697,
+      "saved_additions": 91,
+      "total_scalar_operations": 873,
+      "phase_counts": {
+        "U": 178,
+        "V": 205,
+        "W": 314
+      },
+      "directory": "5x7x7",
+      "source_json_sha256": "5dd82fa0ee198f63108e1dbf412cc33a683b3c493697180a739bf83fb89464f2",
+      "source_matrix_sha256": {
+        "U": "2f2fd33f3e029ea791b84abdf1d77f86f4abd23d347e46911d411f1180b3e2df",
+        "V": "5df6fc138883423e9b6467264760b1b4b783539b075c77e934dff1c845f1134e",
+        "W": "349b822f77d526fb338a9f030b854d4d9618f4ac283aad244fe3c8f0052085e0"
+      },
+      "historical_phase_counts": {
+        "U": 205,
+        "V": 236,
+        "W": 347
+      },
+      "previous_published_additions": 701,
+      "saved_since_previous_publication": 4
+    },
+    {
+      "scheme": "6x7x7_m215_cr880_fv457_cn2004_ZT_reduced",
+      "dimensions": [
+        6,
+        7,
+        7
+      ],
+      "products": 215,
+      "historical_additions": 880,
+      "final_additions": 848,
+      "saved_additions": 32,
+      "total_scalar_operations": 1063,
+      "phase_counts": {
+        "U": 217,
+        "V": 241,
+        "W": 390
+      },
+      "directory": "6x7x7",
+      "source_json_sha256": "bef94f137831a8d466b10750512175976b7e7d492de857c6459bf6fa055a903d",
+      "source_matrix_sha256": {
+        "U": "be2a403525eb49142a6922d44307ab0d4d0d4482a894df69821047d8fc3a176d",
+        "V": "b5073ddde4b0f73eaeecea2b296c41fbf880375f045d0571e4ced5af87e35f5c",
+        "W": "9974e1cbe0ac2c686e075dbea31b4c826c15420282b550f891a1b814776cb4e3"
+      },
+      "historical_phase_counts": {
+        "U": 227,
+        "V": 249,
+        "W": 404
+      }
+    },
+    {
+      "scheme": "7x7x7_m250_cr1067_fv512_cn2417_ZT_reduced",
+      "dimensions": [
+        7,
+        7,
+        7
+      ],
+      "products": 250,
+      "historical_additions": 1067,
+      "final_additions": 1020,
+      "saved_additions": 47,
+      "total_scalar_operations": 1270,
+      "phase_counts": {
+        "U": 269,
+        "V": 274,
+        "W": 477
+      },
+      "directory": "7x7x7",
+      "source_json_sha256": "228f01052e15f4752addee8515e55dfc568924c6f2b6ccc95d6e528eb4de1f0e",
+      "source_matrix_sha256": {
+        "U": "bbc2c0dc3f27825715470cecb54606e189f2b89e031b9453ba9bf306a877445a",
+        "V": "57bd8af50724bd67402b2cf1966510e6cd54d00c775f0889b6675391a2abee23",
+        "W": "75f67a807a31a39808b585a9ca21eee0529fec8262a0190edc0dfe8146c92e95"
+      },
+      "historical_phase_counts": {
+        "U": 288,
+        "V": 290,
+        "W": 489
+      }
+    }
+  ],
+  "scope": "Fixed uploaded maps, unchanged product ranks. Strict binary additions/subtractions; zero unary negations or nonunit scalar operations. Upper bounds, not optimality or global-record claims."
+}

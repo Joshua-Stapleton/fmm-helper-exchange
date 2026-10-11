@@ -1,0 +1,322 @@
+{
+  "status": "PASS",
+  "scope": "Small signed-wire initialization control, not a new strict bound or exact reproduction of the unspecified frequency-T policy",
+  "summary": {
+    "status": "COMPLETED_BUDGET",
+    "selector_precompute_seconds": 0.12379908375442028,
+    "elapsed_scope": "Starts, completions and their exact checks; excludes bank normalization, selector precompute and driver build",
+    "attempts": 12,
+    "accepted": 4,
+    "best_signed": 204,
+    "elapsed_seconds": 24.46139133302495,
+    "source_donors": 60,
+    "form_count": 604,
+    "input_dimension": 25,
+    "target_rows": 202,
+    "scope": "Original input roots, paid chains, L1 target distance proxy and provenance complementarity; signed counts require strict orientation",
+    "random_40": {
+      "attempts": 3,
+      "accepted": 0,
+      "best": null,
+      "median": null,
+      "mean_coverage_unique": 42.666666666666664,
+      "mean_covered_rows": 57.333333333333336,
+      "timeouts": 3,
+      "total_seconds": 6.472076916135848,
+      "assembly_seconds": 0.45714666694402695
+    },
+    "gain_40": {
+      "attempts": 3,
+      "accepted": 0,
+      "best": null,
+      "median": null,
+      "mean_coverage_unique": 44.0,
+      "mean_covered_rows": 60.666666666666664,
+      "timeouts": 3,
+      "total_seconds": 6.149131707847118,
+      "assembly_seconds": 0.13593683252111077
+    },
+    "random_80": {
+      "attempts": 3,
+      "accepted": 1,
+      "best": 211,
+      "median": 211.0,
+      "mean_coverage_unique": 65.33333333333333,
+      "mean_covered_rows": 81.66666666666667,
+      "timeouts": 2,
+      "total_seconds": 6.97884654160589,
+      "assembly_seconds": 0.993151209782809
+    },
+    "gain_80": {
+      "attempts": 3,
+      "accepted": 3,
+      "best": 204,
+      "median": 206.0,
+      "mean_coverage_unique": 76.33333333333333,
+      "mean_covered_rows": 95.33333333333333,
+      "timeouts": 0,
+      "total_seconds": 4.8536629169248044,
+      "assembly_seconds": 0.2624659165740013
+    }
+  },
+  "attempts": [
+    {
+      "mode": "random",
+      "budget": 40,
+      "seed": 11915000,
+      "attempt": 0,
+      "initial_additions": 40,
+      "contributing_donors": 6,
+      "covered_target_forms": 44,
+      "covered_target_rows": 60,
+      "assembly_seconds": 0.21810883283615112,
+      "status": "TIMEOUT",
+      "seconds": 2.2240019161254168
+    },
+    {
+      "mode": "random",
+      "budget": 40,
+      "seed": 11915001,
+      "attempt": 1,
+      "initial_additions": 40,
+      "contributing_donors": 6,
+      "covered_target_forms": 40,
+      "covered_target_rows": 54,
+      "assembly_seconds": 0.13073879200965166,
+      "status": "TIMEOUT",
+      "seconds": 2.135137042030692
+    },
+    {
+      "mode": "random",
+      "budget": 40,
+      "seed": 11915002,
+      "attempt": 2,
+      "initial_additions": 40,
+      "contributing_donors": 6,
+      "covered_target_forms": 44,
+      "covered_target_rows": 58,
+      "assembly_seconds": 0.10829904209822416,
+      "status": "TIMEOUT",
+      "seconds": 2.1129379579797387
+    },
+    {
+      "mode": "gain",
+      "budget": 40,
+      "seed": 11915000,
+      "attempt": 0,
+      "initial_additions": 40,
+      "contributing_donors": 6,
+      "covered_target_forms": 46,
+      "covered_target_rows": 62,
+      "assembly_seconds": 0.04504966689273715,
+      "status": "TIMEOUT",
+      "seconds": 2.049512166995555
+    },
+    {
+      "mode": "gain",
+      "budget": 40,
+      "seed": 11915001,
+      "attempt": 1,
+      "initial_additions": 40,
+      "contributing_donors": 6,
+      "covered_target_forms": 44,
+      "covered_target_rows": 62,
+      "assembly_seconds": 0.046158124692738056,
+      "status": "TIMEOUT",
+      "seconds": 2.050489999819547
+    },
+    {
+      "mode": "gain",
+      "budget": 40,
+      "seed": 11915002,
+      "attempt": 2,
+      "initial_additions": 40,
+      "contributing_donors": 6,
+      "covered_target_forms": 42,
+      "covered_target_rows": 58,
+      "assembly_seconds": 0.04472904093563557,
+      "status": "TIMEOUT",
+      "seconds": 2.0491295410320163
+    },
+    {
+      "mode": "random",
+      "budget": 80,
+      "seed": 11919000,
+      "attempt": 0,
+      "initial_additions": 80,
+      "contributing_donors": 6,
+      "covered_target_forms": 68,
+      "covered_target_rows": 84,
+      "assembly_seconds": 0.36424133367836475,
+      "status": "TIMEOUT",
+      "seconds": 2.3687013746239245
+    },
+    {
+      "mode": "random",
+      "budget": 80,
+      "seed": 11919001,
+      "attempt": 1,
+      "initial_additions": 80,
+      "contributing_donors": 6,
+      "covered_target_forms": 62,
+      "covered_target_rows": 78,
+      "assembly_seconds": 0.3242660420946777,
+      "status": "TIMEOUT",
+      "seconds": 2.3288173750042915
+    },
+    {
+      "mode": "random",
+      "budget": 80,
+      "seed": 11919002,
+      "attempt": 2,
+      "initial_additions": 80,
+      "contributing_donors": 6,
+      "covered_target_forms": 66,
+      "covered_target_rows": 83,
+      "assembly_seconds": 0.3046438340097666,
+      "status": "PASS",
+      "additions_signed": 211,
+      "exact_map_verified": true,
+      "seconds": 2.2813277919776738
+    },
+    {
+      "mode": "gain",
+      "budget": 80,
+      "seed": 11919000,
+      "attempt": 0,
+      "initial_additions": 80,
+      "contributing_donors": 6,
+      "covered_target_forms": 78,
+      "covered_target_rows": 97,
+      "assembly_seconds": 0.07858037482947111,
+      "status": "PASS",
+      "additions_signed": 204,
+      "exact_map_verified": true,
+      "seconds": 1.5057072909548879
+    },
+    {
+      "mode": "gain",
+      "budget": 80,
+      "seed": 11919001,
+      "attempt": 1,
+      "initial_additions": 80,
+      "contributing_donors": 6,
+      "covered_target_forms": 76,
+      "covered_target_rows": 95,
+      "assembly_seconds": 0.0973708750680089,
+      "status": "PASS",
+      "additions_signed": 207,
+      "exact_map_verified": true,
+      "seconds": 1.781754916999489
+    },
+    {
+      "mode": "gain",
+      "budget": 80,
+      "seed": 11919002,
+      "attempt": 2,
+      "initial_additions": 80,
+      "contributing_donors": 6,
+      "covered_target_forms": 75,
+      "covered_target_rows": 94,
+      "assembly_seconds": 0.0865146666765213,
+      "status": "PASS",
+      "additions_signed": 206,
+      "exact_map_verified": true,
+      "seconds": 1.5662007089704275
+    }
+  ],
+  "integer_replay": {
+    "status": "PASS",
+    "prefixes": [
+      {
+        "file": "gain_40_00.partial.json",
+        "charged_additions": 40,
+        "topological_integer_replay": "PASS"
+      },
+      {
+        "file": "gain_40_01.partial.json",
+        "charged_additions": 40,
+        "topological_integer_replay": "PASS"
+      },
+      {
+        "file": "gain_40_02.partial.json",
+        "charged_additions": 40,
+        "topological_integer_replay": "PASS"
+      },
+      {
+        "file": "gain_80_00.partial.json",
+        "charged_additions": 80,
+        "topological_integer_replay": "PASS"
+      },
+      {
+        "file": "gain_80_01.partial.json",
+        "charged_additions": 80,
+        "topological_integer_replay": "PASS"
+      },
+      {
+        "file": "gain_80_02.partial.json",
+        "charged_additions": 80,
+        "topological_integer_replay": "PASS"
+      },
+      {
+        "file": "random_40_00.partial.json",
+        "charged_additions": 40,
+        "topological_integer_replay": "PASS"
+      },
+      {
+        "file": "random_40_01.partial.json",
+        "charged_additions": 40,
+        "topological_integer_replay": "PASS"
+      },
+      {
+        "file": "random_40_02.partial.json",
+        "charged_additions": 40,
+        "topological_integer_replay": "PASS"
+      },
+      {
+        "file": "random_80_00.partial.json",
+        "charged_additions": 80,
+        "topological_integer_replay": "PASS"
+      },
+      {
+        "file": "random_80_01.partial.json",
+        "charged_additions": 80,
+        "topological_integer_replay": "PASS"
+      },
+      {
+        "file": "random_80_02.partial.json",
+        "charged_additions": 80,
+        "topological_integer_replay": "PASS"
+      }
+    ],
+    "completed_programs": [
+      {
+        "name": "random-80-11919002",
+        "signed_additions": 211,
+        "exact_original_ordered_map": "PASS",
+        "strict_orientation": "Not attempted; no bound below195"
+      },
+      {
+        "name": "gain-80-11919000",
+        "signed_additions": 204,
+        "exact_original_ordered_map": "PASS",
+        "strict_orientation": "Not attempted; no bound below195"
+      },
+      {
+        "name": "gain-80-11919001",
+        "signed_additions": 207,
+        "exact_original_ordered_map": "PASS",
+        "strict_orientation": "Not attempted; no bound below195"
+      },
+      {
+        "name": "gain-80-11919002",
+        "signed_additions": 206,
+        "exact_original_ordered_map": "PASS",
+        "strict_orientation": "Not attempted; no bound below195"
+      }
+    ],
+    "exact_coefficient_identities_per_program": 5050,
+    "all_prefix_gates_charged": true,
+    "comparison_scope": "12 small pilot starts. No improvement over the known195-addition strict certificate."
+  }
+}

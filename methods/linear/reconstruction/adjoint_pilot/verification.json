@@ -1,0 +1,81 @@
+{
+  "status": "PASS",
+  "cases": [
+    {
+      "case": "5x5x11",
+      "status": "PASS",
+      "exact_coefficient_identities_per_W": 11110,
+      "adjoint_donors": 41,
+      "exact_pool_relations": 2467,
+      "baseline_WT_additions": 229,
+      "selected_WT_additions": 208,
+      "paid_returned_W_additions": 355,
+      "final_original_W_additions": 355,
+      "improved_in_extra": true
+    },
+    {
+      "case": "5x6x8",
+      "status": "PASS",
+      "exact_coefficient_identities_per_W": 6800,
+      "adjoint_donors": 60,
+      "exact_pool_relations": 1421,
+      "baseline_WT_additions": 188,
+      "selected_WT_additions": 181,
+      "paid_returned_W_additions": 311,
+      "final_original_W_additions": 311,
+      "improved_in_extra": true
+    },
+    {
+      "case": "5x6x9",
+      "status": "PASS",
+      "exact_coefficient_identities_per_W": 8865,
+      "adjoint_donors": 54,
+      "exact_pool_relations": 1906,
+      "baseline_WT_additions": 203,
+      "selected_WT_additions": 188,
+      "paid_returned_W_additions": 340,
+      "final_original_W_additions": 340,
+      "improved_in_extra": true
+    },
+    {
+      "case": "5x7x7",
+      "status": "PASS",
+      "exact_coefficient_identities_per_W": 6160,
+      "adjoint_donors": 59,
+      "exact_pool_relations": 1585,
+      "baseline_WT_additions": 173,
+      "selected_WT_additions": 173,
+      "paid_returned_W_additions": 314,
+      "final_original_W_additions": 314,
+      "improved_in_extra": false
+    },
+    {
+      "case": "6x7x7",
+      "status": "PASS",
+      "exact_coefficient_identities_per_W": 9030,
+      "adjoint_donors": 47,
+      "exact_pool_relations": 2067,
+      "baseline_WT_additions": 224,
+      "selected_WT_additions": 217,
+      "paid_returned_W_additions": 390,
+      "final_original_W_additions": 390,
+      "improved_in_extra": true
+    },
+    {
+      "case": "7x7x7",
+      "status": "PASS",
+      "exact_coefficient_identities_per_W": 12250,
+      "adjoint_donors": 32,
+      "exact_pool_relations": 2038,
+      "baseline_WT_additions": 286,
+      "selected_WT_additions": 276,
+      "paid_returned_W_additions": 477,
+      "final_original_W_additions": 477,
+      "improved_in_extra": true
+    }
+  ],
+  "all_gates_charged": true,
+  "basis_change": false,
+  "strict_sign_and_tensor_certificate": "../../../../certificates/new_tests_20261011/README.txt",
+  "scope": "Signed integer DAGs, all frozen relation identities, acyclic incumbents and paid adjoints. No relation-completeness, global optimality, timing or strict-sign claim from this verifier alone."
+}

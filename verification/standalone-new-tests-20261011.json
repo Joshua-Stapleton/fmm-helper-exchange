@@ -1,0 +1,195 @@
+{
+  "status": "PASS",
+  "archive": "downloads/fmm_new_tests_certificates_20261011.zip",
+  "sha256": "c6cfc4188afc5b49d60053c8b780e661e9d096331644970e4917bdd3771f64fc",
+  "files": 69,
+  "bytes": 223266,
+  "standalone_extraction_replayed": true,
+  "certificate": {
+    "status": "PASS",
+    "schemes": [
+      {
+        "dimensions": [
+          5,
+          5,
+          11
+        ],
+        "products": 202,
+        "counts": {
+          "U": 195,
+          "V": 215,
+          "W": 355
+        },
+        "additions": 765,
+        "total_scalar_operations": 967,
+        "saved_additions": 85,
+        "tensor": {
+          "status": "PASS",
+          "dimensions": [
+            5,
+            5,
+            11
+          ],
+          "rank": 202,
+          "exact_tensor_coefficients": 75625,
+          "nonzero_tensor_coefficients": 275,
+          "coordinates": "A and B row-major; C column-major",
+          "basis_change": false
+        },
+        "status": "PASS"
+      },
+      {
+        "dimensions": [
+          5,
+          6,
+          8
+        ],
+        "products": 170,
+        "counts": {
+          "U": 159,
+          "V": 199,
+          "W": 311
+        },
+        "additions": 669,
+        "total_scalar_operations": 839,
+        "saved_additions": 51,
+        "tensor": {
+          "status": "PASS",
+          "dimensions": [
+            5,
+            6,
+            8
+          ],
+          "rank": 170,
+          "exact_tensor_coefficients": 57600,
+          "nonzero_tensor_coefficients": 240,
+          "coordinates": "A and B row-major; C column-major",
+          "basis_change": false
+        },
+        "status": "PASS"
+      },
+      {
+        "dimensions": [
+          5,
+          6,
+          9
+        ],
+        "products": 197,
+        "counts": {
+          "U": 202,
+          "V": 213,
+          "W": 340
+        },
+        "additions": 755,
+        "total_scalar_operations": 952,
+        "saved_additions": 85,
+        "tensor": {
+          "status": "PASS",
+          "dimensions": [
+            5,
+            6,
+            9
+          ],
+          "rank": 197,
+          "exact_tensor_coefficients": 72900,
+          "nonzero_tensor_coefficients": 270,
+          "coordinates": "A and B row-major; C column-major",
+          "basis_change": false
+        },
+        "status": "PASS"
+      },
+      {
+        "dimensions": [
+          5,
+          7,
+          7
+        ],
+        "products": 176,
+        "counts": {
+          "U": 178,
+          "V": 205,
+          "W": 314
+        },
+        "additions": 697,
+        "total_scalar_operations": 873,
+        "saved_additions": 91,
+        "tensor": {
+          "status": "PASS",
+          "dimensions": [
+            5,
+            7,
+            7
+          ],
+          "rank": 176,
+          "exact_tensor_coefficients": 60025,
+          "nonzero_tensor_coefficients": 245,
+          "coordinates": "A and B row-major; C column-major",
+          "basis_change": false
+        },
+        "status": "PASS"
+      },
+      {
+        "dimensions": [
+          6,
+          7,
+          7
+        ],
+        "products": 215,
+        "counts": {
+          "U": 217,
+          "V": 241,
+          "W": 390
+        },
+        "additions": 848,
+        "total_scalar_operations": 1063,
+        "saved_additions": 32,
+        "tensor": {
+          "status": "PASS",
+          "dimensions": [
+            6,
+            7,
+            7
+          ],
+          "rank": 215,
+          "exact_tensor_coefficients": 86436,
+          "nonzero_tensor_coefficients": 294,
+          "coordinates": "A and B row-major; C column-major",
+          "basis_change": false
+        },
+        "status": "PASS"
+      },
+      {
+        "dimensions": [
+          7,
+          7,
+          7
+        ],
+        "products": 250,
+        "counts": {
+          "U": 269,
+          "V": 274,
+          "W": 477
+        },
+        "additions": 1020,
+        "total_scalar_operations": 1270,
+        "saved_additions": 47,
+        "tensor": {
+          "status": "PASS",
+          "dimensions": [
+            7,
+            7,
+            7
+          ],
+          "rank": 250,
+          "exact_tensor_coefficients": 117649,
+          "nonzero_tensor_coefficients": 343,
+          "coordinates": "A and B row-major; C column-major",
+          "basis_change": false
+        },
+        "status": "PASS"
+      }
+    ],
+    "basis_change": false,
+    "scope": "Exact upper bounds for six uploaded fixed decompositions. No global-record, rank-reduction or optimality claim."
+  }
+}

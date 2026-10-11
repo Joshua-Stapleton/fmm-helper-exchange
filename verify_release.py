@@ -41,6 +41,9 @@ def main():
           ('reconstruction-controls','methods/linear/reconstruction/test_reconstruction.py',['--with-cpp']if a.full else []),
           ('pooled-start-controls','methods/linear/reconstruction/test_pool_starts.py',[]),
           ('output-forest-controls','methods/linear/reconstruction/test_output_forest.py',[]),
+          ('adjoint-pool-controls','methods/linear/reconstruction/test_adjoint_pool.py',[]),
+          ('adjoint-pool-witnesses','methods/linear/reconstruction/adjoint_pilot/verify.py',[]),
+          ('new-tests-18','certificates/new_tests_20261011/verify_all.py',[]),
           ('forest-witnesses','methods/linear/reconstruction/forest_pilot/verify.py',[]),
           ('577-full-scheme','certificates/scheme_5x7x7_176/verify.py',[]),
           ('pooled-start-pilot','methods/linear/reconstruction/pooled_start_pilot/verify.py',[]),
@@ -73,6 +76,7 @@ def main():
             scripts.append(('solver-controls','methods/circuits/test_methods.py',['--solver']))
             scripts.append(('gain-start-controls','methods/linear/reconstruction/test_gain_starts.py',[]))
             scripts.append(('pair-start-controls','methods/linear/reconstruction/test_pair_starts.py',[]))
+            scripts.append(('fixed-adjoint-orientation','methods/linear/reconstruction/test_adjoint_pool.py',['--solver']))
         if a.full:
             scripts.append(('native-pool-controls','methods/linear/test_fast_pool.py',[]))
             scripts.extend([

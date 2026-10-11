@@ -4,7 +4,28 @@ Code, worked examples, exact certificates and scoped lower-bound proofs from Jos
 
 [Download the complete methods bundle](downloads/fmm_research_methods.zip) · [Original compact helper-exchange bundle](downloads/fmm_helper_exchange_scripts.zip) · [Attribution and model conventions](docs/METHODS.md)
 
-## Latest update: 10 October 2026
+## Latest update: 11 October 2026
+
+All eighteen supplied maps now have strict certificates below their original
+annotations. The six complete original schemes use **765, 669, 755, 697, 848 and
+1020 additions** for 5×5×11, 5×6×8, 5×6×9, 5×7×7, 6×7×7 and 7×7×7 respectively.
+Products and original signed coordinates are unchanged. The 5×7×7 result also
+improves the previously published 701 to **697**, split **178+205+314**.
+
+[The experiment report](docs/new-tests-20261011.md) records before/after counts,
+matched retention controls, separate timing stages and both orientations of
+pool search. [Full certificates](certificates/new_tests_20261011/README.txt)
+check all six tensors and eighteen literal programs. [Download the standalone
+ZIP](downloads/fmm_new_tests_certificates_20261011.zip), extract it and run
+`python3 -I -B verify_all.py`; only standard-library Python is required.
+
+[The adjoint-pool wrapper](methods/linear/reconstruction/adjoint_pool.py) makes
+the two-orientation search reusable. Five of six extra W searches improved the
+original-coordinate result after all reverse accumulations were charged. The
+matched pilots do not establish a universal retention winner, and the extra
+paid-chain initialization pilot did not beat its existing incumbent.
+
+## Previous update: 10 October 2026
 
 The supplied **5×7×7 rank-176 scheme now uses 701 additions**, down from 788:
 **U 180 + V 205 + W 316**. The uploaded V map falls from 236 to 205. All programs

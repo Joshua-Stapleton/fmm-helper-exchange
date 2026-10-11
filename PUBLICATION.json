@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-10",
+  "date": "2026-10-11",
   "repository": "https://github.com/Joshua-Stapleton/fmm-helper-exchange",
   "description": "Reusable FMM search, transformation, exact certification, lower-bound, structural, orchestration, storage and analysis methods",
   "source_experiments": [
@@ -24,13 +24,14 @@
     "perminov_reoptimization_20261009",
     "perminov_tests_20261009",
     "pooled_starts_20261009",
-    "example_577_V_20261010"
+    "example_577_V_20261010",
+    "perminov_new_tests_20261011"
   ],
   "module_provenance": "Each methods subdirectory includes original source hashes and adaptation notes. Proof inputs and certified literal programs preserve original arithmetic.",
   "included": "Portable implementations, representative source data, search witnesses, independently checked arithmetic/proof certificates and method explanations",
   "excluded": "Private correspondence, raw browser/chat exports, credentials, local binaries, dependency checkouts and redundant campaign checkpoints",
   "attribution": "NOTICE.md; source decompositions and external reducers retain their authorship",
-  "validation": "verification/release-forest-20261010.json; previous unchanged exhaustive proof evidence retained.",
+  "validation": "verification/release-new-tests-20261011.json; previous unchanged exhaustive proof evidence retained.",
   "claims": "No global SOTA, unrestricted optimality, lower multiplication rank, new exponent or measured runtime is claimed.",
   "initial_release_date": "2026-10-08",
   "latest_update": {
@@ -89,6 +90,51 @@
       "standalone_bundle": "downloads/fmm_5x7x7_176_certificates_20261010.zip",
       "claims": "Improved the fixed original rank176 scheme, no basis change; residual diversity and global reconnection. No global SOTA, general superiority or optimality claim; matched ablation reaches V205 without guided-start donors.",
       "bundle_sha256": "fb99492b4ffc2c17c2159ba89bf114f349ea3ffd7fc554230b8fa3d3c0b3e089"
+    },
+    "new_tests": {
+      "report": "docs/new-tests-20261011.md",
+      "method": "methods/linear/reconstruction/adjoint_pool.py",
+      "certificates": "certificates/new_tests_20261011/",
+      "standalone_bundle": "downloads/fmm_new_tests_certificates_20261011.zip",
+      "uploaded_maps": 18,
+      "complete_schemes": 6,
+      "source_additions": [
+        850,
+        720,
+        840,
+        788,
+        880,
+        1067
+      ],
+      "new_additions": [
+        765,
+        669,
+        755,
+        697,
+        848,
+        1020
+      ],
+      "shapes": [
+        "5x5x11",
+        "5x6x8",
+        "5x6x9",
+        "5x7x7",
+        "6x7x7",
+        "7x7x7"
+      ],
+      "products": [
+        202,
+        170,
+        197,
+        176,
+        215,
+        250
+      ],
+      "previous_5x7x7_additions": 701,
+      "new_5x7x7_additions": 697,
+      "scope": "Fixed original linear maps and multiplication tensors, no basis change or rank reduction. No global record, optimality or runtime superiority claim.",
+      "bundle_sha256": "c6cfc4188afc5b49d60053c8b780e661e9d096331644970e4917bdd3771f64fc",
+      "search_witnesses": "methods/linear/reconstruction/adjoint_pilot/"
     }
   }
 }

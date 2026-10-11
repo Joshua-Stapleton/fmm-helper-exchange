@@ -1,0 +1,58 @@
+{
+  "status": "PASS",
+  "date": "2026-10-11",
+  "module_sha256": "6c6b7abba3ed899f1dd4b96c75f7854b98e1b806226f29a4320baeecdd518822",
+  "default_stdlib_controls": true,
+  "optional_ortools_controls": true,
+  "real_map_native_replay": {
+    "original_inputs": 176,
+    "original_outputs": 35,
+    "adjoint_inputs": 35,
+    "adjoint_outputs": 176,
+    "donor_source_sha256": "1123d04c28c08fc093e5d07bb14a347b5d84e4030cb716157a98428bb8a6536f",
+    "matrix_source_sha256": "349b822f77d526fb338a9f030b854d4d9618f4ac283aad244fe3c8f0052085e0",
+    "current_candidate_sha256": "ba195435137177db963cf9cf7c2960f78ddf765994c2d064c74e2deb0f05e877",
+    "donor_count": 26,
+    "donor_preparation_seconds": 0.4618434580042958,
+    "relation_backend": "native",
+    "relation_binary_build_seconds": 0.5719399168156087,
+    "pool_build_seconds": 0.6545379157178104,
+    "pool_forms": 326,
+    "pool_productions": 1622,
+    "search": {
+      "status": "DISABLED",
+      "elapsed_seconds": 0
+    },
+    "return_seconds": 0.25703070778399706,
+    "selected": "returned_0",
+    "initial_original_additions_signed": 314,
+    "additions_signed": 314,
+    "exact_ordered_original_map_verified": true,
+    "free_signed_wires": true,
+    "basis_change": false,
+    "orientation": {
+      "status": "OPTIMAL",
+      "elapsed_seconds": 0.0028290000000000004,
+      "input_signs_fixed": true,
+      "ordered_output_signs_fixed": true,
+      "exact_original_map_verified": true,
+      "binary_additions": 314,
+      "unary_negations": 0,
+      "nonunit_scalars": 0,
+      "unused_gates": 0
+    },
+    "total_seconds": 2.3705002921633422,
+    "scope": "Exact fixed map; all binary adjoint accumulations charged. Heuristic finite pool, no global optimum or runtime claim.",
+    "independent_literal_replay": {
+      "status": "PASS",
+      "coefficients": 6160,
+      "counts": {
+        "binary_additions": 314,
+        "unary_negations": 0,
+        "nonunit_scalars": 0,
+        "unused_noninput_assignments": 0
+      }
+    },
+    "test_scope": "Fresh native relation compilation, existing publicWT bank plus newW314 incumbent, no search, optional fixed-sign orientation; not discovery replay."
+  }
+}
