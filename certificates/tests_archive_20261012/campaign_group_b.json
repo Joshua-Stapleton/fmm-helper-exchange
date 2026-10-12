@@ -1,0 +1,164 @@
+[
+  {
+    "filename": "4x5x6_m90_cr380_fv180_cn1023_ZT_reduced_U.sms",
+    "scheme": "4x5x6_m90_cr380_fv180_cn1023_ZT_reduced",
+    "factor": "U",
+    "baseline_annotation": 87,
+    "source_sha256": "44433cf04d2dae6ffbc6f322d65a72bb1a092c23b8299ec103cf3f5d6e2d759c",
+    "matrix": "4x5x6/U.sms",
+    "historical_source": "4x5x6/source.json"
+  },
+  {
+    "filename": "4x5x6_m90_cr380_fv180_cn1023_ZT_reduced_V.sms",
+    "scheme": "4x5x6_m90_cr380_fv180_cn1023_ZT_reduced",
+    "factor": "V",
+    "baseline_annotation": 119,
+    "source_sha256": "2bfd1c42e31b3f578d12696cc3d4f20d129ff4b1cf6c1c281ad785c3a4ddf958",
+    "matrix": "4x5x6/V.sms",
+    "historical_source": "4x5x6/source.json"
+  },
+  {
+    "filename": "4x5x6_m90_cr380_fv180_cn1023_ZT_reduced_W.sms",
+    "scheme": "4x5x6_m90_cr380_fv180_cn1023_ZT_reduced",
+    "factor": "W",
+    "baseline_annotation": 174,
+    "source_sha256": "c587cbe23fdc288a0d84b28f719478f8f00e1ab3a724fd2c3cd12e56e4ad458d",
+    "matrix": "4x5x6/W.sms",
+    "historical_source": "4x5x6/source.json"
+  },
+  {
+    "filename": "4x5x7_m104_cr400_fv163_cn931_ZT_reduced_U.sms",
+    "scheme": "4x5x7_m104_cr400_fv163_cn931_ZT_reduced",
+    "factor": "U",
+    "baseline_annotation": 97,
+    "source_sha256": "451c7f0ec1f84aa71bec924cd7697ca56191ae7895c9946c868856a7d9d2271f",
+    "matrix": "4x5x7/U.sms",
+    "historical_source": "4x5x7/source.json"
+  },
+  {
+    "filename": "4x5x7_m104_cr400_fv163_cn931_ZT_reduced_V.sms",
+    "scheme": "4x5x7_m104_cr400_fv163_cn931_ZT_reduced",
+    "factor": "V",
+    "baseline_annotation": 120,
+    "source_sha256": "2fc8c007ce8a4d5c1ea61db868bbc7584916c4e5bf08e8e43fbd6bff2261f413",
+    "matrix": "4x5x7/V.sms",
+    "historical_source": "4x5x7/source.json"
+  },
+  {
+    "filename": "4x5x7_m104_cr400_fv163_cn931_ZT_reduced_W.sms",
+    "scheme": "4x5x7_m104_cr400_fv163_cn931_ZT_reduced",
+    "factor": "W",
+    "baseline_annotation": 183,
+    "source_sha256": "fe290d89aa3cd0f28ded816fcd4d124567056ea667afe5047b77a5e8b33dc2f6",
+    "matrix": "4x5x7/W.sms",
+    "historical_source": "4x5x7/source.json"
+  },
+  {
+    "filename": "4x6x7_m123_cr517_cn1586_ZT_reduced_U.sms",
+    "scheme": "4x6x7_m123_cr517_cn1586_ZT_reduced",
+    "factor": "U",
+    "baseline_annotation": 128,
+    "source_sha256": "60794f343ed0584e49243b3b2ec0993c869afa14eca1c46a0a8f59f7ffc15f84",
+    "matrix": "4x6x7/U.sms",
+    "historical_source": "4x6x7/source.json"
+  },
+  {
+    "filename": "4x6x7_m123_cr517_cn1586_ZT_reduced_V.sms",
+    "scheme": "4x6x7_m123_cr517_cn1586_ZT_reduced",
+    "factor": "V",
+    "baseline_annotation": 164,
+    "source_sha256": "dff7abe3892736c32e3e36e9f28bc1191cee33b3eacd0ba73ce87aa94659da89",
+    "matrix": "4x6x7/V.sms",
+    "historical_source": "4x6x7/source.json"
+  },
+  {
+    "filename": "4x6x7_m123_cr517_cn1586_ZT_reduced_W.sms",
+    "scheme": "4x6x7_m123_cr517_cn1586_ZT_reduced",
+    "factor": "W",
+    "baseline_annotation": 225,
+    "source_sha256": "95d2d588e7550c32fff848ec136c7aea0aff142aa447bb056f83f5362e65448d",
+    "matrix": "4x6x7/W.sms",
+    "historical_source": "4x6x7/source.json"
+  },
+  {
+    "filename": "4x6x9_m160_cr646_fv316_cn1472_ZT_reduced_U.sms",
+    "scheme": "4x6x9_m160_cr646_fv316_cn1472_ZT_reduced",
+    "factor": "U",
+    "baseline_annotation": 136,
+    "source_sha256": "caca0f0198884a5f4150ed68eeaaec6894f7b8a12f280df7d7ba1d20c34bd6bd",
+    "matrix": "4x6x9/U.sms",
+    "historical_source": "4x6x9/source.json"
+  },
+  {
+    "filename": "4x6x9_m160_cr646_fv316_cn1472_ZT_reduced_V.sms",
+    "scheme": "4x6x9_m160_cr646_fv316_cn1472_ZT_reduced",
+    "factor": "V",
+    "baseline_annotation": 215,
+    "source_sha256": "b87cf0ff18450039a378fd46d181665a3e9802465c7c07ee16c2654b8fd3174b",
+    "matrix": "4x6x9/V.sms",
+    "historical_source": "4x6x9/source.json"
+  },
+  {
+    "filename": "4x6x9_m160_cr646_fv316_cn1472_ZT_reduced_W.sms",
+    "scheme": "4x6x9_m160_cr646_fv316_cn1472_ZT_reduced",
+    "factor": "W",
+    "baseline_annotation": 295,
+    "source_sha256": "ec19281643700bfb7bf7fba5401e27d228df73ebe27f8e3901e13ae8ebdc78f9",
+    "matrix": "4x6x9/W.sms",
+    "historical_source": "4x6x9/source.json"
+  },
+  {
+    "filename": "4x7x7_m145_cr629_fv321_cn1381_ZT_reduced_U.sms",
+    "scheme": "4x7x7_m145_cr629_fv321_cn1381_ZT_reduced",
+    "factor": "U",
+    "baseline_annotation": 161,
+    "source_sha256": "8dc287babf45e53a7da2adde931944d8155ce166e456318a6531052cb3fed562",
+    "matrix": "4x7x7/U.sms",
+    "historical_source": "4x7x7/source.json"
+  },
+  {
+    "filename": "4x7x7_m145_cr629_fv321_cn1381_ZT_reduced_V.sms",
+    "scheme": "4x7x7_m145_cr629_fv321_cn1381_ZT_reduced",
+    "factor": "V",
+    "baseline_annotation": 190,
+    "source_sha256": "f9c400c0f6194e48b65b0c6c2ee33dfb75eb9eb2c6ed2f526f41fee8e4067cc4",
+    "matrix": "4x7x7/V.sms",
+    "historical_source": "4x7x7/source.json"
+  },
+  {
+    "filename": "4x7x7_m145_cr629_fv321_cn1381_ZT_reduced_W.sms",
+    "scheme": "4x7x7_m145_cr629_fv321_cn1381_ZT_reduced",
+    "factor": "W",
+    "baseline_annotation": 278,
+    "source_sha256": "07a82f160a52514881fe52dc902a43f97ea491260628873128780be6e25f8f99",
+    "matrix": "4x7x7/W.sms",
+    "historical_source": "4x7x7/source.json"
+  },
+  {
+    "filename": "5x5x7_m127_cr531_fv245_cn1607_ZT_reduced_U.sms",
+    "scheme": "5x5x7_m127_cr531_fv245_cn1607_ZT_reduced",
+    "factor": "U",
+    "baseline_annotation": 130,
+    "source_sha256": "9be6c5a288b2afc17516edafe605eb1a1dbcd125fe7199a34d9ecb8c70267fd0",
+    "matrix": "5x5x7/U.sms",
+    "historical_source": "5x5x7/source.json"
+  },
+  {
+    "filename": "5x5x7_m127_cr531_fv245_cn1607_ZT_reduced_V.sms",
+    "scheme": "5x5x7_m127_cr531_fv245_cn1607_ZT_reduced",
+    "factor": "V",
+    "baseline_annotation": 153,
+    "source_sha256": "3f0d9740663be414cbd48802c78a47b6d26fe0ab3cbf8b856987a306b3197bb1",
+    "matrix": "5x5x7/V.sms",
+    "historical_source": "5x5x7/source.json"
+  },
+  {
+    "filename": "5x5x7_m127_cr531_fv245_cn1607_ZT_reduced_W.sms",
+    "scheme": "5x5x7_m127_cr531_fv245_cn1607_ZT_reduced",
+    "factor": "W",
+    "baseline_annotation": 248,
+    "source_sha256": "5d94f9af5e5a748f4de99c67392241b64ebcb48987b7b4cbf3a09fe0413d3108",
+    "matrix": "5x5x7/W.sms",
+    "historical_source": "5x5x7/source.json"
+  }
+]

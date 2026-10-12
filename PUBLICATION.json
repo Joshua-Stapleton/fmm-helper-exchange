@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-11",
+  "date": "2026-10-12",
   "repository": "https://github.com/Joshua-Stapleton/fmm-helper-exchange",
   "description": "Reusable FMM search, transformation, exact certification, lower-bound, structural, orchestration, storage and analysis methods",
   "source_experiments": [
@@ -26,13 +26,14 @@
     "pooled_starts_20261009",
     "example_577_V_20261010",
     "perminov_new_tests_20261011",
-    "perminov_pool_method_20261011"
+    "perminov_pool_method_20261011",
+    "perminov_tests_20261012"
   ],
   "module_provenance": "Each methods subdirectory includes original source hashes and adaptation notes. Proof inputs and certified literal programs preserve original arithmetic.",
   "included": "Portable implementations, representative source data, search witnesses, independently checked arithmetic/proof certificates and method explanations",
   "excluded": "Private correspondence, raw browser/chat exports, credentials, local binaries, dependency checkouts and redundant campaign checkpoints",
   "attribution": "NOTICE.md; source decompositions and external reducers retain their authorship",
-  "validation": "verification/release-pool-method-20261011.json; previous unchanged exhaustive proof evidence retained.",
+  "validation": "verification/release-tests12-20261012.json; prior unchanged exhaustive proof evidence retained.",
   "claims": "No global SOTA, unrestricted optimality, lower multiplication rank, new exponent or measured runtime is claimed.",
   "initial_release_date": "2026-10-08",
   "latest_update": {
@@ -159,6 +160,30 @@
       "specified_two_for_one_exchanges": 4923646,
       "standalone_bundle": "downloads/fmm_pool_method_study_20261011.zip",
       "bundle_sha256": "0c3eac17385e99340f97b722e1ca26e4bc908e73e114b0d566056e097d385971"
+    },
+    "tests_archive_20261012": {
+      "report": "docs/tests-archive-20261012.md",
+      "certificates": "certificates/tests_archive_20261012/",
+      "methods": "methods/linear/reconstruction/archive_batch_README.md",
+      "standalone_bundle": "downloads/fmm_tests_archive_certificates_20261012.zip",
+      "uploaded_maps": 57,
+      "complete_schemes": 19,
+      "maps_below_archive_annotations": 54,
+      "maps_below_best_starting_count": 44,
+      "saved_from_archive_annotations": 746,
+      "previous_incumbents_retained": 10,
+      "previous_incumbents_improved": 2,
+      "weighted_calls": 114,
+      "weighted_completed": 54,
+      "weighted_incomplete": 60,
+      "previous_5x6x9_additions": 755,
+      "new_5x6x9_additions": 754,
+      "previous_6x7x7_additions": 848,
+      "new_6x7x7_additions": 847,
+      "basis_change": false,
+      "rank_reduced": false,
+      "scope": "Strict exact upper bounds on supplied fixed decompositions; no global record or optimality claim.",
+      "bundle_sha256": "1664a0ea938cf4fa85774225ea1117e20aa172a564a75ba19a816af006bf94fd"
     }
   }
 }

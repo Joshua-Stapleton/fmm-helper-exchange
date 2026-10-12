@@ -4,7 +4,25 @@ Code, worked examples, exact certificates and scoped lower-bound proofs from Jos
 
 [Download the complete methods bundle](downloads/fmm_research_methods.zip) · [Original compact helper-exchange bundle](downloads/fmm_helper_exchange_scripts.zip) · [Attribution and model conventions](docs/METHODS.md)
 
-## Latest update: 11 October 2026
+## Latest update: 12 October 2026
+
+The new 57-map archive has exact certificates for all nineteen supplied schemes.
+Fifty-four factors improve the archive annotations. New totals include **580
+additions for 5×6×7** and **763 for 6×6×8**. Two previously certified totals
+improve by one: **5×6×9 uses 754**, and **6×7×7 uses 847**. Original coordinates
+and products are unchanged, with no extra unary negations or scalar operations.
+
+[Full U/V/W counts and methodology](docs/tests-archive-20261012.md) ·
+[Counts CSV](certificates/tests_archive_20261012/counts.csv) ·
+[Standalone certificates](downloads/fmm_tests_archive_certificates_20261012.zip) ·
+[Portable batch scripts](methods/linear/reconstruction/archive_batch_README.md)
+
+The original source graphs, all 57 literal programs and nineteen multiplication
+tensors replay with standard-library Python. Weighted initialization and both
+pool orientations are recorded separately; no generally superior solver or
+unrestricted optimality is claimed.
+
+## Previous update: 11 October 2026
 
 [A direct test of Perminov's new weighted helper pool](docs/perminov-pool-method-20261011.md)
 now includes 96 matched completion calls, 400 temperature tests and 20,000

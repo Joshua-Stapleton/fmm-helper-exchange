@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-12",
+  "source_files": {
+    "run_maps.py": "6b5b252d3f09de5a1c195d9cecc78d31517807f35a5bda77c228d2134375d8d6",
+    "run_wt_extra.py": "8dfb90f5cb3d73d21d0c0bcd70c1828b602352e62cbb4f269c93ae71d7aa9924"
+  },
+  "adaptations": [
+    "Explicit external binary and runtime paths instead of machine paths",
+    "Published fixed-sign orienter plus strict integer literal replay replaces the equivalent private orientation driver",
+    "Manifest-relative matrix, historical source and previous candidate paths make the stored campaign starting points portable"
+  ],
+  "mathematical_scope": "Same fixed ordered maps, fully paid helper chains and charged adjoint returns; all final certificates independently verified",
+  "dependency_commits": {
+    "donor_and_repair": "2abd2fd8f15dc1c97dd24777515324f865e77504",
+    "weighted_HelperPool": "21906e043ab0d652b588864893a07199b915a8e7",
+    "source_decompositions": "6c75fd36564b177165d6968efd4c9e6199266191"
+  },
+  "checks": [
+    "CLI help for both wrappers",
+    "Exact preparation of the21 groupA matrices",
+    "Preparation recovers prior217-addition6x7x7Uincumbent",
+    "Full small-budget one-map smoke",
+    "All18 selected groupB literals replayed through the portable parser",
+    "Saved80-addition circuit passes published fixed-sign orientation",
+    "Unary negation, nonunit scalars and wire reassignment rejected"
+  ]
+}

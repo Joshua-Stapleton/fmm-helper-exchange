@@ -1,0 +1,585 @@
+{
+  "status": "PASS",
+  "archive": "downloads/fmm_tests_archive_certificates_20261012.zip",
+  "sha256": "1664a0ea938cf4fa85774225ea1117e20aa172a564a75ba19a816af006bf94fd",
+  "bytes": 507920,
+  "files": 216,
+  "standalone_extraction_replayed": true,
+  "certificate_replay": {
+    "status": "PASS",
+    "schemes": [
+      {
+        "dimensions": [
+          2,
+          7,
+          8
+        ],
+        "products": 90,
+        "counts": {
+          "U": 38,
+          "V": 138,
+          "W": 144
+        },
+        "additions": 320,
+        "total_scalar_operations": 410,
+        "saved_additions": 9,
+        "tensor": {
+          "status": "PASS",
+          "dimensions": [
+            2,
+            7,
+            8
+          ],
+          "rank": 90,
+          "exact_tensor_coefficients": 12544,
+          "nonzero_tensor_coefficients": 112,
+          "coordinates": "A and B row-major; C column-major",
+          "basis_change": false
+        },
+        "status": "PASS"
+      },
+      {
+        "dimensions": [
+          3,
+          3,
+          13
+        ],
+        "products": 94,
+        "counts": {
+          "U": 50,
+          "V": 106,
+          "W": 165
+        },
+        "additions": 321,
+        "total_scalar_operations": 415,
+        "saved_additions": 13,
+        "tensor": {
+          "status": "PASS",
+          "dimensions": [
+            3,
+            3,
+            13
+          ],
+          "rank": 94,
+          "exact_tensor_coefficients": 13689,
+          "nonzero_tensor_coefficients": 117,
+          "coordinates": "A and B row-major; C column-major",
+          "basis_change": false
+        },
+        "status": "PASS"
+      },
+      {
+        "dimensions": [
+          3,
+          4,
+          13
+        ],
+        "products": 121,
+        "counts": {
+          "U": 88,
+          "V": 136,
+          "W": 213
+        },
+        "additions": 437,
+        "total_scalar_operations": 558,
+        "saved_additions": 18,
+        "tensor": {
+          "status": "PASS",
+          "dimensions": [
+            3,
+            4,
+            13
+          ],
+          "rank": 121,
+          "exact_tensor_coefficients": 24336,
+          "nonzero_tensor_coefficients": 156,
+          "coordinates": "A and B row-major; C column-major",
+          "basis_change": false
+        },
+        "status": "PASS"
+      },
+      {
+        "dimensions": [
+          3,
+          4,
+          8
+        ],
+        "products": 74,
+        "counts": {
+          "U": 50,
+          "V": 83,
+          "W": 127
+        },
+        "additions": 260,
+        "total_scalar_operations": 334,
+        "saved_additions": 7,
+        "tensor": {
+          "status": "PASS",
+          "dimensions": [
+            3,
+            4,
+            8
+          ],
+          "rank": 74,
+          "exact_tensor_coefficients": 9216,
+          "nonzero_tensor_coefficients": 96,
+          "coordinates": "A and B row-major; C column-major",
+          "basis_change": false
+        },
+        "status": "PASS"
+      },
+      {
+        "dimensions": [
+          3,
+          4,
+          9
+        ],
+        "products": 84,
+        "counts": {
+          "U": 70,
+          "V": 93,
+          "W": 139
+        },
+        "additions": 302,
+        "total_scalar_operations": 386,
+        "saved_additions": 14,
+        "tensor": {
+          "status": "PASS",
+          "dimensions": [
+            3,
+            4,
+            9
+          ],
+          "rank": 84,
+          "exact_tensor_coefficients": 11664,
+          "nonzero_tensor_coefficients": 108,
+          "coordinates": "A and B row-major; C column-major",
+          "basis_change": false
+        },
+        "status": "PASS"
+      },
+      {
+        "dimensions": [
+          3,
+          7,
+          7
+        ],
+        "products": 115,
+        "counts": {
+          "U": 81,
+          "V": 126,
+          "W": 206
+        },
+        "additions": 413,
+        "total_scalar_operations": 528,
+        "saved_additions": 19,
+        "tensor": {
+          "status": "PASS",
+          "dimensions": [
+            3,
+            7,
+            7
+          ],
+          "rank": 115,
+          "exact_tensor_coefficients": 21609,
+          "nonzero_tensor_coefficients": 147,
+          "coordinates": "A and B row-major; C column-major",
+          "basis_change": false
+        },
+        "status": "PASS"
+      },
+      {
+        "dimensions": [
+          4,
+          4,
+          11
+        ],
+        "products": 134,
+        "counts": {
+          "U": 111,
+          "V": 141,
+          "W": 223
+        },
+        "additions": 475,
+        "total_scalar_operations": 609,
+        "saved_additions": 44,
+        "tensor": {
+          "status": "PASS",
+          "dimensions": [
+            4,
+            4,
+            11
+          ],
+          "rank": 134,
+          "exact_tensor_coefficients": 30976,
+          "nonzero_tensor_coefficients": 176,
+          "coordinates": "A and B row-major; C column-major",
+          "basis_change": false
+        },
+        "status": "PASS"
+      },
+      {
+        "dimensions": [
+          4,
+          5,
+          6
+        ],
+        "products": 90,
+        "counts": {
+          "U": 80,
+          "V": 103,
+          "W": 162
+        },
+        "additions": 345,
+        "total_scalar_operations": 435,
+        "saved_additions": 35,
+        "tensor": {
+          "status": "PASS",
+          "dimensions": [
+            4,
+            5,
+            6
+          ],
+          "rank": 90,
+          "exact_tensor_coefficients": 14400,
+          "nonzero_tensor_coefficients": 120,
+          "coordinates": "A and B row-major; C column-major",
+          "basis_change": false
+        },
+        "status": "PASS"
+      },
+      {
+        "dimensions": [
+          4,
+          5,
+          7
+        ],
+        "products": 104,
+        "counts": {
+          "U": 89,
+          "V": 112,
+          "W": 176
+        },
+        "additions": 377,
+        "total_scalar_operations": 481,
+        "saved_additions": 23,
+        "tensor": {
+          "status": "PASS",
+          "dimensions": [
+            4,
+            5,
+            7
+          ],
+          "rank": 104,
+          "exact_tensor_coefficients": 19600,
+          "nonzero_tensor_coefficients": 140,
+          "coordinates": "A and B row-major; C column-major",
+          "basis_change": false
+        },
+        "status": "PASS"
+      },
+      {
+        "dimensions": [
+          4,
+          6,
+          7
+        ],
+        "products": 123,
+        "counts": {
+          "U": 114,
+          "V": 140,
+          "W": 215
+        },
+        "additions": 469,
+        "total_scalar_operations": 592,
+        "saved_additions": 48,
+        "tensor": {
+          "status": "PASS",
+          "dimensions": [
+            4,
+            6,
+            7
+          ],
+          "rank": 123,
+          "exact_tensor_coefficients": 28224,
+          "nonzero_tensor_coefficients": 168,
+          "coordinates": "A and B row-major; C column-major",
+          "basis_change": false
+        },
+        "status": "PASS"
+      },
+      {
+        "dimensions": [
+          4,
+          6,
+          9
+        ],
+        "products": 160,
+        "counts": {
+          "U": 124,
+          "V": 188,
+          "W": 285
+        },
+        "additions": 597,
+        "total_scalar_operations": 757,
+        "saved_additions": 49,
+        "tensor": {
+          "status": "PASS",
+          "dimensions": [
+            4,
+            6,
+            9
+          ],
+          "rank": 160,
+          "exact_tensor_coefficients": 46656,
+          "nonzero_tensor_coefficients": 216,
+          "coordinates": "A and B row-major; C column-major",
+          "basis_change": false
+        },
+        "status": "PASS"
+      },
+      {
+        "dimensions": [
+          4,
+          7,
+          7
+        ],
+        "products": 145,
+        "counts": {
+          "U": 145,
+          "V": 178,
+          "W": 262
+        },
+        "additions": 585,
+        "total_scalar_operations": 730,
+        "saved_additions": 44,
+        "tensor": {
+          "status": "PASS",
+          "dimensions": [
+            4,
+            7,
+            7
+          ],
+          "rank": 145,
+          "exact_tensor_coefficients": 38416,
+          "nonzero_tensor_coefficients": 196,
+          "coordinates": "A and B row-major; C column-major",
+          "basis_change": false
+        },
+        "status": "PASS"
+      },
+      {
+        "dimensions": [
+          5,
+          5,
+          7
+        ],
+        "products": 127,
+        "counts": {
+          "U": 115,
+          "V": 136,
+          "W": 231
+        },
+        "additions": 482,
+        "total_scalar_operations": 609,
+        "saved_additions": 49,
+        "tensor": {
+          "status": "PASS",
+          "dimensions": [
+            5,
+            5,
+            7
+          ],
+          "rank": 127,
+          "exact_tensor_coefficients": 30625,
+          "nonzero_tensor_coefficients": 175,
+          "coordinates": "A and B row-major; C column-major",
+          "basis_change": false
+        },
+        "status": "PASS"
+      },
+      {
+        "dimensions": [
+          5,
+          6,
+          7
+        ],
+        "products": 150,
+        "counts": {
+          "U": 145,
+          "V": 170,
+          "W": 265
+        },
+        "additions": 580,
+        "total_scalar_operations": 730,
+        "saved_additions": 84,
+        "tensor": {
+          "status": "PASS",
+          "dimensions": [
+            5,
+            6,
+            7
+          ],
+          "rank": 150,
+          "exact_tensor_coefficients": 44100,
+          "nonzero_tensor_coefficients": 210,
+          "coordinates": "A and B row-major; C column-major",
+          "basis_change": false
+        },
+        "status": "PASS"
+      },
+      {
+        "dimensions": [
+          5,
+          6,
+          8
+        ],
+        "products": 170,
+        "counts": {
+          "U": 159,
+          "V": 199,
+          "W": 311
+        },
+        "additions": 669,
+        "total_scalar_operations": 839,
+        "saved_additions": 51,
+        "tensor": {
+          "status": "PASS",
+          "dimensions": [
+            5,
+            6,
+            8
+          ],
+          "rank": 170,
+          "exact_tensor_coefficients": 57600,
+          "nonzero_tensor_coefficients": 240,
+          "coordinates": "A and B row-major; C column-major",
+          "basis_change": false
+        },
+        "status": "PASS"
+      },
+      {
+        "dimensions": [
+          5,
+          6,
+          9
+        ],
+        "products": 197,
+        "counts": {
+          "U": 202,
+          "V": 212,
+          "W": 340
+        },
+        "additions": 754,
+        "total_scalar_operations": 951,
+        "saved_additions": 86,
+        "tensor": {
+          "status": "PASS",
+          "dimensions": [
+            5,
+            6,
+            9
+          ],
+          "rank": 197,
+          "exact_tensor_coefficients": 72900,
+          "nonzero_tensor_coefficients": 270,
+          "coordinates": "A and B row-major; C column-major",
+          "basis_change": false
+        },
+        "status": "PASS"
+      },
+      {
+        "dimensions": [
+          6,
+          6,
+          8
+        ],
+        "products": 203,
+        "counts": {
+          "U": 183,
+          "V": 214,
+          "W": 366
+        },
+        "additions": 763,
+        "total_scalar_operations": 966,
+        "saved_additions": 73,
+        "tensor": {
+          "status": "PASS",
+          "dimensions": [
+            6,
+            6,
+            8
+          ],
+          "rank": 203,
+          "exact_tensor_coefficients": 82944,
+          "nonzero_tensor_coefficients": 288,
+          "coordinates": "A and B row-major; C column-major",
+          "basis_change": false
+        },
+        "status": "PASS"
+      },
+      {
+        "dimensions": [
+          6,
+          7,
+          7
+        ],
+        "products": 215,
+        "counts": {
+          "U": 217,
+          "V": 241,
+          "W": 389
+        },
+        "additions": 847,
+        "total_scalar_operations": 1062,
+        "saved_additions": 33,
+        "tensor": {
+          "status": "PASS",
+          "dimensions": [
+            6,
+            7,
+            7
+          ],
+          "rank": 215,
+          "exact_tensor_coefficients": 86436,
+          "nonzero_tensor_coefficients": 294,
+          "coordinates": "A and B row-major; C column-major",
+          "basis_change": false
+        },
+        "status": "PASS"
+      },
+      {
+        "dimensions": [
+          7,
+          7,
+          7
+        ],
+        "products": 250,
+        "counts": {
+          "U": 269,
+          "V": 274,
+          "W": 477
+        },
+        "additions": 1020,
+        "total_scalar_operations": 1270,
+        "saved_additions": 47,
+        "tensor": {
+          "status": "PASS",
+          "dimensions": [
+            7,
+            7,
+            7
+          ],
+          "rank": 250,
+          "exact_tensor_coefficients": 117649,
+          "nonzero_tensor_coefficients": 343,
+          "coordinates": "A and B row-major; C column-major",
+          "basis_change": false
+        },
+        "status": "PASS"
+      }
+    ],
+    "basis_change": false,
+    "scope": "Exact upper bounds for nineteen uploaded fixed decompositions. No global-record, rank-reduction or optimality claim."
+  }
+}

@@ -1,0 +1,200 @@
+[
+  {
+    "filename": "6x7x7_m215_cr880_fv457_cn2004_ZT_reduced_U.sms",
+    "scheme": "6x7x7_m215_cr880_fv457_cn2004_ZT_reduced",
+    "factor": "U",
+    "baseline_annotation": 227,
+    "source_sha256": "be2a403525eb49142a6922d44307ab0d4d0d4482a894df69821047d8fc3a176d",
+    "matrix": "6x7x7/U.sms",
+    "historical_source": "6x7x7/source.json",
+    "candidate": "previous/6x7x7/U.json",
+    "previous_strict_count": 217,
+    "previous_original_file_sha256": "93bfae0ec7e0ae24d37bb3fbf42f61abf5a26079712bd5e1a2442bb7e4b72fab"
+  },
+  {
+    "filename": "6x7x7_m215_cr880_fv457_cn2004_ZT_reduced_V.sms",
+    "scheme": "6x7x7_m215_cr880_fv457_cn2004_ZT_reduced",
+    "factor": "V",
+    "baseline_annotation": 249,
+    "source_sha256": "b5073ddde4b0f73eaeecea2b296c41fbf880375f045d0571e4ced5af87e35f5c",
+    "matrix": "6x7x7/V.sms",
+    "historical_source": "6x7x7/source.json",
+    "candidate": "previous/6x7x7/V.json",
+    "previous_strict_count": 241,
+    "previous_original_file_sha256": "eb4e935c735d7869dc7cd63c44d864d8b18164ff72e648bb621722a4aafc5c54"
+  },
+  {
+    "filename": "6x7x7_m215_cr880_fv457_cn2004_ZT_reduced_W.sms",
+    "scheme": "6x7x7_m215_cr880_fv457_cn2004_ZT_reduced",
+    "factor": "W",
+    "baseline_annotation": 404,
+    "source_sha256": "9974e1cbe0ac2c686e075dbea31b4c826c15420282b550f891a1b814776cb4e3",
+    "matrix": "6x7x7/W.sms",
+    "historical_source": "6x7x7/source.json",
+    "candidate": "previous/6x7x7/W.json",
+    "previous_strict_count": 390,
+    "previous_original_file_sha256": "1b0bf8cfe48fa126aeb44ae924a62d6546966b5f480de1be083770d0f74b112f"
+  },
+  {
+    "filename": "7x7x7_m250_cr1067_fv512_cn2417_ZT_reduced_U.sms",
+    "scheme": "7x7x7_m250_cr1067_fv512_cn2417_ZT_reduced",
+    "factor": "U",
+    "baseline_annotation": 288,
+    "source_sha256": "bbc2c0dc3f27825715470cecb54606e189f2b89e031b9453ba9bf306a877445a",
+    "matrix": "7x7x7/U.sms",
+    "historical_source": "7x7x7/source.json",
+    "candidate": "previous/7x7x7/U.json",
+    "previous_strict_count": 269,
+    "previous_original_file_sha256": "0261024d4b4fb0482c5432c3ffd8810f64917b34436a64547e951b7b8e20ed77"
+  },
+  {
+    "filename": "7x7x7_m250_cr1067_fv512_cn2417_ZT_reduced_V.sms",
+    "scheme": "7x7x7_m250_cr1067_fv512_cn2417_ZT_reduced",
+    "factor": "V",
+    "baseline_annotation": 290,
+    "source_sha256": "57bd8af50724bd67402b2cf1966510e6cd54d00c775f0889b6675391a2abee23",
+    "matrix": "7x7x7/V.sms",
+    "historical_source": "7x7x7/source.json",
+    "candidate": "previous/7x7x7/V.json",
+    "previous_strict_count": 274,
+    "previous_original_file_sha256": "436d9f2fc6e7231d8323451508f2026e83d60aa791785f4419d5493752ba89f1"
+  },
+  {
+    "filename": "7x7x7_m250_cr1067_fv512_cn2417_ZT_reduced_W.sms",
+    "scheme": "7x7x7_m250_cr1067_fv512_cn2417_ZT_reduced",
+    "factor": "W",
+    "baseline_annotation": 489,
+    "source_sha256": "75f67a807a31a39808b585a9ca21eee0529fec8262a0190edc0dfe8146c92e95",
+    "matrix": "7x7x7/W.sms",
+    "historical_source": "7x7x7/source.json",
+    "candidate": "previous/7x7x7/W.json",
+    "previous_strict_count": 477,
+    "previous_original_file_sha256": "e3c37c8b4d92d158d58f5ea4f3ea03b90a0e0a704f0a15339c3e6267fc93640e"
+  },
+  {
+    "filename": "5x6x7_m150_cr664_fv310_cn2039_ZT_reduced_U.sms",
+    "scheme": "5x6x7_m150_cr664_fv310_cn2039_ZT_reduced",
+    "factor": "U",
+    "baseline_annotation": 172,
+    "source_sha256": "2b05885033170a3d583b914d0b70ef266a82023fff45d8386a549dbbb9d9352e",
+    "matrix": "5x6x7/U.sms",
+    "historical_source": "5x6x7/source.json"
+  },
+  {
+    "filename": "5x6x7_m150_cr664_fv310_cn2039_ZT_reduced_V.sms",
+    "scheme": "5x6x7_m150_cr664_fv310_cn2039_ZT_reduced",
+    "factor": "V",
+    "baseline_annotation": 198,
+    "source_sha256": "f9df58f035a11422d09695913ce1950363451b55b2f195d15e032074d1cb6be2",
+    "matrix": "5x6x7/V.sms",
+    "historical_source": "5x6x7/source.json"
+  },
+  {
+    "filename": "5x6x7_m150_cr664_fv310_cn2039_ZT_reduced_W.sms",
+    "scheme": "5x6x7_m150_cr664_fv310_cn2039_ZT_reduced",
+    "factor": "W",
+    "baseline_annotation": 294,
+    "source_sha256": "5c4004c0155906b5f8f0c2411683fb94be6345448f5e0efdff72f72c6db1af33",
+    "matrix": "5x6x7/W.sms",
+    "historical_source": "5x6x7/source.json"
+  },
+  {
+    "filename": "5x6x8_m170_cr720_fv345_cn2312_ZT_reduced_U.sms",
+    "scheme": "5x6x8_m170_cr720_fv345_cn2312_ZT_reduced",
+    "factor": "U",
+    "baseline_annotation": 177,
+    "source_sha256": "67f714d1794bf2597e674f164deca016bdc6094f38fbc6710ffe44b7f8c2b178",
+    "matrix": "5x6x8/U.sms",
+    "historical_source": "5x6x8/source.json",
+    "candidate": "previous/5x6x8/U.json",
+    "previous_strict_count": 159,
+    "previous_original_file_sha256": "cfeb92202105167bf98aaee15aae2d66b5910b0237d9de81a586ca4e42ea43b8"
+  },
+  {
+    "filename": "5x6x8_m170_cr720_fv345_cn2312_ZT_reduced_V.sms",
+    "scheme": "5x6x8_m170_cr720_fv345_cn2312_ZT_reduced",
+    "factor": "V",
+    "baseline_annotation": 218,
+    "source_sha256": "11310ea216e9c9b1b0c61706da5a7f2d89d6b668e0cc8912f3b9832bb8392e5a",
+    "matrix": "5x6x8/V.sms",
+    "historical_source": "5x6x8/source.json",
+    "candidate": "previous/5x6x8/V.json",
+    "previous_strict_count": 199,
+    "previous_original_file_sha256": "872c081330b3860462c7e117b57b692031dc5a83d55824ea896aab51c63e863d"
+  },
+  {
+    "filename": "5x6x8_m170_cr720_fv345_cn2312_ZT_reduced_W.sms",
+    "scheme": "5x6x8_m170_cr720_fv345_cn2312_ZT_reduced",
+    "factor": "W",
+    "baseline_annotation": 325,
+    "source_sha256": "dce928dd58097efba8f292523d6c959bd721b7d434965440b0bad0519308cb4f",
+    "matrix": "5x6x8/W.sms",
+    "historical_source": "5x6x8/source.json",
+    "candidate": "previous/5x6x8/W.json",
+    "previous_strict_count": 311,
+    "previous_original_file_sha256": "ac9fb1266555098a41c11c6a7c06cf70b0a3c3d2cdd591f9ba380aafd255d527"
+  },
+  {
+    "filename": "5x6x9_m197_cr840_fv380_cn2376_ZT_reduced_U.sms",
+    "scheme": "5x6x9_m197_cr840_fv380_cn2376_ZT_reduced",
+    "factor": "U",
+    "baseline_annotation": 234,
+    "source_sha256": "6037d097a016dc46d2f8e84f326abae8566a3e8bd5b68f7cb67bfa59e15f5cd3",
+    "matrix": "5x6x9/U.sms",
+    "historical_source": "5x6x9/source.json",
+    "candidate": "previous/5x6x9/U.json",
+    "previous_strict_count": 202,
+    "previous_original_file_sha256": "d182bad9c2b02ab352eabdffe13353addde3ce807cbf2f66f639beee96b9ff41"
+  },
+  {
+    "filename": "5x6x9_m197_cr840_fv380_cn2376_ZT_reduced_V.sms",
+    "scheme": "5x6x9_m197_cr840_fv380_cn2376_ZT_reduced",
+    "factor": "V",
+    "baseline_annotation": 236,
+    "source_sha256": "c2ad996f4d7c289999711e294818e385f68e04db0a0f0f39a08186ae8c974a5f",
+    "matrix": "5x6x9/V.sms",
+    "historical_source": "5x6x9/source.json",
+    "candidate": "previous/5x6x9/V.json",
+    "previous_strict_count": 213,
+    "previous_original_file_sha256": "f43766c35adb78a0f497b93a753f2048bf09f1cdd50d60157244d6e0f4cfe219"
+  },
+  {
+    "filename": "5x6x9_m197_cr840_fv380_cn2376_ZT_reduced_W.sms",
+    "scheme": "5x6x9_m197_cr840_fv380_cn2376_ZT_reduced",
+    "factor": "W",
+    "baseline_annotation": 370,
+    "source_sha256": "08409a3c71ca0e5088354427098f8e2f5650f10553c1b542dfb6284bf471a248",
+    "matrix": "5x6x9/W.sms",
+    "historical_source": "5x6x9/source.json",
+    "candidate": "previous/5x6x9/W.json",
+    "previous_strict_count": 340,
+    "previous_original_file_sha256": "6160bd84b0f9b53a39f945d45c78c61f402ba47e918a29b6ed9bcae7a3b57130"
+  },
+  {
+    "filename": "6x6x8_m203_cr836_fv454_cn1994_ZT_reduced_U.sms",
+    "scheme": "6x6x8_m203_cr836_fv454_cn1994_ZT_reduced",
+    "factor": "U",
+    "baseline_annotation": 200,
+    "source_sha256": "d714cb255852338cc6b63c4b154e2a8e8dae976e6048999e9dc15400355df14f",
+    "matrix": "6x6x8/U.sms",
+    "historical_source": "6x6x8/source.json"
+  },
+  {
+    "filename": "6x6x8_m203_cr836_fv454_cn1994_ZT_reduced_V.sms",
+    "scheme": "6x6x8_m203_cr836_fv454_cn1994_ZT_reduced",
+    "factor": "V",
+    "baseline_annotation": 235,
+    "source_sha256": "53b8c783607d3de9801c7dc97499b7c5baec48652e2ca354df108b98049a6f10",
+    "matrix": "6x6x8/V.sms",
+    "historical_source": "6x6x8/source.json"
+  },
+  {
+    "filename": "6x6x8_m203_cr836_fv454_cn1994_ZT_reduced_W.sms",
+    "scheme": "6x6x8_m203_cr836_fv454_cn1994_ZT_reduced",
+    "factor": "W",
+    "baseline_annotation": 401,
+    "source_sha256": "f409a1baadc9a81e08e94514a4f1668d7b607772f25d7c4233595a645d807bf2",
+    "matrix": "6x6x8/W.sms",
+    "historical_source": "6x6x8/source.json"
+  }
+]

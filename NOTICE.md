@@ -16,3 +16,5 @@ Important sources:
 - [Kauers and Moosbauer](https://arxiv.org/abs/2212.01175) supply the flip-graph framework; [Perminov](https://arxiv.org/abs/2511.20317) describes ternary-safe transformation primitives predating these experiments.
 
 Upstream notices and licenses included with data/certificates remain applicable. No new blanket license in this release overrides upstream rights. File-level provenance records identify portable adaptations and original source hashes. Arithmetic certificates establish their stated identities and counts; neither those checks nor repository publication establishes literature priority or peer review.
+
+The October12 archive campaign preserves nineteen existing Perminov decompositions and their product ranks. Its batch wrappers combine credited external donor/completion methods, actual weighted HelperPool sampling, exact pooled reconnection and charged linear transposition. Weighted intake explicitly materializes binary terminal sums; it is distinct from the native-boundary replication study. The experiments certify the supplied fixed maps, with no claim of a generally optimal minimizer.
