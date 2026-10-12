@@ -1,8 +1,8 @@
 {
   "status": "PASS",
   "archive": "downloads/fmm_tests_archive_certificates_20261012.zip",
-  "sha256": "1664a0ea938cf4fa85774225ea1117e20aa172a564a75ba19a816af006bf94fd",
-  "bytes": 507920,
+  "sha256": "13a1626d5e9e75b2878faaf69737892c04bcf8bd90955fc6e85241d9078dd728",
+  "bytes": 507915,
   "files": 216,
   "standalone_extraction_replayed": true,
   "certificate_replay": {

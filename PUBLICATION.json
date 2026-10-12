@@ -183,7 +183,7 @@
       "basis_change": false,
       "rank_reduced": false,
       "scope": "Strict exact upper bounds on supplied fixed decompositions; no global record or optimality claim.",
-      "bundle_sha256": "1664a0ea938cf4fa85774225ea1117e20aa172a564a75ba19a816af006bf94fd"
+      "bundle_sha256": "13a1626d5e9e75b2878faaf69737892c04bcf8bd90955fc6e85241d9078dd728"
     }
   }
 }
