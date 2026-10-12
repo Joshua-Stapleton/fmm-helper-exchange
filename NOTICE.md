@@ -18,3 +18,12 @@ Important sources:
 Upstream notices and licenses included with data/certificates remain applicable. No new blanket license in this release overrides upstream rights. File-level provenance records identify portable adaptations and original source hashes. Arithmetic certificates establish their stated identities and counts; neither those checks nor repository publication establishes literature priority or peer review.
 
 The October12 archive campaign preserves nineteen existing Perminov decompositions and their product ranks. Its batch wrappers combine credited external donor/completion methods, actual weighted HelperPool sampling, exact pooled reconnection and charged linear transposition. Weighted intake explicitly materializes binary terminal sums; it is distinct from the native-boundary replication study. The experiments certify the supplied fixed maps, with no claim of a generally optimal minimizer.
+
+The October12 binary-circuit study preserves NIST's source circuits at
+`usnistgov/Circuits` commit `113aec82e939be46ad72522032df90cb4355f46c` and their
+embedded attribution. The FIPS197 map is constructed independently for replay.
+The GF(2) adapters and selection models are separate research code. XOR
+synthesis, CP-SAT and circuit-depth arguments are established ideas; the
+complete depth-three normalization is a derived, unmechanized argument with
+no priority claim. No improved circuit, global optimum or hardware advantage
+was found. See `methods/linear/gf2_mixcolumns_study/SOURCE_NOTICE.md`.

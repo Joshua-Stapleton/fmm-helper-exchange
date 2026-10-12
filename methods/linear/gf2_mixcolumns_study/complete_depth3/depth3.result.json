@@ -1,0 +1,27 @@
+{
+  "best_aux_bound": 31.0,
+  "best_total_bound": 63.0,
+  "exact_replay": {
+    "depth": 3,
+    "exact_fips_map": true,
+    "gate_count": 97,
+    "selected_count": 97,
+    "unused_selected": 0
+  },
+  "linearization_level": 2,
+  "max_time_seconds": 180.0,
+  "model_and_solver_wall_seconds": 180.50804366683587,
+  "model_scope": "Complete depth<=3 pure two-input XOR formulation under the argument in README",
+  "model_sha256": "6d081a1bd46ab55d2e9303124bbcfdff19cb9bbff4d19d8ffb5d67c4ea182e1a",
+  "objective_aux": 65.0,
+  "objective_total": 97,
+  "ortools_version": "9.15.6755",
+  "seed": 12014,
+  "solver_wall_seconds": 180.037969,
+  "statistics": "CpSolverResponse summary:\nstatus: FEASIBLE\nobjective: 65\nbest_bound: 31\nintegers: 38297\nbooleans: 38203\nconflicts: 7697\nbranches: 2080977\npropagations: 86010520\ninteger_propagations: 157056661\nrestarts: 64\nlp_iterations: 424975\nwalltime: 180.038\nusertime: 180.038\ndeterministic_time: 150.739\ngap_integral: 0\nsolution_fingerprint: 0x86e64d7caa5e3a02\n",
+  "status": "FEASIBLE",
+  "target93_met": false,
+  "target_aux_count": 61,
+  "target_total_count": 93,
+  "workers": 1
+}

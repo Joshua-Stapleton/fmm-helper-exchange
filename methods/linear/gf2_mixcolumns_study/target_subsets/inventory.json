@@ -1,0 +1,14 @@
+{
+  "all_exact_productions": 83246,
+  "all_input_pairs": 496,
+  "cancellation_allowed": true,
+  "depth3_admissible_productions": 4527,
+  "field": "GF(2)",
+  "forms": 1649,
+  "generation_wall_seconds": 0.09981937473639846,
+  "generator": "All weight-2/3/4 output-support subsets plus all 496 input pairs plus observed forms",
+  "new_forms": 1432,
+  "original_forms": 217,
+  "restriction": "New forms are target-support subsets/input pairs; original non-subset forms retained. Arbitrary other masks are not searched.",
+  "target_support_subsets_weights2to4": 1280
+}

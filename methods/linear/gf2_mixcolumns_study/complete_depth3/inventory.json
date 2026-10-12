@@ -1,0 +1,15 @@
+{
+  "cancellation_case": "Triple/quad sharing exactly one bit outside the weight-five output support",
+  "completeness_scope": "Pure two-input XOR, depth <=3, free copies, unbounded fanout; argument described in README, not a formal independently certified theorem",
+  "forms": 8457,
+  "generation_wall_seconds": 0.04544150037690997,
+  "input_pair_forms": 496,
+  "output_forms": 32,
+  "output_productions": 6120,
+  "productions": 30307,
+  "quad_forms": 4889,
+  "roots": 32,
+  "triple_forms": 3008,
+  "weight5_output_choices_each": 285,
+  "weight7_output_choices_each": 35
+}

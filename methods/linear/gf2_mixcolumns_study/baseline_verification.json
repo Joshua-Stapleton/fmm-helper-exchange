@@ -1,0 +1,38 @@
+{
+  "all_exact_productions": 824,
+  "baselines": [
+    {
+      "depth": 5,
+      "exact_fips_map": true,
+      "file": "aes-mixcols-xor88-depth5.circ.txt",
+      "gate_count": 88,
+      "sha256": "f6af7cabebc27f6be692fe76c66e8e6557b06cebb7a116ad0523cd524cae1e7c",
+      "unique_nonroot_forms": 88
+    },
+    {
+      "depth": 4,
+      "exact_fips_map": true,
+      "file": "aes-mixcols-xor90-depth4.circ.txt",
+      "gate_count": 90,
+      "sha256": "fa18cd39c181365fc967e30e89a544571ad6d0198847135bd7d7dccb85b6a5b8",
+      "unique_nonroot_forms": 90
+    },
+    {
+      "depth": 3,
+      "exact_fips_map": true,
+      "file": "aes-mixcols-xor97-depth3.circ.txt",
+      "gate_count": 97,
+      "sha256": "699ee449681af57ffc9f356ae8dc261763aa155237768cf1d6e35f3637cac0b3",
+      "unique_nonroot_forms": 97
+    }
+  ],
+  "field": "GF(2)",
+  "fips_basis_images_verified": 32,
+  "fips_sample_column_verified": true,
+  "forms": 217,
+  "input_forms": 32,
+  "observed_productions": 248,
+  "required_target_forms": 32,
+  "scope_warning": "Finite-pool optimality, if obtained, is not unrestricted XOR-circuit optimality",
+  "source_commit": "113aec82e939be46ad72522032df90cb4355f46c"
+}

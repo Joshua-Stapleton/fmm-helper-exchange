@@ -1,0 +1,29 @@
+{
+  "omitted_models": [
+    {
+      "file": "complete_depth3/depth3.model.pbtxt",
+      "sha256": "6d081a1bd46ab55d2e9303124bbcfdff19cb9bbff4d19d8ffb5d67c4ea182e1a",
+      "bytes": 12159400,
+      "reason": "Regeneratable solver model; retained result record contains matching model hash"
+    },
+    {
+      "file": "pool_any_depth.model.pbtxt",
+      "sha256": "e96bc249c8be022a11d5332097f55deb15c3c5622fd543c963d75842ee8524a6",
+      "bytes": 653474,
+      "reason": "Regeneratable solver model; retained result record contains matching model hash"
+    },
+    {
+      "file": "pool_depth3.model.pbtxt",
+      "sha256": "b6095e3289e230a1e5affd99f2a53d7448758fd6b2ae5100dbe9d6faa8a0e9b2",
+      "bytes": 653040,
+      "reason": "Regeneratable solver model; retained result record contains matching model hash"
+    },
+    {
+      "file": "target_subsets/depth3.model.pbtxt",
+      "sha256": "6534832733b16519f6ba036a27bd0cd120dbfd39181a7914b1d182c8597274f9",
+      "bytes": 1890985,
+      "reason": "Regeneratable solver model; retained result record contains matching model hash"
+    }
+  ],
+  "regeneration": "Use the corresponding --search command with a fresh --out directory; OR-Tools 9.15.6755 used originally"
+}

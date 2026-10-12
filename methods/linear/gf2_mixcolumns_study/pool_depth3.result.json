@@ -1,0 +1,23 @@
+{
+  "best_objective_bound": 97.0,
+  "exact_replay": {
+    "depth": 3,
+    "exact_fips_map": true,
+    "gate_count": 97,
+    "selected_count": 97,
+    "unused_selected": 0
+  },
+  "maximum_depth": 3,
+  "model_sha256": "b6095e3289e230a1e5affd99f2a53d7448758fd6b2ae5100dbe9d6faa8a0e9b2",
+  "name": "pool_depth3",
+  "objective": 97.0,
+  "ortools_version": "9.15.6755",
+  "scope": "Minimum paid XOR helpers within this fixed finite set of forms and exact productions",
+  "seed": 12012,
+  "solver_wall_seconds": 2.601172,
+  "statistics": "CpSolverResponse summary:\nstatus: OPTIMAL\nobjective: 97\nbest_bound: 97\nintegers: 201\nbooleans: 462\nconflicts: 22733\nbranches: 92577\npropagations: 1326750\ninteger_propagations: 1428900\nrestarts: 88\nlp_iterations: 0\nwalltime: 2.60117\nusertime: 2.60117\ndeterministic_time: 1.25904\ngap_integral: 0\nsolution_fingerprint: 0x277317d3ed13c407\n",
+  "status": "OPTIMAL",
+  "time_limit_seconds": 60.0,
+  "wall_seconds": 2.667006582953036,
+  "workers": 1
+}

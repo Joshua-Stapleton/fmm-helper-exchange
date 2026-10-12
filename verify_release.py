@@ -45,6 +45,7 @@ def main():
           ('adjoint-pool-witnesses','methods/linear/reconstruction/adjoint_pilot/verify.py',[]),
           ('new-tests-18','certificates/new_tests_20261011/verify_all.py',[]),
           ('tests12-57','certificates/tests_archive_20261012/verify_all.py',[]),
+          ('gf2-mixcolumns-study','methods/linear/gf2_mixcolumns_study/verify_all.py',[]),
           ('pool-method-data','methods/linear/reconstruction/pool_method_study/verify.py',[]),
           ('pool-driver-guards','methods/linear/reconstruction/pool_method_adapters/test_driver.py',[]),
           ('complete-walk-controls','methods/linear/reconstruction/pool_method_adapters/test_target_walk.py',[]),

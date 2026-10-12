@@ -1,0 +1,24 @@
+{
+  "commit": "113aec82e939be46ad72522032df90cb4355f46c",
+  "repository": "https://github.com/usnistgov/Circuits",
+  "retrieved_date": "2026-10-12",
+  "source_attribution": "NIST circuit complexity team",
+  "sources": [
+    {
+      "file": "aes-mixcols-xor88-depth5.circ.txt",
+      "sha256": "f6af7cabebc27f6be692fe76c66e8e6557b06cebb7a116ad0523cd524cae1e7c",
+      "url": "https://raw.githubusercontent.com/usnistgov/Circuits/113aec82e939be46ad72522032df90cb4355f46c/data/slp/aes/aes-mixcols/aes-mixcols-xor88-depth5.circ.txt"
+    },
+    {
+      "file": "aes-mixcols-xor90-depth4.circ.txt",
+      "sha256": "fa18cd39c181365fc967e30e89a544571ad6d0198847135bd7d7dccb85b6a5b8",
+      "url": "https://raw.githubusercontent.com/usnistgov/Circuits/113aec82e939be46ad72522032df90cb4355f46c/data/slp/aes/aes-mixcols/aes-mixcols-xor90-depth4.circ.txt"
+    },
+    {
+      "file": "aes-mixcols-xor97-depth3.circ.txt",
+      "sha256": "699ee449681af57ffc9f356ae8dc261763aa155237768cf1d6e35f3637cac0b3",
+      "url": "https://raw.githubusercontent.com/usnistgov/Circuits/113aec82e939be46ad72522032df90cb4355f46c/data/slp/aes/aes-mixcols/aes-mixcols-xor97-depth3.circ.txt"
+    }
+  ],
+  "standard": "https://doi.org/10.6028/NIST.FIPS.197-upd1"
+}

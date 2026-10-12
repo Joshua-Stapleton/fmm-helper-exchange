@@ -1,0 +1,22 @@
+{
+  "best_bound": 32.0,
+  "exact_replay": {
+    "depth": 3,
+    "exact_fips_map": true,
+    "gate_count": 97,
+    "selected_count": 97,
+    "unused_selected": 0
+  },
+  "max_time_seconds": 180.0,
+  "model_and_solver_wall_seconds": 180.12783725000918,
+  "model_sha256": "6534832733b16519f6ba036a27bd0cd120dbfd39181a7914b1d182c8597274f9",
+  "objective": 97.0,
+  "ortools_version": "9.15.6755",
+  "scope": "Depth <=3 with output-support subset/input-pair/observed-form catalogue",
+  "seed": 12013,
+  "solver_wall_seconds": 180.023821,
+  "statistics": "CpSolverResponse summary:\nstatus: FEASIBLE\nobjective: 97\nbest_bound: 32\nintegers: 1339\nbooleans: 5314\nconflicts: 3485455\nbranches: 14213224\npropagations: 614616681\ninteger_propagations: 412212436\nrestarts: 2510\nlp_iterations: 0\nwalltime: 180.024\nusertime: 180.024\ndeterministic_time: 345.028\ngap_integral: 0\nsolution_fingerprint: 0x421384d02f655ebc\n",
+  "status": "FEASIBLE",
+  "target93_met": false,
+  "workers": 1
+}

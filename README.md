@@ -6,6 +6,15 @@ Code, worked examples, exact certificates and scoped lower-bound proofs from Jos
 
 ## Latest update: 12 October 2026
 
+A new [GF(2) MixColumns study](docs/gf2-mixcolumns-20261012.md) transfers the
+search machinery to exact XOR circuits. It includes verified NIST sources,
+finite-pool experiments and a complete depth-three pure-XOR formulation under
+stated assumptions. All bounded searches retained their starting counts;
+**no improved circuit or hardware speedup was found**.
+[Portable code and read-only verification](methods/linear/gf2_mixcolumns_study/README.md) ·
+[Standalone study ZIP](downloads/gf2_mixcolumns_study_20261012.zip).
+
+
 The new 57-map archive has exact certificates for all nineteen supplied schemes.
 Fifty-four factors improve the archive annotations. New totals include **580
 additions for 5×6×7** and **763 for 6×6×8**. Two previously certified totals
@@ -122,6 +131,7 @@ python3 -B methods/linear/certificate_555_332/verify.py
 | Helper exchange | [Original search](docs/helper-exchange.md), [`exchange.cpp`](exchange.cpp), [`make_pool.py`](make_pool.py) | Pool reusable exact forms; reconnect the entire reachable circuit after linked replacements |
 | Larger and equal-cost search | [Linear methods](methods/linear/README.md) | Population of equal-cost helper sets, larger exchange beams, linked-pair generation, necessary reachability cuts, whole-tensor sign orientation |
 | Partial reconstruction | [Repair and restart methods](methods/linear/reconstruction/README.md) | Related dependency cuts, paid mixed-donor starts, shared residual forests, guided chain selection and globally combined donors |
+| Binary linear circuits | [GF(2) studies](methods/linear/gf2_mixcolumns_study/README.md) | Field-correct XOR replay, restricted pools and normalized depth-three synthesis, with bounded non-improvements |
 | Repeated factor reuse | [Conditional tensor factors](methods/linear/tensor_factors/README.md) | Extract exact smaller maps, charge their lifted computations, and expose cross-group expression sharing |
 | Intelligent transformations | [Transformation tools](methods/transforms/README.md) | Exact sparse inverses, ternarity screens, both-order endpoint checks, signed-column classes, matching-based sparsity selection and symmetry transfer |
 | Joint circuit/basis search | [Circuit tools](methods/circuits/README.md) | Exact SLP replay/transposition, acyclic CP-SAT selection, jointly chosen roots, linked conversion/kernel search, historical helper transport |

@@ -27,13 +27,14 @@
     "example_577_V_20261010",
     "perminov_new_tests_20261011",
     "perminov_pool_method_20261011",
-    "perminov_tests_20261012"
+    "perminov_tests_20261012",
+    "fmm_opportunity_research_20261012/nist_probe"
   ],
   "module_provenance": "Each methods subdirectory includes original source hashes and adaptation notes. Proof inputs and certified literal programs preserve original arithmetic.",
   "included": "Portable implementations, representative source data, search witnesses, independently checked arithmetic/proof certificates and method explanations",
   "excluded": "Private correspondence, raw browser/chat exports, credentials, local binaries, dependency checkouts and redundant campaign checkpoints",
   "attribution": "NOTICE.md; source decompositions and external reducers retain their authorship",
-  "validation": "verification/release-tests12-20261012.json; prior unchanged exhaustive proof evidence retained.",
+  "validation": "verification/release-gf2-20261012.json; prior unchanged exhaustive proof evidence retained.",
   "claims": "No global SOTA, unrestricted optimality, lower multiplication rank, new exponent or measured runtime is claimed.",
   "initial_release_date": "2026-10-08",
   "latest_update": {
@@ -184,6 +185,30 @@
       "rank_reduced": false,
       "scope": "Strict exact upper bounds on supplied fixed decompositions; no global record or optimality claim.",
       "bundle_sha256": "13a1626d5e9e75b2878faaf69737892c04bcf8bd90955fc6e85241d9078dd728"
+    },
+    "gf2_mixcolumns": {
+      "report": "docs/gf2-mixcolumns-20261012.md",
+      "methods": "methods/linear/gf2_mixcolumns_study",
+      "source_commit": "113aec82e939be46ad72522032df90cb4355f46c",
+      "verified_sources": [
+        [
+          88,
+          5
+        ],
+        [
+          90,
+          4
+        ],
+        [
+          97,
+          3
+        ]
+      ],
+      "complete_depth3_forms": 8457,
+      "complete_depth3_productions": 30307,
+      "claims": "No improved circuit or hardware result. Complete normalization is a derived unmechanized pure-XOR argument. Default replay checks upper witnesses, inventories and hashes, not solver lower proofs.",
+      "standalone_bundle": "downloads/gf2_mixcolumns_study_20261012.zip",
+      "bundle_sha256": "92bd8ae331fe1b5eeee5a83c0108ea02734bbc19ea96f400b1a1cc7ae8506014"
     }
   }
 }

@@ -1,0 +1,199 @@
+{
+  "all_split_sets_equal": true,
+  "checks": [
+    {
+      "choices": 285,
+      "output_mask": 16875904,
+      "pass": true,
+      "weight": 5
+    },
+    {
+      "choices": 285,
+      "output_mask": 25264129,
+      "pass": true,
+      "weight": 5
+    },
+    {
+      "choices": 35,
+      "output_mask": 33719169,
+      "pass": true,
+      "weight": 7
+    },
+    {
+      "choices": 285,
+      "output_mask": 33817606,
+      "pass": true,
+      "weight": 5
+    },
+    {
+      "choices": 35,
+      "output_mask": 42172674,
+      "pass": true,
+      "weight": 7
+    },
+    {
+      "choices": 285,
+      "output_mask": 67372546,
+      "pass": true,
+      "weight": 5
+    },
+    {
+      "choices": 285,
+      "output_mask": 67502596,
+      "pass": true,
+      "weight": 5
+    },
+    {
+      "choices": 285,
+      "output_mask": 100795396,
+      "pass": true,
+      "weight": 5
+    },
+    {
+      "choices": 35,
+      "output_mask": 134777988,
+      "pass": true,
+      "weight": 7
+    },
+    {
+      "choices": 35,
+      "output_mask": 143426568,
+      "pass": true,
+      "weight": 7
+    },
+    {
+      "choices": 35,
+      "output_mask": 269523080,
+      "pass": true,
+      "weight": 7
+    },
+    {
+      "choices": 285,
+      "output_mask": 270540848,
+      "pass": true,
+      "weight": 5
+    },
+    {
+      "choices": 35,
+      "output_mask": 278431760,
+      "pass": true,
+      "weight": 7
+    },
+    {
+      "choices": 285,
+      "output_mask": 538980368,
+      "pass": true,
+      "weight": 5
+    },
+    {
+      "choices": 285,
+      "output_mask": 540020768,
+      "pass": true,
+      "weight": 5
+    },
+    {
+      "choices": 285,
+      "output_mask": 541081696,
+      "pass": true,
+      "weight": 5
+    },
+    {
+      "choices": 285,
+      "output_mask": 806363168,
+      "pass": true,
+      "weight": 5
+    },
+    {
+      "choices": 285,
+      "output_mask": 1077960736,
+      "pass": true,
+      "weight": 5
+    },
+    {
+      "choices": 285,
+      "output_mask": 1080041536,
+      "pass": true,
+      "weight": 5
+    },
+    {
+      "choices": 285,
+      "output_mask": 1082163392,
+      "pass": true,
+      "weight": 5
+    },
+    {
+      "choices": 285,
+      "output_mask": 1612726336,
+      "pass": true,
+      "weight": 5
+    },
+    {
+      "choices": 285,
+      "output_mask": 2147549569,
+      "pass": true,
+      "weight": 5
+    },
+    {
+      "choices": 285,
+      "output_mask": 2155921472,
+      "pass": true,
+      "weight": 5
+    },
+    {
+      "choices": 285,
+      "output_mask": 2160083072,
+      "pass": true,
+      "weight": 5
+    },
+    {
+      "choices": 35,
+      "output_mask": 2164392579,
+      "pass": true,
+      "weight": 7
+    },
+    {
+      "choices": 285,
+      "output_mask": 2172649729,
+      "pass": true,
+      "weight": 5
+    },
+    {
+      "choices": 35,
+      "output_mask": 2206269954,
+      "pass": true,
+      "weight": 7
+    },
+    {
+      "choices": 35,
+      "output_mask": 2215118988,
+      "pass": true,
+      "weight": 7
+    },
+    {
+      "choices": 35,
+      "output_mask": 2282754200,
+      "pass": true,
+      "weight": 7
+    },
+    {
+      "choices": 35,
+      "output_mask": 2357463048,
+      "pass": true,
+      "weight": 7
+    },
+    {
+      "choices": 35,
+      "output_mask": 2559053840,
+      "pass": true,
+      "weight": 7
+    },
+    {
+      "choices": 285,
+      "output_mask": 3225452672,
+      "pass": true,
+      "weight": 5
+    }
+  ],
+  "outputs_checked": 32,
+  "parent_masks_enumerated": 41448
+}
