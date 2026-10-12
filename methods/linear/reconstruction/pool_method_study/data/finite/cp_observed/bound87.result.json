@@ -1,0 +1,18 @@
+{
+  "bound": 87,
+  "seconds_allowance": 20.0,
+  "seed": 11115001,
+  "workers": 1,
+  "status": "INFEASIBLE",
+  "elapsed_seconds": 17.720914042089134,
+  "solver_wall_seconds": 17.718027000000003,
+  "branches": 1859000,
+  "conflicts": 827094,
+  "pool_sha256": "4a03bc36aec036d835bd2d559e70c0c5418ad0dc5ab303a90b6d15fe6771494a",
+  "model_sha256": "9681f16cdcd9abe5037ce27eb7c3c7ef468d3a07305d3df9fbaf7225c8cb6277",
+  "variables": 992,
+  "productions": 468,
+  "forms": 287,
+  "target_nonroots": 74,
+  "scope": "Finite fixed signed-unit production pool only; no global SLP lower bound"
+}

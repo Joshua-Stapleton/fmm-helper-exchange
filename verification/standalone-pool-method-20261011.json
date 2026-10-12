@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "archive": "downloads/fmm_pool_method_study_20261011.zip",
+  "sha256": "0c3eac17385e99340f97b722e1ca26e4bc908e73e114b0d566056e097d385971",
+  "files": 131,
+  "bytes": 2302350,
+  "standalone_extraction_replayed": true,
+  "study_replay": {
+    "status": "PASS",
+    "paired_attempts": 96,
+    "paired_complete": 77,
+    "raw_prefixes_checked": 1424,
+    "complete_raw_maps_checked": 503,
+    "target_walk_rows": 20000,
+    "finite_upper88_exact": true,
+    "independently_checked_unsat_proof": false,
+    "scope": "Paid unit signed wires; no new strict count or global lower bound"
+  }
+}

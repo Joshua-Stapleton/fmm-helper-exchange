@@ -1,0 +1,52 @@
+{
+  "status": "PASS",
+  "manually_decidable_cases": [
+    {
+      "case": "one_sum_bound0",
+      "bound": 0,
+      "status": "INFEASIBLE",
+      "candidate_gates": null
+    },
+    {
+      "case": "one_sum_bound1",
+      "bound": 1,
+      "status": "OPTIMAL",
+      "candidate_gates": 1
+    },
+    {
+      "case": "shared_parent_bound2",
+      "bound": 2,
+      "status": "INFEASIBLE",
+      "candidate_gates": null
+    },
+    {
+      "case": "shared_parent_bound3",
+      "bound": 3,
+      "status": "OPTIMAL",
+      "candidate_gates": 3
+    },
+    {
+      "case": "unanchored_cycle_bound2",
+      "bound": 2,
+      "status": "INFEASIBLE",
+      "candidate_gates": null
+    },
+    {
+      "case": "input_alias_bound0",
+      "bound": 0,
+      "status": "OPTIMAL",
+      "candidate_gates": 0
+    },
+    {
+      "case": "missing_producer_bound1",
+      "bound": 1,
+      "status": "INFEASIBLE",
+      "candidate_gates": null
+    }
+  ],
+  "shared_ancestor_once": true,
+  "cycles_rejected": true,
+  "aliases_not_charged": true,
+  "required_outputs_enforced": true,
+  "scope": "Restricted signed-wire model; strict orientation separate"
+}

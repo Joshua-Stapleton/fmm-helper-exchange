@@ -6,6 +6,17 @@ Code, worked examples, exact certificates and scoped lower-bound proofs from Jos
 
 ## Latest update: 11 October 2026
 
+[A direct test of Perminov's new weighted helper pool](docs/perminov-pool-method-20261011.md)
+now includes 96 matched completion calls, 400 temperature tests and 20,000
+complete backward walks. None improved the existing best counts. The source
+already shares ancestors correctly. On the 5x5 example, two solver runs found
+87 gates impossible within the frozen observed catalogue and verified 88;
+this is a restricted, solver-reported minimum, not an unrestricted lower bound.
+[The portable adapters](methods/linear/reconstruction/pool_method_adapters/README.md)
+and [frozen data and witnesses](methods/linear/reconstruction/pool_method_study/README.md)
+separate the actual partial initializer from the complete-target experiment.
+[Download this study](downloads/fmm_pool_method_study_20261011.zip).
+
 All eighteen supplied maps now have strict certificates below their original
 annotations. The six complete original schemes use **765, 669, 755, 697, 848 and
 1020 additions** for 5×5×11, 5×6×8, 5×6×9, 5×7×7, 6×7×7 and 7×7×7 respectively.

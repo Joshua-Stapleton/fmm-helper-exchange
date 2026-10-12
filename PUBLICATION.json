@@ -25,13 +25,14 @@
     "perminov_tests_20261009",
     "pooled_starts_20261009",
     "example_577_V_20261010",
-    "perminov_new_tests_20261011"
+    "perminov_new_tests_20261011",
+    "perminov_pool_method_20261011"
   ],
   "module_provenance": "Each methods subdirectory includes original source hashes and adaptation notes. Proof inputs and certified literal programs preserve original arithmetic.",
   "included": "Portable implementations, representative source data, search witnesses, independently checked arithmetic/proof certificates and method explanations",
   "excluded": "Private correspondence, raw browser/chat exports, credentials, local binaries, dependency checkouts and redundant campaign checkpoints",
   "attribution": "NOTICE.md; source decompositions and external reducers retain their authorship",
-  "validation": "verification/release-new-tests-20261011.json; previous unchanged exhaustive proof evidence retained.",
+  "validation": "verification/release-pool-method-20261011.json; previous unchanged exhaustive proof evidence retained.",
   "claims": "No global SOTA, unrestricted optimality, lower multiplication rank, new exponent or measured runtime is claimed.",
   "initial_release_date": "2026-10-08",
   "latest_update": {
@@ -135,6 +136,29 @@
       "scope": "Fixed original linear maps and multiplication tensors, no basis change or rank reduction. No global record, optimality or runtime superiority claim.",
       "bundle_sha256": "c6cfc4188afc5b49d60053c8b780e661e9d096331644970e4917bdd3771f64fc",
       "search_witnesses": "methods/linear/reconstruction/adjoint_pilot/"
+    },
+    "pool_method": {
+      "report": "docs/perminov-pool-method-20261011.md",
+      "adapters": "methods/linear/reconstruction/pool_method_adapters/",
+      "study": "methods/linear/reconstruction/pool_method_study/",
+      "upstream_commit": "21906e043ab0d652b588864893a07199b915a8e7",
+      "paired_calls": 96,
+      "paired_complete": 77,
+      "sample_only_prefixes": 800,
+      "temperature_calls": 400,
+      "four_prefix_calls": 32,
+      "four_prefix_complete": 25,
+      "complete_target_walks": 20000,
+      "new_record_improvements": 0,
+      "finite_observed_forms": 287,
+      "finite_observed_productions": 468,
+      "solver_reported_finite_minimum": 88,
+      "independent_unsat_certificate": false,
+      "scope": "Abstract paid unit signed wires, original fixed maps. Finite observed-catalogue minimum only; expanded same-form relations unresolved at87. No global lower bound or new strict record.",
+      "structural_candidates": 54106,
+      "specified_two_for_one_exchanges": 4923646,
+      "standalone_bundle": "downloads/fmm_pool_method_study_20261011.zip",
+      "bundle_sha256": "0c3eac17385e99340f97b722e1ca26e4bc908e73e114b0d566056e097d385971"
     }
   }
 }

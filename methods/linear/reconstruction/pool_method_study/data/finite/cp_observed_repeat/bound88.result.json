@@ -1,0 +1,23 @@
+{
+  "bound": 88,
+  "seconds_allowance": 2.0,
+  "seed": 11115001,
+  "workers": 1,
+  "status": "OPTIMAL",
+  "elapsed_seconds": 0.028315125033259392,
+  "solver_wall_seconds": 0.028165000000000003,
+  "branches": 0,
+  "conflicts": 0,
+  "pool_sha256": "4a03bc36aec036d835bd2d559e70c0c5418ad0dc5ab303a90b6d15fe6771494a",
+  "model_sha256": "89da283128d45c70d4357b0fa93786bc5f1d857b4265def73f0f18254788dea0",
+  "variables": 992,
+  "productions": 468,
+  "forms": 287,
+  "target_nonroots": 74,
+  "scope": "Finite fixed signed-unit production pool only; no global SLP lower bound",
+  "selected_gates": 88,
+  "pruned_exact_signed_gates": 88,
+  "candidate_sha256": "a0a44cb4473a83c0795e623a178aa641542931553a2d7dab5ca8e59b1fe6d2f8",
+  "exact_map_verified": true,
+  "strict_sign_orientation": "Not performed; signed upper bound only"
+}

@@ -1,5 +1,14 @@
 # Partial reconstruction and finite-pool rebuild
 
+[The weighted-pool study](../../../docs/perminov-pool-method-20261011.md)
+tests Perminov's newer `solvers-time-limit` sampler unchanged at commit
+`21906e043ab0d652b588864893a07199b915a8e7`, using a separate
+[portable adapter](pool_method_adapters/README.md). The pinned older
+reconstruction tools below retain their original dependency and witnesses.
+[The study data](pool_method_study/README.md) check all completed maps and a
+finite 88-gate witness. Its restricted infeasibility result requires an optional
+solver rerun and is not an independently checked UNSAT certificate.
+
 These experimental adapters combine Andrey Perminov's partial-solution
 restart with exact donor pooling and our helper-set searches. The public LEO
 library is installed separately; none of its implementation or binaries are

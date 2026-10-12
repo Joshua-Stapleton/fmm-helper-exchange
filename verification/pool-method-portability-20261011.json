@@ -1,0 +1,48 @@
+{
+  "status": "PASS",
+  "upstream_commit": "21906e043ab0d652b588864893a07199b915a8e7",
+  "upstream_unmodified": true,
+  "fresh_public_adapter_compiled": true,
+  "matched_saved_case": "5x5_U_weighted",
+  "seed": 30200,
+  "identical_saved_prefix": true,
+  "identical_saved_gate_cap": true,
+  "identical_saved_donor_weights": true,
+  "gate_cap": 37,
+  "prefix_sha256": "ba573b0af9008c21dfd6aa869419da70e729d3718fae2d96c94e3b5443099d39",
+  "compiler_executable_sha256": "85b5da5a9b5d2a71aeaddbfd1ff35d315d335e4ff0e2ba3fbb94ba7c6358fdd9",
+  "driver_sha256": "bc3232ae26be41b5922ad498f9ed546bf732b01ab975ae174f96c5bb75d907cb",
+  "scope": "Portability and unchanged RNG/arithmetic smoke check only; no completion or runtime advantage claim",
+  "native_fixture_controls_passed": 4,
+  "structural_port_replay": {
+    "status": "EXHAUSTED_RESTRICTED_2_FOR_1",
+    "candidates_total": 54106,
+    "candidates_processed": 54106,
+    "logical_pairs_tested": 4923646,
+    "closures_run": 824348,
+    "deletion_pretests": 105,
+    "old_rules": 1753,
+    "old_allowed_rules": 233,
+    "driver_sha256": "13c2753d96a1fcd270cf334aa5f47427feeabcf869cb84d8e1f6ad9cbe743448",
+    "baseline": 88,
+    "scope": "One generated helper replaces exactly two incumbent non-target helpers; all mandatory targets may be reconnected; old one/two deletions prechecked",
+    "matches_saved_inventory": true
+  },
+  "driver_guard_controls_passed": 15,
+  "prefix_and_walk_controls_passed": 14,
+  "target_unlock_port_replay": {
+    "status": "PASS",
+    "selected_count": 128,
+    "identical_saved_form_order": true,
+    "identical_saved_relations": true,
+    "identical_saved_selection_and_scores": true
+  },
+  "final_public_completion_smoke": {
+    "status": "PASS",
+    "seed": 30200,
+    "exact_paid_native_map_replay": true,
+    "signed_additions": 88,
+    "prefix_matches_saved_attempt": true,
+    "extra_portability_check_not_a_new_study_attempt": true
+  }
+}

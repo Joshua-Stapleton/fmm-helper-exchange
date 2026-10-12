@@ -1,0 +1,18 @@
+{
+  "scope": "Finite observed signed-wire production catalogue only",
+  "ortools_version": "9.15.6755",
+  "files": {
+    "bound88.model.pb": "89da283128d45c70d4357b0fa93786bc5f1d857b4265def73f0f18254788dea0",
+    "rerun_model.py": "e3628b754dc6ca600fd213c6c79338841177e41c81dc4114bfacf6f04829764b",
+    "initial_solver_results.json": "9402bcaa8253f29edb74afbeda8e049f48eb941d5c394c267063bc511086ca2c",
+    "matrix.sms": "2558830709927c14a45a8f67b1de33021d1f7f97ca5e05a011c292dc7c4cb2b0",
+    "verify_paid.py": "4645dda9a1a5fa0e2d0ea2166b4c39be6d792ed0dbd9b4c8d6772068433b2671",
+    "model_controls.json": "f7fb9d4824856a20a8b03ed145c4f7fe9d6ecdee71efe5e0e7c3bbca2af88f7a",
+    "candidate88.json": "a0a44cb4473a83c0795e623a178aa641542931553a2d7dab5ca8e59b1fe6d2f8",
+    "repeated_solver_results.json": "5a3690741c8c5ee81d0ce57720416ee9e9127b24dc20120d26f7dd35f8b977f0",
+    "README.txt": "4b7ca82a703115f1b33486af5d84252ebd448882e6f6ce4cc75c1efcd1fec231",
+    "bound87.model.pb": "9681f16cdcd9abe5037ce27eb7c3c7ef468d3a07305d3df9fbaf7225c8cb6277",
+    "verify_upper.py": "8ea4267e98b98db2298ef17e96082cf31033788db670691563d334f9635fbb51",
+    "observed.json": "4a03bc36aec036d835bd2d559e70c0c5418ad0dc5ab303a90b6d15fe6771494a"
+  }
+}
