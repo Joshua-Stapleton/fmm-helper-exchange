@@ -1,0 +1,114 @@
+{
+  "filename": "3x4x7_m64_cr249_cn446_ZT_reduced_V.sms",
+  "scheme": "3x4x7_m64_cr249_cn446_ZT_reduced",
+  "factor": "V",
+  "source_matrix_sha256": "2f43ebe13b7581a15465c564e63af33f77a2606e1d02382ceb0e83e8a37597fb",
+  "historical_additions": 82,
+  "previous_strict_count": 78,
+  "previous_input_coefficient_match": true,
+  "selected_additions": 77,
+  "selected_provenance": "current_primary",
+  "selected_from": "group_a_recovery/07_3x4x7_m64_cr249_cn446_ZT_reduced_V/best.slp",
+  "previous_witness": "experiments/example_788_V_20261008/methods_repo/certificates/fmm_maps_20261008/347_V78/V.slp",
+  "supplied_initial_candidate": "normalized_prior_candidates/3x4x7_V78.json",
+  "best_unoriented_signed_additions": 77,
+  "paid_output_correction_additions": 0,
+  "paid_sign_net_addition_overhead": 0,
+  "paid_sign_recovery": null,
+  "all_replayed_choices": [
+    {
+      "additions": 77,
+      "provenance": "current_primary",
+      "slp": "group_a_recovery/07_3x4x7_m64_cr249_cn446_ZT_reduced_V/best.slp"
+    },
+    {
+      "additions": 78,
+      "provenance": "reused_previous_verified_witness",
+      "slp": "experiments/example_788_V_20261008/methods_repo/certificates/fmm_maps_20261008/347_V78/V.slp"
+    }
+  ],
+  "literal_counts": {
+    "binary_additions": 77,
+    "unary_negations": 0,
+    "nonunit_scalars": 0,
+    "unused_noninput_assignments": 0
+  },
+  "timing": {
+    "donor_build_seconds": 8.763153249863535,
+    "pool_build_seconds": 0.07933195913210511,
+    "pool_search_seconds": 9.82776466710493,
+    "strict_orientation_seconds": 0.6003684587776661,
+    "other_primary_seconds": 0.07660858100280166,
+    "primary_total_seconds": 19.347226915881038,
+    "adjoint_extra_total_seconds": 0,
+    "paid_output_correction_seconds": 0,
+    "additional_recovery_seconds": 0,
+    "total_current_campaign_seconds": 19.347226915881038,
+    "donor_method_calls": [
+      {
+        "status": "PASS",
+        "returncode": 0,
+        "elapsed_seconds": 0.3214479167945683,
+        "method": "cse_only"
+      },
+      {
+        "status": "PASS",
+        "returncode": 0,
+        "elapsed_seconds": 3.3828701246529818,
+        "method": "vector_cover"
+      },
+      {
+        "status": "COMPLETE",
+        "returncode": 0,
+        "elapsed_seconds": 1.3959131250157952,
+        "method": "bernoulli05",
+        "transposed_search": false,
+        "completed_donors": 13,
+        "best_original_map_signed": 78
+      },
+      {
+        "status": "COMPLETE",
+        "returncode": 0,
+        "elapsed_seconds": 0.7626936659216881,
+        "method": "bernoulli09",
+        "transposed_search": false,
+        "completed_donors": 13,
+        "best_original_map_signed": 78
+      },
+      {
+        "status": "COMPLETE",
+        "returncode": 0,
+        "elapsed_seconds": 0.40222795819863677,
+        "method": "scored_dependency_cuts",
+        "transposed_search": false,
+        "completed_donors": 13,
+        "best_original_map_signed": 78
+      },
+      {
+        "status": "COMPLETE",
+        "returncode": 0,
+        "elapsed_seconds": 0.7011165828444064,
+        "method": "residual_forest",
+        "transposed_search": false,
+        "completed_donors": 12,
+        "best_original_map_signed": 84
+      },
+      {
+        "status": "COMPLETE",
+        "returncode": 0,
+        "elapsed_seconds": 0.28474437491968274,
+        "method": "weighted_pool",
+        "completed_donors": 2,
+        "best_original_map_signed": 79
+      }
+    ],
+    "adjoint_extra_stages": null,
+    "notes": "Observed elapsed wall time per map on a shared host. Totals include donor construction, exact conversions, pooling, search, strict sign orientation and separately recorded paid output-sign recovery when needed. Historical search time to reused incumbents is not included. Concurrent map jobs contend for resources; sums are not campaign wall time."
+  },
+  "donors": 58,
+  "pool_forms": 410,
+  "pool_productions": 2448,
+  "upstream_threads": 1,
+  "basis_change": false,
+  "status": "PASS"
+}

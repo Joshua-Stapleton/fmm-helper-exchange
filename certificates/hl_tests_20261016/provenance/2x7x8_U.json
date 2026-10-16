@@ -1,0 +1,114 @@
+{
+  "filename": "2x7x8_m90_cr329_fv142_cn648_ZT_reduced_U.sms",
+  "scheme": "2x7x8_m90_cr329_fv142_cn648_ZT_reduced",
+  "factor": "U",
+  "source_matrix_sha256": "62e01baec762084c5f1eb5e7282613ed4f06b53e8bd67e4abbeea9f09ea25a3f",
+  "historical_additions": 41,
+  "previous_strict_count": 38,
+  "previous_input_coefficient_match": true,
+  "selected_additions": 38,
+  "selected_provenance": "current_primary",
+  "selected_from": "group_b/00_2x7x8_m90_cr329_fv142_cn648_ZT_reduced_U/best.slp",
+  "previous_witness": "experiments/example_788_V_20261008/methods_repo/certificates/tests_archive_20261012/2x7x8/U.slp",
+  "supplied_initial_candidate": "experiments/example_788_V_20261008/methods_repo/certificates/tests_archive_20261012/2x7x8/U.json",
+  "best_unoriented_signed_additions": 38,
+  "paid_output_correction_additions": 0,
+  "paid_sign_net_addition_overhead": 0,
+  "paid_sign_recovery": null,
+  "all_replayed_choices": [
+    {
+      "additions": 38,
+      "provenance": "current_primary",
+      "slp": "group_b/00_2x7x8_m90_cr329_fv142_cn648_ZT_reduced_U/best.slp"
+    },
+    {
+      "additions": 38,
+      "provenance": "reused_previous_verified_witness",
+      "slp": "experiments/example_788_V_20261008/methods_repo/certificates/tests_archive_20261012/2x7x8/U.slp"
+    }
+  ],
+  "literal_counts": {
+    "binary_additions": 38,
+    "unary_negations": 0,
+    "nonunit_scalars": 0,
+    "unused_noninput_assignments": 0
+  },
+  "timing": {
+    "donor_build_seconds": 2.3125431668013334,
+    "pool_build_seconds": 0.030694874934852123,
+    "pool_search_seconds": 9.17113699996844,
+    "strict_orientation_seconds": 0.38339858409017324,
+    "other_primary_seconds": 0.05999512458220124,
+    "primary_total_seconds": 11.957768750377,
+    "adjoint_extra_total_seconds": 0,
+    "paid_output_correction_seconds": 0,
+    "additional_recovery_seconds": 0,
+    "total_current_campaign_seconds": 11.957768750377,
+    "donor_method_calls": [
+      {
+        "status": "PASS",
+        "returncode": 0,
+        "elapsed_seconds": 0.2708757920190692,
+        "method": "cse_only"
+      },
+      {
+        "status": "PASS",
+        "returncode": 0,
+        "elapsed_seconds": 0.08735479228198528,
+        "method": "vector_cover"
+      },
+      {
+        "status": "COMPLETE",
+        "returncode": 0,
+        "elapsed_seconds": 0.2002575001679361,
+        "method": "bernoulli05",
+        "transposed_search": false,
+        "completed_donors": 13,
+        "best_original_map_signed": 38
+      },
+      {
+        "status": "COMPLETE",
+        "returncode": 0,
+        "elapsed_seconds": 0.1478977920487523,
+        "method": "bernoulli09",
+        "transposed_search": false,
+        "completed_donors": 13,
+        "best_original_map_signed": 38
+      },
+      {
+        "status": "COMPLETE",
+        "returncode": 0,
+        "elapsed_seconds": 0.18188062496483326,
+        "method": "scored_dependency_cuts",
+        "transposed_search": false,
+        "completed_donors": 13,
+        "best_original_map_signed": 38
+      },
+      {
+        "status": "COMPLETE",
+        "returncode": 0,
+        "elapsed_seconds": 0.17576679214835167,
+        "method": "residual_forest",
+        "transposed_search": false,
+        "completed_donors": 12,
+        "best_original_map_signed": 40
+      },
+      {
+        "status": "COMPLETE",
+        "returncode": 0,
+        "elapsed_seconds": 0.09953612508252263,
+        "method": "weighted_pool",
+        "completed_donors": 2,
+        "best_original_map_signed": 38
+      }
+    ],
+    "adjoint_extra_stages": null,
+    "notes": "Observed elapsed wall time per map on a shared host. Totals include donor construction, exact conversions, pooling, search, strict sign orientation and separately recorded paid output-sign recovery when needed. Historical search time to reused incumbents is not included. Concurrent map jobs contend for resources; sums are not campaign wall time."
+  },
+  "donors": 58,
+  "pool_forms": 84,
+  "pool_productions": 329,
+  "upstream_threads": 1,
+  "basis_change": false,
+  "status": "PASS"
+}

@@ -1,0 +1,32 @@
+{
+  "directory": "joint_product_signs_7x7x8",
+  "original_directory": "7x7x8",
+  "dimensions": [
+    7,
+    7,
+    8
+  ],
+  "products": 279,
+  "phase_counts": {
+    "U": 273,
+    "V": 334,
+    "W": 572
+  },
+  "final_additions": 1179,
+  "total_scalar_operations": 1458,
+  "original_fixed_map_additions": 1200,
+  "basis_change": false,
+  "individual_fixed_maps_preserved": false,
+  "compensated_product_signs": true,
+  "method": "Existing methods/linear/orient.py joint product-sign orientation",
+  "orientation_seconds_limit": 10,
+  "solver_threads": 1,
+  "orientation_elapsed_seconds": 0.3728475412353873,
+  "timing_scope": "Additional joint orientation only; source candidate search and donor building already occurred in the main campaign.",
+  "source_candidate_provenance": {
+    "U": "group_a/18_7x7x8_m279_cr1237_fv639_cn2926_ZT_reduced_U/plateau/candidate.json",
+    "V": "group_a/19_7x7x8_m279_cr1237_fv639_cn2926_ZT_reduced_V/plateau/candidate.json",
+    "W": "group_a/20_7x7x8_m279_cr1237_fv639_cn2926_ZT_reduced_W/adjoint_extra/W_candidate_1.json"
+  },
+  "reproduction": "python3 joint_product_signs_7x7x8/reproduce_joint_signs.py --methods METHODS_LINEAR --out rerun_joint_signs --seconds 10"
+}

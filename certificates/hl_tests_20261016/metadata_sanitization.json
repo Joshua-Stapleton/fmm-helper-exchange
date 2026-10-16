@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "private_absolute_paths_remaining": 0,
+  "candidate_files_with_nonarithmetic_metadata_normalized": [],
+  "node_alias_representation_normalized": [],
+  "arithmetic_unchanged": true,
+  "scope": "Old node/scale representations converted to binary signed gates by resolving sign aliases; exact map and addition count checked before/after. Arithmetic keys and wire data compared exactly before/after private metadata normalization. All certificate text scanned for private local absolute paths."
+}

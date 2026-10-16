@@ -1,0 +1,1154 @@
+{
+  "date": "2026-10-16",
+  "basis_change": false,
+  "coordinates": "A and B row-major; C column-major",
+  "source_author": "Andrey Perminov",
+  "source_repository": "https://github.com/dronperminov/FastMatrixMultiplication",
+  "source_checkout_commit": "6c75fd36564b177165d6968efd4c9e6199266191",
+  "uploaded_archive_sha256": "4e8f68b53e5362038da34e4b5806fa458c748b0c25ccbc69de4da04c8a40db41",
+  "schemes": [
+    {
+      "scheme": "2x7x7_m77_cr320_cn452_ZT_reduced",
+      "directory": "2x7x7",
+      "dimensions": [
+        2,
+        7,
+        7
+      ],
+      "products": 77,
+      "historical_phase_counts": {
+        "U": 71,
+        "V": 115,
+        "W": 134
+      },
+      "historical_additions": 320,
+      "phase_counts": {
+        "U": 68,
+        "V": 115,
+        "W": 131
+      },
+      "paid_output_correction_additions": {
+        "U": 0,
+        "V": 0,
+        "W": 0
+      },
+      "paid_sign_net_addition_overhead": {
+        "U": 0,
+        "V": 0,
+        "W": 0
+      },
+      "final_additions": 314,
+      "saved_additions": 6,
+      "total_scalar_operations": 391,
+      "source_json_sha256": "102d26094c75bc03c0c7f9ea60b7511299fb9dc9ba3b6c43da410e14db2240ca",
+      "source_matrix_sha256": {
+        "U": "c38f2fb87dc564dbdbf7d881ff587e727c53a74a1f5c50e95b7975279ec7d010",
+        "V": "e95a1397a9d5ab409da76f3871b244bbb86dde20dd2fabd563a5151443212829",
+        "W": "bdd002c35f54f42274cf3a7d34da254ac9a3165aeb6694d43034ae7d36119b19"
+      },
+      "previous_verified_or_source_phase_counts": {
+        "U": 71,
+        "V": 115,
+        "W": 134
+      },
+      "previous_verified_or_source_additions": 320,
+      "saved_since_previous_verified_or_source": 6,
+      "previously_processed": false,
+      "selected_provenance": {
+        "U": "current_primary",
+        "V": "current_primary",
+        "W": "current_primary"
+      },
+      "current_campaign_seconds_per_factor": {
+        "U": 12.60343183297664,
+        "V": 31.24658325035125,
+        "W": 27.32316054124385
+      }
+    },
+    {
+      "scheme": "2x7x8_m90_cr329_fv142_cn648_ZT_reduced",
+      "directory": "2x7x8",
+      "dimensions": [
+        2,
+        7,
+        8
+      ],
+      "products": 90,
+      "historical_phase_counts": {
+        "U": 41,
+        "V": 144,
+        "W": 144
+      },
+      "historical_additions": 329,
+      "phase_counts": {
+        "U": 38,
+        "V": 138,
+        "W": 144
+      },
+      "paid_output_correction_additions": {
+        "U": 0,
+        "V": 0,
+        "W": 0
+      },
+      "paid_sign_net_addition_overhead": {
+        "U": 0,
+        "V": 0,
+        "W": 0
+      },
+      "final_additions": 320,
+      "saved_additions": 9,
+      "total_scalar_operations": 410,
+      "source_json_sha256": "c90838e11eff89416b03975e8b6ea148cc8e122421ad3d312e542fb129ad65af",
+      "source_matrix_sha256": {
+        "U": "62e01baec762084c5f1eb5e7282613ed4f06b53e8bd67e4abbeea9f09ea25a3f",
+        "V": "344dfca666415d6c49e75c44d6b00961aa09b0a951382a0f7de9166685c184f5",
+        "W": "40245d9a630edd3b603ddbc08154935d2cf3013953a938abccbb8642d695a909"
+      },
+      "previous_verified_or_source_phase_counts": {
+        "U": 38,
+        "V": 138,
+        "W": 144
+      },
+      "previous_verified_or_source_additions": 320,
+      "saved_since_previous_verified_or_source": 0,
+      "previously_processed": true,
+      "selected_provenance": {
+        "U": "current_primary",
+        "V": "current_primary",
+        "W": "current_primary"
+      },
+      "current_campaign_seconds_per_factor": {
+        "U": 11.957768750377,
+        "V": 35.37934995768592,
+        "W": 29.438417084049433
+      }
+    },
+    {
+      "scheme": "3x3x16_m115_cr407_fv175_cn862_ZT_reduced",
+      "directory": "3x3x16",
+      "dimensions": [
+        3,
+        3,
+        16
+      ],
+      "products": 115,
+      "historical_phase_counts": {
+        "U": 36,
+        "V": 151,
+        "W": 220
+      },
+      "historical_additions": 407,
+      "phase_counts": {
+        "U": 35,
+        "V": 141,
+        "W": 215
+      },
+      "paid_output_correction_additions": {
+        "U": 0,
+        "V": 0,
+        "W": 0
+      },
+      "paid_sign_net_addition_overhead": {
+        "U": 0,
+        "V": 0,
+        "W": 0
+      },
+      "final_additions": 391,
+      "saved_additions": 16,
+      "total_scalar_operations": 506,
+      "source_json_sha256": "d129bb73d9c4bb9677b5eb94231b8a6dc0bfd2a6296d295c16af3cc7cfe6f8aa",
+      "source_matrix_sha256": {
+        "U": "41624c24c1a5e0bffb6b4e73583317e3d20c56829a5c9be0ef8ae3a3c6d0d873",
+        "V": "eb75d54c99efbedb4542df60bda38a7cac6227b38040e0ac5cb79cee88572429",
+        "W": "5189c6b25e7128c78ae018dc00e87135e979e7f0038dec8b4e5a21cbe3797659"
+      },
+      "previous_verified_or_source_phase_counts": {
+        "U": 36,
+        "V": 151,
+        "W": 220
+      },
+      "previous_verified_or_source_additions": 407,
+      "saved_since_previous_verified_or_source": 16,
+      "previously_processed": false,
+      "selected_provenance": {
+        "U": "current_primary",
+        "V": "current_primary",
+        "W": "current_adjoint_extra"
+      },
+      "current_campaign_seconds_per_factor": {
+        "U": 11.479257041122764,
+        "V": 32.209059790708125,
+        "W": 49.245014999993145
+      }
+    },
+    {
+      "scheme": "3x4x10_m93_cr345_cn582_ZT_reduced",
+      "directory": "3x4x10",
+      "dimensions": [
+        3,
+        4,
+        10
+      ],
+      "products": 93,
+      "historical_phase_counts": {
+        "U": 75,
+        "V": 109,
+        "W": 161
+      },
+      "historical_additions": 345,
+      "phase_counts": {
+        "U": 72,
+        "V": 103,
+        "W": 155
+      },
+      "paid_output_correction_additions": {
+        "U": 0,
+        "V": 0,
+        "W": 0
+      },
+      "paid_sign_net_addition_overhead": {
+        "U": 0,
+        "V": 0,
+        "W": 0
+      },
+      "final_additions": 330,
+      "saved_additions": 15,
+      "total_scalar_operations": 423,
+      "source_json_sha256": "05fc47c872704d80e6ed474d41bce6d2618fd3e96ab7834078c7eb6c75fa984f",
+      "source_matrix_sha256": {
+        "U": "6913529092105fde62446556a005a89a41549f50b0e4d02ebbee4fbbcedf0447",
+        "V": "baba54182a5d4672d0beeb371f7d003e88d8bd0e03c31a27b09810c73201f24b",
+        "W": "c8128e580c8c52b9f69a917877a38a003388b0d78863c1e55b2d79a8cdc78cb2"
+      },
+      "previous_verified_or_source_phase_counts": {
+        "U": 75,
+        "V": 109,
+        "W": 161
+      },
+      "previous_verified_or_source_additions": 345,
+      "saved_since_previous_verified_or_source": 15,
+      "previously_processed": false,
+      "selected_provenance": {
+        "U": "current_primary",
+        "V": "current_primary",
+        "W": "current_adjoint_extra"
+      },
+      "current_campaign_seconds_per_factor": {
+        "U": 12.477400166913867,
+        "V": 25.881291707977653,
+        "W": 34.72704558400437
+      }
+    },
+    {
+      "scheme": "3x4x11_m102_cr381_cn641_ZT_reduced",
+      "directory": "3x4x11",
+      "dimensions": [
+        3,
+        4,
+        11
+      ],
+      "products": 102,
+      "historical_phase_counts": {
+        "U": 77,
+        "V": 126,
+        "W": 178
+      },
+      "historical_additions": 381,
+      "phase_counts": {
+        "U": 76,
+        "V": 119,
+        "W": 172
+      },
+      "paid_output_correction_additions": {
+        "U": 0,
+        "V": 0,
+        "W": 0
+      },
+      "paid_sign_net_addition_overhead": {
+        "U": 0,
+        "V": 0,
+        "W": 0
+      },
+      "final_additions": 367,
+      "saved_additions": 14,
+      "total_scalar_operations": 469,
+      "source_json_sha256": "9becfd95c0f602515935cb7e60639fae6cf01615cd5a71e9213f9ee1c94db041",
+      "source_matrix_sha256": {
+        "U": "548271192eafae0abfd7d6d84f4d32909c11b28e5075dc903c7e00aa86c785d4",
+        "V": "67e79267f25195eb1ab3d957fa7a5c8d931c38154b8bc4c6f01f4487dbbfaf94",
+        "W": "aa215a7ab5e0aecaf000a744557e88504111e02e0c8710fcdca64e2c4d0a6299"
+      },
+      "previous_verified_or_source_phase_counts": {
+        "U": 77,
+        "V": 126,
+        "W": 178
+      },
+      "previous_verified_or_source_additions": 381,
+      "saved_since_previous_verified_or_source": 14,
+      "previously_processed": false,
+      "selected_provenance": {
+        "U": "current_primary",
+        "V": "current_primary",
+        "W": "current_primary"
+      },
+      "current_campaign_seconds_per_factor": {
+        "U": 11.669424000196159,
+        "V": 25.519325125031173,
+        "W": 36.87518008425832
+      }
+    },
+    {
+      "scheme": "3x4x14_m128_cr458_cn896_ZT_reduced",
+      "directory": "3x4x14",
+      "dimensions": [
+        3,
+        4,
+        14
+      ],
+      "products": 128,
+      "historical_phase_counts": {
+        "U": 48,
+        "V": 170,
+        "W": 240
+      },
+      "historical_additions": 458,
+      "phase_counts": {
+        "U": 48,
+        "V": 157,
+        "W": 229
+      },
+      "paid_output_correction_additions": {
+        "U": 0,
+        "V": 0,
+        "W": 0
+      },
+      "paid_sign_net_addition_overhead": {
+        "U": 0,
+        "V": 0,
+        "W": 0
+      },
+      "final_additions": 434,
+      "saved_additions": 24,
+      "total_scalar_operations": 562,
+      "source_json_sha256": "709acdc7138dfcb55dd320f437901c0efe7c1e75170f64fb155deb6e42b898a4",
+      "source_matrix_sha256": {
+        "U": "48cbebd41fea5cc4f135336ad3237cc48a42b229af1b5fdd2080e7c4591d248a",
+        "V": "440e8b9b3ec24881267c8c0cc9f0c804f8b61dc0c9c9f1ebac3289b332c57a42",
+        "W": "d1d9e824df8321bddda969607c664c0ef45b45751084def1061b041d7dfe0572"
+      },
+      "previous_verified_or_source_phase_counts": {
+        "U": 48,
+        "V": 170,
+        "W": 240
+      },
+      "previous_verified_or_source_additions": 458,
+      "saved_since_previous_verified_or_source": 24,
+      "previously_processed": false,
+      "selected_provenance": {
+        "U": "current_primary",
+        "V": "current_primary",
+        "W": "current_adjoint_extra"
+      },
+      "current_campaign_seconds_per_factor": {
+        "U": 12.527147666085511,
+        "V": 34.67916358401999,
+        "W": 45.65234237490222
+      }
+    },
+    {
+      "scheme": "3x4x15_m138_cr533_cn958_ZT_reduced",
+      "directory": "3x4x15",
+      "dimensions": [
+        3,
+        4,
+        15
+      ],
+      "products": 138,
+      "historical_phase_counts": {
+        "U": 91,
+        "V": 180,
+        "W": 262
+      },
+      "historical_additions": 533,
+      "phase_counts": {
+        "U": 91,
+        "V": 173,
+        "W": 254
+      },
+      "paid_output_correction_additions": {
+        "U": 0,
+        "V": 0,
+        "W": 0
+      },
+      "paid_sign_net_addition_overhead": {
+        "U": 0,
+        "V": 0,
+        "W": 0
+      },
+      "final_additions": 518,
+      "saved_additions": 15,
+      "total_scalar_operations": 656,
+      "source_json_sha256": "1634cc162b4fdc7fc6f19305dbd856ac670646f898849e4f4410048e698c1dd5",
+      "source_matrix_sha256": {
+        "U": "54c0acaf5e73f6f776ab79598532e7a19a7dfc266fc8fab3307516849ebfe36a",
+        "V": "d953367e953095f0c66bc11e91fd55f64b99b14e8d11e009cc4a668e97e1170f",
+        "W": "2b2fed2a195bc2822577b0d381aa6ea09a56410b72110c8438e840c2663413ad"
+      },
+      "previous_verified_or_source_phase_counts": {
+        "U": 91,
+        "V": 180,
+        "W": 262
+      },
+      "previous_verified_or_source_additions": 533,
+      "saved_since_previous_verified_or_source": 15,
+      "previously_processed": false,
+      "selected_provenance": {
+        "U": "current_primary",
+        "V": "current_primary",
+        "W": "current_adjoint_extra"
+      },
+      "current_campaign_seconds_per_factor": {
+        "U": 13.538855333346874,
+        "V": 35.352670959196985,
+        "W": 50.987353708129376
+      }
+    },
+    {
+      "scheme": "3x4x7_m64_cr249_cn446_ZT_reduced",
+      "directory": "3x4x7",
+      "dimensions": [
+        3,
+        4,
+        7
+      ],
+      "products": 64,
+      "historical_phase_counts": {
+        "U": 48,
+        "V": 82,
+        "W": 119
+      },
+      "historical_additions": 249,
+      "phase_counts": {
+        "U": 48,
+        "V": 77,
+        "W": 113
+      },
+      "paid_output_correction_additions": {
+        "U": 0,
+        "V": 0,
+        "W": 0
+      },
+      "paid_sign_net_addition_overhead": {
+        "U": 0,
+        "V": 0,
+        "W": 0
+      },
+      "final_additions": 238,
+      "saved_additions": 11,
+      "total_scalar_operations": 302,
+      "source_json_sha256": "db8dde8c355437a52c1cdf78b3cb4ac0ec0254b91e535aa78f00a62c11691c2d",
+      "source_matrix_sha256": {
+        "U": "887f810168d8c053600d272ea576f0f2efdd3c8c317fe5f0355b410a321edfda",
+        "V": "2f43ebe13b7581a15465c564e63af33f77a2606e1d02382ceb0e83e8a37597fb",
+        "W": "d6cdf3f6e3a39b89bfb87f0c1cacec29c81a45a006e799a500c7aac27996b899"
+      },
+      "previous_verified_or_source_phase_counts": {
+        "U": 48,
+        "V": 78,
+        "W": 113
+      },
+      "previous_verified_or_source_additions": 239,
+      "saved_since_previous_verified_or_source": 1,
+      "previously_processed": true,
+      "selected_provenance": {
+        "U": "current_primary",
+        "V": "current_primary",
+        "W": "current_primary"
+      },
+      "current_campaign_seconds_per_factor": {
+        "U": 11.068799375090748,
+        "V": 19.347226915881038,
+        "W": 27.34319837531075
+      }
+    },
+    {
+      "scheme": "3x5x7_m83_cr303_cn494_ZT_reduced",
+      "directory": "3x5x7",
+      "dimensions": [
+        3,
+        5,
+        7
+      ],
+      "products": 83,
+      "historical_phase_counts": {
+        "U": 77,
+        "V": 94,
+        "W": 132
+      },
+      "historical_additions": 303,
+      "phase_counts": {
+        "U": 71,
+        "V": 90,
+        "W": 130
+      },
+      "paid_output_correction_additions": {
+        "U": 0,
+        "V": 0,
+        "W": 0
+      },
+      "paid_sign_net_addition_overhead": {
+        "U": 0,
+        "V": 0,
+        "W": 0
+      },
+      "final_additions": 291,
+      "saved_additions": 12,
+      "total_scalar_operations": 374,
+      "source_json_sha256": "fb65f2a901241f7ce6f854de036c0aed730dd9ab9fdd0f528040ff9a1f795023",
+      "source_matrix_sha256": {
+        "U": "2ee0e65a6d4a58d80a3d4e527873e7aa25ca68f25e7d8d44691f38bfe0d261d3",
+        "V": "5b0678d5ceeadb4c84f2839c280e6632f8a357125e1245cdd9c0b72234c58110",
+        "W": "563d788447da7be2383b003632e5c89ac498799df3905f4a7be5a0acf73843ee"
+      },
+      "previous_verified_or_source_phase_counts": {
+        "U": 77,
+        "V": 94,
+        "W": 132
+      },
+      "previous_verified_or_source_additions": 303,
+      "saved_since_previous_verified_or_source": 12,
+      "previously_processed": false,
+      "selected_provenance": {
+        "U": "current_primary",
+        "V": "current_primary",
+        "W": "current_primary"
+      },
+      "current_campaign_seconds_per_factor": {
+        "U": 11.722201874945313,
+        "V": 18.024067416787148,
+        "W": 27.218525958247483
+      }
+    },
+    {
+      "scheme": "3x6x6_m85_cr352_fv172_cn998_ZT_reduced",
+      "directory": "3x6x6",
+      "dimensions": [
+        3,
+        6,
+        6
+      ],
+      "products": 85,
+      "historical_phase_counts": {
+        "U": 78,
+        "V": 127,
+        "W": 147
+      },
+      "historical_additions": 352,
+      "phase_counts": {
+        "U": 74,
+        "V": 110,
+        "W": 141
+      },
+      "paid_output_correction_additions": {
+        "U": 0,
+        "V": 0,
+        "W": 0
+      },
+      "paid_sign_net_addition_overhead": {
+        "U": 0,
+        "V": 0,
+        "W": 0
+      },
+      "final_additions": 325,
+      "saved_additions": 27,
+      "total_scalar_operations": 410,
+      "source_json_sha256": "9e8458e41ff374da55db300ec9e1cf395fc4945d9490a747df3547c52c8a822a",
+      "source_matrix_sha256": {
+        "U": "db40507d80e2ef5ebe1cc6c8b095bf9db356014e50e6aefd1e3dd84dd3cab439",
+        "V": "891b77087432f0a0db1f9b2331ac8b7045c19a5270da967685aed0fec5ee3681",
+        "W": "99ccaeacdd0e5c85225574e13dfe5eb8866d23b72129a36764a160a67f8ec2b9"
+      },
+      "previous_verified_or_source_phase_counts": {
+        "U": 78,
+        "V": 110,
+        "W": 141
+      },
+      "previous_verified_or_source_additions": 329,
+      "saved_since_previous_verified_or_source": 4,
+      "previously_processed": true,
+      "selected_provenance": {
+        "U": "current_primary",
+        "V": "current_primary",
+        "W": "current_primary"
+      },
+      "current_campaign_seconds_per_factor": {
+        "U": 15.255453207995743,
+        "V": 30.843702792190015,
+        "W": 29.114828540943563
+      }
+    },
+    {
+      "scheme": "4x4x14_m169_cr691_fv260_cn1596_ZT_reduced",
+      "directory": "4x4x14",
+      "dimensions": [
+        4,
+        4,
+        14
+      ],
+      "products": 169,
+      "historical_phase_counts": {
+        "U": 158,
+        "V": 210,
+        "W": 323
+      },
+      "historical_additions": 691,
+      "phase_counts": {
+        "U": 137,
+        "V": 187,
+        "W": 297
+      },
+      "paid_output_correction_additions": {
+        "U": 0,
+        "V": 0,
+        "W": 0
+      },
+      "paid_sign_net_addition_overhead": {
+        "U": 0,
+        "V": 0,
+        "W": 0
+      },
+      "final_additions": 621,
+      "saved_additions": 70,
+      "total_scalar_operations": 790,
+      "source_json_sha256": "8929e0e5bbd156c2775db9393e173699c25914ab64ced87ac8e54f4d185f7174",
+      "source_matrix_sha256": {
+        "U": "a26c749cf44f8f28358c8d72ebbc16b27b52f4b25fcb50c81f0b6842d8139477",
+        "V": "da2159bbfc4efb02ad58ca8849713a2348e71643f81054a2784dde5bbaf5d943",
+        "W": "a1d1aac51306fbba9280750163c6f4b69ea0a96d43a32e5cce7ddb365a2be797"
+      },
+      "previous_verified_or_source_phase_counts": {
+        "U": 158,
+        "V": 210,
+        "W": 323
+      },
+      "previous_verified_or_source_additions": 691,
+      "saved_since_previous_verified_or_source": 70,
+      "previously_processed": false,
+      "selected_provenance": {
+        "U": "current_primary",
+        "V": "current_primary",
+        "W": "current_adjoint_extra"
+      },
+      "current_campaign_seconds_per_factor": {
+        "U": 25.006797125097364,
+        "V": 38.028703375253826,
+        "W": 53.3664829172194
+      }
+    },
+    {
+      "scheme": "4x4x15_m181_cr729_fv278_cn1679_ZT_reduced",
+      "directory": "4x4x15",
+      "dimensions": [
+        4,
+        4,
+        15
+      ],
+      "products": 181,
+      "historical_phase_counts": {
+        "U": 163,
+        "V": 225,
+        "W": 341
+      },
+      "historical_additions": 729,
+      "phase_counts": {
+        "U": 144,
+        "V": 204,
+        "W": 319
+      },
+      "paid_output_correction_additions": {
+        "U": 0,
+        "V": 0,
+        "W": 0
+      },
+      "paid_sign_net_addition_overhead": {
+        "U": 0,
+        "V": 0,
+        "W": 0
+      },
+      "final_additions": 667,
+      "saved_additions": 62,
+      "total_scalar_operations": 848,
+      "source_json_sha256": "cd6efc8202d561bc7fa3ced70d64dbc73e4913604ee4de31363c7642fc2ba6be",
+      "source_matrix_sha256": {
+        "U": "b5deb5e76c18d8d0216e199ed1487eb0567534dfa0dbde2b27c8afd29fbef684",
+        "V": "1db4e8c17c70e0808ba1703616d2596ecd48dc18489469b1a70c01eb17cd3da4",
+        "W": "379a138d4dd54b2423d49b210498bf0178220c2a7c3ff377089768cc709518ce"
+      },
+      "previous_verified_or_source_phase_counts": {
+        "U": 163,
+        "V": 225,
+        "W": 341
+      },
+      "previous_verified_or_source_additions": 729,
+      "saved_since_previous_verified_or_source": 62,
+      "previously_processed": false,
+      "selected_provenance": {
+        "U": "current_primary",
+        "V": "current_primary",
+        "W": "current_adjoint_extra"
+      },
+      "current_campaign_seconds_per_factor": {
+        "U": 20.955229375045747,
+        "V": 38.00584458326921,
+        "W": 53.01596833392978
+      }
+    },
+    {
+      "scheme": "4x4x16_m192_cr718_fv350_cn2059_ZT_reduced",
+      "directory": "4x4x16",
+      "dimensions": [
+        4,
+        4,
+        16
+      ],
+      "products": 192,
+      "historical_phase_counts": {
+        "U": 88,
+        "V": 250,
+        "W": 380
+      },
+      "historical_additions": 718,
+      "phase_counts": {
+        "U": 75,
+        "V": 222,
+        "W": 343
+      },
+      "paid_output_correction_additions": {
+        "U": 0,
+        "V": 0,
+        "W": 0
+      },
+      "paid_sign_net_addition_overhead": {
+        "U": 0,
+        "V": 0,
+        "W": 0
+      },
+      "final_additions": 640,
+      "saved_additions": 78,
+      "total_scalar_operations": 832,
+      "source_json_sha256": "1fdde72d659497d12943d767f73b5a04b55e1a251fcebc54c7f998db03761b73",
+      "source_matrix_sha256": {
+        "U": "42a88eb70172cd8ca5ab2931da490acf14c9a5799b67ac7a61c18ba4b3dfff65",
+        "V": "84651548203264e8a8b7e49ad7d695078656995c712fb1ab0c071831d80ee6ff",
+        "W": "c1dd0bc4d26811a766853a73e5edfeac1531a0f1e5d97391f178d7f9ff962398"
+      },
+      "previous_verified_or_source_phase_counts": {
+        "U": 88,
+        "V": 250,
+        "W": 380
+      },
+      "previous_verified_or_source_additions": 718,
+      "saved_since_previous_verified_or_source": 78,
+      "previously_processed": false,
+      "selected_provenance": {
+        "U": "current_primary",
+        "V": "current_primary",
+        "W": "current_adjoint_extra"
+      },
+      "current_campaign_seconds_per_factor": {
+        "U": 18.600511792115867,
+        "V": 37.9861975829117,
+        "W": 55.14215854136273
+      }
+    },
+    {
+      "scheme": "5x5x12_m220_cr799_fv426_cn2444_ZT_reduced",
+      "directory": "5x5x12",
+      "dimensions": [
+        5,
+        5,
+        12
+      ],
+      "products": 220,
+      "historical_phase_counts": {
+        "U": 118,
+        "V": 260,
+        "W": 421
+      },
+      "historical_additions": 799,
+      "phase_counts": {
+        "U": 105,
+        "V": 232,
+        "W": 387
+      },
+      "paid_output_correction_additions": {
+        "U": 0,
+        "V": 0,
+        "W": 0
+      },
+      "paid_sign_net_addition_overhead": {
+        "U": 0,
+        "V": 0,
+        "W": 0
+      },
+      "final_additions": 724,
+      "saved_additions": 75,
+      "total_scalar_operations": 944,
+      "source_json_sha256": "65f801f3bcb44d859f437538823ff7ffa45afa34b22f550598c71946fd1d13f3",
+      "source_matrix_sha256": {
+        "U": "87136dbed28195a60403ec4d862b179644b2a08062af133ef6c948f97c2ff8bc",
+        "V": "aee7ad779915141a50e8971146670ad60f7f2205d4d3d16d520cab84a11b3662",
+        "W": "2003e559827ccb7bf862a91dd15d608c9ece8cd76ab3e5d43716891f40897c9d"
+      },
+      "previous_verified_or_source_phase_counts": {
+        "U": 118,
+        "V": 260,
+        "W": 421
+      },
+      "previous_verified_or_source_additions": 799,
+      "saved_since_previous_verified_or_source": 75,
+      "previously_processed": false,
+      "selected_provenance": {
+        "U": "current_primary",
+        "V": "current_primary",
+        "W": "current_adjoint_extra"
+      },
+      "current_campaign_seconds_per_factor": {
+        "U": 26.80877250013873,
+        "V": 40.20446308283135,
+        "W": 62.985369791742414
+      }
+    },
+    {
+      "scheme": "5x6x10_m217_cr925_fv432_cn2772_ZT_reduced",
+      "directory": "5x6x10",
+      "dimensions": [
+        5,
+        6,
+        10
+      ],
+      "products": 217,
+      "historical_phase_counts": {
+        "U": 247,
+        "V": 270,
+        "W": 408
+      },
+      "historical_additions": 925,
+      "phase_counts": {
+        "U": 227,
+        "V": 249,
+        "W": 393
+      },
+      "paid_output_correction_additions": {
+        "U": 0,
+        "V": 0,
+        "W": 0
+      },
+      "paid_sign_net_addition_overhead": {
+        "U": 0,
+        "V": 0,
+        "W": 0
+      },
+      "final_additions": 869,
+      "saved_additions": 56,
+      "total_scalar_operations": 1086,
+      "source_json_sha256": "070b891d2276dd28c9f74ab331c8031d64ed120a6a7e11a354e6fc32bf18ef66",
+      "source_matrix_sha256": {
+        "U": "f113082702d08f1185527d6ece223c00c953dbc8ebf0865dbfcba479b1525f24",
+        "V": "33a0ad0512781eddc36b2384a5fb51dfb8efc2ce0ff7219acd0671edd7ba4bfb",
+        "W": "5d05926a1360c062e361051d2e3d9d0383c5cbe9ba5f07c636d8454af3a601d6"
+      },
+      "previous_verified_or_source_phase_counts": {
+        "U": 247,
+        "V": 270,
+        "W": 408
+      },
+      "previous_verified_or_source_additions": 925,
+      "saved_since_previous_verified_or_source": 56,
+      "previously_processed": false,
+      "selected_provenance": {
+        "U": "current_primary",
+        "V": "current_primary",
+        "W": "current_adjoint_extra"
+      },
+      "current_campaign_seconds_per_factor": {
+        "U": 33.54729174962267,
+        "V": 38.3222825829871,
+        "W": 58.319243958219886
+      }
+    },
+    {
+      "scheme": "5x7x7_m176_cr788_fv371_cn2605_ZT_reduced",
+      "directory": "5x7x7",
+      "dimensions": [
+        5,
+        7,
+        7
+      ],
+      "products": 176,
+      "historical_phase_counts": {
+        "U": 205,
+        "V": 236,
+        "W": 347
+      },
+      "historical_additions": 788,
+      "phase_counts": {
+        "U": 177,
+        "V": 205,
+        "W": 314
+      },
+      "paid_output_correction_additions": {
+        "U": 0,
+        "V": 0,
+        "W": 0
+      },
+      "paid_sign_net_addition_overhead": {
+        "U": 0,
+        "V": 0,
+        "W": 0
+      },
+      "final_additions": 696,
+      "saved_additions": 92,
+      "total_scalar_operations": 872,
+      "source_json_sha256": "5dd82fa0ee198f63108e1dbf412cc33a683b3c493697180a739bf83fb89464f2",
+      "source_matrix_sha256": {
+        "U": "2f2fd33f3e029ea791b84abdf1d77f86f4abd23d347e46911d411f1180b3e2df",
+        "V": "5df6fc138883423e9b6467264760b1b4b783539b075c77e934dff1c845f1134e",
+        "W": "349b822f77d526fb338a9f030b854d4d9618f4ac283aad244fe3c8f0052085e0"
+      },
+      "previous_verified_or_source_phase_counts": {
+        "U": 178,
+        "V": 205,
+        "W": 314
+      },
+      "previous_verified_or_source_additions": 697,
+      "saved_since_previous_verified_or_source": 1,
+      "previously_processed": true,
+      "selected_provenance": {
+        "U": "current_primary",
+        "V": "current_primary",
+        "W": "current_primary"
+      },
+      "current_campaign_seconds_per_factor": {
+        "U": 34.57557470817119,
+        "V": 38.21866074996069,
+        "W": 56.9245572919026
+      }
+    },
+    {
+      "scheme": "5x7x8_m206_cr879_fv405_cn1880_ZT_reduced",
+      "directory": "5x7x8",
+      "dimensions": [
+        5,
+        7,
+        8
+      ],
+      "products": 206,
+      "historical_phase_counts": {
+        "U": 195,
+        "V": 290,
+        "W": 394
+      },
+      "historical_additions": 879,
+      "phase_counts": {
+        "U": 186,
+        "V": 282,
+        "W": 378
+      },
+      "paid_output_correction_additions": {
+        "U": 0,
+        "V": 0,
+        "W": 0
+      },
+      "paid_sign_net_addition_overhead": {
+        "U": 0,
+        "V": 0,
+        "W": 0
+      },
+      "final_additions": 846,
+      "saved_additions": 33,
+      "total_scalar_operations": 1052,
+      "source_json_sha256": "d3237211b42d8a73ca86807ac3528123741f0fdcba9f533cc8630ae75329d0dc",
+      "source_matrix_sha256": {
+        "U": "e7041fa245eda337448843755b5873534164592afb26976f10f361109bc1384a",
+        "V": "3e1fc6927899312da64aa935f38eab4d0935000158f247fcb2af3b5580b2fccd",
+        "W": "2c3bbda770fcd3d687488f4f9d17312f27c7f4190631c9e8b491803ad7c17faa"
+      },
+      "previous_verified_or_source_phase_counts": {
+        "U": 195,
+        "V": 290,
+        "W": 394
+      },
+      "previous_verified_or_source_additions": 879,
+      "saved_since_previous_verified_or_source": 33,
+      "previously_processed": false,
+      "selected_provenance": {
+        "U": "current_primary",
+        "V": "current_primary",
+        "W": "current_adjoint_extra"
+      },
+      "current_campaign_seconds_per_factor": {
+        "U": 39.755688124801964,
+        "V": 39.82874150015414,
+        "W": 60.32702991692349
+      }
+    },
+    {
+      "scheme": "6x7x8_m239_cr1027_fv499_cn2263_ZT_reduced",
+      "directory": "6x7x8",
+      "dimensions": [
+        6,
+        7,
+        8
+      ],
+      "products": 239,
+      "historical_phase_counts": {
+        "U": 247,
+        "V": 309,
+        "W": 471
+      },
+      "historical_additions": 1027,
+      "phase_counts": {
+        "U": 219,
+        "V": 281,
+        "W": 454
+      },
+      "paid_output_correction_additions": {
+        "U": 0,
+        "V": 0,
+        "W": 0
+      },
+      "paid_sign_net_addition_overhead": {
+        "U": 0,
+        "V": 0,
+        "W": 0
+      },
+      "final_additions": 954,
+      "saved_additions": 73,
+      "total_scalar_operations": 1193,
+      "source_json_sha256": "274a9e7855f6410bc6da1f5b82576008a1f4ab4014564f4e8629a368908ea1bc",
+      "source_matrix_sha256": {
+        "U": "7df15dc8f81d2669689437020a8a744872ac8aea7b47f3ce852e7e68ef3d948a",
+        "V": "1e0415af2f11d7ac2eeeebd7ba8d288ae4e9fabfdf1832e3dbc621e6a1ee88e6",
+        "W": "1b38113c8c5c27547354c66dca660754fdf38ea6a827159e319062a5d45a0d75"
+      },
+      "previous_verified_or_source_phase_counts": {
+        "U": 247,
+        "V": 309,
+        "W": 471
+      },
+      "previous_verified_or_source_additions": 1027,
+      "saved_since_previous_verified_or_source": 73,
+      "previously_processed": false,
+      "selected_provenance": {
+        "U": "current_primary",
+        "V": "current_primary",
+        "W": "current_adjoint_extra"
+      },
+      "current_campaign_seconds_per_factor": {
+        "U": 36.7999645001255,
+        "V": 40.077997750137,
+        "W": 61.803678625728935
+      }
+    },
+    {
+      "scheme": "7x7x8_m279_cr1237_fv639_cn2926_ZT_reduced",
+      "directory": "7x7x8",
+      "dimensions": [
+        7,
+        7,
+        8
+      ],
+      "products": 279,
+      "historical_phase_counts": {
+        "U": 304,
+        "V": 354,
+        "W": 579
+      },
+      "historical_additions": 1237,
+      "phase_counts": {
+        "U": 288,
+        "V": 340,
+        "W": 572
+      },
+      "paid_output_correction_additions": {
+        "U": 10,
+        "V": 6,
+        "W": 0
+      },
+      "paid_sign_net_addition_overhead": {
+        "U": 15,
+        "V": 6,
+        "W": 0
+      },
+      "final_additions": 1200,
+      "saved_additions": 37,
+      "total_scalar_operations": 1479,
+      "source_json_sha256": "540867b70490298e11e2dc8957a5672baf42a6eaeb63d96f2b9deb156509a001",
+      "source_matrix_sha256": {
+        "U": "ec11ea8730013ea299f455bf677b0db9aa263029d6d51166c9bed25025ba76c2",
+        "V": "b372772faa762a5d3d89f248288eadae3b8f51e22c56718b08f6790c1475c081",
+        "W": "6eec37c2cc5c1d313f94b71e0e7d0e9201664d733ce0e3d35d4061638f83d57a"
+      },
+      "previous_verified_or_source_phase_counts": {
+        "U": 304,
+        "V": 354,
+        "W": 579
+      },
+      "previous_verified_or_source_additions": 1237,
+      "saved_since_previous_verified_or_source": 37,
+      "previously_processed": false,
+      "selected_provenance": {
+        "U": "current_primary",
+        "V": "current_primary",
+        "W": "current_adjoint_extra"
+      },
+      "current_campaign_seconds_per_factor": {
+        "U": 45.30382362380624,
+        "V": 42.57734058285132,
+        "W": 66.245582124684
+      }
+    }
+  ],
+  "joint_product_sign_variants": [
+    {
+      "directory": "joint_product_signs_7x7x8",
+      "original_directory": "7x7x8",
+      "dimensions": [
+        7,
+        7,
+        8
+      ],
+      "products": 279,
+      "phase_counts": {
+        "U": 273,
+        "V": 334,
+        "W": 572
+      },
+      "final_additions": 1179,
+      "total_scalar_operations": 1458,
+      "original_fixed_map_additions": 1200,
+      "basis_change": false,
+      "individual_fixed_maps_preserved": false,
+      "compensated_product_signs": true,
+      "method": "Existing methods/linear/orient.py joint product-sign orientation",
+      "orientation_seconds_limit": 10,
+      "solver_threads": 1,
+      "orientation_elapsed_seconds": 0.3728475412353873,
+      "timing_scope": "Additional joint orientation only; source candidate search and donor building already occurred in the main campaign.",
+      "source_candidate_provenance": {
+        "U": "group_a/18_7x7x8_m279_cr1237_fv639_cn2926_ZT_reduced_U/plateau/candidate.json",
+        "V": "group_a/19_7x7x8_m279_cr1237_fv639_cn2926_ZT_reduced_V/plateau/candidate.json",
+        "W": "group_a/20_7x7x8_m279_cr1237_fv639_cn2926_ZT_reduced_W/adjoint_extra/W_candidate_1.json"
+      },
+      "reproduction": "python3 joint_product_signs_7x7x8/reproduce_joint_signs.py --methods METHODS_LINEAR --out rerun_joint_signs --seconds 10"
+    }
+  ],
+  "excluded_startup_attempts": [
+    "group_a_startup_attempt",
+    "group_b_startup_attempt",
+    "group_c_startup_attempt"
+  ],
+  "timing_scope": "Only final group_a/group_b/group_c map runs. Initial adapter rebuild, environment installation, discarded startup attempts and previous campaigns are excluded from map discovery timings.",
+  "scope": "Exact upper bounds for supplied fixed maps and decompositions. The separate joint-product-sign variant preserves the tensor but changes individual factor signs. No basis changes, new multiplication rank, global record, optimum, numerical-stability or hardware-speed claim. Previous circuits are explicitly distinguished from current campaign improvements."
+}

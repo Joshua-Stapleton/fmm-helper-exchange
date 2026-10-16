@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-12",
+  "date": "2026-10-16",
   "repository": "https://github.com/Joshua-Stapleton/fmm-helper-exchange",
   "description": "Reusable FMM search, transformation, exact certification, lower-bound, structural, orchestration, storage and analysis methods",
   "source_experiments": [
@@ -28,13 +28,14 @@
     "perminov_new_tests_20261011",
     "perminov_pool_method_20261011",
     "perminov_tests_20261012",
-    "fmm_opportunity_research_20261012/nist_probe"
+    "fmm_opportunity_research_20261012/nist_probe",
+    "perminov_hl_tests_20261016"
   ],
   "module_provenance": "Each methods subdirectory includes original source hashes and adaptation notes. Proof inputs and certified literal programs preserve original arithmetic.",
   "included": "Portable implementations, representative source data, search witnesses, independently checked arithmetic/proof certificates and method explanations",
   "excluded": "Private correspondence, raw browser/chat exports, credentials, local binaries, dependency checkouts and redundant campaign checkpoints",
   "attribution": "NOTICE.md; source decompositions and external reducers retain their authorship",
-  "validation": "verification/release-gf2-20261012.json; prior unchanged exhaustive proof evidence retained.",
+  "validation": "verification/release-hl-tests-20261016.json; unchanged exhaustive proofs were not rerun.",
   "claims": "No global SOTA, unrestricted optimality, lower multiplication rank, new exponent or measured runtime is claimed.",
   "initial_release_date": "2026-10-08",
   "latest_update": {
@@ -209,6 +210,36 @@
       "claims": "No improved circuit or hardware result. Complete normalization is a derived unmechanized pure-XOR argument. Default replay checks upper witnesses, inventories and hashes, not solver lower proofs.",
       "standalone_bundle": "downloads/gf2_mixcolumns_study_20261012.zip",
       "bundle_sha256": "92bd8ae331fe1b5eeee5a83c0108ea02734bbc19ea96f400b1a1cc7ae8506014"
+    },
+    "hl_tests_20261016": {
+      "report": "docs/hl-tests-20261016.md",
+      "certificates": "certificates/hl_tests_20261016/",
+      "standalone_bundle": "downloads/fmm_hl_tests_certificates_20261016.zip",
+      "bundle_sha256": "af7b9059318f20d48d92e070288673b5b3086c786b844c5c2ee8b2b867207975",
+      "uploaded_maps": 57,
+      "complete_schemes": 19,
+      "improved_factors": 52,
+      "improved_scheme_totals": 19,
+      "saved_additions_vs_source": 725,
+      "saved_additions_vs_verified_prior_or_source": 592,
+      "joint_product_sign_variant": {
+        "dimensions": [
+          7,
+          7,
+          8
+        ],
+        "products": 279,
+        "additions": 1179,
+        "phase_counts": [
+          273,
+          334,
+          572
+        ],
+        "basis_change": false,
+        "individual_fixed_maps_preserved": false
+      },
+      "source_commit": "6c75fd36564b177165d6968efd4c9e6199266191",
+      "claims": "Exact fixed-map upper bounds; original bases and ranks. Previous witness reuse is explicit."
     }
   }
 }

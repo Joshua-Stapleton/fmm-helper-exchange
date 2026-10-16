@@ -4,7 +4,13 @@ Code, worked examples, exact certificates and scoped lower-bound proofs from Jos
 
 [Download the complete methods bundle](downloads/fmm_research_methods.zip) · [Original compact helper-exchange bundle](downloads/fmm_helper_exchange_scripts.zip) · [Attribution and model conventions](docs/METHODS.md)
 
-## Latest update: 12 October 2026
+## Latest update: 16 October 2026
+
+The supplied **hl_tests** archive now has independently verified circuits for all **57 maps and 19 multiplication tensors**. 19 scheme totals improve their source annotations. Products and the original signed coordinates are unchanged. A separately certified 7x7x8 variant coordinates product signs to use **1179 additions and 279 products**, with no basis change.
+
+[All U/V/W counts and timings](docs/hl-tests-20261016.md) · [Standalone certificate ZIP](downloads/fmm_hl_tests_certificates_20261016.zip) · [Portable replay](certificates/hl_tests_20261016/README.md). Prior results and new reductions are identified separately.
+
+## Previous update: 12 October 2026
 
 A new [GF(2) MixColumns study](docs/gf2-mixcolumns-20261012.md) transfers the
 search machinery to exact XOR circuits. It includes verified NIST sources,

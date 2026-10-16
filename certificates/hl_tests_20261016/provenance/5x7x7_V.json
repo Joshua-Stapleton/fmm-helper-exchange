@@ -1,0 +1,112 @@
+{
+  "filename": "5x7x7_m176_cr788_fv371_cn2605_ZT_reduced_V.sms",
+  "scheme": "5x7x7_m176_cr788_fv371_cn2605_ZT_reduced",
+  "factor": "V",
+  "source_matrix_sha256": "5df6fc138883423e9b6467264760b1b4b783539b075c77e934dff1c845f1134e",
+  "historical_additions": 236,
+  "previous_strict_count": 205,
+  "previous_input_coefficient_match": true,
+  "selected_additions": 205,
+  "selected_provenance": "current_primary",
+  "selected_from": "group_a/16_5x7x7_m176_cr788_fv371_cn2605_ZT_reduced_V/best.slp",
+  "previous_witness": "experiments/example_788_V_20261008/methods_repo/certificates/new_tests_20261011/5x7x7/V.slp",
+  "supplied_initial_candidate": "experiments/example_788_V_20261008/methods_repo/certificates/new_tests_20261011/5x7x7/V.json",
+  "best_unoriented_signed_additions": 205,
+  "paid_output_correction_additions": 0,
+  "paid_sign_net_addition_overhead": 0,
+  "paid_sign_recovery": null,
+  "all_replayed_choices": [
+    {
+      "additions": 205,
+      "provenance": "current_primary",
+      "slp": "group_a/16_5x7x7_m176_cr788_fv371_cn2605_ZT_reduced_V/best.slp"
+    },
+    {
+      "additions": 205,
+      "provenance": "reused_previous_verified_witness",
+      "slp": "experiments/example_788_V_20261008/methods_repo/certificates/new_tests_20261011/5x7x7/V.slp"
+    }
+  ],
+  "literal_counts": {
+    "binary_additions": 205,
+    "unary_negations": 0,
+    "nonunit_scalars": 0,
+    "unused_noninput_assignments": 0
+  },
+  "timing": {
+    "donor_build_seconds": 27.719985583331436,
+    "pool_build_seconds": 0.2562080416828394,
+    "pool_search_seconds": 9.25445062527433,
+    "strict_orientation_seconds": 0.742620250210166,
+    "other_primary_seconds": 0.24539624946191907,
+    "primary_total_seconds": 38.21866074996069,
+    "adjoint_extra_total_seconds": 0,
+    "paid_output_correction_seconds": 0,
+    "additional_recovery_seconds": 0,
+    "total_current_campaign_seconds": 38.21866074996069,
+    "donor_method_calls": [
+      {
+        "status": "TIMEOUT",
+        "elapsed_seconds": 4.00665199989453,
+        "method": "cse_only"
+      },
+      {
+        "status": "TIMEOUT",
+        "elapsed_seconds": 4.006290624849498,
+        "method": "vector_cover"
+      },
+      {
+        "status": "COMPLETE",
+        "returncode": 0,
+        "elapsed_seconds": 4.085307165980339,
+        "method": "bernoulli05",
+        "transposed_search": false,
+        "completed_donors": 1,
+        "best_original_map_signed": 205
+      },
+      {
+        "status": "COMPLETE",
+        "returncode": 0,
+        "elapsed_seconds": 4.071946499869227,
+        "method": "bernoulli09",
+        "transposed_search": false,
+        "completed_donors": 1,
+        "best_original_map_signed": 205
+      },
+      {
+        "status": "COMPLETE",
+        "returncode": 0,
+        "elapsed_seconds": 2.7970968750305474,
+        "method": "scored_dependency_cuts",
+        "transposed_search": false,
+        "completed_donors": 13,
+        "best_original_map_signed": 205
+      },
+      {
+        "status": "COMPLETE",
+        "returncode": 0,
+        "elapsed_seconds": 4.072663624770939,
+        "method": "residual_forest",
+        "transposed_search": false,
+        "completed_donors": 6,
+        "best_original_map_signed": 226
+      },
+      {
+        "status": "COMPLETE",
+        "returncode": 0,
+        "elapsed_seconds": 3.2466871249489486,
+        "method": "weighted_pool",
+        "completed_donors": 0,
+        "best_original_map_signed": null
+      }
+    ],
+    "adjoint_extra_stages": null,
+    "notes": "Observed elapsed wall time per map on a shared host. Totals include donor construction, exact conversions, pooling, search, strict sign orientation and separately recorded paid output-sign recovery when needed. Historical search time to reused incumbents is not included. Concurrent map jobs contend for resources; sums are not campaign wall time."
+  },
+  "donors": 24,
+  "pool_forms": 847,
+  "pool_productions": 5589,
+  "upstream_threads": 1,
+  "basis_change": false,
+  "status": "PASS"
+}

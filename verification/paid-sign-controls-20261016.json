@@ -1,0 +1,65 @@
+{
+  "status": "PASS",
+  "cases": [
+    {
+      "name": "negative_single_input",
+      "status": "PASS",
+      "binary_additions": 2,
+      "zero_valued_gates": 1,
+      "sign_mutation_rejected": true,
+      "omitted_output_correction_rejected": true
+    },
+    {
+      "name": "opposite_difference_outputs",
+      "status": "PASS",
+      "binary_additions": 2,
+      "zero_valued_gates": 0,
+      "sign_mutation_rejected": true,
+      "omitted_output_correction_rejected": true
+    },
+    {
+      "name": "two_negative_inputs_shared_zero",
+      "status": "PASS",
+      "binary_additions": 3,
+      "zero_valued_gates": 1,
+      "sign_mutation_rejected": true,
+      "omitted_output_correction_rejected": true
+    },
+    {
+      "name": "double_negative_internal",
+      "status": "PASS",
+      "binary_additions": 3,
+      "zero_valued_gates": 1,
+      "sign_mutation_rejected": true,
+      "omitted_output_correction_rejected": null
+    },
+    {
+      "name": "paid_zero_output",
+      "status": "PASS",
+      "binary_additions": 1,
+      "zero_valued_gates": 1,
+      "sign_mutation_rejected": true,
+      "omitted_output_correction_rejected": null
+    },
+    {
+      "name": "negated_paid_zero_output",
+      "status": "PASS",
+      "binary_additions": 1,
+      "zero_valued_gates": 1,
+      "sign_mutation_rejected": true,
+      "omitted_output_correction_rejected": null
+    },
+    {
+      "name": "duplicate_negative_alias",
+      "status": "PASS",
+      "binary_additions": 2,
+      "zero_valued_gates": 1,
+      "sign_mutation_rejected": true,
+      "omitted_output_correction_rejected": true
+    }
+  ],
+  "solver_threads": 1,
+  "scope": "Explicit small witnesses; independent exact replay; no general addition-optimality claim",
+  "implementation_sha256": "17fad3282e63a94c6731d2e7fe01d17b5b77a54e1076179e8558e761cd02269e",
+  "tests_sha256": "4bc297e2603fc6f1ae1c7522460b6f51d8c9d0fc50023e00112be353c3975d82"
+}

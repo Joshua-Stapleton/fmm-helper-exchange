@@ -1,0 +1,108 @@
+{
+  "filename": "4x4x15_m181_cr729_fv278_cn1679_ZT_reduced_U.sms",
+  "scheme": "4x4x15_m181_cr729_fv278_cn1679_ZT_reduced",
+  "factor": "U",
+  "source_matrix_sha256": "b5deb5e76c18d8d0216e199ed1487eb0567534dfa0dbde2b27c8afd29fbef684",
+  "historical_additions": 163,
+  "previous_strict_count": null,
+  "previous_input_coefficient_match": false,
+  "selected_additions": 144,
+  "selected_provenance": "current_primary",
+  "selected_from": "group_c/09_4x4x15_m181_cr729_fv278_cn1679_ZT_reduced_U/best.slp",
+  "previous_witness": null,
+  "supplied_initial_candidate": null,
+  "best_unoriented_signed_additions": 144,
+  "paid_output_correction_additions": 0,
+  "paid_sign_net_addition_overhead": 0,
+  "paid_sign_recovery": null,
+  "all_replayed_choices": [
+    {
+      "additions": 144,
+      "provenance": "current_primary",
+      "slp": "group_c/09_4x4x15_m181_cr729_fv278_cn1679_ZT_reduced_U/best.slp"
+    }
+  ],
+  "literal_counts": {
+    "binary_additions": 144,
+    "unary_negations": 0,
+    "nonunit_scalars": 0,
+    "unused_noninput_assignments": 0
+  },
+  "timing": {
+    "donor_build_seconds": 11.421123917214572,
+    "pool_build_seconds": 0.06901541724801064,
+    "pool_search_seconds": 9.051599374972284,
+    "strict_orientation_seconds": 0.3745554592460394,
+    "other_primary_seconds": 0.03893520636484027,
+    "primary_total_seconds": 20.955229375045747,
+    "adjoint_extra_total_seconds": 0,
+    "paid_output_correction_seconds": 0,
+    "additional_recovery_seconds": 0,
+    "total_current_campaign_seconds": 20.955229375045747,
+    "donor_method_calls": [
+      {
+        "status": "PASS",
+        "returncode": 0,
+        "elapsed_seconds": 2.6050797076895833,
+        "method": "cse_only"
+      },
+      {
+        "status": "TIMEOUT",
+        "elapsed_seconds": 4.004640582948923,
+        "method": "vector_cover"
+      },
+      {
+        "status": "COMPLETE",
+        "returncode": 0,
+        "elapsed_seconds": 1.8862673752009869,
+        "method": "bernoulli05",
+        "transposed_search": false,
+        "completed_donors": 13,
+        "best_original_map_signed": 145
+      },
+      {
+        "status": "COMPLETE",
+        "returncode": 0,
+        "elapsed_seconds": 0.7323346249759197,
+        "method": "bernoulli09",
+        "transposed_search": false,
+        "completed_donors": 13,
+        "best_original_map_signed": 153
+      },
+      {
+        "status": "COMPLETE",
+        "returncode": 0,
+        "elapsed_seconds": 0.7429512920789421,
+        "method": "scored_dependency_cuts",
+        "transposed_search": false,
+        "completed_donors": 13,
+        "best_original_map_signed": 159
+      },
+      {
+        "status": "COMPLETE",
+        "returncode": 0,
+        "elapsed_seconds": 0.4465508325956762,
+        "method": "residual_forest",
+        "transposed_search": false,
+        "completed_donors": 10,
+        "best_original_map_signed": 152
+      },
+      {
+        "status": "COMPLETE",
+        "returncode": 0,
+        "elapsed_seconds": 0.29436616599559784,
+        "method": "weighted_pool",
+        "completed_donors": 2,
+        "best_original_map_signed": 146
+      }
+    ],
+    "adjoint_extra_stages": null,
+    "notes": "Observed elapsed wall time per map on a shared host. Totals include donor construction, exact conversions, pooling, search, strict sign orientation and separately recorded paid output-sign recovery when needed. Historical search time to reused incumbents is not included. Concurrent map jobs contend for resources; sums are not campaign wall time."
+  },
+  "donors": 54,
+  "pool_forms": 317,
+  "pool_productions": 2889,
+  "upstream_threads": 1,
+  "basis_change": false,
+  "status": "PASS"
+}

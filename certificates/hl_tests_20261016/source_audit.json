@@ -1,0 +1,905 @@
+{
+  "status": "PASS",
+  "maps": 57,
+  "schemes": [
+    {
+      "scheme": "2x7x7_m77_cr320_cn452_ZT_reduced",
+      "dimensions": [
+        2,
+        7,
+        7
+      ],
+      "products": 77,
+      "source_json_sha256": "102d26094c75bc03c0c7f9ea60b7511299fb9dc9ba3b6c43da410e14db2240ca",
+      "factors": {
+        "U": {
+          "additions": 71,
+          "source_matrix_sha256": "c38f2fb87dc564dbdbf7d881ff587e727c53a74a1f5c50e95b7975279ec7d010",
+          "outputs": 77,
+          "inputs": 14,
+          "status": "PASS"
+        },
+        "V": {
+          "additions": 115,
+          "source_matrix_sha256": "e95a1397a9d5ab409da76f3871b244bbb86dde20dd2fabd563a5151443212829",
+          "outputs": 77,
+          "inputs": 49,
+          "status": "PASS"
+        },
+        "W": {
+          "additions": 134,
+          "source_matrix_sha256": "bdd002c35f54f42274cf3a7d34da254ac9a3165aeb6694d43034ae7d36119b19",
+          "outputs": 14,
+          "inputs": 77,
+          "status": "PASS"
+        }
+      },
+      "tensor": {
+        "status": "PASS",
+        "dimensions": [
+          2,
+          7,
+          7
+        ],
+        "rank": 77,
+        "exact_tensor_coefficients": 9604,
+        "nonzero_tensor_coefficients": 98,
+        "coordinates": "A and B row-major; C column-major",
+        "basis_change": false
+      },
+      "status": "PASS"
+    },
+    {
+      "scheme": "2x7x8_m90_cr329_fv142_cn648_ZT_reduced",
+      "dimensions": [
+        2,
+        7,
+        8
+      ],
+      "products": 90,
+      "source_json_sha256": "c90838e11eff89416b03975e8b6ea148cc8e122421ad3d312e542fb129ad65af",
+      "factors": {
+        "U": {
+          "additions": 41,
+          "source_matrix_sha256": "62e01baec762084c5f1eb5e7282613ed4f06b53e8bd67e4abbeea9f09ea25a3f",
+          "outputs": 90,
+          "inputs": 14,
+          "status": "PASS"
+        },
+        "V": {
+          "additions": 144,
+          "source_matrix_sha256": "344dfca666415d6c49e75c44d6b00961aa09b0a951382a0f7de9166685c184f5",
+          "outputs": 90,
+          "inputs": 56,
+          "status": "PASS"
+        },
+        "W": {
+          "additions": 144,
+          "source_matrix_sha256": "40245d9a630edd3b603ddbc08154935d2cf3013953a938abccbb8642d695a909",
+          "outputs": 16,
+          "inputs": 90,
+          "status": "PASS"
+        }
+      },
+      "tensor": {
+        "status": "PASS",
+        "dimensions": [
+          2,
+          7,
+          8
+        ],
+        "rank": 90,
+        "exact_tensor_coefficients": 12544,
+        "nonzero_tensor_coefficients": 112,
+        "coordinates": "A and B row-major; C column-major",
+        "basis_change": false
+      },
+      "status": "PASS"
+    },
+    {
+      "scheme": "3x3x16_m115_cr407_fv175_cn862_ZT_reduced",
+      "dimensions": [
+        3,
+        3,
+        16
+      ],
+      "products": 115,
+      "source_json_sha256": "d129bb73d9c4bb9677b5eb94231b8a6dc0bfd2a6296d295c16af3cc7cfe6f8aa",
+      "factors": {
+        "U": {
+          "additions": 36,
+          "source_matrix_sha256": "41624c24c1a5e0bffb6b4e73583317e3d20c56829a5c9be0ef8ae3a3c6d0d873",
+          "outputs": 115,
+          "inputs": 9,
+          "status": "PASS"
+        },
+        "V": {
+          "additions": 151,
+          "source_matrix_sha256": "eb75d54c99efbedb4542df60bda38a7cac6227b38040e0ac5cb79cee88572429",
+          "outputs": 115,
+          "inputs": 48,
+          "status": "PASS"
+        },
+        "W": {
+          "additions": 220,
+          "source_matrix_sha256": "5189c6b25e7128c78ae018dc00e87135e979e7f0038dec8b4e5a21cbe3797659",
+          "outputs": 48,
+          "inputs": 115,
+          "status": "PASS"
+        }
+      },
+      "tensor": {
+        "status": "PASS",
+        "dimensions": [
+          3,
+          3,
+          16
+        ],
+        "rank": 115,
+        "exact_tensor_coefficients": 20736,
+        "nonzero_tensor_coefficients": 144,
+        "coordinates": "A and B row-major; C column-major",
+        "basis_change": false
+      },
+      "status": "PASS"
+    },
+    {
+      "scheme": "3x4x10_m93_cr345_cn582_ZT_reduced",
+      "dimensions": [
+        3,
+        4,
+        10
+      ],
+      "products": 93,
+      "source_json_sha256": "05fc47c872704d80e6ed474d41bce6d2618fd3e96ab7834078c7eb6c75fa984f",
+      "factors": {
+        "U": {
+          "additions": 75,
+          "source_matrix_sha256": "6913529092105fde62446556a005a89a41549f50b0e4d02ebbee4fbbcedf0447",
+          "outputs": 93,
+          "inputs": 12,
+          "status": "PASS"
+        },
+        "V": {
+          "additions": 109,
+          "source_matrix_sha256": "baba54182a5d4672d0beeb371f7d003e88d8bd0e03c31a27b09810c73201f24b",
+          "outputs": 93,
+          "inputs": 40,
+          "status": "PASS"
+        },
+        "W": {
+          "additions": 161,
+          "source_matrix_sha256": "c8128e580c8c52b9f69a917877a38a003388b0d78863c1e55b2d79a8cdc78cb2",
+          "outputs": 30,
+          "inputs": 93,
+          "status": "PASS"
+        }
+      },
+      "tensor": {
+        "status": "PASS",
+        "dimensions": [
+          3,
+          4,
+          10
+        ],
+        "rank": 93,
+        "exact_tensor_coefficients": 14400,
+        "nonzero_tensor_coefficients": 120,
+        "coordinates": "A and B row-major; C column-major",
+        "basis_change": false
+      },
+      "status": "PASS"
+    },
+    {
+      "scheme": "3x4x11_m102_cr381_cn641_ZT_reduced",
+      "dimensions": [
+        3,
+        4,
+        11
+      ],
+      "products": 102,
+      "source_json_sha256": "9becfd95c0f602515935cb7e60639fae6cf01615cd5a71e9213f9ee1c94db041",
+      "factors": {
+        "U": {
+          "additions": 77,
+          "source_matrix_sha256": "548271192eafae0abfd7d6d84f4d32909c11b28e5075dc903c7e00aa86c785d4",
+          "outputs": 102,
+          "inputs": 12,
+          "status": "PASS"
+        },
+        "V": {
+          "additions": 126,
+          "source_matrix_sha256": "67e79267f25195eb1ab3d957fa7a5c8d931c38154b8bc4c6f01f4487dbbfaf94",
+          "outputs": 102,
+          "inputs": 44,
+          "status": "PASS"
+        },
+        "W": {
+          "additions": 178,
+          "source_matrix_sha256": "aa215a7ab5e0aecaf000a744557e88504111e02e0c8710fcdca64e2c4d0a6299",
+          "outputs": 33,
+          "inputs": 102,
+          "status": "PASS"
+        }
+      },
+      "tensor": {
+        "status": "PASS",
+        "dimensions": [
+          3,
+          4,
+          11
+        ],
+        "rank": 102,
+        "exact_tensor_coefficients": 17424,
+        "nonzero_tensor_coefficients": 132,
+        "coordinates": "A and B row-major; C column-major",
+        "basis_change": false
+      },
+      "status": "PASS"
+    },
+    {
+      "scheme": "3x4x14_m128_cr458_cn896_ZT_reduced",
+      "dimensions": [
+        3,
+        4,
+        14
+      ],
+      "products": 128,
+      "source_json_sha256": "709acdc7138dfcb55dd320f437901c0efe7c1e75170f64fb155deb6e42b898a4",
+      "factors": {
+        "U": {
+          "additions": 48,
+          "source_matrix_sha256": "48cbebd41fea5cc4f135336ad3237cc48a42b229af1b5fdd2080e7c4591d248a",
+          "outputs": 128,
+          "inputs": 12,
+          "status": "PASS"
+        },
+        "V": {
+          "additions": 170,
+          "source_matrix_sha256": "440e8b9b3ec24881267c8c0cc9f0c804f8b61dc0c9c9f1ebac3289b332c57a42",
+          "outputs": 128,
+          "inputs": 56,
+          "status": "PASS"
+        },
+        "W": {
+          "additions": 240,
+          "source_matrix_sha256": "d1d9e824df8321bddda969607c664c0ef45b45751084def1061b041d7dfe0572",
+          "outputs": 42,
+          "inputs": 128,
+          "status": "PASS"
+        }
+      },
+      "tensor": {
+        "status": "PASS",
+        "dimensions": [
+          3,
+          4,
+          14
+        ],
+        "rank": 128,
+        "exact_tensor_coefficients": 28224,
+        "nonzero_tensor_coefficients": 168,
+        "coordinates": "A and B row-major; C column-major",
+        "basis_change": false
+      },
+      "status": "PASS"
+    },
+    {
+      "scheme": "3x4x15_m138_cr533_cn958_ZT_reduced",
+      "dimensions": [
+        3,
+        4,
+        15
+      ],
+      "products": 138,
+      "source_json_sha256": "1634cc162b4fdc7fc6f19305dbd856ac670646f898849e4f4410048e698c1dd5",
+      "factors": {
+        "U": {
+          "additions": 91,
+          "source_matrix_sha256": "54c0acaf5e73f6f776ab79598532e7a19a7dfc266fc8fab3307516849ebfe36a",
+          "outputs": 138,
+          "inputs": 12,
+          "status": "PASS"
+        },
+        "V": {
+          "additions": 180,
+          "source_matrix_sha256": "d953367e953095f0c66bc11e91fd55f64b99b14e8d11e009cc4a668e97e1170f",
+          "outputs": 138,
+          "inputs": 60,
+          "status": "PASS"
+        },
+        "W": {
+          "additions": 262,
+          "source_matrix_sha256": "2b2fed2a195bc2822577b0d381aa6ea09a56410b72110c8438e840c2663413ad",
+          "outputs": 45,
+          "inputs": 138,
+          "status": "PASS"
+        }
+      },
+      "tensor": {
+        "status": "PASS",
+        "dimensions": [
+          3,
+          4,
+          15
+        ],
+        "rank": 138,
+        "exact_tensor_coefficients": 32400,
+        "nonzero_tensor_coefficients": 180,
+        "coordinates": "A and B row-major; C column-major",
+        "basis_change": false
+      },
+      "status": "PASS"
+    },
+    {
+      "scheme": "3x4x7_m64_cr249_cn446_ZT_reduced",
+      "dimensions": [
+        3,
+        4,
+        7
+      ],
+      "products": 64,
+      "source_json_sha256": "db8dde8c355437a52c1cdf78b3cb4ac0ec0254b91e535aa78f00a62c11691c2d",
+      "factors": {
+        "U": {
+          "additions": 48,
+          "source_matrix_sha256": "887f810168d8c053600d272ea576f0f2efdd3c8c317fe5f0355b410a321edfda",
+          "outputs": 64,
+          "inputs": 12,
+          "status": "PASS"
+        },
+        "V": {
+          "additions": 82,
+          "source_matrix_sha256": "2f43ebe13b7581a15465c564e63af33f77a2606e1d02382ceb0e83e8a37597fb",
+          "outputs": 64,
+          "inputs": 28,
+          "status": "PASS"
+        },
+        "W": {
+          "additions": 119,
+          "source_matrix_sha256": "d6cdf3f6e3a39b89bfb87f0c1cacec29c81a45a006e799a500c7aac27996b899",
+          "outputs": 21,
+          "inputs": 64,
+          "status": "PASS"
+        }
+      },
+      "tensor": {
+        "status": "PASS",
+        "dimensions": [
+          3,
+          4,
+          7
+        ],
+        "rank": 64,
+        "exact_tensor_coefficients": 7056,
+        "nonzero_tensor_coefficients": 84,
+        "coordinates": "A and B row-major; C column-major",
+        "basis_change": false
+      },
+      "status": "PASS"
+    },
+    {
+      "scheme": "3x5x7_m83_cr303_cn494_ZT_reduced",
+      "dimensions": [
+        3,
+        5,
+        7
+      ],
+      "products": 83,
+      "source_json_sha256": "fb65f2a901241f7ce6f854de036c0aed730dd9ab9fdd0f528040ff9a1f795023",
+      "factors": {
+        "U": {
+          "additions": 77,
+          "source_matrix_sha256": "2ee0e65a6d4a58d80a3d4e527873e7aa25ca68f25e7d8d44691f38bfe0d261d3",
+          "outputs": 83,
+          "inputs": 15,
+          "status": "PASS"
+        },
+        "V": {
+          "additions": 94,
+          "source_matrix_sha256": "5b0678d5ceeadb4c84f2839c280e6632f8a357125e1245cdd9c0b72234c58110",
+          "outputs": 83,
+          "inputs": 35,
+          "status": "PASS"
+        },
+        "W": {
+          "additions": 132,
+          "source_matrix_sha256": "563d788447da7be2383b003632e5c89ac498799df3905f4a7be5a0acf73843ee",
+          "outputs": 21,
+          "inputs": 83,
+          "status": "PASS"
+        }
+      },
+      "tensor": {
+        "status": "PASS",
+        "dimensions": [
+          3,
+          5,
+          7
+        ],
+        "rank": 83,
+        "exact_tensor_coefficients": 11025,
+        "nonzero_tensor_coefficients": 105,
+        "coordinates": "A and B row-major; C column-major",
+        "basis_change": false
+      },
+      "status": "PASS"
+    },
+    {
+      "scheme": "3x6x6_m85_cr352_fv172_cn998_ZT_reduced",
+      "dimensions": [
+        3,
+        6,
+        6
+      ],
+      "products": 85,
+      "source_json_sha256": "9e8458e41ff374da55db300ec9e1cf395fc4945d9490a747df3547c52c8a822a",
+      "factors": {
+        "U": {
+          "additions": 78,
+          "source_matrix_sha256": "db40507d80e2ef5ebe1cc6c8b095bf9db356014e50e6aefd1e3dd84dd3cab439",
+          "outputs": 85,
+          "inputs": 18,
+          "status": "PASS"
+        },
+        "V": {
+          "additions": 127,
+          "source_matrix_sha256": "891b77087432f0a0db1f9b2331ac8b7045c19a5270da967685aed0fec5ee3681",
+          "outputs": 85,
+          "inputs": 36,
+          "status": "PASS"
+        },
+        "W": {
+          "additions": 147,
+          "source_matrix_sha256": "99ccaeacdd0e5c85225574e13dfe5eb8866d23b72129a36764a160a67f8ec2b9",
+          "outputs": 18,
+          "inputs": 85,
+          "status": "PASS"
+        }
+      },
+      "tensor": {
+        "status": "PASS",
+        "dimensions": [
+          3,
+          6,
+          6
+        ],
+        "rank": 85,
+        "exact_tensor_coefficients": 11664,
+        "nonzero_tensor_coefficients": 108,
+        "coordinates": "A and B row-major; C column-major",
+        "basis_change": false
+      },
+      "status": "PASS"
+    },
+    {
+      "scheme": "4x4x14_m169_cr691_fv260_cn1596_ZT_reduced",
+      "dimensions": [
+        4,
+        4,
+        14
+      ],
+      "products": 169,
+      "source_json_sha256": "8929e0e5bbd156c2775db9393e173699c25914ab64ced87ac8e54f4d185f7174",
+      "factors": {
+        "U": {
+          "additions": 158,
+          "source_matrix_sha256": "a26c749cf44f8f28358c8d72ebbc16b27b52f4b25fcb50c81f0b6842d8139477",
+          "outputs": 169,
+          "inputs": 16,
+          "status": "PASS"
+        },
+        "V": {
+          "additions": 210,
+          "source_matrix_sha256": "da2159bbfc4efb02ad58ca8849713a2348e71643f81054a2784dde5bbaf5d943",
+          "outputs": 169,
+          "inputs": 56,
+          "status": "PASS"
+        },
+        "W": {
+          "additions": 323,
+          "source_matrix_sha256": "a1d1aac51306fbba9280750163c6f4b69ea0a96d43a32e5cce7ddb365a2be797",
+          "outputs": 56,
+          "inputs": 169,
+          "status": "PASS"
+        }
+      },
+      "tensor": {
+        "status": "PASS",
+        "dimensions": [
+          4,
+          4,
+          14
+        ],
+        "rank": 169,
+        "exact_tensor_coefficients": 50176,
+        "nonzero_tensor_coefficients": 224,
+        "coordinates": "A and B row-major; C column-major",
+        "basis_change": false
+      },
+      "status": "PASS"
+    },
+    {
+      "scheme": "4x4x15_m181_cr729_fv278_cn1679_ZT_reduced",
+      "dimensions": [
+        4,
+        4,
+        15
+      ],
+      "products": 181,
+      "source_json_sha256": "cd6efc8202d561bc7fa3ced70d64dbc73e4913604ee4de31363c7642fc2ba6be",
+      "factors": {
+        "U": {
+          "additions": 163,
+          "source_matrix_sha256": "b5deb5e76c18d8d0216e199ed1487eb0567534dfa0dbde2b27c8afd29fbef684",
+          "outputs": 181,
+          "inputs": 16,
+          "status": "PASS"
+        },
+        "V": {
+          "additions": 225,
+          "source_matrix_sha256": "1db4e8c17c70e0808ba1703616d2596ecd48dc18489469b1a70c01eb17cd3da4",
+          "outputs": 181,
+          "inputs": 60,
+          "status": "PASS"
+        },
+        "W": {
+          "additions": 341,
+          "source_matrix_sha256": "379a138d4dd54b2423d49b210498bf0178220c2a7c3ff377089768cc709518ce",
+          "outputs": 60,
+          "inputs": 181,
+          "status": "PASS"
+        }
+      },
+      "tensor": {
+        "status": "PASS",
+        "dimensions": [
+          4,
+          4,
+          15
+        ],
+        "rank": 181,
+        "exact_tensor_coefficients": 57600,
+        "nonzero_tensor_coefficients": 240,
+        "coordinates": "A and B row-major; C column-major",
+        "basis_change": false
+      },
+      "status": "PASS"
+    },
+    {
+      "scheme": "4x4x16_m192_cr718_fv350_cn2059_ZT_reduced",
+      "dimensions": [
+        4,
+        4,
+        16
+      ],
+      "products": 192,
+      "source_json_sha256": "1fdde72d659497d12943d767f73b5a04b55e1a251fcebc54c7f998db03761b73",
+      "factors": {
+        "U": {
+          "additions": 88,
+          "source_matrix_sha256": "42a88eb70172cd8ca5ab2931da490acf14c9a5799b67ac7a61c18ba4b3dfff65",
+          "outputs": 192,
+          "inputs": 16,
+          "status": "PASS"
+        },
+        "V": {
+          "additions": 250,
+          "source_matrix_sha256": "84651548203264e8a8b7e49ad7d695078656995c712fb1ab0c071831d80ee6ff",
+          "outputs": 192,
+          "inputs": 64,
+          "status": "PASS"
+        },
+        "W": {
+          "additions": 380,
+          "source_matrix_sha256": "c1dd0bc4d26811a766853a73e5edfeac1531a0f1e5d97391f178d7f9ff962398",
+          "outputs": 64,
+          "inputs": 192,
+          "status": "PASS"
+        }
+      },
+      "tensor": {
+        "status": "PASS",
+        "dimensions": [
+          4,
+          4,
+          16
+        ],
+        "rank": 192,
+        "exact_tensor_coefficients": 65536,
+        "nonzero_tensor_coefficients": 256,
+        "coordinates": "A and B row-major; C column-major",
+        "basis_change": false
+      },
+      "status": "PASS"
+    },
+    {
+      "scheme": "5x5x12_m220_cr799_fv426_cn2444_ZT_reduced",
+      "dimensions": [
+        5,
+        5,
+        12
+      ],
+      "products": 220,
+      "source_json_sha256": "65f801f3bcb44d859f437538823ff7ffa45afa34b22f550598c71946fd1d13f3",
+      "factors": {
+        "U": {
+          "additions": 118,
+          "source_matrix_sha256": "87136dbed28195a60403ec4d862b179644b2a08062af133ef6c948f97c2ff8bc",
+          "outputs": 220,
+          "inputs": 25,
+          "status": "PASS"
+        },
+        "V": {
+          "additions": 260,
+          "source_matrix_sha256": "aee7ad779915141a50e8971146670ad60f7f2205d4d3d16d520cab84a11b3662",
+          "outputs": 220,
+          "inputs": 60,
+          "status": "PASS"
+        },
+        "W": {
+          "additions": 421,
+          "source_matrix_sha256": "2003e559827ccb7bf862a91dd15d608c9ece8cd76ab3e5d43716891f40897c9d",
+          "outputs": 60,
+          "inputs": 220,
+          "status": "PASS"
+        }
+      },
+      "tensor": {
+        "status": "PASS",
+        "dimensions": [
+          5,
+          5,
+          12
+        ],
+        "rank": 220,
+        "exact_tensor_coefficients": 90000,
+        "nonzero_tensor_coefficients": 300,
+        "coordinates": "A and B row-major; C column-major",
+        "basis_change": false
+      },
+      "status": "PASS"
+    },
+    {
+      "scheme": "5x6x10_m217_cr925_fv432_cn2772_ZT_reduced",
+      "dimensions": [
+        5,
+        6,
+        10
+      ],
+      "products": 217,
+      "source_json_sha256": "070b891d2276dd28c9f74ab331c8031d64ed120a6a7e11a354e6fc32bf18ef66",
+      "factors": {
+        "U": {
+          "additions": 247,
+          "source_matrix_sha256": "f113082702d08f1185527d6ece223c00c953dbc8ebf0865dbfcba479b1525f24",
+          "outputs": 217,
+          "inputs": 30,
+          "status": "PASS"
+        },
+        "V": {
+          "additions": 270,
+          "source_matrix_sha256": "33a0ad0512781eddc36b2384a5fb51dfb8efc2ce0ff7219acd0671edd7ba4bfb",
+          "outputs": 217,
+          "inputs": 60,
+          "status": "PASS"
+        },
+        "W": {
+          "additions": 408,
+          "source_matrix_sha256": "5d05926a1360c062e361051d2e3d9d0383c5cbe9ba5f07c636d8454af3a601d6",
+          "outputs": 50,
+          "inputs": 217,
+          "status": "PASS"
+        }
+      },
+      "tensor": {
+        "status": "PASS",
+        "dimensions": [
+          5,
+          6,
+          10
+        ],
+        "rank": 217,
+        "exact_tensor_coefficients": 90000,
+        "nonzero_tensor_coefficients": 300,
+        "coordinates": "A and B row-major; C column-major",
+        "basis_change": false
+      },
+      "status": "PASS"
+    },
+    {
+      "scheme": "5x7x7_m176_cr788_fv371_cn2605_ZT_reduced",
+      "dimensions": [
+        5,
+        7,
+        7
+      ],
+      "products": 176,
+      "source_json_sha256": "5dd82fa0ee198f63108e1dbf412cc33a683b3c493697180a739bf83fb89464f2",
+      "factors": {
+        "U": {
+          "additions": 205,
+          "source_matrix_sha256": "2f2fd33f3e029ea791b84abdf1d77f86f4abd23d347e46911d411f1180b3e2df",
+          "outputs": 176,
+          "inputs": 35,
+          "status": "PASS"
+        },
+        "V": {
+          "additions": 236,
+          "source_matrix_sha256": "5df6fc138883423e9b6467264760b1b4b783539b075c77e934dff1c845f1134e",
+          "outputs": 176,
+          "inputs": 49,
+          "status": "PASS"
+        },
+        "W": {
+          "additions": 347,
+          "source_matrix_sha256": "349b822f77d526fb338a9f030b854d4d9618f4ac283aad244fe3c8f0052085e0",
+          "outputs": 35,
+          "inputs": 176,
+          "status": "PASS"
+        }
+      },
+      "tensor": {
+        "status": "PASS",
+        "dimensions": [
+          5,
+          7,
+          7
+        ],
+        "rank": 176,
+        "exact_tensor_coefficients": 60025,
+        "nonzero_tensor_coefficients": 245,
+        "coordinates": "A and B row-major; C column-major",
+        "basis_change": false
+      },
+      "status": "PASS"
+    },
+    {
+      "scheme": "5x7x8_m206_cr879_fv405_cn1880_ZT_reduced",
+      "dimensions": [
+        5,
+        7,
+        8
+      ],
+      "products": 206,
+      "source_json_sha256": "d3237211b42d8a73ca86807ac3528123741f0fdcba9f533cc8630ae75329d0dc",
+      "factors": {
+        "U": {
+          "additions": 195,
+          "source_matrix_sha256": "e7041fa245eda337448843755b5873534164592afb26976f10f361109bc1384a",
+          "outputs": 206,
+          "inputs": 35,
+          "status": "PASS"
+        },
+        "V": {
+          "additions": 290,
+          "source_matrix_sha256": "3e1fc6927899312da64aa935f38eab4d0935000158f247fcb2af3b5580b2fccd",
+          "outputs": 206,
+          "inputs": 56,
+          "status": "PASS"
+        },
+        "W": {
+          "additions": 394,
+          "source_matrix_sha256": "2c3bbda770fcd3d687488f4f9d17312f27c7f4190631c9e8b491803ad7c17faa",
+          "outputs": 40,
+          "inputs": 206,
+          "status": "PASS"
+        }
+      },
+      "tensor": {
+        "status": "PASS",
+        "dimensions": [
+          5,
+          7,
+          8
+        ],
+        "rank": 206,
+        "exact_tensor_coefficients": 78400,
+        "nonzero_tensor_coefficients": 280,
+        "coordinates": "A and B row-major; C column-major",
+        "basis_change": false
+      },
+      "status": "PASS"
+    },
+    {
+      "scheme": "6x7x8_m239_cr1027_fv499_cn2263_ZT_reduced",
+      "dimensions": [
+        6,
+        7,
+        8
+      ],
+      "products": 239,
+      "source_json_sha256": "274a9e7855f6410bc6da1f5b82576008a1f4ab4014564f4e8629a368908ea1bc",
+      "factors": {
+        "U": {
+          "additions": 247,
+          "source_matrix_sha256": "7df15dc8f81d2669689437020a8a744872ac8aea7b47f3ce852e7e68ef3d948a",
+          "outputs": 239,
+          "inputs": 42,
+          "status": "PASS"
+        },
+        "V": {
+          "additions": 309,
+          "source_matrix_sha256": "1e0415af2f11d7ac2eeeebd7ba8d288ae4e9fabfdf1832e3dbc621e6a1ee88e6",
+          "outputs": 239,
+          "inputs": 56,
+          "status": "PASS"
+        },
+        "W": {
+          "additions": 471,
+          "source_matrix_sha256": "1b38113c8c5c27547354c66dca660754fdf38ea6a827159e319062a5d45a0d75",
+          "outputs": 48,
+          "inputs": 239,
+          "status": "PASS"
+        }
+      },
+      "tensor": {
+        "status": "PASS",
+        "dimensions": [
+          6,
+          7,
+          8
+        ],
+        "rank": 239,
+        "exact_tensor_coefficients": 112896,
+        "nonzero_tensor_coefficients": 336,
+        "coordinates": "A and B row-major; C column-major",
+        "basis_change": false
+      },
+      "status": "PASS"
+    },
+    {
+      "scheme": "7x7x8_m279_cr1237_fv639_cn2926_ZT_reduced",
+      "dimensions": [
+        7,
+        7,
+        8
+      ],
+      "products": 279,
+      "source_json_sha256": "540867b70490298e11e2dc8957a5672baf42a6eaeb63d96f2b9deb156509a001",
+      "factors": {
+        "U": {
+          "additions": 304,
+          "source_matrix_sha256": "ec11ea8730013ea299f455bf677b0db9aa263029d6d51166c9bed25025ba76c2",
+          "outputs": 279,
+          "inputs": 49,
+          "status": "PASS"
+        },
+        "V": {
+          "additions": 354,
+          "source_matrix_sha256": "b372772faa762a5d3d89f248288eadae3b8f51e22c56718b08f6790c1475c081",
+          "outputs": 279,
+          "inputs": 56,
+          "status": "PASS"
+        },
+        "W": {
+          "additions": 579,
+          "source_matrix_sha256": "6eec37c2cc5c1d313f94b71e0e7d0e9201664d733ce0e3d35d4061638f83d57a",
+          "outputs": 56,
+          "inputs": 279,
+          "status": "PASS"
+        }
+      },
+      "tensor": {
+        "status": "PASS",
+        "dimensions": [
+          7,
+          7,
+          8
+        ],
+        "rank": 279,
+        "exact_tensor_coefficients": 153664,
+        "nonzero_tensor_coefficients": 392,
+        "coordinates": "A and B row-major; C column-major",
+        "basis_change": false
+      },
+      "status": "PASS"
+    }
+  ],
+  "elapsed_seconds": 2.5740310829132795,
+  "source_repository": "https://github.com/dronperminov/FastMatrixMultiplication",
+  "source_commit": "6c75fd36564b177165d6968efd4c9e6199266191",
+  "archive_sha256": "4e8f68b53e5362038da34e4b5806fa458c748b0c25ccbc69de4da04c8a40db41",
+  "basis_change": false,
+  "coordinates": "A and B row-major; C column-major"
+}
