@@ -1,0 +1,87 @@
+{
+  "status": "PASS",
+  "scope": "Standalone ZIP extracted into fresh temporary directory, standard-library verifier, all six tensors and six native intermediate witnesses.",
+  "sha256": "eb80815cc2504ff9d9ea18bd85420f13f2a505a313e417dbb03f6f547edfa264",
+  "bytes": 270300,
+  "seconds": 2.2710355408489704,
+  "schemes": [
+    {
+      "scheme": "3x6x8",
+      "rank": 113,
+      "counts": {
+        "U": 56,
+        "V": 155,
+        "W": 200
+      },
+      "total_additions": 411,
+      "previous_total_additions": 414,
+      "total_scalar_operations": 524,
+      "status": "PASS"
+    },
+    {
+      "scheme": "4x4x16",
+      "rank": 192,
+      "counts": {
+        "U": 75,
+        "V": 220,
+        "W": 339
+      },
+      "total_additions": 634,
+      "previous_total_additions": 640,
+      "total_scalar_operations": 826,
+      "status": "PASS"
+    },
+    {
+      "scheme": "5x5x12",
+      "rank": 220,
+      "counts": {
+        "U": 105,
+        "V": 230,
+        "W": 387
+      },
+      "total_additions": 722,
+      "previous_total_additions": 724,
+      "total_scalar_operations": 942,
+      "status": "PASS"
+    },
+    {
+      "scheme": "6x7x8",
+      "rank": 239,
+      "counts": {
+        "U": 219,
+        "V": 280,
+        "W": 454
+      },
+      "total_additions": 953,
+      "previous_total_additions": 954,
+      "total_scalar_operations": 1192,
+      "status": "PASS"
+    },
+    {
+      "scheme": "4x4x14",
+      "rank": 169,
+      "counts": {
+        "U": 137,
+        "V": 187,
+        "W": 294
+      },
+      "total_additions": 618,
+      "previous_total_additions": 621,
+      "total_scalar_operations": 787,
+      "status": "PASS"
+    },
+    {
+      "scheme": "5x7x7",
+      "rank": 176,
+      "counts": {
+        "U": 177,
+        "V": 204,
+        "W": 314
+      },
+      "total_additions": 695,
+      "previous_total_additions": 696,
+      "total_scalar_operations": 871,
+      "status": "PASS"
+    }
+  ]
+}

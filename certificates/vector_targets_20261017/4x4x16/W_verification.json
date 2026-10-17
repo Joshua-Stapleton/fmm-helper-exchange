@@ -1,0 +1,37 @@
+{
+  "case_id": "hl_4x4x16_Wt",
+  "local_signed_additions": 211,
+  "returned_signed_additions": 339,
+  "orientation": {
+    "status": "OPTIMAL",
+    "elapsed_seconds": 0.002177,
+    "input_signs_fixed": true,
+    "ordered_output_signs_fixed": true,
+    "exact_original_map_verified": true,
+    "binary_additions": 339,
+    "unary_negations": 0,
+    "nonunit_scalars": 0,
+    "unused_gates": 0,
+    "scope": "Sign-assignment feasibility only; solver status is not an addition-count optimality claim."
+  },
+  "previous_strict_additions": 343,
+  "transposed_search": true,
+  "basis_change": false,
+  "multiplication_rank_unchanged": true,
+  "status": "EXACT_ORIGINAL_MAP_PASS",
+  "counts": {
+    "binary_additions": 339,
+    "unary_negations": 0,
+    "nonunit_scalars": 0,
+    "unused_noninput_assignments": 0
+  },
+  "improvement": 4,
+  "derivation": {
+    "stage": "pooled",
+    "case_id": "hl_4x4x16_Wt",
+    "arm": "baseline_frozen",
+    "control": "Achieved by the frozen historical donor bank alone; not credited to newly generated native vector hints."
+  },
+  "previous_literal_sha256": "7eaea0329fab2f7db60c5b9ba79dde8e805c7346dcf42ca395e9c0960536a443",
+  "original_matrix_sha256": "c1dd0bc4d26811a766853a73e5edfeac1531a0f1e5d97391f178d7f9ff962398"
+}

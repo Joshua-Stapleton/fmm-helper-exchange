@@ -1,0 +1,22 @@
+{
+  "schema": "portable-v2-existing-pool-inputs-v1",
+  "inputs": [
+    {
+      "case_id": "old_3x6x8_V",
+      "file": "data/old_3x6x8_V.pool.json",
+      "sha256": "2ac974f9af8b12241f8fd078a05521dfeb42b7a60e91aaefaa73beceb0351f10",
+      "source_workspace_relative": "experiments/perminov_reoptimization_20261009/rounds_368/V/repool_guided/pool.json",
+      "forms": 806,
+      "productions": 4517
+    },
+    {
+      "case_id": "hl_4x4x16_V",
+      "file": "data/hl_4x4x16_V.pool.json",
+      "sha256": "e50fdfa599fb0def9c01f5ba6c3d4601f3742c1ae3398a6126ebd4dc67b6ab4d",
+      "source_workspace_relative": "experiments/perminov_hl_tests_20261016/group_a/13_4x4x16_m192_cr718_fv350_cn2059_ZT_reduced_V/pool.json",
+      "forms": 677,
+      "productions": 3418
+    }
+  ],
+  "note": "Exact existing pools only; no newly generated native winning circuits enter selector scoring."
+}

@@ -1,0 +1,30 @@
+{
+  "schema": "output-only-v2-native-removal-schedules-v1",
+  "cases": [
+    {
+      "case_id": "old_3x6x8_V",
+      "selection": "<experiment>/guidance/v2/old_3x6x8_V.selection.json",
+      "schedule": "<experiment>/guidance/v2/old_3x6x8_V.guided.csv",
+      "schedule_sha256": "2c1fa4042070c4dfc7fe60d4edbc48d19e731d5d05458e2f2c51cf961a82abe5",
+      "pool_file": "<workspace>/experiments/perminov_reoptimization_20261009/rounds_368/V/repool_guided/pool.json",
+      "selector_wall_seconds": 1.0119859999977052,
+      "trials": 16,
+      "source": "frozen original benchmark incumbent, not newly improved results"
+    },
+    {
+      "case_id": "hl_4x4x16_V",
+      "selection": "<experiment>/guidance/v2/hl_4x4x16_V.selection.json",
+      "schedule": "<experiment>/guidance/v2/hl_4x4x16_V.guided.csv",
+      "schedule_sha256": "74a2f07036975809dd506263fc13ecea906e489f9c9e6d80ccfab71966b3939c",
+      "pool_file": "<workspace>/experiments/perminov_hl_tests_20261016/group_a/13_4x4x16_m192_cr718_fv350_cn2059_ZT_reduced_V/pool.json",
+      "selector_wall_seconds": 0.941555957775563,
+      "trials": 16,
+      "source": "frozen original benchmark incumbent, not newly improved results"
+    }
+  ],
+  "v1_schedules_changed": false,
+  "seed": 17017,
+  "date": "2026-10-17",
+  "source_sha256": "1deb18c909cf0c6d38540508c245f53c6d38d90c76cc7831bad27e83f3853f2a",
+  "note": "Post-main-study semantic refinement; does not consume winning native circuits or outcomes for score computation."
+}

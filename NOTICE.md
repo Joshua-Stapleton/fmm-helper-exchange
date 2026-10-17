@@ -17,6 +17,16 @@ Important sources:
 
 Upstream notices and licenses included with data/certificates remain applicable. No new blanket license in this release overrides upstream rights. File-level provenance records identify portable adaptations and original source hashes. Arithmetic certificates establish their stated identities and counts; neither those checks nor repository publication establishes literature priority or peer review.
 
+The October 17 study uses Perminov's unmodified `new-improvements` library at
+`7c8b59864e000bdc880938428d8a1991ec1f0bea`. Retaining helper vectors as optional
+wanted forms, omitting one through eight helpers, and the native vector-cover
+solver are his contributions. The API adapter, frozen comparisons, guided
+omission heuristics and their negative controls, exact donor provenance,
+combination with existing pool reconstruction, and portable certificates are
+separate experimental code. The upstream MIT notice is retained under
+`methods/linear/reconstruction/vector_targets/toolchain/UPSTREAM_LICENSE`.
+The four-addition 4x4x16 W improvement came from the previous frozen bank alone.
+
 The October12 archive campaign preserves nineteen existing Perminov decompositions and their product ranks. Its batch wrappers combine credited external donor/completion methods, actual weighted HelperPool sampling, exact pooled reconnection and charged linear transposition. Weighted intake explicitly materializes binary terminal sums; it is distinct from the native-boundary replication study. The experiments certify the supplied fixed maps, with no claim of a generally optimal minimizer.
 
 The October12 binary-circuit study preserves NIST's source circuits at

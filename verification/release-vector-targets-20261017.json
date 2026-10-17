@@ -1,0 +1,285 @@
+{
+  "status": "PASS",
+  "file_hashes": 2043,
+  "full_proofs_replayed": false,
+  "optional_solver_checks": false,
+  "seconds": 29.378,
+  "results": [
+    {
+      "check": "root-wt",
+      "status": "PASS",
+      "seconds": 0.068,
+      "output_sha256": "7ad36238a50e885707c2f09483eba906665429210f157e0133a9383a10154100"
+    },
+    {
+      "check": "root-u",
+      "status": "PASS",
+      "seconds": 0.079,
+      "output_sha256": "9c69ab1c5e3e0087b14204dd3b0b748c2c498c307fced04e6836d0023a72c725"
+    },
+    {
+      "check": "circuit-controls",
+      "status": "PASS",
+      "seconds": 0.062,
+      "output_sha256": "2fc13a4f28cc260a8b04f15e44c766dbd10440ffcfecfa84555288805450ff10"
+    },
+    {
+      "check": "linear-controls",
+      "status": "PASS",
+      "seconds": 0.139,
+      "output_sha256": "aa07c6e94c77d0b87eb06c3147b27050d00947e089a8769c4a3df74eb9811f97"
+    },
+    {
+      "check": "reconstruction-controls",
+      "status": "PASS",
+      "seconds": 0.072,
+      "output_sha256": "e77d9d4a2e7148d4af25ab94f8ec9481cdcfaeeff1834714ec0c67be06cce2fd"
+    },
+    {
+      "check": "pooled-start-controls",
+      "status": "PASS",
+      "seconds": 0.066,
+      "output_sha256": "69e0bad1d971aaa4c2e4e1885428b0dce96065a6671f74eb33f515822890155f"
+    },
+    {
+      "check": "output-forest-controls",
+      "status": "PASS",
+      "seconds": 0.142,
+      "output_sha256": "62a0e16c33994783245c4f253dbcbcbefe9b5fe43aa3a9f7bc739a066665021f"
+    },
+    {
+      "check": "adjoint-pool-controls",
+      "status": "PASS",
+      "seconds": 0.078,
+      "output_sha256": "531ce24905e026e5d6af2dc7ce0258f0bc12d1a6c2dc863b006e5521019ad2db"
+    },
+    {
+      "check": "adjoint-pool-witnesses",
+      "status": "PASS",
+      "seconds": 0.665,
+      "output_sha256": "ce87eef5b33596297a04ea6041b83d33c315a02ce39f12713c774714146338f0"
+    },
+    {
+      "check": "new-tests-18",
+      "status": "PASS",
+      "seconds": 2.326,
+      "output_sha256": "82b98fcd281353551a731abb3056bf22f09db323f9cc34e7da711a5451b96caf"
+    },
+    {
+      "check": "tests12-57",
+      "status": "PASS",
+      "seconds": 3.953,
+      "output_sha256": "487c6dc4a1d4d34a900843cec2c5ec4f19f31d32e637c031097e88e308d1733c"
+    },
+    {
+      "check": "hl-tests-57",
+      "status": "PASS",
+      "seconds": 5.449,
+      "output_sha256": "3db54c3774a2ccfd78faf344c81d3ef4e6d3d5836da70f3cf10ec457ef10a5a5"
+    },
+    {
+      "check": "vector-target-certificates",
+      "status": "PASS",
+      "seconds": 2.212,
+      "output_sha256": "a2933b149de83b2c3e4444e1d51d5216cfd1f0f2d2a4d5a8fe886ebd0a4ddd2a"
+    },
+    {
+      "check": "vector-target-frozen-bank",
+      "status": "PASS",
+      "seconds": 0.604,
+      "output_sha256": "d0e67338993d2cc37ddefc596befa279829a24476712d2dfa6904a699236f669"
+    },
+    {
+      "check": "vector-target-removal-controls",
+      "status": "PASS",
+      "seconds": 0.071,
+      "output_sha256": "74c03fc16fde9a2dfeff03db0ec8f472a5a8dfed04e9e982a912b4b7f64faee3"
+    },
+    {
+      "check": "vector-target-form-accounting",
+      "status": "PASS",
+      "seconds": 0.062,
+      "output_sha256": "33060fd73862c5e1af97335504d5b45211fce6d229657f556d8deceeadc52ce4"
+    },
+    {
+      "check": "vector-target-optional-score",
+      "status": "PASS",
+      "seconds": 0.064,
+      "output_sha256": "6273232de4d3ef7acd4ecafa5c86beeeb974f56586b21089a2990b3f72facbe6"
+    },
+    {
+      "check": "gf2-mixcolumns-study",
+      "status": "PASS",
+      "seconds": 0.464,
+      "output_sha256": "15e2fe1497ffab8dfc9edf2f086c9cd2dca2d9ae0f40c871accbc77d665d3902"
+    },
+    {
+      "check": "pool-method-data",
+      "status": "PASS",
+      "seconds": 1.382,
+      "output_sha256": "63d40b2dd53a11886630e787e9d72e7e60d684bc1708c745ab1b1d3b92c37ed9"
+    },
+    {
+      "check": "pool-driver-guards",
+      "status": "PASS",
+      "seconds": 0.13,
+      "output_sha256": "c165baccae2f4240ecbbb53a1b5ed7dcbfe88003a1a9607f42435ca01bad267f"
+    },
+    {
+      "check": "complete-walk-controls",
+      "status": "PASS",
+      "seconds": 0.064,
+      "output_sha256": "feabb4add9e2ca3374e538560634d1ec97dc4f4ce89aab12f3d726e36ea9b2f6"
+    },
+    {
+      "check": "forest-witnesses",
+      "status": "PASS",
+      "seconds": 1.581,
+      "output_sha256": "9cf4617f1b850b06b5a3fa3f5dc0bd3daba725c4574a13aa1abbab9ec7fb18e5"
+    },
+    {
+      "check": "577-full-scheme",
+      "status": "PASS",
+      "seconds": 0.336,
+      "output_sha256": "c6933b326ff163fd84f92d23dbf441e7b4e3601815e226b5a2fb558a4c34b652"
+    },
+    {
+      "check": "pooled-start-pilot",
+      "status": "PASS",
+      "seconds": 0.145,
+      "output_sha256": "562c8c3d256eec8c19ad756f96628e552e5481d6a73b3916a9d4604fae7196d5"
+    },
+    {
+      "check": "fixed-maps-20261009",
+      "status": "PASS",
+      "seconds": 0.596,
+      "output_sha256": "eabc07f95ae30a5b3d7cf91d778f0dc9c7e15427e0e1f7e2e9c4b232d9c3626b"
+    },
+    {
+      "check": "347-V78",
+      "status": "PASS",
+      "seconds": 0.056,
+      "output_sha256": "bb83c274f9ffeda4b431b482b51f33bfd4c268ab3666b90558080837c021a679"
+    },
+    {
+      "check": "558-V161",
+      "status": "PASS",
+      "seconds": 0.067,
+      "output_sha256": "e389eba05d484150f94b50db697a130fdcaad81f1916dff0cdf949761c730f82"
+    },
+    {
+      "check": "788-V401",
+      "status": "PASS",
+      "seconds": 0.104,
+      "output_sha256": "a1aa1ed21e3f50487bef62386c7ebfc8506b8e81c49d5522fa2542cad8bad1f5"
+    },
+    {
+      "check": "test-archive-25",
+      "status": "PASS",
+      "seconds": 2.812,
+      "output_sha256": "71068623eaf32d6d3c50243753b587e47297f4b98df5c6197380b4aa755708f6"
+    },
+    {
+      "check": "tensor-factor-controls",
+      "status": "PASS",
+      "seconds": 0.611,
+      "output_sha256": "a87b3986629880344e0f0e2c251af9c0e4d8f2a17e78210451d99b12fbe9c229"
+    },
+    {
+      "check": "projective-direction-controls",
+      "status": "PASS",
+      "seconds": 0.32,
+      "output_sha256": "f34c68b5a8d3fc441ef2cedd22727d938feec0b4ceed3fecb9073a24fa7c384e"
+    },
+    {
+      "check": "transform-controls",
+      "status": "PASS",
+      "seconds": 0.294,
+      "output_sha256": "2152a2a11a3d95d85b8a3be4620c9e8f16062cd8513d379ee425ab4ed8ac9269"
+    },
+    {
+      "check": "queue-controls",
+      "status": "PASS",
+      "seconds": 0.138,
+      "output_sha256": "b9ba6442c95876138526fec949f1e813b286c0ffcc021435d55eb5d2b50dd6ed"
+    },
+    {
+      "check": "555-332",
+      "status": "PASS",
+      "seconds": 0.049,
+      "output_sha256": "9461e55b6fb0c8e533e2ee99bfbf61b643f33643804fba137ac679d693f88236"
+    },
+    {
+      "check": "444-169-43",
+      "status": "PASS",
+      "seconds": 0.446,
+      "output_sha256": "4de52db15f5b1705896ba1afcbe652c781bed7c497082cf0ca81233c051da065"
+    },
+    {
+      "check": "444-204-storage",
+      "status": "PASS",
+      "seconds": 0.256,
+      "output_sha256": "5ed9a384aa41dd40af5ded4bc2c0f5bbaef684e1c701943d0416883a1ebf8d62"
+    },
+    {
+      "check": "888-1250-268",
+      "status": "PASS",
+      "seconds": 0.828,
+      "output_sha256": "d25aca11f06a24f62cf834b5708e2f5bd5017142b65fdc7d1c14fdffc98eab19"
+    },
+    {
+      "check": "233-36-10",
+      "status": "PASS",
+      "seconds": 0.062,
+      "output_sha256": "461afd5839c56ddc5c3bcad0686877d357165f5e63f8ab7f1e4fd10ed2161abe"
+    },
+    {
+      "check": "323-33-10",
+      "status": "PASS",
+      "seconds": 0.063,
+      "output_sha256": "54bdeb16987f84b59110bdea261127cd19460235810874e0c379d050a87ebcd5"
+    },
+    {
+      "check": "small-uppers",
+      "status": "PASS",
+      "seconds": 0.119,
+      "output_sha256": "bf909fccb53db6003d25bb5a264417783567b6d770f1a472027172769a7ae4d3"
+    },
+    {
+      "check": "segre-transform",
+      "status": "PASS",
+      "seconds": 0.512,
+      "output_sha256": "5f591a707d0b7f2d97379f1cf16b5183145427a67d42917362452f413d9a5121"
+    },
+    {
+      "check": "span-move-controls",
+      "status": "PASS",
+      "seconds": 0.036,
+      "output_sha256": "296fe3cdee35168e44fee8f2722c3dd5481c0dc6b36a96f407c91766340ef65c"
+    },
+    {
+      "check": "recurrence",
+      "status": "PASS",
+      "seconds": 0.037,
+      "output_sha256": "f20ad248586e3d05c7879484d307fa8a35494fe99afc9b1aa931f1913238c03b"
+    },
+    {
+      "check": "shear-distance",
+      "status": "PASS",
+      "seconds": 0.043,
+      "output_sha256": "7fa74c33557668a7caa32c41f58297f396995c1290f30effc346515cfd1457df"
+    },
+    {
+      "check": "roundoff",
+      "status": "PASS",
+      "seconds": 1.033,
+      "output_sha256": "1f4ae5f12dd97635fb2563854469b95e96c803de7032b316ae64a0705329bb48"
+    },
+    {
+      "check": "666-587",
+      "status": "PASS",
+      "seconds": 0.074,
+      "output_sha256": "4c75510e0769e3be1f8ddd18bbde85e04f882dcc443da8e60aff19bbe86f760a"
+    }
+  ]
+}

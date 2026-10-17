@@ -1,0 +1,736 @@
+{
+  "native_study_sha256": "7075f5841ff64ee8fd956ef7a8d06678fe3ece0e2e8fe04f423d6467c50a84c6",
+  "jobs": [
+    {
+      "case": "hl_3x4x7_V",
+      "arm": "baseline_frozen",
+      "banks": [
+        "<experiment>/benchmarks/hl_3x4x7_V/donors.json"
+      ],
+      "seconds": 5,
+      "seed": 11578264
+    },
+    {
+      "case": "hl_3x4x7_V",
+      "arm": "helpers",
+      "banks": [
+        "<experiment>/benchmarks/hl_3x4x7_V/donors.json",
+        "<experiment>/native_study/main/hl_3x4x7_V/helpers/export/donors.json"
+      ],
+      "seconds": 5,
+      "seed": 11578264
+    },
+    {
+      "case": "hl_3x4x7_V",
+      "arm": "vectors",
+      "banks": [
+        "<experiment>/benchmarks/hl_3x4x7_V/donors.json",
+        "<experiment>/native_study/main/hl_3x4x7_V/vectors/export/donors.json"
+      ],
+      "seconds": 5,
+      "seed": 11578264
+    },
+    {
+      "case": "hl_3x4x7_V",
+      "arm": "mixed",
+      "banks": [
+        "<experiment>/benchmarks/hl_3x4x7_V/donors.json",
+        "<experiment>/native_study/main/hl_3x4x7_V/mixed/export/donors.json"
+      ],
+      "seconds": 5,
+      "seed": 11578264
+    },
+    {
+      "case": "hl_3x4x7_V",
+      "arm": "guided",
+      "banks": [
+        "<experiment>/benchmarks/hl_3x4x7_V/donors.json",
+        "<experiment>/native_study/main/hl_3x4x7_V/guided/export/donors.json"
+      ],
+      "seconds": 5,
+      "seed": 11578264
+    },
+    {
+      "case": "hl_3x4x7_V",
+      "arm": "balanced_random",
+      "banks": [
+        "<experiment>/benchmarks/hl_3x4x7_V/donors.json",
+        "<experiment>/native_study/main/hl_3x4x7_V/balanced_random/export/donors.json"
+      ],
+      "seconds": 5,
+      "seed": 11578264
+    },
+    {
+      "case": "hl_3x4x7_V",
+      "arm": "combined",
+      "banks": [
+        "<experiment>/benchmarks/hl_3x4x7_V/donors.json",
+        "<experiment>/native_study/main/hl_3x4x7_V/helpers/export/donors.json",
+        "<experiment>/native_study/main/hl_3x4x7_V/vectors/export/donors.json",
+        "<experiment>/native_study/main/hl_3x4x7_V/mixed/export/donors.json",
+        "<experiment>/native_study/main/hl_3x4x7_V/guided/export/donors.json",
+        "<experiment>/native_study/main/hl_3x4x7_V/balanced_random/export/donors.json"
+      ],
+      "seconds": 8,
+      "seed": 11578264
+    },
+    {
+      "case": "hl_3x6x6_V",
+      "arm": "baseline_frozen",
+      "banks": [
+        "<experiment>/benchmarks/hl_3x6x6_V/donors.json"
+      ],
+      "seconds": 5,
+      "seed": 700729
+    },
+    {
+      "case": "hl_3x6x6_V",
+      "arm": "helpers",
+      "banks": [
+        "<experiment>/benchmarks/hl_3x6x6_V/donors.json",
+        "<experiment>/native_study/main/hl_3x6x6_V/helpers/export/donors.json"
+      ],
+      "seconds": 5,
+      "seed": 700729
+    },
+    {
+      "case": "hl_3x6x6_V",
+      "arm": "mixed",
+      "banks": [
+        "<experiment>/benchmarks/hl_3x6x6_V/donors.json",
+        "<experiment>/native_study/main/hl_3x6x6_V/mixed/export/donors.json"
+      ],
+      "seconds": 5,
+      "seed": 700729
+    },
+    {
+      "case": "hl_3x6x6_V",
+      "arm": "vectors",
+      "banks": [
+        "<experiment>/benchmarks/hl_3x6x6_V/donors.json",
+        "<experiment>/native_study/main/hl_3x6x6_V/vectors/export/donors.json"
+      ],
+      "seconds": 5,
+      "seed": 700729
+    },
+    {
+      "case": "hl_3x6x6_V",
+      "arm": "guided",
+      "banks": [
+        "<experiment>/benchmarks/hl_3x6x6_V/donors.json",
+        "<experiment>/native_study/main/hl_3x6x6_V/guided/export/donors.json"
+      ],
+      "seconds": 5,
+      "seed": 700729
+    },
+    {
+      "case": "hl_3x6x6_V",
+      "arm": "balanced_random",
+      "banks": [
+        "<experiment>/benchmarks/hl_3x6x6_V/donors.json",
+        "<experiment>/native_study/main/hl_3x6x6_V/balanced_random/export/donors.json"
+      ],
+      "seconds": 5,
+      "seed": 700729
+    },
+    {
+      "case": "hl_3x6x6_V",
+      "arm": "combined",
+      "banks": [
+        "<experiment>/benchmarks/hl_3x6x6_V/donors.json",
+        "<experiment>/native_study/main/hl_3x6x6_V/helpers/export/donors.json",
+        "<experiment>/native_study/main/hl_3x6x6_V/mixed/export/donors.json",
+        "<experiment>/native_study/main/hl_3x6x6_V/vectors/export/donors.json",
+        "<experiment>/native_study/main/hl_3x6x6_V/guided/export/donors.json",
+        "<experiment>/native_study/main/hl_3x6x6_V/balanced_random/export/donors.json"
+      ],
+      "seconds": 8,
+      "seed": 700729
+    },
+    {
+      "case": "old_3x6x8_V",
+      "arm": "baseline_frozen",
+      "banks": [
+        "<experiment>/benchmarks/old_3x6x8_V/donors.json"
+      ],
+      "seconds": 5,
+      "seed": 12897669
+    },
+    {
+      "case": "old_3x6x8_V",
+      "arm": "helpers",
+      "banks": [
+        "<experiment>/benchmarks/old_3x6x8_V/donors.json",
+        "<experiment>/native_study/main/old_3x6x8_V/helpers/export/donors.json"
+      ],
+      "seconds": 5,
+      "seed": 12897669
+    },
+    {
+      "case": "old_3x6x8_V",
+      "arm": "vectors",
+      "banks": [
+        "<experiment>/benchmarks/old_3x6x8_V/donors.json",
+        "<experiment>/native_study/main/old_3x6x8_V/vectors/export/donors.json"
+      ],
+      "seconds": 5,
+      "seed": 12897669
+    },
+    {
+      "case": "old_3x6x8_V",
+      "arm": "mixed",
+      "banks": [
+        "<experiment>/benchmarks/old_3x6x8_V/donors.json",
+        "<experiment>/native_study/main/old_3x6x8_V/mixed/export/donors.json"
+      ],
+      "seconds": 5,
+      "seed": 12897669
+    },
+    {
+      "case": "old_3x6x8_V",
+      "arm": "guided",
+      "banks": [
+        "<experiment>/benchmarks/old_3x6x8_V/donors.json",
+        "<experiment>/native_study/main/old_3x6x8_V/guided/export/donors.json"
+      ],
+      "seconds": 5,
+      "seed": 12897669
+    },
+    {
+      "case": "old_3x6x8_V",
+      "arm": "balanced_random",
+      "banks": [
+        "<experiment>/benchmarks/old_3x6x8_V/donors.json",
+        "<experiment>/native_study/main/old_3x6x8_V/balanced_random/export/donors.json"
+      ],
+      "seconds": 5,
+      "seed": 12897669
+    },
+    {
+      "case": "old_3x6x8_V",
+      "arm": "combined",
+      "banks": [
+        "<experiment>/benchmarks/old_3x6x8_V/donors.json",
+        "<experiment>/native_study/main/old_3x6x8_V/helpers/export/donors.json",
+        "<experiment>/native_study/main/old_3x6x8_V/vectors/export/donors.json",
+        "<experiment>/native_study/main/old_3x6x8_V/mixed/export/donors.json",
+        "<experiment>/native_study/main/old_3x6x8_V/guided/export/donors.json",
+        "<experiment>/native_study/main/old_3x6x8_V/balanced_random/export/donors.json"
+      ],
+      "seconds": 8,
+      "seed": 12897669
+    },
+    {
+      "case": "hl_5x7x7_U",
+      "arm": "baseline_frozen",
+      "banks": [
+        "<experiment>/benchmarks/hl_5x7x7_U/donors.json"
+      ],
+      "seconds": 5,
+      "seed": 9880681
+    },
+    {
+      "case": "hl_5x7x7_U",
+      "arm": "helpers",
+      "banks": [
+        "<experiment>/benchmarks/hl_5x7x7_U/donors.json",
+        "<experiment>/native_study/main/hl_5x7x7_U/helpers/export/donors.json"
+      ],
+      "seconds": 5,
+      "seed": 9880681
+    },
+    {
+      "case": "hl_5x7x7_U",
+      "arm": "vectors",
+      "banks": [
+        "<experiment>/benchmarks/hl_5x7x7_U/donors.json",
+        "<experiment>/native_study/main/hl_5x7x7_U/vectors/export/donors.json"
+      ],
+      "seconds": 5,
+      "seed": 9880681
+    },
+    {
+      "case": "hl_5x7x7_U",
+      "arm": "mixed",
+      "banks": [
+        "<experiment>/benchmarks/hl_5x7x7_U/donors.json",
+        "<experiment>/native_study/main/hl_5x7x7_U/mixed/export/donors.json"
+      ],
+      "seconds": 5,
+      "seed": 9880681
+    },
+    {
+      "case": "hl_5x7x7_U",
+      "arm": "guided",
+      "banks": [
+        "<experiment>/benchmarks/hl_5x7x7_U/donors.json",
+        "<experiment>/native_study/main/hl_5x7x7_U/guided/export/donors.json"
+      ],
+      "seconds": 5,
+      "seed": 9880681
+    },
+    {
+      "case": "hl_5x7x7_U",
+      "arm": "balanced_random",
+      "banks": [
+        "<experiment>/benchmarks/hl_5x7x7_U/donors.json",
+        "<experiment>/native_study/main/hl_5x7x7_U/balanced_random/export/donors.json"
+      ],
+      "seconds": 5,
+      "seed": 9880681
+    },
+    {
+      "case": "hl_5x7x7_U",
+      "arm": "combined",
+      "banks": [
+        "<experiment>/benchmarks/hl_5x7x7_U/donors.json",
+        "<experiment>/native_study/main/hl_5x7x7_U/helpers/export/donors.json",
+        "<experiment>/native_study/main/hl_5x7x7_U/vectors/export/donors.json",
+        "<experiment>/native_study/main/hl_5x7x7_U/mixed/export/donors.json",
+        "<experiment>/native_study/main/hl_5x7x7_U/guided/export/donors.json",
+        "<experiment>/native_study/main/hl_5x7x7_U/balanced_random/export/donors.json"
+      ],
+      "seconds": 8,
+      "seed": 9880681
+    },
+    {
+      "case": "hl_5x7x7_V",
+      "arm": "baseline_frozen",
+      "banks": [
+        "<experiment>/benchmarks/hl_5x7x7_V/donors.json"
+      ],
+      "seconds": 5,
+      "seed": 10134917
+    },
+    {
+      "case": "hl_5x7x7_V",
+      "arm": "helpers",
+      "banks": [
+        "<experiment>/benchmarks/hl_5x7x7_V/donors.json",
+        "<experiment>/native_study/main/hl_5x7x7_V/helpers/export/donors.json"
+      ],
+      "seconds": 5,
+      "seed": 10134917
+    },
+    {
+      "case": "hl_5x7x7_V",
+      "arm": "vectors",
+      "banks": [
+        "<experiment>/benchmarks/hl_5x7x7_V/donors.json",
+        "<experiment>/native_study/main/hl_5x7x7_V/vectors/export/donors.json"
+      ],
+      "seconds": 5,
+      "seed": 10134917
+    },
+    {
+      "case": "hl_5x7x7_V",
+      "arm": "mixed",
+      "banks": [
+        "<experiment>/benchmarks/hl_5x7x7_V/donors.json",
+        "<experiment>/native_study/main/hl_5x7x7_V/mixed/export/donors.json"
+      ],
+      "seconds": 5,
+      "seed": 10134917
+    },
+    {
+      "case": "hl_5x7x7_V",
+      "arm": "guided",
+      "banks": [
+        "<experiment>/benchmarks/hl_5x7x7_V/donors.json",
+        "<experiment>/native_study/main/hl_5x7x7_V/guided/export/donors.json"
+      ],
+      "seconds": 5,
+      "seed": 10134917
+    },
+    {
+      "case": "hl_5x7x7_V",
+      "arm": "balanced_random",
+      "banks": [
+        "<experiment>/benchmarks/hl_5x7x7_V/donors.json",
+        "<experiment>/native_study/main/hl_5x7x7_V/balanced_random/export/donors.json"
+      ],
+      "seconds": 5,
+      "seed": 10134917
+    },
+    {
+      "case": "hl_5x7x7_V",
+      "arm": "combined",
+      "banks": [
+        "<experiment>/benchmarks/hl_5x7x7_V/donors.json",
+        "<experiment>/native_study/main/hl_5x7x7_V/helpers/export/donors.json",
+        "<experiment>/native_study/main/hl_5x7x7_V/vectors/export/donors.json",
+        "<experiment>/native_study/main/hl_5x7x7_V/mixed/export/donors.json",
+        "<experiment>/native_study/main/hl_5x7x7_V/guided/export/donors.json",
+        "<experiment>/native_study/main/hl_5x7x7_V/balanced_random/export/donors.json"
+      ],
+      "seconds": 8,
+      "seed": 10134917
+    },
+    {
+      "case": "hl_4x4x16_V",
+      "arm": "baseline_frozen",
+      "banks": [
+        "<experiment>/benchmarks/hl_4x4x16_V/donors.json"
+      ],
+      "seconds": 5,
+      "seed": 8639507
+    },
+    {
+      "case": "hl_4x4x16_V",
+      "arm": "helpers",
+      "banks": [
+        "<experiment>/benchmarks/hl_4x4x16_V/donors.json",
+        "<experiment>/native_study/main/hl_4x4x16_V/helpers/export/donors.json"
+      ],
+      "seconds": 5,
+      "seed": 8639507
+    },
+    {
+      "case": "hl_4x4x16_V",
+      "arm": "vectors",
+      "banks": [
+        "<experiment>/benchmarks/hl_4x4x16_V/donors.json",
+        "<experiment>/native_study/main/hl_4x4x16_V/vectors/export/donors.json"
+      ],
+      "seconds": 5,
+      "seed": 8639507
+    },
+    {
+      "case": "hl_4x4x16_V",
+      "arm": "mixed",
+      "banks": [
+        "<experiment>/benchmarks/hl_4x4x16_V/donors.json",
+        "<experiment>/native_study/main/hl_4x4x16_V/mixed/export/donors.json"
+      ],
+      "seconds": 5,
+      "seed": 8639507
+    },
+    {
+      "case": "hl_4x4x16_V",
+      "arm": "guided",
+      "banks": [
+        "<experiment>/benchmarks/hl_4x4x16_V/donors.json",
+        "<experiment>/native_study/main/hl_4x4x16_V/guided/export/donors.json"
+      ],
+      "seconds": 5,
+      "seed": 8639507
+    },
+    {
+      "case": "hl_4x4x16_V",
+      "arm": "balanced_random",
+      "banks": [
+        "<experiment>/benchmarks/hl_4x4x16_V/donors.json",
+        "<experiment>/native_study/main/hl_4x4x16_V/balanced_random/export/donors.json"
+      ],
+      "seconds": 5,
+      "seed": 8639507
+    },
+    {
+      "case": "hl_4x4x16_V",
+      "arm": "combined",
+      "banks": [
+        "<experiment>/benchmarks/hl_4x4x16_V/donors.json",
+        "<experiment>/native_study/main/hl_4x4x16_V/helpers/export/donors.json",
+        "<experiment>/native_study/main/hl_4x4x16_V/vectors/export/donors.json",
+        "<experiment>/native_study/main/hl_4x4x16_V/mixed/export/donors.json",
+        "<experiment>/native_study/main/hl_4x4x16_V/guided/export/donors.json",
+        "<experiment>/native_study/main/hl_4x4x16_V/balanced_random/export/donors.json"
+      ],
+      "seconds": 8,
+      "seed": 8639507
+    },
+    {
+      "case": "hl_5x5x12_V",
+      "arm": "baseline_frozen",
+      "banks": [
+        "<experiment>/benchmarks/hl_5x5x12_V/donors.json"
+      ],
+      "seconds": 5,
+      "seed": 16322024
+    },
+    {
+      "case": "hl_5x5x12_V",
+      "arm": "helpers",
+      "banks": [
+        "<experiment>/benchmarks/hl_5x5x12_V/donors.json",
+        "<experiment>/native_study/main/hl_5x5x12_V/helpers/export/donors.json"
+      ],
+      "seconds": 5,
+      "seed": 16322024
+    },
+    {
+      "case": "hl_5x5x12_V",
+      "arm": "vectors",
+      "banks": [
+        "<experiment>/benchmarks/hl_5x5x12_V/donors.json",
+        "<experiment>/native_study/main/hl_5x5x12_V/vectors/export/donors.json"
+      ],
+      "seconds": 5,
+      "seed": 16322024
+    },
+    {
+      "case": "hl_5x5x12_V",
+      "arm": "mixed",
+      "banks": [
+        "<experiment>/benchmarks/hl_5x5x12_V/donors.json",
+        "<experiment>/native_study/main/hl_5x5x12_V/mixed/export/donors.json"
+      ],
+      "seconds": 5,
+      "seed": 16322024
+    },
+    {
+      "case": "hl_5x5x12_V",
+      "arm": "guided",
+      "banks": [
+        "<experiment>/benchmarks/hl_5x5x12_V/donors.json",
+        "<experiment>/native_study/main/hl_5x5x12_V/guided/export/donors.json"
+      ],
+      "seconds": 5,
+      "seed": 16322024
+    },
+    {
+      "case": "hl_5x5x12_V",
+      "arm": "balanced_random",
+      "banks": [
+        "<experiment>/benchmarks/hl_5x5x12_V/donors.json",
+        "<experiment>/native_study/main/hl_5x5x12_V/balanced_random/export/donors.json"
+      ],
+      "seconds": 5,
+      "seed": 16322024
+    },
+    {
+      "case": "hl_5x5x12_V",
+      "arm": "combined",
+      "banks": [
+        "<experiment>/benchmarks/hl_5x5x12_V/donors.json",
+        "<experiment>/native_study/main/hl_5x5x12_V/helpers/export/donors.json",
+        "<experiment>/native_study/main/hl_5x5x12_V/vectors/export/donors.json",
+        "<experiment>/native_study/main/hl_5x5x12_V/mixed/export/donors.json",
+        "<experiment>/native_study/main/hl_5x5x12_V/guided/export/donors.json",
+        "<experiment>/native_study/main/hl_5x5x12_V/balanced_random/export/donors.json"
+      ],
+      "seconds": 8,
+      "seed": 16322024
+    },
+    {
+      "case": "hl_6x7x8_V",
+      "arm": "baseline_frozen",
+      "banks": [
+        "<experiment>/benchmarks/hl_6x7x8_V/donors.json"
+      ],
+      "seconds": 5,
+      "seed": 9329994
+    },
+    {
+      "case": "hl_6x7x8_V",
+      "arm": "helpers",
+      "banks": [
+        "<experiment>/benchmarks/hl_6x7x8_V/donors.json",
+        "<experiment>/native_study/main/hl_6x7x8_V/helpers/export/donors.json"
+      ],
+      "seconds": 5,
+      "seed": 9329994
+    },
+    {
+      "case": "hl_6x7x8_V",
+      "arm": "vectors",
+      "banks": [
+        "<experiment>/benchmarks/hl_6x7x8_V/donors.json",
+        "<experiment>/native_study/main/hl_6x7x8_V/vectors/export/donors.json"
+      ],
+      "seconds": 5,
+      "seed": 9329994
+    },
+    {
+      "case": "hl_6x7x8_V",
+      "arm": "mixed",
+      "banks": [
+        "<experiment>/benchmarks/hl_6x7x8_V/donors.json",
+        "<experiment>/native_study/main/hl_6x7x8_V/mixed/export/donors.json"
+      ],
+      "seconds": 5,
+      "seed": 9329994
+    },
+    {
+      "case": "hl_6x7x8_V",
+      "arm": "guided",
+      "banks": [
+        "<experiment>/benchmarks/hl_6x7x8_V/donors.json",
+        "<experiment>/native_study/main/hl_6x7x8_V/guided/export/donors.json"
+      ],
+      "seconds": 5,
+      "seed": 9329994
+    },
+    {
+      "case": "hl_6x7x8_V",
+      "arm": "balanced_random",
+      "banks": [
+        "<experiment>/benchmarks/hl_6x7x8_V/donors.json",
+        "<experiment>/native_study/main/hl_6x7x8_V/balanced_random/export/donors.json"
+      ],
+      "seconds": 5,
+      "seed": 9329994
+    },
+    {
+      "case": "hl_6x7x8_V",
+      "arm": "combined",
+      "banks": [
+        "<experiment>/benchmarks/hl_6x7x8_V/donors.json",
+        "<experiment>/native_study/main/hl_6x7x8_V/helpers/export/donors.json",
+        "<experiment>/native_study/main/hl_6x7x8_V/vectors/export/donors.json",
+        "<experiment>/native_study/main/hl_6x7x8_V/mixed/export/donors.json",
+        "<experiment>/native_study/main/hl_6x7x8_V/guided/export/donors.json",
+        "<experiment>/native_study/main/hl_6x7x8_V/balanced_random/export/donors.json"
+      ],
+      "seconds": 8,
+      "seed": 9329994
+    },
+    {
+      "case": "hl_4x4x16_Wt",
+      "arm": "baseline_frozen",
+      "banks": [
+        "<experiment>/benchmarks/hl_4x4x16_Wt/donors.json"
+      ],
+      "seconds": 5,
+      "seed": 6100160
+    },
+    {
+      "case": "hl_4x4x16_Wt",
+      "arm": "helpers",
+      "banks": [
+        "<experiment>/benchmarks/hl_4x4x16_Wt/donors.json",
+        "<experiment>/native_study/main/hl_4x4x16_Wt/helpers/export/donors.json"
+      ],
+      "seconds": 5,
+      "seed": 6100160
+    },
+    {
+      "case": "hl_4x4x16_Wt",
+      "arm": "vectors",
+      "banks": [
+        "<experiment>/benchmarks/hl_4x4x16_Wt/donors.json",
+        "<experiment>/native_study/main/hl_4x4x16_Wt/vectors/export/donors.json"
+      ],
+      "seconds": 5,
+      "seed": 6100160
+    },
+    {
+      "case": "hl_4x4x16_Wt",
+      "arm": "mixed",
+      "banks": [
+        "<experiment>/benchmarks/hl_4x4x16_Wt/donors.json",
+        "<experiment>/native_study/main/hl_4x4x16_Wt/mixed/export/donors.json"
+      ],
+      "seconds": 5,
+      "seed": 6100160
+    },
+    {
+      "case": "hl_4x4x16_Wt",
+      "arm": "guided",
+      "banks": [
+        "<experiment>/benchmarks/hl_4x4x16_Wt/donors.json",
+        "<experiment>/native_study/main/hl_4x4x16_Wt/guided/export/donors.json"
+      ],
+      "seconds": 5,
+      "seed": 6100160
+    },
+    {
+      "case": "hl_4x4x16_Wt",
+      "arm": "balanced_random",
+      "banks": [
+        "<experiment>/benchmarks/hl_4x4x16_Wt/donors.json",
+        "<experiment>/native_study/main/hl_4x4x16_Wt/balanced_random/export/donors.json"
+      ],
+      "seconds": 5,
+      "seed": 6100160
+    },
+    {
+      "case": "hl_4x4x16_Wt",
+      "arm": "combined",
+      "banks": [
+        "<experiment>/benchmarks/hl_4x4x16_Wt/donors.json",
+        "<experiment>/native_study/main/hl_4x4x16_Wt/helpers/export/donors.json",
+        "<experiment>/native_study/main/hl_4x4x16_Wt/vectors/export/donors.json",
+        "<experiment>/native_study/main/hl_4x4x16_Wt/mixed/export/donors.json",
+        "<experiment>/native_study/main/hl_4x4x16_Wt/guided/export/donors.json",
+        "<experiment>/native_study/main/hl_4x4x16_Wt/balanced_random/export/donors.json"
+      ],
+      "seconds": 8,
+      "seed": 6100160
+    },
+    {
+      "case": "hl_4x4x14_Wt",
+      "arm": "baseline_frozen",
+      "banks": [
+        "<experiment>/benchmarks/hl_4x4x14_Wt/donors.json"
+      ],
+      "seconds": 5,
+      "seed": 6357740
+    },
+    {
+      "case": "hl_4x4x14_Wt",
+      "arm": "helpers",
+      "banks": [
+        "<experiment>/benchmarks/hl_4x4x14_Wt/donors.json",
+        "<experiment>/native_study/main/hl_4x4x14_Wt/helpers/export/donors.json"
+      ],
+      "seconds": 5,
+      "seed": 6357740
+    },
+    {
+      "case": "hl_4x4x14_Wt",
+      "arm": "vectors",
+      "banks": [
+        "<experiment>/benchmarks/hl_4x4x14_Wt/donors.json",
+        "<experiment>/native_study/main/hl_4x4x14_Wt/vectors/export/donors.json"
+      ],
+      "seconds": 5,
+      "seed": 6357740
+    },
+    {
+      "case": "hl_4x4x14_Wt",
+      "arm": "mixed",
+      "banks": [
+        "<experiment>/benchmarks/hl_4x4x14_Wt/donors.json",
+        "<experiment>/native_study/main/hl_4x4x14_Wt/mixed/export/donors.json"
+      ],
+      "seconds": 5,
+      "seed": 6357740
+    },
+    {
+      "case": "hl_4x4x14_Wt",
+      "arm": "guided",
+      "banks": [
+        "<experiment>/benchmarks/hl_4x4x14_Wt/donors.json",
+        "<experiment>/native_study/main/hl_4x4x14_Wt/guided/export/donors.json"
+      ],
+      "seconds": 5,
+      "seed": 6357740
+    },
+    {
+      "case": "hl_4x4x14_Wt",
+      "arm": "balanced_random",
+      "banks": [
+        "<experiment>/benchmarks/hl_4x4x14_Wt/donors.json",
+        "<experiment>/native_study/main/hl_4x4x14_Wt/balanced_random/export/donors.json"
+      ],
+      "seconds": 5,
+      "seed": 6357740
+    },
+    {
+      "case": "hl_4x4x14_Wt",
+      "arm": "combined",
+      "banks": [
+        "<experiment>/benchmarks/hl_4x4x14_Wt/donors.json",
+        "<experiment>/native_study/main/hl_4x4x14_Wt/helpers/export/donors.json",
+        "<experiment>/native_study/main/hl_4x4x14_Wt/vectors/export/donors.json",
+        "<experiment>/native_study/main/hl_4x4x14_Wt/mixed/export/donors.json",
+        "<experiment>/native_study/main/hl_4x4x14_Wt/guided/export/donors.json",
+        "<experiment>/native_study/main/hl_4x4x14_Wt/balanced_random/export/donors.json"
+      ],
+      "seconds": 8,
+      "seed": 6357740
+    }
+  ],
+  "workers": 3
+}

@@ -1,0 +1,113 @@
+[
+  [
+    {
+      "event": "metadata",
+      "mode": "explicit",
+      "workers": 1,
+      "helpers": 6,
+      "donor_additions": 7,
+      "ignore_unused_bound": false,
+      "savings_weight": 0,
+      "support_slack": 2,
+      "max_abs_coefficient": 1,
+      "seed": 123,
+      "attempt_cap": 1,
+      "budget_seconds": 1,
+      "per_draw_seconds": 0.25,
+      "preparation_seconds": 0.000772417
+    },
+    {
+      "event": "draw",
+      "seed": 123,
+      "arm": "explicit",
+      "retained_vectors": 2,
+      "prefix_gates": 0,
+      "sampling_seconds": 1.25e-06,
+      "solver_seconds": 0.001355125,
+      "removed_helper_indices": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "timeout_or_bound_or_no_candidate",
+      "solution": null
+    },
+    {
+      "event": "summary",
+      "draws": 1,
+      "elapsed_seconds": 0.004589916
+    }
+  ],
+  [
+    {
+      "event": "metadata",
+      "mode": "explicit",
+      "workers": 1,
+      "helpers": 6,
+      "donor_additions": 7,
+      "ignore_unused_bound": true,
+      "savings_weight": 0,
+      "support_slack": 2,
+      "max_abs_coefficient": 1,
+      "seed": 123,
+      "attempt_cap": 1,
+      "budget_seconds": 1,
+      "per_draw_seconds": 0.25,
+      "preparation_seconds": 4.0667e-05
+    },
+    {
+      "event": "draw",
+      "seed": 123,
+      "arm": "explicit",
+      "retained_vectors": 2,
+      "prefix_gates": 0,
+      "sampling_seconds": 1.292e-06,
+      "solver_seconds": 4.0708e-05,
+      "removed_helper_indices": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "complete",
+      "solution": {
+        "dimension": 6,
+        "additions": 3,
+        "substitutions": [
+          {
+            "i": 2,
+            "j": 3,
+            "ai": 1,
+            "aj": 1
+          },
+          {
+            "i": 1,
+            "j": 6,
+            "ai": 1,
+            "aj": 1
+          },
+          {
+            "i": 0,
+            "j": 7,
+            "ai": 1,
+            "aj": 1
+          }
+        ],
+        "expressions": [
+          [
+            {
+              "index": 8,
+              "value": 1
+            }
+          ]
+        ]
+      }
+    },
+    {
+      "event": "summary",
+      "draws": 1,
+      "elapsed_seconds": 0.000206542
+    }
+  ]
+]

@@ -1,0 +1,16 @@
+[
+  {
+    "case_id": "old_3x6x8_V",
+    "completed_preparation_seconds": 19.681598749943078,
+    "result": "Preliminary unanchored output-only score; superseded before native trials; retained as negative/cost evidence"
+  },
+  {
+    "case_id": "hl_4x4x16_V",
+    "completed_preparation_seconds": 45.38683345820755,
+    "result": "Preliminary unanchored output-only score; superseded before native trials; retained as negative/cost evidence"
+  },
+  {
+    "case_id": "hl_5x7x7_V",
+    "result": "Interrupted during selection before completion; elapsed time not separately captured; no native trial"
+  }
+]

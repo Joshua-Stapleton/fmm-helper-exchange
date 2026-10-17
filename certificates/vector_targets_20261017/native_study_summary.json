@@ -1,0 +1,2169 @@
+{
+  "scope": "Equal6-second native budgets per seed, two seeds, fixed incumbent, signed discovery only; no general superiority or strict original-map record inference.",
+  "bound_accounting": "ignoreUnusedInBound=true explicitly; differs from upstream CLI false. Native coefficient-limit parameter1, fixed input donor may contain magnitude2 intermediate forms.",
+  "semantics": "Vector seeds are opportunistic wanted forms, not all required paid gates. Every completed actual circuit is exactly replayed after materializing terminals. Failed native statuses combine timeout, bound and no-candidate; not asserted infeasible.",
+  "schedule_time": "Guided preparation counted once per case across both seeds; excludes prior historical pool construction and source-bank preparation. Offline scoring is an extra warm-start cost.",
+  "arms": [
+    {
+      "arm": "helpers",
+      "draws": 742,
+      "completed": 352,
+      "completion_fraction": 0.4743935309973046,
+      "total_distinct_signed_circuits": 352,
+      "local_signed_count_improvements": 0,
+      "native_process_seconds": 122.47038971073925,
+      "selector_seconds": 0,
+      "validation_seconds": 3.414330373518169
+    },
+    {
+      "arm": "vectors",
+      "draws": 2381,
+      "completed": 2306,
+      "completion_fraction": 0.9685006299874003,
+      "total_distinct_signed_circuits": 2137,
+      "local_signed_count_improvements": 6,
+      "native_process_seconds": 121.18041658261791,
+      "selector_seconds": 0,
+      "validation_seconds": 24.705249708145857
+    },
+    {
+      "arm": "mixed",
+      "draws": 1049,
+      "completed": 785,
+      "completion_fraction": 0.7483317445185891,
+      "total_distinct_signed_circuits": 782,
+      "local_signed_count_improvements": 4,
+      "native_process_seconds": 121.77429237542674,
+      "selector_seconds": 0,
+      "validation_seconds": 9.848825875669718
+    },
+    {
+      "arm": "guided",
+      "draws": 2819,
+      "completed": 2756,
+      "completion_fraction": 0.9776516495211067,
+      "total_distinct_signed_circuits": 2197,
+      "local_signed_count_improvements": 1,
+      "native_process_seconds": 122.00582116469741,
+      "selector_seconds": 12.987818248104304,
+      "validation_seconds": 31.303791000507772
+    },
+    {
+      "arm": "balanced_random",
+      "draws": 2451,
+      "completed": 2395,
+      "completion_fraction": 0.9771521827825378,
+      "total_distinct_signed_circuits": 1783,
+      "local_signed_count_improvements": 3,
+      "native_process_seconds": 121.19945591548458,
+      "selector_seconds": 0,
+      "validation_seconds": 21.982715499587357
+    }
+  ],
+  "rows": [
+    {
+      "case_id": "hl_3x4x7_V",
+      "arm": "balanced_random",
+      "initial_signed_additions": 77,
+      "best_generated_signed_additions": 77,
+      "best_with_incumbent": 77,
+      "draws": 1204,
+      "completed": 1203,
+      "completion_fraction": 0.9991694352159468,
+      "unsuccessful_or_bound": 1,
+      "invalid": 0,
+      "wrapper_kills": 0,
+      "native_process_seconds": 12.097202708479017,
+      "validation_seconds": 6.8768786252476275,
+      "selector_seconds": 0,
+      "distinct_signed_circuits": 873,
+      "exported": 32,
+      "best_generated_anytime": [
+        {
+          "seed": 1701701,
+          "observed_seed_wall_seconds": 0.015922542195767164,
+          "best_signed_additions": 77
+        },
+        {
+          "seed": 1702701,
+          "observed_seed_wall_seconds": 0.01839712494984269,
+          "best_signed_additions": 77
+        }
+      ],
+      "incumbent_anytime": [
+        {
+          "observed_seed_wall_seconds": 0,
+          "best_signed_additions": 77
+        }
+      ]
+    },
+    {
+      "case_id": "hl_3x4x7_V",
+      "arm": "guided",
+      "initial_signed_additions": 77,
+      "best_generated_signed_additions": 77,
+      "best_with_incumbent": 77,
+      "draws": 1417,
+      "completed": 1415,
+      "completion_fraction": 0.9985885673959068,
+      "unsuccessful_or_bound": 2,
+      "invalid": 0,
+      "wrapper_kills": 0,
+      "native_process_seconds": 12.135992290917784,
+      "validation_seconds": 9.265014042146504,
+      "selector_seconds": 0.8652019170112908,
+      "distinct_signed_circuits": 1075,
+      "exported": 32,
+      "best_generated_anytime": [
+        {
+          "seed": 1701701,
+          "observed_seed_wall_seconds": 0.05641025025397539,
+          "best_signed_additions": 77
+        },
+        {
+          "seed": 1702701,
+          "observed_seed_wall_seconds": 0.016728249844163656,
+          "best_signed_additions": 77
+        }
+      ],
+      "incumbent_anytime": [
+        {
+          "observed_seed_wall_seconds": 0,
+          "best_signed_additions": 77
+        }
+      ]
+    },
+    {
+      "case_id": "hl_3x4x7_V",
+      "arm": "helpers",
+      "initial_signed_additions": 77,
+      "best_generated_signed_additions": 77,
+      "best_with_incumbent": 77,
+      "draws": 305,
+      "completed": 304,
+      "completion_fraction": 0.9967213114754099,
+      "unsuccessful_or_bound": 1,
+      "invalid": 0,
+      "wrapper_kills": 0,
+      "native_process_seconds": 12.043025873601437,
+      "validation_seconds": 3.1531654172576964,
+      "selector_seconds": 0,
+      "distinct_signed_circuits": 304,
+      "exported": 32,
+      "best_generated_anytime": [
+        {
+          "seed": 1701701,
+          "observed_seed_wall_seconds": 0.045195665676146746,
+          "best_signed_additions": 78
+        },
+        {
+          "seed": 1701701,
+          "observed_seed_wall_seconds": 0.07592374971136451,
+          "best_signed_additions": 77
+        },
+        {
+          "seed": 1702701,
+          "observed_seed_wall_seconds": 0.03110449993982911,
+          "best_signed_additions": 77
+        }
+      ],
+      "incumbent_anytime": [
+        {
+          "observed_seed_wall_seconds": 0,
+          "best_signed_additions": 77
+        }
+      ]
+    },
+    {
+      "case_id": "hl_3x4x7_V",
+      "arm": "mixed",
+      "initial_signed_additions": 77,
+      "best_generated_signed_additions": 77,
+      "best_with_incumbent": 77,
+      "draws": 437,
+      "completed": 435,
+      "completion_fraction": 0.9954233409610984,
+      "unsuccessful_or_bound": 2,
+      "invalid": 0,
+      "wrapper_kills": 0,
+      "native_process_seconds": 12.611335458233953,
+      "validation_seconds": 3.890436333604157,
+      "selector_seconds": 0,
+      "distinct_signed_circuits": 432,
+      "exported": 32,
+      "best_generated_anytime": [
+        {
+          "seed": 1701701,
+          "observed_seed_wall_seconds": 0.1035918751731515,
+          "best_signed_additions": 77
+        },
+        {
+          "seed": 1702701,
+          "observed_seed_wall_seconds": 0.03181858314201236,
+          "best_signed_additions": 77
+        }
+      ],
+      "incumbent_anytime": [
+        {
+          "observed_seed_wall_seconds": 0,
+          "best_signed_additions": 77
+        }
+      ]
+    },
+    {
+      "case_id": "hl_3x4x7_V",
+      "arm": "vectors",
+      "initial_signed_additions": 77,
+      "best_generated_signed_additions": 77,
+      "best_with_incumbent": 77,
+      "draws": 1226,
+      "completed": 1225,
+      "completion_fraction": 0.9991843393148451,
+      "unsuccessful_or_bound": 1,
+      "invalid": 0,
+      "wrapper_kills": 0,
+      "native_process_seconds": 12.112745416350663,
+      "validation_seconds": 7.55146708432585,
+      "selector_seconds": 0,
+      "distinct_signed_circuits": 1090,
+      "exported": 32,
+      "best_generated_anytime": [
+        {
+          "seed": 1701701,
+          "observed_seed_wall_seconds": 0.026733417063951492,
+          "best_signed_additions": 78
+        },
+        {
+          "seed": 1701701,
+          "observed_seed_wall_seconds": 0.03236141707748175,
+          "best_signed_additions": 77
+        },
+        {
+          "seed": 1702701,
+          "observed_seed_wall_seconds": 0.0681761666201055,
+          "best_signed_additions": 79
+        },
+        {
+          "seed": 1702701,
+          "observed_seed_wall_seconds": 0.06844549998641014,
+          "best_signed_additions": 77
+        }
+      ],
+      "incumbent_anytime": [
+        {
+          "observed_seed_wall_seconds": 0,
+          "best_signed_additions": 77
+        }
+      ]
+    },
+    {
+      "case_id": "hl_3x6x6_V",
+      "arm": "balanced_random",
+      "initial_signed_additions": 110,
+      "best_generated_signed_additions": 110,
+      "best_with_incumbent": 110,
+      "draws": 463,
+      "completed": 461,
+      "completion_fraction": 0.9956803455723542,
+      "unsuccessful_or_bound": 2,
+      "invalid": 0,
+      "wrapper_kills": 0,
+      "native_process_seconds": 12.15000170841813,
+      "validation_seconds": 2.853662833571434,
+      "selector_seconds": 0,
+      "distinct_signed_circuits": 332,
+      "exported": 32,
+      "best_generated_anytime": [
+        {
+          "seed": 1701701,
+          "observed_seed_wall_seconds": 0.0894664591178298,
+          "best_signed_additions": 111
+        },
+        {
+          "seed": 1701701,
+          "observed_seed_wall_seconds": 0.14216633420437574,
+          "best_signed_additions": 110
+        },
+        {
+          "seed": 1702701,
+          "observed_seed_wall_seconds": 0.08703404106199741,
+          "best_signed_additions": 111
+        },
+        {
+          "seed": 1702701,
+          "observed_seed_wall_seconds": 0.10428129089996219,
+          "best_signed_additions": 110
+        }
+      ],
+      "incumbent_anytime": [
+        {
+          "observed_seed_wall_seconds": 0,
+          "best_signed_additions": 110
+        }
+      ]
+    },
+    {
+      "case_id": "hl_3x6x6_V",
+      "arm": "guided",
+      "initial_signed_additions": 110,
+      "best_generated_signed_additions": 110,
+      "best_with_incumbent": 110,
+      "draws": 573,
+      "completed": 571,
+      "completion_fraction": 0.9965095986038395,
+      "unsuccessful_or_bound": 2,
+      "invalid": 0,
+      "wrapper_kills": 0,
+      "native_process_seconds": 12.785826582927257,
+      "validation_seconds": 4.1918378747068346,
+      "selector_seconds": 1.0086405407637358,
+      "distinct_signed_circuits": 476,
+      "exported": 32,
+      "best_generated_anytime": [
+        {
+          "seed": 1701701,
+          "observed_seed_wall_seconds": 0.024191000033169985,
+          "best_signed_additions": 110
+        },
+        {
+          "seed": 1702701,
+          "observed_seed_wall_seconds": 0.023998958058655262,
+          "best_signed_additions": 110
+        }
+      ],
+      "incumbent_anytime": [
+        {
+          "observed_seed_wall_seconds": 0,
+          "best_signed_additions": 110
+        }
+      ]
+    },
+    {
+      "case_id": "hl_3x6x6_V",
+      "arm": "helpers",
+      "initial_signed_additions": 110,
+      "best_generated_signed_additions": 110,
+      "best_with_incumbent": 110,
+      "draws": 62,
+      "completed": 48,
+      "completion_fraction": 0.7741935483870968,
+      "unsuccessful_or_bound": 14,
+      "invalid": 0,
+      "wrapper_kills": 0,
+      "native_process_seconds": 12.423917791806161,
+      "validation_seconds": 0.25845037400722504,
+      "selector_seconds": 0,
+      "distinct_signed_circuits": 48,
+      "exported": 32,
+      "best_generated_anytime": [
+        {
+          "seed": 1701701,
+          "observed_seed_wall_seconds": 0.12537183286622167,
+          "best_signed_additions": 110
+        },
+        {
+          "seed": 1702701,
+          "observed_seed_wall_seconds": 0.18295295909047127,
+          "best_signed_additions": 112
+        },
+        {
+          "seed": 1702701,
+          "observed_seed_wall_seconds": 1.4917571670375764,
+          "best_signed_additions": 111
+        },
+        {
+          "seed": 1702701,
+          "observed_seed_wall_seconds": 3.0279655000194907,
+          "best_signed_additions": 110
+        }
+      ],
+      "incumbent_anytime": [
+        {
+          "observed_seed_wall_seconds": 0,
+          "best_signed_additions": 110
+        }
+      ]
+    },
+    {
+      "case_id": "hl_3x6x6_V",
+      "arm": "mixed",
+      "initial_signed_additions": 110,
+      "best_generated_signed_additions": 110,
+      "best_with_incumbent": 110,
+      "draws": 120,
+      "completed": 110,
+      "completion_fraction": 0.9166666666666666,
+      "unsuccessful_or_bound": 10,
+      "invalid": 0,
+      "wrapper_kills": 0,
+      "native_process_seconds": 12.299619291909039,
+      "validation_seconds": 1.1796817919239402,
+      "selector_seconds": 0,
+      "distinct_signed_circuits": 110,
+      "exported": 32,
+      "best_generated_anytime": [
+        {
+          "seed": 1701701,
+          "observed_seed_wall_seconds": 0.08644950017333031,
+          "best_signed_additions": 111
+        },
+        {
+          "seed": 1701701,
+          "observed_seed_wall_seconds": 0.6586793749593198,
+          "best_signed_additions": 110
+        },
+        {
+          "seed": 1702701,
+          "observed_seed_wall_seconds": 0.035740458872169256,
+          "best_signed_additions": 111
+        },
+        {
+          "seed": 1702701,
+          "observed_seed_wall_seconds": 0.19232670916244388,
+          "best_signed_additions": 110
+        }
+      ],
+      "incumbent_anytime": [
+        {
+          "observed_seed_wall_seconds": 0,
+          "best_signed_additions": 110
+        }
+      ]
+    },
+    {
+      "case_id": "hl_3x6x6_V",
+      "arm": "vectors",
+      "initial_signed_additions": 110,
+      "best_generated_signed_additions": 110,
+      "best_with_incumbent": 110,
+      "draws": 415,
+      "completed": 414,
+      "completion_fraction": 0.9975903614457832,
+      "unsuccessful_or_bound": 1,
+      "invalid": 0,
+      "wrapper_kills": 0,
+      "native_process_seconds": 12.123189291451126,
+      "validation_seconds": 5.145006124395877,
+      "selector_seconds": 0,
+      "distinct_signed_circuits": 391,
+      "exported": 32,
+      "best_generated_anytime": [
+        {
+          "seed": 1701701,
+          "observed_seed_wall_seconds": 0.10952641675248742,
+          "best_signed_additions": 110
+        },
+        {
+          "seed": 1702701,
+          "observed_seed_wall_seconds": 0.11229983391240239,
+          "best_signed_additions": 110
+        }
+      ],
+      "incumbent_anytime": [
+        {
+          "observed_seed_wall_seconds": 0,
+          "best_signed_additions": 110
+        }
+      ]
+    },
+    {
+      "case_id": "hl_4x4x14_Wt",
+      "arm": "balanced_random",
+      "initial_signed_additions": 184,
+      "best_generated_signed_additions": 183,
+      "best_with_incumbent": 183,
+      "draws": 117,
+      "completed": 116,
+      "completion_fraction": 0.9914529914529915,
+      "unsuccessful_or_bound": 1,
+      "invalid": 0,
+      "wrapper_kills": 0,
+      "native_process_seconds": 12.061246206983924,
+      "validation_seconds": 1.433570250403136,
+      "selector_seconds": 0,
+      "distinct_signed_circuits": 90,
+      "exported": 32,
+      "best_generated_anytime": [
+        {
+          "seed": 1701701,
+          "observed_seed_wall_seconds": 0.12367304088547826,
+          "best_signed_additions": 184
+        },
+        {
+          "seed": 1701701,
+          "observed_seed_wall_seconds": 2.636987333185971,
+          "best_signed_additions": 183
+        },
+        {
+          "seed": 1702701,
+          "observed_seed_wall_seconds": 0.0967407077550888,
+          "best_signed_additions": 183
+        }
+      ],
+      "incumbent_anytime": [
+        {
+          "observed_seed_wall_seconds": 0,
+          "best_signed_additions": 184
+        },
+        {
+          "seed": 1701701,
+          "observed_seed_wall_seconds": 2.636987333185971,
+          "best_signed_additions": 183
+        },
+        {
+          "seed": 1702701,
+          "observed_seed_wall_seconds": 0.0967407077550888,
+          "best_signed_additions": 183
+        }
+      ]
+    },
+    {
+      "case_id": "hl_4x4x14_Wt",
+      "arm": "guided",
+      "initial_signed_additions": 184,
+      "best_generated_signed_additions": 183,
+      "best_with_incumbent": 183,
+      "draws": 126,
+      "completed": 124,
+      "completion_fraction": 0.9841269841269841,
+      "unsuccessful_or_bound": 2,
+      "invalid": 0,
+      "wrapper_kills": 0,
+      "native_process_seconds": 12.055971790570766,
+      "validation_seconds": 2.1310165422037244,
+      "selector_seconds": 0.5115863750688732,
+      "distinct_signed_circuits": 118,
+      "exported": 32,
+      "best_generated_anytime": [
+        {
+          "seed": 1701701,
+          "observed_seed_wall_seconds": 0.09542637504637241,
+          "best_signed_additions": 184
+        },
+        {
+          "seed": 1701701,
+          "observed_seed_wall_seconds": 2.7195941656827927,
+          "best_signed_additions": 183
+        },
+        {
+          "seed": 1702701,
+          "observed_seed_wall_seconds": 0.11420783307403326,
+          "best_signed_additions": 184
+        }
+      ],
+      "incumbent_anytime": [
+        {
+          "observed_seed_wall_seconds": 0,
+          "best_signed_additions": 184
+        },
+        {
+          "seed": 1701701,
+          "observed_seed_wall_seconds": 2.7195941656827927,
+          "best_signed_additions": 183
+        }
+      ]
+    },
+    {
+      "case_id": "hl_4x4x14_Wt",
+      "arm": "helpers",
+      "initial_signed_additions": 184,
+      "best_generated_signed_additions": null,
+      "best_with_incumbent": 184,
+      "draws": 48,
+      "completed": 0,
+      "completion_fraction": 0.0,
+      "unsuccessful_or_bound": 48,
+      "invalid": 0,
+      "wrapper_kills": 0,
+      "native_process_seconds": 12.03853183425963,
+      "validation_seconds": 0.00026233354583382607,
+      "selector_seconds": 0,
+      "distinct_signed_circuits": 0,
+      "exported": 0,
+      "best_generated_anytime": [],
+      "incumbent_anytime": [
+        {
+          "observed_seed_wall_seconds": 0,
+          "best_signed_additions": 184
+        }
+      ]
+    },
+    {
+      "case_id": "hl_4x4x14_Wt",
+      "arm": "mixed",
+      "initial_signed_additions": 184,
+      "best_generated_signed_additions": 183,
+      "best_with_incumbent": 183,
+      "draws": 69,
+      "completed": 37,
+      "completion_fraction": 0.5362318840579711,
+      "unsuccessful_or_bound": 32,
+      "invalid": 0,
+      "wrapper_kills": 0,
+      "native_process_seconds": 12.134457000065595,
+      "validation_seconds": 0.6904782503843307,
+      "selector_seconds": 0,
+      "distinct_signed_circuits": 37,
+      "exported": 32,
+      "best_generated_anytime": [
+        {
+          "seed": 1701701,
+          "observed_seed_wall_seconds": 0.12610966712236404,
+          "best_signed_additions": 186
+        },
+        {
+          "seed": 1701701,
+          "observed_seed_wall_seconds": 0.23299745842814445,
+          "best_signed_additions": 183
+        },
+        {
+          "seed": 1702701,
+          "observed_seed_wall_seconds": 0.2597589581273496,
+          "best_signed_additions": 187
+        },
+        {
+          "seed": 1702701,
+          "observed_seed_wall_seconds": 0.5706130410544574,
+          "best_signed_additions": 184
+        },
+        {
+          "seed": 1702701,
+          "observed_seed_wall_seconds": 4.035337457899004,
+          "best_signed_additions": 183
+        }
+      ],
+      "incumbent_anytime": [
+        {
+          "observed_seed_wall_seconds": 0,
+          "best_signed_additions": 184
+        },
+        {
+          "seed": 1701701,
+          "observed_seed_wall_seconds": 0.23299745842814445,
+          "best_signed_additions": 183
+        },
+        {
+          "seed": 1702701,
+          "observed_seed_wall_seconds": 4.035337457899004,
+          "best_signed_additions": 183
+        }
+      ]
+    },
+    {
+      "case_id": "hl_4x4x14_Wt",
+      "arm": "vectors",
+      "initial_signed_additions": 184,
+      "best_generated_signed_additions": 183,
+      "best_with_incumbent": 183,
+      "draws": 133,
+      "completed": 131,
+      "completion_fraction": 0.9849624060150376,
+      "unsuccessful_or_bound": 2,
+      "invalid": 0,
+      "wrapper_kills": 0,
+      "native_process_seconds": 12.146285166032612,
+      "validation_seconds": 2.121745375916362,
+      "selector_seconds": 0,
+      "distinct_signed_circuits": 129,
+      "exported": 32,
+      "best_generated_anytime": [
+        {
+          "seed": 1701701,
+          "observed_seed_wall_seconds": 0.23274083295837045,
+          "best_signed_additions": 187
+        },
+        {
+          "seed": 1701701,
+          "observed_seed_wall_seconds": 0.4325252501294017,
+          "best_signed_additions": 184
+        },
+        {
+          "seed": 1701701,
+          "observed_seed_wall_seconds": 0.8934745001606643,
+          "best_signed_additions": 183
+        },
+        {
+          "seed": 1702701,
+          "observed_seed_wall_seconds": 0.19342291727662086,
+          "best_signed_additions": 187
+        },
+        {
+          "seed": 1702701,
+          "observed_seed_wall_seconds": 0.31945937499403954,
+          "best_signed_additions": 186
+        },
+        {
+          "seed": 1702701,
+          "observed_seed_wall_seconds": 0.4042797079309821,
+          "best_signed_additions": 184
+        },
+        {
+          "seed": 1702701,
+          "observed_seed_wall_seconds": 3.176150457933545,
+          "best_signed_additions": 183
+        }
+      ],
+      "incumbent_anytime": [
+        {
+          "observed_seed_wall_seconds": 0,
+          "best_signed_additions": 184
+        },
+        {
+          "seed": 1701701,
+          "observed_seed_wall_seconds": 0.8934745001606643,
+          "best_signed_additions": 183
+        },
+        {
+          "seed": 1702701,
+          "observed_seed_wall_seconds": 3.176150457933545,
+          "best_signed_additions": 183
+        }
+      ]
+    },
+    {
+      "case_id": "hl_4x4x16_V",
+      "arm": "balanced_random",
+      "initial_signed_additions": 222,
+      "best_generated_signed_additions": 222,
+      "best_with_incumbent": 222,
+      "draws": 60,
+      "completed": 57,
+      "completion_fraction": 0.95,
+      "unsuccessful_or_bound": 3,
+      "invalid": 0,
+      "wrapper_kills": 0,
+      "native_process_seconds": 12.156335125211626,
+      "validation_seconds": 1.6243258332833648,
+      "selector_seconds": 0,
+      "distinct_signed_circuits": 53,
+      "exported": 32,
+      "best_generated_anytime": [
+        {
+          "seed": 1701701,
+          "observed_seed_wall_seconds": 0.1617623339407146,
+          "best_signed_additions": 222
+        },
+        {
+          "seed": 1702701,
+          "observed_seed_wall_seconds": 0.16190487518906593,
+          "best_signed_additions": 222
+        }
+      ],
+      "incumbent_anytime": [
+        {
+          "observed_seed_wall_seconds": 0,
+          "best_signed_additions": 222
+        }
+      ]
+    },
+    {
+      "case_id": "hl_4x4x16_V",
+      "arm": "guided",
+      "initial_signed_additions": 222,
+      "best_generated_signed_additions": 222,
+      "best_with_incumbent": 222,
+      "draws": 65,
+      "completed": 58,
+      "completion_fraction": 0.8923076923076924,
+      "unsuccessful_or_bound": 7,
+      "invalid": 0,
+      "wrapper_kills": 0,
+      "native_process_seconds": 12.152127207722515,
+      "validation_seconds": 1.3274045418947935,
+      "selector_seconds": 1.7864757501520216,
+      "distinct_signed_circuits": 50,
+      "exported": 32,
+      "best_generated_anytime": [
+        {
+          "seed": 1701701,
+          "observed_seed_wall_seconds": 0.15295970812439919,
+          "best_signed_additions": 222
+        },
+        {
+          "seed": 1702701,
+          "observed_seed_wall_seconds": 0.25211724964901805,
+          "best_signed_additions": 222
+        }
+      ],
+      "incumbent_anytime": [
+        {
+          "observed_seed_wall_seconds": 0,
+          "best_signed_additions": 222
+        }
+      ]
+    },
+    {
+      "case_id": "hl_4x4x16_V",
+      "arm": "helpers",
+      "initial_signed_additions": 222,
+      "best_generated_signed_additions": null,
+      "best_with_incumbent": 222,
+      "draws": 46,
+      "completed": 0,
+      "completion_fraction": 0.0,
+      "unsuccessful_or_bound": 46,
+      "invalid": 0,
+      "wrapper_kills": 0,
+      "native_process_seconds": 12.142400958109647,
+      "validation_seconds": 0.0002938746474683285,
+      "selector_seconds": 0,
+      "distinct_signed_circuits": 0,
+      "exported": 0,
+      "best_generated_anytime": [],
+      "incumbent_anytime": [
+        {
+          "observed_seed_wall_seconds": 0,
+          "best_signed_additions": 222
+        }
+      ]
+    },
+    {
+      "case_id": "hl_4x4x16_V",
+      "arm": "mixed",
+      "initial_signed_additions": 222,
+      "best_generated_signed_additions": 221,
+      "best_with_incumbent": 221,
+      "draws": 53,
+      "completed": 25,
+      "completion_fraction": 0.4716981132075472,
+      "unsuccessful_or_bound": 28,
+      "invalid": 0,
+      "wrapper_kills": 0,
+      "native_process_seconds": 12.21698295744136,
+      "validation_seconds": 0.7739720419049263,
+      "selector_seconds": 0,
+      "distinct_signed_circuits": 25,
+      "exported": 25,
+      "best_generated_anytime": [
+        {
+          "seed": 1701701,
+          "observed_seed_wall_seconds": 0.2706524576060474,
+          "best_signed_additions": 222
+        },
+        {
+          "seed": 1701701,
+          "observed_seed_wall_seconds": 4.23933112481609,
+          "best_signed_additions": 221
+        },
+        {
+          "seed": 1702701,
+          "observed_seed_wall_seconds": 0.2923396248370409,
+          "best_signed_additions": 226
+        },
+        {
+          "seed": 1702701,
+          "observed_seed_wall_seconds": 0.7006952092051506,
+          "best_signed_additions": 222
+        }
+      ],
+      "incumbent_anytime": [
+        {
+          "observed_seed_wall_seconds": 0,
+          "best_signed_additions": 222
+        },
+        {
+          "seed": 1701701,
+          "observed_seed_wall_seconds": 4.23933112481609,
+          "best_signed_additions": 221
+        }
+      ]
+    },
+    {
+      "case_id": "hl_4x4x16_V",
+      "arm": "vectors",
+      "initial_signed_additions": 222,
+      "best_generated_signed_additions": 221,
+      "best_with_incumbent": 221,
+      "draws": 66,
+      "completed": 58,
+      "completion_fraction": 0.8787878787878788,
+      "unsuccessful_or_bound": 8,
+      "invalid": 0,
+      "wrapper_kills": 0,
+      "native_process_seconds": 12.157397042028606,
+      "validation_seconds": 1.3038436667993665,
+      "selector_seconds": 0,
+      "distinct_signed_circuits": 58,
+      "exported": 32,
+      "best_generated_anytime": [
+        {
+          "seed": 1701701,
+          "observed_seed_wall_seconds": 0.27857499988749623,
+          "best_signed_additions": 224
+        },
+        {
+          "seed": 1701701,
+          "observed_seed_wall_seconds": 0.46798887522891164,
+          "best_signed_additions": 223
+        },
+        {
+          "seed": 1701701,
+          "observed_seed_wall_seconds": 0.731301334220916,
+          "best_signed_additions": 222
+        },
+        {
+          "seed": 1701701,
+          "observed_seed_wall_seconds": 1.45410087518394,
+          "best_signed_additions": 221
+        },
+        {
+          "seed": 1702701,
+          "observed_seed_wall_seconds": 0.1957585420459509,
+          "best_signed_additions": 224
+        },
+        {
+          "seed": 1702701,
+          "observed_seed_wall_seconds": 0.41036691702902317,
+          "best_signed_additions": 223
+        },
+        {
+          "seed": 1702701,
+          "observed_seed_wall_seconds": 0.5200990000739694,
+          "best_signed_additions": 222
+        },
+        {
+          "seed": 1702701,
+          "observed_seed_wall_seconds": 5.564339375123382,
+          "best_signed_additions": 221
+        }
+      ],
+      "incumbent_anytime": [
+        {
+          "observed_seed_wall_seconds": 0,
+          "best_signed_additions": 222
+        },
+        {
+          "seed": 1701701,
+          "observed_seed_wall_seconds": 1.45410087518394,
+          "best_signed_additions": 221
+        },
+        {
+          "seed": 1702701,
+          "observed_seed_wall_seconds": 5.564339375123382,
+          "best_signed_additions": 221
+        }
+      ]
+    },
+    {
+      "case_id": "hl_4x4x16_Wt",
+      "arm": "balanced_random",
+      "initial_signed_additions": 215,
+      "best_generated_signed_additions": 215,
+      "best_with_incumbent": 215,
+      "draws": 81,
+      "completed": 78,
+      "completion_fraction": 0.9629629629629629,
+      "unsuccessful_or_bound": 3,
+      "invalid": 0,
+      "wrapper_kills": 0,
+      "native_process_seconds": 12.158978126011789,
+      "validation_seconds": 1.4789965408854187,
+      "selector_seconds": 0,
+      "distinct_signed_circuits": 70,
+      "exported": 32,
+      "best_generated_anytime": [
+        {
+          "seed": 1701701,
+          "observed_seed_wall_seconds": 0.22958037490025163,
+          "best_signed_additions": 215
+        },
+        {
+          "seed": 1702701,
+          "observed_seed_wall_seconds": 0.2449206248857081,
+          "best_signed_additions": 215
+        }
+      ],
+      "incumbent_anytime": [
+        {
+          "observed_seed_wall_seconds": 0,
+          "best_signed_additions": 215
+        }
+      ]
+    },
+    {
+      "case_id": "hl_4x4x16_Wt",
+      "arm": "guided",
+      "initial_signed_additions": 215,
+      "best_generated_signed_additions": 215,
+      "best_with_incumbent": 215,
+      "draws": 90,
+      "completed": 87,
+      "completion_fraction": 0.9666666666666667,
+      "unsuccessful_or_bound": 3,
+      "invalid": 0,
+      "wrapper_kills": 0,
+      "native_process_seconds": 12.236133208032697,
+      "validation_seconds": 3.31479095807299,
+      "selector_seconds": 0.7196011249907315,
+      "distinct_signed_circuits": 84,
+      "exported": 32,
+      "best_generated_anytime": [
+        {
+          "seed": 1701701,
+          "observed_seed_wall_seconds": 0.1719783330336213,
+          "best_signed_additions": 215
+        },
+        {
+          "seed": 1702701,
+          "observed_seed_wall_seconds": 0.14314983319491148,
+          "best_signed_additions": 215
+        }
+      ],
+      "incumbent_anytime": [
+        {
+          "observed_seed_wall_seconds": 0,
+          "best_signed_additions": 215
+        }
+      ]
+    },
+    {
+      "case_id": "hl_4x4x16_Wt",
+      "arm": "helpers",
+      "initial_signed_additions": 215,
+      "best_generated_signed_additions": null,
+      "best_with_incumbent": 215,
+      "draws": 46,
+      "completed": 0,
+      "completion_fraction": 0.0,
+      "unsuccessful_or_bound": 46,
+      "invalid": 0,
+      "wrapper_kills": 0,
+      "native_process_seconds": 12.042880584485829,
+      "validation_seconds": 0.00033937394618988037,
+      "selector_seconds": 0,
+      "distinct_signed_circuits": 0,
+      "exported": 0,
+      "best_generated_anytime": [],
+      "incumbent_anytime": [
+        {
+          "observed_seed_wall_seconds": 0,
+          "best_signed_additions": 215
+        }
+      ]
+    },
+    {
+      "case_id": "hl_4x4x16_Wt",
+      "arm": "mixed",
+      "initial_signed_additions": 215,
+      "best_generated_signed_additions": 215,
+      "best_with_incumbent": 215,
+      "draws": 61,
+      "completed": 34,
+      "completion_fraction": 0.5573770491803278,
+      "unsuccessful_or_bound": 27,
+      "invalid": 0,
+      "wrapper_kills": 0,
+      "native_process_seconds": 12.057738416828215,
+      "validation_seconds": 0.72121287509799,
+      "selector_seconds": 0,
+      "distinct_signed_circuits": 34,
+      "exported": 32,
+      "best_generated_anytime": [
+        {
+          "seed": 1701701,
+          "observed_seed_wall_seconds": 0.2728494997136295,
+          "best_signed_additions": 215
+        },
+        {
+          "seed": 1702701,
+          "observed_seed_wall_seconds": 0.175265833735466,
+          "best_signed_additions": 215
+        }
+      ],
+      "incumbent_anytime": [
+        {
+          "observed_seed_wall_seconds": 0,
+          "best_signed_additions": 215
+        }
+      ]
+    },
+    {
+      "case_id": "hl_4x4x16_Wt",
+      "arm": "vectors",
+      "initial_signed_additions": 215,
+      "best_generated_signed_additions": 214,
+      "best_with_incumbent": 214,
+      "draws": 77,
+      "completed": 73,
+      "completion_fraction": 0.948051948051948,
+      "unsuccessful_or_bound": 4,
+      "invalid": 0,
+      "wrapper_kills": 0,
+      "native_process_seconds": 12.073477208148688,
+      "validation_seconds": 1.4222812908701599,
+      "selector_seconds": 0,
+      "distinct_signed_circuits": 72,
+      "exported": 32,
+      "best_generated_anytime": [
+        {
+          "seed": 1701701,
+          "observed_seed_wall_seconds": 0.5473733339458704,
+          "best_signed_additions": 215
+        },
+        {
+          "seed": 1702701,
+          "observed_seed_wall_seconds": 0.24372162483632565,
+          "best_signed_additions": 215
+        },
+        {
+          "seed": 1702701,
+          "observed_seed_wall_seconds": 2.1168677918612957,
+          "best_signed_additions": 214
+        }
+      ],
+      "incumbent_anytime": [
+        {
+          "observed_seed_wall_seconds": 0,
+          "best_signed_additions": 215
+        },
+        {
+          "seed": 1702701,
+          "observed_seed_wall_seconds": 2.1168677918612957,
+          "best_signed_additions": 214
+        }
+      ]
+    },
+    {
+      "case_id": "hl_5x5x12_V",
+      "arm": "balanced_random",
+      "initial_signed_additions": 232,
+      "best_generated_signed_additions": 232,
+      "best_with_incumbent": 232,
+      "draws": 74,
+      "completed": 69,
+      "completion_fraction": 0.9324324324324325,
+      "unsuccessful_or_bound": 5,
+      "invalid": 0,
+      "wrapper_kills": 0,
+      "native_process_seconds": 12.155013207811862,
+      "validation_seconds": 1.5240519591607153,
+      "selector_seconds": 0,
+      "distinct_signed_circuits": 63,
+      "exported": 32,
+      "best_generated_anytime": [
+        {
+          "seed": 1701701,
+          "observed_seed_wall_seconds": 0.14766554115340114,
+          "best_signed_additions": 232
+        },
+        {
+          "seed": 1702701,
+          "observed_seed_wall_seconds": 0.13892533304169774,
+          "best_signed_additions": 232
+        }
+      ],
+      "incumbent_anytime": [
+        {
+          "observed_seed_wall_seconds": 0,
+          "best_signed_additions": 232
+        }
+      ]
+    },
+    {
+      "case_id": "hl_5x5x12_V",
+      "arm": "guided",
+      "initial_signed_additions": 232,
+      "best_generated_signed_additions": 232,
+      "best_with_incumbent": 232,
+      "draws": 83,
+      "completed": 82,
+      "completion_fraction": 0.9879518072289156,
+      "unsuccessful_or_bound": 1,
+      "invalid": 0,
+      "wrapper_kills": 0,
+      "native_process_seconds": 12.078897083643824,
+      "validation_seconds": 1.858899625018239,
+      "selector_seconds": 2.128507624845952,
+      "distinct_signed_circuits": 73,
+      "exported": 32,
+      "best_generated_anytime": [
+        {
+          "seed": 1701701,
+          "observed_seed_wall_seconds": 0.15105783380568027,
+          "best_signed_additions": 232
+        },
+        {
+          "seed": 1702701,
+          "observed_seed_wall_seconds": 0.1731412075459957,
+          "best_signed_additions": 232
+        }
+      ],
+      "incumbent_anytime": [
+        {
+          "observed_seed_wall_seconds": 0,
+          "best_signed_additions": 232
+        }
+      ]
+    },
+    {
+      "case_id": "hl_5x5x12_V",
+      "arm": "helpers",
+      "initial_signed_additions": 232,
+      "best_generated_signed_additions": null,
+      "best_with_incumbent": 232,
+      "draws": 46,
+      "completed": 0,
+      "completion_fraction": 0.0,
+      "unsuccessful_or_bound": 46,
+      "invalid": 0,
+      "wrapper_kills": 0,
+      "native_process_seconds": 12.045232125092298,
+      "validation_seconds": 0.000365416519343853,
+      "selector_seconds": 0,
+      "distinct_signed_circuits": 0,
+      "exported": 0,
+      "best_generated_anytime": [],
+      "incumbent_anytime": [
+        {
+          "observed_seed_wall_seconds": 0,
+          "best_signed_additions": 232
+        }
+      ]
+    },
+    {
+      "case_id": "hl_5x5x12_V",
+      "arm": "mixed",
+      "initial_signed_additions": 232,
+      "best_generated_signed_additions": 232,
+      "best_with_incumbent": 232,
+      "draws": 58,
+      "completed": 32,
+      "completion_fraction": 0.5517241379310345,
+      "unsuccessful_or_bound": 26,
+      "invalid": 0,
+      "wrapper_kills": 0,
+      "native_process_seconds": 12.059158083982766,
+      "validation_seconds": 0.6980290422216058,
+      "selector_seconds": 0,
+      "distinct_signed_circuits": 32,
+      "exported": 32,
+      "best_generated_anytime": [
+        {
+          "seed": 1701701,
+          "observed_seed_wall_seconds": 0.24485879205167294,
+          "best_signed_additions": 233
+        },
+        {
+          "seed": 1701701,
+          "observed_seed_wall_seconds": 0.6829695831984282,
+          "best_signed_additions": 232
+        },
+        {
+          "seed": 1702701,
+          "observed_seed_wall_seconds": 0.23177479207515717,
+          "best_signed_additions": 232
+        }
+      ],
+      "incumbent_anytime": [
+        {
+          "observed_seed_wall_seconds": 0,
+          "best_signed_additions": 232
+        }
+      ]
+    },
+    {
+      "case_id": "hl_5x5x12_V",
+      "arm": "vectors",
+      "initial_signed_additions": 232,
+      "best_generated_signed_additions": 231,
+      "best_with_incumbent": 231,
+      "draws": 73,
+      "completed": 71,
+      "completion_fraction": 0.9726027397260274,
+      "unsuccessful_or_bound": 2,
+      "invalid": 0,
+      "wrapper_kills": 0,
+      "native_process_seconds": 12.172462542075664,
+      "validation_seconds": 1.481794583145529,
+      "selector_seconds": 0,
+      "distinct_signed_circuits": 70,
+      "exported": 32,
+      "best_generated_anytime": [
+        {
+          "seed": 1701701,
+          "observed_seed_wall_seconds": 0.25018524983897805,
+          "best_signed_additions": 233
+        },
+        {
+          "seed": 1701701,
+          "observed_seed_wall_seconds": 0.42501545790582895,
+          "best_signed_additions": 232
+        },
+        {
+          "seed": 1701701,
+          "observed_seed_wall_seconds": 2.0760239996016026,
+          "best_signed_additions": 231
+        },
+        {
+          "seed": 1702701,
+          "observed_seed_wall_seconds": 0.2245437502861023,
+          "best_signed_additions": 232
+        },
+        {
+          "seed": 1702701,
+          "observed_seed_wall_seconds": 1.1054760422557592,
+          "best_signed_additions": 231
+        }
+      ],
+      "incumbent_anytime": [
+        {
+          "observed_seed_wall_seconds": 0,
+          "best_signed_additions": 232
+        },
+        {
+          "seed": 1701701,
+          "observed_seed_wall_seconds": 2.0760239996016026,
+          "best_signed_additions": 231
+        },
+        {
+          "seed": 1702701,
+          "observed_seed_wall_seconds": 1.1054760422557592,
+          "best_signed_additions": 231
+        }
+      ]
+    },
+    {
+      "case_id": "hl_5x7x7_U",
+      "arm": "balanced_random",
+      "initial_signed_additions": 177,
+      "best_generated_signed_additions": 177,
+      "best_with_incumbent": 177,
+      "draws": 164,
+      "completed": 162,
+      "completion_fraction": 0.9878048780487805,
+      "unsuccessful_or_bound": 2,
+      "invalid": 0,
+      "wrapper_kills": 0,
+      "native_process_seconds": 12.094108249992132,
+      "validation_seconds": 1.8366135410033166,
+      "selector_seconds": 0,
+      "distinct_signed_circuits": 100,
+      "exported": 32,
+      "best_generated_anytime": [
+        {
+          "seed": 1701701,
+          "observed_seed_wall_seconds": 0.0573576670140028,
+          "best_signed_additions": 177
+        },
+        {
+          "seed": 1702701,
+          "observed_seed_wall_seconds": 0.07727991696447134,
+          "best_signed_additions": 177
+        }
+      ],
+      "incumbent_anytime": [
+        {
+          "observed_seed_wall_seconds": 0,
+          "best_signed_additions": 177
+        }
+      ]
+    },
+    {
+      "case_id": "hl_5x7x7_U",
+      "arm": "guided",
+      "initial_signed_additions": 177,
+      "best_generated_signed_additions": 177,
+      "best_with_incumbent": 177,
+      "draws": 223,
+      "completed": 222,
+      "completion_fraction": 0.9955156950672646,
+      "unsuccessful_or_bound": 1,
+      "invalid": 0,
+      "wrapper_kills": 0,
+      "native_process_seconds": 12.052058917004615,
+      "validation_seconds": 2.3890522494912148,
+      "selector_seconds": 1.72367270803079,
+      "distinct_signed_circuits": 141,
+      "exported": 32,
+      "best_generated_anytime": [
+        {
+          "seed": 1701701,
+          "observed_seed_wall_seconds": 0.05439383303746581,
+          "best_signed_additions": 177
+        },
+        {
+          "seed": 1702701,
+          "observed_seed_wall_seconds": 0.05447270814329386,
+          "best_signed_additions": 177
+        }
+      ],
+      "incumbent_anytime": [
+        {
+          "observed_seed_wall_seconds": 0,
+          "best_signed_additions": 177
+        }
+      ]
+    },
+    {
+      "case_id": "hl_5x7x7_U",
+      "arm": "helpers",
+      "initial_signed_additions": 177,
+      "best_generated_signed_additions": null,
+      "best_with_incumbent": 177,
+      "draws": 48,
+      "completed": 0,
+      "completion_fraction": 0.0,
+      "unsuccessful_or_bound": 48,
+      "invalid": 0,
+      "wrapper_kills": 0,
+      "native_process_seconds": 12.039105833508074,
+      "validation_seconds": 0.0003192499279975891,
+      "selector_seconds": 0,
+      "distinct_signed_circuits": 0,
+      "exported": 0,
+      "best_generated_anytime": [],
+      "incumbent_anytime": [
+        {
+          "observed_seed_wall_seconds": 0,
+          "best_signed_additions": 177
+        }
+      ]
+    },
+    {
+      "case_id": "hl_5x7x7_U",
+      "arm": "mixed",
+      "initial_signed_additions": 177,
+      "best_generated_signed_additions": 177,
+      "best_with_incumbent": 177,
+      "draws": 75,
+      "completed": 41,
+      "completion_fraction": 0.5466666666666666,
+      "unsuccessful_or_bound": 34,
+      "invalid": 0,
+      "wrapper_kills": 0,
+      "native_process_seconds": 12.063930375035852,
+      "validation_seconds": 0.4707919997163117,
+      "selector_seconds": 0,
+      "distinct_signed_circuits": 41,
+      "exported": 32,
+      "best_generated_anytime": [
+        {
+          "seed": 1701701,
+          "observed_seed_wall_seconds": 0.19091904116794467,
+          "best_signed_additions": 178
+        },
+        {
+          "seed": 1701701,
+          "observed_seed_wall_seconds": 2.651374500244856,
+          "best_signed_additions": 177
+        },
+        {
+          "seed": 1702701,
+          "observed_seed_wall_seconds": 0.09703887486830354,
+          "best_signed_additions": 180
+        },
+        {
+          "seed": 1702701,
+          "observed_seed_wall_seconds": 0.4383231666870415,
+          "best_signed_additions": 177
+        }
+      ],
+      "incumbent_anytime": [
+        {
+          "observed_seed_wall_seconds": 0,
+          "best_signed_additions": 177
+        }
+      ]
+    },
+    {
+      "case_id": "hl_5x7x7_U",
+      "arm": "vectors",
+      "initial_signed_additions": 177,
+      "best_generated_signed_additions": 177,
+      "best_with_incumbent": 177,
+      "draws": 153,
+      "completed": 152,
+      "completion_fraction": 0.9934640522875817,
+      "unsuccessful_or_bound": 1,
+      "invalid": 0,
+      "wrapper_kills": 0,
+      "native_process_seconds": 12.038534749764949,
+      "validation_seconds": 1.592654874548316,
+      "selector_seconds": 0,
+      "distinct_signed_circuits": 146,
+      "exported": 32,
+      "best_generated_anytime": [
+        {
+          "seed": 1701701,
+          "observed_seed_wall_seconds": 0.10681033413857222,
+          "best_signed_additions": 179
+        },
+        {
+          "seed": 1701701,
+          "observed_seed_wall_seconds": 0.2006475841626525,
+          "best_signed_additions": 178
+        },
+        {
+          "seed": 1701701,
+          "observed_seed_wall_seconds": 0.8226882922463119,
+          "best_signed_additions": 177
+        },
+        {
+          "seed": 1702701,
+          "observed_seed_wall_seconds": 0.1046544169075787,
+          "best_signed_additions": 179
+        },
+        {
+          "seed": 1702701,
+          "observed_seed_wall_seconds": 0.23567054187878966,
+          "best_signed_additions": 178
+        },
+        {
+          "seed": 1702701,
+          "observed_seed_wall_seconds": 1.2388299168087542,
+          "best_signed_additions": 177
+        }
+      ],
+      "incumbent_anytime": [
+        {
+          "observed_seed_wall_seconds": 0,
+          "best_signed_additions": 177
+        }
+      ]
+    },
+    {
+      "case_id": "hl_5x7x7_V",
+      "arm": "balanced_random",
+      "initial_signed_additions": 205,
+      "best_generated_signed_additions": 205,
+      "best_with_incumbent": 205,
+      "draws": 94,
+      "completed": 85,
+      "completion_fraction": 0.9042553191489362,
+      "unsuccessful_or_bound": 9,
+      "invalid": 0,
+      "wrapper_kills": 0,
+      "native_process_seconds": 12.07834079163149,
+      "validation_seconds": 1.2086273743771017,
+      "selector_seconds": 0,
+      "distinct_signed_circuits": 69,
+      "exported": 32,
+      "best_generated_anytime": [
+        {
+          "seed": 1701701,
+          "observed_seed_wall_seconds": 0.11982874991372228,
+          "best_signed_additions": 205
+        },
+        {
+          "seed": 1702701,
+          "observed_seed_wall_seconds": 0.1387880416586995,
+          "best_signed_additions": 205
+        }
+      ],
+      "incumbent_anytime": [
+        {
+          "observed_seed_wall_seconds": 0,
+          "best_signed_additions": 205
+        }
+      ]
+    },
+    {
+      "case_id": "hl_5x7x7_V",
+      "arm": "guided",
+      "initial_signed_additions": 205,
+      "best_generated_signed_additions": 205,
+      "best_with_incumbent": 205,
+      "draws": 110,
+      "completed": 109,
+      "completion_fraction": 0.990909090909091,
+      "unsuccessful_or_bound": 1,
+      "invalid": 0,
+      "wrapper_kills": 0,
+      "native_process_seconds": 12.161435665562749,
+      "validation_seconds": 3.3950884584337473,
+      "selector_seconds": 2.3151314579881728,
+      "distinct_signed_circuits": 96,
+      "exported": 32,
+      "best_generated_anytime": [
+        {
+          "seed": 1701701,
+          "observed_seed_wall_seconds": 0.1278921659104526,
+          "best_signed_additions": 205
+        },
+        {
+          "seed": 1702701,
+          "observed_seed_wall_seconds": 0.15244495775550604,
+          "best_signed_additions": 206
+        },
+        {
+          "seed": 1702701,
+          "observed_seed_wall_seconds": 0.2228121659718454,
+          "best_signed_additions": 205
+        }
+      ],
+      "incumbent_anytime": [
+        {
+          "observed_seed_wall_seconds": 0,
+          "best_signed_additions": 205
+        }
+      ]
+    },
+    {
+      "case_id": "hl_5x7x7_V",
+      "arm": "helpers",
+      "initial_signed_additions": 205,
+      "best_generated_signed_additions": null,
+      "best_with_incumbent": 205,
+      "draws": 47,
+      "completed": 0,
+      "completion_fraction": 0.0,
+      "unsuccessful_or_bound": 47,
+      "invalid": 0,
+      "wrapper_kills": 0,
+      "native_process_seconds": 12.059901459142566,
+      "validation_seconds": 0.000514583196491003,
+      "selector_seconds": 0,
+      "distinct_signed_circuits": 0,
+      "exported": 0,
+      "best_generated_anytime": [],
+      "incumbent_anytime": [
+        {
+          "observed_seed_wall_seconds": 0,
+          "best_signed_additions": 205
+        }
+      ]
+    },
+    {
+      "case_id": "hl_5x7x7_V",
+      "arm": "mixed",
+      "initial_signed_additions": 205,
+      "best_generated_signed_additions": 205,
+      "best_with_incumbent": 205,
+      "draws": 59,
+      "completed": 26,
+      "completion_fraction": 0.4406779661016949,
+      "unsuccessful_or_bound": 33,
+      "invalid": 0,
+      "wrapper_kills": 0,
+      "native_process_seconds": 12.047225624788553,
+      "validation_seconds": 0.48787254095077515,
+      "selector_seconds": 0,
+      "distinct_signed_circuits": 26,
+      "exported": 26,
+      "best_generated_anytime": [
+        {
+          "seed": 1701701,
+          "observed_seed_wall_seconds": 0.22890208289027214,
+          "best_signed_additions": 206
+        },
+        {
+          "seed": 1701701,
+          "observed_seed_wall_seconds": 2.739603375084698,
+          "best_signed_additions": 205
+        },
+        {
+          "seed": 1702701,
+          "observed_seed_wall_seconds": 0.2012897077947855,
+          "best_signed_additions": 208
+        },
+        {
+          "seed": 1702701,
+          "observed_seed_wall_seconds": 0.555645290762186,
+          "best_signed_additions": 205
+        }
+      ],
+      "incumbent_anytime": [
+        {
+          "observed_seed_wall_seconds": 0,
+          "best_signed_additions": 205
+        }
+      ]
+    },
+    {
+      "case_id": "hl_5x7x7_V",
+      "arm": "vectors",
+      "initial_signed_additions": 205,
+      "best_generated_signed_additions": 205,
+      "best_with_incumbent": 205,
+      "draws": 79,
+      "completed": 60,
+      "completion_fraction": 0.759493670886076,
+      "unsuccessful_or_bound": 19,
+      "invalid": 0,
+      "wrapper_kills": 0,
+      "native_process_seconds": 12.117331499699503,
+      "validation_seconds": 0.9433427923358977,
+      "selector_seconds": 0,
+      "distinct_signed_circuits": 60,
+      "exported": 32,
+      "best_generated_anytime": [
+        {
+          "seed": 1701701,
+          "observed_seed_wall_seconds": 0.22234933311119676,
+          "best_signed_additions": 206
+        },
+        {
+          "seed": 1701701,
+          "observed_seed_wall_seconds": 1.6076181661337614,
+          "best_signed_additions": 205
+        },
+        {
+          "seed": 1702701,
+          "observed_seed_wall_seconds": 0.1485130419023335,
+          "best_signed_additions": 206
+        },
+        {
+          "seed": 1702701,
+          "observed_seed_wall_seconds": 0.3898085420951247,
+          "best_signed_additions": 205
+        }
+      ],
+      "incumbent_anytime": [
+        {
+          "observed_seed_wall_seconds": 0,
+          "best_signed_additions": 205
+        }
+      ]
+    },
+    {
+      "case_id": "hl_6x7x8_V",
+      "arm": "balanced_random",
+      "initial_signed_additions": 281,
+      "best_generated_signed_additions": 280,
+      "best_with_incumbent": 280,
+      "draws": 59,
+      "completed": 49,
+      "completion_fraction": 0.8305084745762712,
+      "unsuccessful_or_bound": 10,
+      "invalid": 0,
+      "wrapper_kills": 0,
+      "native_process_seconds": 12.169136708136648,
+      "validation_seconds": 1.3275305000133812,
+      "selector_seconds": 0,
+      "distinct_signed_circuits": 48,
+      "exported": 32,
+      "best_generated_anytime": [
+        {
+          "seed": 1701701,
+          "observed_seed_wall_seconds": 0.19901187531650066,
+          "best_signed_additions": 281
+        },
+        {
+          "seed": 1701701,
+          "observed_seed_wall_seconds": 2.4077109592035413,
+          "best_signed_additions": 280
+        },
+        {
+          "seed": 1702701,
+          "observed_seed_wall_seconds": 0.2096587079577148,
+          "best_signed_additions": 281
+        },
+        {
+          "seed": 1702701,
+          "observed_seed_wall_seconds": 2.602347332984209,
+          "best_signed_additions": 280
+        }
+      ],
+      "incumbent_anytime": [
+        {
+          "observed_seed_wall_seconds": 0,
+          "best_signed_additions": 281
+        },
+        {
+          "seed": 1701701,
+          "observed_seed_wall_seconds": 2.4077109592035413,
+          "best_signed_additions": 280
+        },
+        {
+          "seed": 1702701,
+          "observed_seed_wall_seconds": 2.602347332984209,
+          "best_signed_additions": 280
+        }
+      ]
+    },
+    {
+      "case_id": "hl_6x7x8_V",
+      "arm": "guided",
+      "initial_signed_additions": 281,
+      "best_generated_signed_additions": 281,
+      "best_with_incumbent": 281,
+      "draws": 70,
+      "completed": 68,
+      "completion_fraction": 0.9714285714285714,
+      "unsuccessful_or_bound": 2,
+      "invalid": 0,
+      "wrapper_kills": 0,
+      "native_process_seconds": 12.22549912519753,
+      "validation_seconds": 3.0923501667566597,
+      "selector_seconds": 1.5660947081632912,
+      "distinct_signed_circuits": 66,
+      "exported": 32,
+      "best_generated_anytime": [
+        {
+          "seed": 1701701,
+          "observed_seed_wall_seconds": 0.18579816678538918,
+          "best_signed_additions": 281
+        },
+        {
+          "seed": 1702701,
+          "observed_seed_wall_seconds": 0.18732254207134247,
+          "best_signed_additions": 281
+        }
+      ],
+      "incumbent_anytime": [
+        {
+          "observed_seed_wall_seconds": 0,
+          "best_signed_additions": 281
+        }
+      ]
+    },
+    {
+      "case_id": "hl_6x7x8_V",
+      "arm": "helpers",
+      "initial_signed_additions": 281,
+      "best_generated_signed_additions": null,
+      "best_with_incumbent": 281,
+      "draws": 46,
+      "completed": 0,
+      "completion_fraction": 0.0,
+      "unsuccessful_or_bound": 46,
+      "invalid": 0,
+      "wrapper_kills": 0,
+      "native_process_seconds": 12.090814624913037,
+      "validation_seconds": 0.0004509994760155678,
+      "selector_seconds": 0,
+      "distinct_signed_circuits": 0,
+      "exported": 0,
+      "best_generated_anytime": [],
+      "incumbent_anytime": [
+        {
+          "observed_seed_wall_seconds": 0,
+          "best_signed_additions": 281
+        }
+      ]
+    },
+    {
+      "case_id": "hl_6x7x8_V",
+      "arm": "mixed",
+      "initial_signed_additions": 281,
+      "best_generated_signed_additions": 280,
+      "best_with_incumbent": 280,
+      "draws": 48,
+      "completed": 15,
+      "completion_fraction": 0.3125,
+      "unsuccessful_or_bound": 33,
+      "invalid": 0,
+      "wrapper_kills": 0,
+      "native_process_seconds": 12.184866250026971,
+      "validation_seconds": 0.4986953749321401,
+      "selector_seconds": 0,
+      "distinct_signed_circuits": 15,
+      "exported": 15,
+      "best_generated_anytime": [
+        {
+          "seed": 1701701,
+          "observed_seed_wall_seconds": 0.7809854582883418,
+          "best_signed_additions": 281
+        },
+        {
+          "seed": 1701701,
+          "observed_seed_wall_seconds": 3.7543277079239488,
+          "best_signed_additions": 280
+        },
+        {
+          "seed": 1702701,
+          "observed_seed_wall_seconds": 0.7673855409957469,
+          "best_signed_additions": 281
+        },
+        {
+          "seed": 1702701,
+          "observed_seed_wall_seconds": 5.621769458055496,
+          "best_signed_additions": 280
+        }
+      ],
+      "incumbent_anytime": [
+        {
+          "observed_seed_wall_seconds": 0,
+          "best_signed_additions": 281
+        },
+        {
+          "seed": 1701701,
+          "observed_seed_wall_seconds": 3.7543277079239488,
+          "best_signed_additions": 280
+        },
+        {
+          "seed": 1702701,
+          "observed_seed_wall_seconds": 5.621769458055496,
+          "best_signed_additions": 280
+        }
+      ]
+    },
+    {
+      "case_id": "hl_6x7x8_V",
+      "arm": "vectors",
+      "initial_signed_additions": 281,
+      "best_generated_signed_additions": 280,
+      "best_with_incumbent": 280,
+      "draws": 59,
+      "completed": 49,
+      "completion_fraction": 0.8305084745762712,
+      "unsuccessful_or_bound": 10,
+      "invalid": 0,
+      "wrapper_kills": 0,
+      "native_process_seconds": 12.102413541637361,
+      "validation_seconds": 1.281821832060814,
+      "selector_seconds": 0,
+      "distinct_signed_circuits": 49,
+      "exported": 32,
+      "best_generated_anytime": [
+        {
+          "seed": 1701701,
+          "observed_seed_wall_seconds": 1.1992331249639392,
+          "best_signed_additions": 282
+        },
+        {
+          "seed": 1701701,
+          "observed_seed_wall_seconds": 1.4077819581143558,
+          "best_signed_additions": 281
+        },
+        {
+          "seed": 1701701,
+          "observed_seed_wall_seconds": 1.8122037081047893,
+          "best_signed_additions": 280
+        },
+        {
+          "seed": 1702701,
+          "observed_seed_wall_seconds": 0.26212212489917874,
+          "best_signed_additions": 282
+        },
+        {
+          "seed": 1702701,
+          "observed_seed_wall_seconds": 0.47113591711968184,
+          "best_signed_additions": 281
+        }
+      ],
+      "incumbent_anytime": [
+        {
+          "observed_seed_wall_seconds": 0,
+          "best_signed_additions": 281
+        },
+        {
+          "seed": 1701701,
+          "observed_seed_wall_seconds": 1.8122037081047893,
+          "best_signed_additions": 280
+        }
+      ]
+    },
+    {
+      "case_id": "old_3x6x8_V",
+      "arm": "balanced_random",
+      "initial_signed_additions": 158,
+      "best_generated_signed_additions": 157,
+      "best_with_incumbent": 157,
+      "draws": 135,
+      "completed": 115,
+      "completion_fraction": 0.8518518518518519,
+      "unsuccessful_or_bound": 20,
+      "invalid": 0,
+      "wrapper_kills": 0,
+      "native_process_seconds": 12.079093082807958,
+      "validation_seconds": 1.8184580416418612,
+      "selector_seconds": 0,
+      "distinct_signed_circuits": 85,
+      "exported": 32,
+      "best_generated_anytime": [
+        {
+          "seed": 1701701,
+          "observed_seed_wall_seconds": 0.05632591713219881,
+          "best_signed_additions": 158
+        },
+        {
+          "seed": 1701701,
+          "observed_seed_wall_seconds": 2.1364969173446298,
+          "best_signed_additions": 157
+        },
+        {
+          "seed": 1702701,
+          "observed_seed_wall_seconds": 0.06197599973529577,
+          "best_signed_additions": 158
+        },
+        {
+          "seed": 1702701,
+          "observed_seed_wall_seconds": 2.310264208819717,
+          "best_signed_additions": 157
+        }
+      ],
+      "incumbent_anytime": [
+        {
+          "observed_seed_wall_seconds": 0,
+          "best_signed_additions": 158
+        },
+        {
+          "seed": 1701701,
+          "observed_seed_wall_seconds": 2.1364969173446298,
+          "best_signed_additions": 157
+        },
+        {
+          "seed": 1702701,
+          "observed_seed_wall_seconds": 2.310264208819717,
+          "best_signed_additions": 157
+        }
+      ]
+    },
+    {
+      "case_id": "old_3x6x8_V",
+      "arm": "guided",
+      "initial_signed_additions": 158,
+      "best_generated_signed_additions": 158,
+      "best_with_incumbent": 158,
+      "draws": 62,
+      "completed": 20,
+      "completion_fraction": 0.3225806451612903,
+      "unsuccessful_or_bound": 42,
+      "invalid": 0,
+      "wrapper_kills": 0,
+      "native_process_seconds": 12.121879293117672,
+      "validation_seconds": 0.3383365417830646,
+      "selector_seconds": 0.36290604108944535,
+      "distinct_signed_circuits": 18,
+      "exported": 18,
+      "best_generated_anytime": [
+        {
+          "seed": 1701701,
+          "observed_seed_wall_seconds": 0.08179379208013415,
+          "best_signed_additions": 158
+        },
+        {
+          "seed": 1702701,
+          "observed_seed_wall_seconds": 0.06235629227012396,
+          "best_signed_additions": 158
+        }
+      ],
+      "incumbent_anytime": [
+        {
+          "observed_seed_wall_seconds": 0,
+          "best_signed_additions": 158
+        }
+      ]
+    },
+    {
+      "case_id": "old_3x6x8_V",
+      "arm": "helpers",
+      "initial_signed_additions": 158,
+      "best_generated_signed_additions": null,
+      "best_with_incumbent": 158,
+      "draws": 48,
+      "completed": 0,
+      "completion_fraction": 0.0,
+      "unsuccessful_or_bound": 48,
+      "invalid": 0,
+      "wrapper_kills": 0,
+      "native_process_seconds": 13.544578625820577,
+      "validation_seconds": 0.00016875099390745163,
+      "selector_seconds": 0,
+      "distinct_signed_circuits": 0,
+      "exported": 0,
+      "best_generated_anytime": [],
+      "incumbent_anytime": [
+        {
+          "observed_seed_wall_seconds": 0,
+          "best_signed_additions": 158
+        }
+      ]
+    },
+    {
+      "case_id": "old_3x6x8_V",
+      "arm": "mixed",
+      "initial_signed_additions": 158,
+      "best_generated_signed_additions": 157,
+      "best_with_incumbent": 157,
+      "draws": 69,
+      "completed": 30,
+      "completion_fraction": 0.43478260869565216,
+      "unsuccessful_or_bound": 39,
+      "invalid": 0,
+      "wrapper_kills": 0,
+      "native_process_seconds": 12.098978917114437,
+      "validation_seconds": 0.4376556249335408,
+      "selector_seconds": 0,
+      "distinct_signed_circuits": 30,
+      "exported": 30,
+      "best_generated_anytime": [
+        {
+          "seed": 1701701,
+          "observed_seed_wall_seconds": 0.6866881251335144,
+          "best_signed_additions": 157
+        },
+        {
+          "seed": 1702701,
+          "observed_seed_wall_seconds": 0.5943122911266983,
+          "best_signed_additions": 159
+        },
+        {
+          "seed": 1702701,
+          "observed_seed_wall_seconds": 1.5237606661394238,
+          "best_signed_additions": 158
+        }
+      ],
+      "incumbent_anytime": [
+        {
+          "observed_seed_wall_seconds": 0,
+          "best_signed_additions": 158
+        },
+        {
+          "seed": 1701701,
+          "observed_seed_wall_seconds": 0.6866881251335144,
+          "best_signed_additions": 157
+        }
+      ]
+    },
+    {
+      "case_id": "old_3x6x8_V",
+      "arm": "vectors",
+      "initial_signed_additions": 158,
+      "best_generated_signed_additions": 157,
+      "best_with_incumbent": 157,
+      "draws": 100,
+      "completed": 73,
+      "completion_fraction": 0.73,
+      "unsuccessful_or_bound": 27,
+      "invalid": 0,
+      "wrapper_kills": 0,
+      "native_process_seconds": 12.136580125428736,
+      "validation_seconds": 1.861292083747685,
+      "selector_seconds": 0,
+      "distinct_signed_circuits": 72,
+      "exported": 32,
+      "best_generated_anytime": [
+        {
+          "seed": 1701701,
+          "observed_seed_wall_seconds": 0.0711736660450697,
+          "best_signed_additions": 158
+        },
+        {
+          "seed": 1701701,
+          "observed_seed_wall_seconds": 1.2340779160149395,
+          "best_signed_additions": 157
+        },
+        {
+          "seed": 1702701,
+          "observed_seed_wall_seconds": 0.0613010423257947,
+          "best_signed_additions": 158
+        },
+        {
+          "seed": 1702701,
+          "observed_seed_wall_seconds": 4.137500458396971,
+          "best_signed_additions": 157
+        }
+      ],
+      "incumbent_anytime": [
+        {
+          "observed_seed_wall_seconds": 0,
+          "best_signed_additions": 158
+        },
+        {
+          "seed": 1701701,
+          "observed_seed_wall_seconds": 1.2340779160149395,
+          "best_signed_additions": 157
+        },
+        {
+          "seed": 1702701,
+          "observed_seed_wall_seconds": 4.137500458396971,
+          "best_signed_additions": 157
+        }
+      ]
+    }
+  ],
+  "validation_failures": 0,
+  "main_wall_seconds": 246.46527762524784
+}

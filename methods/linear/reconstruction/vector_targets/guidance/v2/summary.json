@@ -1,0 +1,154 @@
+{
+  "status": "COMPLETE_NEGATIVE_STATIC_GUIDANCE_RESULT",
+  "date": "2026-10-17",
+  "results": [
+    {
+      "case_id": "hl_4x4x16_V",
+      "arm": "balanced_random",
+      "seeds": 2,
+      "best_with_incumbent": 222,
+      "best_per_seed": [
+        {
+          "seed": 1701701,
+          "best": 222
+        },
+        {
+          "seed": 1702701,
+          "best": 222
+        }
+      ],
+      "draws": 152,
+      "completed_exact": 151,
+      "invalid_exact": 0,
+      "native_process_wall_seconds": 20.136919541750103,
+      "validation_seconds": 5.668397500179708
+    },
+    {
+      "case_id": "hl_4x4x16_V",
+      "arm": "guided_v1",
+      "seeds": 2,
+      "best_with_incumbent": 222,
+      "best_per_seed": [
+        {
+          "seed": 1701701,
+          "best": 222
+        },
+        {
+          "seed": 1702701,
+          "best": 222
+        }
+      ],
+      "draws": 183,
+      "completed_exact": 181,
+      "invalid_exact": 0,
+      "native_process_wall_seconds": 20.158800541888922,
+      "validation_seconds": 6.474496999755502
+    },
+    {
+      "case_id": "hl_4x4x16_V",
+      "arm": "guided_v2",
+      "seeds": 2,
+      "best_with_incumbent": 222,
+      "best_per_seed": [
+        {
+          "seed": 1701701,
+          "best": 222
+        },
+        {
+          "seed": 1702701,
+          "best": 222
+        }
+      ],
+      "draws": 184,
+      "completed_exact": 182,
+      "invalid_exact": 0,
+      "native_process_wall_seconds": 20.14023929229006,
+      "validation_seconds": 6.6220114580355585
+    },
+    {
+      "case_id": "old_3x6x8_V",
+      "arm": "balanced_random",
+      "seeds": 2,
+      "best_with_incumbent": 157,
+      "best_per_seed": [
+        {
+          "seed": 1701701,
+          "best": 157
+        },
+        {
+          "seed": 1702701,
+          "best": 157
+        }
+      ],
+      "draws": 171,
+      "completed_exact": 147,
+      "invalid_exact": 0,
+      "native_process_wall_seconds": 20.135922499001026,
+      "validation_seconds": 1.7633733744733036
+    },
+    {
+      "case_id": "old_3x6x8_V",
+      "arm": "guided_v1",
+      "seeds": 2,
+      "best_with_incumbent": 158,
+      "best_per_seed": [
+        {
+          "seed": 1701701,
+          "best": 158
+        },
+        {
+          "seed": 1702701,
+          "best": 158
+        }
+      ],
+      "draws": 58,
+      "completed_exact": 20,
+      "invalid_exact": 0,
+      "native_process_wall_seconds": 20.106466624885798,
+      "validation_seconds": 0.24630300095304847
+    },
+    {
+      "case_id": "old_3x6x8_V",
+      "arm": "guided_v2",
+      "seeds": 2,
+      "best_with_incumbent": 158,
+      "best_per_seed": [
+        {
+          "seed": 1701701,
+          "best": 158
+        },
+        {
+          "seed": 1702701,
+          "best": 158
+        }
+      ],
+      "draws": 67,
+      "completed_exact": 30,
+      "invalid_exact": 0,
+      "native_process_wall_seconds": 20.141323290765285,
+      "validation_seconds": 0.5893470826558769
+    }
+  ],
+  "native_stage_wall_seconds": 48.33674433268607,
+  "native_job_count": 12,
+  "workers": 3,
+  "seconds_per_arm_seed": 10,
+  "seeds": 2,
+  "max_abs": 1,
+  "seconds_per_draw": 0.5,
+  "selector_preparation_seconds": {
+    "old_3x6x8_V": {
+      "v1": 0.36290604108944535,
+      "v2": 1.0119859999977052
+    },
+    "hl_4x4x16_V": {
+      "v1": 1.7864757501520216,
+      "v2": 0.941555957775563
+    }
+  },
+  "preliminary_completed_preparation_seconds": 65.06843220815063,
+  "preliminary_interrupted_case": "5x7x7 V: elapsed not separately captured",
+  "v1_schedules_changed": false,
+  "claim": "V2 correctly models optional survivors and possible recreation, but gives no count improvement in this finite two-case test. Balanced random reaches 157 for 3x6x8 in both seeds. No general superiority or lower bound claimed.",
+  "cost_caveat": "Final fast selector timings exclude earlier exploratory implementations; preliminary attempts are retained, not amortized away."
+}

@@ -1,0 +1,36 @@
+{
+  "case_id": "hl_5x7x7_V",
+  "local_signed_additions": 204,
+  "returned_signed_additions": 204,
+  "orientation": {
+    "status": "OPTIMAL",
+    "elapsed_seconds": 0.028831000000000002,
+    "input_signs_fixed": true,
+    "ordered_output_signs_fixed": true,
+    "exact_original_map_verified": true,
+    "binary_additions": 204,
+    "unary_negations": 0,
+    "nonunit_scalars": 0,
+    "unused_gates": 0,
+    "scope": "Sign-assignment feasibility only; solver status is not an addition-count optimality claim."
+  },
+  "previous_strict_additions": 205,
+  "transposed_search": false,
+  "basis_change": false,
+  "multiplication_rank_unchanged": true,
+  "status": "EXACT_ORIGINAL_MAP_PASS",
+  "counts": {
+    "binary_additions": 204,
+    "unary_negations": 0,
+    "nonunit_scalars": 0,
+    "unused_noninput_assignments": 0
+  },
+  "improvement": 1,
+  "derivation": {
+    "stage": "pooled",
+    "case_id": "hl_5x7x7_V",
+    "arm": "vectors"
+  },
+  "previous_literal_sha256": "542e4d88a8c8a122df05cdec02a25285ebbabb6b000a9bec1fcf7ac35df9209e",
+  "original_matrix_sha256": "5df6fc138883423e9b6467264760b1b4b783539b075c77e934dff1c845f1134e"
+}

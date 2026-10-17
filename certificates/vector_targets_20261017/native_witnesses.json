@@ -1,0 +1,38 @@
+[
+  {
+    "scheme": "3x6x8",
+    "factor": "V",
+    "directory": "native_witnesses/3x6x8_V",
+    "additions": 157
+  },
+  {
+    "scheme": "4x4x16",
+    "factor": "V",
+    "directory": "native_witnesses/4x4x16_V",
+    "additions": 221
+  },
+  {
+    "scheme": "4x4x16",
+    "factor": "W",
+    "directory": "native_witnesses/4x4x16_W",
+    "additions": 342
+  },
+  {
+    "scheme": "5x5x12",
+    "factor": "V",
+    "directory": "native_witnesses/5x5x12_V",
+    "additions": 231
+  },
+  {
+    "scheme": "6x7x8",
+    "factor": "V",
+    "directory": "native_witnesses/6x7x8_V",
+    "additions": 280
+  },
+  {
+    "scheme": "4x4x14",
+    "factor": "W",
+    "directory": "native_witnesses/4x4x14_W",
+    "additions": 296
+  }
+]

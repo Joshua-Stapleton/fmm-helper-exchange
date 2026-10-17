@@ -1,0 +1,261 @@
+{
+  "status": "EXACT_ORIGINAL_MAP_CERTIFICATES",
+  "date": "2026-10-17",
+  "schemes": [
+    {
+      "scheme": "3x6x8",
+      "dimensions": [
+        3,
+        6,
+        8
+      ],
+      "rank": 113,
+      "counts": {
+        "U": 56,
+        "V": 155,
+        "W": 200
+      },
+      "previous_counts": {
+        "U": 56,
+        "V": 158,
+        "W": 200
+      },
+      "total_additions": 411,
+      "previous_total_additions": 414,
+      "total_scalar_operations": 524,
+      "previous_total_scalar_operations": 527,
+      "changed": {
+        "V": {
+          "certificate_label": "old_3x6x8_V155",
+          "previous": 158,
+          "current": 155,
+          "original_matrix_sha256": "1869ea605ac618e325156f0e98929a90fa16eb94f13bfb282c772fbb04e767be",
+          "certificate_slp_sha256": "9b9ec327ead6773db37f36d8b6533bb755b1aa3779825955dc4925ad6d31678c",
+          "derivation": {
+            "stage": "pooled",
+            "case_id": "old_3x6x8_V",
+            "arm": "vectors"
+          }
+        }
+      },
+      "basis_change": false,
+      "coordinates": "A and B row-major; C column-major (storage order only)."
+    },
+    {
+      "scheme": "4x4x16",
+      "dimensions": [
+        4,
+        4,
+        16
+      ],
+      "rank": 192,
+      "counts": {
+        "U": 75,
+        "V": 220,
+        "W": 339
+      },
+      "previous_counts": {
+        "U": 75,
+        "V": 222,
+        "W": 343
+      },
+      "total_additions": 634,
+      "previous_total_additions": 640,
+      "total_scalar_operations": 826,
+      "previous_total_scalar_operations": 832,
+      "changed": {
+        "V": {
+          "certificate_label": "hl_4x4x16_V220",
+          "previous": 222,
+          "current": 220,
+          "original_matrix_sha256": "84651548203264e8a8b7e49ad7d695078656995c712fb1ab0c071831d80ee6ff",
+          "certificate_slp_sha256": "36b864d25edcfc30f562dfd7b0a3c7b973c57bde7172c43b4f01acfc5bcdf8b4",
+          "derivation": {
+            "stage": "pooled",
+            "case_id": "hl_4x4x16_V",
+            "arm": "vectors"
+          }
+        },
+        "W": {
+          "certificate_label": "hl_4x4x16_Wt211",
+          "previous": 343,
+          "current": 339,
+          "original_matrix_sha256": "c1dd0bc4d26811a766853a73e5edfeac1531a0f1e5d97391f178d7f9ff962398",
+          "certificate_slp_sha256": "c62d98c4a17da03abb76f4426963bb96780a0c4f8e2f7a6dd4849bfdd3dc4d44",
+          "derivation": {
+            "stage": "pooled",
+            "case_id": "hl_4x4x16_Wt",
+            "arm": "baseline_frozen",
+            "control": "Achieved by the frozen historical donor bank alone; not credited to newly generated native vector hints."
+          }
+        }
+      },
+      "basis_change": false,
+      "coordinates": "A and B row-major; C column-major (storage order only)."
+    },
+    {
+      "scheme": "5x5x12",
+      "dimensions": [
+        5,
+        5,
+        12
+      ],
+      "rank": 220,
+      "counts": {
+        "U": 105,
+        "V": 230,
+        "W": 387
+      },
+      "previous_counts": {
+        "U": 105,
+        "V": 232,
+        "W": 387
+      },
+      "total_additions": 722,
+      "previous_total_additions": 724,
+      "total_scalar_operations": 942,
+      "previous_total_scalar_operations": 944,
+      "changed": {
+        "V": {
+          "certificate_label": "hl_5x5x12_V230",
+          "previous": 232,
+          "current": 230,
+          "original_matrix_sha256": "aee7ad779915141a50e8971146670ad60f7f2205d4d3d16d520cab84a11b3662",
+          "certificate_slp_sha256": "23e2845fbfe24d97ef767b81c5e101fdb921f0756e346e77068c31fe5e695b0a",
+          "derivation": {
+            "stage": "pooled",
+            "case_id": "hl_5x5x12_V",
+            "arm": "vectors"
+          }
+        }
+      },
+      "basis_change": false,
+      "coordinates": "A and B row-major; C column-major (storage order only)."
+    },
+    {
+      "scheme": "6x7x8",
+      "dimensions": [
+        6,
+        7,
+        8
+      ],
+      "rank": 239,
+      "counts": {
+        "U": 219,
+        "V": 280,
+        "W": 454
+      },
+      "previous_counts": {
+        "U": 219,
+        "V": 281,
+        "W": 454
+      },
+      "total_additions": 953,
+      "previous_total_additions": 954,
+      "total_scalar_operations": 1192,
+      "previous_total_scalar_operations": 1193,
+      "changed": {
+        "V": {
+          "certificate_label": "hl_6x7x8_V280",
+          "previous": 281,
+          "current": 280,
+          "original_matrix_sha256": "1e0415af2f11d7ac2eeeebd7ba8d288ae4e9fabfdf1832e3dbc621e6a1ee88e6",
+          "certificate_slp_sha256": "270e65e5386910a80bc68698b813547d553bd41d91eb5129da2457830ed5ebd2",
+          "derivation": {
+            "stage": "native"
+          }
+        }
+      },
+      "basis_change": false,
+      "coordinates": "A and B row-major; C column-major (storage order only)."
+    },
+    {
+      "scheme": "4x4x14",
+      "dimensions": [
+        4,
+        4,
+        14
+      ],
+      "rank": 169,
+      "counts": {
+        "U": 137,
+        "V": 187,
+        "W": 294
+      },
+      "previous_counts": {
+        "U": 137,
+        "V": 187,
+        "W": 297
+      },
+      "total_additions": 618,
+      "previous_total_additions": 621,
+      "total_scalar_operations": 787,
+      "previous_total_scalar_operations": 790,
+      "changed": {
+        "W": {
+          "certificate_label": "hl_4x4x14_Wt181",
+          "previous": 297,
+          "current": 294,
+          "original_matrix_sha256": "a1d1aac51306fbba9280750163c6f4b69ea0a96d43a32e5cce7ddb365a2be797",
+          "certificate_slp_sha256": "02cd6221346623cd830e6dc8a4c485d627d30d2b83621fd206186ce3b80d524f",
+          "derivation": {
+            "stage": "pooled",
+            "case_id": "hl_4x4x14_Wt",
+            "arm": "guided"
+          }
+        }
+      },
+      "basis_change": false,
+      "coordinates": "A and B row-major; C column-major (storage order only)."
+    },
+    {
+      "scheme": "5x7x7",
+      "dimensions": [
+        5,
+        7,
+        7
+      ],
+      "rank": 176,
+      "counts": {
+        "U": 177,
+        "V": 204,
+        "W": 314
+      },
+      "previous_counts": {
+        "U": 177,
+        "V": 205,
+        "W": 314
+      },
+      "total_additions": 695,
+      "previous_total_additions": 696,
+      "total_scalar_operations": 871,
+      "previous_total_scalar_operations": 872,
+      "changed": {
+        "V": {
+          "certificate_label": "hl_5x7x7_V204",
+          "previous": 205,
+          "current": 204,
+          "original_matrix_sha256": "5df6fc138883423e9b6467264760b1b4b783539b075c77e934dff1c845f1134e",
+          "certificate_slp_sha256": "b0103e591c76df37e01ac75571728616f6ec9df6edbd617de85ebd9a9f8e33e0",
+          "derivation": {
+            "stage": "pooled",
+            "case_id": "hl_5x7x7_V",
+            "arm": "vectors"
+          }
+        }
+      },
+      "basis_change": false,
+      "coordinates": "A and B row-major; C column-major (storage order only)."
+    }
+  ],
+  "source": {
+    "upstream_url": "https://github.com/dronperminov/linear-expressions-optimization",
+    "upstream_branch": "new-improvements",
+    "upstream_commit": "7c8b59864e000bdc880938428d8a1991ec1f0bea",
+    "certificate_reference": "https://github.com/Joshua-Stapleton/fmm-helper-exchange",
+    "historical_source": "Perminov-supplied schemes and prior exact certificate releases; original fixed ordered maps are copied without sign changes.",
+    "methodology": "Native LEO vector-target initialization, mixed helper/vector initializations, exact donor pooling and literal sign orientation; see separate experiment report. No basis change or multiplication-rank change.",
+    "attribution": "The vector-target initialization and solver are Perminov's LEO APIs. This bundle supplies independently replayed arithmetic schedules and comparative experiment witnesses.",
+    "claim_scope": "Exact circuit upper bounds for these fixed linear maps and complete tensors. No proof of optimality, global record, numerical stability or runtime speedup."
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "cases": [
+    {
+      "case_id": "hl_3x4x7_V",
+      "candidate": "<experiment>/benchmarks/hl_3x4x7_V/candidate.json",
+      "selection": "<experiment>/guidance/bank/hl_3x4x7_V.selection.json",
+      "native_mapping_verified": true,
+      "schedules": {
+        "guided": "<experiment>/guidance/bank/hl_3x4x7_V.guided.csv",
+        "random_controls": "<experiment>/guidance/bank/hl_3x4x7_V.random_controls.csv"
+      },
+      "eligible_helpers": 26,
+      "guided_trials": 16,
+      "random_trials": 16,
+      "selector_wall_seconds": 0.8652019170112908,
+      "pool_file": "experiments/perminov_hl_tests_20261016/group_a_recovery/07_3x4x7_m64_cr249_cn446_ZT_reduced_V/pool.json"
+    },
+    {
+      "case_id": "hl_3x6x6_V",
+      "candidate": "<experiment>/benchmarks/hl_3x6x6_V/candidate.json",
+      "selection": "<experiment>/guidance/bank/hl_3x6x6_V.selection.json",
+      "native_mapping_verified": true,
+      "schedules": {
+        "guided": "<experiment>/guidance/bank/hl_3x6x6_V.guided.csv",
+        "random_controls": "<experiment>/guidance/bank/hl_3x6x6_V.random_controls.csv"
+      },
+      "eligible_helpers": 32,
+      "guided_trials": 16,
+      "random_trials": 16,
+      "selector_wall_seconds": 1.0086405407637358,
+      "pool_file": "experiments/perminov_hl_tests_20261016/group_a/10_3x6x6_m85_cr352_fv172_cn998_ZT_reduced_V/pool.json"
+    },
+    {
+      "case_id": "old_3x6x8_V",
+      "candidate": "<experiment>/benchmarks/old_3x6x8_V/candidate.json",
+      "selection": "<experiment>/guidance/bank/old_3x6x8_V.selection.json",
+      "native_mapping_verified": true,
+      "schedules": {
+        "guided": "<experiment>/guidance/bank/old_3x6x8_V.guided.csv",
+        "random_controls": "<experiment>/guidance/bank/old_3x6x8_V.random_controls.csv"
+      },
+      "eligible_helpers": 57,
+      "guided_trials": 16,
+      "random_trials": 16,
+      "selector_wall_seconds": 0.36290604108944535,
+      "pool_file": null
+    },
+    {
+      "case_id": "hl_5x7x7_U",
+      "candidate": "<experiment>/benchmarks/hl_5x7x7_U/candidate.json",
+      "selection": "<experiment>/guidance/bank/hl_5x7x7_U.selection.json",
+      "native_mapping_verified": true,
+      "schedules": {
+        "guided": "<experiment>/guidance/bank/hl_5x7x7_U.guided.csv",
+        "random_controls": "<experiment>/guidance/bank/hl_5x7x7_U.random_controls.csv"
+      },
+      "eligible_helpers": 21,
+      "guided_trials": 16,
+      "random_trials": 16,
+      "selector_wall_seconds": 1.72367270803079,
+      "pool_file": "experiments/perminov_hl_tests_20261016/group_a/15_5x7x7_m176_cr788_fv371_cn2605_ZT_reduced_U/pool.json"
+    },
+    {
+      "case_id": "hl_5x7x7_V",
+      "candidate": "<experiment>/benchmarks/hl_5x7x7_V/candidate.json",
+      "selection": "<experiment>/guidance/bank/hl_5x7x7_V.selection.json",
+      "native_mapping_verified": true,
+      "schedules": {
+        "guided": "<experiment>/guidance/bank/hl_5x7x7_V.guided.csv",
+        "random_controls": "<experiment>/guidance/bank/hl_5x7x7_V.random_controls.csv"
+      },
+      "eligible_helpers": 44,
+      "guided_trials": 16,
+      "random_trials": 16,
+      "selector_wall_seconds": 2.3151314579881728,
+      "pool_file": "experiments/perminov_hl_tests_20261016/group_a/16_5x7x7_m176_cr788_fv371_cn2605_ZT_reduced_V/pool.json"
+    },
+    {
+      "case_id": "hl_4x4x16_V",
+      "candidate": "<experiment>/benchmarks/hl_4x4x16_V/candidate.json",
+      "selection": "<experiment>/guidance/bank/hl_4x4x16_V.selection.json",
+      "native_mapping_verified": true,
+      "schedules": {
+        "guided": "<experiment>/guidance/bank/hl_4x4x16_V.guided.csv",
+        "random_controls": "<experiment>/guidance/bank/hl_4x4x16_V.random_controls.csv"
+      },
+      "eligible_helpers": 54,
+      "guided_trials": 16,
+      "random_trials": 16,
+      "selector_wall_seconds": 1.7864757501520216,
+      "pool_file": "experiments/perminov_hl_tests_20261016/group_a/13_4x4x16_m192_cr718_fv350_cn2059_ZT_reduced_V/pool.json"
+    },
+    {
+      "case_id": "hl_5x5x12_V",
+      "candidate": "<experiment>/benchmarks/hl_5x5x12_V/candidate.json",
+      "selection": "<experiment>/guidance/bank/hl_5x5x12_V.selection.json",
+      "native_mapping_verified": true,
+      "schedules": {
+        "guided": "<experiment>/guidance/bank/hl_5x5x12_V.guided.csv",
+        "random_controls": "<experiment>/guidance/bank/hl_5x5x12_V.random_controls.csv"
+      },
+      "eligible_helpers": 40,
+      "guided_trials": 16,
+      "random_trials": 16,
+      "selector_wall_seconds": 2.128507624845952,
+      "pool_file": "experiments/perminov_hl_tests_20261016/group_b/13_5x5x12_m220_cr799_fv426_cn2444_ZT_reduced_V/pool.json"
+    },
+    {
+      "case_id": "hl_6x7x8_V",
+      "candidate": "<experiment>/benchmarks/hl_6x7x8_V/candidate.json",
+      "selection": "<experiment>/guidance/bank/hl_6x7x8_V.selection.json",
+      "native_mapping_verified": true,
+      "schedules": {
+        "guided": "<experiment>/guidance/bank/hl_6x7x8_V.guided.csv",
+        "random_controls": "<experiment>/guidance/bank/hl_6x7x8_V.random_controls.csv"
+      },
+      "eligible_helpers": 74,
+      "guided_trials": 16,
+      "random_trials": 16,
+      "selector_wall_seconds": 1.5660947081632912,
+      "pool_file": "experiments/perminov_hl_tests_20261016/group_c/16_6x7x8_m239_cr1027_fv499_cn2263_ZT_reduced_V/pool.json"
+    },
+    {
+      "case_id": "hl_4x4x16_Wt",
+      "candidate": "<experiment>/benchmarks/hl_4x4x16_Wt/candidate.json",
+      "selection": "<experiment>/guidance/bank/hl_4x4x16_Wt.selection.json",
+      "native_mapping_verified": true,
+      "schedules": {
+        "guided": "<experiment>/guidance/bank/hl_4x4x16_Wt.guided.csv",
+        "random_controls": "<experiment>/guidance/bank/hl_4x4x16_Wt.random_controls.csv"
+      },
+      "eligible_helpers": 44,
+      "guided_trials": 16,
+      "random_trials": 16,
+      "selector_wall_seconds": 0.7196011249907315,
+      "pool_file": null
+    },
+    {
+      "case_id": "hl_4x4x14_Wt",
+      "candidate": "<experiment>/benchmarks/hl_4x4x14_Wt/candidate.json",
+      "selection": "<experiment>/guidance/bank/hl_4x4x14_Wt.selection.json",
+      "native_mapping_verified": true,
+      "schedules": {
+        "guided": "<experiment>/guidance/bank/hl_4x4x14_Wt.guided.csv",
+        "random_controls": "<experiment>/guidance/bank/hl_4x4x14_Wt.random_controls.csv"
+      },
+      "eligible_helpers": 39,
+      "guided_trials": 16,
+      "random_trials": 16,
+      "selector_wall_seconds": 0.5115863750688732,
+      "pool_file": null
+    }
+  ],
+  "source_manifest": "experiments/perminov_vector_targets_20261017/benchmarks/manifest.json",
+  "seed": 17017,
+  "schema": "guided-native-removal-bank-v1"
+}

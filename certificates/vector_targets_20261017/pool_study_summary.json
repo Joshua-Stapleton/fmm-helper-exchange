@@ -1,0 +1,2438 @@
+{
+  "status": "COMPLETE",
+  "workers": 3,
+  "wall_seconds": 143.7549289581366,
+  "comparison": "Each separate arm receives the same frozen-bank circuits plus its capped new donors; baseline uses the frozen bank alone. Combined uses their union with a longer separately disclosed search budget. One plateau seed per case shared across arms; this is not a performance generalization.",
+  "results": [
+    {
+      "case_id": "hl_3x4x7_V",
+      "arm": "baseline_frozen",
+      "status": "COMPLETED",
+      "distinct_donors": 20,
+      "raw_donor_best": 77,
+      "baseline_signed_additions": 77,
+      "initial_pool_additions": 77,
+      "initial_reconnected_additions": 77,
+      "best_signed_additions": 77,
+      "forms": 320,
+      "exact_binary_relations": 1523,
+      "pool_seconds": 0.7879304168745875,
+      "search_budget_seconds": 5,
+      "search_elapsed_seconds": 5.483317874837667,
+      "total_elapsed_seconds": 6.306626707781106,
+      "seed": 11578264,
+      "perturbation": 6,
+      "scope": "Heuristic fixed linear-map signed-wire pool search. All forms are paid. No optimality or literal sign-orientation claim.",
+      "candidate_sha256": "df72d8b1585df7caa0ce1367d941b4f810122c199498ea375e1efd6361de8cb6",
+      "pool_sha256": "148441f0d135ae77d02ededbae7d5abf3fd1c8da16d64e9c999bb8b1d863610b",
+      "exact_map_verified": true,
+      "source_banks": [
+        {
+          "sha256": "31a63245fe4018a834b8e1762c5c9a736c63975c31cabb4958a406eeafc2a243",
+          "circuits": 20
+        }
+      ]
+    },
+    {
+      "case_id": "hl_3x4x7_V",
+      "arm": "vectors",
+      "status": "COMPLETED",
+      "distinct_donors": 52,
+      "raw_donor_best": 77,
+      "baseline_signed_additions": 77,
+      "initial_pool_additions": 77,
+      "initial_reconnected_additions": 77,
+      "best_signed_additions": 77,
+      "forms": 374,
+      "exact_binary_relations": 2201,
+      "pool_seconds": 0.7540921671316028,
+      "search_budget_seconds": 5,
+      "search_elapsed_seconds": 5.480006416793913,
+      "total_elapsed_seconds": 6.304946583230048,
+      "seed": 11578264,
+      "perturbation": 6,
+      "scope": "Heuristic fixed linear-map signed-wire pool search. All forms are paid. No optimality or literal sign-orientation claim.",
+      "candidate_sha256": "c6ff68891226683b7f0fc7b500ff1ad43e1826eee7e46dd1b24fdf93a1d1e4e4",
+      "pool_sha256": "bebaf66f84f6d8f53ff1a1db2b334350fd91dd62ff7744dd7c77a2f441f4eb3f",
+      "exact_map_verified": true,
+      "source_banks": [
+        {
+          "sha256": "31a63245fe4018a834b8e1762c5c9a736c63975c31cabb4958a406eeafc2a243",
+          "circuits": 20
+        },
+        {
+          "sha256": "2e4da0f9bc3bf2b4f1b31f9dd9c31dc66983eb887330ba50497716d3cdf0082e",
+          "circuits": 32
+        }
+      ]
+    },
+    {
+      "case_id": "hl_3x4x7_V",
+      "arm": "helpers",
+      "status": "COMPLETED",
+      "distinct_donors": 52,
+      "raw_donor_best": 77,
+      "baseline_signed_additions": 77,
+      "initial_pool_additions": 77,
+      "initial_reconnected_additions": 77,
+      "best_signed_additions": 77,
+      "forms": 421,
+      "exact_binary_relations": 2824,
+      "pool_seconds": 0.7545103747397661,
+      "search_budget_seconds": 5,
+      "search_elapsed_seconds": 5.479807333089411,
+      "total_elapsed_seconds": 6.305671750102192,
+      "seed": 11578264,
+      "perturbation": 6,
+      "scope": "Heuristic fixed linear-map signed-wire pool search. All forms are paid. No optimality or literal sign-orientation claim.",
+      "candidate_sha256": "198772bf68b9dcbe8b571665879d9777e0393e3c5291bd31ec3fddb3c24b66ac",
+      "pool_sha256": "dfa176642623912b0d0485d04cac6f1a2c47f33b6ac3c0606f122892044d245b",
+      "exact_map_verified": true,
+      "source_banks": [
+        {
+          "sha256": "31a63245fe4018a834b8e1762c5c9a736c63975c31cabb4958a406eeafc2a243",
+          "circuits": 20
+        },
+        {
+          "sha256": "d4ded561835e15736c7225c9f5323f046ad028afd2793346e412465a04910791",
+          "circuits": 32
+        }
+      ]
+    },
+    {
+      "case_id": "hl_3x4x7_V",
+      "arm": "balanced_random",
+      "status": "COMPLETED",
+      "distinct_donors": 52,
+      "raw_donor_best": 77,
+      "baseline_signed_additions": 77,
+      "initial_pool_additions": 77,
+      "initial_reconnected_additions": 77,
+      "best_signed_additions": 77,
+      "forms": 362,
+      "exact_binary_relations": 2058,
+      "pool_seconds": 0.1509784171357751,
+      "search_budget_seconds": 5,
+      "search_elapsed_seconds": 5.008808750193566,
+      "total_elapsed_seconds": 5.2515549580566585,
+      "seed": 11578264,
+      "perturbation": 6,
+      "scope": "Heuristic fixed linear-map signed-wire pool search. All forms are paid. No optimality or literal sign-orientation claim.",
+      "candidate_sha256": "ca73e51d372bdeac58c08971585f5d0df13c07be6ef051ffe9993e6d947324a8",
+      "pool_sha256": "1a347296b3151396b6ec89cd1346790af0baa7fcd0628df9b4ef1b47ac9293e1",
+      "exact_map_verified": true,
+      "source_banks": [
+        {
+          "sha256": "31a63245fe4018a834b8e1762c5c9a736c63975c31cabb4958a406eeafc2a243",
+          "circuits": 20
+        },
+        {
+          "sha256": "77422361d3ebcd76369622efe84bf798c1ed5210e24830ba9acd382eba4524e4",
+          "circuits": 32
+        }
+      ]
+    },
+    {
+      "case_id": "hl_3x4x7_V",
+      "arm": "guided",
+      "status": "COMPLETED",
+      "distinct_donors": 52,
+      "raw_donor_best": 77,
+      "baseline_signed_additions": 77,
+      "initial_pool_additions": 77,
+      "initial_reconnected_additions": 77,
+      "best_signed_additions": 77,
+      "forms": 352,
+      "exact_binary_relations": 1961,
+      "pool_seconds": 0.15425041690468788,
+      "search_budget_seconds": 5,
+      "search_elapsed_seconds": 5.007435416802764,
+      "total_elapsed_seconds": 5.253835666924715,
+      "seed": 11578264,
+      "perturbation": 6,
+      "scope": "Heuristic fixed linear-map signed-wire pool search. All forms are paid. No optimality or literal sign-orientation claim.",
+      "candidate_sha256": "b5786c9d3193956982eed7af5e6294f07b014d875b856a937a78db84de53d49e",
+      "pool_sha256": "1484aacb38024b1b38efd45f589ab18d5151e260d30b70694b17b441191b58f7",
+      "exact_map_verified": true,
+      "source_banks": [
+        {
+          "sha256": "31a63245fe4018a834b8e1762c5c9a736c63975c31cabb4958a406eeafc2a243",
+          "circuits": 20
+        },
+        {
+          "sha256": "a6e926243623bd0ab3808452e52c0994e0184b7aa1e06f781fe90b274c42a710",
+          "circuits": 32
+        }
+      ]
+    },
+    {
+      "case_id": "hl_3x4x7_V",
+      "arm": "mixed",
+      "status": "COMPLETED",
+      "distinct_donors": 52,
+      "raw_donor_best": 77,
+      "baseline_signed_additions": 77,
+      "initial_pool_additions": 77,
+      "initial_reconnected_additions": 77,
+      "best_signed_additions": 77,
+      "forms": 405,
+      "exact_binary_relations": 2611,
+      "pool_seconds": 0.1568817920051515,
+      "search_budget_seconds": 5,
+      "search_elapsed_seconds": 5.007612832821906,
+      "total_elapsed_seconds": 5.259211458265781,
+      "seed": 11578264,
+      "perturbation": 6,
+      "scope": "Heuristic fixed linear-map signed-wire pool search. All forms are paid. No optimality or literal sign-orientation claim.",
+      "candidate_sha256": "892014cb41a02f98cf1474c1ff730f52123e1312d6375d953ae7548391eaad1b",
+      "pool_sha256": "1a718827d951735960dc4a9de20eee6a758d0114d80d613db40c5433dcc1bbac",
+      "exact_map_verified": true,
+      "source_banks": [
+        {
+          "sha256": "31a63245fe4018a834b8e1762c5c9a736c63975c31cabb4958a406eeafc2a243",
+          "circuits": 20
+        },
+        {
+          "sha256": "8d870c9b0592066a7f40e8b612a37d59267872dac1250736dad6995c1a07d028",
+          "circuits": 32
+        }
+      ]
+    },
+    {
+      "case_id": "hl_3x6x6_V",
+      "arm": "baseline_frozen",
+      "status": "COMPLETED",
+      "distinct_donors": 20,
+      "raw_donor_best": 110,
+      "baseline_signed_additions": 110,
+      "initial_pool_additions": 110,
+      "initial_reconnected_additions": 110,
+      "best_signed_additions": 110,
+      "forms": 429,
+      "exact_binary_relations": 2362,
+      "pool_seconds": 0.2813485828228295,
+      "search_budget_seconds": 5,
+      "search_elapsed_seconds": 5.00718954205513,
+      "total_elapsed_seconds": 5.354075999930501,
+      "seed": 700729,
+      "perturbation": 6,
+      "scope": "Heuristic fixed linear-map signed-wire pool search. All forms are paid. No optimality or literal sign-orientation claim.",
+      "candidate_sha256": "35665a33989c36c3e87e8fc928517bd9657d99cfa9b5e9daa894f76ae57a03e8",
+      "pool_sha256": "c6defd36f04af051157ab662ead1f40bc21f17d948770c78658c8f2ab59a9ed0",
+      "exact_map_verified": true,
+      "source_banks": [
+        {
+          "sha256": "e35882d89ac321e19d9c6425aac53e7c68539fe9d3c96d69d7a686578854c7a8",
+          "circuits": 20
+        }
+      ]
+    },
+    {
+      "case_id": "hl_3x6x6_V",
+      "arm": "helpers",
+      "status": "COMPLETED",
+      "distinct_donors": 52,
+      "raw_donor_best": 110,
+      "baseline_signed_additions": 110,
+      "initial_pool_additions": 110,
+      "initial_reconnected_additions": 110,
+      "best_signed_additions": 110,
+      "forms": 465,
+      "exact_binary_relations": 2785,
+      "pool_seconds": 0.20412320783361793,
+      "search_budget_seconds": 5,
+      "search_elapsed_seconds": 5.013834042008966,
+      "total_elapsed_seconds": 5.360989249777049,
+      "seed": 700729,
+      "perturbation": 6,
+      "scope": "Heuristic fixed linear-map signed-wire pool search. All forms are paid. No optimality or literal sign-orientation claim.",
+      "candidate_sha256": "fa50881b1d759206cba1bb57c0e09cacddbe37e98cb22bf666494e67d6eef48f",
+      "pool_sha256": "8c98b817e3c5b4536bf59a334f29847878c31aaad6f07d1dd903eec7380525a7",
+      "exact_map_verified": true,
+      "source_banks": [
+        {
+          "sha256": "e35882d89ac321e19d9c6425aac53e7c68539fe9d3c96d69d7a686578854c7a8",
+          "circuits": 20
+        },
+        {
+          "sha256": "92f814ea39b0e9ca334ce2c146ffbf2526cea4ce973d580c972f1b584afdf4a2",
+          "circuits": 32
+        }
+      ]
+    },
+    {
+      "case_id": "hl_3x4x7_V",
+      "arm": "combined",
+      "status": "COMPLETED",
+      "distinct_donors": 180,
+      "raw_donor_best": 77,
+      "baseline_signed_additions": 77,
+      "initial_pool_additions": 77,
+      "initial_reconnected_additions": 77,
+      "best_signed_additions": 77,
+      "forms": 437,
+      "exact_binary_relations": 3053,
+      "pool_seconds": 0.1509017078205943,
+      "search_budget_seconds": 8,
+      "search_elapsed_seconds": 8.007504083681852,
+      "total_elapsed_seconds": 8.414742750115693,
+      "seed": 11578264,
+      "perturbation": 6,
+      "scope": "Heuristic fixed linear-map signed-wire pool search. All forms are paid. No optimality or literal sign-orientation claim.",
+      "candidate_sha256": "f00ce5b9c4f485d927373d1854f4cf552c32d82e9fbf7b4f3fb2fc829fbe9412",
+      "pool_sha256": "9ee573e0bd236226a831c92b675d0aeddb76e4558dae5a904d6249ed4e00adad",
+      "exact_map_verified": true,
+      "source_banks": [
+        {
+          "sha256": "31a63245fe4018a834b8e1762c5c9a736c63975c31cabb4958a406eeafc2a243",
+          "circuits": 20
+        },
+        {
+          "sha256": "d4ded561835e15736c7225c9f5323f046ad028afd2793346e412465a04910791",
+          "circuits": 32
+        },
+        {
+          "sha256": "2e4da0f9bc3bf2b4f1b31f9dd9c31dc66983eb887330ba50497716d3cdf0082e",
+          "circuits": 32
+        },
+        {
+          "sha256": "8d870c9b0592066a7f40e8b612a37d59267872dac1250736dad6995c1a07d028",
+          "circuits": 32
+        },
+        {
+          "sha256": "a6e926243623bd0ab3808452e52c0994e0184b7aa1e06f781fe90b274c42a710",
+          "circuits": 32
+        },
+        {
+          "sha256": "77422361d3ebcd76369622efe84bf798c1ed5210e24830ba9acd382eba4524e4",
+          "circuits": 32
+        }
+      ]
+    },
+    {
+      "case_id": "hl_3x6x6_V",
+      "arm": "mixed",
+      "status": "COMPLETED",
+      "distinct_donors": 52,
+      "raw_donor_best": 110,
+      "baseline_signed_additions": 110,
+      "initial_pool_additions": 110,
+      "initial_reconnected_additions": 110,
+      "best_signed_additions": 110,
+      "forms": 472,
+      "exact_binary_relations": 2763,
+      "pool_seconds": 0.2387314159423113,
+      "search_budget_seconds": 5,
+      "search_elapsed_seconds": 5.00762970931828,
+      "total_elapsed_seconds": 5.311607250012457,
+      "seed": 700729,
+      "perturbation": 6,
+      "scope": "Heuristic fixed linear-map signed-wire pool search. All forms are paid. No optimality or literal sign-orientation claim.",
+      "candidate_sha256": "8f2b0afcaf2deacc71c03399f24f663b489596e54c619004f52899b2f5756f52",
+      "pool_sha256": "49bd990b944cc5b6794234d1266b80169b9e920f971e80dad179af4621d791c8",
+      "exact_map_verified": true,
+      "source_banks": [
+        {
+          "sha256": "e35882d89ac321e19d9c6425aac53e7c68539fe9d3c96d69d7a686578854c7a8",
+          "circuits": 20
+        },
+        {
+          "sha256": "ec6f42a964573b07467767331e190cdfa9b25852adf280095bd08e4b3bd5615e",
+          "circuits": 32
+        }
+      ]
+    },
+    {
+      "case_id": "hl_3x6x6_V",
+      "arm": "vectors",
+      "status": "COMPLETED",
+      "distinct_donors": 52,
+      "raw_donor_best": 110,
+      "baseline_signed_additions": 110,
+      "initial_pool_additions": 110,
+      "initial_reconnected_additions": 110,
+      "best_signed_additions": 110,
+      "forms": 448,
+      "exact_binary_relations": 2561,
+      "pool_seconds": 0.14274408342316747,
+      "search_budget_seconds": 5,
+      "search_elapsed_seconds": 5.007524874992669,
+      "total_elapsed_seconds": 5.277549708262086,
+      "seed": 700729,
+      "perturbation": 6,
+      "scope": "Heuristic fixed linear-map signed-wire pool search. All forms are paid. No optimality or literal sign-orientation claim.",
+      "candidate_sha256": "35d11a89cc2bcfccbd4b656d2442d5e8cdde43de5ea823f71996393b8131cc2e",
+      "pool_sha256": "979e4e796bdab20fe71d7e6ab7c3fdda7f8be921a777892fd73aae335adab652",
+      "exact_map_verified": true,
+      "source_banks": [
+        {
+          "sha256": "e35882d89ac321e19d9c6425aac53e7c68539fe9d3c96d69d7a686578854c7a8",
+          "circuits": 20
+        },
+        {
+          "sha256": "af9e599366412286b2ec349cc817e03d41ff0165bf526710c885eea14fa9fd8e",
+          "circuits": 32
+        }
+      ]
+    },
+    {
+      "case_id": "hl_3x6x6_V",
+      "arm": "guided",
+      "status": "COMPLETED",
+      "distinct_donors": 52,
+      "raw_donor_best": 110,
+      "baseline_signed_additions": 110,
+      "initial_pool_additions": 110,
+      "initial_reconnected_additions": 110,
+      "best_signed_additions": 110,
+      "forms": 451,
+      "exact_binary_relations": 2607,
+      "pool_seconds": 0.11681650020182133,
+      "search_budget_seconds": 5,
+      "search_elapsed_seconds": 5.007899583317339,
+      "total_elapsed_seconds": 5.183959625195712,
+      "seed": 700729,
+      "perturbation": 6,
+      "scope": "Heuristic fixed linear-map signed-wire pool search. All forms are paid. No optimality or literal sign-orientation claim.",
+      "candidate_sha256": "9374bfa1b3162cc369152dfdbb652c42f1463025fcb7d028e7dcad645367207b",
+      "pool_sha256": "230cd082d40a0a80204b9240d729507ad34b3a0f9e322141077f7973b2b4ad09",
+      "exact_map_verified": true,
+      "source_banks": [
+        {
+          "sha256": "e35882d89ac321e19d9c6425aac53e7c68539fe9d3c96d69d7a686578854c7a8",
+          "circuits": 20
+        },
+        {
+          "sha256": "ba5d27da7438eef3c1274c479074446d9de23b83370c1b54d3efbe76c20e8c92",
+          "circuits": 32
+        }
+      ]
+    },
+    {
+      "case_id": "hl_3x6x6_V",
+      "arm": "balanced_random",
+      "status": "COMPLETED",
+      "distinct_donors": 52,
+      "raw_donor_best": 110,
+      "baseline_signed_additions": 110,
+      "initial_pool_additions": 110,
+      "initial_reconnected_additions": 110,
+      "best_signed_additions": 110,
+      "forms": 457,
+      "exact_binary_relations": 2677,
+      "pool_seconds": 0.16657266719266772,
+      "search_budget_seconds": 5,
+      "search_elapsed_seconds": 5.006949707865715,
+      "total_elapsed_seconds": 5.25675812503323,
+      "seed": 700729,
+      "perturbation": 6,
+      "scope": "Heuristic fixed linear-map signed-wire pool search. All forms are paid. No optimality or literal sign-orientation claim.",
+      "candidate_sha256": "c7485cc3d77e7d0eaaa75c4e7cdfefba8a91fc7d6e5236713eb40c98e4ed27a1",
+      "pool_sha256": "c6c86b38e3d778a0c4acbbaae3a03fa990dc3e06ba738c1485a830777bd4ac65",
+      "exact_map_verified": true,
+      "source_banks": [
+        {
+          "sha256": "e35882d89ac321e19d9c6425aac53e7c68539fe9d3c96d69d7a686578854c7a8",
+          "circuits": 20
+        },
+        {
+          "sha256": "65fa587c9b2e89b60911dfc75b1828661d606e6d6165bd732ccb5b1beeafb85a",
+          "circuits": 32
+        }
+      ]
+    },
+    {
+      "case_id": "old_3x6x8_V",
+      "arm": "baseline_frozen",
+      "status": "COMPLETED",
+      "distinct_donors": 20,
+      "raw_donor_best": 158,
+      "baseline_signed_additions": 158,
+      "initial_pool_additions": 158,
+      "initial_reconnected_additions": 158,
+      "best_signed_additions": 158,
+      "forms": 719,
+      "exact_binary_relations": 3639,
+      "pool_seconds": 0.17353870812803507,
+      "search_budget_seconds": 5,
+      "search_elapsed_seconds": 5.006784541998059,
+      "total_elapsed_seconds": 5.222513000015169,
+      "seed": 12897669,
+      "perturbation": 6,
+      "scope": "Heuristic fixed linear-map signed-wire pool search. All forms are paid. No optimality or literal sign-orientation claim.",
+      "candidate_sha256": "c27c264f5e4f99168be46a79f345e23cd258f5ca72a3fb5d36903eed18e5804a",
+      "pool_sha256": "1b13528c5ce9c5516a684a21f2b60780b4805765aa2346448ecc59f841082dd4",
+      "exact_map_verified": true,
+      "source_banks": [
+        {
+          "sha256": "67433dc59b849afe75721e0be51d442293f2868376a488352f17c56310a9fefc",
+          "circuits": 20
+        }
+      ]
+    },
+    {
+      "case_id": "hl_3x6x6_V",
+      "arm": "combined",
+      "status": "COMPLETED",
+      "distinct_donors": 180,
+      "raw_donor_best": 110,
+      "baseline_signed_additions": 110,
+      "initial_pool_additions": 110,
+      "initial_reconnected_additions": 110,
+      "best_signed_additions": 110,
+      "forms": 492,
+      "exact_binary_relations": 3035,
+      "pool_seconds": 0.2058255411684513,
+      "search_budget_seconds": 8,
+      "search_elapsed_seconds": 8.012036292348057,
+      "total_elapsed_seconds": 8.478610916994512,
+      "seed": 700729,
+      "perturbation": 6,
+      "scope": "Heuristic fixed linear-map signed-wire pool search. All forms are paid. No optimality or literal sign-orientation claim.",
+      "candidate_sha256": "27ccdec5ef21ae1c573dbda2a7af1804c1c94ee63b3388cc91ab6bade0736c13",
+      "pool_sha256": "a36877cc7bb854f9fba20a4b367c38deaca825c495633e8f25b60978580101a5",
+      "exact_map_verified": true,
+      "source_banks": [
+        {
+          "sha256": "e35882d89ac321e19d9c6425aac53e7c68539fe9d3c96d69d7a686578854c7a8",
+          "circuits": 20
+        },
+        {
+          "sha256": "92f814ea39b0e9ca334ce2c146ffbf2526cea4ce973d580c972f1b584afdf4a2",
+          "circuits": 32
+        },
+        {
+          "sha256": "ec6f42a964573b07467767331e190cdfa9b25852adf280095bd08e4b3bd5615e",
+          "circuits": 32
+        },
+        {
+          "sha256": "af9e599366412286b2ec349cc817e03d41ff0165bf526710c885eea14fa9fd8e",
+          "circuits": 32
+        },
+        {
+          "sha256": "ba5d27da7438eef3c1274c479074446d9de23b83370c1b54d3efbe76c20e8c92",
+          "circuits": 32
+        },
+        {
+          "sha256": "65fa587c9b2e89b60911dfc75b1828661d606e6d6165bd732ccb5b1beeafb85a",
+          "circuits": 32
+        }
+      ]
+    },
+    {
+      "case_id": "old_3x6x8_V",
+      "arm": "helpers",
+      "status": "COMPLETED",
+      "distinct_donors": 20,
+      "raw_donor_best": 158,
+      "baseline_signed_additions": 158,
+      "initial_pool_additions": 158,
+      "initial_reconnected_additions": 158,
+      "best_signed_additions": 158,
+      "forms": 719,
+      "exact_binary_relations": 3639,
+      "pool_seconds": 0.1564919170923531,
+      "search_budget_seconds": 5,
+      "search_elapsed_seconds": 5.007154707796872,
+      "total_elapsed_seconds": 5.199551375117153,
+      "seed": 12897669,
+      "perturbation": 6,
+      "scope": "Heuristic fixed linear-map signed-wire pool search. All forms are paid. No optimality or literal sign-orientation claim.",
+      "candidate_sha256": "fa032af9c9b6ef1ed47c2cd103096d889a6fae8a773c47e5a7b14b8df80cf4b6",
+      "pool_sha256": "e1f8e29fe780df7c96a54e97543ccf2fe45f9f89535793df210f0269d571f9c9",
+      "exact_map_verified": true,
+      "source_banks": [
+        {
+          "sha256": "67433dc59b849afe75721e0be51d442293f2868376a488352f17c56310a9fefc",
+          "circuits": 20
+        },
+        {
+          "sha256": "6ced0a6c812a2b01983cd46d3928c9dc4ad7261da03923f2a0f6585c3676044f",
+          "circuits": 0
+        }
+      ]
+    },
+    {
+      "case_id": "old_3x6x8_V",
+      "arm": "vectors",
+      "status": "COMPLETED",
+      "distinct_donors": 52,
+      "raw_donor_best": 157,
+      "baseline_signed_additions": 158,
+      "initial_pool_additions": 157,
+      "initial_reconnected_additions": 157,
+      "best_signed_additions": 155,
+      "forms": 781,
+      "exact_binary_relations": 4253,
+      "pool_seconds": 0.24852995807304978,
+      "search_budget_seconds": 5,
+      "search_elapsed_seconds": 5.0079222079366446,
+      "total_elapsed_seconds": 5.358164042234421,
+      "seed": 12897669,
+      "perturbation": 6,
+      "scope": "Heuristic fixed linear-map signed-wire pool search. All forms are paid. No optimality or literal sign-orientation claim.",
+      "candidate_sha256": "aabd13579135349fee264e96a67e01078e1440638ae8bc8695beb2b32540423d",
+      "pool_sha256": "b4b0e7bc00badff75bacb9e0d714824553c2fd0b486887e2d209c7dd7b7b01cf",
+      "exact_map_verified": true,
+      "source_banks": [
+        {
+          "sha256": "67433dc59b849afe75721e0be51d442293f2868376a488352f17c56310a9fefc",
+          "circuits": 20
+        },
+        {
+          "sha256": "5b72d7b17bda6244a4c5ec61242ba367561597990a9b8165125e582f85ace3e0",
+          "circuits": 32
+        }
+      ]
+    },
+    {
+      "case_id": "old_3x6x8_V",
+      "arm": "mixed",
+      "status": "COMPLETED",
+      "distinct_donors": 50,
+      "raw_donor_best": 157,
+      "baseline_signed_additions": 158,
+      "initial_pool_additions": 157,
+      "initial_reconnected_additions": 157,
+      "best_signed_additions": 156,
+      "forms": 758,
+      "exact_binary_relations": 4011,
+      "pool_seconds": 0.22222487488761544,
+      "search_budget_seconds": 5,
+      "search_elapsed_seconds": 5.015924999956042,
+      "total_elapsed_seconds": 5.327737624756992,
+      "seed": 12897669,
+      "perturbation": 6,
+      "scope": "Heuristic fixed linear-map signed-wire pool search. All forms are paid. No optimality or literal sign-orientation claim.",
+      "candidate_sha256": "c42596455f8ef614edc08121bd9e067f13e1a4da4f77e0e5de846d3febb254f5",
+      "pool_sha256": "0619407d4bae4890e4c9ff373c52c7e365c1c6807271d9603654e0808446988a",
+      "exact_map_verified": true,
+      "source_banks": [
+        {
+          "sha256": "67433dc59b849afe75721e0be51d442293f2868376a488352f17c56310a9fefc",
+          "circuits": 20
+        },
+        {
+          "sha256": "e0b77c7f80dbde56be0a46f7936a374a381d9bf1c695958e07a1a23bb35311a4",
+          "circuits": 30
+        }
+      ]
+    },
+    {
+      "case_id": "old_3x6x8_V",
+      "arm": "guided",
+      "status": "COMPLETED",
+      "distinct_donors": 38,
+      "raw_donor_best": 158,
+      "baseline_signed_additions": 158,
+      "initial_pool_additions": 158,
+      "initial_reconnected_additions": 158,
+      "best_signed_additions": 158,
+      "forms": 735,
+      "exact_binary_relations": 3794,
+      "pool_seconds": 0.2237444999627769,
+      "search_budget_seconds": 5,
+      "search_elapsed_seconds": 5.0078423749655485,
+      "total_elapsed_seconds": 5.303851542063057,
+      "seed": 12897669,
+      "perturbation": 6,
+      "scope": "Heuristic fixed linear-map signed-wire pool search. All forms are paid. No optimality or literal sign-orientation claim.",
+      "candidate_sha256": "8e77fc641d5ee27f7f6209c7c14750b668df03ee6c3c919dd4d2997b8d714235",
+      "pool_sha256": "b411350910acb6c2d2915df92295177e8c9219e51c190cce667115975aecd7b9",
+      "exact_map_verified": true,
+      "source_banks": [
+        {
+          "sha256": "67433dc59b849afe75721e0be51d442293f2868376a488352f17c56310a9fefc",
+          "circuits": 20
+        },
+        {
+          "sha256": "1a91cc24968bfc7d385154f04df9a552fdfd2baf211519c2ef025f79e8d5fb9a",
+          "circuits": 18
+        }
+      ]
+    },
+    {
+      "case_id": "old_3x6x8_V",
+      "arm": "balanced_random",
+      "status": "COMPLETED",
+      "distinct_donors": 52,
+      "raw_donor_best": 157,
+      "baseline_signed_additions": 158,
+      "initial_pool_additions": 157,
+      "initial_reconnected_additions": 157,
+      "best_signed_additions": 156,
+      "forms": 759,
+      "exact_binary_relations": 4042,
+      "pool_seconds": 0.237595624756068,
+      "search_budget_seconds": 5,
+      "search_elapsed_seconds": 5.007443541660905,
+      "total_elapsed_seconds": 5.326042458880693,
+      "seed": 12897669,
+      "perturbation": 6,
+      "scope": "Heuristic fixed linear-map signed-wire pool search. All forms are paid. No optimality or literal sign-orientation claim.",
+      "candidate_sha256": "2f363b093c1acb856d4862fb92bd728df9a4ab5f0179d3bce93e15bd491f1d6c",
+      "pool_sha256": "fca5bcb6e1c982e56c8eb7be25664a49ef39603f5ced06b802839ea9f0d0aeb9",
+      "exact_map_verified": true,
+      "source_banks": [
+        {
+          "sha256": "67433dc59b849afe75721e0be51d442293f2868376a488352f17c56310a9fefc",
+          "circuits": 20
+        },
+        {
+          "sha256": "f0e4231c2a1ffd0adbba7446c54b6e218d78da2545555cc2be76485a253e764a",
+          "circuits": 32
+        }
+      ]
+    },
+    {
+      "case_id": "hl_5x7x7_U",
+      "arm": "baseline_frozen",
+      "status": "COMPLETED",
+      "distinct_donors": 20,
+      "raw_donor_best": 177,
+      "baseline_signed_additions": 177,
+      "initial_pool_additions": 177,
+      "initial_reconnected_additions": 177,
+      "best_signed_additions": 177,
+      "forms": 636,
+      "exact_binary_relations": 4752,
+      "pool_seconds": 0.1532847504131496,
+      "search_budget_seconds": 5,
+      "search_elapsed_seconds": 5.007755334023386,
+      "total_elapsed_seconds": 5.210267290938646,
+      "seed": 9880681,
+      "perturbation": 6,
+      "scope": "Heuristic fixed linear-map signed-wire pool search. All forms are paid. No optimality or literal sign-orientation claim.",
+      "candidate_sha256": "f993a8879e39dad13c982c2c561f3cbad54a4904856eda0c19d948c1d9177c95",
+      "pool_sha256": "5cef53dd6b95eb9d50b790efc7b3620af8b7cca7718fdb3b3476c18c897e68ba",
+      "exact_map_verified": true,
+      "source_banks": [
+        {
+          "sha256": "324b391e0fa54241f8b777d50616f90e06ce66eb8f075b9a78c6fa58b0092b48",
+          "circuits": 20
+        }
+      ]
+    },
+    {
+      "case_id": "old_3x6x8_V",
+      "arm": "combined",
+      "status": "COMPLETED",
+      "distinct_donors": 132,
+      "raw_donor_best": 157,
+      "baseline_signed_additions": 158,
+      "initial_pool_additions": 157,
+      "initial_reconnected_additions": 157,
+      "best_signed_additions": 155,
+      "forms": 821,
+      "exact_binary_relations": 4738,
+      "pool_seconds": 0.47340045822784305,
+      "search_budget_seconds": 8,
+      "search_elapsed_seconds": 8.00908820796758,
+      "total_elapsed_seconds": 8.837961417157203,
+      "seed": 12897669,
+      "perturbation": 6,
+      "scope": "Heuristic fixed linear-map signed-wire pool search. All forms are paid. No optimality or literal sign-orientation claim.",
+      "candidate_sha256": "85edc2cb2ad3127dc18d8d8d489966ed853492bff0c78031993a0fb1c9e08d75",
+      "pool_sha256": "2f2820fed22a75abfec8ba01681a4e0b91c64ec50f3075968f71d4ec6290642f",
+      "exact_map_verified": true,
+      "source_banks": [
+        {
+          "sha256": "67433dc59b849afe75721e0be51d442293f2868376a488352f17c56310a9fefc",
+          "circuits": 20
+        },
+        {
+          "sha256": "6ced0a6c812a2b01983cd46d3928c9dc4ad7261da03923f2a0f6585c3676044f",
+          "circuits": 0
+        },
+        {
+          "sha256": "5b72d7b17bda6244a4c5ec61242ba367561597990a9b8165125e582f85ace3e0",
+          "circuits": 32
+        },
+        {
+          "sha256": "e0b77c7f80dbde56be0a46f7936a374a381d9bf1c695958e07a1a23bb35311a4",
+          "circuits": 30
+        },
+        {
+          "sha256": "1a91cc24968bfc7d385154f04df9a552fdfd2baf211519c2ef025f79e8d5fb9a",
+          "circuits": 18
+        },
+        {
+          "sha256": "f0e4231c2a1ffd0adbba7446c54b6e218d78da2545555cc2be76485a253e764a",
+          "circuits": 32
+        }
+      ]
+    },
+    {
+      "case_id": "hl_5x7x7_U",
+      "arm": "helpers",
+      "status": "COMPLETED",
+      "distinct_donors": 20,
+      "raw_donor_best": 177,
+      "baseline_signed_additions": 177,
+      "initial_pool_additions": 177,
+      "initial_reconnected_additions": 177,
+      "best_signed_additions": 177,
+      "forms": 636,
+      "exact_binary_relations": 4752,
+      "pool_seconds": 0.11116691585630178,
+      "search_budget_seconds": 5,
+      "search_elapsed_seconds": 5.008497625123709,
+      "total_elapsed_seconds": 5.152971499599516,
+      "seed": 9880681,
+      "perturbation": 6,
+      "scope": "Heuristic fixed linear-map signed-wire pool search. All forms are paid. No optimality or literal sign-orientation claim.",
+      "candidate_sha256": "8bccaa2af775b1fda090463ca3ec7ebad9c99c4f0a7c59b43d33d58d803f1bc5",
+      "pool_sha256": "8bfe071ad14e61e9f1f0b80c1437b8c4377b9e85786f682427d75d46acc95b0a",
+      "exact_map_verified": true,
+      "source_banks": [
+        {
+          "sha256": "324b391e0fa54241f8b777d50616f90e06ce66eb8f075b9a78c6fa58b0092b48",
+          "circuits": 20
+        },
+        {
+          "sha256": "6d5c73ef0a6047b058f2509e01d1e6280d8c0d6590437da8d30377f8ba3f0fff",
+          "circuits": 0
+        }
+      ]
+    },
+    {
+      "case_id": "hl_5x7x7_U",
+      "arm": "vectors",
+      "status": "COMPLETED",
+      "distinct_donors": 52,
+      "raw_donor_best": 177,
+      "baseline_signed_additions": 177,
+      "initial_pool_additions": 177,
+      "initial_reconnected_additions": 177,
+      "best_signed_additions": 177,
+      "forms": 684,
+      "exact_binary_relations": 5471,
+      "pool_seconds": 0.1807417501695454,
+      "search_budget_seconds": 5,
+      "search_elapsed_seconds": 5.052763083949685,
+      "total_elapsed_seconds": 5.322291542310268,
+      "seed": 9880681,
+      "perturbation": 6,
+      "scope": "Heuristic fixed linear-map signed-wire pool search. All forms are paid. No optimality or literal sign-orientation claim.",
+      "candidate_sha256": "6384843d4e54566693069da4f2ac0d141e2ed3732da657e563e984a50f76193d",
+      "pool_sha256": "7a25e63434fe3306049ebeaf9fa6c62d51d7d3a0bf9877ba93dd66d00f0627f1",
+      "exact_map_verified": true,
+      "source_banks": [
+        {
+          "sha256": "324b391e0fa54241f8b777d50616f90e06ce66eb8f075b9a78c6fa58b0092b48",
+          "circuits": 20
+        },
+        {
+          "sha256": "d08ca5cdb1c3e39cdbba10e1ffa71eb9bda6987942cc07d2eb6ef9aa317cc9bd",
+          "circuits": 32
+        }
+      ]
+    },
+    {
+      "case_id": "hl_5x7x7_U",
+      "arm": "mixed",
+      "status": "COMPLETED",
+      "distinct_donors": 52,
+      "raw_donor_best": 177,
+      "baseline_signed_additions": 177,
+      "initial_pool_additions": 177,
+      "initial_reconnected_additions": 177,
+      "best_signed_additions": 177,
+      "forms": 666,
+      "exact_binary_relations": 5217,
+      "pool_seconds": 0.2278827908448875,
+      "search_budget_seconds": 5,
+      "search_elapsed_seconds": 5.009218416176736,
+      "total_elapsed_seconds": 5.354590958915651,
+      "seed": 9880681,
+      "perturbation": 6,
+      "scope": "Heuristic fixed linear-map signed-wire pool search. All forms are paid. No optimality or literal sign-orientation claim.",
+      "candidate_sha256": "dbcb470968d69397362e4b00f23770a53bdd38e4545e91517e8042f2a65247d1",
+      "pool_sha256": "dcf515813f52eb5140c79b172c5266240dc2ea0f1bffcd22772e5fe91e98bfce",
+      "exact_map_verified": true,
+      "source_banks": [
+        {
+          "sha256": "324b391e0fa54241f8b777d50616f90e06ce66eb8f075b9a78c6fa58b0092b48",
+          "circuits": 20
+        },
+        {
+          "sha256": "0c233f97e2cdb409dc714fd98406ad35d9c549dbe20062c6d811dacf347418fc",
+          "circuits": 32
+        }
+      ]
+    },
+    {
+      "case_id": "hl_5x7x7_U",
+      "arm": "guided",
+      "status": "COMPLETED",
+      "distinct_donors": 52,
+      "raw_donor_best": 177,
+      "baseline_signed_additions": 177,
+      "initial_pool_additions": 177,
+      "initial_reconnected_additions": 177,
+      "best_signed_additions": 177,
+      "forms": 673,
+      "exact_binary_relations": 5252,
+      "pool_seconds": 0.19362104125320911,
+      "search_budget_seconds": 5,
+      "search_elapsed_seconds": 5.007635041605681,
+      "total_elapsed_seconds": 5.300516624934971,
+      "seed": 9880681,
+      "perturbation": 6,
+      "scope": "Heuristic fixed linear-map signed-wire pool search. All forms are paid. No optimality or literal sign-orientation claim.",
+      "candidate_sha256": "13b62215aa1b5be1f0a3535962cad33008bd17c2039dca99b9a99bad58974ae6",
+      "pool_sha256": "7d32e41ef4f9577feb9476427f81f93dd7a992fb1055714b3d3147e43a8c54cc",
+      "exact_map_verified": true,
+      "source_banks": [
+        {
+          "sha256": "324b391e0fa54241f8b777d50616f90e06ce66eb8f075b9a78c6fa58b0092b48",
+          "circuits": 20
+        },
+        {
+          "sha256": "10e51844437363682caa7ece3704ef975781c1e91b106041e27b126f2545bbcd",
+          "circuits": 32
+        }
+      ]
+    },
+    {
+      "case_id": "hl_5x7x7_U",
+      "arm": "balanced_random",
+      "status": "COMPLETED",
+      "distinct_donors": 52,
+      "raw_donor_best": 177,
+      "baseline_signed_additions": 177,
+      "initial_pool_additions": 177,
+      "initial_reconnected_additions": 177,
+      "best_signed_additions": 177,
+      "forms": 665,
+      "exact_binary_relations": 5191,
+      "pool_seconds": 0.20337574975565076,
+      "search_budget_seconds": 5,
+      "search_elapsed_seconds": 5.0076693329028785,
+      "total_elapsed_seconds": 5.3422826253809035,
+      "seed": 9880681,
+      "perturbation": 6,
+      "scope": "Heuristic fixed linear-map signed-wire pool search. All forms are paid. No optimality or literal sign-orientation claim.",
+      "candidate_sha256": "0f5180799a0df45a51fa880b24e9a929785a1c79171faf5c584af3bf94ceee2d",
+      "pool_sha256": "cb41df9921c790670bd22847c4ffdfe9e18b53570499d5aa59eccaddb4af9e32",
+      "exact_map_verified": true,
+      "source_banks": [
+        {
+          "sha256": "324b391e0fa54241f8b777d50616f90e06ce66eb8f075b9a78c6fa58b0092b48",
+          "circuits": 20
+        },
+        {
+          "sha256": "aec677c331043bd76546f54b4b575c367432467a36c89df2ea64ce2b010e418f",
+          "circuits": 32
+        }
+      ]
+    },
+    {
+      "case_id": "hl_5x7x7_V",
+      "arm": "baseline_frozen",
+      "status": "COMPLETED",
+      "distinct_donors": 20,
+      "raw_donor_best": 205,
+      "baseline_signed_additions": 205,
+      "initial_pool_additions": 205,
+      "initial_reconnected_additions": 205,
+      "best_signed_additions": 205,
+      "forms": 840,
+      "exact_binary_relations": 5486,
+      "pool_seconds": 0.2608438329771161,
+      "search_budget_seconds": 5,
+      "search_elapsed_seconds": 5.009705875068903,
+      "total_elapsed_seconds": 5.326920957770199,
+      "seed": 10134917,
+      "perturbation": 6,
+      "scope": "Heuristic fixed linear-map signed-wire pool search. All forms are paid. No optimality or literal sign-orientation claim.",
+      "candidate_sha256": "a156ecf5c179bc391350178a79edb9fa28f38b8775dcf2d34112e865a985ea47",
+      "pool_sha256": "6991b06197204f5b6e99c0b021243e6679804923c260ea0bf6b8905939d4e957",
+      "exact_map_verified": true,
+      "source_banks": [
+        {
+          "sha256": "05b8f0f5f156683aea6231efcdc40cd9a3e0771ce1ff470085c9bd1100147ba2",
+          "circuits": 20
+        }
+      ]
+    },
+    {
+      "case_id": "hl_5x7x7_U",
+      "arm": "combined",
+      "status": "COMPLETED",
+      "distinct_donors": 146,
+      "raw_donor_best": 177,
+      "baseline_signed_additions": 177,
+      "initial_pool_additions": 177,
+      "initial_reconnected_additions": 177,
+      "best_signed_additions": 177,
+      "forms": 707,
+      "exact_binary_relations": 5792,
+      "pool_seconds": 0.36071387492120266,
+      "search_budget_seconds": 8,
+      "search_elapsed_seconds": 8.008870415855199,
+      "total_elapsed_seconds": 8.670768416952342,
+      "seed": 9880681,
+      "perturbation": 6,
+      "scope": "Heuristic fixed linear-map signed-wire pool search. All forms are paid. No optimality or literal sign-orientation claim.",
+      "candidate_sha256": "02cd92926eb315c8614f4ce7cd4f7a6ecccacd50204ca8943bfea2263577c79d",
+      "pool_sha256": "1b5abbcf2620efcd891ee718cfa9dbf5ff2b97e6bea16f605313222add533582",
+      "exact_map_verified": true,
+      "source_banks": [
+        {
+          "sha256": "324b391e0fa54241f8b777d50616f90e06ce66eb8f075b9a78c6fa58b0092b48",
+          "circuits": 20
+        },
+        {
+          "sha256": "6d5c73ef0a6047b058f2509e01d1e6280d8c0d6590437da8d30377f8ba3f0fff",
+          "circuits": 0
+        },
+        {
+          "sha256": "d08ca5cdb1c3e39cdbba10e1ffa71eb9bda6987942cc07d2eb6ef9aa317cc9bd",
+          "circuits": 32
+        },
+        {
+          "sha256": "0c233f97e2cdb409dc714fd98406ad35d9c549dbe20062c6d811dacf347418fc",
+          "circuits": 32
+        },
+        {
+          "sha256": "10e51844437363682caa7ece3704ef975781c1e91b106041e27b126f2545bbcd",
+          "circuits": 32
+        },
+        {
+          "sha256": "aec677c331043bd76546f54b4b575c367432467a36c89df2ea64ce2b010e418f",
+          "circuits": 32
+        }
+      ]
+    },
+    {
+      "case_id": "hl_5x7x7_V",
+      "arm": "helpers",
+      "status": "COMPLETED",
+      "distinct_donors": 20,
+      "raw_donor_best": 205,
+      "baseline_signed_additions": 205,
+      "initial_pool_additions": 205,
+      "initial_reconnected_additions": 205,
+      "best_signed_additions": 205,
+      "forms": 840,
+      "exact_binary_relations": 5486,
+      "pool_seconds": 0.2468443331308663,
+      "search_budget_seconds": 5,
+      "search_elapsed_seconds": 5.0084596667438745,
+      "total_elapsed_seconds": 5.31521804118529,
+      "seed": 10134917,
+      "perturbation": 6,
+      "scope": "Heuristic fixed linear-map signed-wire pool search. All forms are paid. No optimality or literal sign-orientation claim.",
+      "candidate_sha256": "cef0d8053e38d99f913b32237929dc74770e222c0b06e1adbe6996ae99da5e4d",
+      "pool_sha256": "e872d3866331a640a8bdecc2d2b6d29d0ec3dbcdd562ad4d1b186128865e3a37",
+      "exact_map_verified": true,
+      "source_banks": [
+        {
+          "sha256": "05b8f0f5f156683aea6231efcdc40cd9a3e0771ce1ff470085c9bd1100147ba2",
+          "circuits": 20
+        },
+        {
+          "sha256": "5c6765e18253883e727f1590c134aea890f69fc04922af99f6629c1f5a3628d9",
+          "circuits": 0
+        }
+      ]
+    },
+    {
+      "case_id": "hl_5x7x7_V",
+      "arm": "vectors",
+      "status": "COMPLETED",
+      "distinct_donors": 52,
+      "raw_donor_best": 205,
+      "baseline_signed_additions": 205,
+      "initial_pool_additions": 205,
+      "initial_reconnected_additions": 205,
+      "best_signed_additions": 204,
+      "forms": 889,
+      "exact_binary_relations": 6159,
+      "pool_seconds": 0.30888245766982436,
+      "search_budget_seconds": 5,
+      "search_elapsed_seconds": 5.010087458882481,
+      "total_elapsed_seconds": 5.443085458129644,
+      "seed": 10134917,
+      "perturbation": 6,
+      "scope": "Heuristic fixed linear-map signed-wire pool search. All forms are paid. No optimality or literal sign-orientation claim.",
+      "candidate_sha256": "3c8e72b45c5c59ef75f63b245977473cc26514543e4b631938aaff5af93792a4",
+      "pool_sha256": "0809fe1d1f0363ac4e4f4c1f46b2803671277c83b3aea5aa1f7a0e1f0905008d",
+      "exact_map_verified": true,
+      "source_banks": [
+        {
+          "sha256": "05b8f0f5f156683aea6231efcdc40cd9a3e0771ce1ff470085c9bd1100147ba2",
+          "circuits": 20
+        },
+        {
+          "sha256": "b823dace218ec5c0ce084c8cb7db43c20453399e73ca661dc13f78acafe13241",
+          "circuits": 32
+        }
+      ]
+    },
+    {
+      "case_id": "hl_5x7x7_V",
+      "arm": "mixed",
+      "status": "COMPLETED",
+      "distinct_donors": 46,
+      "raw_donor_best": 205,
+      "baseline_signed_additions": 205,
+      "initial_pool_additions": 205,
+      "initial_reconnected_additions": 205,
+      "best_signed_additions": 205,
+      "forms": 879,
+      "exact_binary_relations": 6043,
+      "pool_seconds": 0.47814333299174905,
+      "search_budget_seconds": 5,
+      "search_elapsed_seconds": 5.008817916736007,
+      "total_elapsed_seconds": 5.603227042127401,
+      "seed": 10134917,
+      "perturbation": 6,
+      "scope": "Heuristic fixed linear-map signed-wire pool search. All forms are paid. No optimality or literal sign-orientation claim.",
+      "candidate_sha256": "e5f6b812a7a56a6ef53e842e3ad23e210d3d6c3820c1005c45efccdbdd12aac3",
+      "pool_sha256": "b382f5911becd9526581070251b70af243731918944655201df7ea8cdd666b7f",
+      "exact_map_verified": true,
+      "source_banks": [
+        {
+          "sha256": "05b8f0f5f156683aea6231efcdc40cd9a3e0771ce1ff470085c9bd1100147ba2",
+          "circuits": 20
+        },
+        {
+          "sha256": "ed12874986609febc3cd8243f4883d0491729734e97653b3aa22dcfe80050971",
+          "circuits": 26
+        }
+      ]
+    },
+    {
+      "case_id": "hl_5x7x7_V",
+      "arm": "guided",
+      "status": "COMPLETED",
+      "distinct_donors": 52,
+      "raw_donor_best": 205,
+      "baseline_signed_additions": 205,
+      "initial_pool_additions": 205,
+      "initial_reconnected_additions": 205,
+      "best_signed_additions": 205,
+      "forms": 867,
+      "exact_binary_relations": 5848,
+      "pool_seconds": 0.36877487460151315,
+      "search_budget_seconds": 5,
+      "search_elapsed_seconds": 5.014944749884307,
+      "total_elapsed_seconds": 5.545687375124544,
+      "seed": 10134917,
+      "perturbation": 6,
+      "scope": "Heuristic fixed linear-map signed-wire pool search. All forms are paid. No optimality or literal sign-orientation claim.",
+      "candidate_sha256": "00fd4a7929c91cf8320efe30c45903f3f68de2475f23482a3d95ef266493434a",
+      "pool_sha256": "2c61df5baf60968590dafdc214875520ab8b4862a9e44a94a455e9851b99ed5a",
+      "exact_map_verified": true,
+      "source_banks": [
+        {
+          "sha256": "05b8f0f5f156683aea6231efcdc40cd9a3e0771ce1ff470085c9bd1100147ba2",
+          "circuits": 20
+        },
+        {
+          "sha256": "88d8698898708dace09f72825eff66b96a3e3cc67085f68c90cda53c05ef725d",
+          "circuits": 32
+        }
+      ]
+    },
+    {
+      "case_id": "hl_5x7x7_V",
+      "arm": "balanced_random",
+      "status": "COMPLETED",
+      "distinct_donors": 52,
+      "raw_donor_best": 205,
+      "baseline_signed_additions": 205,
+      "initial_pool_additions": 205,
+      "initial_reconnected_additions": 205,
+      "best_signed_additions": 204,
+      "forms": 892,
+      "exact_binary_relations": 6262,
+      "pool_seconds": 0.3113598329946399,
+      "search_budget_seconds": 5,
+      "search_elapsed_seconds": 5.009278417099267,
+      "total_elapsed_seconds": 5.4593412089161575,
+      "seed": 10134917,
+      "perturbation": 6,
+      "scope": "Heuristic fixed linear-map signed-wire pool search. All forms are paid. No optimality or literal sign-orientation claim.",
+      "candidate_sha256": "05690d51c6dbe01fcf70dfe7b242dfd1159710c04b8e490a502b29a17d4462df",
+      "pool_sha256": "cda6dbdd17e5d01c8e6e8e0199594934c7e4f868c008576e276fa3208af07e26",
+      "exact_map_verified": true,
+      "source_banks": [
+        {
+          "sha256": "05b8f0f5f156683aea6231efcdc40cd9a3e0771ce1ff470085c9bd1100147ba2",
+          "circuits": 20
+        },
+        {
+          "sha256": "234766c58ea573e7144fdb4279af081d18554768b59426633dfe9b258f27ef71",
+          "circuits": 32
+        }
+      ]
+    },
+    {
+      "case_id": "hl_4x4x16_V",
+      "arm": "baseline_frozen",
+      "status": "COMPLETED",
+      "distinct_donors": 18,
+      "raw_donor_best": 222,
+      "baseline_signed_additions": 222,
+      "initial_pool_additions": 222,
+      "initial_reconnected_additions": 222,
+      "best_signed_additions": 222,
+      "forms": 677,
+      "exact_binary_relations": 3418,
+      "pool_seconds": 0.6109199170023203,
+      "search_budget_seconds": 5,
+      "search_elapsed_seconds": 5.00914933392778,
+      "total_elapsed_seconds": 5.769191333092749,
+      "seed": 8639507,
+      "perturbation": 6,
+      "scope": "Heuristic fixed linear-map signed-wire pool search. All forms are paid. No optimality or literal sign-orientation claim.",
+      "candidate_sha256": "982e16b95330800a2f609c28ad9321d06a7c41a42fdabca33b20b8d7322b749e",
+      "pool_sha256": "f19a16decad44f0c65c86944ba67f24f66f9a1327b6636ed8dbb19899127603f",
+      "exact_map_verified": true,
+      "source_banks": [
+        {
+          "sha256": "665075fb97578f8e69ec76e2ee871890c190c89d808a7887a610d818dd5de583",
+          "circuits": 18
+        }
+      ]
+    },
+    {
+      "case_id": "hl_4x4x16_V",
+      "arm": "helpers",
+      "status": "COMPLETED",
+      "distinct_donors": 18,
+      "raw_donor_best": 222,
+      "baseline_signed_additions": 222,
+      "initial_pool_additions": 222,
+      "initial_reconnected_additions": 222,
+      "best_signed_additions": 222,
+      "forms": 677,
+      "exact_binary_relations": 3418,
+      "pool_seconds": 0.2302765417844057,
+      "search_budget_seconds": 5,
+      "search_elapsed_seconds": 5.007745542097837,
+      "total_elapsed_seconds": 5.3155864998698235,
+      "seed": 8639507,
+      "perturbation": 6,
+      "scope": "Heuristic fixed linear-map signed-wire pool search. All forms are paid. No optimality or literal sign-orientation claim.",
+      "candidate_sha256": "293ab2264a66ee643af0eed5cffcb48b96f85f62ca45b6617a1062b0450fa3f8",
+      "pool_sha256": "4888219d21eb6e1ad11f71faf13b6b5fb1e9ba9073eeb2de0dd9424cf82a44a3",
+      "exact_map_verified": true,
+      "source_banks": [
+        {
+          "sha256": "665075fb97578f8e69ec76e2ee871890c190c89d808a7887a610d818dd5de583",
+          "circuits": 18
+        },
+        {
+          "sha256": "53ff1c2acd1b9db96ff0dd5b76767e0dec9ccb9b2e0b8677b5509e16477fb110",
+          "circuits": 0
+        }
+      ]
+    },
+    {
+      "case_id": "hl_5x7x7_V",
+      "arm": "combined",
+      "status": "COMPLETED",
+      "distinct_donors": 140,
+      "raw_donor_best": 205,
+      "baseline_signed_additions": 205,
+      "initial_pool_additions": 205,
+      "initial_reconnected_additions": 205,
+      "best_signed_additions": 204,
+      "forms": 931,
+      "exact_binary_relations": 6864,
+      "pool_seconds": 0.5632211253978312,
+      "search_budget_seconds": 8,
+      "search_elapsed_seconds": 8.011396000161767,
+      "total_elapsed_seconds": 9.068229458294809,
+      "seed": 10134917,
+      "perturbation": 6,
+      "scope": "Heuristic fixed linear-map signed-wire pool search. All forms are paid. No optimality or literal sign-orientation claim.",
+      "candidate_sha256": "eead0286b08f7b038bf57d4d04fe3202a201c970a8f678911b4540b409248c74",
+      "pool_sha256": "b39affbbae34be7a9a179d582f6a20131be256295036bebef9ef3a56ffd8d5df",
+      "exact_map_verified": true,
+      "source_banks": [
+        {
+          "sha256": "05b8f0f5f156683aea6231efcdc40cd9a3e0771ce1ff470085c9bd1100147ba2",
+          "circuits": 20
+        },
+        {
+          "sha256": "5c6765e18253883e727f1590c134aea890f69fc04922af99f6629c1f5a3628d9",
+          "circuits": 0
+        },
+        {
+          "sha256": "b823dace218ec5c0ce084c8cb7db43c20453399e73ca661dc13f78acafe13241",
+          "circuits": 32
+        },
+        {
+          "sha256": "ed12874986609febc3cd8243f4883d0491729734e97653b3aa22dcfe80050971",
+          "circuits": 26
+        },
+        {
+          "sha256": "88d8698898708dace09f72825eff66b96a3e3cc67085f68c90cda53c05ef725d",
+          "circuits": 32
+        },
+        {
+          "sha256": "234766c58ea573e7144fdb4279af081d18554768b59426633dfe9b258f27ef71",
+          "circuits": 32
+        }
+      ]
+    },
+    {
+      "case_id": "hl_4x4x16_V",
+      "arm": "vectors",
+      "status": "COMPLETED",
+      "distinct_donors": 50,
+      "raw_donor_best": 221,
+      "baseline_signed_additions": 222,
+      "initial_pool_additions": 221,
+      "initial_reconnected_additions": 221,
+      "best_signed_additions": 220,
+      "forms": 754,
+      "exact_binary_relations": 4129,
+      "pool_seconds": 0.34272612491622567,
+      "search_budget_seconds": 5,
+      "search_elapsed_seconds": 5.009118124842644,
+      "total_elapsed_seconds": 5.518149707932025,
+      "seed": 8639507,
+      "perturbation": 6,
+      "scope": "Heuristic fixed linear-map signed-wire pool search. All forms are paid. No optimality or literal sign-orientation claim.",
+      "candidate_sha256": "419f8d2d2601b498c3c4395d13fbd960d13e43a3df8defa62c2ed239cd23ec78",
+      "pool_sha256": "dd7613c2529c410aebd1216680347927bc6ef035333217a98ca996bc9d081b6f",
+      "exact_map_verified": true,
+      "source_banks": [
+        {
+          "sha256": "665075fb97578f8e69ec76e2ee871890c190c89d808a7887a610d818dd5de583",
+          "circuits": 18
+        },
+        {
+          "sha256": "7f8900c667e8295898ebbd659e07f3893d4d58819b766ac414ddccc03d81c3c4",
+          "circuits": 32
+        }
+      ]
+    },
+    {
+      "case_id": "hl_4x4x16_V",
+      "arm": "mixed",
+      "status": "COMPLETED",
+      "distinct_donors": 43,
+      "raw_donor_best": 221,
+      "baseline_signed_additions": 222,
+      "initial_pool_additions": 221,
+      "initial_reconnected_additions": 221,
+      "best_signed_additions": 220,
+      "forms": 717,
+      "exact_binary_relations": 3771,
+      "pool_seconds": 0.34038500022143126,
+      "search_budget_seconds": 5,
+      "search_elapsed_seconds": 5.008633708115667,
+      "total_elapsed_seconds": 5.515223583206534,
+      "seed": 8639507,
+      "perturbation": 6,
+      "scope": "Heuristic fixed linear-map signed-wire pool search. All forms are paid. No optimality or literal sign-orientation claim.",
+      "candidate_sha256": "f2b4950e8bfedc22dbcda77dcd8a0e6195df8819136c08975d0dbd76a07996d4",
+      "pool_sha256": "997dd1dca2e67fee261e28140f26b095f62be4b04eb30f821ff4318b7027de88",
+      "exact_map_verified": true,
+      "source_banks": [
+        {
+          "sha256": "665075fb97578f8e69ec76e2ee871890c190c89d808a7887a610d818dd5de583",
+          "circuits": 18
+        },
+        {
+          "sha256": "7117783e59489b8fc828c720379633303ba6882e2cb7c5953b493ed66764bf9e",
+          "circuits": 25
+        }
+      ]
+    },
+    {
+      "case_id": "hl_4x4x16_V",
+      "arm": "guided",
+      "status": "COMPLETED",
+      "distinct_donors": 50,
+      "raw_donor_best": 222,
+      "baseline_signed_additions": 222,
+      "initial_pool_additions": 222,
+      "initial_reconnected_additions": 222,
+      "best_signed_additions": 222,
+      "forms": 699,
+      "exact_binary_relations": 3666,
+      "pool_seconds": 0.3309006248600781,
+      "search_budget_seconds": 5,
+      "search_elapsed_seconds": 5.024356833193451,
+      "total_elapsed_seconds": 5.602508209180087,
+      "seed": 8639507,
+      "perturbation": 6,
+      "scope": "Heuristic fixed linear-map signed-wire pool search. All forms are paid. No optimality or literal sign-orientation claim.",
+      "candidate_sha256": "1b625d98e8ba328cbbc84223f386c5527a2bd8a4d1c2abf0931eb2b215238b7f",
+      "pool_sha256": "bc21800ab50d84c1dce545b62a39f753d85393ca65c40d8b3a0464544819a98e",
+      "exact_map_verified": true,
+      "source_banks": [
+        {
+          "sha256": "665075fb97578f8e69ec76e2ee871890c190c89d808a7887a610d818dd5de583",
+          "circuits": 18
+        },
+        {
+          "sha256": "fa2b112e1b98b78ac4f953088af28eb4a222a622596f96a17993adf3a820bdf7",
+          "circuits": 32
+        }
+      ]
+    },
+    {
+      "case_id": "hl_4x4x16_V",
+      "arm": "balanced_random",
+      "status": "COMPLETED",
+      "distinct_donors": 50,
+      "raw_donor_best": 222,
+      "baseline_signed_additions": 222,
+      "initial_pool_additions": 222,
+      "initial_reconnected_additions": 222,
+      "best_signed_additions": 220,
+      "forms": 733,
+      "exact_binary_relations": 3959,
+      "pool_seconds": 0.3627184168435633,
+      "search_budget_seconds": 5,
+      "search_elapsed_seconds": 5.009490250144154,
+      "total_elapsed_seconds": 5.564394208602607,
+      "seed": 8639507,
+      "perturbation": 6,
+      "scope": "Heuristic fixed linear-map signed-wire pool search. All forms are paid. No optimality or literal sign-orientation claim.",
+      "candidate_sha256": "105fbb7499a11d22a38301b5f60653739e465333b88753390ece6917e10eea04",
+      "pool_sha256": "e3b5af5170f36ee1fc97c8946a6e7124ac7fbe9cc9cd07acba0aea2c290cf2e0",
+      "exact_map_verified": true,
+      "source_banks": [
+        {
+          "sha256": "665075fb97578f8e69ec76e2ee871890c190c89d808a7887a610d818dd5de583",
+          "circuits": 18
+        },
+        {
+          "sha256": "1fad04205bfe5ef46fc7fb20c01a45e064904fe6b89c33149061a86c8d479a86",
+          "circuits": 32
+        }
+      ]
+    },
+    {
+      "case_id": "hl_5x5x12_V",
+      "arm": "baseline_frozen",
+      "status": "COMPLETED",
+      "distinct_donors": 16,
+      "raw_donor_best": 232,
+      "baseline_signed_additions": 232,
+      "initial_pool_additions": 232,
+      "initial_reconnected_additions": 232,
+      "best_signed_additions": 232,
+      "forms": 715,
+      "exact_binary_relations": 3986,
+      "pool_seconds": 0.31122370809316635,
+      "search_budget_seconds": 5,
+      "search_elapsed_seconds": 5.01204229099676,
+      "total_elapsed_seconds": 5.522871332708746,
+      "seed": 16322024,
+      "perturbation": 6,
+      "scope": "Heuristic fixed linear-map signed-wire pool search. All forms are paid. No optimality or literal sign-orientation claim.",
+      "candidate_sha256": "695f9794abee3449b507b54856b4dffece1ac37bb0ad16d32fc599af83aaa399",
+      "pool_sha256": "4356119ce25c72c95c3d7e963fc66115040c6160ed948583bd994513843f0de1",
+      "exact_map_verified": true,
+      "source_banks": [
+        {
+          "sha256": "741eef45bfcdf5d1eed0c97d2cb41cd9cafab486276c6afd09a23a5b30466fde",
+          "circuits": 16
+        }
+      ]
+    },
+    {
+      "case_id": "hl_5x5x12_V",
+      "arm": "helpers",
+      "status": "COMPLETED",
+      "distinct_donors": 16,
+      "raw_donor_best": 232,
+      "baseline_signed_additions": 232,
+      "initial_pool_additions": 232,
+      "initial_reconnected_additions": 232,
+      "best_signed_additions": 232,
+      "forms": 715,
+      "exact_binary_relations": 3986,
+      "pool_seconds": 0.25165183283388615,
+      "search_budget_seconds": 5,
+      "search_elapsed_seconds": 5.009203959256411,
+      "total_elapsed_seconds": 5.3320497502572834,
+      "seed": 16322024,
+      "perturbation": 6,
+      "scope": "Heuristic fixed linear-map signed-wire pool search. All forms are paid. No optimality or literal sign-orientation claim.",
+      "candidate_sha256": "8c960304a60840dfa8f60e286cff4d6e5d026ca7fe344e05a9543b6ffd743183",
+      "pool_sha256": "b6de157d4285da79c34c93e24eb1204e695732a9b9814abb5ef6413a0c197041",
+      "exact_map_verified": true,
+      "source_banks": [
+        {
+          "sha256": "741eef45bfcdf5d1eed0c97d2cb41cd9cafab486276c6afd09a23a5b30466fde",
+          "circuits": 16
+        },
+        {
+          "sha256": "e901ef79dfd6555c002b6a2ed2d29d43474bf56436af97a7d233fb02b9b98c78",
+          "circuits": 0
+        }
+      ]
+    },
+    {
+      "case_id": "hl_4x4x16_V",
+      "arm": "combined",
+      "status": "COMPLETED",
+      "distinct_donors": 139,
+      "raw_donor_best": 221,
+      "baseline_signed_additions": 222,
+      "initial_pool_additions": 221,
+      "initial_reconnected_additions": 221,
+      "best_signed_additions": 220,
+      "forms": 799,
+      "exact_binary_relations": 4681,
+      "pool_seconds": 0.7637409581802785,
+      "search_budget_seconds": 8,
+      "search_elapsed_seconds": 8.009037416893989,
+      "total_elapsed_seconds": 9.259736790787429,
+      "seed": 8639507,
+      "perturbation": 6,
+      "scope": "Heuristic fixed linear-map signed-wire pool search. All forms are paid. No optimality or literal sign-orientation claim.",
+      "candidate_sha256": "2e396390bc947cc1d5233981e44c4affaec6dfe3bf6ba2e6ca73847005cf6776",
+      "pool_sha256": "b6a5c8517e029ba41f982541940a48a1b75d200c652dc14c69c82fd6445f4864",
+      "exact_map_verified": true,
+      "source_banks": [
+        {
+          "sha256": "665075fb97578f8e69ec76e2ee871890c190c89d808a7887a610d818dd5de583",
+          "circuits": 18
+        },
+        {
+          "sha256": "53ff1c2acd1b9db96ff0dd5b76767e0dec9ccb9b2e0b8677b5509e16477fb110",
+          "circuits": 0
+        },
+        {
+          "sha256": "7f8900c667e8295898ebbd659e07f3893d4d58819b766ac414ddccc03d81c3c4",
+          "circuits": 32
+        },
+        {
+          "sha256": "7117783e59489b8fc828c720379633303ba6882e2cb7c5953b493ed66764bf9e",
+          "circuits": 25
+        },
+        {
+          "sha256": "fa2b112e1b98b78ac4f953088af28eb4a222a622596f96a17993adf3a820bdf7",
+          "circuits": 32
+        },
+        {
+          "sha256": "1fad04205bfe5ef46fc7fb20c01a45e064904fe6b89c33149061a86c8d479a86",
+          "circuits": 32
+        }
+      ]
+    },
+    {
+      "case_id": "hl_5x5x12_V",
+      "arm": "vectors",
+      "status": "COMPLETED",
+      "distinct_donors": 48,
+      "raw_donor_best": 231,
+      "baseline_signed_additions": 232,
+      "initial_pool_additions": 231,
+      "initial_reconnected_additions": 231,
+      "best_signed_additions": 230,
+      "forms": 782,
+      "exact_binary_relations": 4777,
+      "pool_seconds": 0.3454760001040995,
+      "search_budget_seconds": 5,
+      "search_elapsed_seconds": 5.011194457765669,
+      "total_elapsed_seconds": 5.5391421667300165,
+      "seed": 16322024,
+      "perturbation": 6,
+      "scope": "Heuristic fixed linear-map signed-wire pool search. All forms are paid. No optimality or literal sign-orientation claim.",
+      "candidate_sha256": "6d30dac61c56b09bc0eb5c35b5affb08f954ebf4e3b98019e680aa9aafc459af",
+      "pool_sha256": "b42707cafed694342e8b25d5d57a9f54cab2b65b310ccce0cbbf31d6c585edb1",
+      "exact_map_verified": true,
+      "source_banks": [
+        {
+          "sha256": "741eef45bfcdf5d1eed0c97d2cb41cd9cafab486276c6afd09a23a5b30466fde",
+          "circuits": 16
+        },
+        {
+          "sha256": "df446688e1708a2e9ba3b5b9f41ba0fe5f0f91b41fd6e5157afe407224796f59",
+          "circuits": 32
+        }
+      ]
+    },
+    {
+      "case_id": "hl_5x5x12_V",
+      "arm": "mixed",
+      "status": "COMPLETED",
+      "distinct_donors": 48,
+      "raw_donor_best": 232,
+      "baseline_signed_additions": 232,
+      "initial_pool_additions": 232,
+      "initial_reconnected_additions": 232,
+      "best_signed_additions": 230,
+      "forms": 772,
+      "exact_binary_relations": 4632,
+      "pool_seconds": 0.37037758296355605,
+      "search_budget_seconds": 5,
+      "search_elapsed_seconds": 5.011578291654587,
+      "total_elapsed_seconds": 5.572529084049165,
+      "seed": 16322024,
+      "perturbation": 6,
+      "scope": "Heuristic fixed linear-map signed-wire pool search. All forms are paid. No optimality or literal sign-orientation claim.",
+      "candidate_sha256": "c79b7401fe117f7597bdb41c09f31ef5bac3e25dd9985e3c6638aac36f98ef8e",
+      "pool_sha256": "25da6d9fbfb68cbf42752b5af2f5e13b56c8d5c4f7b2842e100e87cd7046de88",
+      "exact_map_verified": true,
+      "source_banks": [
+        {
+          "sha256": "741eef45bfcdf5d1eed0c97d2cb41cd9cafab486276c6afd09a23a5b30466fde",
+          "circuits": 16
+        },
+        {
+          "sha256": "599f41511651d28223c3294c2eb729512723bfc16b6e983c8ea87dda254845c7",
+          "circuits": 32
+        }
+      ]
+    },
+    {
+      "case_id": "hl_5x5x12_V",
+      "arm": "guided",
+      "status": "COMPLETED",
+      "distinct_donors": 48,
+      "raw_donor_best": 232,
+      "baseline_signed_additions": 232,
+      "initial_pool_additions": 232,
+      "initial_reconnected_additions": 232,
+      "best_signed_additions": 232,
+      "forms": 738,
+      "exact_binary_relations": 4199,
+      "pool_seconds": 0.34211395774036646,
+      "search_budget_seconds": 5,
+      "search_elapsed_seconds": 5.015830792021006,
+      "total_elapsed_seconds": 5.600715334061533,
+      "seed": 16322024,
+      "perturbation": 6,
+      "scope": "Heuristic fixed linear-map signed-wire pool search. All forms are paid. No optimality or literal sign-orientation claim.",
+      "candidate_sha256": "7d74e319376a0da46f8430a8b08872c5e22e26c50f0547b838ddf80c24dc92b2",
+      "pool_sha256": "d999251b09618ed2828130b9ae6ceb86f48b6cb4530650dee5f8359a95f75754",
+      "exact_map_verified": true,
+      "source_banks": [
+        {
+          "sha256": "741eef45bfcdf5d1eed0c97d2cb41cd9cafab486276c6afd09a23a5b30466fde",
+          "circuits": 16
+        },
+        {
+          "sha256": "ccaef9e446b730917978d4ea3f11cf3c4b93a9d7e94f79774dee3c8072dc2792",
+          "circuits": 32
+        }
+      ]
+    },
+    {
+      "case_id": "hl_5x5x12_V",
+      "arm": "balanced_random",
+      "status": "COMPLETED",
+      "distinct_donors": 48,
+      "raw_donor_best": 232,
+      "baseline_signed_additions": 232,
+      "initial_pool_additions": 232,
+      "initial_reconnected_additions": 232,
+      "best_signed_additions": 230,
+      "forms": 762,
+      "exact_binary_relations": 4517,
+      "pool_seconds": 0.322454540990293,
+      "search_budget_seconds": 5,
+      "search_elapsed_seconds": 5.009219249710441,
+      "total_elapsed_seconds": 5.497719875071198,
+      "seed": 16322024,
+      "perturbation": 6,
+      "scope": "Heuristic fixed linear-map signed-wire pool search. All forms are paid. No optimality or literal sign-orientation claim.",
+      "candidate_sha256": "c4299b48b7b5d97fbe264a9f459030d5adb157f85a4901dfffa97810194f6c6c",
+      "pool_sha256": "1dbd747eb85b70eb79388eaead6de3dbf7ed7262836de65b07e90419ac704c82",
+      "exact_map_verified": true,
+      "source_banks": [
+        {
+          "sha256": "741eef45bfcdf5d1eed0c97d2cb41cd9cafab486276c6afd09a23a5b30466fde",
+          "circuits": 16
+        },
+        {
+          "sha256": "2f666e8efced98d57dd77db16311eaa8cf27fada3a1f97727ff16c2f44548646",
+          "circuits": 32
+        }
+      ]
+    },
+    {
+      "case_id": "hl_6x7x8_V",
+      "arm": "baseline_frozen",
+      "status": "COMPLETED",
+      "distinct_donors": 11,
+      "raw_donor_best": 281,
+      "baseline_signed_additions": 281,
+      "initial_pool_additions": 281,
+      "initial_reconnected_additions": 281,
+      "best_signed_additions": 281,
+      "forms": 701,
+      "exact_binary_relations": 3228,
+      "pool_seconds": 0.25169533398002386,
+      "search_budget_seconds": 5,
+      "search_elapsed_seconds": 5.010581042151898,
+      "total_elapsed_seconds": 5.316639207769185,
+      "seed": 9329994,
+      "perturbation": 6,
+      "scope": "Heuristic fixed linear-map signed-wire pool search. All forms are paid. No optimality or literal sign-orientation claim.",
+      "candidate_sha256": "d85156e99431944161336df2fd2111b32493cb48296a2bd25acd56321cfd4633",
+      "pool_sha256": "d2acf6b59247c34e03b62197a5833ff42989867e637d7dcd52c6f41cfdd2732d",
+      "exact_map_verified": true,
+      "source_banks": [
+        {
+          "sha256": "b8c9c361a3322d2e736827436a904fd48c11a1c154fe496043e9d0717f454549",
+          "circuits": 11
+        }
+      ]
+    },
+    {
+      "case_id": "hl_6x7x8_V",
+      "arm": "helpers",
+      "status": "COMPLETED",
+      "distinct_donors": 11,
+      "raw_donor_best": 281,
+      "baseline_signed_additions": 281,
+      "initial_pool_additions": 281,
+      "initial_reconnected_additions": 281,
+      "best_signed_additions": 281,
+      "forms": 701,
+      "exact_binary_relations": 3228,
+      "pool_seconds": 0.21298804227262735,
+      "search_budget_seconds": 5,
+      "search_elapsed_seconds": 5.00886349985376,
+      "total_elapsed_seconds": 5.278293665964156,
+      "seed": 9329994,
+      "perturbation": 6,
+      "scope": "Heuristic fixed linear-map signed-wire pool search. All forms are paid. No optimality or literal sign-orientation claim.",
+      "candidate_sha256": "81186e18d7dfb63e0d10fc9856d802d6057b0ba7b3af151aabbb6c249edd51b1",
+      "pool_sha256": "9be8e3d447fa3d4a6a71ae531d7d88bb5b37f96d9b70eb866e42643e149b6017",
+      "exact_map_verified": true,
+      "source_banks": [
+        {
+          "sha256": "b8c9c361a3322d2e736827436a904fd48c11a1c154fe496043e9d0717f454549",
+          "circuits": 11
+        },
+        {
+          "sha256": "2e880aac68c17252451112592dbb1a0c39d6734b42ea9c2c303abd97a9a702c7",
+          "circuits": 0
+        }
+      ]
+    },
+    {
+      "case_id": "hl_5x5x12_V",
+      "arm": "combined",
+      "status": "COMPLETED",
+      "distinct_donors": 144,
+      "raw_donor_best": 231,
+      "baseline_signed_additions": 232,
+      "initial_pool_additions": 231,
+      "initial_reconnected_additions": 231,
+      "best_signed_additions": 230,
+      "forms": 826,
+      "exact_binary_relations": 5286,
+      "pool_seconds": 0.7544120000675321,
+      "search_budget_seconds": 8,
+      "search_elapsed_seconds": 8.013701541814953,
+      "total_elapsed_seconds": 9.335311708040535,
+      "seed": 16322024,
+      "perturbation": 6,
+      "scope": "Heuristic fixed linear-map signed-wire pool search. All forms are paid. No optimality or literal sign-orientation claim.",
+      "candidate_sha256": "dcee98acb690ba48de184676c86c41966c23813135963dcd40a74b9dd9c831b1",
+      "pool_sha256": "6fea7b5c60f09b44faec8fb5d7304d9c0be607dd5a35ddd4967d882416c8f25d",
+      "exact_map_verified": true,
+      "source_banks": [
+        {
+          "sha256": "741eef45bfcdf5d1eed0c97d2cb41cd9cafab486276c6afd09a23a5b30466fde",
+          "circuits": 16
+        },
+        {
+          "sha256": "e901ef79dfd6555c002b6a2ed2d29d43474bf56436af97a7d233fb02b9b98c78",
+          "circuits": 0
+        },
+        {
+          "sha256": "df446688e1708a2e9ba3b5b9f41ba0fe5f0f91b41fd6e5157afe407224796f59",
+          "circuits": 32
+        },
+        {
+          "sha256": "599f41511651d28223c3294c2eb729512723bfc16b6e983c8ea87dda254845c7",
+          "circuits": 32
+        },
+        {
+          "sha256": "ccaef9e446b730917978d4ea3f11cf3c4b93a9d7e94f79774dee3c8072dc2792",
+          "circuits": 32
+        },
+        {
+          "sha256": "2f666e8efced98d57dd77db16311eaa8cf27fada3a1f97727ff16c2f44548646",
+          "circuits": 32
+        }
+      ]
+    },
+    {
+      "case_id": "hl_6x7x8_V",
+      "arm": "vectors",
+      "status": "COMPLETED",
+      "distinct_donors": 43,
+      "raw_donor_best": 280,
+      "baseline_signed_additions": 281,
+      "initial_pool_additions": 280,
+      "initial_reconnected_additions": 280,
+      "best_signed_additions": 280,
+      "forms": 797,
+      "exact_binary_relations": 4131,
+      "pool_seconds": 0.32217062497511506,
+      "search_budget_seconds": 5,
+      "search_elapsed_seconds": 5.008757332805544,
+      "total_elapsed_seconds": 5.503273665904999,
+      "seed": 9329994,
+      "perturbation": 6,
+      "scope": "Heuristic fixed linear-map signed-wire pool search. All forms are paid. No optimality or literal sign-orientation claim.",
+      "candidate_sha256": "810589a2241ba4ba05dd3008a310a2ace10694aa84a3e633564b6937e9b0412d",
+      "pool_sha256": "808cbadd24baf1f716a91d9b4ebddd05ea2a5602d14bc3dec43c09548e6ba9d7",
+      "exact_map_verified": true,
+      "source_banks": [
+        {
+          "sha256": "b8c9c361a3322d2e736827436a904fd48c11a1c154fe496043e9d0717f454549",
+          "circuits": 11
+        },
+        {
+          "sha256": "f4ca3b3391a3c5c733a36bbe9b67aa883bd856bac0e9b24bb39b7d9ee4f1917e",
+          "circuits": 32
+        }
+      ]
+    },
+    {
+      "case_id": "hl_6x7x8_V",
+      "arm": "mixed",
+      "status": "COMPLETED",
+      "distinct_donors": 26,
+      "raw_donor_best": 280,
+      "baseline_signed_additions": 281,
+      "initial_pool_additions": 280,
+      "initial_reconnected_additions": 280,
+      "best_signed_additions": 280,
+      "forms": 746,
+      "exact_binary_relations": 3608,
+      "pool_seconds": 0.2527185003273189,
+      "search_budget_seconds": 5,
+      "search_elapsed_seconds": 5.010732042137533,
+      "total_elapsed_seconds": 5.364065292291343,
+      "seed": 9329994,
+      "perturbation": 6,
+      "scope": "Heuristic fixed linear-map signed-wire pool search. All forms are paid. No optimality or literal sign-orientation claim.",
+      "candidate_sha256": "17f2fe1ce49091c0d717df08a5c1b17113cba998373ea30ce0d74253dbc9e0d1",
+      "pool_sha256": "5352b34ec87048c8bed0453fe8bf2005cd542f33237e866bac6e1ab94e10596f",
+      "exact_map_verified": true,
+      "source_banks": [
+        {
+          "sha256": "b8c9c361a3322d2e736827436a904fd48c11a1c154fe496043e9d0717f454549",
+          "circuits": 11
+        },
+        {
+          "sha256": "a85e635f6c3bb5d9f084ac848fdb6c2eac64c730d59a7d8943503052e11a2f8a",
+          "circuits": 15
+        }
+      ]
+    },
+    {
+      "case_id": "hl_6x7x8_V",
+      "arm": "guided",
+      "status": "COMPLETED",
+      "distinct_donors": 43,
+      "raw_donor_best": 281,
+      "baseline_signed_additions": 281,
+      "initial_pool_additions": 281,
+      "initial_reconnected_additions": 281,
+      "best_signed_additions": 281,
+      "forms": 756,
+      "exact_binary_relations": 3758,
+      "pool_seconds": 0.29286083299666643,
+      "search_budget_seconds": 5,
+      "search_elapsed_seconds": 5.019380250014365,
+      "total_elapsed_seconds": 5.526832000352442,
+      "seed": 9329994,
+      "perturbation": 6,
+      "scope": "Heuristic fixed linear-map signed-wire pool search. All forms are paid. No optimality or literal sign-orientation claim.",
+      "candidate_sha256": "62354c187b0f6cc2534cfbe8602f98bd0aa8e83d32859283b8528ef3a3b1ab88",
+      "pool_sha256": "ceb6cf0853799cc096a3a3872491651538dc0ceb933b187a71ec3c79e5cf704d",
+      "exact_map_verified": true,
+      "source_banks": [
+        {
+          "sha256": "b8c9c361a3322d2e736827436a904fd48c11a1c154fe496043e9d0717f454549",
+          "circuits": 11
+        },
+        {
+          "sha256": "324bd603df96183f7fa977a361d78f414d3502f6f0482b65c097bed56830be1a",
+          "circuits": 32
+        }
+      ]
+    },
+    {
+      "case_id": "hl_6x7x8_V",
+      "arm": "balanced_random",
+      "status": "COMPLETED",
+      "distinct_donors": 43,
+      "raw_donor_best": 280,
+      "baseline_signed_additions": 281,
+      "initial_pool_additions": 280,
+      "initial_reconnected_additions": 280,
+      "best_signed_additions": 280,
+      "forms": 776,
+      "exact_binary_relations": 3920,
+      "pool_seconds": 0.3188045830465853,
+      "search_budget_seconds": 5,
+      "search_elapsed_seconds": 5.009204417001456,
+      "total_elapsed_seconds": 5.517898915801197,
+      "seed": 9329994,
+      "perturbation": 6,
+      "scope": "Heuristic fixed linear-map signed-wire pool search. All forms are paid. No optimality or literal sign-orientation claim.",
+      "candidate_sha256": "1475a425f36aba5023724efc956df9f7acb2eec696a7208a0ecf38e985bde272",
+      "pool_sha256": "5548724c810f71189278b94a3c3a52e4e8c907385d8d26d871445262b713c0a3",
+      "exact_map_verified": true,
+      "source_banks": [
+        {
+          "sha256": "b8c9c361a3322d2e736827436a904fd48c11a1c154fe496043e9d0717f454549",
+          "circuits": 11
+        },
+        {
+          "sha256": "692481e688d121c802f17cb11d5f2c5d3ac82ed6569db61886b562a84061d8f9",
+          "circuits": 32
+        }
+      ]
+    },
+    {
+      "case_id": "hl_4x4x16_Wt",
+      "arm": "baseline_frozen",
+      "status": "COMPLETED",
+      "distinct_donors": 20,
+      "raw_donor_best": 215,
+      "baseline_signed_additions": 215,
+      "initial_pool_additions": 215,
+      "initial_reconnected_additions": 215,
+      "best_signed_additions": 211,
+      "forms": 702,
+      "exact_binary_relations": 3690,
+      "pool_seconds": 0.3741052499972284,
+      "search_budget_seconds": 5,
+      "search_elapsed_seconds": 5.008690250106156,
+      "total_elapsed_seconds": 5.495702708140016,
+      "seed": 6100160,
+      "perturbation": 6,
+      "scope": "Heuristic fixed linear-map signed-wire pool search. All forms are paid. No optimality or literal sign-orientation claim.",
+      "candidate_sha256": "8dcf3cdbbcbb1aa2e735aa4f13530594a24590836561acbb46cae3c27a22e544",
+      "pool_sha256": "c712cd018044f2fddfb32db597399f59fbb83b14ee59378e4fc5db29ac868f2d",
+      "exact_map_verified": true,
+      "source_banks": [
+        {
+          "sha256": "7d8eaf2a609786d3836a2ca5ee2e2a17b792885ed6041dd3317ebac09d1458b5",
+          "circuits": 20
+        }
+      ]
+    },
+    {
+      "case_id": "hl_4x4x16_Wt",
+      "arm": "helpers",
+      "status": "COMPLETED",
+      "distinct_donors": 20,
+      "raw_donor_best": 215,
+      "baseline_signed_additions": 215,
+      "initial_pool_additions": 215,
+      "initial_reconnected_additions": 215,
+      "best_signed_additions": 211,
+      "forms": 702,
+      "exact_binary_relations": 3690,
+      "pool_seconds": 0.28481804113835096,
+      "search_budget_seconds": 5,
+      "search_elapsed_seconds": 5.009813957847655,
+      "total_elapsed_seconds": 5.385032041929662,
+      "seed": 6100160,
+      "perturbation": 6,
+      "scope": "Heuristic fixed linear-map signed-wire pool search. All forms are paid. No optimality or literal sign-orientation claim.",
+      "candidate_sha256": "0c428a7f86afae2db65c4b58c6bb56fe9373528735909df34e145cee713fe4af",
+      "pool_sha256": "b06034eaa5d2c654655404181c4741c865118c02b77e79cce20616f513930c89",
+      "exact_map_verified": true,
+      "source_banks": [
+        {
+          "sha256": "7d8eaf2a609786d3836a2ca5ee2e2a17b792885ed6041dd3317ebac09d1458b5",
+          "circuits": 20
+        },
+        {
+          "sha256": "53ff1c2acd1b9db96ff0dd5b76767e0dec9ccb9b2e0b8677b5509e16477fb110",
+          "circuits": 0
+        }
+      ]
+    },
+    {
+      "case_id": "hl_6x7x8_V",
+      "arm": "combined",
+      "status": "COMPLETED",
+      "distinct_donors": 122,
+      "raw_donor_best": 280,
+      "baseline_signed_additions": 281,
+      "initial_pool_additions": 280,
+      "initial_reconnected_additions": 280,
+      "best_signed_additions": 280,
+      "forms": 887,
+      "exact_binary_relations": 5040,
+      "pool_seconds": 0.8739891252480447,
+      "search_budget_seconds": 8,
+      "search_elapsed_seconds": 8.010716416873038,
+      "total_elapsed_seconds": 9.40251237526536,
+      "seed": 9329994,
+      "perturbation": 6,
+      "scope": "Heuristic fixed linear-map signed-wire pool search. All forms are paid. No optimality or literal sign-orientation claim.",
+      "candidate_sha256": "c72f9027535aa278659d8a6bbe7022b0a0b0279da107dc77ef5a8c58bbd04b97",
+      "pool_sha256": "fc8fbfa5ce02f49ce489ac5425861ab94be5f1b732cc00221ed1df6b21df7015",
+      "exact_map_verified": true,
+      "source_banks": [
+        {
+          "sha256": "b8c9c361a3322d2e736827436a904fd48c11a1c154fe496043e9d0717f454549",
+          "circuits": 11
+        },
+        {
+          "sha256": "2e880aac68c17252451112592dbb1a0c39d6734b42ea9c2c303abd97a9a702c7",
+          "circuits": 0
+        },
+        {
+          "sha256": "f4ca3b3391a3c5c733a36bbe9b67aa883bd856bac0e9b24bb39b7d9ee4f1917e",
+          "circuits": 32
+        },
+        {
+          "sha256": "a85e635f6c3bb5d9f084ac848fdb6c2eac64c730d59a7d8943503052e11a2f8a",
+          "circuits": 15
+        },
+        {
+          "sha256": "324bd603df96183f7fa977a361d78f414d3502f6f0482b65c097bed56830be1a",
+          "circuits": 32
+        },
+        {
+          "sha256": "692481e688d121c802f17cb11d5f2c5d3ac82ed6569db61886b562a84061d8f9",
+          "circuits": 32
+        }
+      ]
+    },
+    {
+      "case_id": "hl_4x4x16_Wt",
+      "arm": "vectors",
+      "status": "COMPLETED",
+      "distinct_donors": 52,
+      "raw_donor_best": 214,
+      "baseline_signed_additions": 215,
+      "initial_pool_additions": 214,
+      "initial_reconnected_additions": 214,
+      "best_signed_additions": 211,
+      "forms": 750,
+      "exact_binary_relations": 4239,
+      "pool_seconds": 0.44425045931711793,
+      "search_budget_seconds": 5,
+      "search_elapsed_seconds": 5.012990792281926,
+      "total_elapsed_seconds": 5.662259500008076,
+      "seed": 6100160,
+      "perturbation": 6,
+      "scope": "Heuristic fixed linear-map signed-wire pool search. All forms are paid. No optimality or literal sign-orientation claim.",
+      "candidate_sha256": "eda1b89384b2ea2a824c68fc7b5ac9a8cdc538909ea7a19b8c3018533b9b6cfe",
+      "pool_sha256": "b15f0e90aad2024ad2dfa2c7f721b1c407a23a120188037377deead2709a54c9",
+      "exact_map_verified": true,
+      "source_banks": [
+        {
+          "sha256": "7d8eaf2a609786d3836a2ca5ee2e2a17b792885ed6041dd3317ebac09d1458b5",
+          "circuits": 20
+        },
+        {
+          "sha256": "8c28f92650f062f540845d6122925e82736e8ccc1b8e1ce196d6188619628f04",
+          "circuits": 32
+        }
+      ]
+    },
+    {
+      "case_id": "hl_4x4x16_Wt",
+      "arm": "mixed",
+      "status": "COMPLETED",
+      "distinct_donors": 52,
+      "raw_donor_best": 215,
+      "baseline_signed_additions": 215,
+      "initial_pool_additions": 215,
+      "initial_reconnected_additions": 215,
+      "best_signed_additions": 211,
+      "forms": 740,
+      "exact_binary_relations": 4111,
+      "pool_seconds": 0.3570650829933584,
+      "search_budget_seconds": 5,
+      "search_elapsed_seconds": 5.010106000117958,
+      "total_elapsed_seconds": 5.5717865829356015,
+      "seed": 6100160,
+      "perturbation": 6,
+      "scope": "Heuristic fixed linear-map signed-wire pool search. All forms are paid. No optimality or literal sign-orientation claim.",
+      "candidate_sha256": "ee8a484558dcefa69db5cc789190e36a25351442622915b197e9002997fefd7a",
+      "pool_sha256": "366b842db89907983b0d9fb71f9d004d0fa8b12d2d13548a4b30ff79e2c4f763",
+      "exact_map_verified": true,
+      "source_banks": [
+        {
+          "sha256": "7d8eaf2a609786d3836a2ca5ee2e2a17b792885ed6041dd3317ebac09d1458b5",
+          "circuits": 20
+        },
+        {
+          "sha256": "4665ef2ab8d64353fcae0bb43dc2df0d816d7c9caab93f951e7e7b83b55951d5",
+          "circuits": 32
+        }
+      ]
+    },
+    {
+      "case_id": "hl_4x4x16_Wt",
+      "arm": "guided",
+      "status": "COMPLETED",
+      "distinct_donors": 52,
+      "raw_donor_best": 215,
+      "baseline_signed_additions": 215,
+      "initial_pool_additions": 215,
+      "initial_reconnected_additions": 215,
+      "best_signed_additions": 211,
+      "forms": 729,
+      "exact_binary_relations": 3974,
+      "pool_seconds": 0.3675281251780689,
+      "search_budget_seconds": 5,
+      "search_elapsed_seconds": 5.014970000367612,
+      "total_elapsed_seconds": 5.716690042056143,
+      "seed": 6100160,
+      "perturbation": 6,
+      "scope": "Heuristic fixed linear-map signed-wire pool search. All forms are paid. No optimality or literal sign-orientation claim.",
+      "candidate_sha256": "ef02e417caa691cafd11cd042f9cba4beb16028f67cfb90ece4e3bcbf788fa8e",
+      "pool_sha256": "ea7df0d8523f50e9df23da95c81bee78390601f66d4b4991fd0596298d9a52ec",
+      "exact_map_verified": true,
+      "source_banks": [
+        {
+          "sha256": "7d8eaf2a609786d3836a2ca5ee2e2a17b792885ed6041dd3317ebac09d1458b5",
+          "circuits": 20
+        },
+        {
+          "sha256": "da0c93d64452ccff78b853eaf19a79c2c709fe6ece43b49960fd14d1006c0174",
+          "circuits": 32
+        }
+      ]
+    },
+    {
+      "case_id": "hl_4x4x16_Wt",
+      "arm": "balanced_random",
+      "status": "COMPLETED",
+      "distinct_donors": 52,
+      "raw_donor_best": 215,
+      "baseline_signed_additions": 215,
+      "initial_pool_additions": 215,
+      "initial_reconnected_additions": 215,
+      "best_signed_additions": 211,
+      "forms": 746,
+      "exact_binary_relations": 4145,
+      "pool_seconds": 0.37885004188865423,
+      "search_budget_seconds": 5,
+      "search_elapsed_seconds": 5.010799082927406,
+      "total_elapsed_seconds": 5.59204141702503,
+      "seed": 6100160,
+      "perturbation": 6,
+      "scope": "Heuristic fixed linear-map signed-wire pool search. All forms are paid. No optimality or literal sign-orientation claim.",
+      "candidate_sha256": "9bead01040d5e898a3565466d5caf26edf261b07fe2f9d89a20d090cbf381d6a",
+      "pool_sha256": "55750f4e0dbca4168e7372eb7ad00bdfa016d5ed363a454962516e53846145b9",
+      "exact_map_verified": true,
+      "source_banks": [
+        {
+          "sha256": "7d8eaf2a609786d3836a2ca5ee2e2a17b792885ed6041dd3317ebac09d1458b5",
+          "circuits": 20
+        },
+        {
+          "sha256": "73e791db493b9c7b4944527171a317e7ac7548ff7e3c898661c79f59bb6d72c3",
+          "circuits": 32
+        }
+      ]
+    },
+    {
+      "case_id": "hl_4x4x14_Wt",
+      "arm": "baseline_frozen",
+      "status": "COMPLETED",
+      "distinct_donors": 20,
+      "raw_donor_best": 184,
+      "baseline_signed_additions": 184,
+      "initial_pool_additions": 184,
+      "initial_reconnected_additions": 184,
+      "best_signed_additions": 184,
+      "forms": 578,
+      "exact_binary_relations": 2949,
+      "pool_seconds": 0.22583508305251598,
+      "search_budget_seconds": 5,
+      "search_elapsed_seconds": 5.066834999714047,
+      "total_elapsed_seconds": 5.345012666191906,
+      "seed": 6357740,
+      "perturbation": 6,
+      "scope": "Heuristic fixed linear-map signed-wire pool search. All forms are paid. No optimality or literal sign-orientation claim.",
+      "candidate_sha256": "e146359526c1c9dc9adc9cbacf556a8a2434984ea5377fa3f6eba123eee8f76d",
+      "pool_sha256": "5771fcd7933d8566cea08a3b146be07921cce885bc75f928ceafcea56b692dcb",
+      "exact_map_verified": true,
+      "source_banks": [
+        {
+          "sha256": "6c81b176edc5bc9e0695fab33be781f2b761314db4624df3c006e8535e0a919d",
+          "circuits": 20
+        }
+      ]
+    },
+    {
+      "case_id": "hl_4x4x14_Wt",
+      "arm": "helpers",
+      "status": "COMPLETED",
+      "distinct_donors": 20,
+      "raw_donor_best": 184,
+      "baseline_signed_additions": 184,
+      "initial_pool_additions": 184,
+      "initial_reconnected_additions": 184,
+      "best_signed_additions": 184,
+      "forms": 578,
+      "exact_binary_relations": 2949,
+      "pool_seconds": 0.18579700030386448,
+      "search_budget_seconds": 5,
+      "search_elapsed_seconds": 5.008968290872872,
+      "total_elapsed_seconds": 5.267415666952729,
+      "seed": 6357740,
+      "perturbation": 6,
+      "scope": "Heuristic fixed linear-map signed-wire pool search. All forms are paid. No optimality or literal sign-orientation claim.",
+      "candidate_sha256": "fec03d6dd554f0afeb9aabb477c221ce3d6bb96869c3702d0817dd16923b1502",
+      "pool_sha256": "ecd299c14487980d3f1163dc1be20903292113a6451342fc80448b0f4c0d3fdd",
+      "exact_map_verified": true,
+      "source_banks": [
+        {
+          "sha256": "6c81b176edc5bc9e0695fab33be781f2b761314db4624df3c006e8535e0a919d",
+          "circuits": 20
+        },
+        {
+          "sha256": "2e880aac68c17252451112592dbb1a0c39d6734b42ea9c2c303abd97a9a702c7",
+          "circuits": 0
+        }
+      ]
+    },
+    {
+      "case_id": "hl_4x4x16_Wt",
+      "arm": "combined",
+      "status": "COMPLETED",
+      "distinct_donors": 148,
+      "raw_donor_best": 214,
+      "baseline_signed_additions": 215,
+      "initial_pool_additions": 214,
+      "initial_reconnected_additions": 214,
+      "best_signed_additions": 211,
+      "forms": 779,
+      "exact_binary_relations": 4576,
+      "pool_seconds": 0.7225482501089573,
+      "search_budget_seconds": 8,
+      "search_elapsed_seconds": 8.011505874805152,
+      "total_elapsed_seconds": 9.255195625126362,
+      "seed": 6100160,
+      "perturbation": 6,
+      "scope": "Heuristic fixed linear-map signed-wire pool search. All forms are paid. No optimality or literal sign-orientation claim.",
+      "candidate_sha256": "200a97e67f61a0f5dc1ae380eeee1f2dae81c32176458d5abb2d6da5e9562a77",
+      "pool_sha256": "ec46a360e797e8d77ed0666fa5ed4ff077127052190b26bcb668999ee5789b5a",
+      "exact_map_verified": true,
+      "source_banks": [
+        {
+          "sha256": "7d8eaf2a609786d3836a2ca5ee2e2a17b792885ed6041dd3317ebac09d1458b5",
+          "circuits": 20
+        },
+        {
+          "sha256": "53ff1c2acd1b9db96ff0dd5b76767e0dec9ccb9b2e0b8677b5509e16477fb110",
+          "circuits": 0
+        },
+        {
+          "sha256": "8c28f92650f062f540845d6122925e82736e8ccc1b8e1ce196d6188619628f04",
+          "circuits": 32
+        },
+        {
+          "sha256": "4665ef2ab8d64353fcae0bb43dc2df0d816d7c9caab93f951e7e7b83b55951d5",
+          "circuits": 32
+        },
+        {
+          "sha256": "da0c93d64452ccff78b853eaf19a79c2c709fe6ece43b49960fd14d1006c0174",
+          "circuits": 32
+        },
+        {
+          "sha256": "73e791db493b9c7b4944527171a317e7ac7548ff7e3c898661c79f59bb6d72c3",
+          "circuits": 32
+        }
+      ]
+    },
+    {
+      "case_id": "hl_4x4x14_Wt",
+      "arm": "vectors",
+      "status": "COMPLETED",
+      "distinct_donors": 52,
+      "raw_donor_best": 183,
+      "baseline_signed_additions": 184,
+      "initial_pool_additions": 183,
+      "initial_reconnected_additions": 183,
+      "best_signed_additions": 182,
+      "forms": 662,
+      "exact_binary_relations": 3822,
+      "pool_seconds": 0.26757645793259144,
+      "search_budget_seconds": 5,
+      "search_elapsed_seconds": 5.00815908331424,
+      "total_elapsed_seconds": 5.547074082773179,
+      "seed": 6357740,
+      "perturbation": 6,
+      "scope": "Heuristic fixed linear-map signed-wire pool search. All forms are paid. No optimality or literal sign-orientation claim.",
+      "candidate_sha256": "ede86d47382a7498d97b31207c11cbc8b7ec8a547b8b454151a8392937e1c9e7",
+      "pool_sha256": "13c04af401ac78376535b8817ebf67c7ca00b0cc259b9170bc41432c273f1c8b",
+      "exact_map_verified": true,
+      "source_banks": [
+        {
+          "sha256": "6c81b176edc5bc9e0695fab33be781f2b761314db4624df3c006e8535e0a919d",
+          "circuits": 20
+        },
+        {
+          "sha256": "25d36d3871820b8654882a623b395c1ecd0e8627ffaa04e83400abbd28f01d4d",
+          "circuits": 32
+        }
+      ]
+    },
+    {
+      "case_id": "hl_4x4x14_Wt",
+      "arm": "mixed",
+      "status": "COMPLETED",
+      "distinct_donors": 52,
+      "raw_donor_best": 183,
+      "baseline_signed_additions": 184,
+      "initial_pool_additions": 183,
+      "initial_reconnected_additions": 183,
+      "best_signed_additions": 182,
+      "forms": 637,
+      "exact_binary_relations": 3581,
+      "pool_seconds": 0.2575947502627969,
+      "search_budget_seconds": 5,
+      "search_elapsed_seconds": 5.009412166662514,
+      "total_elapsed_seconds": 5.405267792288214,
+      "seed": 6357740,
+      "perturbation": 6,
+      "scope": "Heuristic fixed linear-map signed-wire pool search. All forms are paid. No optimality or literal sign-orientation claim.",
+      "candidate_sha256": "75af65aee996889f376231caecc5dd467d7536162112196310f3b7ce2c25c517",
+      "pool_sha256": "f0b2393c250ad9fc40d826d801e31c065b613afa9a02911284f77a26def860cd",
+      "exact_map_verified": true,
+      "source_banks": [
+        {
+          "sha256": "6c81b176edc5bc9e0695fab33be781f2b761314db4624df3c006e8535e0a919d",
+          "circuits": 20
+        },
+        {
+          "sha256": "764d720edd2772e96a46630510c92f1ba3bd4c0830f54bf778e173bb8a7e5337",
+          "circuits": 32
+        }
+      ]
+    },
+    {
+      "case_id": "hl_4x4x14_Wt",
+      "arm": "guided",
+      "status": "COMPLETED",
+      "distinct_donors": 52,
+      "raw_donor_best": 183,
+      "baseline_signed_additions": 184,
+      "initial_pool_additions": 183,
+      "initial_reconnected_additions": 183,
+      "best_signed_additions": 181,
+      "forms": 619,
+      "exact_binary_relations": 3398,
+      "pool_seconds": 0.2526687500067055,
+      "search_budget_seconds": 5,
+      "search_elapsed_seconds": 5.014236791990697,
+      "total_elapsed_seconds": 5.44958774978295,
+      "seed": 6357740,
+      "perturbation": 6,
+      "scope": "Heuristic fixed linear-map signed-wire pool search. All forms are paid. No optimality or literal sign-orientation claim.",
+      "candidate_sha256": "181e28ebe87449824071ba27be08ac573e189d30986b28b6eb317938e717215f",
+      "pool_sha256": "ee8b890edcd5e1502eac9c953e3d203683835018756c8bb42de1afe3323294c5",
+      "exact_map_verified": true,
+      "source_banks": [
+        {
+          "sha256": "6c81b176edc5bc9e0695fab33be781f2b761314db4624df3c006e8535e0a919d",
+          "circuits": 20
+        },
+        {
+          "sha256": "3d3000205b6f4dd6731d12ca83de0c244c4d0675ddcb60764763a465a5c1e98a",
+          "circuits": 32
+        }
+      ]
+    },
+    {
+      "case_id": "hl_4x4x14_Wt",
+      "arm": "balanced_random",
+      "status": "COMPLETED",
+      "distinct_donors": 52,
+      "raw_donor_best": 183,
+      "baseline_signed_additions": 184,
+      "initial_pool_additions": 183,
+      "initial_reconnected_additions": 183,
+      "best_signed_additions": 182,
+      "forms": 651,
+      "exact_binary_relations": 3806,
+      "pool_seconds": 0.247315333224833,
+      "search_budget_seconds": 5,
+      "search_elapsed_seconds": 5.008120167069137,
+      "total_elapsed_seconds": 5.384551000315696,
+      "seed": 6357740,
+      "perturbation": 6,
+      "scope": "Heuristic fixed linear-map signed-wire pool search. All forms are paid. No optimality or literal sign-orientation claim.",
+      "candidate_sha256": "14902e72dc2ad79de1a38915b94b5c1f6e4ef8fcd8fee1a319fcdd646bce33ad",
+      "pool_sha256": "f78db5cca85d824e32af92a5fa0f8ae6aff48b8226ce37a13199227c2814beee",
+      "exact_map_verified": true,
+      "source_banks": [
+        {
+          "sha256": "6c81b176edc5bc9e0695fab33be781f2b761314db4624df3c006e8535e0a919d",
+          "circuits": 20
+        },
+        {
+          "sha256": "3252447843cd11da41e0e8a8d86b1650229c317b8926ef773538e7da1ff65790",
+          "circuits": 32
+        }
+      ]
+    },
+    {
+      "case_id": "hl_4x4x14_Wt",
+      "arm": "combined",
+      "status": "COMPLETED",
+      "distinct_donors": 148,
+      "raw_donor_best": 183,
+      "baseline_signed_additions": 184,
+      "initial_pool_additions": 183,
+      "initial_reconnected_additions": 183,
+      "best_signed_additions": 181,
+      "forms": 707,
+      "exact_binary_relations": 4460,
+      "pool_seconds": 0.42044854117557406,
+      "search_budget_seconds": 8,
+      "search_elapsed_seconds": 8.008357791230083,
+      "total_elapsed_seconds": 8.801622458267957,
+      "seed": 6357740,
+      "perturbation": 6,
+      "scope": "Heuristic fixed linear-map signed-wire pool search. All forms are paid. No optimality or literal sign-orientation claim.",
+      "candidate_sha256": "cf533a506212183f5c807612c1e51f286bd7385607ab1838ff464c11e9c9b3c9",
+      "pool_sha256": "f034fe2e75542a54b75f81fcfac3ad8b6294f9845695ff3d72a83ecf12136d81",
+      "exact_map_verified": true,
+      "source_banks": [
+        {
+          "sha256": "6c81b176edc5bc9e0695fab33be781f2b761314db4624df3c006e8535e0a919d",
+          "circuits": 20
+        },
+        {
+          "sha256": "2e880aac68c17252451112592dbb1a0c39d6734b42ea9c2c303abd97a9a702c7",
+          "circuits": 0
+        },
+        {
+          "sha256": "25d36d3871820b8654882a623b395c1ecd0e8627ffaa04e83400abbd28f01d4d",
+          "circuits": 32
+        },
+        {
+          "sha256": "764d720edd2772e96a46630510c92f1ba3bd4c0830f54bf778e173bb8a7e5337",
+          "circuits": 32
+        },
+        {
+          "sha256": "3d3000205b6f4dd6731d12ca83de0c244c4d0675ddcb60764763a465a5c1e98a",
+          "circuits": 32
+        },
+        {
+          "sha256": "3252447843cd11da41e0e8a8d86b1650229c317b8926ef773538e7da1ff65790",
+          "circuits": 32
+        }
+      ]
+    }
+  ]
+}

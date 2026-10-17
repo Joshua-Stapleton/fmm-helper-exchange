@@ -1,0 +1,36 @@
+{
+  "case_id": "hl_4x4x14_Wt",
+  "local_signed_additions": 181,
+  "returned_signed_additions": 294,
+  "orientation": {
+    "status": "OPTIMAL",
+    "elapsed_seconds": 0.003174,
+    "input_signs_fixed": true,
+    "ordered_output_signs_fixed": true,
+    "exact_original_map_verified": true,
+    "binary_additions": 294,
+    "unary_negations": 0,
+    "nonunit_scalars": 0,
+    "unused_gates": 0,
+    "scope": "Sign-assignment feasibility only; solver status is not an addition-count optimality claim."
+  },
+  "previous_strict_additions": 297,
+  "transposed_search": true,
+  "basis_change": false,
+  "multiplication_rank_unchanged": true,
+  "status": "EXACT_ORIGINAL_MAP_PASS",
+  "counts": {
+    "binary_additions": 294,
+    "unary_negations": 0,
+    "nonunit_scalars": 0,
+    "unused_noninput_assignments": 0
+  },
+  "improvement": 3,
+  "derivation": {
+    "stage": "pooled",
+    "case_id": "hl_4x4x14_Wt",
+    "arm": "guided"
+  },
+  "previous_literal_sha256": "704c917efcfffdeec987d92a52e56b69427cc7a6290f604066f9fe83ff41c14f",
+  "original_matrix_sha256": "a1d1aac51306fbba9280750163c6f4b69ea0a96d43a32e5cce7ddb365a2be797"
+}

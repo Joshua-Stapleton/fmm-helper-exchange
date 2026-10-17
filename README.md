@@ -4,7 +4,22 @@ Code, worked examples, exact certificates and scoped lower-bound proofs from Jos
 
 [Download the complete methods bundle](downloads/fmm_research_methods.zip) · [Original compact helper-exchange bundle](downloads/fmm_helper_exchange_scripts.zip) · [Attribution and model conventions](docs/METHODS.md)
 
-## Latest update: 16 October 2026
+## Latest update: 17 October 2026
+
+New certificates improve seven checked-in maps across six schemes, saving
+sixteen additions. Six improvements use Perminov's retained-vector restarts
+combined with pooled reconstruction. Examples:
+**3x6x8 V uses 155**, **4x4x16 uses 634 total additions**, and **5x7x7 uses 695**.
+The original signed maps, multiplication ranks and ordinary bases are preserved.
+All six full tensors and literal programs replay independently.
+
+[Counts, controlled comparisons and negative results](docs/vector-targets-20261017.md) ·
+[Portable methods](methods/linear/reconstruction/vector_targets/README.md) ·
+[Standalone certificates](downloads/fmm_vector_targets_certificates_20261017.zip).
+The four-addition W improvement for 4x4x16 came from the old donor pool alone;
+attribution and every transpose return cost are explicit.
+
+## Previous update: 16 October 2026
 
 The supplied **hl_tests** archive now has independently verified circuits for all **57 maps and 19 multiplication tensors**. 19 scheme totals improve their source annotations. Products and the original signed coordinates are unchanged. A separately certified 7x7x8 variant coordinates product signs to use **1179 additions and 279 products**, with no basis change.
 
