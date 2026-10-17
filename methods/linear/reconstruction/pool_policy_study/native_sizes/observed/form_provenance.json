@@ -1,0 +1,529 @@
+{
+  "status": "COMPLETE",
+  "findings": [
+    {
+      "case_id": "hl_5x5x12_V",
+      "incumbent": 230,
+      "control_signed": 230,
+      "expanded_signed": 229,
+      "final_new_to_old_pool": 2,
+      "new_forms": [
+        {
+          "coefficients": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            -1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            -1,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            -1,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "support": 6,
+          "sparse_zero_based": [
+            [
+              6,
+              1
+            ],
+            [
+              8,
+              -1
+            ],
+            [
+              30,
+              -1
+            ],
+            [
+              32,
+              1
+            ],
+            [
+              42,
+              -1
+            ],
+            [
+              44,
+              1
+            ]
+          ],
+          "source_arms": [
+            "k2",
+            "k3",
+            "uniform1to8"
+          ],
+          "source_donor_counts": {
+            "k2": 1,
+            "k3": 1,
+            "uniform1to3": 0,
+            "uniform1to8": 2
+          },
+          "supporting_selected_donors": [
+            {
+              "arm": "k2",
+              "donor_name": "k2_1717101_154d7ad3cc07",
+              "signed_additions": 230,
+              "candidate_hash": "154d7ad3cc07289629deb09bd5fe6684ffc321d6e70494a210dbb08e7e829f11",
+              "observed_actual_omission_counts": [
+                2
+              ],
+              "first_observed_event": {
+                "seed": 1717101,
+                "removed_count": 2,
+                "native_seed": 1717146,
+                "observed_wall_seconds": 5.276122542098165
+              }
+            },
+            {
+              "arm": "k3",
+              "donor_name": "k3_1717101_0aa24a7603f4",
+              "signed_additions": 230,
+              "candidate_hash": "0aa24a7603f497135ac7f029b2275e730b15246cb0bd3ae141d44aa8872f032c",
+              "observed_actual_omission_counts": [
+                3
+              ],
+              "first_observed_event": {
+                "seed": 1717101,
+                "removed_count": 3,
+                "native_seed": 1717143,
+                "observed_wall_seconds": 5.300330167170614
+              }
+            },
+            {
+              "arm": "uniform1to8",
+              "donor_name": "uniform1to8_1717101_2b72e162e841",
+              "signed_additions": 230,
+              "candidate_hash": "2b72e162e84179b6f18d46f5c9bbd2f5fdc161b460b473334d99d9ba075c3dac",
+              "observed_actual_omission_counts": [
+                2
+              ],
+              "first_observed_event": {
+                "seed": 1717101,
+                "removed_count": 2,
+                "native_seed": 1717125,
+                "observed_wall_seconds": 3.9616044578142464
+              }
+            },
+            {
+              "arm": "uniform1to8",
+              "donor_name": "uniform1to8_1717101_74f7abcf6cca",
+              "signed_additions": 230,
+              "candidate_hash": "74f7abcf6cca3dd50cb00f32e81f5c1de736652081bea7abd5591d2b29a314ec",
+              "observed_actual_omission_counts": [
+                6
+              ],
+              "first_observed_event": {
+                "seed": 1717101,
+                "removed_count": 6,
+                "native_seed": 1717128,
+                "observed_wall_seconds": 4.426458999980241
+              }
+            }
+          ]
+        },
+        {
+          "coefficients": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            -1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            -1,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "support": 5,
+          "sparse_zero_based": [
+            [
+              6,
+              1
+            ],
+            [
+              8,
+              -1
+            ],
+            [
+              30,
+              -1
+            ],
+            [
+              32,
+              1
+            ],
+            [
+              44,
+              1
+            ]
+          ],
+          "source_arms": [
+            "uniform1to8"
+          ],
+          "source_donor_counts": {
+            "k2": 0,
+            "k3": 0,
+            "uniform1to3": 0,
+            "uniform1to8": 1
+          },
+          "supporting_selected_donors": [
+            {
+              "arm": "uniform1to8",
+              "donor_name": "uniform1to8_1717101_11d99bad1abb",
+              "signed_additions": 231,
+              "candidate_hash": "11d99bad1abbec6645a913e256fc6cadd37fccec32a344d4ccb70ba237b13199",
+              "observed_actual_omission_counts": [
+                7
+              ],
+              "first_observed_event": {
+                "seed": 1717101,
+                "removed_count": 7,
+                "native_seed": 1717107,
+                "observed_wall_seconds": 1.162646499928087
+              }
+            }
+          ]
+        }
+      ],
+      "interpretation": "Final circuit uses forms unavailable in the prior bank."
+    },
+    {
+      "case_id": "hl_6x7x8_V",
+      "incumbent": 280,
+      "control_signed": 279,
+      "expanded_signed": 279,
+      "final_new_to_old_pool": 2,
+      "new_forms": [
+        {
+          "coefficients": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            -1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            -1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            -1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "support": 6,
+          "sparse_zero_based": [
+            [
+              9,
+              1
+            ],
+            [
+              17,
+              -1
+            ],
+            [
+              25,
+              1
+            ],
+            [
+              33,
+              -1
+            ],
+            [
+              41,
+              -1
+            ],
+            [
+              49,
+              1
+            ]
+          ],
+          "source_arms": [
+            "uniform1to8"
+          ],
+          "source_donor_counts": {
+            "k2": 0,
+            "k3": 0,
+            "uniform1to3": 0,
+            "uniform1to8": 1
+          },
+          "supporting_selected_donors": [
+            {
+              "arm": "uniform1to8",
+              "donor_name": "uniform1to8_1717101_106cecd417fb",
+              "signed_additions": 280,
+              "candidate_hash": "106cecd417fb534e4483c77f5ed0d2fdaa33d24218f9450365adc584b04f0693",
+              "observed_actual_omission_counts": [
+                4
+              ],
+              "first_observed_event": {
+                "seed": 1717101,
+                "removed_count": 4,
+                "native_seed": 1717132,
+                "observed_wall_seconds": 5.685992500279099
+              }
+            }
+          ]
+        },
+        {
+          "coefficients": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            -1,
+            0,
+            0,
+            0,
+            -1,
+            0,
+            0,
+            0,
+            -1,
+            0,
+            0,
+            0,
+            -1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "support": 6,
+          "sparse_zero_based": [
+            [
+              8,
+              1
+            ],
+            [
+              9,
+              1
+            ],
+            [
+              19,
+              -1
+            ],
+            [
+              23,
+              -1
+            ],
+            [
+              27,
+              -1
+            ],
+            [
+              31,
+              -1
+            ]
+          ],
+          "source_arms": [
+            "k3"
+          ],
+          "source_donor_counts": {
+            "k2": 0,
+            "k3": 1,
+            "uniform1to3": 0,
+            "uniform1to8": 0
+          },
+          "supporting_selected_donors": [
+            {
+              "arm": "k3",
+              "donor_name": "k3_1718101_a52b668c2ff6",
+              "signed_additions": 280,
+              "candidate_hash": "a52b668c2ff6832af2b84db0969ede54fe259f614a552f2f158aefe0d5790235",
+              "observed_actual_omission_counts": [
+                3
+              ],
+              "first_observed_event": {
+                "seed": 1718101,
+                "removed_count": 3,
+                "native_seed": 1718129,
+                "observed_wall_seconds": 5.074537666980177
+              }
+            }
+          ]
+        }
+      ],
+      "interpretation": "Final circuit uses forms unavailable in the prior bank."
+    }
+  ],
+  "caution": "Form provenance is a finite-dictionary fact, not proof of global necessity. An arm containing a used form need not be its unique source."
+}

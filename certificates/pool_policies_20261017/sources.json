@@ -1,0 +1,114 @@
+{
+  "repository": "https://github.com/Joshua-Stapleton/fmm-helper-exchange",
+  "preceding_release_commit": "b7cf7fa939cb5af06cc8c645d8de8c80736b7225",
+  "factors": [
+    {
+      "scheme": "5x7x7",
+      "factor": "U",
+      "original_sms_sha256": "2f2fd33f3e029ea791b84abdf1d77f86f4abd23d347e46911d411f1180b3e2df",
+      "previous_literal_sha256": "dade0ead969b3b46efe97b683406712f16668137ac4ba7fd1aea767807208c08",
+      "final_literal_sha256": "dade0ead969b3b46efe97b683406712f16668137ac4ba7fd1aea767807208c08",
+      "previous_public_path": "certificates/vector_targets_20261017/5x7x7/U.slp",
+      "final_source": "unchanged previous literal certificate"
+    },
+    {
+      "scheme": "5x7x7",
+      "factor": "V",
+      "original_sms_sha256": "5df6fc138883423e9b6467264760b1b4b783539b075c77e934dff1c845f1134e",
+      "previous_literal_sha256": "b0103e591c76df37e01ac75571728616f6ec9df6edbd617de85ebd9a9f8e33e0",
+      "final_literal_sha256": "bd4a277207810a2922af189c65e23f8ecbf9d6eb09ff2359d70fff9ab93a5806",
+      "previous_public_path": "certificates/vector_targets_20261017/5x7x7/V.slp",
+      "final_source": "new verified V certificate"
+    },
+    {
+      "scheme": "5x7x7",
+      "factor": "W",
+      "original_sms_sha256": "349b822f77d526fb338a9f030b854d4d9618f4ac283aad244fe3c8f0052085e0",
+      "previous_literal_sha256": "d9a2c3aca8077283a98b2f02a47fb8680d3d3604481e593e0555b3866b04a9dd",
+      "final_literal_sha256": "d9a2c3aca8077283a98b2f02a47fb8680d3d3604481e593e0555b3866b04a9dd",
+      "previous_public_path": "certificates/vector_targets_20261017/5x7x7/W.slp",
+      "final_source": "unchanged previous literal certificate"
+    },
+    {
+      "scheme": "4x4x16",
+      "factor": "U",
+      "original_sms_sha256": "42a88eb70172cd8ca5ab2931da490acf14c9a5799b67ac7a61c18ba4b3dfff65",
+      "previous_literal_sha256": "439a22d89790d68919fab5340003ce806bf16587bf961eee5a031e2e93fea5eb",
+      "final_literal_sha256": "439a22d89790d68919fab5340003ce806bf16587bf961eee5a031e2e93fea5eb",
+      "previous_public_path": "certificates/vector_targets_20261017/4x4x16/U.slp",
+      "final_source": "unchanged previous literal certificate"
+    },
+    {
+      "scheme": "4x4x16",
+      "factor": "V",
+      "original_sms_sha256": "84651548203264e8a8b7e49ad7d695078656995c712fb1ab0c071831d80ee6ff",
+      "previous_literal_sha256": "36b864d25edcfc30f562dfd7b0a3c7b973c57bde7172c43b4f01acfc5bcdf8b4",
+      "final_literal_sha256": "d681fc9bfe578ebab371a88dbb662c2c245e24e33deb37d5ae2bffcca80d9d31",
+      "previous_public_path": "certificates/vector_targets_20261017/4x4x16/V.slp",
+      "final_source": "new verified V certificate"
+    },
+    {
+      "scheme": "4x4x16",
+      "factor": "W",
+      "original_sms_sha256": "c1dd0bc4d26811a766853a73e5edfeac1531a0f1e5d97391f178d7f9ff962398",
+      "previous_literal_sha256": "c62d98c4a17da03abb76f4426963bb96780a0c4f8e2f7a6dd4849bfdd3dc4d44",
+      "final_literal_sha256": "c62d98c4a17da03abb76f4426963bb96780a0c4f8e2f7a6dd4849bfdd3dc4d44",
+      "previous_public_path": "certificates/vector_targets_20261017/4x4x16/W.slp",
+      "final_source": "unchanged previous literal certificate"
+    },
+    {
+      "scheme": "5x5x12",
+      "factor": "U",
+      "original_sms_sha256": "87136dbed28195a60403ec4d862b179644b2a08062af133ef6c948f97c2ff8bc",
+      "previous_literal_sha256": "dc9a00687fa6a77367a6f227a9c9d74be57de07690d5a5f860aef997ff94bec0",
+      "final_literal_sha256": "dc9a00687fa6a77367a6f227a9c9d74be57de07690d5a5f860aef997ff94bec0",
+      "previous_public_path": "certificates/vector_targets_20261017/5x5x12/U.slp",
+      "final_source": "unchanged previous literal certificate"
+    },
+    {
+      "scheme": "5x5x12",
+      "factor": "V",
+      "original_sms_sha256": "aee7ad779915141a50e8971146670ad60f7f2205d4d3d16d520cab84a11b3662",
+      "previous_literal_sha256": "23e2845fbfe24d97ef767b81c5e101fdb921f0756e346e77068c31fe5e695b0a",
+      "final_literal_sha256": "362e07f78de4a0b94a088ebe74571da5c959bde5a981d1c967f32b41cd2d755e",
+      "previous_public_path": "certificates/vector_targets_20261017/5x5x12/V.slp",
+      "final_source": "new verified V certificate"
+    },
+    {
+      "scheme": "5x5x12",
+      "factor": "W",
+      "original_sms_sha256": "2003e559827ccb7bf862a91dd15d608c9ece8cd76ab3e5d43716891f40897c9d",
+      "previous_literal_sha256": "dcae7d90f23919de1c0587ebae4b16fdfae18509402fc7683f9ca88e8b5ef3ca",
+      "final_literal_sha256": "dcae7d90f23919de1c0587ebae4b16fdfae18509402fc7683f9ca88e8b5ef3ca",
+      "previous_public_path": "certificates/vector_targets_20261017/5x5x12/W.slp",
+      "final_source": "unchanged previous literal certificate"
+    },
+    {
+      "scheme": "6x7x8",
+      "factor": "U",
+      "original_sms_sha256": "7df15dc8f81d2669689437020a8a744872ac8aea7b47f3ce852e7e68ef3d948a",
+      "previous_literal_sha256": "723224a78bda18798b9797270faf3137ffe510026866cd475a85cc8be5ac9757",
+      "final_literal_sha256": "723224a78bda18798b9797270faf3137ffe510026866cd475a85cc8be5ac9757",
+      "previous_public_path": "certificates/vector_targets_20261017/6x7x8/U.slp",
+      "final_source": "unchanged previous literal certificate"
+    },
+    {
+      "scheme": "6x7x8",
+      "factor": "V",
+      "original_sms_sha256": "1e0415af2f11d7ac2eeeebd7ba8d288ae4e9fabfdf1832e3dbc621e6a1ee88e6",
+      "previous_literal_sha256": "270e65e5386910a80bc68698b813547d553bd41d91eb5129da2457830ed5ebd2",
+      "final_literal_sha256": "83373d0fd0210d979268f23df14eb8375926fbe6472bbe51758a0c4e5b57bd7d",
+      "previous_public_path": "certificates/vector_targets_20261017/6x7x8/V.slp",
+      "final_source": "new verified V certificate"
+    },
+    {
+      "scheme": "6x7x8",
+      "factor": "W",
+      "original_sms_sha256": "1b38113c8c5c27547354c66dca660754fdf38ea6a827159e319062a5d45a0d75",
+      "previous_literal_sha256": "6f295838888a8cd55814c308c3329b438f4e8071da7d694c804268fb87bfa11a",
+      "final_literal_sha256": "6f295838888a8cd55814c308c3329b438f4e8071da7d694c804268fb87bfa11a",
+      "previous_public_path": "certificates/vector_targets_20261017/6x7x8/W.slp",
+      "final_source": "unchanged previous literal certificate"
+    }
+  ]
+}

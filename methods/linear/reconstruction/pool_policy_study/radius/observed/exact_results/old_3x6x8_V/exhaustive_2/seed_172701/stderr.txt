@@ -1,0 +1,1 @@
+EXHAUSTED_2_FOR_1 closures=483227 pairs=1431 triples=0 seconds=0.252643

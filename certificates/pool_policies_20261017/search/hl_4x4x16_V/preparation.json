@@ -1,0 +1,11 @@
+{
+  "case_id": "hl_4x4x16_V",
+  "pool_sha256": "b6a5c8517e029ba41f982541940a48a1b75d200c652dc14c69c82fd6445f4864",
+  "forms": 799,
+  "exact_relations": 4681,
+  "supplied_donors": 140,
+  "distinct_start_helper_sets": 125,
+  "incumbent": 220,
+  "seconds": 1.0448733340017498,
+  "pool_source": "Frozen pool from the preceding 17 October vector-target experiment; unchanged bytes."
+}

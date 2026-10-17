@@ -1,0 +1,83 @@
+{
+  "status": "PASS",
+  "zip_file": "fmm_pool_multistart_certificates_20261017.zip",
+  "zip_sha256": "c577fc10d90e843d1073c64cf999ed1d5ea0a89a99505ac4e199a1df06a8d576",
+  "zip_bytes": 403646,
+  "files": 94,
+  "manifest_sha256": "9625be04fee6f31850b60da9cf2e5f4aa2904c5666351256274bf4283c6f5c50",
+  "fresh_extraction_command": "python3 -I -B verify_all.py",
+  "receipt": {
+    "status": "PASS",
+    "schemes": [
+      {
+        "scheme": "5x7x7",
+        "rank": 176,
+        "counts": {
+          "U": 177,
+          "V": 203,
+          "W": 314
+        },
+        "additions": 694,
+        "previous_additions": 695,
+        "scalar_operations": 870,
+        "exact_tensor_coefficients": 60025,
+        "literal_slps_verified": 6,
+        "physical_json_circuits_verified": 6,
+        "status": "PASS"
+      },
+      {
+        "scheme": "4x4x16",
+        "rank": 192,
+        "counts": {
+          "U": 75,
+          "V": 219,
+          "W": 339
+        },
+        "additions": 633,
+        "previous_additions": 634,
+        "scalar_operations": 825,
+        "exact_tensor_coefficients": 65536,
+        "literal_slps_verified": 6,
+        "physical_json_circuits_verified": 6,
+        "status": "PASS"
+      },
+      {
+        "scheme": "5x5x12",
+        "rank": 220,
+        "counts": {
+          "U": 105,
+          "V": 229,
+          "W": 387
+        },
+        "additions": 721,
+        "previous_additions": 722,
+        "scalar_operations": 941,
+        "exact_tensor_coefficients": 90000,
+        "literal_slps_verified": 6,
+        "physical_json_circuits_verified": 6,
+        "status": "PASS"
+      },
+      {
+        "scheme": "6x7x8",
+        "rank": 239,
+        "counts": {
+          "U": 219,
+          "V": 279,
+          "W": 454
+        },
+        "additions": 952,
+        "previous_additions": 953,
+        "scalar_operations": 1191,
+        "exact_tensor_coefficients": 112896,
+        "literal_slps_verified": 6,
+        "physical_json_circuits_verified": 6,
+        "status": "PASS"
+      }
+    ],
+    "final_linear_maps": 12,
+    "previous_linear_maps": 12,
+    "tensor_identities": 4,
+    "arithmetic": "exact rational text replay and independent exact integer JSON replay",
+    "scope": "Improvements for the supplied fixed signed linear maps and their complete matrix multiplication schemes; no global record, optimality, practical speedup or exponent claim."
+  }
+}

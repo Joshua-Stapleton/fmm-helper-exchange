@@ -1,0 +1,1 @@
+TIME_LIMIT closures=13884444 pairs=2628 triples=63 seconds=5.00007

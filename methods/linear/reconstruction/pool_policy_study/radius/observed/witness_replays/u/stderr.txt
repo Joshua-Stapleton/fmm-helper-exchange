@@ -1,0 +1,1 @@
+PASS closures=167809 pairs=231 triples=1 seconds=0.0676641

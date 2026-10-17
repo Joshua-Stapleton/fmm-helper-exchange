@@ -6,6 +6,18 @@ Code, worked examples, exact certificates and scoped lower-bound proofs from Jos
 
 ## Latest update: 17 October 2026
 
+Further controlled tests improve **5x7x7 V to 203**, **4x4x16 V to 219**,
+**5x5x12 V to 229**, and **6x7x8 V to 279**. The full scheme totals are
+**694, 633, 721, 952** additions. All four tensors and literal programs verify.
+Trying several starting helper sets helped, and an exact dependency filter
+accelerates the final replacement step of three-helper exchange searches.
+
+[New counts, controls and limitations](docs/pool-policies-20261017.md) ·
+[Four-scheme certificate ZIP](downloads/fmm_pool_multistart_certificates_20261017.zip) ·
+[Portable study](methods/linear/reconstruction/pool_policy_study/README.md).
+
+Earlier in the day:
+
 New certificates improve seven checked-in maps across six schemes, saving
 sixteen additions. Six improvements use Perminov's retained-vector restarts
 combined with pooled reconstruction. Examples:

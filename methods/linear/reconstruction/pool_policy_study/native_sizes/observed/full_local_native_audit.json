@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "native_calls": 40,
+  "draws": 2522,
+  "exact_completed_solutions": 2357,
+  "partial_unaccepted_lines": 0,
+  "scope": "Independent standard-library ordered integer map replay and omission cardinality checks."
+}

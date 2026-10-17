@@ -1,0 +1,268 @@
+{
+  "status": "COMPLETE",
+  "wall_seconds": 61.27964591700584,
+  "seed": 171701,
+  "concurrency": 1,
+  "nominal_search_cpu_seconds": 60,
+  "results": [
+    {
+      "case": "hl_3x4x7_V",
+      "arm": "original",
+      "baseline_signed_additions": 77,
+      "candidate_signed_additions": 77,
+      "budget_seconds": 5,
+      "elapsed_seconds": 5.005072624888271,
+      "status": "TIME_LIMIT",
+      "statistics": {
+        "closures": 15030789,
+        "pairs": 325,
+        "triples": 312,
+        "seconds": 5.00003
+      },
+      "selected_removed": [],
+      "selected_added": [],
+      "exact_ordered_map_verified": true,
+      "free_signed_wires": true,
+      "pool_sha256": "ad28c91f59543804e038243dabed099c5e621df1bbca4b6e3c38c3471857b21d"
+    },
+    {
+      "case": "hl_3x4x7_V",
+      "arm": "frontier",
+      "baseline_signed_additions": 77,
+      "candidate_signed_additions": 77,
+      "budget_seconds": 5,
+      "elapsed_seconds": 5.9602189171127975,
+      "status": "TIME_LIMIT",
+      "statistics": {
+        "closures": 11201148,
+        "pairs": 325,
+        "triples": 988,
+        "boundary_queries": 205607,
+        "viable_before": 43280743,
+        "viable_after": 10994526,
+        "seconds": 5.00004
+      },
+      "selected_removed": [],
+      "selected_added": [],
+      "exact_ordered_map_verified": true,
+      "free_signed_wires": true,
+      "pool_sha256": "ad28c91f59543804e038243dabed099c5e621df1bbca4b6e3c38c3471857b21d"
+    },
+    {
+      "case": "hl_3x6x6_V",
+      "arm": "original",
+      "baseline_signed_additions": 110,
+      "candidate_signed_additions": 110,
+      "budget_seconds": 5,
+      "elapsed_seconds": 5.006202083081007,
+      "status": "TIME_LIMIT",
+      "statistics": {
+        "closures": 12063639,
+        "pairs": 496,
+        "triples": 276,
+        "seconds": 5.00004
+      },
+      "selected_removed": [],
+      "selected_added": [],
+      "exact_ordered_map_verified": true,
+      "free_signed_wires": true,
+      "pool_sha256": "b1f8225010e64ad8717e86efeebb0a77ee8b4a57a4aec4b6468fe2b6bea3e3cb"
+    },
+    {
+      "case": "hl_3x6x6_V",
+      "arm": "frontier",
+      "baseline_signed_additions": 110,
+      "candidate_signed_additions": 110,
+      "budget_seconds": 5,
+      "elapsed_seconds": 5.007458582986146,
+      "status": "TIME_LIMIT",
+      "statistics": {
+        "closures": 7898497,
+        "pairs": 496,
+        "triples": 928,
+        "boundary_queries": 185930,
+        "viable_before": 38217669,
+        "viable_after": 7711606,
+        "seconds": 5.00004
+      },
+      "selected_removed": [],
+      "selected_added": [],
+      "exact_ordered_map_verified": true,
+      "free_signed_wires": true,
+      "pool_sha256": "b1f8225010e64ad8717e86efeebb0a77ee8b4a57a4aec4b6468fe2b6bea3e3cb"
+    },
+    {
+      "case": "old_3x6x8_V",
+      "arm": "original",
+      "baseline_signed_additions": 155,
+      "candidate_signed_additions": 155,
+      "budget_seconds": 5,
+      "elapsed_seconds": 5.0061537912115455,
+      "status": "TIME_LIMIT",
+      "statistics": {
+        "closures": 11999214,
+        "pairs": 1431,
+        "triples": 128,
+        "seconds": 5.00011
+      },
+      "selected_removed": [],
+      "selected_added": [],
+      "exact_ordered_map_verified": true,
+      "free_signed_wires": true,
+      "pool_sha256": "bc4694ec314ccfc7992d3f9d7edd5284974c429c3c3b7d232f42652265aeb1a9"
+    },
+    {
+      "case": "old_3x6x8_V",
+      "arm": "frontier",
+      "baseline_signed_additions": 155,
+      "candidate_signed_additions": 155,
+      "budget_seconds": 5,
+      "elapsed_seconds": 5.0068870834074914,
+      "status": "TIME_LIMIT",
+      "statistics": {
+        "closures": 7774307,
+        "pairs": 1431,
+        "triples": 431,
+        "boundary_queries": 131264,
+        "viable_before": 39776065,
+        "viable_after": 7642557,
+        "seconds": 5.00004
+      },
+      "selected_removed": [],
+      "selected_added": [],
+      "exact_ordered_map_verified": true,
+      "free_signed_wires": true,
+      "pool_sha256": "bc4694ec314ccfc7992d3f9d7edd5284974c429c3c3b7d232f42652265aeb1a9"
+    },
+    {
+      "case": "hl_5x7x7_V",
+      "arm": "original",
+      "baseline_signed_additions": 204,
+      "candidate_signed_additions": 204,
+      "budget_seconds": 5,
+      "elapsed_seconds": 5.015317208133638,
+      "status": "TIME_LIMIT",
+      "statistics": {
+        "closures": 11207762,
+        "pairs": 903,
+        "triples": 84,
+        "seconds": 5.00357
+      },
+      "selected_removed": [],
+      "selected_added": [],
+      "exact_ordered_map_verified": true,
+      "free_signed_wires": true,
+      "pool_sha256": "b7c70562d00f17dd1525dfb1cd0bbcec58c19f1e5a0ec5ba289e55c0b03c53d1"
+    },
+    {
+      "case": "hl_5x7x7_V",
+      "arm": "frontier",
+      "baseline_signed_additions": 204,
+      "candidate_signed_additions": 204,
+      "budget_seconds": 5,
+      "elapsed_seconds": 5.0062840837053955,
+      "status": "TIME_LIMIT",
+      "statistics": {
+        "closures": 6499976,
+        "pairs": 903,
+        "triples": 314,
+        "boundary_queries": 113425,
+        "viable_before": 41094455,
+        "viable_after": 6386193,
+        "seconds": 5.00005
+      },
+      "selected_removed": [],
+      "selected_added": [],
+      "exact_ordered_map_verified": true,
+      "free_signed_wires": true,
+      "pool_sha256": "b7c70562d00f17dd1525dfb1cd0bbcec58c19f1e5a0ec5ba289e55c0b03c53d1"
+    },
+    {
+      "case": "hl_5x5x12_V",
+      "arm": "original",
+      "baseline_signed_additions": 230,
+      "candidate_signed_additions": 230,
+      "budget_seconds": 5,
+      "elapsed_seconds": 5.006609125062823,
+      "status": "TIME_LIMIT",
+      "statistics": {
+        "closures": 10597056,
+        "pairs": 703,
+        "triples": 95,
+        "seconds": 5.00014
+      },
+      "selected_removed": [],
+      "selected_added": [],
+      "exact_ordered_map_verified": true,
+      "free_signed_wires": true,
+      "pool_sha256": "1d09156bf90a9d00f8a76ae43d41c24023b04b08044ff4d65e42cc3416632247"
+    },
+    {
+      "case": "hl_5x5x12_V",
+      "arm": "frontier",
+      "baseline_signed_additions": 230,
+      "candidate_signed_additions": 230,
+      "budget_seconds": 5,
+      "elapsed_seconds": 5.006808124948293,
+      "status": "TIME_LIMIT",
+      "statistics": {
+        "closures": 6429988,
+        "pairs": 703,
+        "triples": 500,
+        "boundary_queries": 168907,
+        "viable_before": 57143713,
+        "viable_after": 6260542,
+        "seconds": 5.0001
+      },
+      "selected_removed": [],
+      "selected_added": [],
+      "exact_ordered_map_verified": true,
+      "free_signed_wires": true,
+      "pool_sha256": "1d09156bf90a9d00f8a76ae43d41c24023b04b08044ff4d65e42cc3416632247"
+    },
+    {
+      "case": "hl_6x7x8_V",
+      "arm": "original",
+      "baseline_signed_additions": 280,
+      "candidate_signed_additions": 280,
+      "budget_seconds": 5,
+      "elapsed_seconds": 5.005161333363503,
+      "status": "TIME_LIMIT",
+      "statistics": {
+        "closures": 13884444,
+        "pairs": 2628,
+        "triples": 63,
+        "seconds": 5.00007
+      },
+      "selected_removed": [],
+      "selected_added": [],
+      "exact_ordered_map_verified": true,
+      "free_signed_wires": true,
+      "pool_sha256": "e2140239b5c9172d2fd7292574e04c8b622628110a6554dfb072dfdaf3fdcb93"
+    },
+    {
+      "case": "hl_6x7x8_V",
+      "arm": "frontier",
+      "baseline_signed_additions": 280,
+      "candidate_signed_additions": 280,
+      "budget_seconds": 5,
+      "elapsed_seconds": 5.004742916207761,
+      "status": "TIME_LIMIT",
+      "statistics": {
+        "closures": 8816616,
+        "pairs": 2628,
+        "triples": 634,
+        "boundary_queries": 285673,
+        "viable_before": 127772845,
+        "viable_after": 8530235,
+        "seconds": 5.00004
+      },
+      "selected_removed": [],
+      "selected_added": [],
+      "exact_ordered_map_verified": true,
+      "free_signed_wires": true,
+      "pool_sha256": "e2140239b5c9172d2fd7292574e04c8b622628110a6554dfb072dfdaf3fdcb93"
+    }
+  ],
+  "scope": "Same exact radius3 neighborhood and traversal except safe last-insertion filtering. One paired seed on six maps; a performance pilot, not a universal timing claim."
+}

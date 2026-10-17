@@ -30,13 +30,14 @@
     "perminov_tests_20261012",
     "fmm_opportunity_research_20261012/nist_probe",
     "perminov_hl_tests_20261016",
-    "perminov_vector_targets_20261017"
+    "perminov_vector_targets_20261017",
+    "perminov_pool_questions_20261017"
   ],
   "module_provenance": "Each methods subdirectory includes original source hashes and adaptation notes. Proof inputs and certified literal programs preserve original arithmetic.",
   "included": "Portable implementations, representative source data, search witnesses, independently checked arithmetic/proof certificates and method explanations",
   "excluded": "Private correspondence, raw browser/chat exports, credentials, local binaries, dependency checkouts and redundant campaign checkpoints",
   "attribution": "NOTICE.md; source decompositions and external reducers retain their authorship",
-  "validation": "verification/release-vector-targets-20261017.json; unchanged exhaustive proofs were not rerun.",
+  "validation": "verification/release-pool-policies-20261017.json; unchanged exhaustive lower-bound proofs were not rerun.",
   "claims": "No global SOTA, unrestricted optimality, lower multiplication rank, new exponent or measured runtime is claimed.",
   "initial_release_date": "2026-10-08",
   "latest_update": {
@@ -266,6 +267,41 @@
         "4x4x14": 618
       },
       "claims": "Fixed original-map upper bounds. V155 combines new donor forms. W339 is attributable to the old frozen bank. Static guidance and adaptive feedback did not beat random restart/pooling results."
+    },
+    "pool_policies_20261017": {
+      "report": "docs/pool-policies-20261017.md",
+      "methods": "methods/linear/reconstruction/pool_policy_study/",
+      "certificates": "certificates/pool_policies_20261017/",
+      "standalone_bundle": "downloads/fmm_pool_multistart_certificates_20261017.zip",
+      "bundle_sha256": "c577fc10d90e843d1073c64cf999ed1d5ea0a89a99505ac4e199a1df06a8d576",
+      "improved_original_maps": 4,
+      "saved_additions_vs_previous_certificates": 4,
+      "counts": {
+        "5x7x7_V": [
+          204,
+          203
+        ],
+        "4x4x16_V": [
+          220,
+          219
+        ],
+        "5x5x12_V": [
+          230,
+          229
+        ],
+        "6x7x8_V": [
+          280,
+          279
+        ]
+      },
+      "complete_scheme_totals": {
+        "5x7x7": 694,
+        "4x4x16": 633,
+        "5x5x12": 721,
+        "6x7x8": 952
+      },
+      "basis_change": false,
+      "claims": "Fixed-map upper bounds. Same-pool multi-start helped under matched short budgets; no universal advantage claimed. Exact final-insertion filter preserves its stated neighborhood. Historical radius2/radius3 separation is restricted to supplied pools. Native size2/3 trials had no direct count improvement."
     }
   }
 }

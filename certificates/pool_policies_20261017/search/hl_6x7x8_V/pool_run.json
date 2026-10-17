@@ -1,0 +1,61 @@
+{
+  "case_id": "hl_6x7x8_V",
+  "arm": "prior_bank_control",
+  "status": "COMPLETED",
+  "distinct_donors": 123,
+  "raw_donor_best": 280,
+  "baseline_signed_additions": 280,
+  "initial_pool_additions": 280,
+  "initial_reconnected_additions": 280,
+  "best_signed_additions": 279,
+  "forms": 887,
+  "exact_binary_relations": 5040,
+  "pool_seconds": 0.43701200000941753,
+  "search_budget_seconds": 15,
+  "search_elapsed_seconds": 15.008655332960188,
+  "total_elapsed_seconds": 15.800028000026941,
+  "seed": 9330994,
+  "perturbation": 6,
+  "scope": "Heuristic fixed linear-map signed-wire pool search. All forms are paid. No optimality or literal sign-orientation claim.",
+  "candidate_sha256": "2498c358674cdabb66ba0cb004488fafd70c85a16a6b180cf1b94f73ca124acd",
+  "pool_sha256": "0252e802fb1bac364c2618d7be1b9ed410be4fdae91ad018b321b188c663c0fe",
+  "exact_map_verified": true,
+  "source_banks": [
+    {
+      "sha256": "b8c9c361a3322d2e736827436a904fd48c11a1c154fe496043e9d0717f454549",
+      "circuits": 11,
+      "category": "prior verified donors or incumbent"
+    },
+    {
+      "sha256": "2e880aac68c17252451112592dbb1a0c39d6734b42ea9c2c303abd97a9a702c7",
+      "circuits": 0,
+      "category": "prior verified donors or incumbent"
+    },
+    {
+      "sha256": "f4ca3b3391a3c5c733a36bbe9b67aa883bd856bac0e9b24bb39b7d9ee4f1917e",
+      "circuits": 32,
+      "category": "prior verified donors or incumbent"
+    },
+    {
+      "sha256": "a85e635f6c3bb5d9f084ac848fdb6c2eac64c730d59a7d8943503052e11a2f8a",
+      "circuits": 15,
+      "category": "prior verified donors or incumbent"
+    },
+    {
+      "sha256": "324bd603df96183f7fa977a361d78f414d3502f6f0482b65c097bed56830be1a",
+      "circuits": 32,
+      "category": "prior verified donors or incumbent"
+    },
+    {
+      "sha256": "692481e688d121c802f17cb11d5f2c5d3ac82ed6569db61886b562a84061d8f9",
+      "circuits": 32,
+      "category": "prior verified donors or incumbent"
+    },
+    {
+      "sha256": "eadddbc68364ff340bd99b8bc7c459ce3b4909cd4b91f2ddad140969f80540ab",
+      "circuits": 1,
+      "category": "prior verified donors or incumbent"
+    }
+  ],
+  "calls": []
+}

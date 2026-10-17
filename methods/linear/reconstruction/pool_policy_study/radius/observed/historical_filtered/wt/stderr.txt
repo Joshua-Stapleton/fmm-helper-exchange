@@ -1,0 +1,1 @@
+PASS closures=18102406 pairs=171 triples=726 boundary_queries=245408 viable_before=83602927 viable_after=17856265 seconds=8.18047

@@ -1,0 +1,18 @@
+{
+  "case": "u",
+  "baseline": 160,
+  "candidate_signed_additions": 158,
+  "target_cost": 158,
+  "known_removed_triple_prioritized": true,
+  "selected_removed": [
+    146,
+    184,
+    65
+  ],
+  "selected_added": [
+    367,
+    373
+  ],
+  "exact_ordered_map_verified": true,
+  "stderr": "PASS closures=167809 pairs=231 triples=1 seconds=0.0676641\n"
+}

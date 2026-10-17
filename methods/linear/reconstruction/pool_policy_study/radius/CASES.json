@@ -1,0 +1,58 @@
+[
+  {
+    "id": "hl_3x4x7_V",
+    "group": "current",
+    "pool": "data/current/hl_3x4x7_V/pool.json",
+    "baseline_signed_additions": 77,
+    "pool_sha256": "ad28c91f59543804e038243dabed099c5e621df1bbca4b6e3c38c3471857b21d"
+  },
+  {
+    "id": "hl_3x6x6_V",
+    "group": "current",
+    "pool": "data/current/hl_3x6x6_V/pool.json",
+    "baseline_signed_additions": 110,
+    "pool_sha256": "b1f8225010e64ad8717e86efeebb0a77ee8b4a57a4aec4b6468fe2b6bea3e3cb"
+  },
+  {
+    "id": "hl_5x5x12_V",
+    "group": "current",
+    "pool": "data/current/hl_5x5x12_V/pool.json",
+    "baseline_signed_additions": 230,
+    "pool_sha256": "1d09156bf90a9d00f8a76ae43d41c24023b04b08044ff4d65e42cc3416632247"
+  },
+  {
+    "id": "hl_5x7x7_V",
+    "group": "current",
+    "pool": "data/current/hl_5x7x7_V/pool.json",
+    "baseline_signed_additions": 204,
+    "pool_sha256": "b7c70562d00f17dd1525dfb1cd0bbcec58c19f1e5a0ec5ba289e55c0b03c53d1"
+  },
+  {
+    "id": "hl_6x7x8_V",
+    "group": "current",
+    "pool": "data/current/hl_6x7x8_V/pool.json",
+    "baseline_signed_additions": 280,
+    "pool_sha256": "e2140239b5c9172d2fd7292574e04c8b622628110a6554dfb072dfdaf3fdcb93"
+  },
+  {
+    "id": "old_3x6x8_V",
+    "group": "current",
+    "pool": "data/current/old_3x6x8_V/pool.json",
+    "baseline_signed_additions": 155,
+    "pool_sha256": "bc4694ec314ccfc7992d3f9d7edd5284974c429c3c3b7d232f42652265aeb1a9"
+  },
+  {
+    "id": "u",
+    "group": "historical",
+    "pool": "data/historical/u/pool.json",
+    "baseline_signed_additions": 160,
+    "pool_sha256": "0e3488fea31274bc2882cee033f02dcfa4757f915fe3f153eb7157b2161c2ed6"
+  },
+  {
+    "id": "wt",
+    "group": "historical",
+    "pool": "data/historical/wt/pool.json",
+    "baseline_signed_additions": 156,
+    "pool_sha256": "99cbcd948078bc1e26ebd5fe107d93bed823c12d46480d3da62ad17f265ef1fe"
+  }
+]

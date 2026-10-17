@@ -1,0 +1,12 @@
+[
+  {
+    "source": "frontier.cpp",
+    "source_sha256": "64845d9385d9e69526601e67984e2d7d2598e00df9514e664e63c8abfcaf20c9",
+    "binary_sha256": "6630dc1aab8bce6398c71c12c0217345b9b07ec901b1abc285285a73460d0735"
+  },
+  {
+    "source": "witness_replay.cpp",
+    "source_sha256": "4c7a6334b2742cf67d0c01d9f449f4b42cc7544d9ec95f889ac8ce4a9a6d5e46",
+    "binary_sha256": "0e137571cb022f090cf40774d53faac86e1d6d4307b9ed34db6e501665ad4bc2"
+  }
+]

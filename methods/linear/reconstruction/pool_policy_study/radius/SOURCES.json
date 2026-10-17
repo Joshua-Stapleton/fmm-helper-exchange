@@ -1,0 +1,51 @@
+[
+  {
+    "source": "archive/radius/published_plateau.cpp",
+    "destination": "sources/published_plateau.cpp",
+    "sha256": "c7a891c02d612926e22e36989ed25b465e316b69e325b1777de773e08cdfc2d7",
+    "lines": 27,
+    "copied_byte_for_byte": true
+  },
+  {
+    "source": "archive/radius/exhaustive.cpp",
+    "destination": "sources/exhaustive.cpp",
+    "sha256": "db2804100c7e1ccd8e2b66c5b9bb3180989c9f478b43b5ba00494ffd2c609d26",
+    "lines": 84,
+    "copied_byte_for_byte": true
+  },
+  {
+    "source": "archive/radius/exhaustive_goal.cpp",
+    "destination": "sources/exhaustive_goal.cpp",
+    "sha256": "0ce855566e017b919eb67a6b3741a367e01685a3c329564c3320532a0840ec93",
+    "lines": 85,
+    "copied_byte_for_byte": true
+  },
+  {
+    "source": "archive/radius/frontier.cpp",
+    "destination": "sources/frontier.cpp",
+    "sha256": "64845d9385d9e69526601e67984e2d7d2598e00df9514e664e63c8abfcaf20c9",
+    "lines": 90,
+    "copied_byte_for_byte": true
+  },
+  {
+    "source": "archive/radius/frontier_probe.cpp",
+    "destination": "sources/frontier_probe.cpp",
+    "sha256": "4314ab69bab787a744376b14c5049a8116733b9c8f58d230b19878a9957f9d11",
+    "lines": 12,
+    "copied_byte_for_byte": true
+  },
+  {
+    "source": "archive/radius/witness_replay.cpp",
+    "destination": "sources/witness_replay.cpp",
+    "sha256": "4c7a6334b2742cf67d0c01d9f449f4b42cc7544d9ec95f889ac8ce4a9a6d5e46",
+    "lines": 88,
+    "copied_byte_for_byte": true
+  },
+  {
+    "source": "repository/exchange.cpp",
+    "destination": "sources/published_exchange.cpp",
+    "sha256": "4e4749467da07ee230224ff216a101518582e0a6a19e11f75ef8e88312428689",
+    "lines": 81,
+    "copied_byte_for_byte": true
+  }
+]

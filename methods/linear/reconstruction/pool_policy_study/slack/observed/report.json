@@ -1,0 +1,183 @@
+{
+  "status": "COMPLETE",
+  "wall_seconds": 96.73350233305246,
+  "results": [
+    {
+      "case_id": "old_3x6x8_V",
+      "slack": 1,
+      "seed": 171721,
+      "initial": 155,
+      "best": 155,
+      "nominal_search_seconds": 6,
+      "wall_seconds": 6.501321957912296,
+      "exact_map_verified": true,
+      "diagnostic": "FINISHED steps=10730 closures=665980 accepted=2732 seen=2733 best_helpers=54 initial_helpers=54 seconds=6.00006\n"
+    },
+    {
+      "case_id": "old_3x6x8_V",
+      "slack": 1,
+      "seed": 171821,
+      "initial": 155,
+      "best": 155,
+      "nominal_search_seconds": 6,
+      "wall_seconds": 6.007129583042115,
+      "exact_map_verified": true,
+      "diagnostic": "FINISHED steps=11684 closures=727559 accepted=3027 seen=3028 best_helpers=54 initial_helpers=54 seconds=6.00033\n"
+    },
+    {
+      "case_id": "old_3x6x8_V",
+      "slack": 2,
+      "seed": 171721,
+      "initial": 155,
+      "best": 155,
+      "nominal_search_seconds": 6,
+      "wall_seconds": 6.0064678327180445,
+      "exact_map_verified": true,
+      "diagnostic": "FINISHED steps=11968 closures=744357 accepted=3086 seen=3087 best_helpers=54 initial_helpers=54 seconds=6.00009\n"
+    },
+    {
+      "case_id": "old_3x6x8_V",
+      "slack": 2,
+      "seed": 171821,
+      "initial": 155,
+      "best": 155,
+      "nominal_search_seconds": 6,
+      "wall_seconds": 6.006483458448201,
+      "exact_map_verified": true,
+      "diagnostic": "FINISHED steps=10902 closures=679409 accepted=2904 seen=2905 best_helpers=54 initial_helpers=54 seconds=6.00025\n"
+    },
+    {
+      "case_id": "hl_5x7x7_V",
+      "slack": 1,
+      "seed": 171721,
+      "initial": 204,
+      "best": 204,
+      "nominal_search_seconds": 6,
+      "wall_seconds": 6.007334250025451,
+      "exact_map_verified": true,
+      "diagnostic": "FINISHED steps=10153 closures=518582 accepted=2342 seen=2343 best_helpers=43 initial_helpers=43 seconds=6.00022\n"
+    },
+    {
+      "case_id": "hl_5x7x7_V",
+      "slack": 1,
+      "seed": 171821,
+      "initial": 204,
+      "best": 204,
+      "nominal_search_seconds": 6,
+      "wall_seconds": 6.006827957928181,
+      "exact_map_verified": true,
+      "diagnostic": "FINISHED steps=10111 closures=517047 accepted=2417 seen=2418 best_helpers=43 initial_helpers=43 seconds=6.00028\n"
+    },
+    {
+      "case_id": "hl_5x7x7_V",
+      "slack": 2,
+      "seed": 171721,
+      "initial": 204,
+      "best": 204,
+      "nominal_search_seconds": 6,
+      "wall_seconds": 6.0077553750015795,
+      "exact_map_verified": true,
+      "diagnostic": "FINISHED steps=9562 closures=488474 accepted=2271 seen=2272 best_helpers=43 initial_helpers=43 seconds=6.0004\n"
+    },
+    {
+      "case_id": "hl_5x7x7_V",
+      "slack": 2,
+      "seed": 171821,
+      "initial": 204,
+      "best": 204,
+      "nominal_search_seconds": 6,
+      "wall_seconds": 6.007514166180044,
+      "exact_map_verified": true,
+      "diagnostic": "FINISHED steps=9336 closures=476828 accepted=2185 seen=2186 best_helpers=43 initial_helpers=43 seconds=6.00036\n"
+    },
+    {
+      "case_id": "hl_4x4x16_V",
+      "slack": 1,
+      "seed": 171721,
+      "initial": 220,
+      "best": 220,
+      "nominal_search_seconds": 6,
+      "wall_seconds": 6.008928459137678,
+      "exact_map_verified": true,
+      "diagnostic": "FINISHED steps=9425 closures=568046 accepted=3052 seen=3053 best_helpers=52 initial_helpers=52 seconds=6.00015\n"
+    },
+    {
+      "case_id": "hl_4x4x16_V",
+      "slack": 1,
+      "seed": 171821,
+      "initial": 220,
+      "best": 220,
+      "nominal_search_seconds": 6,
+      "wall_seconds": 6.0082287499681115,
+      "exact_map_verified": true,
+      "diagnostic": "FINISHED steps=9628 closures=579485 accepted=3093 seen=3094 best_helpers=52 initial_helpers=52 seconds=6.00005\n"
+    },
+    {
+      "case_id": "hl_4x4x16_V",
+      "slack": 2,
+      "seed": 171721,
+      "initial": 220,
+      "best": 220,
+      "nominal_search_seconds": 6,
+      "wall_seconds": 6.0069441250525415,
+      "exact_map_verified": true,
+      "diagnostic": "FINISHED steps=9996 closures=602487 accepted=3243 seen=3244 best_helpers=52 initial_helpers=52 seconds=6.00044\n"
+    },
+    {
+      "case_id": "hl_4x4x16_V",
+      "slack": 2,
+      "seed": 171821,
+      "initial": 220,
+      "best": 220,
+      "nominal_search_seconds": 6,
+      "wall_seconds": 6.007298708893359,
+      "exact_map_verified": true,
+      "diagnostic": "FINISHED steps=9347 closures=563230 accepted=2983 seen=2984 best_helpers=52 initial_helpers=52 seconds=6.00044\n"
+    },
+    {
+      "case_id": "hl_4x4x16_Wt",
+      "slack": 1,
+      "seed": 171721,
+      "initial": 211,
+      "best": 211,
+      "nominal_search_seconds": 6,
+      "wall_seconds": 6.007831499911845,
+      "exact_map_verified": true,
+      "diagnostic": "FINISHED steps=13958 closures=672775 accepted=4143 seen=4144 best_helpers=40 initial_helpers=40 seconds=6.00037\n"
+    },
+    {
+      "case_id": "hl_4x4x16_Wt",
+      "slack": 1,
+      "seed": 171821,
+      "initial": 211,
+      "best": 211,
+      "nominal_search_seconds": 6,
+      "wall_seconds": 6.0073519591242075,
+      "exact_map_verified": true,
+      "diagnostic": "FINISHED steps=14094 closures=679375 accepted=4322 seen=4323 best_helpers=40 initial_helpers=40 seconds=6.00031\n"
+    },
+    {
+      "case_id": "hl_4x4x16_Wt",
+      "slack": 2,
+      "seed": 171721,
+      "initial": 211,
+      "best": 211,
+      "nominal_search_seconds": 6,
+      "wall_seconds": 6.006715541705489,
+      "exact_map_verified": true,
+      "diagnostic": "FINISHED steps=12667 closures=611386 accepted=3690 seen=3691 best_helpers=40 initial_helpers=40 seconds=6.00035\n"
+    },
+    {
+      "case_id": "hl_4x4x16_Wt",
+      "slack": 2,
+      "seed": 171821,
+      "initial": 211,
+      "best": 211,
+      "nominal_search_seconds": 6,
+      "wall_seconds": 6.006790167186409,
+      "exact_map_verified": true,
+      "diagnostic": "FINISHED steps=13575 closures=655871 accepted=4227 seen=4228 best_helpers=40 initial_helpers=40 seconds=6.00026\n"
+    }
+  ],
+  "baseline": "Same pools/initial best helper sets/seeds/6s as starts.best_only. Posthoc mechanistic control; no general superiority claim."
+}

@@ -1,0 +1,29 @@
+{
+  "case_id": "hl_5x5x12_V",
+  "source": "search/hl_5x5x12_V/signed_candidate.json",
+  "local_signed_additions": 229,
+  "returned_signed_additions": 229,
+  "orientation": {
+    "status": "OPTIMAL",
+    "elapsed_seconds": 0.014582000000000001,
+    "input_signs_fixed": true,
+    "ordered_output_signs_fixed": true,
+    "exact_original_map_verified": true,
+    "binary_additions": 229,
+    "unary_negations": 0,
+    "nonunit_scalars": 0,
+    "unused_gates": 0
+  },
+  "previous_strict_additions": 230,
+  "transposed_search": false,
+  "basis_change": false,
+  "multiplication_rank_unchanged": true,
+  "status": "EXACT_ORIGINAL_MAP_PASS",
+  "counts": {
+    "binary_additions": 229,
+    "unary_negations": 0,
+    "nonunit_scalars": 0,
+    "unused_noninput_assignments": 0
+  },
+  "improvement": 1
+}

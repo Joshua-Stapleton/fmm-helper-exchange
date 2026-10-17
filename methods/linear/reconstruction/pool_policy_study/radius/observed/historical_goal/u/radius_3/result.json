@@ -1,0 +1,22 @@
+{
+  "case": "u",
+  "radius": 3,
+  "baseline": 160,
+  "candidate_signed_additions": 160,
+  "stored_three_remove_witness": 158,
+  "target_cost": 158,
+  "status": "TIME_LIMIT",
+  "statistics": {
+    "closures": 19652640,
+    "pairs": 231,
+    "triples": 91,
+    "seconds": 10.0002
+  },
+  "budget_seconds": 10,
+  "elapsed_seconds": 10.017047374974936,
+  "selected_removed": [],
+  "selected_added": [],
+  "pool_sha256": "0e3488fea31274bc2882cee033f02dcfa4757f915fe3f153eb7157b2161c2ed6",
+  "exact_ordered_map_verified": true,
+  "free_signed_wires": true
+}

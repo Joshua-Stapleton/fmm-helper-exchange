@@ -27,6 +27,15 @@ separate experimental code. The upstream MIT notice is retained under
 `methods/linear/reconstruction/vector_targets/toolchain/UPSTREAM_LICENSE`.
 The four-addition 4x4x16 W improvement came from the previous frozen bank alone.
 
+The later October 17 pool-policy study separates native omission sizes from
+explicit finite-pool exchange radius. It adds bounded multi-start comparisons,
+an exact last-replacement dependency filter and restricted-neighborhood
+separation controls. The native completions still come from Perminov's
+credited unmodified library. Multi-start, dependency analysis, uphill local
+search and neighborhood enumeration are established ideas; this release
+claims its measured fixed-map improvements and scoped filtering behavior,
+without assigning unrestricted algorithmic priority or optimality.
+
 The October12 archive campaign preserves nineteen existing Perminov decompositions and their product ranks. Its batch wrappers combine credited external donor/completion methods, actual weighted HelperPool sampling, exact pooled reconnection and charged linear transposition. Weighted intake explicitly materializes binary terminal sums; it is distinct from the native-boundary replication study. The experiments certify the supplied fixed maps, with no claim of a generally optimal minimizer.
 
 The October12 binary-circuit study preserves NIST's source circuits at

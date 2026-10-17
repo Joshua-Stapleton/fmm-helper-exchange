@@ -1,0 +1,94 @@
+{
+  "status": "COMPLETE",
+  "results": [
+    {
+      "case": "u",
+      "radius": 2,
+      "baseline": 160,
+      "candidate_signed_additions": 160,
+      "stored_three_remove_witness": 158,
+      "target_cost": null,
+      "status": "EXHAUSTED_2_FOR_1",
+      "statistics": {
+        "closures": 109297,
+        "pairs": 231,
+        "triples": 0,
+        "seconds": 0.0723517
+      },
+      "budget_seconds": 10,
+      "elapsed_seconds": 0.07853195909410715,
+      "selected_removed": [],
+      "selected_added": [],
+      "pool_sha256": "0e3488fea31274bc2882cee033f02dcfa4757f915fe3f153eb7157b2161c2ed6",
+      "exact_ordered_map_verified": true,
+      "free_signed_wires": true
+    },
+    {
+      "case": "u",
+      "radius": 3,
+      "baseline": 160,
+      "candidate_signed_additions": 160,
+      "stored_three_remove_witness": 158,
+      "target_cost": null,
+      "status": "TIME_LIMIT",
+      "statistics": {
+        "closures": 19530728,
+        "pairs": 231,
+        "triples": 90,
+        "seconds": 10.0001
+      },
+      "budget_seconds": 10,
+      "elapsed_seconds": 10.006326166912913,
+      "selected_removed": [],
+      "selected_added": [],
+      "pool_sha256": "0e3488fea31274bc2882cee033f02dcfa4757f915fe3f153eb7157b2161c2ed6",
+      "exact_ordered_map_verified": true,
+      "free_signed_wires": true
+    },
+    {
+      "case": "wt",
+      "radius": 2,
+      "baseline": 156,
+      "candidate_signed_additions": 156,
+      "stored_three_remove_witness": 155,
+      "target_cost": null,
+      "status": "EXHAUSTED_2_FOR_1",
+      "statistics": {
+        "closures": 60649,
+        "pairs": 171,
+        "triples": 0,
+        "seconds": 0.0363126
+      },
+      "budget_seconds": 10,
+      "elapsed_seconds": 0.04510729108005762,
+      "selected_removed": [],
+      "selected_added": [],
+      "pool_sha256": "99cbcd948078bc1e26ebd5fe107d93bed823c12d46480d3da62ad17f265ef1fe",
+      "exact_ordered_map_verified": true,
+      "free_signed_wires": true
+    },
+    {
+      "case": "wt",
+      "radius": 3,
+      "baseline": 156,
+      "candidate_signed_additions": 156,
+      "stored_three_remove_witness": 155,
+      "target_cost": null,
+      "status": "TIME_LIMIT",
+      "statistics": {
+        "closures": 23611965,
+        "pairs": 171,
+        "triples": 203,
+        "seconds": 10.0002
+      },
+      "budget_seconds": 10,
+      "elapsed_seconds": 10.00856441585347,
+      "selected_removed": [],
+      "selected_added": [],
+      "pool_sha256": "99cbcd948078bc1e26ebd5fe107d93bed823c12d46480d3da62ad17f265ef1fe",
+      "exact_ordered_map_verified": true,
+      "free_signed_wires": true
+    }
+  ],
+  "scope": "Same frozen historical anchor and exact pool in each radius pair. In goal mode exhaustion means no candidate at or below target_cost, not no improvement whatsoever. Only complete radius2 exhaustion plus a radius3 candidate at the target establishes separation for this finite neighborhood."
+}

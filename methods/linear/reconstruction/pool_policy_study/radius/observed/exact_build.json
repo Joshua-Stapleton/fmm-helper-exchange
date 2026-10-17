@@ -1,0 +1,28 @@
+[
+  {
+    "source": "exhaustive.cpp",
+    "sha256": "db2804100c7e1ccd8e2b66c5b9bb3180989c9f478b43b5ba00494ffd2c609d26",
+    "binary_sha256": "0674719eb7cd800ac5cbdfafc1141e21c692a6ff799b9911a69d4c91fd1e793a",
+    "command": [
+      "tool-or-archive/c++",
+      "-O3",
+      "-std=c++17",
+      "archive/radius/exhaustive.cpp",
+      "-o",
+      "archive/radius/exhaustive"
+    ]
+  },
+  {
+    "source": "published_plateau.cpp",
+    "sha256": "c7a891c02d612926e22e36989ed25b465e316b69e325b1777de773e08cdfc2d7",
+    "binary_sha256": "890df85d615420f8bb134ad4a7d64158221589c8999ac23e36303771f2f0d765",
+    "command": [
+      "tool-or-archive/c++",
+      "-O3",
+      "-std=c++17",
+      "archive/radius/published_plateau.cpp",
+      "-o",
+      "archive/radius/plateau"
+    ]
+  }
+]

@@ -1,0 +1,23 @@
+{
+  "case": "hl_3x4x7_V",
+  "arm": "frontier",
+  "baseline_signed_additions": 77,
+  "candidate_signed_additions": 77,
+  "budget_seconds": 5,
+  "elapsed_seconds": 5.9602189171127975,
+  "status": "TIME_LIMIT",
+  "statistics": {
+    "closures": 11201148,
+    "pairs": 325,
+    "triples": 988,
+    "boundary_queries": 205607,
+    "viable_before": 43280743,
+    "viable_after": 10994526,
+    "seconds": 5.00004
+  },
+  "selected_removed": [],
+  "selected_added": [],
+  "exact_ordered_map_verified": true,
+  "free_signed_wires": true,
+  "pool_sha256": "ad28c91f59543804e038243dabed099c5e621df1bbca4b6e3c38c3471857b21d"
+}

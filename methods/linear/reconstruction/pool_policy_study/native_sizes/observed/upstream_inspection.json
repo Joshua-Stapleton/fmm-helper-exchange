@@ -1,0 +1,29 @@
+{
+  "repo": "https://github.com/dronperminov/linear-expressions-optimization",
+  "branch": "new-improvements",
+  "commit": "646dd1fec9cbdc9dc77f152d1ec9b3d73ed868bd",
+  "requested_certificate_matches": [],
+  "examples": [
+    "examples/cse_counterexample.txt",
+    "examples/input.sms",
+    "examples/input.txt"
+  ],
+  "reducer_sha256": "57f5d6a6b79fcc7629aa34cdffd3831d9a82d670fcedda27e360d61b7f7b64c6",
+  "observation": "No reported V228/V276 certificates in tracked files. New reducer maintains a group of completed solutions, uses count-balanced exponentially cost-biased sampling plus 1% uniform, and retains optional-vector omission semantics. Native size experiment deliberately uses previous pinned source/binary for isolation.",
+  "hint_generation_source_comparison": {
+    "getIntermediates": {
+      "exact_source_equal": false,
+      "old_sha256": "066b70a5bca0c4a26abf3cc6772c67e56559012a0575a328ce1f488a9eacdc34",
+      "new_sha256": "c4a091cce0646455fc4c1eb9153c8c0a14f8f7910b81da2c911514553ba35c0d",
+      "body_exact_equal": true,
+      "difference": "Only added const qualifier on method signature; function bodies byte-identical."
+    },
+    "getVectors": {
+      "exact_source_equal": false,
+      "old_sha256": "8089e43f10b5c40bf049ce05b64f2d717cf388608c7b84bdfdce1b0c77ab8427",
+      "new_sha256": "1f59e2d5175b9ad8c4fcfbbd64ca2318e6bfe670fd20c70224074830073d5034",
+      "body_exact_equal": true,
+      "difference": "Only added const qualifier on method signature; function bodies byte-identical."
+    }
+  }
+}

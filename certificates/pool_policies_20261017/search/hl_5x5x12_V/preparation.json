@@ -1,0 +1,82 @@
+{
+  "case_id": "hl_5x5x12_V",
+  "arm": "with_new_native_donors",
+  "status": "COMPLETED",
+  "distinct_donors": 266,
+  "raw_donor_best": 230,
+  "baseline_signed_additions": 230,
+  "initial_pool_additions": 230,
+  "initial_reconnected_additions": 230,
+  "best_signed_additions": 229,
+  "forms": 873,
+  "exact_binary_relations": 5863,
+  "pool_seconds": 0.7873201663605869,
+  "search_budget_seconds": 15,
+  "search_elapsed_seconds": 15.009829875081778,
+  "total_elapsed_seconds": 16.51448654104024,
+  "seed": 16323024,
+  "perturbation": 6,
+  "scope": "Heuristic fixed linear-map signed-wire pool search. All forms are paid. No optimality or literal sign-orientation claim.",
+  "candidate_sha256": "7e0575530cbf8624a8db7695a1aaae8a7922f8df6787c80d3aa7a72e72b0f021",
+  "pool_sha256": "2b3fedaa5735392e25b152c9c472b669af4c361896bae1358ac783105aba8359",
+  "exact_map_verified": true,
+  "source_banks": [
+    {
+      "sha256": "741eef45bfcdf5d1eed0c97d2cb41cd9cafab486276c6afd09a23a5b30466fde",
+      "circuits": 16,
+      "category": "prior verified donors or incumbent"
+    },
+    {
+      "sha256": "e901ef79dfd6555c002b6a2ed2d29d43474bf56436af97a7d233fb02b9b98c78",
+      "circuits": 0,
+      "category": "prior verified donors or incumbent"
+    },
+    {
+      "sha256": "df446688e1708a2e9ba3b5b9f41ba0fe5f0f91b41fd6e5157afe407224796f59",
+      "circuits": 32,
+      "category": "prior verified donors or incumbent"
+    },
+    {
+      "sha256": "599f41511651d28223c3294c2eb729512723bfc16b6e983c8ea87dda254845c7",
+      "circuits": 32,
+      "category": "prior verified donors or incumbent"
+    },
+    {
+      "sha256": "ccaef9e446b730917978d4ea3f11cf3c4b93a9d7e94f79774dee3c8072dc2792",
+      "circuits": 32,
+      "category": "prior verified donors or incumbent"
+    },
+    {
+      "sha256": "2f666e8efced98d57dd77db16311eaa8cf27fada3a1f97727ff16c2f44548646",
+      "circuits": 32,
+      "category": "prior verified donors or incumbent"
+    },
+    {
+      "sha256": "14edd8484ccf27829943f683c9b102a9f9308299d8108882653f9bbe252a7ccc",
+      "circuits": 1,
+      "category": "prior verified donors or incumbent"
+    },
+    {
+      "sha256": "3199bd7df70a788033b6d3f4f9cb3e2c0c24961f17d329e07202a0bfdbaa7fa9",
+      "circuits": 32,
+      "category": "new omission-size study"
+    },
+    {
+      "sha256": "823a843e2ccd6b64066d8c3f6f6d4b8a903d7dbf07f210be731293f327b19239",
+      "circuits": 32,
+      "category": "new omission-size study"
+    },
+    {
+      "sha256": "a995c0e7a3542ed03d7d53170a405c5dd25e3dec5d7d72ebac51475b3566e74b",
+      "circuits": 32,
+      "category": "new omission-size study"
+    },
+    {
+      "sha256": "4a5afc79fba68cbde84a0917c3a0c5f14ef3efb9a3c42ea45b6c7c6044766fbf",
+      "circuits": 32,
+      "category": "new omission-size study"
+    }
+  ],
+  "calls": [],
+  "pool_source": "Prior donor bank plus the new omission-size study donors."
+}

@@ -1,0 +1,23 @@
+{
+  "case_id": "hl_5x5x12_V",
+  "arm": "prior_bank_control",
+  "status": "COMPLETED",
+  "distinct_donors": 145,
+  "raw_donor_best": 230,
+  "baseline_signed_additions": 230,
+  "initial_pool_additions": 230,
+  "initial_reconnected_additions": 230,
+  "best_signed_additions": 230,
+  "forms": 826,
+  "exact_binary_relations": 5286,
+  "pool_seconds": 0.5851130830124021,
+  "search_budget_seconds": 15,
+  "search_elapsed_seconds": 15.008859917055815,
+  "total_elapsed_seconds": 16.001933415886015,
+  "seed": 16323024,
+  "perturbation": 6,
+  "scope": "Heuristic fixed linear-map signed-wire pool search. All forms are paid. No optimality or literal sign-orientation claim.",
+  "candidate_sha256": "10bfe5702119ef496a614201e21631469d87178094f2809bfd6cb948d9c73886",
+  "pool_sha256": "18c9987b30cf09e4bfa4f63b8b3dd0ed49697c89802edeeea723122e604dd82b",
+  "exact_map_verified": true
+}

@@ -1,0 +1,2 @@
+IMPROVED helpers=43 step=448 seconds=0.461323
+FINISHED steps=818 closures=42077 accepted=201 seen=93 best_helpers=43 initial_helpers=44 seconds=0.750335

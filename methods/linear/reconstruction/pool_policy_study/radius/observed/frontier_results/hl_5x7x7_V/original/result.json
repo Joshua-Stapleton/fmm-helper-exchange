@@ -1,0 +1,20 @@
+{
+  "case": "hl_5x7x7_V",
+  "arm": "original",
+  "baseline_signed_additions": 204,
+  "candidate_signed_additions": 204,
+  "budget_seconds": 5,
+  "elapsed_seconds": 5.015317208133638,
+  "status": "TIME_LIMIT",
+  "statistics": {
+    "closures": 11207762,
+    "pairs": 903,
+    "triples": 84,
+    "seconds": 5.00357
+  },
+  "selected_removed": [],
+  "selected_added": [],
+  "exact_ordered_map_verified": true,
+  "free_signed_wires": true,
+  "pool_sha256": "b7c70562d00f17dd1525dfb1cd0bbcec58c19f1e5a0ec5ba289e55c0b03c53d1"
+}

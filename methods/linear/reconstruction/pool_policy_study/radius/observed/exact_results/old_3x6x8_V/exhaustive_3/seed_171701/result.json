@@ -1,0 +1,22 @@
+{
+  "case": "old_3x6x8_V",
+  "arm": "exhaustive_3",
+  "seed": 171701,
+  "budget_seconds": 5,
+  "elapsed_seconds": 5.004323957953602,
+  "status": "TIME_LIMIT",
+  "baseline_signed_additions": 155,
+  "signed_additions": 155,
+  "exact_ordered_map_verified": true,
+  "free_signed_wires": true,
+  "selected_removed": [],
+  "selected_added": [],
+  "statistics": {
+    "closures": 14181602,
+    "pairs": 1431,
+    "triples": 152,
+    "seconds": 5.00003
+  },
+  "candidate": "observed/exact_results/old_3x6x8_V/exhaustive_3/seed_171701/candidate.json",
+  "pool_sha256": "bc4694ec314ccfc7992d3f9d7edd5284974c429c3c3b7d232f42652265aeb1a9"
+}

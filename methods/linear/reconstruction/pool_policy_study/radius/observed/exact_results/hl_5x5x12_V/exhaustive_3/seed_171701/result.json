@@ -1,0 +1,22 @@
+{
+  "case": "hl_5x5x12_V",
+  "arm": "exhaustive_3",
+  "seed": 171701,
+  "budget_seconds": 5,
+  "elapsed_seconds": 5.006154916714877,
+  "status": "TIME_LIMIT",
+  "baseline_signed_additions": 230,
+  "signed_additions": 230,
+  "exact_ordered_map_verified": true,
+  "free_signed_wires": true,
+  "selected_removed": [],
+  "selected_added": [],
+  "statistics": {
+    "closures": 10699848,
+    "pairs": 703,
+    "triples": 96,
+    "seconds": 5.00008
+  },
+  "candidate": "observed/exact_results/hl_5x5x12_V/exhaustive_3/seed_171701/candidate.json",
+  "pool_sha256": "1d09156bf90a9d00f8a76ae43d41c24023b04b08044ff4d65e42cc3416632247"
+}

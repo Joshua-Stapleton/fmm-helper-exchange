@@ -1,0 +1,1063 @@
+{
+  "records": [
+    {
+      "file": "starts/observed/report.json",
+      "original_sha256": "01f6155b78f573987291e361684e1fc3a0997c5bf16e97607d3ed3658f85d3a5",
+      "transformation": "Portable paths; original wall and nominal time fields retained"
+    },
+    {
+      "file": "starts/observed/results/hl_5x7x7_V/diverse/171821/candidate.json",
+      "original_sha256": "dc0a18f80fc7027a0ea73191ec8cebd452981cec583db922b075fcff31b932a3",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_5x7x7_V/diverse/171821/0/candidate.json",
+      "original_sha256": "e0adbb4c4b0137d5a7ca0fd5f985659473900dfa0d0e39c6d7ece895da642638",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_5x7x7_V/diverse/171821/7/candidate.json",
+      "original_sha256": "1106bd617caf48664b39dfe05e4963cf6d26b716c07531c1af8415d2e8867b95",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_5x7x7_V/diverse/171821/6/candidate.json",
+      "original_sha256": "5f95f9c78d00575ab01570c9451ef10bd67d6bbf4bdbc23ff73caf35d0f16c78",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_5x7x7_V/diverse/171821/1/candidate.json",
+      "original_sha256": "80247e7825a904d706e4f5d533f7f7b17ec3420973bf59d08a305adf88ad47bb",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_5x7x7_V/diverse/171821/4/candidate.json",
+      "original_sha256": "c64e75d8763f22526c5ee4419b6a006310583fb2f988df7dfb7d6a43dc5f241a",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_5x7x7_V/diverse/171821/3/candidate.json",
+      "original_sha256": "dc0a18f80fc7027a0ea73191ec8cebd452981cec583db922b075fcff31b932a3",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_5x7x7_V/diverse/171821/2/candidate.json",
+      "original_sha256": "6d5fdbdba9739e878f26ba079d9d784ae34f254226aef31616555f6a39f6952b",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_5x7x7_V/diverse/171821/5/candidate.json",
+      "original_sha256": "2afdfb5b539635d556a5dde5889cbf630027269cbd453605e7630e3e1bc963f4",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_5x7x7_V/diverse/171721/0/candidate.json",
+      "original_sha256": "e0adbb4c4b0137d5a7ca0fd5f985659473900dfa0d0e39c6d7ece895da642638",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_5x7x7_V/diverse/171721/7/candidate.json",
+      "original_sha256": "c48f5059ee84a7c7503039f96a954355ae8dbc628d57d9f2792e11cab60c4d67",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_5x7x7_V/diverse/171721/6/candidate.json",
+      "original_sha256": "95793f1444105a896af5b10a4632b720ac46ebcdba5a586b5aa8f45c0fd27912",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_5x7x7_V/diverse/171721/1/candidate.json",
+      "original_sha256": "25412d33a841f759050790cbba7ee9014a9cc48cda3d605149de3a24c2e48c0f",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_5x7x7_V/diverse/171721/4/candidate.json",
+      "original_sha256": "787f70b317f91ba0f5f61b86137452fd206702e742c88d68528f5e5bef008f87",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_5x7x7_V/diverse/171721/3/candidate.json",
+      "original_sha256": "a1fa749b4ff1b6058d347c24e91a7bc0bca7983312b54a7dbbde2c733c07830d",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_5x7x7_V/diverse/171721/2/candidate.json",
+      "original_sha256": "e713a93d24fc0475f4d2e53943401ab42d953d7d6340ae4c8dd0804e77270596",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_5x7x7_V/diverse/171721/5/candidate.json",
+      "original_sha256": "17ccb65638c206834bbcfa4b099a8c643ac465cd08231a0bb9debc0193b32606",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_5x7x7_V/cost_ordered/171821/0/candidate.json",
+      "original_sha256": "e0adbb4c4b0137d5a7ca0fd5f985659473900dfa0d0e39c6d7ece895da642638",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_5x7x7_V/cost_ordered/171821/7/candidate.json",
+      "original_sha256": "e447fb0dd01244366dc702f4b7c5e3290a623eb6a74132b5ba72960c0f1dcfaa",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_5x7x7_V/cost_ordered/171821/6/candidate.json",
+      "original_sha256": "1fb801e5e1f6f4cbf3975ea2a4a6738748d8e7f9ccb5fd99ed363045b8818e89",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_5x7x7_V/cost_ordered/171821/1/candidate.json",
+      "original_sha256": "0f1d8c8d22a1f8a854d7c9d6570e2db37f1ef0db2cda7a8af85897ca5a9b3ae2",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_5x7x7_V/cost_ordered/171821/4/candidate.json",
+      "original_sha256": "876f5ff12215bf8ded5a751d1c27a1ac5893654a60b9cee54858d08182368a9b",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_5x7x7_V/cost_ordered/171821/3/candidate.json",
+      "original_sha256": "f559c2fd9029a1495b52846ce0c61914755ae72e8a0cea9c2d65b671cb10ab89",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_5x7x7_V/cost_ordered/171821/2/candidate.json",
+      "original_sha256": "c90d5ad48df9a07fff2b7c094d7fdb4984610fdd43d07794385ce1e2890e915e",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_5x7x7_V/cost_ordered/171821/5/candidate.json",
+      "original_sha256": "5540af9f4c7aa89e0d836359697842922dce108cb29b71151517efb506c080ae",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_5x7x7_V/cost_ordered/171721/0/candidate.json",
+      "original_sha256": "e0adbb4c4b0137d5a7ca0fd5f985659473900dfa0d0e39c6d7ece895da642638",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_5x7x7_V/cost_ordered/171721/7/candidate.json",
+      "original_sha256": "7c9403ed7b78b89ed191d9021653fc9b0d88a253e5c7b9155471467af03cf2ac",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_5x7x7_V/cost_ordered/171721/6/candidate.json",
+      "original_sha256": "f2d42bb1a3e49c223d429a7a72570266211755b350466dfce88a1be3f7b2d59e",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_5x7x7_V/cost_ordered/171721/1/candidate.json",
+      "original_sha256": "9f3f556717c13d9054d3a43532db3ae6837dd62d42d38756c056e4cb1ea4b715",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_5x7x7_V/cost_ordered/171721/4/candidate.json",
+      "original_sha256": "8fffd8397a10bbb5c093feaea84ee1ef61e9c1cef15bcb08b658a9bc2ba4fdee",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_5x7x7_V/cost_ordered/171721/3/candidate.json",
+      "original_sha256": "3fa8f06b75952727cdf62d53e861ee6a5e8cb0ef594f129f3db5666451eb0103",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_5x7x7_V/cost_ordered/171721/2/candidate.json",
+      "original_sha256": "47b3302c38873cba11d343683626646b870ca528076cea90e038fa2f71b49f1e",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_5x7x7_V/cost_ordered/171721/5/candidate.json",
+      "original_sha256": "69b4e130e03d01435e7f6d67f158cbcd9219fb667ca619cfcf2cfab2e4365e31",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_5x7x7_V/best_only/171821/0/candidate.json",
+      "original_sha256": "e0adbb4c4b0137d5a7ca0fd5f985659473900dfa0d0e39c6d7ece895da642638",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_5x7x7_V/best_only/171721/0/candidate.json",
+      "original_sha256": "e0adbb4c4b0137d5a7ca0fd5f985659473900dfa0d0e39c6d7ece895da642638",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_5x5x12_V/diverse/171821/0/candidate.json",
+      "original_sha256": "2eda8aedea9efdbf810e1da3a17679879ffeec703fe78012b4b2daa20d78afd8",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_5x5x12_V/diverse/171821/7/candidate.json",
+      "original_sha256": "221741a450cfded53d36e921d630a0333ecec063caade3d8bf0a4ba7bd9014f6",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_5x5x12_V/diverse/171821/6/candidate.json",
+      "original_sha256": "b50cdea9c34afacf20efc2b9a45f7ec48f1aa9add3ecb9359bb28e3e82ef8e3e",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_5x5x12_V/diverse/171821/1/candidate.json",
+      "original_sha256": "36f66a354218363591843699afbf58cecb938f4f3aa24a366c347de27d3c393d",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_5x5x12_V/diverse/171821/4/candidate.json",
+      "original_sha256": "4e8a34e84bbcdf6f6be24ee6f37c8beb726b95ba88167f7c52fa2a88484f6fc1",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_5x5x12_V/diverse/171821/3/candidate.json",
+      "original_sha256": "782ae86fdf43ef5e15d29d51a63d2227711265ac55ffc38fec5bb1009896d51b",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_5x5x12_V/diverse/171821/2/candidate.json",
+      "original_sha256": "c58342d395c0e812db99a269229cc8d588378e6c46239afe2f8d58acfeb85bf0",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_5x5x12_V/diverse/171821/5/candidate.json",
+      "original_sha256": "f5ce501d222112509a5df0506b32baeb1adadf973dfc98a9f203d202c5086d7e",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_5x5x12_V/diverse/171721/0/candidate.json",
+      "original_sha256": "2eda8aedea9efdbf810e1da3a17679879ffeec703fe78012b4b2daa20d78afd8",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_5x5x12_V/diverse/171721/7/candidate.json",
+      "original_sha256": "13748cd4c8936b3174c6641b6da9a77c98415f4b96843fb96b26598649ffa3b4",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_5x5x12_V/diverse/171721/6/candidate.json",
+      "original_sha256": "42a6e3a52ead3bc37c4f885d28c87201b3f5ea26f9ab73a3844eb59da3980bd1",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_5x5x12_V/diverse/171721/1/candidate.json",
+      "original_sha256": "89ad02fc4e97126b44fa005ee7b3e8425924f92933fe5458a5bde8ab6d6942ac",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_5x5x12_V/diverse/171721/4/candidate.json",
+      "original_sha256": "4e8a34e84bbcdf6f6be24ee6f37c8beb726b95ba88167f7c52fa2a88484f6fc1",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_5x5x12_V/diverse/171721/3/candidate.json",
+      "original_sha256": "928949b5ce587e690539121bdcdde2020f3c490ed3fd44f0bcb2d210c41c09a8",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_5x5x12_V/diverse/171721/2/candidate.json",
+      "original_sha256": "865b4039cf5ba00ad85d9209c7d4132a057a74394b3fb29c4d785a5d97cd4f1a",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_5x5x12_V/diverse/171721/5/candidate.json",
+      "original_sha256": "c9fdbcf14d224da14b7f91bbe8d7dcdfa292e2e05e216f1c603e612e727ed80a",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_5x5x12_V/cost_ordered/171821/0/candidate.json",
+      "original_sha256": "2eda8aedea9efdbf810e1da3a17679879ffeec703fe78012b4b2daa20d78afd8",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_5x5x12_V/cost_ordered/171821/7/candidate.json",
+      "original_sha256": "c43dee01c373b3748fbfe77a58c2199af2cb28ae839682bf34859c8ef268648a",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_5x5x12_V/cost_ordered/171821/6/candidate.json",
+      "original_sha256": "b5b95d43639e64cd940958cce60b1edaf00fbc4f0f11d1659a398c68435e38f7",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_5x5x12_V/cost_ordered/171821/1/candidate.json",
+      "original_sha256": "36f66a354218363591843699afbf58cecb938f4f3aa24a366c347de27d3c393d",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_5x5x12_V/cost_ordered/171821/4/candidate.json",
+      "original_sha256": "cdadd614ccd33ff5435c643ef5b4a618cd93ee41258e8f5a52cd0594365fcc6a",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_5x5x12_V/cost_ordered/171821/3/candidate.json",
+      "original_sha256": "3716a260d0d50fef84f8f7a1426cb5d19c5ca38641eeaa794aa9c596bf59630f",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_5x5x12_V/cost_ordered/171821/2/candidate.json",
+      "original_sha256": "307144400bd541d74a408ebbacb13621ce54099ef3a3b76e3208cb7e0becc0fd",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_5x5x12_V/cost_ordered/171821/5/candidate.json",
+      "original_sha256": "722d4cff09e37edf5b8b81f0b051ffbe054e8d082dcf21107724270ee9719a01",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_5x5x12_V/cost_ordered/171721/0/candidate.json",
+      "original_sha256": "2eda8aedea9efdbf810e1da3a17679879ffeec703fe78012b4b2daa20d78afd8",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_5x5x12_V/cost_ordered/171721/7/candidate.json",
+      "original_sha256": "eb6d713010f40a429afb7af5f642fc42e2a7c5bf3a6ad9cb63e754b65cfed303",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_5x5x12_V/cost_ordered/171721/6/candidate.json",
+      "original_sha256": "dd40d179868a882855a503da64bedbb6bf58d15922fb66bf81b49b14fe2b4217",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_5x5x12_V/cost_ordered/171721/1/candidate.json",
+      "original_sha256": "89ad02fc4e97126b44fa005ee7b3e8425924f92933fe5458a5bde8ab6d6942ac",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_5x5x12_V/cost_ordered/171721/4/candidate.json",
+      "original_sha256": "b04979437a8e1f7980edd9e9ac9ce71f58c8ae823a378169854b5c1c9f13210e",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_5x5x12_V/cost_ordered/171721/3/candidate.json",
+      "original_sha256": "8f915c769994ec6a5c38a34d8c93529559d15066a7e8d4ad3d8820e646d178f3",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_5x5x12_V/cost_ordered/171721/2/candidate.json",
+      "original_sha256": "307144400bd541d74a408ebbacb13621ce54099ef3a3b76e3208cb7e0becc0fd",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_5x5x12_V/cost_ordered/171721/5/candidate.json",
+      "original_sha256": "fa6e712de0407210def968dd820357c4dc336037d01bb6188fda3a11392bc7c0",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_5x5x12_V/best_only/171821/0/candidate.json",
+      "original_sha256": "2eda8aedea9efdbf810e1da3a17679879ffeec703fe78012b4b2daa20d78afd8",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_5x5x12_V/best_only/171721/0/candidate.json",
+      "original_sha256": "2eda8aedea9efdbf810e1da3a17679879ffeec703fe78012b4b2daa20d78afd8",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/old_3x6x8_V/diverse/171821/0/candidate.json",
+      "original_sha256": "ffbbffb1892767421d5c330f15c734854852d542c54d812aa64d7523e395fdd2",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/old_3x6x8_V/diverse/171821/7/candidate.json",
+      "original_sha256": "180cf304fa49e590a85745c6c5c9f640bde2708cf25b3dc28f68536ad770eaf3",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/old_3x6x8_V/diverse/171821/6/candidate.json",
+      "original_sha256": "e21863f5d7ecc7764ac725f872789f8f6384d8867478f5014bd36ae80fc604f5",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/old_3x6x8_V/diverse/171821/1/candidate.json",
+      "original_sha256": "6cde528043d662fd43f247cac578d24827944566048fbe468670997061bee3a9",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/old_3x6x8_V/diverse/171821/4/candidate.json",
+      "original_sha256": "f8193da68bbe50bce246f9456ccd5be1aa42a6783c8f7c9f303a4568db11d30a",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/old_3x6x8_V/diverse/171821/3/candidate.json",
+      "original_sha256": "900e32e6ccd3d11a58822d9b7c73faf11f2b469c51062a7e4509bb15dab271b9",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/old_3x6x8_V/diverse/171821/2/candidate.json",
+      "original_sha256": "41335481b039753d9af5a61df66e2f9e0337164e9c2bf50f2af4ba1f0ccacbe0",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/old_3x6x8_V/diverse/171821/5/candidate.json",
+      "original_sha256": "ac5a6da52c7d1bd07f21cb875844ef9e5efe09d08942365839fbb68b9f2173c6",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/old_3x6x8_V/diverse/171721/0/candidate.json",
+      "original_sha256": "ffbbffb1892767421d5c330f15c734854852d542c54d812aa64d7523e395fdd2",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/old_3x6x8_V/diverse/171721/7/candidate.json",
+      "original_sha256": "b433ce232b5be294dc4719c91ba18297af8fb01ce02f05b2643101ee6db15448",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/old_3x6x8_V/diverse/171721/6/candidate.json",
+      "original_sha256": "1f52fda5a9e32c58cecb08903dbc6a3c268efdd258f61bbc384b9340bd507b64",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/old_3x6x8_V/diverse/171721/1/candidate.json",
+      "original_sha256": "e27a681de97d1979d68e8f35506f2c00fb4f208d88b4c438e84bb387228d7b96",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/old_3x6x8_V/diverse/171721/4/candidate.json",
+      "original_sha256": "7abce3b433d74c86301bbabb3f3867fddfcdf2b084a2370c353a832f99abf9d3",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/old_3x6x8_V/diverse/171721/3/candidate.json",
+      "original_sha256": "88e9c74fb95e266fd415726f6a84c5a6461200331ad571a9623ee01c0e0c1058",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/old_3x6x8_V/diverse/171721/2/candidate.json",
+      "original_sha256": "f132aa3de2c03d5e04047bb138436bfe7be0152464a1acea16cd7cdefceb724f",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/old_3x6x8_V/diverse/171721/5/candidate.json",
+      "original_sha256": "5cea9dca102c5b572fb5aea76d180e100ad44015bc9dfedea21583ec1686d5ea",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/old_3x6x8_V/cost_ordered/171821/0/candidate.json",
+      "original_sha256": "ffbbffb1892767421d5c330f15c734854852d542c54d812aa64d7523e395fdd2",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/old_3x6x8_V/cost_ordered/171821/7/candidate.json",
+      "original_sha256": "4763956315feacce99bc2c3476e1c917761d09cc394bf1cd984704a2410b0b58",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/old_3x6x8_V/cost_ordered/171821/6/candidate.json",
+      "original_sha256": "8415a9102d01e8f7bd778ff2ac86f6dc45c1ed419287b92dae85a352a5f57f62",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/old_3x6x8_V/cost_ordered/171821/1/candidate.json",
+      "original_sha256": "44578194390d525b964debcc28f6e0b63817aecf11cabdfb5fb5155a3861b385",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/old_3x6x8_V/cost_ordered/171821/4/candidate.json",
+      "original_sha256": "c9b054e31169ee4a4e352c8dc9132f4b9b55cdabe420cf402ff4e809d2f3f801",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/old_3x6x8_V/cost_ordered/171821/3/candidate.json",
+      "original_sha256": "819a34f8cad1ac028410b3673fe281fafd1ac41807c3c86fc528fb82615e35a3",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/old_3x6x8_V/cost_ordered/171821/2/candidate.json",
+      "original_sha256": "5318e3ec9288b6bdbb89ebc9cc386009876a1f0835f584d64a1732f089d74365",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/old_3x6x8_V/cost_ordered/171821/5/candidate.json",
+      "original_sha256": "47a6a40adf8403d261caae69dcc10d9e164a640d9dea09b737b0020a77098895",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/old_3x6x8_V/cost_ordered/171721/0/candidate.json",
+      "original_sha256": "ffbbffb1892767421d5c330f15c734854852d542c54d812aa64d7523e395fdd2",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/old_3x6x8_V/cost_ordered/171721/7/candidate.json",
+      "original_sha256": "ada35c7f3483b60493947a2d6b43c7bb6fba1c008f8b0b8145c57a5d98ac2fd1",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/old_3x6x8_V/cost_ordered/171721/6/candidate.json",
+      "original_sha256": "761879be09098f29d7a28249cc35bfd055dc72e493c3d452192fac008bcc6c9b",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/old_3x6x8_V/cost_ordered/171721/1/candidate.json",
+      "original_sha256": "bc662b63e3f87a136f7a8ab9e0d9e87e02affb05379136069467cd589a95369c",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/old_3x6x8_V/cost_ordered/171721/4/candidate.json",
+      "original_sha256": "3be0f8460ff0af2b262df2d9e9f9c2008cc752a1a6fdab50ae862251704a0e0a",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/old_3x6x8_V/cost_ordered/171721/3/candidate.json",
+      "original_sha256": "819a34f8cad1ac028410b3673fe281fafd1ac41807c3c86fc528fb82615e35a3",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/old_3x6x8_V/cost_ordered/171721/2/candidate.json",
+      "original_sha256": "1b33faad29e0321ad736575ce7c9207426532ffc229d6815bf727ea9b4191f50",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/old_3x6x8_V/cost_ordered/171721/5/candidate.json",
+      "original_sha256": "bcb34362071f45967b4eba259705dd91621dca54c9c304e91ac42a78fd235041",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/old_3x6x8_V/best_only/171821/0/candidate.json",
+      "original_sha256": "ffbbffb1892767421d5c330f15c734854852d542c54d812aa64d7523e395fdd2",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/old_3x6x8_V/best_only/171721/0/candidate.json",
+      "original_sha256": "ffbbffb1892767421d5c330f15c734854852d542c54d812aa64d7523e395fdd2",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_4x4x16_Wt/diverse/171821/0/candidate.json",
+      "original_sha256": "cc022dd10582dbb33946f4855359fea17acc92b49dfc1ccee8e69095ffefdc0d",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_4x4x16_Wt/diverse/171821/7/candidate.json",
+      "original_sha256": "4c246ca4661e2bc3b7e43a4203471a93362f2a5901429953d34851e57aad414e",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_4x4x16_Wt/diverse/171821/6/candidate.json",
+      "original_sha256": "984258982e374d026343b5f8e5d8ae951b5de831fd0e3a8e6e53856789a7f593",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_4x4x16_Wt/diverse/171821/1/candidate.json",
+      "original_sha256": "ad118477c29174f3f026f5ad8bbedf33b415323dee7175e85bfad0037b10eb96",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_4x4x16_Wt/diverse/171821/4/candidate.json",
+      "original_sha256": "4b886248a9efe311c84ec1641ec8ffe5ff5dc2a1cade0c4e1ca25ae5ffe76a63",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_4x4x16_Wt/diverse/171821/3/candidate.json",
+      "original_sha256": "20aeec1a8b50103502832f34366a1d6b398ca00ea2ed2dc6a5898ff8b40a6773",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_4x4x16_Wt/diverse/171821/2/candidate.json",
+      "original_sha256": "90bd534c76ed2ede82588b53247384cb09c766423c1de88f9b9ac27e66c81034",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_4x4x16_Wt/diverse/171821/5/candidate.json",
+      "original_sha256": "fdbf5c3b7bc16f1e26b52d626fd10f827a1f45e2ba97b098963e3de50e83ac3e",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_4x4x16_Wt/diverse/171721/0/candidate.json",
+      "original_sha256": "cc022dd10582dbb33946f4855359fea17acc92b49dfc1ccee8e69095ffefdc0d",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_4x4x16_Wt/diverse/171721/7/candidate.json",
+      "original_sha256": "7eab168606c8811fbb4206ce39efa73607b76df50ec2529ac5e20611f4f196c7",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_4x4x16_Wt/diverse/171721/6/candidate.json",
+      "original_sha256": "1d7ccac8fd91814a1975ae7c205bdf93e08db5abd181a0da7246b19060e5d9e6",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_4x4x16_Wt/diverse/171721/1/candidate.json",
+      "original_sha256": "acfd26ae5352714202a93e5c217632e0dc53c6ff0d587b112e81ca908fe9d396",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_4x4x16_Wt/diverse/171721/4/candidate.json",
+      "original_sha256": "6e130ad56435f74b31c704fddb8806aa121e2903473fc2abb5a3e46c15862a90",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_4x4x16_Wt/diverse/171721/3/candidate.json",
+      "original_sha256": "ee5f65d7f155f093d6e196a6af590e07005dc52a60ed2fa8ad5ff948817d5427",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_4x4x16_Wt/diverse/171721/2/candidate.json",
+      "original_sha256": "38bd0bf3e55a8d48d6df73f5faf87693f14d22b01181bd22e739f52ca01f5ab4",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_4x4x16_Wt/diverse/171721/5/candidate.json",
+      "original_sha256": "9ddd3461dd60c991a09cb6203cccc0f394a30a2766ed2f67b853905d6feb0406",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_4x4x16_Wt/cost_ordered/171821/0/candidate.json",
+      "original_sha256": "cc022dd10582dbb33946f4855359fea17acc92b49dfc1ccee8e69095ffefdc0d",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_4x4x16_Wt/cost_ordered/171821/7/candidate.json",
+      "original_sha256": "1955d144093b0133759d58a32b4350b5101b70812ab456615b0a2fbd75426d0d",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_4x4x16_Wt/cost_ordered/171821/6/candidate.json",
+      "original_sha256": "6b4966d0bac263dc7b8f2b51f33a934a345deeddde640e90e7c9f146735bf76a",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_4x4x16_Wt/cost_ordered/171821/1/candidate.json",
+      "original_sha256": "2043c5e68486b37e42d7aea9e2235df7daa9f8363d20ac1039e08b5b9d2153e5",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_4x4x16_Wt/cost_ordered/171821/4/candidate.json",
+      "original_sha256": "4242f11e13871b6b4f4da7072f878c8effdb7bd3b245ef40e768a8fb7c016175",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_4x4x16_Wt/cost_ordered/171821/3/candidate.json",
+      "original_sha256": "6ff4d15e716b3a070002a90559cb3c882c5d3b0e432bb32ed141f726cb579c31",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_4x4x16_Wt/cost_ordered/171821/2/candidate.json",
+      "original_sha256": "4602c1ba33d8e50966740caaf81e70685c1ea1841a50a3b0681cb1f21f0814ce",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_4x4x16_Wt/cost_ordered/171821/5/candidate.json",
+      "original_sha256": "8c7737a0e5cf4d5ad8f49d79a98564f27f845f3ed2e65c1551bf2d472d2aa459",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_4x4x16_Wt/cost_ordered/171721/0/candidate.json",
+      "original_sha256": "cc022dd10582dbb33946f4855359fea17acc92b49dfc1ccee8e69095ffefdc0d",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_4x4x16_Wt/cost_ordered/171721/7/candidate.json",
+      "original_sha256": "61b6c572a62998259de94b1fa62e8a9389c18979060259493db243693fdab87c",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_4x4x16_Wt/cost_ordered/171721/6/candidate.json",
+      "original_sha256": "e5d581d5d9e92789cc611ade636e4519a25fe42b24e71e793c4ec9f8e1ca55ad",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_4x4x16_Wt/cost_ordered/171721/1/candidate.json",
+      "original_sha256": "147fc7cdb6819753ff31ad6f44a9dc666701082acc7366f03d36ce6889c6a491",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_4x4x16_Wt/cost_ordered/171721/4/candidate.json",
+      "original_sha256": "514aab9485f56da66649a1bd4720f2290fa40e74f9edd0b69e969623b1182a63",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_4x4x16_Wt/cost_ordered/171721/3/candidate.json",
+      "original_sha256": "52fb03438d1d7e22f8ec846a98aa47a6abd7611934a60dfa305a7f05040e348f",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_4x4x16_Wt/cost_ordered/171721/2/candidate.json",
+      "original_sha256": "56bb2cc7087de46d8fa71c5925db60555f327c256c3bb17cc951dcb249f3c54b",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_4x4x16_Wt/cost_ordered/171721/5/candidate.json",
+      "original_sha256": "5b365bada87e9807342c26da0de93b05e2c2f1199b8931791713db0cafc49cce",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_4x4x16_Wt/best_only/171821/0/candidate.json",
+      "original_sha256": "cc022dd10582dbb33946f4855359fea17acc92b49dfc1ccee8e69095ffefdc0d",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_4x4x16_Wt/best_only/171721/0/candidate.json",
+      "original_sha256": "cc022dd10582dbb33946f4855359fea17acc92b49dfc1ccee8e69095ffefdc0d",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_6x7x8_V/diverse/171821/0/candidate.json",
+      "original_sha256": "7fbb207a7afa92de87b8d8d22b331e5150fc043bd57b7829b47edddae73b7e42",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_6x7x8_V/diverse/171821/7/candidate.json",
+      "original_sha256": "82230618ad2aecff614c96e3735ff7fc9ffa20614999bab330dde5b6db349206",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_6x7x8_V/diverse/171821/6/candidate.json",
+      "original_sha256": "1a23b154997c7a41cffed1aff61c0377460671c8c12ac33bf0f12ad72adcbd57",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_6x7x8_V/diverse/171821/1/candidate.json",
+      "original_sha256": "9e67b48d5a2e81522bf08c849774b938c04477677ff099fb725a7711d37e5261",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_6x7x8_V/diverse/171821/4/candidate.json",
+      "original_sha256": "c55ea4d68a1e37e15e4bed68ec793ed18cae459428597f3fc5e222c76781e415",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_6x7x8_V/diverse/171821/3/candidate.json",
+      "original_sha256": "81e5ed0753d4a1f70d3c022d9422c0e36a28f1d3f134163e03320d4ccc84b2cd",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_6x7x8_V/diverse/171821/2/candidate.json",
+      "original_sha256": "7a0844ed5c477b2f462b4b0f001d0e05d8569ad84cb730d9c51a3461a212e20e",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_6x7x8_V/diverse/171821/5/candidate.json",
+      "original_sha256": "9a8127ff0946ba9ef5eaf47440cc3bfd2b745fcb70df8ee5661ffa374066d519",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_6x7x8_V/diverse/171721/0/candidate.json",
+      "original_sha256": "7fbb207a7afa92de87b8d8d22b331e5150fc043bd57b7829b47edddae73b7e42",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_6x7x8_V/diverse/171721/7/candidate.json",
+      "original_sha256": "87a35ae9b2b9024d4a813e0222093c80f38ea4dfe30f566a8844f81e7dc558ad",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_6x7x8_V/diverse/171721/6/candidate.json",
+      "original_sha256": "0788c1e5b9614cd2b6ec9408a24e88d99612815802aed78225c2fea226f83930",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_6x7x8_V/diverse/171721/1/candidate.json",
+      "original_sha256": "9e67b48d5a2e81522bf08c849774b938c04477677ff099fb725a7711d37e5261",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_6x7x8_V/diverse/171721/4/candidate.json",
+      "original_sha256": "c55ea4d68a1e37e15e4bed68ec793ed18cae459428597f3fc5e222c76781e415",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_6x7x8_V/diverse/171721/3/candidate.json",
+      "original_sha256": "c5b82262f607ed1cff6beb823bffc889f206ca069ad3067296a3d1d3121edc42",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_6x7x8_V/diverse/171721/2/candidate.json",
+      "original_sha256": "7a0844ed5c477b2f462b4b0f001d0e05d8569ad84cb730d9c51a3461a212e20e",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_6x7x8_V/diverse/171721/5/candidate.json",
+      "original_sha256": "9a8127ff0946ba9ef5eaf47440cc3bfd2b745fcb70df8ee5661ffa374066d519",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_6x7x8_V/cost_ordered/171821/0/candidate.json",
+      "original_sha256": "7fbb207a7afa92de87b8d8d22b331e5150fc043bd57b7829b47edddae73b7e42",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_6x7x8_V/cost_ordered/171821/7/candidate.json",
+      "original_sha256": "9e67b48d5a2e81522bf08c849774b938c04477677ff099fb725a7711d37e5261",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_6x7x8_V/cost_ordered/171821/6/candidate.json",
+      "original_sha256": "7a0844ed5c477b2f462b4b0f001d0e05d8569ad84cb730d9c51a3461a212e20e",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_6x7x8_V/cost_ordered/171821/1/candidate.json",
+      "original_sha256": "b6f725f98d3a03d82a05fa912aa25d8b05741e15559ba16ad6504abf42d13f88",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_6x7x8_V/cost_ordered/171821/4/candidate.json",
+      "original_sha256": "9a8127ff0946ba9ef5eaf47440cc3bfd2b745fcb70df8ee5661ffa374066d519",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_6x7x8_V/cost_ordered/171821/3/candidate.json",
+      "original_sha256": "78f75f725f19a0b79a8b6d9360af1685a3f88168ca1206f7c7497951ff31af58",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_6x7x8_V/cost_ordered/171821/2/candidate.json",
+      "original_sha256": "b7d536ec8a96aeb19f210c6d7055370fe75f46286c979b0e16e5732c70a8e3d2",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_6x7x8_V/cost_ordered/171821/5/candidate.json",
+      "original_sha256": "c55ea4d68a1e37e15e4bed68ec793ed18cae459428597f3fc5e222c76781e415",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_6x7x8_V/cost_ordered/171721/0/candidate.json",
+      "original_sha256": "7fbb207a7afa92de87b8d8d22b331e5150fc043bd57b7829b47edddae73b7e42",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_6x7x8_V/cost_ordered/171721/7/candidate.json",
+      "original_sha256": "9e67b48d5a2e81522bf08c849774b938c04477677ff099fb725a7711d37e5261",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_6x7x8_V/cost_ordered/171721/6/candidate.json",
+      "original_sha256": "7a0844ed5c477b2f462b4b0f001d0e05d8569ad84cb730d9c51a3461a212e20e",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_6x7x8_V/cost_ordered/171721/1/candidate.json",
+      "original_sha256": "b6f725f98d3a03d82a05fa912aa25d8b05741e15559ba16ad6504abf42d13f88",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_6x7x8_V/cost_ordered/171721/4/candidate.json",
+      "original_sha256": "9a8127ff0946ba9ef5eaf47440cc3bfd2b745fcb70df8ee5661ffa374066d519",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_6x7x8_V/cost_ordered/171721/3/candidate.json",
+      "original_sha256": "78f75f725f19a0b79a8b6d9360af1685a3f88168ca1206f7c7497951ff31af58",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_6x7x8_V/cost_ordered/171721/2/candidate.json",
+      "original_sha256": "b7d536ec8a96aeb19f210c6d7055370fe75f46286c979b0e16e5732c70a8e3d2",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_6x7x8_V/cost_ordered/171721/5/candidate.json",
+      "original_sha256": "c55ea4d68a1e37e15e4bed68ec793ed18cae459428597f3fc5e222c76781e415",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_6x7x8_V/best_only/171821/0/candidate.json",
+      "original_sha256": "7fbb207a7afa92de87b8d8d22b331e5150fc043bd57b7829b47edddae73b7e42",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_6x7x8_V/best_only/171721/0/candidate.json",
+      "original_sha256": "7fbb207a7afa92de87b8d8d22b331e5150fc043bd57b7829b47edddae73b7e42",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_4x4x16_V/diverse/171721/candidate.json",
+      "original_sha256": "3089d1ba85b5135bf7751faab21c7b06db81594c375e0aa25f6b6270f6b805d7",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_4x4x16_V/diverse/171821/candidate.json",
+      "original_sha256": "96403c97e37b34b823d28dfddbd12d47dd2ae1d8e3ecb0f6f6ec43b978206de1",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_4x4x16_V/diverse/171821/0/candidate.json",
+      "original_sha256": "be7a39174a772ce63325e9da2074e5a1680677d59e41011e77bf23f920e4c69e",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_4x4x16_V/diverse/171821/7/candidate.json",
+      "original_sha256": "699478aaa024282a9b3cb7068a34b439802cf57118e755bf84e2799fffcf5486",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_4x4x16_V/diverse/171821/6/candidate.json",
+      "original_sha256": "8c3420ba95653515fae50162fe5f63be83debeeec7e010c1199344d274a023c2",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_4x4x16_V/diverse/171821/1/candidate.json",
+      "original_sha256": "cb34659cdeb728b232d372d61bc211d7aeee9b421d3dfba2e3488135fedd9b49",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_4x4x16_V/diverse/171821/4/candidate.json",
+      "original_sha256": "16b5eeda1381ba9191b7fe06dcbff72157273c3c166de76be2b48641b4407a0c",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_4x4x16_V/diverse/171821/3/candidate.json",
+      "original_sha256": "8832110a74aa16859b602cffd54a3e4cc0e8039507971dcc4d86f70f0c26dfd0",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_4x4x16_V/diverse/171821/2/candidate.json",
+      "original_sha256": "96403c97e37b34b823d28dfddbd12d47dd2ae1d8e3ecb0f6f6ec43b978206de1",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_4x4x16_V/diverse/171821/5/candidate.json",
+      "original_sha256": "f29f38dccc29f7cbe45cd6ad3afa2682c5eeff125f03a29a3beb85d07001bcb5",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_4x4x16_V/diverse/171721/0/candidate.json",
+      "original_sha256": "be7a39174a772ce63325e9da2074e5a1680677d59e41011e77bf23f920e4c69e",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_4x4x16_V/diverse/171721/7/candidate.json",
+      "original_sha256": "4be34385eea0f9cd54d43ff6b0456eea75b9840a10422a2ff5584a0edd6347ee",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_4x4x16_V/diverse/171721/6/candidate.json",
+      "original_sha256": "97dad6bb7715a7e9aeb1dc191bafb45e2f4a2724e60e7c1f70dbe4ce73d11166",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_4x4x16_V/diverse/171721/1/candidate.json",
+      "original_sha256": "3089d1ba85b5135bf7751faab21c7b06db81594c375e0aa25f6b6270f6b805d7",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_4x4x16_V/diverse/171721/4/candidate.json",
+      "original_sha256": "55cc725b5c3783e7600e548854c3840b9f07d09073dfa5aeabc762db8955dd5b",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_4x4x16_V/diverse/171721/3/candidate.json",
+      "original_sha256": "31b8c3c1cdfa8c8241427e2d99a3080b8ca9a1418865c4863df2d992ed42f16d",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_4x4x16_V/diverse/171721/2/candidate.json",
+      "original_sha256": "225a3460ed92142a246f1a8bf6f9616c89a87264cb43c577441430499edcf3a9",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_4x4x16_V/diverse/171721/5/candidate.json",
+      "original_sha256": "c7a18b9d7b76a8289a19596b31fe39a201b6eb9f9f731dbcdac1fc4c13e7a6d3",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_4x4x16_V/cost_ordered/171721/candidate.json",
+      "original_sha256": "6bce60823f8d4bac70c18ffb4b96809fd97669f0ee8cedf79c3caab3b05ac627",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_4x4x16_V/cost_ordered/171821/candidate.json",
+      "original_sha256": "d2a8331e91e06b69a00c80855b502d7c69ff97606bb7494c2214119685e5d272",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_4x4x16_V/cost_ordered/171821/0/candidate.json",
+      "original_sha256": "be7a39174a772ce63325e9da2074e5a1680677d59e41011e77bf23f920e4c69e",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_4x4x16_V/cost_ordered/171821/7/candidate.json",
+      "original_sha256": "2922d417505c8900cd5035736a6d88737838e71dd7dcee9d651897014074696a",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_4x4x16_V/cost_ordered/171821/6/candidate.json",
+      "original_sha256": "8c3420ba95653515fae50162fe5f63be83debeeec7e010c1199344d274a023c2",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_4x4x16_V/cost_ordered/171821/1/candidate.json",
+      "original_sha256": "46395733ad5d7c66f45d26b065ea8982cb535c7d2e18a965a9e0aa11202ba321",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_4x4x16_V/cost_ordered/171821/4/candidate.json",
+      "original_sha256": "ecf9b3de0aafd8ff82e1cd5a2360436167cf697dc83046cc43b885e7ea754227",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_4x4x16_V/cost_ordered/171821/3/candidate.json",
+      "original_sha256": "d2a8331e91e06b69a00c80855b502d7c69ff97606bb7494c2214119685e5d272",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_4x4x16_V/cost_ordered/171821/2/candidate.json",
+      "original_sha256": "964621d7d245f71d684a8edbca0bee91204fcc9b47782a961cb5cfbad642f827",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_4x4x16_V/cost_ordered/171821/5/candidate.json",
+      "original_sha256": "09d614f9f7fedc190cbeb1795bc7e5d5414fb9d98d1a90c5a44d3f269c12e55c",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_4x4x16_V/cost_ordered/171721/0/candidate.json",
+      "original_sha256": "be7a39174a772ce63325e9da2074e5a1680677d59e41011e77bf23f920e4c69e",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_4x4x16_V/cost_ordered/171721/7/candidate.json",
+      "original_sha256": "2922d417505c8900cd5035736a6d88737838e71dd7dcee9d651897014074696a",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_4x4x16_V/cost_ordered/171721/6/candidate.json",
+      "original_sha256": "97dad6bb7715a7e9aeb1dc191bafb45e2f4a2724e60e7c1f70dbe4ce73d11166",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_4x4x16_V/cost_ordered/171721/1/candidate.json",
+      "original_sha256": "0a9ad19ef9d9d811348388241d0b9186985b0bdf392a4191660ec27a88480e30",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_4x4x16_V/cost_ordered/171721/4/candidate.json",
+      "original_sha256": "66e91d1395669986e90eb57bc8717b8cbebd4fce2c56ec51f6f3b9de549a9a3a",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_4x4x16_V/cost_ordered/171721/3/candidate.json",
+      "original_sha256": "6bce60823f8d4bac70c18ffb4b96809fd97669f0ee8cedf79c3caab3b05ac627",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_4x4x16_V/cost_ordered/171721/2/candidate.json",
+      "original_sha256": "8646c14ded01d755856173530e26e7e361e4087751f26859ab89e97b477be6dd",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_4x4x16_V/cost_ordered/171721/5/candidate.json",
+      "original_sha256": "68f5f3fe99cc92bfa205185c4c97895cd0d8606cf403053c2dea6d6dc7bb96ff",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_4x4x16_V/best_only/171821/0/candidate.json",
+      "original_sha256": "be7a39174a772ce63325e9da2074e5a1680677d59e41011e77bf23f920e4c69e",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "starts/observed/results/hl_4x4x16_V/best_only/171721/0/candidate.json",
+      "original_sha256": "be7a39174a772ce63325e9da2074e5a1680677d59e41011e77bf23f920e4c69e",
+      "transformation": "Omit duplicated target_matrix and pool_selection; preserve exact gates and output signs"
+    },
+    {
+      "file": "slack/observed/report.json",
+      "original_sha256": "d1379073b3552f1381fbd97d38a1c5577fb4c6856a66a1e60b3f8a6b3b488362",
+      "transformation": "Portable paths; original wall and nominal time fields retained"
+    }
+  ],
+  "plateau_source_sha256": "c7a891c02d612926e22e36989ed25b465e316b69e325b1777de773e08cdfc2d7",
+  "slack_source_sha256": "336d1692f282cf9f58917b867294c5e3a81600209eb507644b65d16bd0944080",
+  "claims": "Observed exact search circuits; signed-wire costs require separate strict orientation before literal claims.",
+  "publication_layout_note": "Archived observed/results directories renamed observed/circuits to avoid generated-output exclusion rules. Original source hashes retain their original meaning."
+}

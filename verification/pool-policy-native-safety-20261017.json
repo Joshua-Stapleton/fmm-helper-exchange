@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "date": "2026-10-17",
+  "portable_study_checks": {
+    "start_and_slack": {
+      "frozen_pools": 6,
+      "schedules": 102,
+      "recorded_circuits": 209,
+      "portfolio_runs": 36,
+      "slack_runs": 16
+    },
+    "radius": {
+      "pools": 8,
+      "recorded_circuits": 72
+    },
+    "native_sizes": {
+      "maps": 5,
+      "bounded_donors": 1322,
+      "signed_candidates": 10,
+      "native_representatives": 40
+    }
+  },
+  "optional_cpp_frontier_safety_tests": 4,
+  "optional_cpp_tests_passed": true,
+  "timed_searches_rerun_for_this_validation": false,
+  "command": "python3 -I -B methods/linear/reconstruction/pool_policy_study/verify_all.py --with-cpp"
+}

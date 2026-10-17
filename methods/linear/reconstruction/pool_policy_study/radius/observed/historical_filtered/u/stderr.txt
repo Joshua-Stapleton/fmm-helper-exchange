@@ -1,0 +1,1 @@
+TIME_LIMIT closures=20681230 pairs=231 triples=482 boundary_queries=215838 viable_before=97596213 viable_after=20464887 seconds=10.0001

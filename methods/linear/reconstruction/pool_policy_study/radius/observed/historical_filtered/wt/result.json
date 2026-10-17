@@ -1,0 +1,29 @@
+{
+  "case": "wt",
+  "baseline": 156,
+  "signed_additions": 155,
+  "elapsed_seconds": 8.184967041946948,
+  "budget_seconds": 10,
+  "statistics": {
+    "closures": 18102406,
+    "pairs": 171,
+    "triples": 726,
+    "boundary_queries": 245408,
+    "viable_before": 83602927,
+    "viable_after": 17856265,
+    "seconds": 8.18047
+  },
+  "selected_removed": [
+    117,
+    178,
+    173
+  ],
+  "selected_added": [
+    396,
+    533
+  ],
+  "exact_ordered_map_verified": true,
+  "status": "PASS",
+  "known_witness_priority": false,
+  "seed": 171701
+}

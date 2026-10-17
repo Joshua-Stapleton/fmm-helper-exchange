@@ -1,0 +1,1 @@
+FINISHED steps=996 closures=50855 accepted=238 seen=239 best_helpers=43 initial_helpers=43 seconds=0.751024

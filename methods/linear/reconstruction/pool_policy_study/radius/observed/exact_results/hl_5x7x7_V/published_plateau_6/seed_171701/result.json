@@ -1,0 +1,25 @@
+{
+  "case": "hl_5x7x7_V",
+  "arm": "published_plateau_6",
+  "seed": 171701,
+  "budget_seconds": 5,
+  "elapsed_seconds": 5.00849720928818,
+  "status": "FINISHED",
+  "baseline_signed_additions": 204,
+  "signed_additions": 204,
+  "exact_ordered_map_verified": true,
+  "free_signed_wires": true,
+  "selected_removed": [],
+  "selected_added": [],
+  "statistics": {
+    "steps": 5497,
+    "closures": 280189,
+    "accepted": 1234,
+    "seen": 1235,
+    "best_helpers": 43,
+    "initial_helpers": 43,
+    "seconds": 5.00097
+  },
+  "candidate": "observed/exact_results/hl_5x7x7_V/published_plateau_6/seed_171701/candidate.json",
+  "pool_sha256": "b7c70562d00f17dd1525dfb1cd0bbcec58c19f1e5a0ec5ba289e55c0b03c53d1"
+}
