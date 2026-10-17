@@ -1,0 +1,24 @@
+{
+  "status": "EXACT_ORIGINAL_MAP_PASS",
+  "orientation": {
+    "status": "OPTIMAL",
+    "elapsed_seconds": 0.018088,
+    "input_signs_fixed": true,
+    "ordered_output_signs_fixed": true,
+    "exact_original_map_verified": true,
+    "binary_additions": 41,
+    "unary_negations": 0,
+    "nonunit_scalars": 0,
+    "unused_gates": 0
+  },
+  "counts": {
+    "binary_additions": 41,
+    "unary_negations": 0,
+    "nonunit_scalars": 0,
+    "unused_noninput_assignments": 0
+  },
+  "basis_change": false,
+  "source": "Unmodified Perminov LEO native scratch restart, pinned7c8b598, base_seed1719344 draw5 seed1719348",
+  "source_header_additions_reported_not_replayed": 43,
+  "scope": "One exact 38x16 V map only; no U/W or complete-tensor claim, no optimality claim."
+}

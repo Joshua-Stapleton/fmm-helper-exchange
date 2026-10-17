@@ -1,0 +1,56 @@
+{
+  "status": "PASS",
+  "old_additions": 7,
+  "new_additions": 6,
+  "old_helpers": [
+    "p",
+    "q",
+    "r"
+  ],
+  "new_helpers": [
+    "u",
+    "v"
+  ],
+  "single_deletions_exhausted": [
+    "q",
+    "r",
+    "p"
+  ],
+  "all_pairs_exhausted": [
+    {
+      "removed": [
+        "q",
+        "r"
+      ],
+      "ready_forms_before_repair": 7,
+      "all_one_gate_forms_before_excluding_existing": 40,
+      "arbitrary_new_integer_forms_tested": 34,
+      "saved_pool_forms_among_candidates": 4,
+      "successful_repairs": []
+    },
+    {
+      "removed": [
+        "p",
+        "q"
+      ],
+      "ready_forms_before_repair": 7,
+      "all_one_gate_forms_before_excluding_existing": 40,
+      "arbitrary_new_integer_forms_tested": 34,
+      "saved_pool_forms_among_candidates": 4,
+      "successful_repairs": []
+    },
+    {
+      "removed": [
+        "p",
+        "r"
+      ],
+      "ready_forms_before_repair": 7,
+      "all_one_gate_forms_before_excluding_existing": 42,
+      "arbitrary_new_integer_forms_tested": 36,
+      "saved_pool_forms_among_candidates": 4,
+      "successful_repairs": []
+    }
+  ],
+  "proof_scope": "No first strictly improving one-deletion or two-deletion/one-insertion exchange exists at the old circuit, even allowing any one-addition/subtraction integer replacement form. A joint three-deletion/two-insertion replacement exists.",
+  "does_not_claim": "Global SLP optimality, impossibility of equal-cost or temporarily larger paths, or a new matrix-multiplication record."
+}

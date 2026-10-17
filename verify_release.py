@@ -53,6 +53,8 @@ def main():
           ('vector-target-optional-score','methods/linear/reconstruction/vector_targets/guidance/test_selector_v2.py',[]),
           ('pool-policy-four-schemes','certificates/pool_policies_20261017/verify_all.py',[]),
           ('pool-policy-methods','methods/linear/reconstruction/pool_policy_study/verify_all.py',[]),
+          ('344-V41','certificates/map_3x4x4_V41_20261017/verify.py',[]),
+          ('344-followup-controls','methods/linear/reconstruction/followup_344_20261017/verify.py',[]),
           ('gf2-mixcolumns-study','methods/linear/gf2_mixcolumns_study/verify_all.py',[]),
           ('pool-method-data','methods/linear/reconstruction/pool_method_study/verify.py',[]),
           ('pool-driver-guards','methods/linear/reconstruction/pool_method_adapters/test_driver.py',[]),

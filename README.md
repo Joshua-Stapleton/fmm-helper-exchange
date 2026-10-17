@@ -6,6 +6,15 @@ Code, worked examples, exact certificates and scoped lower-bound proofs from Jos
 
 ## Latest update: 17 October 2026
 
+The newly supplied **3x4x4 V map uses 41 additions**, found directly by
+Perminov's solver and checked in the original signed coordinates. A small
+verified example also shows why a three-for-two helper replacement need not
+split into improving pair moves.
+
+[New map and replacement question](docs/344-and-exchange-20261017.md) ·
+[41-addition certificate](certificates/map_3x4x4_V41_20261017/README.md) ·
+[Study and code](methods/linear/reconstruction/followup_344_20261017/README.md).
+
 Further controlled tests improve **5x7x7 V to 203**, **4x4x16 V to 219**,
 **5x5x12 V to 229**, and **6x7x8 V to 279**. The full scheme totals are
 **694, 633, 721, 952** additions. All four tensors and literal programs verify.

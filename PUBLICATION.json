@@ -31,13 +31,14 @@
     "fmm_opportunity_research_20261012/nist_probe",
     "perminov_hl_tests_20261016",
     "perminov_vector_targets_20261017",
-    "perminov_pool_questions_20261017"
+    "perminov_pool_questions_20261017",
+    "perminov_344_followup_20261017"
   ],
   "module_provenance": "Each methods subdirectory includes original source hashes and adaptation notes. Proof inputs and certified literal programs preserve original arithmetic.",
   "included": "Portable implementations, representative source data, search witnesses, independently checked arithmetic/proof certificates and method explanations",
   "excluded": "Private correspondence, raw browser/chat exports, credentials, local binaries, dependency checkouts and redundant campaign checkpoints",
   "attribution": "NOTICE.md; source decompositions and external reducers retain their authorship",
-  "validation": "verification/release-pool-policies-20261017.json; unchanged exhaustive lower-bound proofs were not rerun.",
+  "validation": "verification/release-344-followup-20261017.json; unchanged exhaustive lower-bound proofs were not rerun.",
   "claims": "No global SOTA, unrestricted optimality, lower multiplication rank, new exponent or measured runtime is claimed.",
   "initial_release_date": "2026-10-08",
   "latest_update": {
@@ -302,6 +303,16 @@
       },
       "basis_change": false,
       "claims": "Fixed-map upper bounds. Same-pool multi-start helped under matched short budgets; no universal advantage claimed. Exact final-insertion filter preserves its stated neighborhood. Historical radius2/radius3 separation is restricted to supplied pools. Native size2/3 trials had no direct count improvement."
+    },
+    "followup_344": {
+      "report": "docs/344-and-exchange-20261017.md",
+      "methods": "methods/linear/reconstruction/followup_344_20261017/",
+      "certificates": "certificates/map_3x4x4_V41_20261017/",
+      "additions": 41,
+      "attribution": "Unmodified Perminov native solver; pooling matched rather than improved 41.",
+      "scope": "Original 38x16 V map only, no basis change. Four-input local exchange counterexample, not global optimality.",
+      "standalone_bundle": "downloads/fmm_344_V41_exchange_example_20261017.zip",
+      "bundle_sha256": "1c7724131d4052c987eaed7320e8a68d694c765f6467402654fd73c1557792bf"
     }
   }
 }

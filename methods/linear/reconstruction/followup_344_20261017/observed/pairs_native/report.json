@@ -1,0 +1,15 @@
+{
+  "mode": "pairs",
+  "input_bank_sha256": "c3d845ffb6a7fe575d9f84958e25a78840c9136ed259faed39f7cecb26fba859",
+  "donors": 64,
+  "generated_target_forms": 335,
+  "pool_forms": 390,
+  "productions": 10126,
+  "preparation_seconds": 0.11649729125201702,
+  "search_seconds": 30.015806958079338,
+  "budget_seconds": 30.0,
+  "seed": 172101,
+  "perturbation": 6,
+  "signed_additions": 41,
+  "scope": "Fixed original signed map, all live helper computations charged; strict orientation checked separately."
+}

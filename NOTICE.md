@@ -46,3 +46,5 @@ synthesis, CP-SAT and circuit-depth arguments are established ideas; the
 complete depth-three normalization is a derived, unmechanized argument with
 no priority claim. No improved circuit, global optimum or hardware advantage
 was found. See `methods/linear/gf2_mixcolumns_study/SOURCE_NOTICE.md`.
+
+The 17 October 3x4x4 V41 witness was found directly by Andrey Perminov's unchanged LEO solver. Our finite-pool and transpose trials matched 41. The new four-input exchange counterexample concerns a local helper-replacement neighborhood, not unrestricted circuit optimality. Target-subset augmentation and optional finite-DAG CP-SAT search retain their exact-map and paid-gate conventions.

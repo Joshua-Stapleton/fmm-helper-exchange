@@ -1,0 +1,10 @@
+{
+  "exact_integer_replay": true,
+  "all_selected_productions_in_pool": true,
+  "acyclic_selected_DAG": true,
+  "unused_selected_gates": 0,
+  "inputs": 16,
+  "outputs": 38,
+  "signed_additions": 41,
+  "optimality_verified": false
+}

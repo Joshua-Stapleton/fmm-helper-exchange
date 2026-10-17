@@ -1,0 +1,368 @@
+{
+  "status": "PASS",
+  "dimensions": {
+    "outputs": 38,
+    "inputs": 16
+  },
+  "source_sha256": "5d05fa06063c4bd242286737ccf39429c90f37b14820c6327251f8fd0bec47f6",
+  "native_source_pin": "7c8b59864e000bdc880938428d8a1991ec1f0bea",
+  "direct_draws": 34430,
+  "direct_completed": 34429,
+  "direct_native_seconds": 60.122122333,
+  "first_41": {
+    "draw": 5,
+    "seed": 1719348,
+    "sum_native_sampling_and_solve_seconds": 0.022221498999999995
+  },
+  "best_direct_signed": 41,
+  "direct_audit": {
+    "status": "PASS",
+    "jobs": [
+      {
+        "arm": "scratch20",
+        "metadata": {
+          "event": "metadata",
+          "mode": "scratch",
+          "workers": 1,
+          "helpers": 20,
+          "donor_additions": 49,
+          "ignore_unused_bound": true,
+          "savings_weight": 0,
+          "support_slack": 2,
+          "max_abs_coefficient": 1,
+          "seed": 1719344,
+          "attempt_cap": 10000,
+          "budget_seconds": 20,
+          "per_draw_seconds": 0.25,
+          "preparation_seconds": 0.000475833
+        },
+        "summary": {
+          "event": "summary",
+          "draws": 4430,
+          "elapsed_seconds": 20.000150958
+        },
+        "draws": 4430,
+        "completed": 4429,
+        "raw_costs": {
+          "43": 1558,
+          "41": 655,
+          "42": 1736,
+          "44": 480
+        },
+        "omission_counts": {
+          "0": 4429
+        },
+        "first_per_cost": {
+          "43": {
+            "draw": 1,
+            "seed": 1719344,
+            "sum_native_sampling_and_solve_seconds": 0.005047416
+          },
+          "41": {
+            "draw": 5,
+            "seed": 1719348,
+            "sum_native_sampling_and_solve_seconds": 0.022221498999999995
+          },
+          "42": {
+            "draw": 6,
+            "seed": 1719349,
+            "sum_native_sampling_and_solve_seconds": 0.026249122999999996
+          },
+          "44": {
+            "draw": 9,
+            "seed": 1719352,
+            "sum_native_sampling_and_solve_seconds": 0.039923246999999995
+          }
+        },
+        "distinct_raw_solutions": 4429,
+        "selected_raw_representatives": 128,
+        "audit_seconds": 0.9524765838868916
+      },
+      {
+        "arm": "k2_20",
+        "metadata": {
+          "event": "metadata",
+          "mode": "vectors",
+          "workers": 1,
+          "helpers": 12,
+          "donor_additions": 41,
+          "ignore_unused_bound": true,
+          "savings_weight": 0,
+          "support_slack": 2,
+          "max_abs_coefficient": 1,
+          "seed": 1720344,
+          "attempt_cap": 10000,
+          "budget_seconds": 20,
+          "per_draw_seconds": 0.25,
+          "preparation_seconds": 4.5875e-05
+        },
+        "summary": {
+          "event": "summary",
+          "draws": 10000,
+          "elapsed_seconds": 12.144756166
+        },
+        "draws": 10000,
+        "completed": 10000,
+        "raw_costs": {
+          "41": 6135,
+          "42": 3620,
+          "43": 245
+        },
+        "omission_counts": {
+          "2": 10000
+        },
+        "first_per_cost": {
+          "41": {
+            "draw": 1,
+            "seed": 1720344,
+            "sum_native_sampling_and_solve_seconds": 0.001301458
+          },
+          "42": {
+            "draw": 8,
+            "seed": 1720351,
+            "sum_native_sampling_and_solve_seconds": 0.008281291
+          },
+          "43": {
+            "draw": 65,
+            "seed": 1720408,
+            "sum_native_sampling_and_solve_seconds": 0.07051921
+          }
+        },
+        "distinct_raw_solutions": 1983,
+        "selected_raw_representatives": 128,
+        "audit_seconds": 2.057356916833669
+      },
+      {
+        "arm": "k3_20",
+        "metadata": {
+          "event": "metadata",
+          "mode": "vectors",
+          "workers": 1,
+          "helpers": 12,
+          "donor_additions": 41,
+          "ignore_unused_bound": true,
+          "savings_weight": 0,
+          "support_slack": 2,
+          "max_abs_coefficient": 1,
+          "seed": 1721344,
+          "attempt_cap": 10000,
+          "budget_seconds": 20,
+          "per_draw_seconds": 0.25,
+          "preparation_seconds": 9.8084e-05
+        },
+        "summary": {
+          "event": "summary",
+          "draws": 10000,
+          "elapsed_seconds": 13.699258084
+        },
+        "draws": 10000,
+        "completed": 10000,
+        "raw_costs": {
+          "41": 4948,
+          "42": 4410,
+          "43": 629,
+          "44": 13
+        },
+        "omission_counts": {
+          "3": 10000
+        },
+        "first_per_cost": {
+          "41": {
+            "draw": 1,
+            "seed": 1721344,
+            "sum_native_sampling_and_solve_seconds": 0.001288502
+          },
+          "42": {
+            "draw": 2,
+            "seed": 1721345,
+            "sum_native_sampling_and_solve_seconds": 0.002438002
+          },
+          "43": {
+            "draw": 24,
+            "seed": 1721367,
+            "sum_native_sampling_and_solve_seconds": 0.027640336
+          },
+          "44": {
+            "draw": 3290,
+            "seed": 1724633,
+            "sum_native_sampling_and_solve_seconds": 4.994887886
+          }
+        },
+        "distinct_raw_solutions": 6647,
+        "selected_raw_representatives": 128,
+        "audit_seconds": 1.9130775830708444
+      },
+      {
+        "arm": "one_to_eight40",
+        "metadata": {
+          "event": "metadata",
+          "mode": "vectors",
+          "workers": 1,
+          "helpers": 12,
+          "donor_additions": 41,
+          "ignore_unused_bound": true,
+          "savings_weight": 0,
+          "support_slack": 2,
+          "max_abs_coefficient": 1,
+          "seed": 1722344,
+          "attempt_cap": 10000,
+          "budget_seconds": 40,
+          "per_draw_seconds": 0.25,
+          "preparation_seconds": 9.0583e-05
+        },
+        "summary": {
+          "event": "summary",
+          "draws": 10000,
+          "elapsed_seconds": 14.277957125
+        },
+        "draws": 10000,
+        "completed": 10000,
+        "raw_costs": {
+          "41": 4435,
+          "43": 1332,
+          "42": 4056,
+          "44": 172,
+          "45": 5
+        },
+        "omission_counts": {
+          "4": 1275,
+          "6": 1240,
+          "5": 1207,
+          "1": 1306,
+          "3": 1223,
+          "7": 1247,
+          "2": 1236,
+          "8": 1266
+        },
+        "first_per_cost": {
+          "41": {
+            "draw": 1,
+            "seed": 1722344,
+            "sum_native_sampling_and_solve_seconds": 0.001455458
+          },
+          "43": {
+            "draw": 2,
+            "seed": 1722345,
+            "sum_native_sampling_and_solve_seconds": 0.003115083
+          },
+          "42": {
+            "draw": 3,
+            "seed": 1722346,
+            "sum_native_sampling_and_solve_seconds": 0.004446541
+          },
+          "44": {
+            "draw": 22,
+            "seed": 1722365,
+            "sum_native_sampling_and_solve_seconds": 0.030395916
+          },
+          "45": {
+            "draw": 159,
+            "seed": 1722502,
+            "sum_native_sampling_and_solve_seconds": 0.211360628
+          }
+        },
+        "distinct_raw_solutions": 7739,
+        "selected_raw_representatives": 128,
+        "audit_seconds": 2.2167540839873254
+      }
+    ],
+    "total_native_seconds": 60.122122333,
+    "selected_donors": 128,
+    "best": 41,
+    "all_complete_native_exact_replay": true,
+    "audit_wall_seconds": 8.69749508285895
+  },
+  "transpose_jobs": [
+    {
+      "mode": "scratch",
+      "command": [
+        "native_driver_v2",
+        "--input",
+        "OBSERVED/transpose_input.txt",
+        "--mode",
+        "scratch",
+        "--seed",
+        "1730344",
+        "--draws",
+        "5000",
+        "--seconds-per-draw",
+        ".25",
+        "--budget-seconds",
+        "10",
+        "--jsonl",
+        "--output",
+        "OBSERVED/transpose_scratch10.jsonl",
+        "--ignore-unused-bound",
+        "1",
+        "--max-abs",
+        "1",
+        "--min-remove",
+        "1",
+        "--max-remove",
+        "8"
+      ],
+      "wall_seconds": 10.013789291959256,
+      "draws": 40,
+      "completed": 0,
+      "adjoint_start_additions": 63,
+      "best_adjoint_native": 100000,
+      "best_returned_original": 100000,
+      "best_original_global": 41,
+      "scope": "Signed candidate outputs; strict fixed-sign orientation is separate."
+    },
+    {
+      "mode": "vectors",
+      "command": [
+        "native_driver_v2",
+        "--input",
+        "OBSERVED/transpose_input.txt",
+        "--mode",
+        "vectors",
+        "--seed",
+        "1731344",
+        "--draws",
+        "5000",
+        "--seconds-per-draw",
+        ".25",
+        "--budget-seconds",
+        "20",
+        "--jsonl",
+        "--output",
+        "OBSERVED/transpose_vectors20.jsonl",
+        "--ignore-unused-bound",
+        "1",
+        "--max-abs",
+        "1",
+        "--min-remove",
+        "1",
+        "--max-remove",
+        "8"
+      ],
+      "wall_seconds": 20.016666874755174,
+      "draws": 97,
+      "completed": 20,
+      "adjoint_start_additions": 63,
+      "best_adjoint_native": 63,
+      "best_returned_original": 41,
+      "best_original_global": 41,
+      "scope": "Signed candidate outputs; strict fixed-sign orientation is separate."
+    }
+  ],
+  "transpose_draws": 137,
+  "transpose_completed": 20,
+  "transpose_native_wall_seconds": 30.03045616671443,
+  "best_returned_original_signed": 41,
+  "bounded_donors": 128,
+  "ordinary_basis": true,
+  "strict_sign_check": "Root strict orientation and literal replay performed separately in ../certificate.",
+  "scope": "Only the fixed 38x16 map; no complete multiplication tensor claim from V alone; no optimality claim. Cumulative compute for first 41 excludes process startup and JSON output.",
+  "raw_log_sha256": {
+    "k2_20.jsonl": "fca3e680fe00e3c1035979b73f84231649228dc146c6ac446a264cfc0407c8cc",
+    "k3_20.jsonl": "d6e57f3e61e55b7866b49a577f4c4494603a106a4559bb0eccb30b968f4d8cbb",
+    "one_to_eight40.jsonl": "708182e80ec11a9d7b832549dd54527b09a6e0f40f0711658fe523abfefef7e7",
+    "scratch20.jsonl": "0be310643577cf8f3bb200cc56303db2ef7f7c9dff4ad5fb96195951ab3c1740",
+    "transpose_scratch10.jsonl": "1b8b384d9b2cda62fb4f02eb8ba7a019333f33aedcff411bb5077b3118b0b330",
+    "transpose_vectors20.jsonl": "f2b4ccdbd3a75382521ad885f2e88802d50624d8434421f8f5e3197ab33e782f"
+  },
+  "publication_scope": "All native completions were exactly replayed locally; representative native completion and 128 normalized donors are included. Full repeated raw logs omitted, hashes recorded. Strict original-sign 41 certificate is published separately."
+}

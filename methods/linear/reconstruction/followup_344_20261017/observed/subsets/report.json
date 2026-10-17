@@ -1,0 +1,15 @@
+{
+  "mode": "subsets",
+  "input_bank_sha256": "452497cf39885f5d5147d8281c2672643510f8693b1abbceb90a9e09c93f5170",
+  "donors": 1,
+  "generated_target_forms": 163,
+  "pool_forms": 179,
+  "productions": 1715,
+  "preparation_seconds": 0.027297833934426308,
+  "search_seconds": 20.01103804120794,
+  "budget_seconds": 20.0,
+  "seed": 172001,
+  "perturbation": 6,
+  "signed_additions": 41,
+  "scope": "Fixed original signed map, all live helper computations charged; strict orientation checked separately."
+}

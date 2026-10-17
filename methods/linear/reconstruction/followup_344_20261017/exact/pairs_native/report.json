@@ -1,0 +1,16 @@
+{
+  "pool": "../../observed/pairs_native/pool.json",
+  "candidate": "../../observed/pairs_native/candidate.json",
+  "form_count": 390,
+  "production_count": 10126,
+  "workers": 1,
+  "time_limit_seconds": 110.0,
+  "wall_seconds": 110.0065231253393,
+  "seed": 171744,
+  "status": "FEASIBLE",
+  "best_bound": 30.0,
+  "scope": "Exact finite-pool DAG model; no unrestricted SLP claim or proof certificate.",
+  "objective": 41.0,
+  "replayed_gate_count": 41,
+  "independent_integer_replay": true
+}
